@@ -1,0 +1,13 @@
+extraction_id,source_id,material,T_K,Q_m_display,b_display,R_squared,units,data_kind,status
+T011-S105-Table3,S105,UiO-66,273,11.78,0.45,0.999,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66,298,15.49,0.17,0.999,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66,318,4.42,0.45,0.999,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66-NH2,273,12.63,0.45,0.999,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66-NH2,298,8.28,0.45,0.999,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66-NH2,318,3.82,0.71,0.998,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66/GO,273,10.83,1.26,0.997,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66/GO,298,6.03,1.2,0.997,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66/GO,318,3.37,1.22,0.997,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66-NH2/GO,273,10.92,1.39,0.996,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66-NH2/GO,298,6.38,1.41,0.996,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional
+T011-S105-Table3,S105,UiO-66-NH2/GO,318,4.39,1.06,0.998,table omits parameter units; Eq.1 with Fig.8 implies mmol/g and bar^-1,author_fit,provisional

@@ -1,0 +1,13 @@
+series_id,source_id,extraction_id,material,gas,T_K,p_bar,q_mmol_g,q_err_mmol_g,p_err_bar,data_kind,status
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.022278,0.145423,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.102691,0.454447,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.147336,0.654404,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.200951,0.854361,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.2993,1.16339,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.397632,1.49059,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.496,1.78143,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.59887,2.0541,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.697291,2.29041,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.898637,2.74486,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.943372,2.85393,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm1,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm1,UiO-66,CO2,273,0.99261,2.94482,,,nist_category_unknown,provisional
