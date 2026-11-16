@@ -170,6 +170,19 @@ def no_symlink_components(root, relative):
     return True
 
 
+def owner_markers(root):
+    """Literal strings that identify this machine's owner: home path and private global e-mail."""
+    markers = []
+    home = str(Path.home())
+    if home.count("/") >= 2:
+        markers.append(home + "/")
+    email = command(root, ["git", "config", "--global", "user.email"])
+    value = email.stdout.decode("utf-8", "replace").strip() if email.returncode == 0 else ""
+    if "@" in value and not value.lower().endswith("@users.noreply.github.com"):
+        markers.append(value)
+    return markers
+
+
 def check(root):
     root = Path(root).resolve()
     failures = []
@@ -210,6 +223,22 @@ def check(root):
                     print(f"FAIL forbidden-history:commit={commit}:path={json.dumps(name, ensure_ascii=True)}")
                     seen.add(name)
     report("no-private-history-files", history_ok)
+    # Machine-specific owner markers (home directory, private global e-mail) must
+    # not occur in any reachable commit. Values are never printed.
+    markers = owner_markers(root)
+    marker_ok = history.returncode == 0
+    for commit in history.stdout.decode("ascii").splitlines() if marker_ok and markers else []:
+        args = ["git", "grep", "-I", "-l", "-F"]
+        for marker in markers:
+            args += ["-e", marker]
+        found = command(root, args + [commit])
+        if found.returncode not in (0, 1):
+            marker_ok = False
+        elif found.returncode == 0:
+            marker_ok = False
+            for name in found.stdout.decode("utf-8", "replace").splitlines():
+                print(f"FAIL owner-marker-history:path={json.dumps(name.split(':', 1)[-1], ensure_ascii=True)}:commit={commit}")
+    report("no-owner-markers-in-history", marker_ok)
     report("no-workflows", not (root / ".github/workflows").exists()
            and not any(path.startswith(".github/workflows/") for path in entries))
     identity = command(root, ["git", "config", "user.email"])

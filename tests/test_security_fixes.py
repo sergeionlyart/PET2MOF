@@ -364,3 +364,19 @@ def test_t008_09_env_parent_with_template_rejected_in_history(repo, capsys):
     git(root, "commit", "-m", "delete private file")
     assert module.check(root) == 1
     assert "FAIL no-private-history-files" in capsys.readouterr().out
+
+
+def test_owner_marker_in_history_rejected(repo, monkeypatch, capsys):
+    """A machine-specific home path committed and later deleted still fails publication."""
+    root, module = repo
+    monkeypatch.setattr(module, "owner_markers", lambda _root: ["/home/synthetic-owner-x/"])
+    (root / "docs").mkdir(exist_ok=True)
+    (root / "docs/run.json").write_text('{"cmd": "/home/synthetic-owner-x/venv/bin/python"}')
+    git(root, "add", "docs/run.json")
+    git(root, "commit", "-m", "synthetic leaked path")
+    git(root, "rm", "-q", "docs/run.json")
+    git(root, "commit", "-m", "remove")
+    assert module.check(root) == 1
+    out = capsys.readouterr().out
+    assert "FAIL no-owner-markers-in-history" in out
+    assert "synthetic-owner-x" not in out
