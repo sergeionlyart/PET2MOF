@@ -46,3 +46,6 @@ data/raw/nist_isodb/catalogs/
 
 # NIST web pages (contain a third-party public map token; not needed for reproduction). URL + SHA-256 in manifest.csv
 data/raw/nist_isodb/docs/*.html
+
+# Large regenerable outputs (hashes kept in-repo)
+*.npz

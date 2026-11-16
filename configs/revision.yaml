@@ -1,0 +1,94 @@
+description: T015 structural C fits and D-07 stress screening; all numerical choices
+  are debug assumptions.
+model_version: v1.1-connectivity
+versions:
+- v1
+- v1.1-mof
+- v1.1-connectivity
+branches:
+  v1:
+    capacity_basis: dry_composite
+    pore_rule: linear
+  v1.1-mof:
+    capacity_basis: dry_MOF
+    pore_rule: linear
+  v1.1-connectivity:
+    capacity_basis: dry_MOF
+    pore_rule: cooperative
+    kappa_bounds:
+      value:
+      - 0.0
+      - 10.0
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T015
+      extraction_id: not_applicable
+      status: debug
+    power_bounds:
+      value:
+      - 1.0
+      - 12.0
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T015
+      extraction_id: not_applicable
+      status: debug
+    profile_points:
+      value: 23
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T015
+      extraction_id: not_applicable
+      status: debug
+wet_parameterization: water_limited_N_allocation
+wet_cycle: common_relaxation_of_all_six_pools
+transfer_branches:
+- S100-own-temperature-ratio-S105
+- S105-full-carrier
+water_branches:
+- UiO-66_100
+- UiO-66_160
+- UiO-66_220
+samples:
+  value: 512
+  unit: '1'
+  type: assumption_range
+  source_id: D-16
+  extraction_id: not_applicable
+  status: debug
+seeds:
+  value:
+  - 15015
+  - 15016
+  unit: '1'
+  type: assumption_range
+  source_id: DESIGN-T015
+  extraction_id: not_applicable
+  status: debug
+profile_note: Conditional likelihood; AICc counts four whole PEI isotherms and can
+  be undefined.
+uncertainty_note: CSV bounds / sqrt(3); half variance shared within isotherm, half
+  independent; experimental unknown.
+water_volume_transfer_bounds:
+  value:
+  - 0.25
+  - 4.0
+  unit: '1'
+  type: assumption_range
+  source_id: DESIGN-T015
+  extraction_id: not_applicable
+  status: debug
+correlation_selection_threshold:
+  value: 0.2
+  unit: '1'
+  type: assumption_range
+  source_id: DESIGN-T015
+  extraction_id: not_applicable
+  status: debug
+covariance_shared_fraction:
+  value: 0.5
+  unit: '1'
+  type: assumption_range
+  source_id: DESIGN-T015
+  extraction_id: not_applicable
+  status: debug
