@@ -40,3 +40,7 @@ data/raw/figures_full/
 
 # --- OS ---
 .DS_Store
+
+# Full ISODB catalogs: re-fetchable via API, SHA-256 kept in data/raw/nist_isodb/manifest.csv
+data/raw/nist_isodb/catalogs/
+.uv-cache/

@@ -1,0 +1,90 @@
+[
+    {
+        "DOI": "10.1002/aic.15837",
+        "title": "A highly stable metal‐organic framework with optimum aperture size for CO\n            2\n            capture",
+        "journal": "AIChE Journal",
+        "year": 2017,
+        "authors": [
+            "Zhigang Hu",
+            "Yuxiang Wang",
+            "Shamsuzzaman Farooq",
+            "Dan Zhao"
+        ],
+        "categories": [
+            "exp"
+        ],
+        "adsorbents": [
+            {
+                "hashkey": "NIST-MATDB-04952328cf3644b315eaf3f178d01e30",
+                "name": "opt-UiO-66(Zr)-(OH)2"
+            },
+            {
+                "hashkey": "NIST-MATDB-991daf7313251e7e607e2bab2da57e33",
+                "name": "CuBTC"
+            }
+        ],
+        "adsorbentMaterial": [
+            "opt-UiO-66(Zr)-(OH)2",
+            "CuBTC"
+        ],
+        "adsorbates": [
+            {
+                "InChIKey": "CURLTUGMZLYLDI-UHFFFAOYSA-N",
+                "name": "Carbon Dioxide"
+            },
+            {
+                "InChIKey": "IJGRMHOSHXDMSA-UHFFFAOYSA-N",
+                "name": "Nitrogen"
+            }
+        ],
+        "adsorbateGas": [
+            "Carbon Dioxide",
+            "Nitrogen"
+        ],
+        "temperatures": [
+            298
+        ],
+        "pressures": [
+            0.01,
+            2
+        ],
+        "isotherms": [
+            {
+                "filename": "10.1002aic.15837.Isotherm1"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm10"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm11"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm12"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm2"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm3"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm4"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm5"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm6"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm7"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm8"
+            },
+            {
+                "filename": "10.1002aic.15837.Isotherm9"
+            }
+        ]
+    }
+]

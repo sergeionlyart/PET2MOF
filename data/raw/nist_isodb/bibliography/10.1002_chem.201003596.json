@@ -1,0 +1,71 @@
+[
+    {
+        "DOI": "10.1002/chem.201003596",
+        "title": "Probing the Dynamics of CO2 and CH4 within the Porous Zirconium Terephthalate UiO-66(Zr): A Synergic Combination of Neutron Scattering Measurements and Molecular Simulations",
+        "journal": "Chemistry - A European Journal",
+        "year": 2011,
+        "authors": [
+            "Qingyuan Yang ",
+            "Hervé Jobic",
+            "Fabrice Salles",
+            "Daniil I. Kolokolov",
+            "Vincent Guillerm",
+            "Christian Serre",
+            "Guillaume Maurin"
+        ],
+        "categories": [
+            "exp",
+            "sim"
+        ],
+        "adsorbents": [
+            {
+                "hashkey": "NIST-MATDB-27ce47f74d79f611f6d3f9caa686697b",
+                "name": "UiO-66(Zr)"
+            }
+        ],
+        "adsorbentMaterial": [
+            "UiO-66(Zr)"
+        ],
+        "adsorbates": [
+            {
+                "InChIKey": "CURLTUGMZLYLDI-UHFFFAOYSA-N",
+                "name": "Carbon Dioxide"
+            },
+            {
+                "InChIKey": "VNWKTOKETHGBQD-UHFFFAOYSA-N",
+                "name": "Methane"
+            }
+        ],
+        "adsorbateGas": [
+            "Carbon Dioxide",
+            "Methane"
+        ],
+        "temperatures": [
+            303
+        ],
+        "pressures": [
+            0,
+            90
+        ],
+        "isotherms": [
+            {
+                "filename": "10.1002chem.201003596.Isotherm1"
+            },
+            {
+                "filename": "10.1002chem.201003596.Isotherm2"
+            },
+            {
+                "filename": "10.1002chem.201003596.Isotherm3"
+            },
+            {
+                "filename": "10.1002chem.201003596.Isotherm4"
+            },
+            {
+                "filename": "10.1002chem.201003596.Isotherm5"
+            },
+            {
+                "filename": "10.1002chem.201003596.Isotherm6"
+            }
+        ]
+    }
+]

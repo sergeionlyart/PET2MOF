@@ -1,0 +1,86 @@
+[
+    {
+        "DOI": "10.1039/C4cc04945d",
+        "title": "Water adsorption in UiO-66: the importance of defects",
+        "journal": "Chemical Communications",
+        "year": 2014,
+        "authors": [
+            "Pritha Ghosh",
+            "Yamil J. Colón",
+            "Randall Q. Snurr"
+        ],
+        "categories": [
+            "exp",
+            "sim"
+        ],
+        "adsorbents": [
+            {
+                "hashkey": "NIST-MATDB-5ab0dbe0639729711750ef4b97715f0f",
+                "name": "UiO-66"
+            }
+        ],
+        "adsorbentMaterial": [
+            "UiO-66"
+        ],
+        "adsorbates": [
+            {
+                "InChIKey": "CURLTUGMZLYLDI-UHFFFAOYSA-N",
+                "name": "Carbon Dioxide"
+            },
+            {
+                "InChIKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+                "name": "Water"
+            }
+        ],
+        "adsorbateGas": [
+            "Carbon Dioxide",
+            "Water"
+        ],
+        "temperatures": [
+            298,
+            300
+        ],
+        "pressures": [
+            0,
+            19.99
+        ],
+        "isotherms": [
+            {
+                "filename": "10.1039C4cc04945d.Isotherm1"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm10"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm11"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm12"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm2"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm3"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm4"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm5"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm6"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm7"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm8"
+            },
+            {
+                "filename": "10.1039C4cc04945d.Isotherm9"
+            }
+        ]
+    }
+]
