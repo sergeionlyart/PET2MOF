@@ -41,3 +41,8 @@ JSON-события `codex exec --json` модель и effort **не раскр
 | --- | --- | --- | --- | --- |
 | T000-smoke ×3 | terra/sol/astra, low | совпало | принято | нет |
 | T003-model-docs | terra, medium | terra, medium | принято | нет |
+| T001-source-audit | astra, high | astra, high | принято для независимой проверки; T004 нашла 7 пунктов исправлений и 1 пропущенный источник | исправления внесены через T009 |
+| T002-nist-isodb | sol, medium | sol, medium | принято (SHA-256 сверен повторным запросом) | каталоги 18 МБ и веб-страницы NIST исключены из Git руководителем; 2 интеграционных теста — T010 |
+| T004-audit-check | sol, medium | sol, medium | принято | нет |
+| T005-infra-ocr-checks | sol, high | sol, high | принято после T005b; ревью T008 впереди | конфликт `tests/conftest.py` при слиянии разрешён руководителем |
+| T005b-publish-check-allowlist | sol, medium | sol, medium | принято | нашёл сторонний Mapbox-токен в сохранённых страницах NIST (верно) |
