@@ -101,7 +101,7 @@ report = {'date': '2026-11-16', 'status': 'pass' if not errors else 'fail',
                      'complete provenance IDs and registry/record hashes',
                      'all saved input and derivative hashes; manifest sizes and dates',
                      'explicit missing-data report section'],
-          'scientific_independent_review': 'pending T004', 'errors': errors}
+          'scientific_independent_review': 'T004 source review completed; T009 registry changes pending lead review', 'errors': errors}
 (ROOT / 'sources/validation_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps(report, ensure_ascii=False, indent=2))
 raise SystemExit(1 if errors else 0)

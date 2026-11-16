@@ -88,6 +88,10 @@ for source in registry:
     sid = source['source_id']
     inputs = [{k: entry[k] for k in ('path', 'url', 'sha256', 'status')}
               for entry in accepted.values() if entry['source_id'] == sid]
+    if sid in {'S117', 'S118'}:
+        metadata = ROOT / source['doi_evidence']
+        inputs.append({'path': source['doi_evidence'], 'url': 'https://api.crossref.org/works/' + source['doi'],
+                       'sha256': digest(metadata), 'status': 'validated_json'})
     derivatives = []
     for folder in ['data/raw/html', 'data/raw/figures_full']:
         for path in sorted((ROOT / folder).glob(sid + '*')):
@@ -127,7 +131,7 @@ for source in registry:
             'unit_conversions': [],
             'error_estimate': 'No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical and are listed in limitations.',
             'visual_QA': visual.get(sid, 'Original page/figure visual QA not completed; text or metadata audit only.'),
-            'status': 'provisional', 'reviewer': 'T004 (assigned, not executed in T001)',
+            'status': 'provisional', 'reviewer': 'T004 reviewed source evidence; T009 registry changes await lead review',
             'corrections': source['limitations'] if is_audit else [],
         })
 output = ROOT / 'data/extraction/T001-source-audit.yaml'

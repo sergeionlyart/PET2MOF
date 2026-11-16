@@ -1,18 +1,19 @@
 {
   "date": "2026-11-16",
   "status": "pass",
-  "records": 20,
-  "crossref_verified": 19,
+  "records": 22,
+  "crossref_verified": 21,
   "located_measured_UiO_CO2_sources": [
     "S2",
     "S100",
+    "S102",
     "S103",
     "S104",
     "S105",
     "S113"
   ],
-  "data_items": 37,
-  "passports": 57,
+  "data_items": 44,
+  "passports": 66,
   "validated_downloads": 33,
   "checks": [
     "required fields, roles, types, locators and unique IDs",
@@ -22,6 +23,6 @@
     "all saved input and derivative hashes; manifest sizes and dates",
     "explicit missing-data report section"
   ],
-  "scientific_independent_review": "pending T004",
+  "scientific_independent_review": "T004 source review completed; T009 registry changes pending lead review",
   "errors": []
 }
