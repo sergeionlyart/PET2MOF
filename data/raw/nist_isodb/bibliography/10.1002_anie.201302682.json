@@ -1,0 +1,82 @@
+[
+    {
+        "DOI": "10.1002/anie.201302682",
+        "title": "A Water Stable Metal-Organic Framework with Optimal Features for CO 2 Capture",
+        "journal": "Angewandte Chemie-International Edition",
+        "year": 2013,
+        "authors": [
+            "Qingyuan Yang ",
+            "Sébastien Vaesen",
+            "Florence Ragon",
+            "Andrew D. Wiersum",
+            "Dong Wu",
+            "Ana Lago",
+            "Thomas Devic",
+            "Charlotte Martineau",
+            "Francis Taulelle",
+            "Philip L. Llewellyn",
+            "Hervé Jobic",
+            "Chongli Zhong",
+            "Christian Serre",
+            "Guy De Weireld",
+            "Guillaume Maurin"
+        ],
+        "categories": [
+            "exp",
+            "sim"
+        ],
+        "adsorbents": [
+            {
+                "hashkey": "NIST-MATDB-27ce47f74d79f611f6d3f9caa686697b",
+                "name": "UiO-66(Zr)"
+            },
+            {
+                "hashkey": "NIST-MATDB-36203c6515663957b4115bad8e0ac2f7",
+                "name": "UiO-66(Zr)-(COOH)2"
+            }
+        ],
+        "adsorbentMaterial": [
+            "UiO-66(Zr)",
+            "UiO-66(Zr)-(COOH)2"
+        ],
+        "adsorbates": [
+            {
+                "InChIKey": "IJGRMHOSHXDMSA-UHFFFAOYSA-N",
+                "name": "Nitrogen"
+            },
+            {
+                "InChIKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+                "name": "Water"
+            }
+        ],
+        "adsorbateGas": [
+            "Nitrogen",
+            "Water"
+        ],
+        "temperatures": [
+            77,
+            303
+        ],
+        "pressures": [
+            0,
+            100
+        ],
+        "isotherms": [
+            {
+                "filename": "10.1002anie.201302682.isotherm1"
+            },
+            {
+                "filename": "10.1002anie.201302682.isotherm2"
+            },
+            {
+                "filename": "10.1002anie.201302682.isotherm3"
+            },
+            {
+                "filename": "10.1002anie.201302682.isotherm4"
+            },
+            {
+                "filename": "10.1002anie.201302682.isotherm5"
+            }
+        ]
+    }
+]
