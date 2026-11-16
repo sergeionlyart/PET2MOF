@@ -1,0 +1,117 @@
+description: Debug fits; source interpretation and provenance retained; no frozen
+  model yet.
+fits:
+  composite:
+    host_q_sat:
+      value: 6.707210926891614
+      unit: mmol/g MOF
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    host_b:
+      value: 0.4355369973090328
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    M1_A0:
+      value: 0.6900057751677906
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    M1_lam:
+      value: 1.2050092521857843
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    M1_K_d:
+      value: 77.05104013658386
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    M1_kappa:
+      value: 0.3944482120901951
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    B1_eta0:
+      value: 0.17379027238458053
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    B1_K_d:
+      value: 104.87680961669061
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+  ratio:
+    host_q_sat:
+      value: 6.707210926891614
+      unit: mmol/g MOF
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    host_b:
+      value: 0.4355369973090328
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    M1_A0:
+      value: 0.8222986228741054
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    M1_lam:
+      value: 1.548395908867564
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    M1_K_d:
+      value: 80.52231339590472
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    M1_kappa:
+      value: 0.8556799798216387
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    B1_eta0:
+      value: 0.22029274740006394
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug
+    B1_K_d:
+      value: 112.62020501167638
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; D-10; D-15
+      extraction_id: T006-S100-FigS5
+      status: debug

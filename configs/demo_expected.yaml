@@ -1,0 +1,90 @@
+M1_composite_RMSE:
+  expected:
+    value: 0.2551555620092715
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'reports/T013/demo.json: regression_scalars (debug control, not measured)'
+    extraction_id: not_applicable
+    status: debug
+  atol:
+    value: 5.0e-05
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'DESIGN-T013: solver regression tolerance'
+    extraction_id: not_applicable
+    status: debug
+B1_composite_RMSE:
+  expected:
+    value: 0.3730661153324098
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'reports/T013/demo.json: regression_scalars (debug control, not measured)'
+    extraction_id: not_applicable
+    status: debug
+  atol:
+    value: 5.0e-05
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'DESIGN-T013: solver regression tolerance'
+    extraction_id: not_applicable
+    status: debug
+M1_ratio_RMSE:
+  expected:
+    value: 0.2853898065665697
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'reports/T013/demo.json: regression_scalars (debug control, not measured)'
+    extraction_id: not_applicable
+    status: debug
+  atol:
+    value: 5.0e-05
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'DESIGN-T013: solver regression tolerance'
+    extraction_id: not_applicable
+    status: debug
+B1_ratio_RMSE:
+  expected:
+    value: 0.34270540330912486
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'reports/T013/demo.json: regression_scalars (debug control, not measured)'
+    extraction_id: not_applicable
+    status: debug
+  atol:
+    value: 5.0e-05
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'DESIGN-T013: solver regression tolerance'
+    extraction_id: not_applicable
+    status: debug
+cycle_q_work:
+  expected:
+    value: 0.3899965961237809
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'reports/T013/demo.json: regression_scalars (debug control, not measured)'
+    extraction_id: not_applicable
+    status: debug
+  atol:
+    value: 5.0e-05
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'DESIGN-T013: solver regression tolerance'
+    extraction_id: not_applicable
+    status: debug
+baseline_q_work:
+  expected:
+    value: 0.3410460513276119
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'reports/T013/demo.json: regression_scalars (debug control, not measured)'
+    extraction_id: not_applicable
+    status: debug
+  atol:
+    value: 5.0e-05
+    unit: mmol/g dry composite
+    type: regression_reference
+    source_id: 'DESIGN-T013: solver regression tolerance'
+    extraction_id: not_applicable
+    status: debug

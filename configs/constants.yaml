@@ -1,0 +1,71 @@
+R:
+  value: 8.31446261815324
+  unit: J/(mol K)
+  type: literature_range
+  source_id: 'SI: exact N_A*k_B'
+  extraction_id: not_applicable
+  status: debug
+M_water:
+  value: 18.01528
+  unit: g/mol
+  type: literature_range
+  source_id: standard atomic-weight rounded H2O
+  extraction_id: not_applicable
+  status: debug
+M_co2:
+  value: 44.0095
+  unit: g/mol
+  type: literature_range
+  source_id: pet2mof.units fixed molecular mass
+  extraction_id: not_applicable
+  status: debug
+IAPWS_Tc:
+  value: 647.096
+  unit: K
+  type: literature_range
+  source_id: 'L-T012-W: SR1-86(1992), provisional transcription'
+  extraction_id: not_applicable
+  status: provisional
+IAPWS_pc:
+  value: 220.64
+  unit: bar
+  type: literature_range
+  source_id: 'L-T012-W: SR1-86(1992), provisional transcription'
+  extraction_id: not_applicable
+  status: provisional
+IAPWS_coefficients:
+  value:
+  - -7.85951783
+  - 1.84408259
+  - -11.7866497
+  - 22.6807411
+  - -15.9618719
+  - 1.80122502
+  unit: '1'
+  type: literature_range
+  source_id: 'L-T012-W: SR1-86(1992), eq 1, provisional transcription'
+  extraction_id: not_applicable
+  status: provisional
+IAPWS_powers:
+  value:
+  - 1.0
+  - 1.5
+  - 3.0
+  - 3.5
+  - 4.0
+  - 7.5
+  unit: '1'
+  type: literature_range
+  source_id: 'L-T012-W: SR1-86(1992), eq 1, provisional transcription'
+  extraction_id: not_applicable
+  status: provisional
+N_fractions_nominal:
+  value:
+  - 0.25
+  - 0.5
+  - 0.25
+  unit: '1'
+  type: assumption_range
+  source_id: 'L-T012-N: theoretical guide, not S100 measurement'
+  extraction_id: not_applicable
+  status: debug
