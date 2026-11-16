@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Fail closed, with counts/rule names only; never print matched text or git identity."""
+"""Fail closed, with paths/rule names only; never print matched text or git identity."""
 
+import hashlib
 import json
 import re
 import shutil
@@ -8,9 +9,50 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+import yaml
+
 
 def command(root, args):
     return subprocess.run(args, cwd=root, capture_output=True, check=False)
+
+
+TEXT_CHECKS = ("absolute-user-path", "non-noreply-email", "authorization-literal", "credential-literal")
+
+
+def reserved_email_domain(domain):
+    domain = domain.lower()
+    return (domain in {"example.com", "example.org", "example.net"}
+            or domain.endswith((".test", ".invalid")))
+
+
+def load_allowlist(root):
+    """Exact paths and checks only; malformed review records fail closed."""
+    path = root / "configs/publish_allowlist.yaml"
+    if path.is_symlink():
+        raise ValueError("symlink allowlist")
+    if not path.exists():
+        return []
+    records = yaml.safe_load(path.read_text(encoding="utf-8"))
+    if not isinstance(records, list):
+        raise ValueError("expected review records")
+    for entry in records:
+        if not isinstance(entry, dict) or set(entry) != {"path", "check", "reason", "sha256"}:
+            raise ValueError("invalid review record")
+        if not all(isinstance(value, str) for value in entry.values()):
+            raise ValueError("invalid review value")
+        relative = Path(entry["path"])
+        if (relative.is_absolute() or ".." in relative.parts
+                or relative.as_posix() != entry["path"]
+                or entry["check"] not in TEXT_CHECKS or not entry["reason"].strip()
+                or not re.fullmatch(r"[0-9a-f]{64}", entry["sha256"])):
+            raise ValueError("invalid review scope")
+    return records
+
+
+def allowed_text_check(records, relative, rule, payload):
+    digest = hashlib.sha256(payload).hexdigest()
+    return any(entry["path"] == relative and entry["check"] == rule
+               and entry["sha256"] == digest for entry in records)
 
 
 def sensitive_rules(text):
@@ -18,7 +60,7 @@ def sensitive_rules(text):
     if "/Users/" in text:
         rules.append("absolute-user-path")
     emails = re.findall(r"[A-Za-z0-9_.+%-]+@([A-Za-z0-9.-]+\.[A-Za-z]{2,})", text)
-    if any(domain.lower() != "users.noreply.github.com" for domain in emails):
+    if any(domain.lower() != "users.noreply.github.com" and not reserved_email_domain(domain) for domain in emails):
         rules.append("non-noreply-email")
     if "Bearer " in text:
         rules.append("authorization-literal")
@@ -59,6 +101,24 @@ def check(root):
     report("no-private-tracked-files", not any(path.startswith(private) for path in tracked))
     identity = command(root, ["git", "config", "user.email"])
     report("noreply-git-identity", identity.returncode == 0 and identity.stdout.strip().lower().endswith(b"@users.noreply.github.com"))
+    try:
+        allowlist = load_allowlist(root)
+    except (OSError, ValueError, yaml.YAMLError):
+        report("publish-allowlist-valid", False)
+        allowlist = []
+    for entry in allowlist:
+        reviewed = root / entry["path"]
+        try:
+            relative = Path(entry["path"])
+            current = (entry["path"] in public and not dotenv(entry["path"])
+                       and not entry["path"].startswith(private)
+                       and not any((root / parent).is_symlink()
+                                   for parent in (relative, *relative.parents))
+                       and hashlib.sha256(reviewed.read_bytes()).hexdigest() == entry["sha256"])
+        except OSError:
+            current = False
+        if not current:
+            report(f"publish-allowlist-current:path={json.dumps(entry['path'], ensure_ascii=True)}", False)
     counts = {}
     bad_notebooks = 0
     unreadable = 0
@@ -80,7 +140,9 @@ def check(root):
             unreadable += 1
             continue
         for rule in sensitive_rules(text):
-            counts[rule] = counts.get(rule, 0) + 1
+            if not allowed_text_check(allowlist, relative, rule, payload):
+                counts[rule] = counts.get(rule, 0) + 1
+                print(f"FAIL public-file:{rule}:path={json.dumps(relative, ensure_ascii=True)}")
         if relative.endswith(".ipynb"):
             try:
                 notebook = json.loads(text)
@@ -88,28 +150,46 @@ def check(root):
             except (ValueError, KeyError, TypeError):
                 bad_notebooks += 1
     report("public-files-readable-no-symlinks", unreadable == 0)
-    for rule in ("absolute-user-path", "non-noreply-email", "authorization-literal", "credential-literal"):
+    for rule in TEXT_CHECKS:
         report(f"public-text:{rule}:files={counts.get(rule, 0)}", counts.get(rule, 0) == 0)
     report("notebooks-without-outputs", bad_notebooks == 0)
 
     if not shutil.which("gitleaks"):
         report("gitleaks-installed", False)
     else:
-        # Scanner output is captured, not echoed: even diagnostics must not expose values.
-        # Exclusions apply ONLY to working-tree scanning, never history/staged scans.
-        cache = root / ".uv-cache"
-        cache.mkdir(exist_ok=True)
-        with tempfile.TemporaryDirectory(dir=cache, prefix="publish-") as directory:
-            config = Path(directory) / "gitleaks.toml"
-            config.write_text('[extend]\nuseDefault = true\n[allowlist]\npaths = [\'(^|/)(\\.venv|\\.uv-cache|private|\\.git)(/|$)\']\n', encoding="utf-8")
+        # Scan only publishable working-tree files. Private/ignored directories are
+        # never copied; the same checked-in config governs all three scans.
+        config = root / ".gitleaks.toml"
+        with tempfile.TemporaryDirectory(prefix="publish-") as directory:
+            snapshot = Path(directory) / "public"
+            snapshot.mkdir()
+            for relative in public:
+                source = root / relative
+                if (dotenv(relative) or relative.startswith(private)
+                        or not source.is_file() or source.is_symlink()):
+                    continue
+                target = snapshot / relative
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(source, target)
             scans = [
-                ("gitleaks-working-tree", ["detect", "--no-git", "--source", ".", "--config", str(config)]),
-                ("gitleaks-all-history", ["detect", "--source", ".", "--log-opts=--all"]),
-                ("gitleaks-staged", ["protect", "--staged", "--source", "."]),
+                ("gitleaks-working-tree", snapshot, ["detect", "--no-git", "--source", "."]),
+                ("gitleaks-all-history", root, ["detect", "--source", ".", "--log-opts=--all"]),
+                ("gitleaks-staged", root, ["protect", "--staged", "--source", "."]),
             ]
-            for label, args in scans:
-                result = command(root, ["gitleaks", *args, "--redact", "--no-banner", "--no-color"])
+            for label, scan_root, args in scans:
+                scan_report = Path(directory) / f"{label}.json"
+                result = command(scan_root, ["gitleaks", *args, "--config", str(config),
+                                        "--redact", "--no-banner", "--no-color",
+                                        "--report-format=json", "--report-path", str(scan_report)])
                 report(label, result.returncode == 0)
+                if result.returncode and scan_report.is_file():
+                    try:
+                        findings = json.loads(scan_report.read_text(encoding="utf-8"))
+                        paths = {item["File"] for item in findings}
+                        for path in sorted(paths):
+                            print(f"FAIL {label}:path={json.dumps(path, ensure_ascii=True)}")
+                    except (OSError, ValueError, TypeError, KeyError):
+                        report(f"{label}-report-readable", False)
     print(f"publish-check: {len(failures)} failed checks")
     return 1 if failures else 0
 

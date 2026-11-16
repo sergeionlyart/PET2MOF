@@ -76,7 +76,7 @@ def publish_module():
 def test_publication_rules():
     module = publish_module()
     assert "absolute-user-path" in module.sensitive_rules("/" + "Users/owner/file")
-    assert "non-noreply-email" in module.sensitive_rules("example" + "@example.org")
+    assert "non-noreply-email" in module.sensitive_rules("person" + "@real-domain.edu")
     assert module.sensitive_rules("1+test" + "@users.noreply.github.com") == []
     assert "authorization-literal" in module.sensitive_rules("Bearer" + " " + "example")
     assert "credential-literal" in module.sensitive_rules("private" + "_key")
@@ -98,3 +98,4 @@ def test_publish_failure_output_has_no_matched_values(tmp_path, monkeypatch, cap
     output = capsys.readouterr().out
     assert "TESTSECRET-should-never-print" not in output
     assert "FAIL public-text:authorization-literal" in output
+    assert 'path="example.py"' in output

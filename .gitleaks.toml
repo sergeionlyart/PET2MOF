@@ -1,0 +1,19 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
+description = "Public NIST ISODB material identifiers, only in the raw NIST dataset"
+condition = "AND"
+regexTarget = "match"
+paths = ['''^data/raw/nist_isodb/''']
+regexes = ['''^hashkey"\s*:\s*"NIST-MATDB-[0-9a-fA-F]{32}"$''']
+
+[[rules.allowlists]]
+description = "Public Crossref citation identifiers, only in Crossref metadata"
+condition = "AND"
+regexTarget = "match"
+paths = ['''^sources/metadata/[^/]+\.crossref\.json$''']
+regexes = ['''^key"\s*:\s*"[0-9]+_cit[0-9]+"$''']

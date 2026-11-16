@@ -1,0 +1,31 @@
+- path: scripts/publish_check.py
+  check: absolute-user-path
+  reason: Literal pattern definition for detecting local user paths; no actual user
+    path.
+  sha256: 5a45a0078865aa3574b9ab781b3f1757b871a95c9bfab67e2519202467889a90
+- path: scripts/publish_check.py
+  check: authorization-literal
+  reason: Literal authorization prefix used by the publication detector; no token.
+  sha256: 5a45a0078865aa3574b9ab781b3f1757b871a95c9bfab67e2519202467889a90
+- path: scripts/publish_check.py
+  check: credential-literal
+  reason: Literal credential field name used by the publication detector; no credential
+    value.
+  sha256: 5a45a0078865aa3574b9ab781b3f1757b871a95c9bfab67e2519202467889a90
+- path: src/pet2mof/ocr/security.py
+  check: credential-literal
+  reason: Credential field name in the redaction regex; implementation removes values.
+  sha256: c3ab090310015f395692c0b2b1bc2cbdc28302afde0a08208068f71d065ae6b9
+- path: tasks/T005-infra-ocr-checks.md
+  check: absolute-user-path
+  reason: Task acceptance criteria name the local-path pattern; no actual user path.
+  sha256: 224d7f645af09495fa1ed307d49e6e630a57b09abb03227771e51209152d9c8a
+- path: tasks/T005-infra-ocr-checks.md
+  check: authorization-literal
+  reason: Task acceptance criteria name the authorization prefix; no token.
+  sha256: 224d7f645af09495fa1ed307d49e6e630a57b09abb03227771e51209152d9c8a
+- path: tasks/T005-infra-ocr-checks.md
+  check: credential-literal
+  reason: Task acceptance criteria name the forbidden credential field; no credential
+    value.
+  sha256: 224d7f645af09495fa1ed307d49e6e630a57b09abb03227771e51209152d9c8a
