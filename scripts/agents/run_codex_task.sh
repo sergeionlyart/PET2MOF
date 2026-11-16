@@ -70,6 +70,7 @@ set -e
 USAGE=$(grep '"turn.completed"' "$LOGDIR/$TASK_ID.$STAMP.events.jsonl" | tail -1 | sed -E 's/.*"usage":(\{[^}]*\}).*/\1/')
 [[ -z "$USAGE" ]] && USAGE=null
 THREAD=$(grep -o '"thread_id":"[^"]*"' "$LOGDIR/$TASK_ID.$STAMP.events.jsonl" | head -1 | cut -d'"' -f4)
-echo "{\"task_id\":\"$TASK_ID\",\"exit_code\":$RC,\"thread_id\":\"$THREAD\",\"usage\":$USAGE,\"finished_utc\":\"$(date -u +%Y%m%dT%H%M%SZ)\",\"actual_model_disclosed\":false}" > "$LOGDIR/$TASK_ID.$STAMP.exit.json"
+ACTUAL=$(python3 "$REPO/scripts/agents/actual_settings.py" "$THREAD" 2>/dev/null || echo null)
+echo "{\"task_id\":\"$TASK_ID\",\"exit_code\":$RC,\"thread_id\":\"$THREAD\",\"usage\":$USAGE,\"finished_utc\":\"$(date -u +%Y%m%dT%H%M%SZ)\",\"actual\":$ACTUAL}" > "$LOGDIR/$TASK_ID.$STAMP.exit.json"
 echo "task=$TASK_ID rc=$RC workdir=$WORKDIR log=$LOGDIR/$TASK_ID.$STAMP.*"
 exit $RC
