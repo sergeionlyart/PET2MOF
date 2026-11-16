@@ -1,0 +1,222 @@
+[
+  {
+    "field_id": "S106-p06-107",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "1.4",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1.4",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  },
+  {
+    "field_id": "S106-p06-108",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "2.6",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "2.6",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  },
+  {
+    "field_id": "S106-p06-109",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "1.1",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1.1",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  },
+  {
+    "field_id": "S106-p06-110",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "1.2",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1.2",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  },
+  {
+    "field_id": "S106-p06-111",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "2.7",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "2.7",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  },
+  {
+    "field_id": "S106-p06-112",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.06,
+      0.06,
+      0.49,
+      0.88
+    ],
+    "locator": "Fig. 5 axis minimum",
+    "category": "numbers",
+    "expected": "−1.0",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  },
+  {
+    "field_id": "S106-p06-113",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.51,
+      0.9,
+      0.95,
+      0.94
+    ],
+    "locator": "Fig. 6 caption",
+    "category": "units",
+    "expected": "293 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "293 K",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Fig. 6. Experimental and calculated adsorption isotherms (a) and isobars (b) of\nwater vapor in the defect-free UiO-66 structure, at 293 K and 2.6 kPa respec­\ntively. Closed symbols stand for adsorption, open symbols for desorption.",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  },
+  {
+    "field_id": "S106-p06-114",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.51,
+      0.9,
+      0.95,
+      0.94
+    ],
+    "locator": "Fig. 6 caption",
+    "category": "units",
+    "expected": "2.6 kPa",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "2.6 kPa",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Fig. 6. Experimental and calculated adsorption isotherms (a) and isobars (b) of\nwater vapor in the defect-free UiO-66 structure, at 293 K and 2.6 kPa respec­\ntively. Closed symbols stand for adsorption, open symbols for desorption.",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  },
+  {
+    "field_id": "S106-p06-115",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.51,
+      0.33,
+      0.95,
+      0.87
+    ],
+    "locator": "Fig. 6a/b experimental versus calculated curves",
+    "category": "relationships",
+    "expected": "open squares → UiO-66_220 desorption",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  },
+  {
+    "field_id": "S106-p06-116",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.51,
+      0.33,
+      0.95,
+      0.87
+    ],
+    "locator": "Fig. 6a/b experimental versus calculated curves",
+    "category": "relationships",
+    "expected": "dashed circle curve → Tuned EQeq charges (simulation)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S106_p06.png",
+    "render_sha256": "e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0"
+  }
+]

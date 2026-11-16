@@ -1,0 +1,156 @@
+[
+  {
+    "extraction_id": "T006-S100-p02",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/87e40ea3d7d113eea8bd25b59b45c1eb38ffa73c24205e9960778720c6ce0df6.json",
+    "elapsed_s": 0.2455
+  },
+  {
+    "extraction_id": "T006-S100-p03",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/1e05796ef4024d88b386e0881355673807f0f68f6e1ea32958a72b1e1706a60e.json",
+    "elapsed_s": 0.431
+  },
+  {
+    "extraction_id": "T006-S100-p04",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/94c30d2445daf4741440110c0a57d13821e5caa79ad7a2eb097db32d473b94b2.json",
+    "elapsed_s": 0.1724
+  },
+  {
+    "extraction_id": "T006-S100-p05",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/81bc539e335e40b13eda7b0f43524434cc361db93463c69ac3b6625f27fc2edb.json",
+    "elapsed_s": 0.4913
+  },
+  {
+    "extraction_id": "T006-S100-p07",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/dd6584e93145e6f7389296357a33c566ad7987081c029e69ef27d7354a86dfac.json",
+    "elapsed_s": 0.1851
+  },
+  {
+    "extraction_id": "T006-S100-p07",
+    "engine": "tesseract",
+    "version": "tesseract 5.5.3",
+    "raw_response_ref": "private/ocr_cache/raw/8ef915eaa762a2fa98af3c70f13a563a52d2f814b95ad91f358f8bac0a8dacf1.json",
+    "elapsed_s": 3.2071
+  },
+  {
+    "extraction_id": "T006-S100-p09",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/a2deb6f0dd8971795778294b52e3152f0147a8b0fb033e20bcf40faada8ebe6f.json",
+    "elapsed_s": 0.2047
+  },
+  {
+    "extraction_id": "T006-S106-p03",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/f07ecabd7c7537d01c4e05b1a00fc1dc842ca7390909f2f885423dea999e245a.json",
+    "elapsed_s": 0.2413
+  },
+  {
+    "extraction_id": "T006-S106-p04",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/821c744192493deb37315b3ea0cb31b63f2dfeada21af3d230ebea82cdec98c4.json",
+    "elapsed_s": 0.2584
+  },
+  {
+    "extraction_id": "T006-S106-p05",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/63579994eaba26afdf7348470024adf8e38a84938f8460535923f4482c072cd8.json",
+    "elapsed_s": 0.4348
+  },
+  {
+    "extraction_id": "T006-S106-p06",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/c4b602aac171f7d9a1d24351176595d27924bd7ff9d0f0d989fc2b911726b2de.json",
+    "elapsed_s": 0.2037
+  },
+  {
+    "extraction_id": "T006-S106-p06",
+    "engine": "tesseract",
+    "version": "tesseract 5.5.3",
+    "raw_response_ref": "private/ocr_cache/raw/a31c2d932708fcfdf31d03327ebadd88363aa544ee7979ace9da9f1690c77425.json",
+    "elapsed_s": 8.4574
+  },
+  {
+    "extraction_id": "T006-S106-p07",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/56c75055e48560505c3db83dc7e4cd683a294faaea822f3a27eab46a98a59203.json",
+    "elapsed_s": 0.1803
+  },
+  {
+    "extraction_id": "T006-S105-p08",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/0145a78e4740209c7c5450a72d6dc907df607b255090d5edc781c7c5176ad115.json",
+    "elapsed_s": 0.0912
+  },
+  {
+    "extraction_id": "T006-S105-p09",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/dc629ce538d3b66b78ad8390ad8862b1d622f5ae6a6b54daa2dcbd4cff25032a.json",
+    "elapsed_s": 0.2015
+  },
+  {
+    "extraction_id": "T006-S113-p06",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/b55b119917fbecf9f485098be159cf428e3f98a30170269d6f92dfc0c0989f27.json",
+    "elapsed_s": 0.1086
+  },
+  {
+    "extraction_id": "T006-S113-p07",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/c8e62d87040bb259238de6db221f5c853c27849875885c6558a0e2d5b0b548b8.json",
+    "elapsed_s": 0.0809
+  },
+  {
+    "extraction_id": "T006-S113-p09",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/41feb917126122d123b10198c00e890f2fa82325a34a88a387d476674bee1656.json",
+    "elapsed_s": 0.1204
+  },
+  {
+    "extraction_id": "T006-S113-p09",
+    "engine": "tesseract",
+    "version": "tesseract 5.5.3",
+    "raw_response_ref": "private/ocr_cache/raw/1010056eec76c80b6d74b9b205c5e86d0f2fe9b3662cf1c10bcbe2353be70835.json",
+    "elapsed_s": 3.6279
+  },
+  {
+    "extraction_id": "T006-S103-p02",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/9baa8b33f987983852000a71795f56b21159652ca89ea6739a9c00970a76ead7.json",
+    "elapsed_s": 0.1209
+  },
+  {
+    "extraction_id": "T006-S103-p03",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/97e6a935c9f7e7d7ee5fed0362e696d672eab4b6e555e9060204e0f032669ec3.json",
+    "elapsed_s": 0.1484
+  },
+  {
+    "extraction_id": "T006-S102-p05",
+    "engine": "pdftotext",
+    "version": "pdftotext version 26.04.0",
+    "raw_response_ref": "private/ocr_cache/raw/f2cf18275ef6880be9a4befbefa99feb7f4ad13049498719990955683be6d5e7.json",
+    "elapsed_s": 0.0519
+  }
+]

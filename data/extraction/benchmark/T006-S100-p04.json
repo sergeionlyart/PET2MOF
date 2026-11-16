@@ -1,0 +1,134 @@
+[
+  {
+    "field_id": "S100-p04-020",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.32,
+      0.84,
+      0.47
+    ],
+    "locator": "Fig. S1 caption, instrument list",
+    "category": "numbers",
+    "expected": "10",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "10",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure S1. The self-assembly fixed-bed experimental setup. 1. CO2/CH4; 2. N2;\n\n3.He; 4. CO2/CH4; 5. Mass flow controller; 6. Mass flowmeter; 7.Water bubler; 8\n\n\n& 9. Gases mixer; 10. Bypass valve; 11. Hygrometer; 12. Adsorption column; 13.\n\n\nMass spectrometer.",
+    "render": "private/renders/S100_p04.png",
+    "render_sha256": "7f97a13af12f7fc38392c2689cb6d3ab56ef42954ae2dc3f7fb01bc757b3895b"
+  },
+  {
+    "field_id": "S100-p04-021",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.32,
+      0.84,
+      0.47
+    ],
+    "locator": "Fig. S1 caption, instrument list",
+    "category": "numbers",
+    "expected": "11",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "11",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure S1. The self-assembly fixed-bed experimental setup. 1. CO2/CH4; 2. N2;\n\n3.He; 4. CO2/CH4; 5. Mass flow controller; 6. Mass flowmeter; 7.Water bubler; 8\n\n\n& 9. Gases mixer; 10. Bypass valve; 11. Hygrometer; 12. Adsorption column; 13.\n\n\nMass spectrometer.",
+    "render": "private/renders/S100_p04.png",
+    "render_sha256": "7f97a13af12f7fc38392c2689cb6d3ab56ef42954ae2dc3f7fb01bc757b3895b"
+  },
+  {
+    "field_id": "S100-p04-022",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.32,
+      0.84,
+      0.47
+    ],
+    "locator": "Fig. S1 caption, instrument list",
+    "category": "numbers",
+    "expected": "12",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "12",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure S1. The self-assembly fixed-bed experimental setup. 1. CO2/CH4; 2. N2;\n\n3.He; 4. CO2/CH4; 5. Mass flow controller; 6. Mass flowmeter; 7.Water bubler; 8\n\n\n& 9. Gases mixer; 10. Bypass valve; 11. Hygrometer; 12. Adsorption column; 13.\n\n\nMass spectrometer.",
+    "render": "private/renders/S100_p04.png",
+    "render_sha256": "7f97a13af12f7fc38392c2689cb6d3ab56ef42954ae2dc3f7fb01bc757b3895b"
+  },
+  {
+    "field_id": "S100-p04-023",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.32,
+      0.84,
+      0.47
+    ],
+    "locator": "Fig. S1 caption, instrument list",
+    "category": "numbers",
+    "expected": "13",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "13",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure S1. The self-assembly fixed-bed experimental setup. 1. CO2/CH4; 2. N2;\n\n3.He; 4. CO2/CH4; 5. Mass flow controller; 6. Mass flowmeter; 7.Water bubler; 8\n\n\n& 9. Gases mixer; 10. Bypass valve; 11. Hygrometer; 12. Adsorption column; 13.\n\n\nMass spectrometer.",
+    "render": "private/renders/S100_p04.png",
+    "render_sha256": "7f97a13af12f7fc38392c2689cb6d3ab56ef42954ae2dc3f7fb01bc757b3895b"
+  },
+  {
+    "field_id": "S100-p04-024",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.7,
+      0.7,
+      0.77
+    ],
+    "locator": "Eq. (1), free-volume correction, minus sign",
+    "category": "symbols",
+    "expected": "−",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "−",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "    Ci p        mads qi =          Vt − Vcol +                                   (1)\n   mads RT      ρads ",
+    "render": "private/renders/S100_p04.png",
+    "render_sha256": "7f97a13af12f7fc38392c2689cb6d3ab56ef42954ae2dc3f7fb01bc757b3895b"
+  },
+  {
+    "field_id": "S100-p04-025",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.7,
+      0.7,
+      0.77
+    ],
+    "locator": "Eq. (1): qi=Ci p/(mads RT) × (Vt−Vcol+mads/rhoads)",
+    "category": "relationships",
+    "expected": "qᵢ = Cᵢp/(m_ads RT) × (Vt − V_col + m_ads/ρ_ads)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "    Ci p        mads qi =          Vt − Vcol +                                   (1)\n   mads RT      ρads ",
+    "render": "private/renders/S100_p04.png",
+    "render_sha256": "7f97a13af12f7fc38392c2689cb6d3ab56ef42954ae2dc3f7fb01bc757b3895b"
+  }
+]

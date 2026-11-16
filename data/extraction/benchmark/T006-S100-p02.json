@@ -1,0 +1,222 @@
+[
+  {
+    "field_id": "S100-p02-001",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "50",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "50",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  },
+  {
+    "field_id": "S100-p02-002",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "2.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "2.5",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  },
+  {
+    "field_id": "S100-p02-003",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "36.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "36.5",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  },
+  {
+    "field_id": "S100-p02-004",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "353",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "353",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  },
+  {
+    "field_id": "S100-p02-005",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "423",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "423",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  },
+  {
+    "field_id": "S100-p02-006",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "8",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "8",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  },
+  {
+    "field_id": "S100-p02-007",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis",
+    "category": "units",
+    "expected": "353 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "353 K",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  },
+  {
+    "field_id": "S100-p02-008",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis",
+    "category": "units",
+    "expected": "423 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "423 K",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  },
+  {
+    "field_id": "S100-p02-009",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis",
+    "category": "units",
+    "expected": "8 h",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "8 h",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  },
+  {
+    "field_id": "S100-p02-010",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 precursor",
+    "category": "symbols",
+    "expected": "ZrCl₄",
+    "lossy_alternative": "ZrCl4",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "ZrCl4",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.",
+    "render": "private/renders/S100_p02.png",
+    "render_sha256": "9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77"
+  }
+]

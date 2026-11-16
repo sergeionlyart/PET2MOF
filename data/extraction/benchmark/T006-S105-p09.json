@@ -1,0 +1,222 @@
+[
+  {
+    "field_id": "S105-p09-134",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.2,
+      0.35,
+      0.8,
+      0.38
+    ],
+    "locator": "Fig. 8 caption A/B/C temperature association",
+    "category": "numbers",
+    "expected": "273",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "273",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure 8. CO2 adsorption isotherms measured at 273 K (A); 298 K (B); and, 318 K (C).",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  },
+  {
+    "field_id": "S105-p09-135",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.2,
+      0.35,
+      0.8,
+      0.38
+    ],
+    "locator": "Fig. 8 caption A/B/C temperature association",
+    "category": "numbers",
+    "expected": "298",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "298",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure 8. CO2 adsorption isotherms measured at 273 K (A); 298 K (B); and, 318 K (C).",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  },
+  {
+    "field_id": "S105-p09-136",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.2,
+      0.35,
+      0.8,
+      0.38
+    ],
+    "locator": "Fig. 8 caption A/B/C temperature association",
+    "category": "numbers",
+    "expected": "318",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "318",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure 8. CO2 adsorption isotherms measured at 273 K (A); 298 K (B); and, 318 K (C).",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  },
+  {
+    "field_id": "S105-p09-137",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "3.93",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "3.93",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2/GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2/GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  },
+  {
+    "field_id": "S105-p09-138",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "3.66",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "3.66",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2/GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2/GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  },
+  {
+    "field_id": "S105-p09-139",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "6.41",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "6.41",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2/GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2/GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  },
+  {
+    "field_id": "S105-p09-140",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "6.10",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "6.10",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2/GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2/GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  },
+  {
+    "field_id": "S105-p09-141",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "2.26",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "2.26",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2/GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2/GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  },
+  {
+    "field_id": "S105-p09-142",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake units",
+    "category": "units",
+    "expected": "mmol/g",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "mmol/g",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2/GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2/GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  },
+  {
+    "field_id": "S105-p09-143",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.2,
+      0.35,
+      0.8,
+      0.38
+    ],
+    "locator": "Fig. 8C caption",
+    "category": "relationships",
+    "expected": "panel C → 318 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "Figure 8. CO2 adsorption isotherms measured at 273 K (A); 298 K (B); and, 318 K (C).",
+    "render": "private/renders/S105_p09.png",
+    "render_sha256": "8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b"
+  }
+]

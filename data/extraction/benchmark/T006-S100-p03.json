@@ -1,0 +1,200 @@
+[
+  {
+    "field_id": "S100-p03-011",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.1,
+      0.83,
+      0.35
+    ],
+    "locator": "§S2 first paragraph: apparatus precision",
+    "category": "numbers",
+    "expected": "0.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "0.5",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "S2. Fixed-bed Adsorption Experiments\n\n\n\n   Fig. S1 showed the self-assembly experimental setup. This apparatus consisted of three\n\n\nparts, an adiabatic sorption column, a gaseous mixture system for controlling the composition,\n\n\nrelative humidity and temperature of gaseous mixture, and on-line gas mass spectrometer\n\n\nanalysis. The temperature of adsorption column could be adjusted and maintained  at a\n\n\nconstant value with an accuracy of ±0.5 K. The relative humidity (RH) could be adjusted and\n\n\ncontrolled to a precision of ±3%.",
+    "render": "private/renders/S100_p03.png",
+    "render_sha256": "40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26"
+  },
+  {
+    "field_id": "S100-p03-012",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.1,
+      0.83,
+      0.35
+    ],
+    "locator": "§S2 first paragraph: apparatus precision",
+    "category": "numbers",
+    "expected": "3",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "3",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "S2. Fixed-bed Adsorption Experiments\n\n\n\n   Fig. S1 showed the self-assembly experimental setup. This apparatus consisted of three\n\n\nparts, an adiabatic sorption column, a gaseous mixture system for controlling the composition,\n\n\nrelative humidity and temperature of gaseous mixture, and on-line gas mass spectrometer\n\n\nanalysis. The temperature of adsorption column could be adjusted and maintained  at a\n\n\nconstant value with an accuracy of ±0.5 K. The relative humidity (RH) could be adjusted and\n\n\ncontrolled to a precision of ±3%.",
+    "render": "private/renders/S100_p03.png",
+    "render_sha256": "40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26"
+  },
+  {
+    "field_id": "S100-p03-013",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.1,
+      0.83,
+      0.35
+    ],
+    "locator": "§S2 precision",
+    "category": "symbols",
+    "expected": "±0.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "±0.5",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "S2. Fixed-bed Adsorption Experiments\n\n\n\n   Fig. S1 showed the self-assembly experimental setup. This apparatus consisted of three\n\n\nparts, an adiabatic sorption column, a gaseous mixture system for controlling the composition,\n\n\nrelative humidity and temperature of gaseous mixture, and on-line gas mass spectrometer\n\n\nanalysis. The temperature of adsorption column could be adjusted and maintained  at a\n\n\nconstant value with an accuracy of ±0.5 K. The relative humidity (RH) could be adjusted and\n\n\ncontrolled to a precision of ±3%.",
+    "render": "private/renders/S100_p03.png",
+    "render_sha256": "40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26"
+  },
+  {
+    "field_id": "S100-p03-014",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.1,
+      0.83,
+      0.35
+    ],
+    "locator": "§S2 precision",
+    "category": "symbols",
+    "expected": "±3%",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "±3%",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "S2. Fixed-bed Adsorption Experiments\n\n\n\n   Fig. S1 showed the self-assembly experimental setup. This apparatus consisted of three\n\n\nparts, an adiabatic sorption column, a gaseous mixture system for controlling the composition,\n\n\nrelative humidity and temperature of gaseous mixture, and on-line gas mass spectrometer\n\n\nanalysis. The temperature of adsorption column could be adjusted and maintained  at a\n\n\nconstant value with an accuracy of ±0.5 K. The relative humidity (RH) could be adjusted and\n\n\ncontrolled to a precision of ±3%.",
+    "render": "private/renders/S100_p03.png",
+    "render_sha256": "40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26"
+  },
+  {
+    "field_id": "S100-p03-015",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 second paragraph: conditions",
+    "category": "units",
+    "expected": "100 mg",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "100 mg",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\n\nthrough the fixed bed of  PEI@UiO-66 samples separately at different temperatures (308 K,\n\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\n\nrelative humidity (0%, 30%, and 55%) were measured separately.",
+    "render": "private/renders/S100_p03.png",
+    "render_sha256": "40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26"
+  },
+  {
+    "field_id": "S100-p03-016",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 second paragraph: conditions",
+    "category": "units",
+    "expected": "1 bar",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1 bar",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\n\nthrough the fixed bed of  PEI@UiO-66 samples separately at different temperatures (308 K,\n\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\n\nrelative humidity (0%, 30%, and 55%) were measured separately.",
+    "render": "private/renders/S100_p03.png",
+    "render_sha256": "40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26"
+  },
+  {
+    "field_id": "S100-p03-017",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 gas names",
+    "category": "symbols",
+    "expected": "CO₂",
+    "lossy_alternative": "CO2",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "CO2",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\n\nthrough the fixed bed of  PEI@UiO-66 samples separately at different temperatures (308 K,\n\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\n\nrelative humidity (0%, 30%, and 55%) were measured separately.",
+    "render": "private/renders/S100_p03.png",
+    "render_sha256": "40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26"
+  },
+  {
+    "field_id": "S100-p03-018",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 gas names",
+    "category": "symbols",
+    "expected": "CH₄",
+    "lossy_alternative": "CH4",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "CH4",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\n\nthrough the fixed bed of  PEI@UiO-66 samples separately at different temperatures (308 K,\n\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\n\nrelative humidity (0%, 30%, and 55%) were measured separately.",
+    "render": "private/renders/S100_p03.png",
+    "render_sha256": "40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26"
+  },
+  {
+    "field_id": "S100-p03-019",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 gas names",
+    "category": "symbols",
+    "expected": "H₂O",
+    "lossy_alternative": "H2O",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "H2O",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\n\nthrough the fixed bed of  PEI@UiO-66 samples separately at different temperatures (308 K,\n\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\n\nrelative humidity (0%, 30%, and 55%) were measured separately.",
+    "render": "private/renders/S100_p03.png",
+    "render_sha256": "40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26"
+  }
+]

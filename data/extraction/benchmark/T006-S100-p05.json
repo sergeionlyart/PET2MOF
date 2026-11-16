@@ -1,0 +1,90 @@
+[
+  {
+    "field_id": "S100-p05-026",
+    "extraction_id": "T006-S100-p05",
+    "region_norm": [
+      0.2,
+      0.13,
+      0.69,
+      0.23
+    ],
+    "locator": "Eq. (2), integration and subtraction",
+    "category": "symbols",
+    "expected": "∫",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "∫",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "llowing equation:\n\n\n                                                                (2)\n                   C t \n                 t = ∫  1 −    dt                   C i ",
+    "render": "private/renders/S100_p05.png",
+    "render_sha256": "2e0e4aa0766cfba45341e944f7eddef995e1b3db9b2fc47038f00537b39adf9d"
+  },
+  {
+    "field_id": "S100-p05-027",
+    "extraction_id": "T006-S100-p05",
+    "region_norm": [
+      0.2,
+      0.13,
+      0.69,
+      0.23
+    ],
+    "locator": "Eq. (2), integration and subtraction",
+    "category": "symbols",
+    "expected": "−",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "−",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "llowing equation:\n\n\n                                                                (2)\n                   C t \n                 t = ∫  1 −    dt                   C i ",
+    "render": "private/renders/S100_p05.png",
+    "render_sha256": "2e0e4aa0766cfba45341e944f7eddef995e1b3db9b2fc47038f00537b39adf9d"
+  },
+  {
+    "field_id": "S100-p05-028",
+    "extraction_id": "T006-S100-p05",
+    "region_norm": [
+      0.2,
+      0.13,
+      0.69,
+      0.23
+    ],
+    "locator": "Eq. (2), integration of concentration ratio",
+    "category": "relationships",
+    "expected": "t = ∫(1 − Cₜ/Cᵢ)dt",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "llowing equation:\n\n\n                                                                (2)\n                   C t \n                 t = ∫  1 −    dt                   C i ",
+    "render": "private/renders/S100_p05.png",
+    "render_sha256": "2e0e4aa0766cfba45341e944f7eddef995e1b3db9b2fc47038f00537b39adf9d"
+  },
+  {
+    "field_id": "S100-p05-029",
+    "extraction_id": "T006-S100-p05",
+    "region_norm": [
+      0.2,
+      0.48,
+      0.69,
+      0.55
+    ],
+    "locator": "Eq. (3), ratio of ratios",
+    "category": "relationships",
+    "expected": "Sᵢⱼ = (qᵢ/qⱼ)/(Xᵢ/Xⱼ)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "      qi / q j\nS i , j =                                              (3)\n    X i / X j",
+    "render": "private/renders/S100_p05.png",
+    "render_sha256": "2e0e4aa0766cfba45341e944f7eddef995e1b3db9b2fc47038f00537b39adf9d"
+  }
+]

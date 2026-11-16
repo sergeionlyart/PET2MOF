@@ -1,0 +1,63 @@
+extraction_id: T006-S103-p03
+source_id: S103
+doi: 10.1038/s42004-022-00742-z
+url: null
+input_sha256: 402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734
+pdf_page: 3
+api_page_map:
+  '1': 3
+figure_or_table: Fig. 2 caption; Fig. 2 caption distinguishes experiment from computation;
+  Fig. 2a/b axes; Table 2 BET row, columns _220/_160/_100; Table 2 PV row, columns
+  _220/_160/_100; Table 2 units
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S103-p03.json
+  render: private/renders/S103_p03.png
+  render_sha256: 602074ebd0f0e34267403835076e1d452b9c41b98936f6ba5ca649f8e23aeee0
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '3'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.444032+00:00'
+raw_response_ref: private/ocr_cache/raw/a34c4cb33787c3484e4fcf44294d740c9698ccf1dd4dac968b2ae08517f9fe5c.json
+unit_conversions: []
+derived_sha256: 322add0c11534ce96a504583d117923c34ee140cc037ee0ae46d6ea514990263
+status: provisional
+reviewer: null
+corrections:
+- field_id: S103-p03-198
+  kind: mismatch
+  reference: cm³·g⁻¹
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S103-p03-199
+  kind: mismatch
+  reference: m²·g⁻¹
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S103-p03-200
+  kind: omission
+  reference: cm³ STP·g⁻¹
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S103-p03-201
+  kind: omission
+  reference: bar
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S103-p03-203
+  kind: omission
+  reference: panel a → experiment; panel b → calculations | 27 °C
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 7
+  total: 12
+data_kind: text_value
+sensitivity_only: true

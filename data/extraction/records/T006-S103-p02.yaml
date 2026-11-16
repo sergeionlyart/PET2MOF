@@ -1,0 +1,47 @@
+extraction_id: T006-S103-p02
+source_id: S103
+doi: 10.1038/s42004-022-00742-z
+url: null
+input_sha256: 402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734
+pdf_page: 2
+api_page_map:
+  '1': 2
+figure_or_table: Table 1 DFT+D adsorption energies, CO2 / methanol, metal cluster
+  / linker; Table 1 computed energy, not measured capacity; Table 1 footnote
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S103-p02.json
+  render: private/renders/S103_p02.png
+  render_sha256: aba3812c518ffc33ea3585130d2d5529e956e61adfb07b58a3e6e06d1e4412cb
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '2'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.441854+00:00'
+raw_response_ref: private/ocr_cache/raw/a5b1dca3f91951fe177f7861a0bba5b6d5488e2ba740e4f56db446106bf07221.json
+unit_conversions: []
+derived_sha256: 01bec208fff5d8460761c1db6e1730a7c7698e2d201c1fcf8a9933cc73974cb1
+status: provisional
+reviewer: null
+corrections:
+- field_id: S103-p02-190
+  kind: mismatch
+  reference: kcal·mol⁻¹
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S103-p02-191
+  kind: omission
+  reference: carbon dioxide | organic linker | −7.86 kcal·mol⁻¹
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 4
+  total: 6
+data_kind: text_value
+sensitivity_only: true

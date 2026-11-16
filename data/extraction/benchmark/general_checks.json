@@ -1,0 +1,24 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "exit_code": 1,
+    "elapsed_s": 7.088,
+    "log": "private/agent_logs/T006-general-check-0.txt",
+    "summary": "94 passed, 1 failed: missing ignored data/raw/nist_isodb/catalogs/gases.json"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/publish_check.py"
+    ],
+    "exit_code": 1,
+    "elapsed_s": 7.315,
+    "log": "private/agent_logs/T006-final-publish-check.txt",
+    "summary": "working-tree/staged scans passed; all-history gitleaks flags old docs/copyright.html and docs/project.html"
+  }
+]

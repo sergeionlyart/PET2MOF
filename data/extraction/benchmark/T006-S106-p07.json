@@ -1,0 +1,178 @@
+[
+  {
+    "field_id": "S106-p07-117",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "300",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "300",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "simulatedadsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\nsurroundings because oxygen atoms in zirconium clusters are hydro",
+    "render": "private/renders/S106_p07.png",
+    "render_sha256": "f1cc822224986eb0ba83b8c7420cfddd343825a2a347b6e54a8532dd75c965ce"
+  },
+  {
+    "field_id": "S106-p07-118",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "700",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "700",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "simulatedadsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\nsurroundings because oxygen atoms in zirconium clusters are hydro",
+    "render": "private/renders/S106_p07.png",
+    "render_sha256": "f1cc822224986eb0ba83b8c7420cfddd343825a2a347b6e54a8532dd75c965ce"
+  },
+  {
+    "field_id": "S106-p07-119",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "1700",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1700",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "simulatedadsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\nsurroundings because oxygen atoms in zirconium clusters are hydro",
+    "render": "private/renders/S106_p07.png",
+    "render_sha256": "f1cc822224986eb0ba83b8c7420cfddd343825a2a347b6e54a8532dd75c965ce"
+  },
+  {
+    "field_id": "S106-p07-120",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "100",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "100",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "simulatedadsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\nsurroundings because oxygen atoms in zirconium clusters are hydro",
+    "render": "private/renders/S106_p07.png",
+    "render_sha256": "f1cc822224986eb0ba83b8c7420cfddd343825a2a347b6e54a8532dd75c965ce"
+  },
+  {
+    "field_id": "S106-p07-121",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "800",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "800",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "simulatedadsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\nsurroundings because oxygen atoms in zirconium clusters are hydro",
+    "render": "private/renders/S106_p07.png",
+    "render_sha256": "f1cc822224986eb0ba83b8c7420cfddd343825a2a347b6e54a8532dd75c965ce"
+  },
+  {
+    "field_id": "S106-p07-122",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "1000",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1000",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "simulatedadsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\nsurroundings because oxygen atoms in zirconium clusters are hydro",
+    "render": "private/renders/S106_p07.png",
+    "render_sha256": "f1cc822224986eb0ba83b8c7420cfddd343825a2a347b6e54a8532dd75c965ce"
+  },
+  {
+    "field_id": "S106-p07-123",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.91,
+      0.95,
+      0.94
+    ],
+    "locator": "Fig. 7 caption temperature",
+    "category": "units",
+    "expected": "293.15 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "293.15 K",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Fig. 7. Average occupation profiles of water in defect-free UiO-66 structure at 293.15 K. For easier interpretation, the UiO-66 structure model has been\nsuperimposed.",
+    "render": "private/renders/S106_p07.png",
+    "render_sha256": "f1cc822224986eb0ba83b8c7420cfddd343825a2a347b6e54a8532dd75c965ce"
+  },
+  {
+    "field_id": "S106-p07-124",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.51,
+      0.18,
+      0.95,
+      0.23
+    ],
+    "locator": "Framework charge, right column",
+    "category": "symbols",
+    "expected": "¹²⁺",
+    "lossy_alternative": "12+",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "12+",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "(Table 1)\n   After removing the bdc linkers, coordination of [Zr6O4(OH)4]12+\nclusters were complemented by hydroxyl groups. This creates an excess\nlocal charge that can be compensated in two ways by distributing it on\nall atoms of the structure or on the added  OH groups  Analysis of",
+    "render": "private/renders/S106_p07.png",
+    "render_sha256": "f1cc822224986eb0ba83b8c7420cfddd343825a2a347b6e54a8532dd75c965ce"
+  }
+]

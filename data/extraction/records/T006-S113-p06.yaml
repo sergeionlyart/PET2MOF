@@ -1,0 +1,42 @@
+extraction_id: T006-S113-p06
+source_id: S113
+doi: 10.3390/membranes10070154
+url: null
+input_sha256: 4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a
+pdf_page: 6
+api_page_map:
+  '1': 6
+figure_or_table: Eq. (7) subscript/ratio structure; Methods, outgassing; §2.4.5 enhancement
+  coefficient
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S113-p06.json
+  render: private/renders/S113_p06.png
+  render_sha256: c8e01b59443b1442f7d11f7ab1228048efa76f1d1527c577fffd8aa49974d690
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '6'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.433523+00:00'
+raw_response_ref: private/ocr_cache/raw/3bc3e421a82627740507c80bc35fdea85b5f03eeb0b05d55d52e551819c7702a.json
+unit_conversions: []
+derived_sha256: ac3e300243db32230ba5455aeeb58b86c415f4746fa87ad1286bdc55cb31119f
+status: provisional
+reviewer: null
+corrections:
+- field_id: S113-p06-149
+  kind: omission
+  reference: F_index = ln(P_filled/P_unfilled) + η ln(α_filled/α_unfilled)
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 5
+  total: 6
+data_kind: text_value
+sensitivity_only: true

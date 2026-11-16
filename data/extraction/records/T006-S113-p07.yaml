@@ -1,0 +1,65 @@
+extraction_id: T006-S113-p07
+source_id: S113
+doi: 10.3390/membranes10070154
+url: null
+input_sha256: 4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a
+pdf_page: 7
+api_page_map:
+  '1': 7
+figure_or_table: Table 1 footnote BET pressure range; Table 1 headers; Table 1 row
+  UiO-66; Table 1 row UiO-66, SBET/SLANG/Smicro/Vmicro/Vtotal; Table 1 row UiO-66-(OH)₂;
+  Table 1 row UiO-66-(OH)₂, SBET/SLANG/Smicro/Vmicro/Vtotal; Table 1 row UiO-66-Br;
+  Table 1 row UiO-66-Br, SBET/SLANG/Smicro/Vmicro/Vtotal; Table 1 row UiO-66-NH₂;
+  Table 1 row UiO-66-NH₂, SBET/SLANG/Smicro/Vmicro/Vtotal
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S113-p07.json
+  render: private/renders/S113_p07.png
+  render_sha256: d4e258b0d40fd137fc20486efdf860473923f6f09104558f3553f9be2c312a94
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '7'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.436490+00:00'
+raw_response_ref: private/ocr_cache/raw/1aad799d0f5462bb8e4b6c2c901b60082377e6ba16e6a8b9372886bddd5205b5.json
+unit_conversions: []
+derived_sha256: 169e6e7b3d51aac1e18d867fb090ac41a45a7f2ff8e4a156160f6869255c42b3
+status: provisional
+reviewer: null
+corrections:
+- field_id: S113-p07-155
+  kind: omission
+  reference: UiO-66 | SBET,SLANG,Smicro,Vmicro,Vtotal | 1733,2266,1662,0.809,0.938
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S113-p07-161
+  kind: omission
+  reference: UiO-66-NH₂ | SBET,SLANG,Smicro,Vmicro,Vtotal | 1218,1599,1160,0.569,0.682
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S113-p07-167
+  kind: omission
+  reference: UiO-66-Br | SBET,SLANG,Smicro,Vmicro,Vtotal | 851,1117,818,0.380,0.440
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S113-p07-173
+  kind: omission
+  reference: UiO-66-(OH)₂ | SBET,SLANG,Smicro,Vmicro,Vtotal | 318,418,293,0.136,0.178
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S113-p07-174
+  kind: mismatch
+  reference: m²/g
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 24
+  total: 29
+data_kind: text_value
+sensitivity_only: true

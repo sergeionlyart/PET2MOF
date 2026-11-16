@@ -1,0 +1,134 @@
+[
+  {
+    "field_id": "S103-p02-186",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 DFT+D adsorption energies, CO2 / methanol, metal cluster / linker",
+    "category": "numbers",
+    "expected": "1.89",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1.89",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "                         Metal cluster            Organic linker\n\nCarbon dioxide                1.89                 −7.86\nMethanol                −7.70                  −3.27",
+    "render": "private/renders/S103_p02.png",
+    "render_sha256": "aba3812c518ffc33ea3585130d2d5529e956e61adfb07b58a3e6e06d1e4412cb"
+  },
+  {
+    "field_id": "S103-p02-187",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 DFT+D adsorption energies, CO2 / methanol, metal cluster / linker",
+    "category": "numbers",
+    "expected": "−7.86",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "−7.86",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "                         Metal cluster            Organic linker\n\nCarbon dioxide                1.89                 −7.86\nMethanol                −7.70                  −3.27",
+    "render": "private/renders/S103_p02.png",
+    "render_sha256": "aba3812c518ffc33ea3585130d2d5529e956e61adfb07b58a3e6e06d1e4412cb"
+  },
+  {
+    "field_id": "S103-p02-188",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 DFT+D adsorption energies, CO2 / methanol, metal cluster / linker",
+    "category": "numbers",
+    "expected": "−7.70",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "−7.70",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "                         Metal cluster            Organic linker\n\nCarbon dioxide                1.89                 −7.86\nMethanol                −7.70                  −3.27",
+    "render": "private/renders/S103_p02.png",
+    "render_sha256": "aba3812c518ffc33ea3585130d2d5529e956e61adfb07b58a3e6e06d1e4412cb"
+  },
+  {
+    "field_id": "S103-p02-189",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 DFT+D adsorption energies, CO2 / methanol, metal cluster / linker",
+    "category": "numbers",
+    "expected": "−3.27",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "−3.27",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "                         Metal cluster            Organic linker\n\nCarbon dioxide                1.89                 −7.86\nMethanol                −7.70                  −3.27",
+    "render": "private/renders/S103_p02.png",
+    "render_sha256": "aba3812c518ffc33ea3585130d2d5529e956e61adfb07b58a3e6e06d1e4412cb"
+  },
+  {
+    "field_id": "S103-p02-190",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.9,
+      0.93,
+      0.93
+    ],
+    "locator": "Table 1 footnote",
+    "category": "units",
+    "expected": "kcal·mol⁻¹",
+    "lossy_alternative": "kcal·mol−1",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "kcal·mol−1",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "Calculated for the adsorption of carbon dioxide and methanol in the vicinity of the metal cluster\nand organic linkers, respectively. All energies are given in kcal·mol−1.",
+    "render": "private/renders/S103_p02.png",
+    "render_sha256": "aba3812c518ffc33ea3585130d2d5529e956e61adfb07b58a3e6e06d1e4412cb"
+  },
+  {
+    "field_id": "S103-p02-191",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 computed energy, not measured capacity",
+    "category": "relationships",
+    "expected": "carbon dioxide | organic linker | −7.86 kcal·mol⁻¹",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "                         Metal cluster            Organic linker\n\nCarbon dioxide                1.89                 −7.86\nMethanol                −7.70                  −3.27",
+    "render": "private/renders/S103_p02.png",
+    "render_sha256": "aba3812c518ffc33ea3585130d2d5529e956e61adfb07b58a3e6e06d1e4412cb"
+  }
+]

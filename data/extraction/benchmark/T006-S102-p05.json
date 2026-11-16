@@ -1,0 +1,178 @@
+[
+  {
+    "field_id": "S102-p05-204",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption, water loadings a/b/c",
+    "category": "numbers",
+    "expected": "2.05",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "2.05",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.",
+    "render": "private/renders/S102_p05.png",
+    "render_sha256": "e3030e1985fd52dbff41494b59c202c190023944b299ae38bf9efdc9a18b1fda"
+  },
+  {
+    "field_id": "S102-p05-205",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption, water loadings a/b/c",
+    "category": "numbers",
+    "expected": "3.03",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "3.03",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.",
+    "render": "private/renders/S102_p05.png",
+    "render_sha256": "e3030e1985fd52dbff41494b59c202c190023944b299ae38bf9efdc9a18b1fda"
+  },
+  {
+    "field_id": "S102-p05-206",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption, water loadings a/b/c",
+    "category": "numbers",
+    "expected": "4.10",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "4.10",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.",
+    "render": "private/renders/S102_p05.png",
+    "render_sha256": "e3030e1985fd52dbff41494b59c202c190023944b299ae38bf9efdc9a18b1fda"
+  },
+  {
+    "field_id": "S102-p05-207",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption, water loading unit",
+    "category": "units",
+    "expected": "mol/kg",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "mol/kg",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.",
+    "render": "private/renders/S102_p05.png",
+    "render_sha256": "e3030e1985fd52dbff41494b59c202c190023944b299ae38bf9efdc9a18b1fda"
+  },
+  {
+    "field_id": "S102-p05-208",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.13,
+      0.74,
+      0.8
+    ],
+    "locator": "Fig. S6 axes",
+    "category": "units",
+    "expected": "kPa",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S102_p05.png",
+    "render_sha256": "e3030e1985fd52dbff41494b59c202c190023944b299ae38bf9efdc9a18b1fda"
+  },
+  {
+    "field_id": "S102-p05-209",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption chemical indices",
+    "category": "symbols",
+    "expected": "CO₂/H₂O",
+    "lossy_alternative": "CO2/H2O",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "CO2/H2O",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.",
+    "render": "private/renders/S102_p05.png",
+    "render_sha256": "e3030e1985fd52dbff41494b59c202c190023944b299ae38bf9efdc9a18b1fda"
+  },
+  {
+    "field_id": "S102-p05-210",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.13,
+      0.74,
+      0.86
+    ],
+    "locator": "Fig. S6 panels a/b/c; temperature unknown in caption",
+    "category": "relationships",
+    "expected": "a → 2.05 mol/kg H₂O; b → 3.03; c → 4.10 | UiO-66-NH₂",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.",
+    "render": "private/renders/S102_p05.png",
+    "render_sha256": "e3030e1985fd52dbff41494b59c202c190023944b299ae38bf9efdc9a18b1fda"
+  },
+  {
+    "field_id": "S102-p05-211",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.13,
+      0.74,
+      0.86
+    ],
+    "locator": "Fig. S6 panels a/b/c; temperature unknown in caption",
+    "category": "relationships",
+    "expected": "green open diamond → experimental binary; triangle → IAST",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.",
+    "render": "private/renders/S102_p05.png",
+    "render_sha256": "e3030e1985fd52dbff41494b59c202c190023944b299ae38bf9efdc9a18b1fda"
+  }
+]

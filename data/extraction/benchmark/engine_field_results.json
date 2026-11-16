@@ -1,0 +1,2402 @@
+[
+  {
+    "field_id": "S100-p02-001",
+    "extraction_id": "T006-S100-p02",
+    "category": "numbers",
+    "expected": "50",
+    "engine": "pdftotext",
+    "candidate": "50",
+    "result": "correct",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p02-002",
+    "extraction_id": "T006-S100-p02",
+    "category": "numbers",
+    "expected": "2.5",
+    "engine": "pdftotext",
+    "candidate": "2.5",
+    "result": "correct",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p02-003",
+    "extraction_id": "T006-S100-p02",
+    "category": "numbers",
+    "expected": "36.5",
+    "engine": "pdftotext",
+    "candidate": "36.5",
+    "result": "correct",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p02-004",
+    "extraction_id": "T006-S100-p02",
+    "category": "numbers",
+    "expected": "353",
+    "engine": "pdftotext",
+    "candidate": "353",
+    "result": "correct",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p02-005",
+    "extraction_id": "T006-S100-p02",
+    "category": "numbers",
+    "expected": "423",
+    "engine": "pdftotext",
+    "candidate": "423",
+    "result": "correct",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p02-006",
+    "extraction_id": "T006-S100-p02",
+    "category": "numbers",
+    "expected": "8",
+    "engine": "pdftotext",
+    "candidate": "8",
+    "result": "correct",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p02-007",
+    "extraction_id": "T006-S100-p02",
+    "category": "units",
+    "expected": "353 K",
+    "engine": "pdftotext",
+    "candidate": "353 K",
+    "result": "correct",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p02-008",
+    "extraction_id": "T006-S100-p02",
+    "category": "units",
+    "expected": "423 K",
+    "engine": "pdftotext",
+    "candidate": "423 K",
+    "result": "correct",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p02-009",
+    "extraction_id": "T006-S100-p02",
+    "category": "units",
+    "expected": "8 h",
+    "engine": "pdftotext",
+    "candidate": "8 h",
+    "result": "correct",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p02-010",
+    "extraction_id": "T006-S100-p02",
+    "category": "symbols",
+    "expected": "ZrCl₄",
+    "engine": "pdftotext",
+    "candidate": "ZrCl4",
+    "result": "mismatch",
+    "region_text": "  UiO-66 was synthesized by a hydrothermal method1 following the procedures as:\n\nZrCl4 and terephthalic acid were mixed at the ratio of 1:1 at room temperature, and\n\nthen added into 50 ml DMF. About 2.5 ml HCl (36.5 wt%) was added into the above\n\nslurry drop by drop under ultrasonic for 20 min to fully dissolve the mixture. The\n\nmixture was then heated to 353 K and retained at 353 K for 12 h. After that, the\n\nsolution was cooled down to room temperate, and the obtained precipitation was\n\nwashed with DMF for 4 times in 3 days and the such-prepared UiO-66 was activated\n\nunder vacuum at 423 K for 8 h, and then sealed in a desiccator before use.\n\f"
+  },
+  {
+    "field_id": "S100-p03-011",
+    "extraction_id": "T006-S100-p03",
+    "category": "numbers",
+    "expected": "0.5",
+    "engine": "pdftotext",
+    "candidate": "0.5",
+    "result": "correct",
+    "region_text": "S2. Fixed-bed Adsorption Experiments\n\n  Fig. S1 showed the self-assembly experimental setup. This apparatus consisted of three\n\nparts, an adiabatic sorption column, a gaseous mixture system for controlling the composition,\n\nrelative humidity and temperature of gaseous mixture, and on-line gas mass spectrometer\n\nanalysis. The temperature of adsorption column could be adjusted and maintained at a\n\nconstant value with an accuracy of ±0.5 K. The relative humidity (RH) could be adjusted and\n\ncontrolled to a precision of ±3%.\n\f"
+  },
+  {
+    "field_id": "S100-p03-012",
+    "extraction_id": "T006-S100-p03",
+    "category": "numbers",
+    "expected": "3",
+    "engine": "pdftotext",
+    "candidate": "3",
+    "result": "correct",
+    "region_text": "S2. Fixed-bed Adsorption Experiments\n\n  Fig. S1 showed the self-assembly experimental setup. This apparatus consisted of three\n\nparts, an adiabatic sorption column, a gaseous mixture system for controlling the composition,\n\nrelative humidity and temperature of gaseous mixture, and on-line gas mass spectrometer\n\nanalysis. The temperature of adsorption column could be adjusted and maintained at a\n\nconstant value with an accuracy of ±0.5 K. The relative humidity (RH) could be adjusted and\n\ncontrolled to a precision of ±3%.\n\f"
+  },
+  {
+    "field_id": "S100-p03-013",
+    "extraction_id": "T006-S100-p03",
+    "category": "symbols",
+    "expected": "±0.5",
+    "engine": "pdftotext",
+    "candidate": "±0.5",
+    "result": "correct",
+    "region_text": "S2. Fixed-bed Adsorption Experiments\n\n  Fig. S1 showed the self-assembly experimental setup. This apparatus consisted of three\n\nparts, an adiabatic sorption column, a gaseous mixture system for controlling the composition,\n\nrelative humidity and temperature of gaseous mixture, and on-line gas mass spectrometer\n\nanalysis. The temperature of adsorption column could be adjusted and maintained at a\n\nconstant value with an accuracy of ±0.5 K. The relative humidity (RH) could be adjusted and\n\ncontrolled to a precision of ±3%.\n\f"
+  },
+  {
+    "field_id": "S100-p03-014",
+    "extraction_id": "T006-S100-p03",
+    "category": "symbols",
+    "expected": "±3%",
+    "engine": "pdftotext",
+    "candidate": "±3%",
+    "result": "correct",
+    "region_text": "S2. Fixed-bed Adsorption Experiments\n\n  Fig. S1 showed the self-assembly experimental setup. This apparatus consisted of three\n\nparts, an adiabatic sorption column, a gaseous mixture system for controlling the composition,\n\nrelative humidity and temperature of gaseous mixture, and on-line gas mass spectrometer\n\nanalysis. The temperature of adsorption column could be adjusted and maintained at a\n\nconstant value with an accuracy of ±0.5 K. The relative humidity (RH) could be adjusted and\n\ncontrolled to a precision of ±3%.\n\f"
+  },
+  {
+    "field_id": "S100-p03-015",
+    "extraction_id": "T006-S100-p03",
+    "category": "units",
+    "expected": "100 mg",
+    "engine": "pdftotext",
+    "candidate": "100 mg",
+    "result": "correct",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\nthrough the fixed bed of PEI@UiO-66 samples separately at different temperatures (308 K,\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\nrelative humidity (0%, 30%, and 55%) were measured separately.\n\f"
+  },
+  {
+    "field_id": "S100-p03-016",
+    "extraction_id": "T006-S100-p03",
+    "category": "units",
+    "expected": "1 bar",
+    "engine": "pdftotext",
+    "candidate": "1 bar",
+    "result": "correct",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\nthrough the fixed bed of PEI@UiO-66 samples separately at different temperatures (308 K,\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\nrelative humidity (0%, 30%, and 55%) were measured separately.\n\f"
+  },
+  {
+    "field_id": "S100-p03-017",
+    "extraction_id": "T006-S100-p03",
+    "category": "symbols",
+    "expected": "CO₂",
+    "engine": "pdftotext",
+    "candidate": "CO2",
+    "result": "mismatch",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\nthrough the fixed bed of PEI@UiO-66 samples separately at different temperatures (308 K,\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\nrelative humidity (0%, 30%, and 55%) were measured separately.\n\f"
+  },
+  {
+    "field_id": "S100-p03-018",
+    "extraction_id": "T006-S100-p03",
+    "category": "symbols",
+    "expected": "CH₄",
+    "engine": "pdftotext",
+    "candidate": "CH4",
+    "result": "mismatch",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\nthrough the fixed bed of PEI@UiO-66 samples separately at different temperatures (308 K,\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\nrelative humidity (0%, 30%, and 55%) were measured separately.\n\f"
+  },
+  {
+    "field_id": "S100-p03-019",
+    "extraction_id": "T006-S100-p03",
+    "category": "symbols",
+    "expected": "H₂O",
+    "engine": "pdftotext",
+    "candidate": "H2O",
+    "result": "mismatch",
+    "region_text": "  In fixed bed breakthrough experiments, the water vapor was generated by using a water\n\nbubbler. 100 mg of adsorbent was packed in the adsorption column (I.D. 0.8cm * L. 5cm).\n\nThe composition of gaseous mixture was adjusted and controlled by mass flow controller\n\nwhich simultaneously controls flowrates of three kinds of gases such as CO2, CH4, and N2.\n\nThe outlet gas composition was determined by using an on-line mass spectrometer (HIDEN\n\nQIC-20, Beijing, China). The breakthrough curves of CO2/CH4 binary mixture (10/90, v/v)\n\nthrough the fixed bed of PEI@UiO-66 samples separately at different temperatures (308 K,\n\n318 K, 328 K, 338K and 348K) and 1 bar were measured. In addition, the breakthrough\n\ncurves of CO2/N2/H2O ternary mixture at 1 bar and different temperatures under varied\n\nrelative humidity (0%, 30%, and 55%) were measured separately.\n\f"
+  },
+  {
+    "field_id": "S100-p04-020",
+    "extraction_id": "T006-S100-p04",
+    "category": "numbers",
+    "expected": "10",
+    "engine": "pdftotext",
+    "candidate": "10",
+    "result": "correct",
+    "region_text": "Figure S1. The self-assembly fixed-bed experimental setup. 1. CO2/CH4; 2. N2;\n\n3.He; 4. CO2/CH4; 5. Mass flow controller; 6. Mass flowmeter; 7.Water bubler; 8\n\n& 9. Gases mixer; 10. Bypass valve; 11. Hygrometer; 12. Adsorption column; 13.\n\nMass spectrometer.\n\f"
+  },
+  {
+    "field_id": "S100-p04-021",
+    "extraction_id": "T006-S100-p04",
+    "category": "numbers",
+    "expected": "11",
+    "engine": "pdftotext",
+    "candidate": "11",
+    "result": "correct",
+    "region_text": "Figure S1. The self-assembly fixed-bed experimental setup. 1. CO2/CH4; 2. N2;\n\n3.He; 4. CO2/CH4; 5. Mass flow controller; 6. Mass flowmeter; 7.Water bubler; 8\n\n& 9. Gases mixer; 10. Bypass valve; 11. Hygrometer; 12. Adsorption column; 13.\n\nMass spectrometer.\n\f"
+  },
+  {
+    "field_id": "S100-p04-022",
+    "extraction_id": "T006-S100-p04",
+    "category": "numbers",
+    "expected": "12",
+    "engine": "pdftotext",
+    "candidate": "12",
+    "result": "correct",
+    "region_text": "Figure S1. The self-assembly fixed-bed experimental setup. 1. CO2/CH4; 2. N2;\n\n3.He; 4. CO2/CH4; 5. Mass flow controller; 6. Mass flowmeter; 7.Water bubler; 8\n\n& 9. Gases mixer; 10. Bypass valve; 11. Hygrometer; 12. Adsorption column; 13.\n\nMass spectrometer.\n\f"
+  },
+  {
+    "field_id": "S100-p04-023",
+    "extraction_id": "T006-S100-p04",
+    "category": "numbers",
+    "expected": "13",
+    "engine": "pdftotext",
+    "candidate": "13",
+    "result": "correct",
+    "region_text": "Figure S1. The self-assembly fixed-bed experimental setup. 1. CO2/CH4; 2. N2;\n\n3.He; 4. CO2/CH4; 5. Mass flow controller; 6. Mass flowmeter; 7.Water bubler; 8\n\n& 9. Gases mixer; 10. Bypass valve; 11. Hygrometer; 12. Adsorption column; 13.\n\nMass spectrometer.\n\f"
+  },
+  {
+    "field_id": "S100-p04-024",
+    "extraction_id": "T006-S100-p04",
+    "category": "symbols",
+    "expected": "−",
+    "engine": "pdftotext",
+    "candidate": "−",
+    "result": "correct",
+    "region_text": "        Ci p                mads \nqi =            Vt − Vcol +          (1)\n       mads RT              ρ ads \n\f"
+  },
+  {
+    "field_id": "S100-p04-025",
+    "extraction_id": "T006-S100-p04",
+    "category": "relationships",
+    "expected": "qᵢ = Cᵢp/(m_ads RT) × (Vt − V_col + m_ads/ρ_ads)",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "        Ci p                mads \nqi =            Vt − Vcol +          (1)\n       mads RT              ρ ads \n\f"
+  },
+  {
+    "field_id": "S100-p05-026",
+    "extraction_id": "T006-S100-p05",
+    "category": "symbols",
+    "expected": "∫",
+    "engine": "pdftotext",
+    "candidate": "∫",
+    "result": "correct",
+    "region_text": "llowing equation:\n\n                              (2)\n                  C \n           t = ∫ 1 − t dt\n                  Ci \n\f"
+  },
+  {
+    "field_id": "S100-p05-027",
+    "extraction_id": "T006-S100-p05",
+    "category": "symbols",
+    "expected": "−",
+    "engine": "pdftotext",
+    "candidate": "−",
+    "result": "correct",
+    "region_text": "llowing equation:\n\n                              (2)\n                  C \n           t = ∫ 1 − t dt\n                  Ci \n\f"
+  },
+  {
+    "field_id": "S100-p05-028",
+    "extraction_id": "T006-S100-p05",
+    "category": "relationships",
+    "expected": "t = ∫(1 − Cₜ/Cᵢ)dt",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "llowing equation:\n\n                              (2)\n                  C \n           t = ∫ 1 − t dt\n                  Ci \n\f"
+  },
+  {
+    "field_id": "S100-p05-029",
+    "extraction_id": "T006-S100-p05",
+    "category": "relationships",
+    "expected": "Sᵢⱼ = (qᵢ/qⱼ)/(Xᵢ/Xⱼ)",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "           qi / q j\nSi , j =              (3)\n           Xi / X j\n\f"
+  },
+  {
+    "field_id": "S100-p07-030",
+    "extraction_id": "T006-S100-p07",
+    "category": "units",
+    "expected": "mmol/m²",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-030",
+    "extraction_id": "T006-S100-p07",
+    "category": "units",
+    "expected": "mmol/m²",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "=i\noO\n—m— UiO-66\n7 —@— 10PEI@UiO-66\n~~ 20PEI@UiIO-66\n—v— 30PEI@UiO-66\n=)\n(oe)\n!\n0.06 +\n0.04 -\n0.02 -\n4  — =\nee  —\n0.2 0.4 0.6 0.8 1.0"
+  },
+  {
+    "field_id": "S100-p07-031",
+    "extraction_id": "T006-S100-p07",
+    "category": "units",
+    "expected": "mmol/g",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-031",
+    "extraction_id": "T006-S100-p07",
+    "category": "units",
+    "expected": "mmol/g",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-032",
+    "extraction_id": "T006-S100-p07",
+    "category": "units",
+    "expected": "kPa",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-032",
+    "extraction_id": "T006-S100-p07",
+    "category": "units",
+    "expected": "kPa",
+    "engine": "tesseract",
+    "candidate": "kPa",
+    "result": "correct",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-033",
+    "extraction_id": "T006-S100-p07",
+    "category": "numbers",
+    "expected": "0.5",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-033",
+    "extraction_id": "T006-S100-p07",
+    "category": "numbers",
+    "expected": "0.5",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-034",
+    "extraction_id": "T006-S100-p07",
+    "category": "numbers",
+    "expected": "3.5",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-034",
+    "extraction_id": "T006-S100-p07",
+    "category": "numbers",
+    "expected": "3.5",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-035",
+    "extraction_id": "T006-S100-p07",
+    "category": "symbols",
+    "expected": "CO₂",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-035",
+    "extraction_id": "T006-S100-p07",
+    "category": "symbols",
+    "expected": "CO₂",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-036",
+    "extraction_id": "T006-S100-p07",
+    "category": "symbols",
+    "expected": "P/P₀",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-036",
+    "extraction_id": "T006-S100-p07",
+    "category": "symbols",
+    "expected": "P/P₀",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-037",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "black square → UiO-66",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-037",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "black square → UiO-66",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-038",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "red circle → 10PEI@UiO-66",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-038",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "red circle → 10PEI@UiO-66",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-039",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "blue up-triangle → 20PEI@UiO-66",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-039",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "blue up-triangle → 20PEI@UiO-66",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-040",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "magenta down-triangle → 30PEI@UiO-66",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-040",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "magenta down-triangle → 30PEI@UiO-66",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p07-041",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "green diamond → 40PEI@UiO-66",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S100-p07-041",
+    "extraction_id": "T006-S100-p07",
+    "category": "relationships",
+    "expected": "green diamond → 40PEI@UiO-66",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "B 3.54\n=e\" | BOPEI@UIO-66\n= 3.0\nS wa _220PEI@UIO-66\n@ 254 w —f -MOPEI@UIO-66\nc\n= 20- y ~$ - ™0PEI@UiO-66\nS a = eee\n= a 2a\n© 154 A a\neo | A -* vio-6s\n2 104 YA -_\noY 7\nSB 05- al\nN a\nO 0.0-— T T T T T ; T : T ;\nO 0 20 40 60 80 100 120 140\nP/P,, (kPa)"
+  },
+  {
+    "field_id": "S100-p09-042",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "1.463",
+    "engine": "pdftotext",
+    "candidate": "1.463",
+    "result": "correct",
+    "region_text": "UiO-66   1.463   0.0126   72.940   1.7583E-4   0.99994\n\f"
+  },
+  {
+    "field_id": "S100-p09-043",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.0126",
+    "engine": "pdftotext",
+    "candidate": "0.0126",
+    "result": "correct",
+    "region_text": "UiO-66   1.463   0.0126   72.940   1.7583E-4   0.99994\n\f"
+  },
+  {
+    "field_id": "S100-p09-044",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "72.940",
+    "engine": "pdftotext",
+    "candidate": "72.940",
+    "result": "correct",
+    "region_text": "UiO-66   1.463   0.0126   72.940   1.7583E-4   0.99994\n\f"
+  },
+  {
+    "field_id": "S100-p09-045",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "1.7583E-4",
+    "engine": "pdftotext",
+    "candidate": "1.7583E-4",
+    "result": "correct",
+    "region_text": "UiO-66   1.463   0.0126   72.940   1.7583E-4   0.99994\n\f"
+  },
+  {
+    "field_id": "S100-p09-046",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.99994",
+    "engine": "pdftotext",
+    "candidate": "0.99994",
+    "result": "correct",
+    "region_text": "UiO-66   1.463   0.0126   72.940   1.7583E-4   0.99994\n\f"
+  },
+  {
+    "field_id": "S100-p09-047",
+    "extraction_id": "T006-S100-p09",
+    "category": "relationships",
+    "expected": "UiO-66 | q1,b1,q2,d2,R² | 1.463,0.0126,72.940,1.7583E-4,0.99994",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "UiO-66   1.463   0.0126   72.940   1.7583E-4   0.99994\n\f"
+  },
+  {
+    "field_id": "S100-p09-048",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.698",
+    "engine": "pdftotext",
+    "candidate": "0.698",
+    "result": "correct",
+    "region_text": "10PEI@UiO-66   0.698   0.653   7.621   0.00299   0.99999\n\f"
+  },
+  {
+    "field_id": "S100-p09-049",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.653",
+    "engine": "pdftotext",
+    "candidate": "0.653",
+    "result": "correct",
+    "region_text": "10PEI@UiO-66   0.698   0.653   7.621   0.00299   0.99999\n\f"
+  },
+  {
+    "field_id": "S100-p09-050",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "7.621",
+    "engine": "pdftotext",
+    "candidate": "7.621",
+    "result": "correct",
+    "region_text": "10PEI@UiO-66   0.698   0.653   7.621   0.00299   0.99999\n\f"
+  },
+  {
+    "field_id": "S100-p09-051",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.00299",
+    "engine": "pdftotext",
+    "candidate": "0.00299",
+    "result": "correct",
+    "region_text": "10PEI@UiO-66   0.698   0.653   7.621   0.00299   0.99999\n\f"
+  },
+  {
+    "field_id": "S100-p09-052",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.99999",
+    "engine": "pdftotext",
+    "candidate": "0.99999",
+    "result": "correct",
+    "region_text": "10PEI@UiO-66   0.698   0.653   7.621   0.00299   0.99999\n\f"
+  },
+  {
+    "field_id": "S100-p09-053",
+    "extraction_id": "T006-S100-p09",
+    "category": "relationships",
+    "expected": "10PEI@UiO-66 | q1,b1,q2,d2,R² | 0.698,0.653,7.621,0.00299,0.99999",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "10PEI@UiO-66   0.698   0.653   7.621   0.00299   0.99999\n\f"
+  },
+  {
+    "field_id": "S100-p09-054",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.833",
+    "engine": "pdftotext",
+    "candidate": "0.833",
+    "result": "correct",
+    "region_text": "20PEI@UiO-66   0.833   0.477   8.124   0.00307   0.99986\n\f"
+  },
+  {
+    "field_id": "S100-p09-055",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.477",
+    "engine": "pdftotext",
+    "candidate": "0.477",
+    "result": "correct",
+    "region_text": "20PEI@UiO-66   0.833   0.477   8.124   0.00307   0.99986\n\f"
+  },
+  {
+    "field_id": "S100-p09-056",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "8.124",
+    "engine": "pdftotext",
+    "candidate": "8.124",
+    "result": "correct",
+    "region_text": "20PEI@UiO-66   0.833   0.477   8.124   0.00307   0.99986\n\f"
+  },
+  {
+    "field_id": "S100-p09-057",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.00307",
+    "engine": "pdftotext",
+    "candidate": "0.00307",
+    "result": "correct",
+    "region_text": "20PEI@UiO-66   0.833   0.477   8.124   0.00307   0.99986\n\f"
+  },
+  {
+    "field_id": "S100-p09-058",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.99986",
+    "engine": "pdftotext",
+    "candidate": "0.99986",
+    "result": "correct",
+    "region_text": "20PEI@UiO-66   0.833   0.477   8.124   0.00307   0.99986\n\f"
+  },
+  {
+    "field_id": "S100-p09-059",
+    "extraction_id": "T006-S100-p09",
+    "category": "relationships",
+    "expected": "20PEI@UiO-66 | q1,b1,q2,d2,R² | 0.833,0.477,8.124,0.00307,0.99986",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "20PEI@UiO-66   0.833   0.477   8.124   0.00307   0.99986\n\f"
+  },
+  {
+    "field_id": "S100-p09-060",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "1.056",
+    "engine": "pdftotext",
+    "candidate": "1.056",
+    "result": "correct",
+    "region_text": "30PEI@UiO-66   1.056   0.395   5.558   0.00307   0.99945\n\f"
+  },
+  {
+    "field_id": "S100-p09-061",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.395",
+    "engine": "pdftotext",
+    "candidate": "0.395",
+    "result": "correct",
+    "region_text": "30PEI@UiO-66   1.056   0.395   5.558   0.00307   0.99945\n\f"
+  },
+  {
+    "field_id": "S100-p09-062",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "5.558",
+    "engine": "pdftotext",
+    "candidate": "5.558",
+    "result": "correct",
+    "region_text": "30PEI@UiO-66   1.056   0.395   5.558   0.00307   0.99945\n\f"
+  },
+  {
+    "field_id": "S100-p09-063",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.00307",
+    "engine": "pdftotext",
+    "candidate": "0.00307",
+    "result": "correct",
+    "region_text": "30PEI@UiO-66   1.056   0.395   5.558   0.00307   0.99945\n\f"
+  },
+  {
+    "field_id": "S100-p09-064",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.99945",
+    "engine": "pdftotext",
+    "candidate": "0.99945",
+    "result": "correct",
+    "region_text": "30PEI@UiO-66   1.056   0.395   5.558   0.00307   0.99945\n\f"
+  },
+  {
+    "field_id": "S100-p09-065",
+    "extraction_id": "T006-S100-p09",
+    "category": "relationships",
+    "expected": "30PEI@UiO-66 | q1,b1,q2,d2,R² | 1.056,0.395,5.558,0.00307,0.99945",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "30PEI@UiO-66   1.056   0.395   5.558   0.00307   0.99945\n\f"
+  },
+  {
+    "field_id": "S100-p09-066",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "1.253",
+    "engine": "pdftotext",
+    "candidate": "1.253",
+    "result": "correct",
+    "region_text": "40PEI@UiO-66   1.253   2.345   1.578   0.0115   0.99991\n\f"
+  },
+  {
+    "field_id": "S100-p09-067",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "2.345",
+    "engine": "pdftotext",
+    "candidate": "2.345",
+    "result": "correct",
+    "region_text": "40PEI@UiO-66   1.253   2.345   1.578   0.0115   0.99991\n\f"
+  },
+  {
+    "field_id": "S100-p09-068",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "1.578",
+    "engine": "pdftotext",
+    "candidate": "1.578",
+    "result": "correct",
+    "region_text": "40PEI@UiO-66   1.253   2.345   1.578   0.0115   0.99991\n\f"
+  },
+  {
+    "field_id": "S100-p09-069",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.0115",
+    "engine": "pdftotext",
+    "candidate": "0.0115",
+    "result": "correct",
+    "region_text": "40PEI@UiO-66   1.253   2.345   1.578   0.0115   0.99991\n\f"
+  },
+  {
+    "field_id": "S100-p09-070",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "0.99991",
+    "engine": "pdftotext",
+    "candidate": "0.99991",
+    "result": "correct",
+    "region_text": "40PEI@UiO-66   1.253   2.345   1.578   0.0115   0.99991\n\f"
+  },
+  {
+    "field_id": "S100-p09-071",
+    "extraction_id": "T006-S100-p09",
+    "category": "relationships",
+    "expected": "40PEI@UiO-66 | q1,b1,q2,d2,R² | 1.253,2.345,1.578,0.0115,0.99991",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "40PEI@UiO-66   1.253   2.345   1.578   0.0115   0.99991\n\f"
+  },
+  {
+    "field_id": "S100-p09-072",
+    "extraction_id": "T006-S100-p09",
+    "category": "symbols",
+    "expected": "q₁",
+    "engine": "pdftotext",
+    "candidate": "q1",
+    "result": "mismatch",
+    "region_text": "Adsorbent   q1   b1   q2   d2   R2\n\f"
+  },
+  {
+    "field_id": "S100-p09-073",
+    "extraction_id": "T006-S100-p09",
+    "category": "symbols",
+    "expected": "d₂",
+    "engine": "pdftotext",
+    "candidate": "d2",
+    "result": "mismatch",
+    "region_text": "Adsorbent   q1   b1   q2   d2   R2\n\f"
+  },
+  {
+    "field_id": "S100-p09-074",
+    "extraction_id": "T006-S100-p09",
+    "category": "symbols",
+    "expected": "R²",
+    "engine": "pdftotext",
+    "candidate": "R2",
+    "result": "mismatch",
+    "region_text": "Adsorbent   q1   b1   q2   d2   R2\n\f"
+  },
+  {
+    "field_id": "S100-p09-075",
+    "extraction_id": "T006-S100-p09",
+    "category": "numbers",
+    "expected": "308",
+    "engine": "pdftotext",
+    "candidate": "308",
+    "result": "correct",
+    "region_text": "Figure S8. Breakthrough curves of CO2/CH4 binary mixture (vCO2/vCH4 of 1/9) over\n\n             UiO-66 at 308 K and under different relative humidities\n\f"
+  },
+  {
+    "field_id": "S100-p09-076",
+    "extraction_id": "T006-S100-p09",
+    "category": "relationships",
+    "expected": "UiO-66 | CO₂/CH₄ | 308 K | 80% RH",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S106-p03-077",
+    "extraction_id": "T006-S106-p03",
+    "category": "numbers",
+    "expected": "621",
+    "engine": "pdftotext",
+    "candidate": "621",
+    "result": "correct",
+    "region_text": "based on the published method [2].\n    ZrCl4 (621 mg, 2.66 mmol), 35% HCl (0.47 ml, 5.3 mmol) and H2bdc\n(885 mg, 5.32 mmol) were dissolved in 16 ml of N,N′ -dimethylforma­\nmide (DMF), transferred to 25 ml Teflon liners and heated for 24 h in\nstainless steel autoclaves at 100, 160 or 220 ◦ C, yielding UiO-66_100,\nUiO-66_160 and UiO-66_220, respectively. The temperatures of syn­\nthesis were chosen according to the data available in the literature [2].\nThe resulting solids were filtered, washed by adding 30 ml of DMF with\nstirring at 100 ◦ C for 90 min, and filtered again. Prior to activation at low\ntemperatures, the samples were exchanged with methanol for 24 h at\n60 ◦ C. After that, each sample was washed three times with methanol,\nfiltered and dried for 2–3 h at 80 ◦ C. The synthesis yields were as follows:\n0.634 g, 65.8% for UiO-66_220, 0.833 g, 81.0% for UiO-66_160 and\n\f"
+  },
+  {
+    "field_id": "S106-p03-078",
+    "extraction_id": "T006-S106-p03",
+    "category": "numbers",
+    "expected": "2.66",
+    "engine": "pdftotext",
+    "candidate": "2.66",
+    "result": "correct",
+    "region_text": "based on the published method [2].\n    ZrCl4 (621 mg, 2.66 mmol), 35% HCl (0.47 ml, 5.3 mmol) and H2bdc\n(885 mg, 5.32 mmol) were dissolved in 16 ml of N,N′ -dimethylforma­\nmide (DMF), transferred to 25 ml Teflon liners and heated for 24 h in\nstainless steel autoclaves at 100, 160 or 220 ◦ C, yielding UiO-66_100,\nUiO-66_160 and UiO-66_220, respectively. The temperatures of syn­\nthesis were chosen according to the data available in the literature [2].\nThe resulting solids were filtered, washed by adding 30 ml of DMF with\nstirring at 100 ◦ C for 90 min, and filtered again. Prior to activation at low\ntemperatures, the samples were exchanged with methanol for 24 h at\n60 ◦ C. After that, each sample was washed three times with methanol,\nfiltered and dried for 2–3 h at 80 ◦ C. The synthesis yields were as follows:\n0.634 g, 65.8% for UiO-66_220, 0.833 g, 81.0% for UiO-66_160 and\n\f"
+  },
+  {
+    "field_id": "S106-p03-079",
+    "extraction_id": "T006-S106-p03",
+    "category": "numbers",
+    "expected": "0.634",
+    "engine": "pdftotext",
+    "candidate": "0.634",
+    "result": "correct",
+    "region_text": "based on the published method [2].\n    ZrCl4 (621 mg, 2.66 mmol), 35% HCl (0.47 ml, 5.3 mmol) and H2bdc\n(885 mg, 5.32 mmol) were dissolved in 16 ml of N,N′ -dimethylforma­\nmide (DMF), transferred to 25 ml Teflon liners and heated for 24 h in\nstainless steel autoclaves at 100, 160 or 220 ◦ C, yielding UiO-66_100,\nUiO-66_160 and UiO-66_220, respectively. The temperatures of syn­\nthesis were chosen according to the data available in the literature [2].\nThe resulting solids were filtered, washed by adding 30 ml of DMF with\nstirring at 100 ◦ C for 90 min, and filtered again. Prior to activation at low\ntemperatures, the samples were exchanged with methanol for 24 h at\n60 ◦ C. After that, each sample was washed three times with methanol,\nfiltered and dried for 2–3 h at 80 ◦ C. The synthesis yields were as follows:\n0.634 g, 65.8% for UiO-66_220, 0.833 g, 81.0% for UiO-66_160 and\n\f"
+  },
+  {
+    "field_id": "S106-p03-080",
+    "extraction_id": "T006-S106-p03",
+    "category": "numbers",
+    "expected": "65.8",
+    "engine": "pdftotext",
+    "candidate": "65.8",
+    "result": "correct",
+    "region_text": "based on the published method [2].\n    ZrCl4 (621 mg, 2.66 mmol), 35% HCl (0.47 ml, 5.3 mmol) and H2bdc\n(885 mg, 5.32 mmol) were dissolved in 16 ml of N,N′ -dimethylforma­\nmide (DMF), transferred to 25 ml Teflon liners and heated for 24 h in\nstainless steel autoclaves at 100, 160 or 220 ◦ C, yielding UiO-66_100,\nUiO-66_160 and UiO-66_220, respectively. The temperatures of syn­\nthesis were chosen according to the data available in the literature [2].\nThe resulting solids were filtered, washed by adding 30 ml of DMF with\nstirring at 100 ◦ C for 90 min, and filtered again. Prior to activation at low\ntemperatures, the samples were exchanged with methanol for 24 h at\n60 ◦ C. After that, each sample was washed three times with methanol,\nfiltered and dried for 2–3 h at 80 ◦ C. The synthesis yields were as follows:\n0.634 g, 65.8% for UiO-66_220, 0.833 g, 81.0% for UiO-66_160 and\n\f"
+  },
+  {
+    "field_id": "S106-p03-081",
+    "extraction_id": "T006-S106-p03",
+    "category": "units",
+    "expected": "77 K",
+    "engine": "pdftotext",
+    "candidate": "77 K",
+    "result": "correct",
+    "region_text": "the crystals.\n    Adsorption isotherms were measured using static volumetric Auto­\nsorb IQ apparatus (Quantachrome Instruments) at 77 K for nitrogen, 87\nK for argon and 293 K for water. Prior to the measurements, all samples\nwere activated under vacuum for 1 h at 60 ◦ C, and 2 h at 150 ◦ C (2 ◦ C/\n\f"
+  },
+  {
+    "field_id": "S106-p03-082",
+    "extraction_id": "T006-S106-p03",
+    "category": "units",
+    "expected": "293 K",
+    "engine": "pdftotext",
+    "candidate": "293 K",
+    "result": "correct",
+    "region_text": "the crystals.\n    Adsorption isotherms were measured using static volumetric Auto­\nsorb IQ apparatus (Quantachrome Instruments) at 77 K for nitrogen, 87\nK for argon and 293 K for water. Prior to the measurements, all samples\nwere activated under vacuum for 1 h at 60 ◦ C, and 2 h at 150 ◦ C (2 ◦ C/\n\f"
+  },
+  {
+    "field_id": "S106-p03-083",
+    "extraction_id": "T006-S106-p03",
+    "category": "symbols",
+    "expected": "cm⁻¹",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "0.878 g, 62.7% for UiO-66_100.\n    FTIR spectra were recorded on a Thermo Scientific Nicolet iS10 FT-\nIR spectrophotometer equipped with an iD7 diamond ATR attachment in\na wavenumber range from 4000 to 400 cm− 1 with 32 scans.\n\f"
+  },
+  {
+    "field_id": "S106-p04-084",
+    "extraction_id": "T006-S106-p04",
+    "category": "numbers",
+    "expected": "1.2",
+    "engine": "pdftotext",
+    "candidate": "1.2",
+    "result": "correct",
+    "region_text": "(QE-TPDA) technique [50,51]. Prior to the measurement, a sample of\n1.2, 1.1 and 1.4 mg of UiO-66_100, UiO-66_160 and UiO-66_220\nrespectively, was activated by heating in a flow (6.5 cm3/min) of pure\nhelium (purity 5.0, Air Products) at 108 ◦ C\n\f"
+  },
+  {
+    "field_id": "S106-p04-085",
+    "extraction_id": "T006-S106-p04",
+    "category": "numbers",
+    "expected": "1.1",
+    "engine": "pdftotext",
+    "candidate": "1.1",
+    "result": "correct",
+    "region_text": "(QE-TPDA) technique [50,51]. Prior to the measurement, a sample of\n1.2, 1.1 and 1.4 mg of UiO-66_100, UiO-66_160 and UiO-66_220\nrespectively, was activated by heating in a flow (6.5 cm3/min) of pure\nhelium (purity 5.0, Air Products) at 108 ◦ C\n\f"
+  },
+  {
+    "field_id": "S106-p04-086",
+    "extraction_id": "T006-S106-p04",
+    "category": "numbers",
+    "expected": "1.4",
+    "engine": "pdftotext",
+    "candidate": "1.4",
+    "result": "correct",
+    "region_text": "(QE-TPDA) technique [50,51]. Prior to the measurement, a sample of\n1.2, 1.1 and 1.4 mg of UiO-66_100, UiO-66_160 and UiO-66_220\nrespectively, was activated by heating in a flow (6.5 cm3/min) of pure\nhelium (purity 5.0, Air Products) at 108 ◦ C\n\f"
+  },
+  {
+    "field_id": "S106-p04-087",
+    "extraction_id": "T006-S106-p04",
+    "category": "numbers",
+    "expected": "6.5",
+    "engine": "pdftotext",
+    "candidate": "6.5",
+    "result": "correct",
+    "region_text": "(QE-TPDA) technique [50,51]. Prior to the measurement, a sample of\n1.2, 1.1 and 1.4 mg of UiO-66_100, UiO-66_160 and UiO-66_220\nrespectively, was activated by heating in a flow (6.5 cm3/min) of pure\nhelium (purity 5.0, Air Products) at 108 ◦ C\n\f"
+  },
+  {
+    "field_id": "S106-p04-088",
+    "extraction_id": "T006-S106-p04",
+    "category": "symbols",
+    "expected": "5⋅10⁴",
+    "engine": "pdftotext",
+    "candidate": "5⋅104",
+    "result": "mismatch",
+    "region_text": "5⋅104 initialization cycles and 5⋅105 production cycles of translation,\nrotation, swap and reinsertion trial moves, where all probabilities were\n\f"
+  },
+  {
+    "field_id": "S106-p04-089",
+    "extraction_id": "T006-S106-p04",
+    "category": "symbols",
+    "expected": "5⋅10⁵",
+    "engine": "pdftotext",
+    "candidate": "5⋅105",
+    "result": "mismatch",
+    "region_text": "5⋅104 initialization cycles and 5⋅105 production cycles of translation,\nrotation, swap and reinsertion trial moves, where all probabilities were\n\f"
+  },
+  {
+    "field_id": "S106-p04-090",
+    "extraction_id": "T006-S106-p04",
+    "category": "relationships",
+    "expected": "θ_excess = θ_absolute − PV/(zRT)",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "                        PV\nθexcess = θabsolute −\n                        zRT\n\f"
+  },
+  {
+    "field_id": "S106-p05-091",
+    "extraction_id": "T006-S106-p05",
+    "category": "numbers",
+    "expected": "0.353",
+    "engine": "pdftotext",
+    "candidate": "0.353",
+    "result": "correct",
+    "region_text": "PV (cm3/g)   0.353   0.376   0.460\n\f"
+  },
+  {
+    "field_id": "S106-p05-092",
+    "extraction_id": "T006-S106-p05",
+    "category": "numbers",
+    "expected": "0.376",
+    "engine": "pdftotext",
+    "candidate": "0.376",
+    "result": "correct",
+    "region_text": "PV (cm3/g)   0.353   0.376   0.460\n\f"
+  },
+  {
+    "field_id": "S106-p05-093",
+    "extraction_id": "T006-S106-p05",
+    "category": "numbers",
+    "expected": "0.460",
+    "engine": "pdftotext",
+    "candidate": "0.460",
+    "result": "correct",
+    "region_text": "PV (cm3/g)   0.353   0.376   0.460\n\f"
+  },
+  {
+    "field_id": "S106-p05-094",
+    "extraction_id": "T006-S106-p05",
+    "category": "relationships",
+    "expected": "UiO-66_220 | PV | 0.353",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "PV (cm3/g)   0.353   0.376   0.460\n\f"
+  },
+  {
+    "field_id": "S106-p05-095",
+    "extraction_id": "T006-S106-p05",
+    "category": "relationships",
+    "expected": "UiO-66_160 | PV | 0.376",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "PV (cm3/g)   0.353   0.376   0.460\n\f"
+  },
+  {
+    "field_id": "S106-p05-096",
+    "extraction_id": "T006-S106-p05",
+    "category": "relationships",
+    "expected": "UiO-66_100 | PV | 0.460",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "PV (cm3/g)   0.353   0.376   0.460\n\f"
+  },
+  {
+    "field_id": "S106-p05-097",
+    "extraction_id": "T006-S106-p05",
+    "category": "numbers",
+    "expected": "1115",
+    "engine": "pdftotext",
+    "candidate": "1115",
+    "result": "correct",
+    "region_text": "BET (m2/g)   1115   1197   1646\n\f"
+  },
+  {
+    "field_id": "S106-p05-098",
+    "extraction_id": "T006-S106-p05",
+    "category": "numbers",
+    "expected": "1197",
+    "engine": "pdftotext",
+    "candidate": "1197",
+    "result": "correct",
+    "region_text": "BET (m2/g)   1115   1197   1646\n\f"
+  },
+  {
+    "field_id": "S106-p05-099",
+    "extraction_id": "T006-S106-p05",
+    "category": "numbers",
+    "expected": "1646",
+    "engine": "pdftotext",
+    "candidate": "1646",
+    "result": "correct",
+    "region_text": "BET (m2/g)   1115   1197   1646\n\f"
+  },
+  {
+    "field_id": "S106-p05-100",
+    "extraction_id": "T006-S106-p05",
+    "category": "relationships",
+    "expected": "UiO-66_220 | BET | 1115",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "BET (m2/g)   1115   1197   1646\n\f"
+  },
+  {
+    "field_id": "S106-p05-101",
+    "extraction_id": "T006-S106-p05",
+    "category": "relationships",
+    "expected": "UiO-66_160 | BET | 1197",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "BET (m2/g)   1115   1197   1646\n\f"
+  },
+  {
+    "field_id": "S106-p05-102",
+    "extraction_id": "T006-S106-p05",
+    "category": "relationships",
+    "expected": "UiO-66_100 | BET | 1646",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "BET (m2/g)   1115   1197   1646\n\f"
+  },
+  {
+    "field_id": "S106-p05-103",
+    "extraction_id": "T006-S106-p05",
+    "category": "units",
+    "expected": "cm³/g",
+    "engine": "pdftotext",
+    "candidate": "cm3/g",
+    "result": "mismatch",
+    "region_text": "PV (cm3/g)   0.353   0.376   0.460\nBET (m2/g)   1115    1197    1646\n\f"
+  },
+  {
+    "field_id": "S106-p05-104",
+    "extraction_id": "T006-S106-p05",
+    "category": "units",
+    "expected": "m²/g",
+    "engine": "pdftotext",
+    "candidate": "m2/g",
+    "result": "mismatch",
+    "region_text": "PV (cm3/g)   0.353   0.376   0.460\nBET (m2/g)   1115    1197    1646\n\f"
+  },
+  {
+    "field_id": "S106-p05-105",
+    "extraction_id": "T006-S106-p05",
+    "category": "units",
+    "expected": "293 K",
+    "engine": "pdftotext",
+    "candidate": "293 K",
+    "result": "correct",
+    "region_text": "Fig. 4. Experimental adsorption isotherms of water in UiO-66 without and with\ndefects measured at 293 K.\n\f"
+  },
+  {
+    "field_id": "S106-p05-106",
+    "extraction_id": "T006-S106-p05",
+    "category": "relationships",
+    "expected": "purple square → UiO-66_220 | H₂O | 293 K",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S106-p06-107",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "1.4",
+    "engine": "pdftotext",
+    "candidate": "1.4",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).\n\f"
+  },
+  {
+    "field_id": "S106-p06-107",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "1.4",
+    "engine": "tesseract",
+    "candidate": "1.4",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and Ui0-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa)."
+  },
+  {
+    "field_id": "S106-p06-108",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "2.6",
+    "engine": "pdftotext",
+    "candidate": "2.6",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).\n\f"
+  },
+  {
+    "field_id": "S106-p06-108",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "2.6",
+    "engine": "tesseract",
+    "candidate": "2.6",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and Ui0-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa)."
+  },
+  {
+    "field_id": "S106-p06-109",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "1.1",
+    "engine": "pdftotext",
+    "candidate": "1.1",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).\n\f"
+  },
+  {
+    "field_id": "S106-p06-109",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "1.1",
+    "engine": "tesseract",
+    "candidate": "1.1",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and Ui0-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa)."
+  },
+  {
+    "field_id": "S106-p06-110",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "1.2",
+    "engine": "pdftotext",
+    "candidate": "1.2",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).\n\f"
+  },
+  {
+    "field_id": "S106-p06-110",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "1.2",
+    "engine": "tesseract",
+    "candidate": "1.2",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and Ui0-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa)."
+  },
+  {
+    "field_id": "S106-p06-111",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "2.7",
+    "engine": "pdftotext",
+    "candidate": "2.7",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and UiO-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa).\n\f"
+  },
+  {
+    "field_id": "S106-p06-111",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "2.7",
+    "engine": "tesseract",
+    "candidate": "2.7",
+    "result": "correct",
+    "region_text": "Fig. 5. QE-TPDA profiles of water vapor measured at a heating/cooling rate of\n1, 1.5 and 2 K/min for UiO-66_220 (a), UiO-66_160 (b) and Ui0-66_100 (c)\nsamples (UiO-66_220: sample mass 1.4 mg, inlet pressure 2.6 kPa; UiO-66_160:\n1.1 mg, 2.6 kPa; UiO-66_100: 1.2 mg, 2.7 kPa)."
+  },
+  {
+    "field_id": "S106-p06-112",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "−1.0",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S106-p06-112",
+    "extraction_id": "T006-S106-p06",
+    "category": "numbers",
+    "expected": "−1.0",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "1.5\n0.5 -\n0.0 -\nAp (kPa)\n-1.0 -\n1 1 it 1 i 1 1 1 i 1 i 1 i 1 1\n290 300 310 320 330 340 350 360 370 380\n1.5\n1.0 F\nA.0F\n290 300 310 320 330 340 350 360 370 380\n1.5\n1.0 -\n0.0 F\nAp (kPa)\nn 1 a L 1 1 1 1 1 1 1 1 1 1 n i 1\n290 300 310 320 330 340 350 360 370 380\nT (K)"
+  },
+  {
+    "field_id": "S106-p06-113",
+    "extraction_id": "T006-S106-p06",
+    "category": "units",
+    "expected": "293 K",
+    "engine": "pdftotext",
+    "candidate": "293 K",
+    "result": "correct",
+    "region_text": "Fig. 6. Experimental and calculated adsorption isotherms (a) and isobars (b) of\nwater vapor in the defect-free UiO-66 structure, at 293 K and 2.6 kPa respec­\ntively. Closed symbols stand for adsorption, open symbols for desorption.\n\f"
+  },
+  {
+    "field_id": "S106-p06-113",
+    "extraction_id": "T006-S106-p06",
+    "category": "units",
+    "expected": "293 K",
+    "engine": "tesseract",
+    "candidate": "293 K",
+    "result": "correct",
+    "region_text": "Fig. 6. Experimental and calculated adsorption isotherms (a) and isobars (b) of\nwater vapor in the defect-free UiO-66 structure, at 293 K and 2.6 kPa respec-\ntively. Closed symbols stand for adsorption, open symbols for desorption."
+  },
+  {
+    "field_id": "S106-p06-114",
+    "extraction_id": "T006-S106-p06",
+    "category": "units",
+    "expected": "2.6 kPa",
+    "engine": "pdftotext",
+    "candidate": "2.6 kPa",
+    "result": "correct",
+    "region_text": "Fig. 6. Experimental and calculated adsorption isotherms (a) and isobars (b) of\nwater vapor in the defect-free UiO-66 structure, at 293 K and 2.6 kPa respec­\ntively. Closed symbols stand for adsorption, open symbols for desorption.\n\f"
+  },
+  {
+    "field_id": "S106-p06-114",
+    "extraction_id": "T006-S106-p06",
+    "category": "units",
+    "expected": "2.6 kPa",
+    "engine": "tesseract",
+    "candidate": "2.6 kPa",
+    "result": "correct",
+    "region_text": "Fig. 6. Experimental and calculated adsorption isotherms (a) and isobars (b) of\nwater vapor in the defect-free UiO-66 structure, at 293 K and 2.6 kPa respec-\ntively. Closed symbols stand for adsorption, open symbols for desorption."
+  },
+  {
+    "field_id": "S106-p06-115",
+    "extraction_id": "T006-S106-p06",
+    "category": "relationships",
+    "expected": "open squares → UiO-66_220 desorption",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S106-p06-115",
+    "extraction_id": "T006-S106-p06",
+    "category": "relationships",
+    "expected": "open squares → UiO-66_220 desorption",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "500\noe e--- 0-8\n(a) oo\n/ ode\n400 + oa\n~ oy &\n‘o a :\nFE 300 + a\n|\nE\n5\t1\t33\t1\t10\t2\t1654\t1479\t79\t48\t35.623302\tPoa\n4\t1\t33\t1\t11\t0\t1303\t1521\t350\t18\t-1\t\n5\t1\t33\t1\t11\t1\t1303\t1521\t20\t18\t22.066864\tS\n5\t1\t33\t1\t11\t2\t1649\t1527\t4\t7\t67.090057\tj\n4\t1\t33\t1\t12\t0\t1295\t1541\t353\t32\t-1\t\n5\t1\t33\t1\t12\t1\t1295\t1541\t35\t9\t40.154739\t&\n5\t1\t33\t1\t12\t2\t1345\t1550\t49\t23\t84.878731\t200\n5\t1\t33\t1\t12\t3\t1413\t1562\t12\t3\t65.921272\t+\n5\t1\t33\t1\t12\t4\t1640\t1542\t8\t22\t53.734741\t‘\n4\t1\t33\t1\t13\t0\t1296\t1610\t356\t32\t-1\t\n5\t1\t33\t1\t13\t1\t1296\t1615\t27\t18\t52.415848\t5\n5\t1\t33\t1\t13\t2\t1619\t1610\t33\t32\t3.045406\tA.)\n4\t1\t33\t1\t14\t0\t1296\t1636\t956\t47\t-1\t\n5\t1\t33\t1\t14\t1\t1296\t1636\t27\t46\t75.913712\t§\n5\t1\t33\t1\t14\t2\t1612\t1650\t77\t33\t0.000000\ti\n5\t1\t33\t1\t14\t3\t1843\t1651\t18\t18\t33.596844\t=\n5\t1\t33\t1\t14\t4\t1902\t1647\t181\t32\t60.875927\tUiO-66_220\n5\t1\t33\t1\t14\t5\t2095\t1647\t157\t32\t96.912125\tadsorption\n4\t1\t33\t1\t15\t0\t1347\t1689\t905\t45\t-1\t\n5\t1\t33\t1\t15\t1\t1347\t1696\t47\t23\t94.201637\t100\n5\t1\t33\t1\t15\t2\t1413\t1708\t12\t3\t91.024185\t+\n5\t1\t33\t1\t15\t3\t1567\t1716\t17\t18\t7.104464\t-\n5\t1\t33\t1\t15\t4\t1843\t1694\t18\t17\t77.771057\tO\n5\t1\t33\t1\t15\t5\t1902\t1689\t181\t32\t86.647583\tUiO-66_220\n5\t1\t33\t1\t15\t6\t2095\t1690\t157\t31\t96.741272\tdesorption\n4\t1\t33\t1\t16\t0\t1486\t1725\t623\t42\t-1\t\n5\t1\t33\t1\t16\t1\t1486\t1725\t79\t42\t53.772102\tpoo\n5\t1\t33\t1\t16\t2\t1585\t1726\t20\t37\t36.842365\t6\n5\t1\t33\t1\t16\t3\t1652\t1747\t18\t18\t69.118561\tog\n5\t1\t33\t1\t16\t4\t1902\t1731\t83\t33\t92.643944\tEQeq\n5\t1\t33\t1\t16\t5\t1999\t1732\t110\t25\t96.895882\tmethod\n4\t1\t33\t1\t17\t0\t1526\t1765\t699\t56\t-1\t\n5\t1\t33\t1\t17\t1\t1526\t1769\t60\t52\t28.446770\t-\n5\t1\t33\t1\t17\t2\t1593\t1765\t56\t35\t39.171566\ton\n--@-- Tuned EQeq charges\nLam\nOF ®\n1 1 1 1 1 1 1 1 1 1\n0.0 0.2 0.4 0.6 0.8 1.0\nP/Po\n500\ne. —— Ui0-66_220\n\\ --@-- Tuned EQeq charges\n400 -\n‘p>\n= 300 +\nn\noo\n&\nnoe\n2 200 -\n3\n©\no£\n100 +\nOF\n1 1 i 1 i 1 1 1 1 1 1 1 1 1 1\n290 300 310 320 330 340 350 360 370 380"
+  },
+  {
+    "field_id": "S106-p06-116",
+    "extraction_id": "T006-S106-p06",
+    "category": "relationships",
+    "expected": "dashed circle curve → Tuned EQeq charges (simulation)",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S106-p06-116",
+    "extraction_id": "T006-S106-p06",
+    "category": "relationships",
+    "expected": "dashed circle curve → Tuned EQeq charges (simulation)",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "500\noe e--- 0-8\n(a) oo\n/ ode\n400 + oa\n~ oy &\n‘o a :\nFE 300 + a\n|\nE\n5\t1\t33\t1\t10\t2\t1654\t1479\t79\t48\t35.623302\tPoa\n4\t1\t33\t1\t11\t0\t1303\t1521\t350\t18\t-1\t\n5\t1\t33\t1\t11\t1\t1303\t1521\t20\t18\t22.066864\tS\n5\t1\t33\t1\t11\t2\t1649\t1527\t4\t7\t67.090057\tj\n4\t1\t33\t1\t12\t0\t1295\t1541\t353\t32\t-1\t\n5\t1\t33\t1\t12\t1\t1295\t1541\t35\t9\t40.154739\t&\n5\t1\t33\t1\t12\t2\t1345\t1550\t49\t23\t84.878731\t200\n5\t1\t33\t1\t12\t3\t1413\t1562\t12\t3\t65.921272\t+\n5\t1\t33\t1\t12\t4\t1640\t1542\t8\t22\t53.734741\t‘\n4\t1\t33\t1\t13\t0\t1296\t1610\t356\t32\t-1\t\n5\t1\t33\t1\t13\t1\t1296\t1615\t27\t18\t52.415848\t5\n5\t1\t33\t1\t13\t2\t1619\t1610\t33\t32\t3.045406\tA.)\n4\t1\t33\t1\t14\t0\t1296\t1636\t956\t47\t-1\t\n5\t1\t33\t1\t14\t1\t1296\t1636\t27\t46\t75.913712\t§\n5\t1\t33\t1\t14\t2\t1612\t1650\t77\t33\t0.000000\ti\n5\t1\t33\t1\t14\t3\t1843\t1651\t18\t18\t33.596844\t=\n5\t1\t33\t1\t14\t4\t1902\t1647\t181\t32\t60.875927\tUiO-66_220\n5\t1\t33\t1\t14\t5\t2095\t1647\t157\t32\t96.912125\tadsorption\n4\t1\t33\t1\t15\t0\t1347\t1689\t905\t45\t-1\t\n5\t1\t33\t1\t15\t1\t1347\t1696\t47\t23\t94.201637\t100\n5\t1\t33\t1\t15\t2\t1413\t1708\t12\t3\t91.024185\t+\n5\t1\t33\t1\t15\t3\t1567\t1716\t17\t18\t7.104464\t-\n5\t1\t33\t1\t15\t4\t1843\t1694\t18\t17\t77.771057\tO\n5\t1\t33\t1\t15\t5\t1902\t1689\t181\t32\t86.647583\tUiO-66_220\n5\t1\t33\t1\t15\t6\t2095\t1690\t157\t31\t96.741272\tdesorption\n4\t1\t33\t1\t16\t0\t1486\t1725\t623\t42\t-1\t\n5\t1\t33\t1\t16\t1\t1486\t1725\t79\t42\t53.772102\tpoo\n5\t1\t33\t1\t16\t2\t1585\t1726\t20\t37\t36.842365\t6\n5\t1\t33\t1\t16\t3\t1652\t1747\t18\t18\t69.118561\tog\n5\t1\t33\t1\t16\t4\t1902\t1731\t83\t33\t92.643944\tEQeq\n5\t1\t33\t1\t16\t5\t1999\t1732\t110\t25\t96.895882\tmethod\n4\t1\t33\t1\t17\t0\t1526\t1765\t699\t56\t-1\t\n5\t1\t33\t1\t17\t1\t1526\t1769\t60\t52\t28.446770\t-\n5\t1\t33\t1\t17\t2\t1593\t1765\t56\t35\t39.171566\ton\n--@-- Tuned EQeq charges\nLam\nOF ®\n1 1 1 1 1 1 1 1 1 1\n0.0 0.2 0.4 0.6 0.8 1.0\nP/Po\n500\ne. —— Ui0-66_220\n\\ --@-- Tuned EQeq charges\n400 -\n‘p>\n= 300 +\nn\noo\n&\nnoe\n2 200 -\n3\n©\no£\n100 +\nOF\n1 1 i 1 i 1 1 1 1 1 1 1 1 1 1\n290 300 310 320 330 340 350 360 370 380"
+  },
+  {
+    "field_id": "S106-p07-117",
+    "extraction_id": "T006-S106-p07",
+    "category": "numbers",
+    "expected": "300",
+    "engine": "pdftotext",
+    "candidate": "300",
+    "result": "correct",
+    "region_text": "simulated adsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\n\f"
+  },
+  {
+    "field_id": "S106-p07-118",
+    "extraction_id": "T006-S106-p07",
+    "category": "numbers",
+    "expected": "700",
+    "engine": "pdftotext",
+    "candidate": "700",
+    "result": "correct",
+    "region_text": "simulated adsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\n\f"
+  },
+  {
+    "field_id": "S106-p07-119",
+    "extraction_id": "T006-S106-p07",
+    "category": "numbers",
+    "expected": "1700",
+    "engine": "pdftotext",
+    "candidate": "1700",
+    "result": "correct",
+    "region_text": "simulated adsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\n\f"
+  },
+  {
+    "field_id": "S106-p07-120",
+    "extraction_id": "T006-S106-p07",
+    "category": "numbers",
+    "expected": "100",
+    "engine": "pdftotext",
+    "candidate": "100",
+    "result": "correct",
+    "region_text": "simulated adsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\n\f"
+  },
+  {
+    "field_id": "S106-p07-121",
+    "extraction_id": "T006-S106-p07",
+    "category": "numbers",
+    "expected": "800",
+    "engine": "pdftotext",
+    "candidate": "800",
+    "result": "correct",
+    "region_text": "simulated adsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\n\f"
+  },
+  {
+    "field_id": "S106-p07-122",
+    "extraction_id": "T006-S106-p07",
+    "category": "numbers",
+    "expected": "1000",
+    "engine": "pdftotext",
+    "candidate": "1000",
+    "result": "correct",
+    "region_text": "simulated adsorption isobar (Fig. 6b).\n    Fig. 7 shows Average Occupation Profiles for the UiO-66_0 structure\ndetermined from calculations at 300, 700 and 1700 Pa, which represent\ndistribution maps of around 100, 800 and 1000 water molecules per unit\ncell, respectively. Water molecules first accumulate in metal-cluster\n\f"
+  },
+  {
+    "field_id": "S106-p07-123",
+    "extraction_id": "T006-S106-p07",
+    "category": "units",
+    "expected": "293.15 K",
+    "engine": "pdftotext",
+    "candidate": "293.15 K",
+    "result": "correct",
+    "region_text": "Fig. 7. Average occupation profiles of water in defect-free UiO-66 structure at 293.15 K. For easier interpretation, the UiO-66 structure model has been\nsuperimposed.\n\f"
+  },
+  {
+    "field_id": "S106-p07-124",
+    "extraction_id": "T006-S106-p07",
+    "category": "symbols",
+    "expected": "¹²⁺",
+    "engine": "pdftotext",
+    "candidate": "12+",
+    "result": "mismatch",
+    "region_text": "(Table 1)\n   After removing the bdc linkers, coordination of [Zr6O4(OH)4]12+\nclusters were complemented by hydroxyl groups. This creates an excess\nlocal charge that can be compensated in two ways by distributing it on\n\f"
+  },
+  {
+    "field_id": "S105-p08-125",
+    "extraction_id": "T006-S105-p08",
+    "category": "numbers",
+    "expected": "393",
+    "engine": "pdftotext",
+    "candidate": "393",
+    "result": "correct",
+    "region_text": "     The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.\n\f"
+  },
+  {
+    "field_id": "S105-p08-126",
+    "extraction_id": "T006-S105-p08",
+    "category": "numbers",
+    "expected": "273",
+    "engine": "pdftotext",
+    "candidate": "273",
+    "result": "correct",
+    "region_text": "     The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.\n\f"
+  },
+  {
+    "field_id": "S105-p08-127",
+    "extraction_id": "T006-S105-p08",
+    "category": "numbers",
+    "expected": "298",
+    "engine": "pdftotext",
+    "candidate": "298",
+    "result": "correct",
+    "region_text": "     The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.\n\f"
+  },
+  {
+    "field_id": "S105-p08-128",
+    "extraction_id": "T006-S105-p08",
+    "category": "numbers",
+    "expected": "318",
+    "engine": "pdftotext",
+    "candidate": "318",
+    "result": "correct",
+    "region_text": "     The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.\n\f"
+  },
+  {
+    "field_id": "S105-p08-129",
+    "extraction_id": "T006-S105-p08",
+    "category": "units",
+    "expected": "12 h",
+    "engine": "pdftotext",
+    "candidate": "12 h",
+    "result": "correct",
+    "region_text": "     The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.\n\f"
+  },
+  {
+    "field_id": "S105-p08-130",
+    "extraction_id": "T006-S105-p08",
+    "category": "units",
+    "expected": "393 K",
+    "engine": "pdftotext",
+    "candidate": "393 K",
+    "result": "correct",
+    "region_text": "     The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.\n\f"
+  },
+  {
+    "field_id": "S105-p08-131",
+    "extraction_id": "T006-S105-p08",
+    "category": "units",
+    "expected": "mmol/g",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S105-p08-132",
+    "extraction_id": "T006-S105-p08",
+    "category": "units",
+    "expected": "bar",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S105-p08-133",
+    "extraction_id": "T006-S105-p08",
+    "category": "relationships",
+    "expected": "teal down-triangle → UiO-66-NH₂/GO | 298 K",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S105-p09-134",
+    "extraction_id": "T006-S105-p09",
+    "category": "numbers",
+    "expected": "273",
+    "engine": "pdftotext",
+    "candidate": "273",
+    "result": "correct",
+    "region_text": "Figure 8. CO2 adsorption isotherms measured at 273 K (A); 298 K (B); and, 318 K (C).\n\f"
+  },
+  {
+    "field_id": "S105-p09-135",
+    "extraction_id": "T006-S105-p09",
+    "category": "numbers",
+    "expected": "298",
+    "engine": "pdftotext",
+    "candidate": "298",
+    "result": "correct",
+    "region_text": "Figure 8. CO2 adsorption isotherms measured at 273 K (A); 298 K (B); and, 318 K (C).\n\f"
+  },
+  {
+    "field_id": "S105-p09-136",
+    "extraction_id": "T006-S105-p09",
+    "category": "numbers",
+    "expected": "318",
+    "engine": "pdftotext",
+    "candidate": "318",
+    "result": "correct",
+    "region_text": "Figure 8. CO2 adsorption isotherms measured at 273 K (A); 298 K (B); and, 318 K (C).\n\f"
+  },
+  {
+    "field_id": "S105-p09-137",
+    "extraction_id": "T006-S105-p09",
+    "category": "numbers",
+    "expected": "3.93",
+    "engine": "pdftotext",
+    "candidate": "3.93",
+    "result": "correct",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2 /GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2 /GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,\n\f"
+  },
+  {
+    "field_id": "S105-p09-138",
+    "extraction_id": "T006-S105-p09",
+    "category": "numbers",
+    "expected": "3.66",
+    "engine": "pdftotext",
+    "candidate": "3.66",
+    "result": "correct",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2 /GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2 /GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,\n\f"
+  },
+  {
+    "field_id": "S105-p09-139",
+    "extraction_id": "T006-S105-p09",
+    "category": "numbers",
+    "expected": "6.41",
+    "engine": "pdftotext",
+    "candidate": "6.41",
+    "result": "correct",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2 /GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2 /GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,\n\f"
+  },
+  {
+    "field_id": "S105-p09-140",
+    "extraction_id": "T006-S105-p09",
+    "category": "numbers",
+    "expected": "6.10",
+    "engine": "pdftotext",
+    "candidate": "6.10",
+    "result": "correct",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2 /GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2 /GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,\n\f"
+  },
+  {
+    "field_id": "S105-p09-141",
+    "extraction_id": "T006-S105-p09",
+    "category": "numbers",
+    "expected": "2.26",
+    "engine": "pdftotext",
+    "candidate": "2.26",
+    "result": "correct",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2 /GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2 /GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,\n\f"
+  },
+  {
+    "field_id": "S105-p09-142",
+    "extraction_id": "T006-S105-p09",
+    "category": "units",
+    "expected": "mmol/g",
+    "engine": "pdftotext",
+    "candidate": "mmol/g",
+    "result": "correct",
+    "region_text": "was in favor of the transmission of CO2 to the adsorption site with high energy and the micropore\nwas in favor of the strong retention of CO2 molecules. As showed in Figure 8, the adsorption capacity\nof UiO-66-NH2 at 273 K below 1.0 bar is 3.93 mmol/g, which is 7.3% higher than that of UiO-66\n(3.66 mmol/g). A similar situation occurs when the adsorption temperature increases to 318 K.\nThe UiO-66-NH2 adsorption capacity is 1.60 mmol/g, which is 16.0% higher than that of UiO-66\n1.38 mmol/g. The UiO-66-NH2 /GO adsorption capacity at 273 K is 6.41 mmol/g, which is 5.1%\nhigher than that of UiO-66/GO (6.10 mmol/g), while the UiO-66-NH2 /GO adsorption capacity at\n318 K is 2.26 mmol/g, which is 20.2% higher than that of UiO-66 1.88 mmol/g. As known in Table 1,\n\f"
+  },
+  {
+    "field_id": "S105-p09-143",
+    "extraction_id": "T006-S105-p09",
+    "category": "relationships",
+    "expected": "panel C → 318 K",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "Figure 8. CO2 adsorption isotherms measured at 273 K (A); 298 K (B); and, 318 K (C).\n\f"
+  },
+  {
+    "field_id": "S113-p06-144",
+    "extraction_id": "T006-S113-p06",
+    "category": "numbers",
+    "expected": "120",
+    "engine": "pdftotext",
+    "candidate": "120",
+    "result": "correct",
+    "region_text": "Beach, FL, USA). All membranes were outgassed at 120 °C for 1 day. The CO2 and N2 adsorption\nisotherms were fitted using the single-site Langmuir equation as elaborated in Equation (1). This\nwas followed by the calculation of the solubility, S, of CO2 and N2 in the respective membranes. In\nEquation 6, q, ρ, and p are defined as the gas adsorbed per unit membrane mass, the membrane’s\ndensity, and the specified pressure, respectively. The diffusivity, D, of gas in the membrane can be\ncalculated using the relationship between permeability and solubility because the solution–diffusion\nmechanism is the transport mechanism in a dense membrane.\n\f"
+  },
+  {
+    "field_id": "S113-p06-145",
+    "extraction_id": "T006-S113-p06",
+    "category": "numbers",
+    "expected": "1",
+    "engine": "pdftotext",
+    "candidate": "1",
+    "result": "correct",
+    "region_text": "Beach, FL, USA). All membranes were outgassed at 120 °C for 1 day. The CO2 and N2 adsorption\nisotherms were fitted using the single-site Langmuir equation as elaborated in Equation (1). This\nwas followed by the calculation of the solubility, S, of CO2 and N2 in the respective membranes. In\nEquation 6, q, ρ, and p are defined as the gas adsorbed per unit membrane mass, the membrane’s\ndensity, and the specified pressure, respectively. The diffusivity, D, of gas in the membrane can be\ncalculated using the relationship between permeability and solubility because the solution–diffusion\nmechanism is the transport mechanism in a dense membrane.\n\f"
+  },
+  {
+    "field_id": "S113-p06-146",
+    "extraction_id": "T006-S113-p06",
+    "category": "units",
+    "expected": "120 °C",
+    "engine": "pdftotext",
+    "candidate": "120 °C",
+    "result": "correct",
+    "region_text": "Beach, FL, USA). All membranes were outgassed at 120 °C for 1 day. The CO2 and N2 adsorption\nisotherms were fitted using the single-site Langmuir equation as elaborated in Equation (1). This\nwas followed by the calculation of the solubility, S, of CO2 and N2 in the respective membranes. In\nEquation 6, q, ρ, and p are defined as the gas adsorbed per unit membrane mass, the membrane’s\ndensity, and the specified pressure, respectively. The diffusivity, D, of gas in the membrane can be\ncalculated using the relationship between permeability and solubility because the solution–diffusion\nmechanism is the transport mechanism in a dense membrane.\n\f"
+  },
+  {
+    "field_id": "S113-p06-147",
+    "extraction_id": "T006-S113-p06",
+    "category": "units",
+    "expected": "1 day",
+    "engine": "pdftotext",
+    "candidate": "1 day",
+    "result": "correct",
+    "region_text": "Beach, FL, USA). All membranes were outgassed at 120 °C for 1 day. The CO2 and N2 adsorption\nisotherms were fitted using the single-site Langmuir equation as elaborated in Equation (1). This\nwas followed by the calculation of the solubility, S, of CO2 and N2 in the respective membranes. In\nEquation 6, q, ρ, and p are defined as the gas adsorbed per unit membrane mass, the membrane’s\ndensity, and the specified pressure, respectively. The diffusivity, D, of gas in the membrane can be\ncalculated using the relationship between permeability and solubility because the solution–diffusion\nmechanism is the transport mechanism in a dense membrane.\n\f"
+  },
+  {
+    "field_id": "S113-p06-148",
+    "extraction_id": "T006-S113-p06",
+    "category": "numbers",
+    "expected": "2.888",
+    "engine": "pdftotext",
+    "candidate": "2.888",
+    "result": "correct",
+    "region_text": "     Equation 7, which evaluates the parameter of filler enhancement index (Findex), was used to\ncalculate the performance of the MMMs. In this expression, Pfilled and Punfilled are defined as the\npermeability of MMM and pure polymeric membrane; αfilled and αunfilled are the CO2/N2 selectivity of\nMMM and pure polymeric membrane; η is the enhancement coefficient, which is defined as 2.888\nbased on the slope of the Robeson upper bound published in 2008. This parameter was defined for\nCO2/N2 in a 2008 study to assist in quantifying the effectiveness of fillers in MMMs [4].\n\f"
+  },
+  {
+    "field_id": "S113-p06-149",
+    "extraction_id": "T006-S113-p06",
+    "category": "relationships",
+    "expected": "F_index = ln(P_filled/P_unfilled) + η ln(α_filled/α_unfilled)",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "Findex  ln \n            P            ln                (7)\n             unfilled             unfilled \n\f"
+  },
+  {
+    "field_id": "S113-p07-150",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "1733",
+    "engine": "pdftotext",
+    "candidate": "1733",
+    "result": "correct",
+    "region_text": "UiO-66   1733   2266   1662   0.809   0.938\n\f"
+  },
+  {
+    "field_id": "S113-p07-151",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "2266",
+    "engine": "pdftotext",
+    "candidate": "2266",
+    "result": "correct",
+    "region_text": "UiO-66   1733   2266   1662   0.809   0.938\n\f"
+  },
+  {
+    "field_id": "S113-p07-152",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "1662",
+    "engine": "pdftotext",
+    "candidate": "1662",
+    "result": "correct",
+    "region_text": "UiO-66   1733   2266   1662   0.809   0.938\n\f"
+  },
+  {
+    "field_id": "S113-p07-153",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.809",
+    "engine": "pdftotext",
+    "candidate": "0.809",
+    "result": "correct",
+    "region_text": "UiO-66   1733   2266   1662   0.809   0.938\n\f"
+  },
+  {
+    "field_id": "S113-p07-154",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.938",
+    "engine": "pdftotext",
+    "candidate": "0.938",
+    "result": "correct",
+    "region_text": "UiO-66   1733   2266   1662   0.809   0.938\n\f"
+  },
+  {
+    "field_id": "S113-p07-155",
+    "extraction_id": "T006-S113-p07",
+    "category": "relationships",
+    "expected": "UiO-66 | SBET,SLANG,Smicro,Vmicro,Vtotal | 1733,2266,1662,0.809,0.938",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "UiO-66   1733   2266   1662   0.809   0.938\n\f"
+  },
+  {
+    "field_id": "S113-p07-156",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "1218",
+    "engine": "pdftotext",
+    "candidate": "1218",
+    "result": "correct",
+    "region_text": "UiO-66-NH2   1218   1599   1160   0.569   0.682\n\f"
+  },
+  {
+    "field_id": "S113-p07-157",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "1599",
+    "engine": "pdftotext",
+    "candidate": "1599",
+    "result": "correct",
+    "region_text": "UiO-66-NH2   1218   1599   1160   0.569   0.682\n\f"
+  },
+  {
+    "field_id": "S113-p07-158",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "1160",
+    "engine": "pdftotext",
+    "candidate": "1160",
+    "result": "correct",
+    "region_text": "UiO-66-NH2   1218   1599   1160   0.569   0.682\n\f"
+  },
+  {
+    "field_id": "S113-p07-159",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.569",
+    "engine": "pdftotext",
+    "candidate": "0.569",
+    "result": "correct",
+    "region_text": "UiO-66-NH2   1218   1599   1160   0.569   0.682\n\f"
+  },
+  {
+    "field_id": "S113-p07-160",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.682",
+    "engine": "pdftotext",
+    "candidate": "0.682",
+    "result": "correct",
+    "region_text": "UiO-66-NH2   1218   1599   1160   0.569   0.682\n\f"
+  },
+  {
+    "field_id": "S113-p07-161",
+    "extraction_id": "T006-S113-p07",
+    "category": "relationships",
+    "expected": "UiO-66-NH₂ | SBET,SLANG,Smicro,Vmicro,Vtotal | 1218,1599,1160,0.569,0.682",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "UiO-66-NH2   1218   1599   1160   0.569   0.682\n\f"
+  },
+  {
+    "field_id": "S113-p07-162",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "851",
+    "engine": "pdftotext",
+    "candidate": "851",
+    "result": "correct",
+    "region_text": "UiO-66-Br   851   1117   818   0.380   0.440\n\f"
+  },
+  {
+    "field_id": "S113-p07-163",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "1117",
+    "engine": "pdftotext",
+    "candidate": "1117",
+    "result": "correct",
+    "region_text": "UiO-66-Br   851   1117   818   0.380   0.440\n\f"
+  },
+  {
+    "field_id": "S113-p07-164",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "818",
+    "engine": "pdftotext",
+    "candidate": "818",
+    "result": "correct",
+    "region_text": "UiO-66-Br   851   1117   818   0.380   0.440\n\f"
+  },
+  {
+    "field_id": "S113-p07-165",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.380",
+    "engine": "pdftotext",
+    "candidate": "0.380",
+    "result": "correct",
+    "region_text": "UiO-66-Br   851   1117   818   0.380   0.440\n\f"
+  },
+  {
+    "field_id": "S113-p07-166",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.440",
+    "engine": "pdftotext",
+    "candidate": "0.440",
+    "result": "correct",
+    "region_text": "UiO-66-Br   851   1117   818   0.380   0.440\n\f"
+  },
+  {
+    "field_id": "S113-p07-167",
+    "extraction_id": "T006-S113-p07",
+    "category": "relationships",
+    "expected": "UiO-66-Br | SBET,SLANG,Smicro,Vmicro,Vtotal | 851,1117,818,0.380,0.440",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "UiO-66-Br   851   1117   818   0.380   0.440\n\f"
+  },
+  {
+    "field_id": "S113-p07-168",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "318",
+    "engine": "pdftotext",
+    "candidate": "318",
+    "result": "correct",
+    "region_text": "UiO-66-(OH)2   318   418   293   0.136   0.178\n\f"
+  },
+  {
+    "field_id": "S113-p07-169",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "418",
+    "engine": "pdftotext",
+    "candidate": "418",
+    "result": "correct",
+    "region_text": "UiO-66-(OH)2   318   418   293   0.136   0.178\n\f"
+  },
+  {
+    "field_id": "S113-p07-170",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "293",
+    "engine": "pdftotext",
+    "candidate": "293",
+    "result": "correct",
+    "region_text": "UiO-66-(OH)2   318   418   293   0.136   0.178\n\f"
+  },
+  {
+    "field_id": "S113-p07-171",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.136",
+    "engine": "pdftotext",
+    "candidate": "0.136",
+    "result": "correct",
+    "region_text": "UiO-66-(OH)2   318   418   293   0.136   0.178\n\f"
+  },
+  {
+    "field_id": "S113-p07-172",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.178",
+    "engine": "pdftotext",
+    "candidate": "0.178",
+    "result": "correct",
+    "region_text": "UiO-66-(OH)2   318   418   293   0.136   0.178\n\f"
+  },
+  {
+    "field_id": "S113-p07-173",
+    "extraction_id": "T006-S113-p07",
+    "category": "relationships",
+    "expected": "UiO-66-(OH)₂ | SBET,SLANG,Smicro,Vmicro,Vtotal | 318,418,293,0.136,0.178",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "UiO-66-(OH)2   318   418   293   0.136   0.178\n\f"
+  },
+  {
+    "field_id": "S113-p07-174",
+    "extraction_id": "T006-S113-p07",
+    "category": "units",
+    "expected": "m²/g",
+    "engine": "pdftotext",
+    "candidate": "m2/g",
+    "result": "mismatch",
+    "region_text": "Sample   SBET(a) (m2/g)   SLANG(a) (m2/g)   Smicro(b) (m2/g)   Vmicro(b) (cc/g)   Vtotal(c) (cc/g)\n\f"
+  },
+  {
+    "field_id": "S113-p07-175",
+    "extraction_id": "T006-S113-p07",
+    "category": "units",
+    "expected": "cc/g",
+    "engine": "pdftotext",
+    "candidate": "cc/g",
+    "result": "correct",
+    "region_text": "Sample   SBET(a) (m2/g)   SLANG(a) (m2/g)   Smicro(b) (m2/g)   Vmicro(b) (cc/g)   Vtotal(c) (cc/g)\n\f"
+  },
+  {
+    "field_id": "S113-p07-176",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.05",
+    "engine": "pdftotext",
+    "candidate": "0.05",
+    "result": "correct",
+    "region_text": "UiO-66-(OH)2           318              418               293             0.136            0.178\n(a) BET surface area and Langmuir surface area (SBET and SLANG) were determined at P/Po = 0.05–0.2;\n(b) Micropore surface area and micropore volume (Smicro and Vmicro) were determined at P/Po = 0.4–0.6\nusing t-plot method; (c) Total pore volume (Vtotal) was determined at P/Po = 0.99.\n\f"
+  },
+  {
+    "field_id": "S113-p07-177",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.2",
+    "engine": "pdftotext",
+    "candidate": "0.2",
+    "result": "correct",
+    "region_text": "UiO-66-(OH)2           318              418               293             0.136            0.178\n(a) BET surface area and Langmuir surface area (SBET and SLANG) were determined at P/Po = 0.05–0.2;\n(b) Micropore surface area and micropore volume (Smicro and Vmicro) were determined at P/Po = 0.4–0.6\nusing t-plot method; (c) Total pore volume (Vtotal) was determined at P/Po = 0.99.\n\f"
+  },
+  {
+    "field_id": "S113-p07-178",
+    "extraction_id": "T006-S113-p07",
+    "category": "numbers",
+    "expected": "0.99",
+    "engine": "pdftotext",
+    "candidate": "0.99",
+    "result": "correct",
+    "region_text": "UiO-66-(OH)2           318              418               293             0.136            0.178\n(a) BET surface area and Langmuir surface area (SBET and SLANG) were determined at P/Po = 0.05–0.2;\n(b) Micropore surface area and micropore volume (Smicro and Vmicro) were determined at P/Po = 0.4–0.6\nusing t-plot method; (c) Total pore volume (Vtotal) was determined at P/Po = 0.99.\n\f"
+  },
+  {
+    "field_id": "S113-p09-179",
+    "extraction_id": "T006-S113-p09",
+    "category": "numbers",
+    "expected": "1.6",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S113-p09-179",
+    "extraction_id": "T006-S113-p09",
+    "category": "numbers",
+    "expected": "1.6",
+    "engine": "tesseract",
+    "candidate": "1.6",
+    "result": "correct",
+    "region_text": "(a) 1.6 (b) 0.16\n35°C 35°C\n—a— Ui0-66 —a— Ui0-66\n—\"—Ui0-66-NH,\n|) —s—ui0-66-NH, . o124\n—s=— Ui0-66-Br - a . —s—Ui0-66-Br\n—\"—Ui0-66-(OH), ao a —=—Vi0-66-(OH), |\n=\ncS)\n0.08 -\n=\nBb\nf\n.\n\\\n\\\n\\\n\\\n\\ \\\n4. 0.04 4 we\n.\n\\\n\\\n\\\n\\\n0.0 4 : 7 ; 0.00 r r r 7 r\n0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 04 06 08 1.0\nPressure (bar) Pressure (bar)"
+  },
+  {
+    "field_id": "S113-p09-180",
+    "extraction_id": "T006-S113-p09",
+    "category": "numbers",
+    "expected": "0.16",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S113-p09-180",
+    "extraction_id": "T006-S113-p09",
+    "category": "numbers",
+    "expected": "0.16",
+    "engine": "tesseract",
+    "candidate": "0.16",
+    "result": "correct",
+    "region_text": "(a) 1.6 (b) 0.16\n35°C 35°C\n—a— Ui0-66 —a— Ui0-66\n—\"—Ui0-66-NH,\n|) —s—ui0-66-NH, . o124\n—s=— Ui0-66-Br - a . —s—Ui0-66-Br\n—\"—Ui0-66-(OH), ao a —=—Vi0-66-(OH), |\n=\ncS)\n0.08 -\n=\nBb\nf\n.\n\\\n\\\n\\\n\\\n\\ \\\n4. 0.04 4 we\n.\n\\\n\\\n\\\n\\\n0.0 4 : 7 ; 0.00 r r r 7 r\n0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 04 06 08 1.0\nPressure (bar) Pressure (bar)"
+  },
+  {
+    "field_id": "S113-p09-181",
+    "extraction_id": "T006-S113-p09",
+    "category": "units",
+    "expected": "mmol/g",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S113-p09-181",
+    "extraction_id": "T006-S113-p09",
+    "category": "units",
+    "expected": "mmol/g",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "(a) 1.6 (b) 0.16\n35°C 35°C\n—a— Ui0-66 —a— Ui0-66\n—\"—Ui0-66-NH,\n|) —s—ui0-66-NH, . o124\n—s=— Ui0-66-Br - a . —s—Ui0-66-Br\n—\"—Ui0-66-(OH), ao a —=—Vi0-66-(OH), |\n=\ncS)\n0.08 -\n=\nBb\nf\n.\n\\\n\\\n\\\n\\\n\\ \\\n4. 0.04 4 we\n.\n\\\n\\\n\\\n\\\n0.0 4 : 7 ; 0.00 r r r 7 r\n0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 04 06 08 1.0\nPressure (bar) Pressure (bar)"
+  },
+  {
+    "field_id": "S113-p09-182",
+    "extraction_id": "T006-S113-p09",
+    "category": "units",
+    "expected": "bar",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S113-p09-182",
+    "extraction_id": "T006-S113-p09",
+    "category": "units",
+    "expected": "bar",
+    "engine": "tesseract",
+    "candidate": "bar",
+    "result": "correct",
+    "region_text": "(a) 1.6 (b) 0.16\n35°C 35°C\n—a— Ui0-66 —a— Ui0-66\n—\"—Ui0-66-NH,\n|) —s—ui0-66-NH, . o124\n—s=— Ui0-66-Br - a . —s—Ui0-66-Br\n—\"—Ui0-66-(OH), ao a —=—Vi0-66-(OH), |\n=\ncS)\n0.08 -\n=\nBb\nf\n.\n\\\n\\\n\\\n\\\n\\ \\\n4. 0.04 4 we\n.\n\\\n\\\n\\\n\\\n0.0 4 : 7 ; 0.00 r r r 7 r\n0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 04 06 08 1.0\nPressure (bar) Pressure (bar)"
+  },
+  {
+    "field_id": "S113-p09-183",
+    "extraction_id": "T006-S113-p09",
+    "category": "units",
+    "expected": "35 °C",
+    "engine": "pdftotext",
+    "candidate": "35 °C",
+    "result": "correct",
+    "region_text": "Figure 5. (a) CO2 and (b) N2 adsorption by nanocrystalline UiO-66 nanocrystals and its derivatives at\n35 °C.\n\f"
+  },
+  {
+    "field_id": "S113-p09-183",
+    "extraction_id": "T006-S113-p09",
+    "category": "units",
+    "expected": "35 °C",
+    "engine": "tesseract",
+    "candidate": "35 °C",
+    "result": "correct",
+    "region_text": "Figure 5. (a) COz and (b) N2 adsorption by nanocrystalline UiO-66 nanocrystals and its derivatives at\n35 °C."
+  },
+  {
+    "field_id": "S113-p09-184",
+    "extraction_id": "T006-S113-p09",
+    "category": "relationships",
+    "expected": "blue square → UiO-66-Br | panel a CO₂ | 35 °C",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S113-p09-184",
+    "extraction_id": "T006-S113-p09",
+    "category": "relationships",
+    "expected": "blue square → UiO-66-Br | panel a CO₂ | 35 °C",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "(a) 1.6 (b) 0.16\n35°C 35°C\n—a— Ui0-66 —a— Ui0-66\n—\"—Ui0-66-NH,\n|) —s—ui0-66-NH, . o124\n—s=— Ui0-66-Br - a . —s—Ui0-66-Br\n—\"—Ui0-66-(OH), ao a —=—Vi0-66-(OH), |\n=\ncS)\n0.08 -\n=\nBb\nf\n.\n\\\n\\\n\\\n\\\n\\ \\\n4. 0.04 4 we\n.\n\\\n\\\n\\\n\\\n0.0 4 : 7 ; 0.00 r r r 7 r\n0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 04 06 08 1.0\nPressure (bar) Pressure (bar)"
+  },
+  {
+    "field_id": "S113-p09-185",
+    "extraction_id": "T006-S113-p09",
+    "category": "relationships",
+    "expected": "blue square → UiO-66-Br | panel b N₂ | 35 °C",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S113-p09-185",
+    "extraction_id": "T006-S113-p09",
+    "category": "relationships",
+    "expected": "blue square → UiO-66-Br | panel b N₂ | 35 °C",
+    "engine": "tesseract",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "(a) 1.6 (b) 0.16\n35°C 35°C\n—a— Ui0-66 —a— Ui0-66\n—\"—Ui0-66-NH,\n|) —s—ui0-66-NH, . o124\n—s=— Ui0-66-Br - a . —s—Ui0-66-Br\n—\"—Ui0-66-(OH), ao a —=—Vi0-66-(OH), |\n=\ncS)\n0.08 -\n=\nBb\nf\n.\n\\\n\\\n\\\n\\\n\\ \\\n4. 0.04 4 we\n.\n\\\n\\\n\\\n\\\n0.0 4 : 7 ; 0.00 r r r 7 r\n0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 04 06 08 1.0\nPressure (bar) Pressure (bar)"
+  },
+  {
+    "field_id": "S103-p02-186",
+    "extraction_id": "T006-S103-p02",
+    "category": "numbers",
+    "expected": "1.89",
+    "engine": "pdftotext",
+    "candidate": "1.89",
+    "result": "correct",
+    "region_text": "                 Metal cluster   Organic linker\nCarbon dioxide    1.89           −7.86\nMethanol         −7.70           −3.27\n\f"
+  },
+  {
+    "field_id": "S103-p02-187",
+    "extraction_id": "T006-S103-p02",
+    "category": "numbers",
+    "expected": "−7.86",
+    "engine": "pdftotext",
+    "candidate": "−7.86",
+    "result": "correct",
+    "region_text": "                 Metal cluster   Organic linker\nCarbon dioxide    1.89           −7.86\nMethanol         −7.70           −3.27\n\f"
+  },
+  {
+    "field_id": "S103-p02-188",
+    "extraction_id": "T006-S103-p02",
+    "category": "numbers",
+    "expected": "−7.70",
+    "engine": "pdftotext",
+    "candidate": "−7.70",
+    "result": "correct",
+    "region_text": "                 Metal cluster   Organic linker\nCarbon dioxide    1.89           −7.86\nMethanol         −7.70           −3.27\n\f"
+  },
+  {
+    "field_id": "S103-p02-189",
+    "extraction_id": "T006-S103-p02",
+    "category": "numbers",
+    "expected": "−3.27",
+    "engine": "pdftotext",
+    "candidate": "−3.27",
+    "result": "correct",
+    "region_text": "                 Metal cluster   Organic linker\nCarbon dioxide    1.89           −7.86\nMethanol         −7.70           −3.27\n\f"
+  },
+  {
+    "field_id": "S103-p02-190",
+    "extraction_id": "T006-S103-p02",
+    "category": "units",
+    "expected": "kcal·mol⁻¹",
+    "engine": "pdftotext",
+    "candidate": "kcal·mol−1",
+    "result": "mismatch",
+    "region_text": "Calculated for the adsorption of carbon dioxide and methanol in the vicinity of the metal cluster\nand organic linkers, respectively. All energies are given in kcal·mol−1.\n\f"
+  },
+  {
+    "field_id": "S103-p02-191",
+    "extraction_id": "T006-S103-p02",
+    "category": "relationships",
+    "expected": "carbon dioxide | organic linker | −7.86 kcal·mol⁻¹",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "                 Metal cluster   Organic linker\nCarbon dioxide    1.89           −7.86\nMethanol         −7.70           −3.27\n\f"
+  },
+  {
+    "field_id": "S103-p03-192",
+    "extraction_id": "T006-S103-p03",
+    "category": "numbers",
+    "expected": "0.315",
+    "engine": "pdftotext",
+    "candidate": "0.315",
+    "result": "correct",
+    "region_text": "PV/cm3·g−1   0.315   0.410   0.444\n\f"
+  },
+  {
+    "field_id": "S103-p03-193",
+    "extraction_id": "T006-S103-p03",
+    "category": "numbers",
+    "expected": "0.410",
+    "engine": "pdftotext",
+    "candidate": "0.410",
+    "result": "correct",
+    "region_text": "PV/cm3·g−1   0.315   0.410   0.444\n\f"
+  },
+  {
+    "field_id": "S103-p03-194",
+    "extraction_id": "T006-S103-p03",
+    "category": "numbers",
+    "expected": "0.444",
+    "engine": "pdftotext",
+    "candidate": "0.444",
+    "result": "correct",
+    "region_text": "PV/cm3·g−1   0.315   0.410   0.444\n\f"
+  },
+  {
+    "field_id": "S103-p03-195",
+    "extraction_id": "T006-S103-p03",
+    "category": "numbers",
+    "expected": "980",
+    "engine": "pdftotext",
+    "candidate": "980",
+    "result": "correct",
+    "region_text": "BET/m2·g−1   980   1260   1438\n\f"
+  },
+  {
+    "field_id": "S103-p03-196",
+    "extraction_id": "T006-S103-p03",
+    "category": "numbers",
+    "expected": "1260",
+    "engine": "pdftotext",
+    "candidate": "1260",
+    "result": "correct",
+    "region_text": "BET/m2·g−1   980   1260   1438\n\f"
+  },
+  {
+    "field_id": "S103-p03-197",
+    "extraction_id": "T006-S103-p03",
+    "category": "numbers",
+    "expected": "1438",
+    "engine": "pdftotext",
+    "candidate": "1438",
+    "result": "correct",
+    "region_text": "BET/m2·g−1   980   1260   1438\n\f"
+  },
+  {
+    "field_id": "S103-p03-198",
+    "extraction_id": "T006-S103-p03",
+    "category": "units",
+    "expected": "cm³·g⁻¹",
+    "engine": "pdftotext",
+    "candidate": "cm3·g−1",
+    "result": "mismatch",
+    "region_text": "PV/cm3·g−1   0.315   0.410   0.444\nBET/m2·g−1   980     1260    1438\n\f"
+  },
+  {
+    "field_id": "S103-p03-199",
+    "extraction_id": "T006-S103-p03",
+    "category": "units",
+    "expected": "m²·g⁻¹",
+    "engine": "pdftotext",
+    "candidate": "m2·g−1",
+    "result": "mismatch",
+    "region_text": "PV/cm3·g−1   0.315   0.410   0.444\nBET/m2·g−1   980     1260    1438\n\f"
+  },
+  {
+    "field_id": "S103-p03-200",
+    "extraction_id": "T006-S103-p03",
+    "category": "units",
+    "expected": "cm³ STP·g⁻¹",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S103-p03-201",
+    "extraction_id": "T006-S103-p03",
+    "category": "units",
+    "expected": "bar",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S103-p03-202",
+    "extraction_id": "T006-S103-p03",
+    "category": "units",
+    "expected": "27 °C",
+    "engine": "pdftotext",
+    "candidate": "27 °C",
+    "result": "correct",
+    "region_text": "Fig. 2 Adsorption isotherms for carbon dioxide in UiO-66. a From experiment, b from calculations, measured/computed at 27 °C. Closed symbols stand\nfor adsorption, open for desorption.\n\f"
+  },
+  {
+    "field_id": "S103-p03-203",
+    "extraction_id": "T006-S103-p03",
+    "category": "relationships",
+    "expected": "panel a → experiment; panel b → calculations | 27 °C",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "herms for carbon dioxide in UiO-66. a From experiment, b from calculations, measured/computed at 27 °C.\nor desorption.\n\f"
+  },
+  {
+    "field_id": "S102-p05-204",
+    "extraction_id": "T006-S102-p05",
+    "category": "numbers",
+    "expected": "2.05",
+    "engine": "pdftotext",
+    "candidate": "2.05",
+    "result": "correct",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.\n\f"
+  },
+  {
+    "field_id": "S102-p05-205",
+    "extraction_id": "T006-S102-p05",
+    "category": "numbers",
+    "expected": "3.03",
+    "engine": "pdftotext",
+    "candidate": "3.03",
+    "result": "correct",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.\n\f"
+  },
+  {
+    "field_id": "S102-p05-206",
+    "extraction_id": "T006-S102-p05",
+    "category": "numbers",
+    "expected": "4.10",
+    "engine": "pdftotext",
+    "candidate": "4.10",
+    "result": "correct",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.\n\f"
+  },
+  {
+    "field_id": "S102-p05-207",
+    "extraction_id": "T006-S102-p05",
+    "category": "units",
+    "expected": "mol/kg",
+    "engine": "pdftotext",
+    "candidate": "mol/kg",
+    "result": "correct",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.\n\f"
+  },
+  {
+    "field_id": "S102-p05-208",
+    "extraction_id": "T006-S102-p05",
+    "category": "units",
+    "expected": "kPa",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "\f"
+  },
+  {
+    "field_id": "S102-p05-209",
+    "extraction_id": "T006-S102-p05",
+    "category": "symbols",
+    "expected": "CO₂/H₂O",
+    "engine": "pdftotext",
+    "candidate": "CO2/H2O",
+    "result": "mismatch",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n3.03 mol/kg, and (c) 4.10 mol/kg. Lines are a guide for the eye.\n\f"
+  },
+  {
+    "field_id": "S102-p05-210",
+    "extraction_id": "T006-S102-p05",
+    "category": "relationships",
+    "expected": "a → 2.05 mol/kg H₂O; b → 3.03; c → 4.10 | UiO-66-NH₂",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n\f"
+  },
+  {
+    "field_id": "S102-p05-211",
+    "extraction_id": "T006-S102-p05",
+    "category": "relationships",
+    "expected": "green open diamond → experimental binary; triangle → IAST",
+    "engine": "pdftotext",
+    "candidate": null,
+    "result": "omission",
+    "region_text": "Figure S6. IAST versus experimental binary adsorption data for\nCO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b)\n\f"
+  }
+]

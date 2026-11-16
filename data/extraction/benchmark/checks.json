@@ -1,0 +1,59 @@
+[
+  {
+    "command": [
+      "python3",
+      "scripts/extraction/score_pilot.py"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 2.995,
+    "log": "private/agent_logs/T006-check-0.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/extraction/compare_local_engines.py"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 3.44,
+    "log": "private/agent_logs/T006-check-1.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/extraction/digitize_s100.py"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 1.54,
+    "log": "private/agent_logs/T006-check-2.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/extraction/finalize_pilot.py"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 1.019,
+    "log": "private/agent_logs/T006-check-3.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_ocr.py",
+      "tests/test_provenance_units.py"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 3.25,
+    "log": "private/agent_logs/T006-check-4.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/extraction/finalize_pilot.py"
+    ],
+    "exit_code": 0,
+    "summary": "Final versions: 19 pages, 211 fields, 48 marker CSV/project round-trip, 20 provisional passports; schema/hash checks passed"
+  }
+]

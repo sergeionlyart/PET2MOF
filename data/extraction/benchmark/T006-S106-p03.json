@@ -1,0 +1,156 @@
+[
+  {
+    "field_id": "S106-p03-077",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.32,
+      0.95,
+      0.49
+    ],
+    "locator": "§2 Experimental, synthesis/activation paragraph (right column)",
+    "category": "numbers",
+    "expected": "621",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "621",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "based on the published method [2].\n   ZrCl4 (621 mg, 2.66 mmol), 35% HCl (0.47 ml, 5.3 mmol) and H2bdc\n(885 mg, 5.32 mmol) were dissolved in 16 ml of N,N′-dimethylforma­\nmide (DMF), transferred to 25 ml Teflon liners and heated for 24 h in\nstainless steel autoclaves at 100, 160 or 220 ◦C, yielding UiO-66_100,\nUiO-66_160 and UiO-66_220, respectively. The temperatures of syn­\nthesis were chosen according to the data available in the literature [2].\nThe resulting solids were filtered, washed by adding 30 ml of DMF with\nstirring at 100 ◦C for 90 min, and filtered again. Prior to activation at low\ntemperatures, the samples were exchanged with methanol for 24 h at\n60 ◦C. After that, each sample was washed three times with methanol,\nfiltered and dried for 2–3 h at 80 ◦C. The synthesis yields were as follows:\n0.634 g, 65.8% for UiO-66_220, 0.833 g, 81.0% for UiO-66_160 and",
+    "render": "private/renders/S106_p03.png",
+    "render_sha256": "a564054c0f4b2726f9fa946020c1a7cba2b62379b3d0289431d3043c2882abf5"
+  },
+  {
+    "field_id": "S106-p03-078",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.32,
+      0.95,
+      0.49
+    ],
+    "locator": "§2 Experimental, synthesis/activation paragraph (right column)",
+    "category": "numbers",
+    "expected": "2.66",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "2.66",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "based on the published method [2].\n   ZrCl4 (621 mg, 2.66 mmol), 35% HCl (0.47 ml, 5.3 mmol) and H2bdc\n(885 mg, 5.32 mmol) were dissolved in 16 ml of N,N′-dimethylforma­\nmide (DMF), transferred to 25 ml Teflon liners and heated for 24 h in\nstainless steel autoclaves at 100, 160 or 220 ◦C, yielding UiO-66_100,\nUiO-66_160 and UiO-66_220, respectively. The temperatures of syn­\nthesis were chosen according to the data available in the literature [2].\nThe resulting solids were filtered, washed by adding 30 ml of DMF with\nstirring at 100 ◦C for 90 min, and filtered again. Prior to activation at low\ntemperatures, the samples were exchanged with methanol for 24 h at\n60 ◦C. After that, each sample was washed three times with methanol,\nfiltered and dried for 2–3 h at 80 ◦C. The synthesis yields were as follows:\n0.634 g, 65.8% for UiO-66_220, 0.833 g, 81.0% for UiO-66_160 and",
+    "render": "private/renders/S106_p03.png",
+    "render_sha256": "a564054c0f4b2726f9fa946020c1a7cba2b62379b3d0289431d3043c2882abf5"
+  },
+  {
+    "field_id": "S106-p03-079",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.32,
+      0.95,
+      0.49
+    ],
+    "locator": "§2 Experimental, synthesis/activation paragraph (right column)",
+    "category": "numbers",
+    "expected": "0.634",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "0.634",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "based on the published method [2].\n   ZrCl4 (621 mg, 2.66 mmol), 35% HCl (0.47 ml, 5.3 mmol) and H2bdc\n(885 mg, 5.32 mmol) were dissolved in 16 ml of N,N′-dimethylforma­\nmide (DMF), transferred to 25 ml Teflon liners and heated for 24 h in\nstainless steel autoclaves at 100, 160 or 220 ◦C, yielding UiO-66_100,\nUiO-66_160 and UiO-66_220, respectively. The temperatures of syn­\nthesis were chosen according to the data available in the literature [2].\nThe resulting solids were filtered, washed by adding 30 ml of DMF with\nstirring at 100 ◦C for 90 min, and filtered again. Prior to activation at low\ntemperatures, the samples were exchanged with methanol for 24 h at\n60 ◦C. After that, each sample was washed three times with methanol,\nfiltered and dried for 2–3 h at 80 ◦C. The synthesis yields were as follows:\n0.634 g, 65.8% for UiO-66_220, 0.833 g, 81.0% for UiO-66_160 and",
+    "render": "private/renders/S106_p03.png",
+    "render_sha256": "a564054c0f4b2726f9fa946020c1a7cba2b62379b3d0289431d3043c2882abf5"
+  },
+  {
+    "field_id": "S106-p03-080",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.32,
+      0.95,
+      0.49
+    ],
+    "locator": "§2 Experimental, synthesis/activation paragraph (right column)",
+    "category": "numbers",
+    "expected": "65.8",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "65.8",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "based on the published method [2].\n   ZrCl4 (621 mg, 2.66 mmol), 35% HCl (0.47 ml, 5.3 mmol) and H2bdc\n(885 mg, 5.32 mmol) were dissolved in 16 ml of N,N′-dimethylforma­\nmide (DMF), transferred to 25 ml Teflon liners and heated for 24 h in\nstainless steel autoclaves at 100, 160 or 220 ◦C, yielding UiO-66_100,\nUiO-66_160 and UiO-66_220, respectively. The temperatures of syn­\nthesis were chosen according to the data available in the literature [2].\nThe resulting solids were filtered, washed by adding 30 ml of DMF with\nstirring at 100 ◦C for 90 min, and filtered again. Prior to activation at low\ntemperatures, the samples were exchanged with methanol for 24 h at\n60 ◦C. After that, each sample was washed three times with methanol,\nfiltered and dried for 2–3 h at 80 ◦C. The synthesis yields were as follows:\n0.634 g, 65.8% for UiO-66_220, 0.833 g, 81.0% for UiO-66_160 and",
+    "render": "private/renders/S106_p03.png",
+    "render_sha256": "a564054c0f4b2726f9fa946020c1a7cba2b62379b3d0289431d3043c2882abf5"
+  },
+  {
+    "field_id": "S106-p03-081",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.69,
+      0.95,
+      0.76
+    ],
+    "locator": "§2 Experimental, isotherm temperatures (right column bottom)",
+    "category": "units",
+    "expected": "77 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "77 K",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "the crystals.\n   Adsorption isotherms were measured using static volumetric Auto­\nsorb IQ apparatus (Quantachrome Instruments) at 77 K for nitrogen, 87\nK for argon and 293 K for water. Prior to the measurements, all samples\nwere activated under vacuum for 1 h at 60 ◦C, and 2 h at 150 ◦C (2 ◦C/",
+    "render": "private/renders/S106_p03.png",
+    "render_sha256": "a564054c0f4b2726f9fa946020c1a7cba2b62379b3d0289431d3043c2882abf5"
+  },
+  {
+    "field_id": "S106-p03-082",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.69,
+      0.95,
+      0.76
+    ],
+    "locator": "§2 Experimental, isotherm temperatures (right column bottom)",
+    "category": "units",
+    "expected": "293 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "293 K",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "the crystals.\n   Adsorption isotherms were measured using static volumetric Auto­\nsorb IQ apparatus (Quantachrome Instruments) at 77 K for nitrogen, 87\nK for argon and 293 K for water. Prior to the measurements, all samples\nwere activated under vacuum for 1 h at 60 ◦C, and 2 h at 150 ◦C (2 ◦C/",
+    "render": "private/renders/S106_p03.png",
+    "render_sha256": "a564054c0f4b2726f9fa946020c1a7cba2b62379b3d0289431d3043c2882abf5"
+  },
+  {
+    "field_id": "S106-p03-083",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.5,
+      0.95,
+      0.55
+    ],
+    "locator": "FTIR wavenumber unit",
+    "category": "symbols",
+    "expected": "cm⁻¹",
+    "lossy_alternative": "cm−1",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "cm−1",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "       g,                        _\n   FTIR spectra were recorded on a Thermo Scientific Nicolet iS10 FT-\nIR spectrophotometer equipped with an iD7 diamond ATR attachment in\na wavenumber range from 4000 to 400 cm−1 with 32 scans.\n   Powder X-ray diffraction (PXRD) patterns were recorded at room",
+    "render": "private/renders/S106_p03.png",
+    "render_sha256": "a564054c0f4b2726f9fa946020c1a7cba2b62379b3d0289431d3043c2882abf5"
+  }
+]

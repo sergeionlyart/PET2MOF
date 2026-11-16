@@ -1,0 +1,58 @@
+extraction_id: T006-S102-p05
+source_id: S102
+doi: 10.1021/acs.langmuir.1c01149
+url: null
+input_sha256: 1fbbe940f717c6d40e0b261595aa07e91760d045e9149d6dc4338392ab9aec6e
+pdf_page: 5
+api_page_map:
+  '1': 5
+figure_or_table: Fig. S6 axes; Fig. S6 caption chemical indices; Fig. S6 caption,
+  water loading unit; Fig. S6 caption, water loadings a/b/c; Fig. S6 panels a/b/c;
+  temperature unknown in caption
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S102-p05.json
+  render: private/renders/S102_p05.png
+  render_sha256: e3030e1985fd52dbff41494b59c202c190023944b299ae38bf9efdc9a18b1fda
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: S5
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.446503+00:00'
+raw_response_ref: private/ocr_cache/raw/9229565f87ee2939bfe3c81c55377e7570f2052232f75c28200888eac7d51c9d.json
+unit_conversions: []
+derived_sha256: 55bde80f30cde472c5ac81dc52bae14b8f73dfcd87ca14fa5c6e3784083a0b8f
+status: provisional
+reviewer: null
+corrections:
+- field_id: S102-p05-208
+  kind: omission
+  reference: kPa
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S102-p05-209
+  kind: mismatch
+  reference: CO₂/H₂O
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S102-p05-210
+  kind: omission
+  reference: a → 2.05 mol/kg H₂O; b → 3.03; c → 4.10 | UiO-66-NH₂
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S102-p05-211
+  kind: omission
+  reference: green open diamond → experimental binary; triangle → IAST
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 4
+  total: 8
+data_kind: text_value
+sensitivity_only: true

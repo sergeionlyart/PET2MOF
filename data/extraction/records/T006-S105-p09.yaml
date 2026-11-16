@@ -1,0 +1,42 @@
+extraction_id: T006-S105-p09
+source_id: S105
+doi: 10.3390/ma11040589
+url: null
+input_sha256: 1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a
+pdf_page: 9
+api_page_map:
+  '1': 9
+figure_or_table: Fig. 8 caption A/B/C temperature association; Fig. 8C caption; §3.4
+  uptake discussion; §3.4 uptake units
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S105-p09.json
+  render: private/renders/S105_p09.png
+  render_sha256: 8fe7706ed98253cfe4c8ea2a96adb483a23b6bf7d264ec83b5d0a6946e9e807b
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '9'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.282542+00:00'
+raw_response_ref: private/ocr_cache/raw/fe3bed3c6e838a34542e939e3793a9f6cb3084528128865930922ebac7dee955.json
+unit_conversions: []
+derived_sha256: 08481f3de313c31d437b68eea623cf30c05f6353a4722f214a96495c027c82b4
+status: provisional
+reviewer: null
+corrections:
+- field_id: S105-p09-143
+  kind: omission
+  reference: panel C → 318 K
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 9
+  total: 10
+data_kind: text_value
+sensitivity_only: true

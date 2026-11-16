@@ -1,0 +1,200 @@
+[
+  {
+    "field_id": "S105-p08-125",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 activation and temperature range",
+    "category": "numbers",
+    "expected": "393",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "393",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "    The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.",
+    "render": "private/renders/S105_p08.png",
+    "render_sha256": "3788bdabdb5066b83bc9d5abfc92fc3c5bde87bdc8d0b62f29ae8c2337ae8323"
+  },
+  {
+    "field_id": "S105-p08-126",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 activation and temperature range",
+    "category": "numbers",
+    "expected": "273",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "273",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "    The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.",
+    "render": "private/renders/S105_p08.png",
+    "render_sha256": "3788bdabdb5066b83bc9d5abfc92fc3c5bde87bdc8d0b62f29ae8c2337ae8323"
+  },
+  {
+    "field_id": "S105-p08-127",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 activation and temperature range",
+    "category": "numbers",
+    "expected": "298",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "298",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "    The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.",
+    "render": "private/renders/S105_p08.png",
+    "render_sha256": "3788bdabdb5066b83bc9d5abfc92fc3c5bde87bdc8d0b62f29ae8c2337ae8323"
+  },
+  {
+    "field_id": "S105-p08-128",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 activation and temperature range",
+    "category": "numbers",
+    "expected": "318",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "318",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "    The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.",
+    "render": "private/renders/S105_p08.png",
+    "render_sha256": "3788bdabdb5066b83bc9d5abfc92fc3c5bde87bdc8d0b62f29ae8c2337ae8323"
+  },
+  {
+    "field_id": "S105-p08-129",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 pretreatment",
+    "category": "units",
+    "expected": "12 h",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "12 h",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "    The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.",
+    "render": "private/renders/S105_p08.png",
+    "render_sha256": "3788bdabdb5066b83bc9d5abfc92fc3c5bde87bdc8d0b62f29ae8c2337ae8323"
+  },
+  {
+    "field_id": "S105-p08-130",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 pretreatment",
+    "category": "units",
+    "expected": "393 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "393 K",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "    The CO2 adsorption performance of the samples was elevated using a physical adsorption\ninstrument under the condition of low voltage static. Before the gas adsorption test, all of the samples\nwere dried under vacuum for 12 h at 393 K to completely remove the solvent molecules from inorganic\nmetal element Zr [13]. CO2 adsorption isotherms of different samples are shown in Figure 8. The tests\nwere carried out at 273 K, 298 K, and 318 K, respectively, and 0~1.2 bar.",
+    "render": "private/renders/S105_p08.png",
+    "render_sha256": "3788bdabdb5066b83bc9d5abfc92fc3c5bde87bdc8d0b62f29ae8c2337ae8323"
+  },
+  {
+    "field_id": "S105-p08-131",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.29,
+      0.33,
+      0.7,
+      0.79
+    ],
+    "locator": "Fig. 8 A/B axes",
+    "category": "units",
+    "expected": "mmol/g",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S105_p08.png",
+    "render_sha256": "3788bdabdb5066b83bc9d5abfc92fc3c5bde87bdc8d0b62f29ae8c2337ae8323"
+  },
+  {
+    "field_id": "S105-p08-132",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.29,
+      0.33,
+      0.7,
+      0.79
+    ],
+    "locator": "Fig. 8 A/B axes",
+    "category": "units",
+    "expected": "bar",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S105_p08.png",
+    "render_sha256": "3788bdabdb5066b83bc9d5abfc92fc3c5bde87bdc8d0b62f29ae8c2337ae8323"
+  },
+  {
+    "field_id": "S105-p08-133",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.29,
+      0.33,
+      0.7,
+      0.79
+    ],
+    "locator": "Fig. 8B legend, temperature from caption on p.9",
+    "category": "relationships",
+    "expected": "teal down-triangle → UiO-66-NH₂/GO | 298 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S105_p08.png",
+    "render_sha256": "3788bdabdb5066b83bc9d5abfc92fc3c5bde87bdc8d0b62f29ae8c2337ae8323"
+  }
+]

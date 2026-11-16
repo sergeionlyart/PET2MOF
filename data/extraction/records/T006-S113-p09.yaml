@@ -1,0 +1,66 @@
+extraction_id: T006-S113-p09
+source_id: S113
+doi: 10.3390/membranes10070154
+url: null
+input_sha256: 4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a
+pdf_page: 9
+api_page_map:
+  '1': 9
+figure_or_table: Fig. 5 a/b axes; Fig. 5 caption; Fig. 5a/b series and gas
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S113-p09.json
+  render: private/renders/S113_p09.png
+  render_sha256: 90bdd424c1d1747e05f7e9821a942cf3840e6dc58e966b20fdba3d9e612e9f73
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '9'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.439580+00:00'
+raw_response_ref: private/ocr_cache/raw/ada0cc2797a8e155796b0956bbc8cee73076c4c8b026a5cc59921182b0c7f026.json
+unit_conversions: []
+derived_sha256: e66261abba61ed9397a17667d4f1bc01ef09f371f241cfb0cdc8517a6cadb14d
+status: provisional
+reviewer: null
+corrections:
+- field_id: S113-p09-179
+  kind: omission
+  reference: '1.6'
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S113-p09-180
+  kind: omission
+  reference: '0.16'
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S113-p09-181
+  kind: omission
+  reference: mmol/g
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S113-p09-182
+  kind: omission
+  reference: bar
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S113-p09-184
+  kind: omission
+  reference: blue square → UiO-66-Br | panel a CO₂ | 35 °C
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S113-p09-185
+  kind: omission
+  reference: blue square → UiO-66-Br | panel b N₂ | 35 °C
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 1
+  total: 7
+data_kind: text_value
+sensitivity_only: true

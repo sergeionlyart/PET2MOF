@@ -1,0 +1,3378 @@
+[
+  {
+    "field_id": "S100-p02-001",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "50",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p02-002",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "2.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p02-003",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "36.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p02-004",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "353",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p02-005",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "423",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p02-006",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis, lower paragraph",
+    "category": "numbers",
+    "expected": "8",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p02-007",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis",
+    "category": "units",
+    "expected": "353 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p02-008",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis",
+    "category": "units",
+    "expected": "423 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p02-009",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 synthesis",
+    "category": "units",
+    "expected": "8 h",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p02-010",
+    "extraction_id": "T006-S100-p02",
+    "region_norm": [
+      0.17,
+      0.57,
+      0.83,
+      0.88
+    ],
+    "locator": "§S1 precursor",
+    "category": "symbols",
+    "expected": "ZrCl₄",
+    "lossy_alternative": "ZrCl4",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p03-011",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.1,
+      0.83,
+      0.35
+    ],
+    "locator": "§S2 first paragraph: apparatus precision",
+    "category": "numbers",
+    "expected": "0.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p03-012",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.1,
+      0.83,
+      0.35
+    ],
+    "locator": "§S2 first paragraph: apparatus precision",
+    "category": "numbers",
+    "expected": "3",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p03-013",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.1,
+      0.83,
+      0.35
+    ],
+    "locator": "§S2 precision",
+    "category": "symbols",
+    "expected": "±0.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p03-014",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.1,
+      0.83,
+      0.35
+    ],
+    "locator": "§S2 precision",
+    "category": "symbols",
+    "expected": "±3%",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p03-015",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 second paragraph: conditions",
+    "category": "units",
+    "expected": "100 mg",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p03-016",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 second paragraph: conditions",
+    "category": "units",
+    "expected": "1 bar",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p03-017",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 gas names",
+    "category": "symbols",
+    "expected": "CO₂",
+    "lossy_alternative": "CO2",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p03-018",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 gas names",
+    "category": "symbols",
+    "expected": "CH₄",
+    "lossy_alternative": "CH4",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p03-019",
+    "extraction_id": "T006-S100-p03",
+    "region_norm": [
+      0.17,
+      0.35,
+      0.83,
+      0.76
+    ],
+    "locator": "§S2 gas names",
+    "category": "symbols",
+    "expected": "H₂O",
+    "lossy_alternative": "H2O",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p04-020",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.32,
+      0.84,
+      0.47
+    ],
+    "locator": "Fig. S1 caption, instrument list",
+    "category": "numbers",
+    "expected": "10",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p04-021",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.32,
+      0.84,
+      0.47
+    ],
+    "locator": "Fig. S1 caption, instrument list",
+    "category": "numbers",
+    "expected": "11",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p04-022",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.32,
+      0.84,
+      0.47
+    ],
+    "locator": "Fig. S1 caption, instrument list",
+    "category": "numbers",
+    "expected": "12",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p04-023",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.32,
+      0.84,
+      0.47
+    ],
+    "locator": "Fig. S1 caption, instrument list",
+    "category": "numbers",
+    "expected": "13",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p04-024",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.7,
+      0.7,
+      0.77
+    ],
+    "locator": "Eq. (1), free-volume correction, minus sign",
+    "category": "symbols",
+    "expected": "−",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p04-025",
+    "extraction_id": "T006-S100-p04",
+    "region_norm": [
+      0.2,
+      0.7,
+      0.7,
+      0.77
+    ],
+    "locator": "Eq. (1): qi=Ci p/(mads RT) × (Vt−Vcol+mads/rhoads)",
+    "category": "relationships",
+    "expected": "qᵢ = Cᵢp/(m_ads RT) × (Vt − V_col + m_ads/ρ_ads)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p05-026",
+    "extraction_id": "T006-S100-p05",
+    "region_norm": [
+      0.2,
+      0.13,
+      0.69,
+      0.23
+    ],
+    "locator": "Eq. (2), integration and subtraction",
+    "category": "symbols",
+    "expected": "∫",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p05-027",
+    "extraction_id": "T006-S100-p05",
+    "region_norm": [
+      0.2,
+      0.13,
+      0.69,
+      0.23
+    ],
+    "locator": "Eq. (2), integration and subtraction",
+    "category": "symbols",
+    "expected": "−",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p05-028",
+    "extraction_id": "T006-S100-p05",
+    "region_norm": [
+      0.2,
+      0.13,
+      0.69,
+      0.23
+    ],
+    "locator": "Eq. (2), integration of concentration ratio",
+    "category": "relationships",
+    "expected": "t = ∫(1 − Cₜ/Cᵢ)dt",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p05-029",
+    "extraction_id": "T006-S100-p05",
+    "region_norm": [
+      0.2,
+      0.48,
+      0.69,
+      0.55
+    ],
+    "locator": "Eq. (3), ratio of ratios",
+    "category": "relationships",
+    "expected": "Sᵢⱼ = (qᵢ/qⱼ)/(Xᵢ/Xⱼ)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-030",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.3,
+      0.1,
+      0.75,
+      0.36
+    ],
+    "locator": "Fig. S4 y axis and legend",
+    "category": "units",
+    "expected": "mmol/m²",
+    "lossy_alternative": "mmol/m2",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-031",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 axes",
+    "category": "units",
+    "expected": "mmol/g",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-032",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 axes",
+    "category": "units",
+    "expected": "kPa",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-033",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 y major ticks",
+    "category": "numbers",
+    "expected": "0.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-034",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 y major ticks",
+    "category": "numbers",
+    "expected": "3.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-035",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 axes",
+    "category": "symbols",
+    "expected": "CO₂",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-036",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 axes",
+    "category": "symbols",
+    "expected": "P/P₀",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-037",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 symbols: marker shape/colour and material; temperature unknown in this caption",
+    "category": "relationships",
+    "expected": "black square → UiO-66",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-038",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 symbols: marker shape/colour and material; temperature unknown in this caption",
+    "category": "relationships",
+    "expected": "red circle → 10PEI@UiO-66",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-039",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 symbols: marker shape/colour and material; temperature unknown in this caption",
+    "category": "relationships",
+    "expected": "blue up-triangle → 20PEI@UiO-66",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-040",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 symbols: marker shape/colour and material; temperature unknown in this caption",
+    "category": "relationships",
+    "expected": "magenta down-triangle → 30PEI@UiO-66",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p07-041",
+    "extraction_id": "T006-S100-p07",
+    "region_norm": [
+      0.25,
+      0.53,
+      0.75,
+      0.83
+    ],
+    "locator": "Fig. S5 symbols: marker shape/colour and material; temperature unknown in this caption",
+    "category": "relationships",
+    "expected": "green diamond → 40PEI@UiO-66",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-042",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.698,
+      0.82,
+      0.726
+    ],
+    "locator": "Table S1 row UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "1.463",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-043",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.698,
+      0.82,
+      0.726
+    ],
+    "locator": "Table S1 row UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.0126",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-044",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.698,
+      0.82,
+      0.726
+    ],
+    "locator": "Table S1 row UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "72.940",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-045",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.698,
+      0.82,
+      0.726
+    ],
+    "locator": "Table S1 row UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "1.7583E-4",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-046",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.698,
+      0.82,
+      0.726
+    ],
+    "locator": "Table S1 row UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.99994",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-047",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.698,
+      0.82,
+      0.726
+    ],
+    "locator": "Table S1 row UiO-66",
+    "category": "relationships",
+    "expected": "UiO-66 | q1,b1,q2,d2,R² | 1.463,0.0126,72.940,1.7583E-4,0.99994",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-048",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7258,
+      0.82,
+      0.7538
+    ],
+    "locator": "Table S1 row 10PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.698",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-049",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7258,
+      0.82,
+      0.7538
+    ],
+    "locator": "Table S1 row 10PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.653",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-050",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7258,
+      0.82,
+      0.7538
+    ],
+    "locator": "Table S1 row 10PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "7.621",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-051",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7258,
+      0.82,
+      0.7538
+    ],
+    "locator": "Table S1 row 10PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.00299",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-052",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7258,
+      0.82,
+      0.7538
+    ],
+    "locator": "Table S1 row 10PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.99999",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-053",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7258,
+      0.82,
+      0.7538
+    ],
+    "locator": "Table S1 row 10PEI@UiO-66",
+    "category": "relationships",
+    "expected": "10PEI@UiO-66 | q1,b1,q2,d2,R² | 0.698,0.653,7.621,0.00299,0.99999",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-054",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7535999999999999,
+      0.82,
+      0.7816
+    ],
+    "locator": "Table S1 row 20PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.833",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-055",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7535999999999999,
+      0.82,
+      0.7816
+    ],
+    "locator": "Table S1 row 20PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.477",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-056",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7535999999999999,
+      0.82,
+      0.7816
+    ],
+    "locator": "Table S1 row 20PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "8.124",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-057",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7535999999999999,
+      0.82,
+      0.7816
+    ],
+    "locator": "Table S1 row 20PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.00307",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-058",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7535999999999999,
+      0.82,
+      0.7816
+    ],
+    "locator": "Table S1 row 20PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.99986",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-059",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7535999999999999,
+      0.82,
+      0.7816
+    ],
+    "locator": "Table S1 row 20PEI@UiO-66",
+    "category": "relationships",
+    "expected": "20PEI@UiO-66 | q1,b1,q2,d2,R² | 0.833,0.477,8.124,0.00307,0.99986",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-060",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7814,
+      0.82,
+      0.8094
+    ],
+    "locator": "Table S1 row 30PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "1.056",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-061",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7814,
+      0.82,
+      0.8094
+    ],
+    "locator": "Table S1 row 30PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.395",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-062",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7814,
+      0.82,
+      0.8094
+    ],
+    "locator": "Table S1 row 30PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "5.558",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-063",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7814,
+      0.82,
+      0.8094
+    ],
+    "locator": "Table S1 row 30PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.00307",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-064",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7814,
+      0.82,
+      0.8094
+    ],
+    "locator": "Table S1 row 30PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.99945",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-065",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.7814,
+      0.82,
+      0.8094
+    ],
+    "locator": "Table S1 row 30PEI@UiO-66",
+    "category": "relationships",
+    "expected": "30PEI@UiO-66 | q1,b1,q2,d2,R² | 1.056,0.395,5.558,0.00307,0.99945",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-066",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.8091999999999999,
+      0.82,
+      0.8371999999999999
+    ],
+    "locator": "Table S1 row 40PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "1.253",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-067",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.8091999999999999,
+      0.82,
+      0.8371999999999999
+    ],
+    "locator": "Table S1 row 40PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "2.345",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-068",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.8091999999999999,
+      0.82,
+      0.8371999999999999
+    ],
+    "locator": "Table S1 row 40PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "1.578",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-069",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.8091999999999999,
+      0.82,
+      0.8371999999999999
+    ],
+    "locator": "Table S1 row 40PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.0115",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-070",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.8091999999999999,
+      0.82,
+      0.8371999999999999
+    ],
+    "locator": "Table S1 row 40PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit)",
+    "category": "numbers",
+    "expected": "0.99991",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-071",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.8091999999999999,
+      0.82,
+      0.8371999999999999
+    ],
+    "locator": "Table S1 row 40PEI@UiO-66",
+    "category": "relationships",
+    "expected": "40PEI@UiO-66 | q1,b1,q2,d2,R² | 1.253,2.345,1.578,0.0115,0.99991",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-072",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.665,
+      0.82,
+      0.697
+    ],
+    "locator": "Table S1 headers (d2 preserved verbatim)",
+    "category": "symbols",
+    "expected": "q₁",
+    "lossy_alternative": "q1",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-073",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.665,
+      0.82,
+      0.697
+    ],
+    "locator": "Table S1 headers (d2 preserved verbatim)",
+    "category": "symbols",
+    "expected": "d₂",
+    "lossy_alternative": "d2",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-074",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.17,
+      0.665,
+      0.82,
+      0.697
+    ],
+    "locator": "Table S1 headers (d2 preserved verbatim)",
+    "category": "symbols",
+    "expected": "R²",
+    "lossy_alternative": "R2",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-075",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.2,
+      0.46,
+      0.83,
+      0.53
+    ],
+    "locator": "Fig. S8 caption, parent material and conditions",
+    "category": "numbers",
+    "expected": "308",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S100-p09-076",
+    "extraction_id": "T006-S100-p09",
+    "region_norm": [
+      0.27,
+      0.13,
+      0.75,
+      0.42
+    ],
+    "locator": "Fig. S8 legend",
+    "category": "relationships",
+    "expected": "UiO-66 | CO₂/CH₄ | 308 K | 80% RH",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p03-077",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.32,
+      0.95,
+      0.49
+    ],
+    "locator": "§2 Experimental, synthesis/activation paragraph (right column)",
+    "category": "numbers",
+    "expected": "621",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p03-078",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.32,
+      0.95,
+      0.49
+    ],
+    "locator": "§2 Experimental, synthesis/activation paragraph (right column)",
+    "category": "numbers",
+    "expected": "2.66",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p03-079",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.32,
+      0.95,
+      0.49
+    ],
+    "locator": "§2 Experimental, synthesis/activation paragraph (right column)",
+    "category": "numbers",
+    "expected": "0.634",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p03-080",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.32,
+      0.95,
+      0.49
+    ],
+    "locator": "§2 Experimental, synthesis/activation paragraph (right column)",
+    "category": "numbers",
+    "expected": "65.8",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p03-081",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.69,
+      0.95,
+      0.76
+    ],
+    "locator": "§2 Experimental, isotherm temperatures (right column bottom)",
+    "category": "units",
+    "expected": "77 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p03-082",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.69,
+      0.95,
+      0.76
+    ],
+    "locator": "§2 Experimental, isotherm temperatures (right column bottom)",
+    "category": "units",
+    "expected": "293 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p03-083",
+    "extraction_id": "T006-S106-p03",
+    "region_norm": [
+      0.51,
+      0.5,
+      0.95,
+      0.55
+    ],
+    "locator": "FTIR wavenumber unit",
+    "category": "symbols",
+    "expected": "cm⁻¹",
+    "lossy_alternative": "cm−1",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p04-084",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.19,
+      0.49,
+      0.24
+    ],
+    "locator": "QE-TPDA sample masses/He flow (left column)",
+    "category": "numbers",
+    "expected": "1.2",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p04-085",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.19,
+      0.49,
+      0.24
+    ],
+    "locator": "QE-TPDA sample masses/He flow (left column)",
+    "category": "numbers",
+    "expected": "1.1",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p04-086",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.19,
+      0.49,
+      0.24
+    ],
+    "locator": "QE-TPDA sample masses/He flow (left column)",
+    "category": "numbers",
+    "expected": "1.4",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p04-087",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.19,
+      0.49,
+      0.24
+    ],
+    "locator": "QE-TPDA sample masses/He flow (left column)",
+    "category": "numbers",
+    "expected": "6.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p04-088",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.51,
+      0.06,
+      0.95,
+      0.1
+    ],
+    "locator": "§3 Monte Carlo cycles (right column top)",
+    "category": "symbols",
+    "expected": "5⋅10⁴",
+    "lossy_alternative": "5⋅104",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p04-089",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.51,
+      0.06,
+      0.95,
+      0.1
+    ],
+    "locator": "§3 Monte Carlo cycles (right column top)",
+    "category": "symbols",
+    "expected": "5⋅10⁵",
+    "lossy_alternative": "5⋅105",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p04-090",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.84,
+      0.49,
+      0.88
+    ],
+    "locator": "§3 equation absolute/excess adsorption",
+    "category": "relationships",
+    "expected": "θ_excess = θ_absolute − PV/(zRT)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-091",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.433,
+      0.49,
+      0.448
+    ],
+    "locator": "Table 1 PV, columns UiO-66_220/_160/_100",
+    "category": "numbers",
+    "expected": "0.353",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-092",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.433,
+      0.49,
+      0.448
+    ],
+    "locator": "Table 1 PV, columns UiO-66_220/_160/_100",
+    "category": "numbers",
+    "expected": "0.376",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-093",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.433,
+      0.49,
+      0.448
+    ],
+    "locator": "Table 1 PV, columns UiO-66_220/_160/_100",
+    "category": "numbers",
+    "expected": "0.460",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-094",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.433,
+      0.49,
+      0.448
+    ],
+    "locator": "Table 1 PV, UiO-66_220",
+    "category": "relationships",
+    "expected": "UiO-66_220 | PV | 0.353",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-095",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.433,
+      0.49,
+      0.448
+    ],
+    "locator": "Table 1 PV, UiO-66_160",
+    "category": "relationships",
+    "expected": "UiO-66_160 | PV | 0.376",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-096",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.433,
+      0.49,
+      0.448
+    ],
+    "locator": "Table 1 PV, UiO-66_100",
+    "category": "relationships",
+    "expected": "UiO-66_100 | PV | 0.460",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-097",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.445,
+      0.49,
+      0.46
+    ],
+    "locator": "Table 1 BET, columns UiO-66_220/_160/_100",
+    "category": "numbers",
+    "expected": "1115",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-098",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.445,
+      0.49,
+      0.46
+    ],
+    "locator": "Table 1 BET, columns UiO-66_220/_160/_100",
+    "category": "numbers",
+    "expected": "1197",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-099",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.445,
+      0.49,
+      0.46
+    ],
+    "locator": "Table 1 BET, columns UiO-66_220/_160/_100",
+    "category": "numbers",
+    "expected": "1646",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-100",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.445,
+      0.49,
+      0.46
+    ],
+    "locator": "Table 1 BET, UiO-66_220",
+    "category": "relationships",
+    "expected": "UiO-66_220 | BET | 1115",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-101",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.445,
+      0.49,
+      0.46
+    ],
+    "locator": "Table 1 BET, UiO-66_160",
+    "category": "relationships",
+    "expected": "UiO-66_160 | BET | 1197",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-102",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.445,
+      0.49,
+      0.46
+    ],
+    "locator": "Table 1 BET, UiO-66_100",
+    "category": "relationships",
+    "expected": "UiO-66_100 | BET | 1646",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-103",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.433,
+      0.49,
+      0.46
+    ],
+    "locator": "Table 1 row labels/units",
+    "category": "units",
+    "expected": "cm³/g",
+    "lossy_alternative": "cm3/g",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-104",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.06,
+      0.433,
+      0.49,
+      0.46
+    ],
+    "locator": "Table 1 row labels/units",
+    "category": "units",
+    "expected": "m²/g",
+    "lossy_alternative": "m2/g",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-105",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.51,
+      0.31,
+      0.95,
+      0.35
+    ],
+    "locator": "Fig. 4 caption",
+    "category": "units",
+    "expected": "293 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p05-106",
+    "extraction_id": "T006-S106-p05",
+    "region_norm": [
+      0.51,
+      0.06,
+      0.95,
+      0.31
+    ],
+    "locator": "Fig. 4 legend, water, measured at 293 K in caption",
+    "category": "relationships",
+    "expected": "purple square → UiO-66_220 | H₂O | 293 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-107",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "1.4",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-108",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "2.6",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-109",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "1.1",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-110",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "1.2",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-111",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.05,
+      0.88,
+      0.49,
+      0.94
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "numbers",
+    "expected": "2.7",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-112",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.06,
+      0.06,
+      0.49,
+      0.88
+    ],
+    "locator": "Fig. 5 axis minimum",
+    "category": "numbers",
+    "expected": "−1.0",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-113",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.51,
+      0.9,
+      0.95,
+      0.94
+    ],
+    "locator": "Fig. 6 caption",
+    "category": "units",
+    "expected": "293 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-114",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.51,
+      0.9,
+      0.95,
+      0.94
+    ],
+    "locator": "Fig. 6 caption",
+    "category": "units",
+    "expected": "2.6 kPa",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-115",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.51,
+      0.33,
+      0.95,
+      0.87
+    ],
+    "locator": "Fig. 6a/b experimental versus calculated curves",
+    "category": "relationships",
+    "expected": "open squares → UiO-66_220 desorption",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p06-116",
+    "extraction_id": "T006-S106-p06",
+    "region_norm": [
+      0.51,
+      0.33,
+      0.95,
+      0.87
+    ],
+    "locator": "Fig. 6a/b experimental versus calculated curves",
+    "category": "relationships",
+    "expected": "dashed circle curve → Tuned EQeq charges (simulation)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p07-117",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "300",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p07-118",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "700",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p07-119",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "1700",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p07-120",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "100",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p07-121",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "800",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p07-122",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.45,
+      0.49,
+      0.52
+    ],
+    "locator": "Fig. 7 discussion, occupation profiles",
+    "category": "numbers",
+    "expected": "1000",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p07-123",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.05,
+      0.91,
+      0.95,
+      0.94
+    ],
+    "locator": "Fig. 7 caption temperature",
+    "category": "units",
+    "expected": "293.15 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S106-p07-124",
+    "extraction_id": "T006-S106-p07",
+    "region_norm": [
+      0.51,
+      0.18,
+      0.95,
+      0.23
+    ],
+    "locator": "Framework charge, right column",
+    "category": "symbols",
+    "expected": "¹²⁺",
+    "lossy_alternative": "12+",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p08-125",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 activation and temperature range",
+    "category": "numbers",
+    "expected": "393",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p08-126",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 activation and temperature range",
+    "category": "numbers",
+    "expected": "273",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p08-127",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 activation and temperature range",
+    "category": "numbers",
+    "expected": "298",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p08-128",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 activation and temperature range",
+    "category": "numbers",
+    "expected": "318",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p08-129",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 pretreatment",
+    "category": "units",
+    "expected": "12 h",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p08-130",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.12,
+      0.23,
+      0.88,
+      0.32
+    ],
+    "locator": "§3.4 pretreatment",
+    "category": "units",
+    "expected": "393 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p08-131",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.29,
+      0.33,
+      0.7,
+      0.79
+    ],
+    "locator": "Fig. 8 A/B axes",
+    "category": "units",
+    "expected": "mmol/g",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p08-132",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.29,
+      0.33,
+      0.7,
+      0.79
+    ],
+    "locator": "Fig. 8 A/B axes",
+    "category": "units",
+    "expected": "bar",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p08-133",
+    "extraction_id": "T006-S105-p08",
+    "region_norm": [
+      0.29,
+      0.33,
+      0.7,
+      0.79
+    ],
+    "locator": "Fig. 8B legend, temperature from caption on p.9",
+    "category": "relationships",
+    "expected": "teal down-triangle → UiO-66-NH₂/GO | 298 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-134",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.2,
+      0.35,
+      0.8,
+      0.38
+    ],
+    "locator": "Fig. 8 caption A/B/C temperature association",
+    "category": "numbers",
+    "expected": "273",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-135",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.2,
+      0.35,
+      0.8,
+      0.38
+    ],
+    "locator": "Fig. 8 caption A/B/C temperature association",
+    "category": "numbers",
+    "expected": "298",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-136",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.2,
+      0.35,
+      0.8,
+      0.38
+    ],
+    "locator": "Fig. 8 caption A/B/C temperature association",
+    "category": "numbers",
+    "expected": "318",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-137",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "3.93",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-138",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "3.66",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-139",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "6.41",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-140",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "6.10",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-141",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake discussion",
+    "category": "numbers",
+    "expected": "2.26",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-142",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.12,
+      0.5,
+      0.88,
+      0.62
+    ],
+    "locator": "§3.4 uptake units",
+    "category": "units",
+    "expected": "mmol/g",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S105-p09-143",
+    "extraction_id": "T006-S105-p09",
+    "region_norm": [
+      0.2,
+      0.35,
+      0.8,
+      0.38
+    ],
+    "locator": "Fig. 8C caption",
+    "category": "relationships",
+    "expected": "panel C → 318 K",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p06-144",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.09,
+      0.88,
+      0.2
+    ],
+    "locator": "Methods, outgassing",
+    "category": "numbers",
+    "expected": "120",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p06-145",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.09,
+      0.88,
+      0.2
+    ],
+    "locator": "Methods, outgassing",
+    "category": "numbers",
+    "expected": "1",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p06-146",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.09,
+      0.88,
+      0.2
+    ],
+    "locator": "Methods, outgassing",
+    "category": "units",
+    "expected": "120 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p06-147",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.09,
+      0.88,
+      0.2
+    ],
+    "locator": "Methods, outgassing",
+    "category": "units",
+    "expected": "1 day",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p06-148",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.3,
+      0.88,
+      0.41
+    ],
+    "locator": "§2.4.5 enhancement coefficient",
+    "category": "numbers",
+    "expected": "2.888",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p06-149",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.42,
+      0.88,
+      0.47
+    ],
+    "locator": "Eq. (7) subscript/ratio structure",
+    "category": "relationships",
+    "expected": "F_index = ln(P_filled/P_unfilled) + η ln(α_filled/α_unfilled)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-150",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.68,
+      0.85,
+      0.698
+    ],
+    "locator": "Table 1 row UiO-66, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "1733",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-151",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.68,
+      0.85,
+      0.698
+    ],
+    "locator": "Table 1 row UiO-66, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "2266",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-152",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.68,
+      0.85,
+      0.698
+    ],
+    "locator": "Table 1 row UiO-66, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "1662",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-153",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.68,
+      0.85,
+      0.698
+    ],
+    "locator": "Table 1 row UiO-66, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "0.809",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-154",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.68,
+      0.85,
+      0.698
+    ],
+    "locator": "Table 1 row UiO-66, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "0.938",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-155",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.68,
+      0.85,
+      0.698
+    ],
+    "locator": "Table 1 row UiO-66",
+    "category": "relationships",
+    "expected": "UiO-66 | SBET,SLANG,Smicro,Vmicro,Vtotal | 1733,2266,1662,0.809,0.938",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-156",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.6960000000000001,
+      0.85,
+      0.714
+    ],
+    "locator": "Table 1 row UiO-66-NH₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "1218",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-157",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.6960000000000001,
+      0.85,
+      0.714
+    ],
+    "locator": "Table 1 row UiO-66-NH₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "1599",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-158",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.6960000000000001,
+      0.85,
+      0.714
+    ],
+    "locator": "Table 1 row UiO-66-NH₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "1160",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-159",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.6960000000000001,
+      0.85,
+      0.714
+    ],
+    "locator": "Table 1 row UiO-66-NH₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "0.569",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-160",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.6960000000000001,
+      0.85,
+      0.714
+    ],
+    "locator": "Table 1 row UiO-66-NH₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "0.682",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-161",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.6960000000000001,
+      0.85,
+      0.714
+    ],
+    "locator": "Table 1 row UiO-66-NH₂",
+    "category": "relationships",
+    "expected": "UiO-66-NH₂ | SBET,SLANG,Smicro,Vmicro,Vtotal | 1218,1599,1160,0.569,0.682",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-162",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7120000000000001,
+      0.85,
+      0.73
+    ],
+    "locator": "Table 1 row UiO-66-Br, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "851",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-163",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7120000000000001,
+      0.85,
+      0.73
+    ],
+    "locator": "Table 1 row UiO-66-Br, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "1117",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-164",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7120000000000001,
+      0.85,
+      0.73
+    ],
+    "locator": "Table 1 row UiO-66-Br, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "818",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-165",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7120000000000001,
+      0.85,
+      0.73
+    ],
+    "locator": "Table 1 row UiO-66-Br, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "0.380",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-166",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7120000000000001,
+      0.85,
+      0.73
+    ],
+    "locator": "Table 1 row UiO-66-Br, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "0.440",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-167",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7120000000000001,
+      0.85,
+      0.73
+    ],
+    "locator": "Table 1 row UiO-66-Br",
+    "category": "relationships",
+    "expected": "UiO-66-Br | SBET,SLANG,Smicro,Vmicro,Vtotal | 851,1117,818,0.380,0.440",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-168",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7280000000000001,
+      0.85,
+      0.746
+    ],
+    "locator": "Table 1 row UiO-66-(OH)₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "318",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-169",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7280000000000001,
+      0.85,
+      0.746
+    ],
+    "locator": "Table 1 row UiO-66-(OH)₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "418",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-170",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7280000000000001,
+      0.85,
+      0.746
+    ],
+    "locator": "Table 1 row UiO-66-(OH)₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "293",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-171",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7280000000000001,
+      0.85,
+      0.746
+    ],
+    "locator": "Table 1 row UiO-66-(OH)₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "0.136",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-172",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7280000000000001,
+      0.85,
+      0.746
+    ],
+    "locator": "Table 1 row UiO-66-(OH)₂, SBET/SLANG/Smicro/Vmicro/Vtotal",
+    "category": "numbers",
+    "expected": "0.178",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-173",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.7280000000000001,
+      0.85,
+      0.746
+    ],
+    "locator": "Table 1 row UiO-66-(OH)₂",
+    "category": "relationships",
+    "expected": "UiO-66-(OH)₂ | SBET,SLANG,Smicro,Vmicro,Vtotal | 318,418,293,0.136,0.178",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-174",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.66,
+      0.85,
+      0.68
+    ],
+    "locator": "Table 1 headers",
+    "category": "units",
+    "expected": "m²/g",
+    "lossy_alternative": "m2/g",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-175",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.66,
+      0.85,
+      0.68
+    ],
+    "locator": "Table 1 headers",
+    "category": "units",
+    "expected": "cc/g",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-176",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.74,
+      0.85,
+      0.81
+    ],
+    "locator": "Table 1 footnote BET pressure range",
+    "category": "numbers",
+    "expected": "0.05",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-177",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.74,
+      0.85,
+      0.81
+    ],
+    "locator": "Table 1 footnote BET pressure range",
+    "category": "numbers",
+    "expected": "0.2",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p07-178",
+    "extraction_id": "T006-S113-p07",
+    "region_norm": [
+      0.15,
+      0.74,
+      0.85,
+      0.81
+    ],
+    "locator": "Table 1 footnote BET pressure range",
+    "category": "numbers",
+    "expected": "0.99",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p09-179",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5 a/b axes",
+    "category": "numbers",
+    "expected": "1.6",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p09-180",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5 a/b axes",
+    "category": "numbers",
+    "expected": "0.16",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p09-181",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5 a/b axes",
+    "category": "units",
+    "expected": "mmol/g",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p09-182",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5 a/b axes",
+    "category": "units",
+    "expected": "bar",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p09-183",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.29,
+      0.88,
+      0.33
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "units",
+    "expected": "35 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p09-184",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5a/b series and gas",
+    "category": "relationships",
+    "expected": "blue square → UiO-66-Br | panel a CO₂ | 35 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S113-p09-185",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5a/b series and gas",
+    "category": "relationships",
+    "expected": "blue square → UiO-66-Br | panel b N₂ | 35 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p02-186",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 DFT+D adsorption energies, CO2 / methanol, metal cluster / linker",
+    "category": "numbers",
+    "expected": "1.89",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p02-187",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 DFT+D adsorption energies, CO2 / methanol, metal cluster / linker",
+    "category": "numbers",
+    "expected": "−7.86",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p02-188",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 DFT+D adsorption energies, CO2 / methanol, metal cluster / linker",
+    "category": "numbers",
+    "expected": "−7.70",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p02-189",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 DFT+D adsorption energies, CO2 / methanol, metal cluster / linker",
+    "category": "numbers",
+    "expected": "−3.27",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p02-190",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.9,
+      0.93,
+      0.93
+    ],
+    "locator": "Table 1 footnote",
+    "category": "units",
+    "expected": "kcal·mol⁻¹",
+    "lossy_alternative": "kcal·mol−1",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p02-191",
+    "extraction_id": "T006-S103-p02",
+    "region_norm": [
+      0.51,
+      0.86,
+      0.93,
+      0.9
+    ],
+    "locator": "Table 1 computed energy, not measured capacity",
+    "category": "relationships",
+    "expected": "carbon dioxide | organic linker | −7.86 kcal·mol⁻¹",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-192",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.08,
+      0.614,
+      0.49,
+      0.627
+    ],
+    "locator": "Table 2 PV row, columns _220/_160/_100",
+    "category": "numbers",
+    "expected": "0.315",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-193",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.08,
+      0.614,
+      0.49,
+      0.627
+    ],
+    "locator": "Table 2 PV row, columns _220/_160/_100",
+    "category": "numbers",
+    "expected": "0.410",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-194",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.08,
+      0.614,
+      0.49,
+      0.627
+    ],
+    "locator": "Table 2 PV row, columns _220/_160/_100",
+    "category": "numbers",
+    "expected": "0.444",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-195",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.08,
+      0.627,
+      0.49,
+      0.641
+    ],
+    "locator": "Table 2 BET row, columns _220/_160/_100",
+    "category": "numbers",
+    "expected": "980",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-196",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.08,
+      0.627,
+      0.49,
+      0.641
+    ],
+    "locator": "Table 2 BET row, columns _220/_160/_100",
+    "category": "numbers",
+    "expected": "1260",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-197",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.08,
+      0.627,
+      0.49,
+      0.641
+    ],
+    "locator": "Table 2 BET row, columns _220/_160/_100",
+    "category": "numbers",
+    "expected": "1438",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-198",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.08,
+      0.614,
+      0.49,
+      0.641
+    ],
+    "locator": "Table 2 units",
+    "category": "units",
+    "expected": "cm³·g⁻¹",
+    "lossy_alternative": "cm3·g−1",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-199",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.08,
+      0.614,
+      0.49,
+      0.641
+    ],
+    "locator": "Table 2 units",
+    "category": "units",
+    "expected": "m²·g⁻¹",
+    "lossy_alternative": "m2·g−1",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-200",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.2,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "locator": "Fig. 2a/b axes",
+    "category": "units",
+    "expected": "cm³ STP·g⁻¹",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-201",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.2,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "locator": "Fig. 2a/b axes",
+    "category": "units",
+    "expected": "bar",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-202",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.07,
+      0.91,
+      0.94,
+      0.95
+    ],
+    "locator": "Fig. 2 caption",
+    "category": "units",
+    "expected": "27 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S103-p03-203",
+    "extraction_id": "T006-S103-p03",
+    "region_norm": [
+      0.2,
+      0.7,
+      0.8,
+      0.95
+    ],
+    "locator": "Fig. 2 caption distinguishes experiment from computation",
+    "category": "relationships",
+    "expected": "panel a → experiment; panel b → calculations | 27 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S102-p05-204",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption, water loadings a/b/c",
+    "category": "numbers",
+    "expected": "2.05",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S102-p05-205",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption, water loadings a/b/c",
+    "category": "numbers",
+    "expected": "3.03",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S102-p05-206",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption, water loadings a/b/c",
+    "category": "numbers",
+    "expected": "4.10",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S102-p05-207",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption, water loading unit",
+    "category": "units",
+    "expected": "mol/kg",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S102-p05-208",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.13,
+      0.74,
+      0.8
+    ],
+    "locator": "Fig. S6 axes",
+    "category": "units",
+    "expected": "kPa",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S102-p05-209",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.815,
+      0.74,
+      0.875
+    ],
+    "locator": "Fig. S6 caption chemical indices",
+    "category": "symbols",
+    "expected": "CO₂/H₂O",
+    "lossy_alternative": "CO2/H2O",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S102-p05-210",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.13,
+      0.74,
+      0.86
+    ],
+    "locator": "Fig. S6 panels a/b/c; temperature unknown in caption",
+    "category": "relationships",
+    "expected": "a → 2.05 mol/kg H₂O; b → 3.03; c → 4.10 | UiO-66-NH₂",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  },
+  {
+    "field_id": "S102-p05-211",
+    "extraction_id": "T006-S102-p05",
+    "region_norm": [
+      0.27,
+      0.13,
+      0.74,
+      0.86
+    ],
+    "locator": "Fig. S6 panels a/b/c; temperature unknown in caption",
+    "category": "relationships",
+    "expected": "green open diamond → experimental binary; triangle → IAST",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending"
+  }
+]

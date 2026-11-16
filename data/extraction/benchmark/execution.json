@@ -1,0 +1,30 @@
+{
+  "base_git_sha": "0f4ce41435a2df20a9312fb5830b2254ecd1144b",
+  "protocol_sha256": "75c078b14a1e8526f424c010c7c38c2956fcccda723b3067b72b8c1cb089b7a2",
+  "python": "3.11.5",
+  "packages": {
+    "PyMuPDF": "1.27.2.3",
+    "numpy": "2.4.2",
+    "Pillow": "12.1.0",
+    "PyYAML": "6.0.3",
+    "jsonschema": "4.23.0",
+    "pytest": "9.0.3"
+  },
+  "scripts": {
+    "scripts/extraction/compare_local_engines.py": "327db1a6e90f83603bb60cf74a9131cd7c0aa5d084d11b5ae4f38c9f81409968",
+    "scripts/extraction/digitize_s100.py": "6769a309b61de94e0a587bfc36e15785ad2e3b7bafa0a7a68600af0bc3cddc09",
+    "scripts/extraction/finalize_pilot.py": "7f873dffc7db2cc61b790d3b3510397f44bea26dd75c713937d80b3a284c6369",
+    "scripts/extraction/prepare_pilot.py": "451971970203f1f07c80b63c6a7206d1adc424e753c9e996f0ccf197a8dfbc01",
+    "scripts/extraction/score_pilot.py": "7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50"
+  },
+  "settings": {
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning_effort": "high",
+    "actual_model_and_effort": "not exposed by this tool interface; not independently confirmed",
+    "sandbox": "workspace-write",
+    "approval_policy": "never",
+    "network": "source downloads only"
+  },
+  "numeric_policy": "all expected strings are benchmark annotations; fits/simulations not measured data",
+  "generated_at": "2026-11-16T22:23:58.592386+00:00"
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "field_id": "S113-p09-179",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5 a/b axes",
+    "category": "numbers",
+    "expected": "1.6",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S113_p09.png",
+    "render_sha256": "90bdd424c1d1747e05f7e9821a942cf3840e6dc58e966b20fdba3d9e612e9f73"
+  },
+  {
+    "field_id": "S113-p09-180",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5 a/b axes",
+    "category": "numbers",
+    "expected": "0.16",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S113_p09.png",
+    "render_sha256": "90bdd424c1d1747e05f7e9821a942cf3840e6dc58e966b20fdba3d9e612e9f73"
+  },
+  {
+    "field_id": "S113-p09-181",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5 a/b axes",
+    "category": "units",
+    "expected": "mmol/g",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S113_p09.png",
+    "render_sha256": "90bdd424c1d1747e05f7e9821a942cf3840e6dc58e966b20fdba3d9e612e9f73"
+  },
+  {
+    "field_id": "S113-p09-182",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5 a/b axes",
+    "category": "units",
+    "expected": "bar",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S113_p09.png",
+    "render_sha256": "90bdd424c1d1747e05f7e9821a942cf3840e6dc58e966b20fdba3d9e612e9f73"
+  },
+  {
+    "field_id": "S113-p09-183",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.29,
+      0.88,
+      0.33
+    ],
+    "locator": "Fig. 5 caption",
+    "category": "units",
+    "expected": "35 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "35 °C",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Figure 5. (a) CO2 and (b) N2 adsorption by nanocrystalline UiO-66 nanocrystals and its derivatives at\n35 °C.",
+    "render": "private/renders/S113_p09.png",
+    "render_sha256": "90bdd424c1d1747e05f7e9821a942cf3840e6dc58e966b20fdba3d9e612e9f73"
+  },
+  {
+    "field_id": "S113-p09-184",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5a/b series and gas",
+    "category": "relationships",
+    "expected": "blue square → UiO-66-Br | panel a CO₂ | 35 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S113_p09.png",
+    "render_sha256": "90bdd424c1d1747e05f7e9821a942cf3840e6dc58e966b20fdba3d9e612e9f73"
+  },
+  {
+    "field_id": "S113-p09-185",
+    "extraction_id": "T006-S113-p09",
+    "region_norm": [
+      0.14,
+      0.09,
+      0.88,
+      0.28
+    ],
+    "locator": "Fig. 5a/b series and gas",
+    "category": "relationships",
+    "expected": "blue square → UiO-66-Br | panel b N₂ | 35 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "",
+    "render": "private/renders/S113_p09.png",
+    "render_sha256": "90bdd424c1d1747e05f7e9821a942cf3840e6dc58e966b20fdba3d9e612e9f73"
+  }
+]

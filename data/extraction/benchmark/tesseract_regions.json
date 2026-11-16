@@ -1,0 +1,26 @@
+[
+  {
+    "extraction_id": "T006-S100-p07",
+    "input_render": "private/renders/S100_p07_300.png",
+    "render_sha256": "fc865cc271c81028822b1670b1a2219cb7be46bdeb9dd984cb5c788a97af5dba",
+    "engine": "tesseract-tsv",
+    "raw_response_ref": "private/ocr_cache/raw/624514703ac82db4e2268c41112c8af805ca7987b730ab5930caaffe6ce0178e.tsv",
+    "elapsed_s": 2.7291
+  },
+  {
+    "extraction_id": "T006-S106-p06",
+    "input_render": "private/renders/S106_p06_300.png",
+    "render_sha256": "15a96490589f750364c15c2b150336a296593e5346215b8f7aac8a7e83a55151",
+    "engine": "tesseract-tsv",
+    "raw_response_ref": "private/ocr_cache/raw/c8535209238676d4be18361e6478d5a698d9395dc9df47a03aa2b019cba44b0c.tsv",
+    "elapsed_s": 4.9028
+  },
+  {
+    "extraction_id": "T006-S113-p09",
+    "input_render": "private/renders/S113_p09_300.png",
+    "render_sha256": "d46d601cfda1bf28aad6cc63380f4da7b7511da27a64fc317a46010673232611",
+    "engine": "tesseract-tsv",
+    "raw_response_ref": "private/ocr_cache/raw/e90874f4f1584879cacf596026361b165891c0ca75c3747b4adee434bdfcb0dd.tsv",
+    "elapsed_s": 2.6067
+  }
+]

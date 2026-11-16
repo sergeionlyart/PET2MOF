@@ -1,0 +1,41 @@
+extraction_id: T006-S100-p02
+source_id: S100
+doi: 10.1021/acs.iecr.5b03517
+url: null
+input_sha256: 241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3
+pdf_page: 2
+api_page_map:
+  '1': 2
+figure_or_table: §S1 precursor; §S1 synthesis; §S1 synthesis, lower paragraph
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S100-p02.json
+  render: private/renders/S100_p02.png
+  render_sha256: 9c27eaffac912406b56d67977f00a3ab5dff978ba7b0c9bb9d09ec86b9e80c77
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: S2
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.241091+00:00'
+raw_response_ref: private/ocr_cache/raw/058c08504a1617afe967f9d4bb598cfd67587432c6aa045c51af963f0ce91159.json
+unit_conversions: []
+derived_sha256: fb64f48e04262a8de00ec1443452ff725b721667001f90646618c63540ef6f0f
+status: provisional
+reviewer: null
+corrections:
+- field_id: S100-p02-010
+  kind: mismatch
+  reference: ZrCl₄
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 9
+  total: 10
+data_kind: text_value
+sensitivity_only: true

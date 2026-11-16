@@ -1,0 +1,42 @@
+extraction_id: T006-S106-p03
+source_id: S106
+doi: 10.1016/j.micromeso.2021.111555
+url: null
+input_sha256: 8c54ae943403f8963f765704bfe6ddfcdc3923ae92d1b05e3d82681f7c34e0e7
+pdf_page: 3
+api_page_map:
+  '1': 3
+figure_or_table: FTIR wavenumber unit; §2 Experimental, isotherm temperatures (right
+  column bottom); §2 Experimental, synthesis/activation paragraph (right column)
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S106-p03.json
+  render: private/renders/S106_p03.png
+  render_sha256: a564054c0f4b2726f9fa946020c1a7cba2b62379b3d0289431d3043c2882abf5
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '2'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.270756+00:00'
+raw_response_ref: private/ocr_cache/raw/0a277c74f549a44a93f0d576c47b8ece5d50e5d0edf995a84db68081efcd030c.json
+unit_conversions: []
+derived_sha256: 107186caf55da8e071f05ec5726e69ea9064678cd447628e25de10605ecbec10
+status: provisional
+reviewer: null
+corrections:
+- field_id: S106-p03-083
+  kind: mismatch
+  reference: cm⁻¹
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 6
+  total: 7
+data_kind: text_value
+sensitivity_only: true

@@ -1,0 +1,98 @@
+extraction_id: T006-S100-p07
+source_id: S100
+doi: 10.1021/acs.iecr.5b03517
+url: null
+input_sha256: 241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3
+pdf_page: 7
+api_page_map:
+  '1': 7
+figure_or_table: 'Fig. S4 y axis and legend; Fig. S5 axes; Fig. S5 symbols: marker
+  shape/colour and material; temperature unknown in this caption; Fig. S5 y major
+  ticks'
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S100-p07.json
+  render: private/renders/S100_p07.png
+  render_sha256: 4949e5ee5c8f321a7ec546e659c03da88bcba545ec98268909f2d0ae1ffc348e
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: S7
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.250684+00:00'
+raw_response_ref: private/ocr_cache/raw/c2c0c16666fa43f8420488ae3f5ad308fde1e502a401738ccb66ee3f2f232ea9.json
+unit_conversions: []
+derived_sha256: 79d02d983c36f01264e2648ffb563216e768c49b8db8cef39af5886841612333
+status: provisional
+reviewer: null
+corrections:
+- field_id: S100-p07-030
+  kind: omission
+  reference: mmol/m²
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-031
+  kind: omission
+  reference: mmol/g
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-032
+  kind: omission
+  reference: kPa
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-033
+  kind: omission
+  reference: '0.5'
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-034
+  kind: omission
+  reference: '3.5'
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-035
+  kind: omission
+  reference: CO₂
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-036
+  kind: omission
+  reference: P/P₀
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-037
+  kind: omission
+  reference: black square → UiO-66
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-038
+  kind: omission
+  reference: red circle → 10PEI@UiO-66
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-039
+  kind: omission
+  reference: blue up-triangle → 20PEI@UiO-66
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-040
+  kind: omission
+  reference: magenta down-triangle → 30PEI@UiO-66
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p07-041
+  kind: omission
+  reference: green diamond → 40PEI@UiO-66
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 0
+  total: 12
+data_kind: text_value
+sensitivity_only: true

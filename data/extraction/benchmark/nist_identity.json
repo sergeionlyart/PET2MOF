@@ -1,0 +1,42 @@
+{
+  "records": [
+    {
+      "file": "data/raw/nist_isodb/isotherms/10.1021acs.iecr.5b03517.Isotherm6.json",
+      "sha256": "8adadb3c631e59a992454d2d96bd4c0fc0e446b977826bf5a2c69b511369a95f",
+      "articleSource": "Figure 4",
+      "temperature": 298,
+      "adsorptionUnits": "mmol/g",
+      "pressureUnits": "bar",
+      "adsorbent": "10PEI@UiO-66"
+    },
+    {
+      "file": "data/raw/nist_isodb/isotherms/10.1021acs.iecr.5b03517.Isotherm7.json",
+      "sha256": "14a158befbe1086bc16aea666f9c8d5f5f376cc30bd38bd1b97e3fd130fc4edc",
+      "articleSource": "Figure 4",
+      "temperature": 298,
+      "adsorptionUnits": "mmol/g",
+      "pressureUnits": "bar",
+      "adsorbent": "20PEI@UiO-66"
+    },
+    {
+      "file": "data/raw/nist_isodb/isotherms/10.1021acs.iecr.5b03517.Isotherm8.json",
+      "sha256": "2dbcf9b906be110e66483b0b9f453cd721b476b894c6110981cb1ac29b402844",
+      "articleSource": "Figure 4",
+      "temperature": 298,
+      "adsorptionUnits": "mmol/g",
+      "pressureUnits": "bar",
+      "adsorbent": "30PEI@UiO-66"
+    },
+    {
+      "file": "data/raw/nist_isodb/isotherms/10.1021acs.iecr.5b03517.Isotherm9.json",
+      "sha256": "0ae83b31d735d8c29c688fee003773cbc2ab84c1fb8c19157c9d65b1eeaf3c48",
+      "articleSource": "Figure 4",
+      "temperature": 298,
+      "adsorptionUnits": "mmol/g",
+      "pressureUnits": "bar",
+      "adsorbent": "40PEI@UiO-66"
+    }
+  ],
+  "decision": "identity not established; no numerical comparison",
+  "reason": "Main Figure 4 not available for visual cross-check; S5 caption gives no temperature; x label ambiguous"
+}

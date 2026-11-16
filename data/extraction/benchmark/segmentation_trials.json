@@ -1,0 +1,32 @@
+{
+  "source": "S100 SI Fig. S5",
+  "extraction_id": "T006-S100-FigS5",
+  "trials": [
+    {
+      "stage": "initial small trial",
+      "closing_square_px": 0,
+      "erosion_square_px": 5,
+      "marker_counts": {
+        "UiO-66": 0,
+        "10PEI": 9,
+        "20PEI": 1,
+        "30PEI": 4,
+        "40PEI": 2
+      },
+      "decision": "rejected: line crossings split colour cores and eroded triangles disappeared"
+    },
+    {
+      "stage": "final",
+      "closing_square_px": 3,
+      "erosion_square_px": 3,
+      "marker_counts": {
+        "UiO-66": 9,
+        "10PEI": 10,
+        "20PEI": 9,
+        "30PEI": 10,
+        "40PEI": 10
+      },
+      "decision": "overlay inspected; one occluded blue marker excluded"
+    }
+  ]
+}

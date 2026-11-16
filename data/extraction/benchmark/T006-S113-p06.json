@@ -1,0 +1,134 @@
+[
+  {
+    "field_id": "S113-p06-144",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.09,
+      0.88,
+      0.2
+    ],
+    "locator": "Methods, outgassing",
+    "category": "numbers",
+    "expected": "120",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "120",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Beach, FL, USA). All membranes were outgassed at 120 °C for 1 day. The CO2 and N2 adsorption\nisotherms were fitted using the single-site Langmuir equation as elaborated in Equation (1). This\nwas followed by the calculation of the solubility, S, of CO2 and N2 in the respective membranes. In\nEquation 6, q, ρ, and p are defined as the gas adsorbed per unit membrane mass, the membrane’s\ndensity, and the specified pressure, respectively. The diffusivity, D, of gas in the membrane can be\ncalculated using the relationship between permeability and solubility because the solution–diffusion\nmechanism is the transport mechanism in a dense membrane.",
+    "render": "private/renders/S113_p06.png",
+    "render_sha256": "c8e01b59443b1442f7d11f7ab1228048efa76f1d1527c577fffd8aa49974d690"
+  },
+  {
+    "field_id": "S113-p06-145",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.09,
+      0.88,
+      0.2
+    ],
+    "locator": "Methods, outgassing",
+    "category": "numbers",
+    "expected": "1",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Beach, FL, USA). All membranes were outgassed at 120 °C for 1 day. The CO2 and N2 adsorption\nisotherms were fitted using the single-site Langmuir equation as elaborated in Equation (1). This\nwas followed by the calculation of the solubility, S, of CO2 and N2 in the respective membranes. In\nEquation 6, q, ρ, and p are defined as the gas adsorbed per unit membrane mass, the membrane’s\ndensity, and the specified pressure, respectively. The diffusivity, D, of gas in the membrane can be\ncalculated using the relationship between permeability and solubility because the solution–diffusion\nmechanism is the transport mechanism in a dense membrane.",
+    "render": "private/renders/S113_p06.png",
+    "render_sha256": "c8e01b59443b1442f7d11f7ab1228048efa76f1d1527c577fffd8aa49974d690"
+  },
+  {
+    "field_id": "S113-p06-146",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.09,
+      0.88,
+      0.2
+    ],
+    "locator": "Methods, outgassing",
+    "category": "units",
+    "expected": "120 °C",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "120 °C",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Beach, FL, USA). All membranes were outgassed at 120 °C for 1 day. The CO2 and N2 adsorption\nisotherms were fitted using the single-site Langmuir equation as elaborated in Equation (1). This\nwas followed by the calculation of the solubility, S, of CO2 and N2 in the respective membranes. In\nEquation 6, q, ρ, and p are defined as the gas adsorbed per unit membrane mass, the membrane’s\ndensity, and the specified pressure, respectively. The diffusivity, D, of gas in the membrane can be\ncalculated using the relationship between permeability and solubility because the solution–diffusion\nmechanism is the transport mechanism in a dense membrane.",
+    "render": "private/renders/S113_p06.png",
+    "render_sha256": "c8e01b59443b1442f7d11f7ab1228048efa76f1d1527c577fffd8aa49974d690"
+  },
+  {
+    "field_id": "S113-p06-147",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.09,
+      0.88,
+      0.2
+    ],
+    "locator": "Methods, outgassing",
+    "category": "units",
+    "expected": "1 day",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1 day",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "Beach, FL, USA). All membranes were outgassed at 120 °C for 1 day. The CO2 and N2 adsorption\nisotherms were fitted using the single-site Langmuir equation as elaborated in Equation (1). This\nwas followed by the calculation of the solubility, S, of CO2 and N2 in the respective membranes. In\nEquation 6, q, ρ, and p are defined as the gas adsorbed per unit membrane mass, the membrane’s\ndensity, and the specified pressure, respectively. The diffusivity, D, of gas in the membrane can be\ncalculated using the relationship between permeability and solubility because the solution–diffusion\nmechanism is the transport mechanism in a dense membrane.",
+    "render": "private/renders/S113_p06.png",
+    "render_sha256": "c8e01b59443b1442f7d11f7ab1228048efa76f1d1527c577fffd8aa49974d690"
+  },
+  {
+    "field_id": "S113-p06-148",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.3,
+      0.88,
+      0.41
+    ],
+    "locator": "§2.4.5 enhancement coefficient",
+    "category": "numbers",
+    "expected": "2.888",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "2.888",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "    Equation 7, which evaluates the parameter of filler enhancement index (Findex), was used to\ncalculate the performance of the MMMs. In this expression,  Pfilled and Punfilled are defined as the\npermeability of MMM and pure polymeric membrane; αfilled and αunfilled are the CO2/N2 selectivity of\nMMM and pure polymeric membrane; η is the enhancement coefficient, which is defined as 2.888\nbased on the slope of the Robeson upper bound published in 2008. This parameter was defined for\nCO2/N2 in a 2008 study to assist in quantifying the effectiveness of fillers in MMMs [4].\n\n                                         Pf ll d        f ll d ",
+    "render": "private/renders/S113_p06.png",
+    "render_sha256": "c8e01b59443b1442f7d11f7ab1228048efa76f1d1527c577fffd8aa49974d690"
+  },
+  {
+    "field_id": "S113-p06-149",
+    "extraction_id": "T006-S113-p06",
+    "region_norm": [
+      0.12,
+      0.42,
+      0.88,
+      0.47
+    ],
+    "locator": "Eq. (7) subscript/ratio structure",
+    "category": "relationships",
+    "expected": "F_index = ln(P_filled/P_unfilled) + η ln(α_filled/α_unfilled)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "                   Findex  ln          ln                                       (7)                                        \n                                                                  Punfilled        unfilled \n\n\n3 R     lt   d Di       i",
+    "render": "private/renders/S113_p06.png",
+    "render_sha256": "c8e01b59443b1442f7d11f7ab1228048efa76f1d1527c577fffd8aa49974d690"
+  }
+]

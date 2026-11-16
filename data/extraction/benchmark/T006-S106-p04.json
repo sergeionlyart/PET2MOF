@@ -1,0 +1,156 @@
+[
+  {
+    "field_id": "S106-p04-084",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.19,
+      0.49,
+      0.24
+    ],
+    "locator": "QE-TPDA sample masses/He flow (left column)",
+    "category": "numbers",
+    "expected": "1.2",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1.2",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "(QE-TPDA) technique [50,51]. Prior to the measurement, a sample of\n1.2, 1.1 and 1.4 mg of UiO-66_100, UiO-66_160 and UiO-66_220\nrespectively, was activated by heating in a flow (6.5 cm3/min) of pure\nhelium (purity 5.0, Air Products) at 108 ◦C",
+    "render": "private/renders/S106_p04.png",
+    "render_sha256": "856e55167eaa3cced2f09bf803fb2b061d60f4c87f1c7b0203e803bf1c4ba7b6"
+  },
+  {
+    "field_id": "S106-p04-085",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.19,
+      0.49,
+      0.24
+    ],
+    "locator": "QE-TPDA sample masses/He flow (left column)",
+    "category": "numbers",
+    "expected": "1.1",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1.1",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "(QE-TPDA) technique [50,51]. Prior to the measurement, a sample of\n1.2, 1.1 and 1.4 mg of UiO-66_100, UiO-66_160 and UiO-66_220\nrespectively, was activated by heating in a flow (6.5 cm3/min) of pure\nhelium (purity 5.0, Air Products) at 108 ◦C",
+    "render": "private/renders/S106_p04.png",
+    "render_sha256": "856e55167eaa3cced2f09bf803fb2b061d60f4c87f1c7b0203e803bf1c4ba7b6"
+  },
+  {
+    "field_id": "S106-p04-086",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.19,
+      0.49,
+      0.24
+    ],
+    "locator": "QE-TPDA sample masses/He flow (left column)",
+    "category": "numbers",
+    "expected": "1.4",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "1.4",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "(QE-TPDA) technique [50,51]. Prior to the measurement, a sample of\n1.2, 1.1 and 1.4 mg of UiO-66_100, UiO-66_160 and UiO-66_220\nrespectively, was activated by heating in a flow (6.5 cm3/min) of pure\nhelium (purity 5.0, Air Products) at 108 ◦C",
+    "render": "private/renders/S106_p04.png",
+    "render_sha256": "856e55167eaa3cced2f09bf803fb2b061d60f4c87f1c7b0203e803bf1c4ba7b6"
+  },
+  {
+    "field_id": "S106-p04-087",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.19,
+      0.49,
+      0.24
+    ],
+    "locator": "QE-TPDA sample masses/He flow (left column)",
+    "category": "numbers",
+    "expected": "6.5",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "6.5",
+    "result": "correct",
+    "engine": "pymupdf",
+    "region_text": "(QE-TPDA) technique [50,51]. Prior to the measurement, a sample of\n1.2, 1.1 and 1.4 mg of UiO-66_100, UiO-66_160 and UiO-66_220\nrespectively, was activated by heating in a flow (6.5 cm3/min) of pure\nhelium (purity 5.0, Air Products) at 108 ◦C",
+    "render": "private/renders/S106_p04.png",
+    "render_sha256": "856e55167eaa3cced2f09bf803fb2b061d60f4c87f1c7b0203e803bf1c4ba7b6"
+  },
+  {
+    "field_id": "S106-p04-088",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.51,
+      0.06,
+      0.95,
+      0.1
+    ],
+    "locator": "§3 Monte Carlo cycles (right column top)",
+    "category": "symbols",
+    "expected": "5⋅10⁴",
+    "lossy_alternative": "5⋅104",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "5⋅104",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "5⋅104 initialization cycles and 5⋅105 production cycles of translation,\nrotation, swap and reinsertion trial moves, where all probabilities were\nequal",
+    "render": "private/renders/S106_p04.png",
+    "render_sha256": "856e55167eaa3cced2f09bf803fb2b061d60f4c87f1c7b0203e803bf1c4ba7b6"
+  },
+  {
+    "field_id": "S106-p04-089",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.51,
+      0.06,
+      0.95,
+      0.1
+    ],
+    "locator": "§3 Monte Carlo cycles (right column top)",
+    "category": "symbols",
+    "expected": "5⋅10⁵",
+    "lossy_alternative": "5⋅105",
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": "5⋅105",
+    "result": "mismatch",
+    "engine": "pymupdf",
+    "region_text": "5⋅104 initialization cycles and 5⋅105 production cycles of translation,\nrotation, swap and reinsertion trial moves, where all probabilities were\nequal",
+    "render": "private/renders/S106_p04.png",
+    "render_sha256": "856e55167eaa3cced2f09bf803fb2b061d60f4c87f1c7b0203e803bf1c4ba7b6"
+  },
+  {
+    "field_id": "S106-p04-090",
+    "extraction_id": "T006-S106-p04",
+    "region_norm": [
+      0.05,
+      0.84,
+      0.49,
+      0.88
+    ],
+    "locator": "§3 equation absolute/excess adsorption",
+    "category": "relationships",
+    "expected": "θ_excess = θ_absolute − PV/(zRT)",
+    "lossy_alternative": null,
+    "reference_basis": "visual inspection of the source page PNG at 200 dpi",
+    "reference_status": "provisional; T007 independent check pending",
+    "candidate": null,
+    "result": "omission",
+    "engine": "pymupdf",
+    "region_text": "            PV\nθexcess = θabsolute −\n              zRT\n\nwhere P V and T are the pressure volume and temperature of the",
+    "render": "private/renders/S106_p04.png",
+    "render_sha256": "856e55167eaa3cced2f09bf803fb2b061d60f4c87f1c7b0203e803bf1c4ba7b6"
+  }
+]

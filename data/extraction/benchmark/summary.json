@@ -1,0 +1,30 @@
+{
+  "numbers": {
+    "total": 119,
+    "correct": 114,
+    "omissions": 5,
+    "mismatches": 0,
+    "fraction": 0.957983193277311
+  },
+  "units": {
+    "total": 36,
+    "correct": 20,
+    "omissions": 10,
+    "mismatches": 6,
+    "fraction": 0.5555555555555556
+  },
+  "symbols": {
+    "total": 19,
+    "correct": 5,
+    "omissions": 2,
+    "mismatches": 12,
+    "fraction": 0.2631578947368421
+  },
+  "relationships": {
+    "total": 37,
+    "correct": 0,
+    "omissions": 37,
+    "mismatches": 0,
+    "fraction": 0.0
+  }
+}

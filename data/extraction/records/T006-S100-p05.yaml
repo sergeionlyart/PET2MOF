@@ -1,0 +1,47 @@
+extraction_id: T006-S100-p05
+source_id: S100
+doi: 10.1021/acs.iecr.5b03517
+url: null
+input_sha256: 241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3
+pdf_page: 5
+api_page_map:
+  '1': 5
+figure_or_table: Eq. (2), integration and subtraction; Eq. (2), integration of concentration
+  ratio; Eq. (3), ratio of ratios
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S100-p05.json
+  render: private/renders/S100_p05.png
+  render_sha256: 2e0e4aa0766cfba45341e944f7eddef995e1b3db9b2fc47038f00537b39adf9d
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: S5
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.248188+00:00'
+raw_response_ref: private/ocr_cache/raw/a3c0172d29a4d9e2d8ecb9bad68dda1aacd66e471888edc02ed2e799a8b599d1.json
+unit_conversions: []
+derived_sha256: 8eaa6fa7e4193a1b7338fae0c0aa629b3352f0301619b88ebab75d21ed29009e
+status: provisional
+reviewer: null
+corrections:
+- field_id: S100-p05-028
+  kind: omission
+  reference: t = ∫(1 − Cₜ/Cᵢ)dt
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p05-029
+  kind: omission
+  reference: Sᵢⱼ = (qᵢ/qⱼ)/(Xᵢ/Xⱼ)
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 2
+  total: 4
+data_kind: text_value
+sensitivity_only: true

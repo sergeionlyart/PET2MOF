@@ -1,0 +1,99 @@
+[
+  {
+    "source_id": "S105",
+    "url": "https://mdpi-res.com/d_attachment/materials/materials-11-00589/article_deploy/materials-11-00589.pdf",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+    "elapsed_s": 0.082
+  },
+  {
+    "source_id": "S113",
+    "url": "https://mdpi-res.com/d_attachment/membranes/membranes-10-00154/article_deploy/membranes-10-00154.pdf",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+    "elapsed_s": 0.083
+  },
+  {
+    "source_id": "S2",
+    "url": "https://europepmc.org/articles/PMC6648867?pdf=render",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+    "elapsed_s": 0.096
+  },
+  {
+    "source_id": "S103",
+    "url": "https://www.nature.com/articles/s42004-022-00742-z.pdf",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+    "elapsed_s": 0.307
+  },
+  {
+    "source_id": "S102_SI",
+    "url": "https://acs.figshare.com/doi/suppl/10.1021/acs.langmuir.1c01149",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+    "elapsed_s": 0.2
+  },
+  {
+    "source_id": "S105",
+    "url": "https://mdpi-res.com/d_attachment/materials/materials-11-00589/article_deploy/materials-11-00589.pdf",
+    "engine": "curl",
+    "http_status": "200",
+    "exit_code": 0,
+    "elapsed_s": 0.64,
+    "path": "data/raw/pdf/S105_T006.pdf",
+    "valid_pdf": true,
+    "sha256": "1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a",
+    "bytes": 8966325
+  },
+  {
+    "source_id": "S113",
+    "url": "https://mdpi-res.com/d_attachment/membranes/membranes-10-00154/article_deploy/membranes-10-00154.pdf",
+    "engine": "curl",
+    "http_status": "200",
+    "exit_code": 0,
+    "elapsed_s": 0.28,
+    "path": "data/raw/pdf/S113_T006.pdf",
+    "valid_pdf": true,
+    "sha256": "4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a",
+    "bytes": 1876966
+  },
+  {
+    "source_id": "S2",
+    "url": "https://europepmc.org/articles/PMC6648867?pdf=render",
+    "engine": "curl",
+    "http_status": "403",
+    "exit_code": 56,
+    "elapsed_s": 0.09,
+    "error": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "source_id": "S103",
+    "url": "https://www.nature.com/articles/s42004-022-00742-z.pdf",
+    "engine": "curl",
+    "http_status": "200",
+    "exit_code": 0,
+    "elapsed_s": 1.77,
+    "path": "data/raw/pdf/S103_T006.pdf",
+    "valid_pdf": true,
+    "sha256": "402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734",
+    "bytes": 2400266
+  },
+  {
+    "source_id": "S102_SI",
+    "url": "https://acs.figshare.com/doi/suppl/10.1021/acs.langmuir.1c01149",
+    "engine": "curl",
+    "http_status": "202",
+    "exit_code": 0,
+    "elapsed_s": 0.24,
+    "path": "data/raw/pdf/S102_SI_T006.html",
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source_id": "S102",
+    "url": "https://ndownloader.figshare.com/files/30440111",
+    "path": "data/raw/pdf/S102_SI_T006.pdf",
+    "sha256": "1fbbe940f717c6d40e0b261595aa07e91760d045e9149d6dc4338392ab9aec6e",
+    "bytes": 1210389,
+    "valid_pdf": true,
+    "engine": "curl",
+    "exit_code": 0
+  }
+]

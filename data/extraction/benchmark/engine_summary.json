@@ -1,0 +1,55 @@
+{
+  "pdftotext": {
+    "numbers": {
+      "total": 119,
+      "correct": 114,
+      "omission": 5,
+      "mismatch": 0
+    },
+    "units": {
+      "total": 36,
+      "correct": 20,
+      "omission": 10,
+      "mismatch": 6
+    },
+    "symbols": {
+      "total": 19,
+      "correct": 5,
+      "omission": 3,
+      "mismatch": 11
+    },
+    "relationships": {
+      "total": 37,
+      "correct": 0,
+      "omission": 37,
+      "mismatch": 0
+    }
+  },
+  "tesseract": {
+    "numbers": {
+      "total": 10,
+      "correct": 7,
+      "omission": 3,
+      "mismatch": 0
+    },
+    "units": {
+      "total": 8,
+      "correct": 5,
+      "omission": 3,
+      "mismatch": 0
+    },
+    "symbols": {
+      "total": 2,
+      "correct": 0,
+      "omission": 2,
+      "mismatch": 0
+    },
+    "relationships": {
+      "total": 9,
+      "correct": 0,
+      "omission": 9,
+      "mismatch": 0
+    }
+  },
+  "region_pdftotext_elapsed_s": 3.2738
+}
