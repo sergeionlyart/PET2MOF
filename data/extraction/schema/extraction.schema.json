@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PET2MOF extraction passport (§4.5)",
+  "type": "object",
+  "required": ["extraction_id", "source_id", "doi", "url", "input_sha256", "pdf_page", "api_page_map", "figure_or_table", "region", "tool", "tool_version", "params", "date", "raw_response_ref", "unit_conversions", "derived_sha256", "status", "reviewer", "corrections", "error_estimate", "data_kind"],
+  "properties": {
+    "extraction_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"},
+    "source_id": {"type": "string", "minLength": 1},
+    "doi": {"type": ["string", "null"]},
+    "url": {"type": ["string", "null"]},
+    "input_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "pdf_page": {"type": "integer", "minimum": 1},
+    "api_page_map": {"type": "object", "propertyNames": {"pattern": "^[1-9][0-9]*$"}, "additionalProperties": {"type": "integer", "minimum": 1}},
+    "figure_or_table": {"type": ["string", "null"]},
+    "region": {"type": ["object", "null"]},
+    "tool": {"type": "string", "minLength": 1},
+    "tool_version": {"type": "string", "minLength": 1},
+    "params": {"type": "object"},
+    "date": {"type": "string", "format": "date-time"},
+    "raw_response_ref": {"type": "string", "minLength": 1},
+    "unit_conversions": {"type": "array", "items": {"type": "object"}},
+    "derived_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "status": {"enum": ["verified", "provisional", "excluded"]},
+    "reviewer": {"type": ["string", "null"]},
+    "corrections": {"type": "array", "items": {"type": "object"}},
+    "error_estimate": {"type": ["object", "string", "null"]},
+    "data_kind": {"enum": ["measured_table", "digitized_markers", "author_fit", "simulation", "text_value"]},
+    "sensitivity_only": {"type": "boolean"}
+  },
+  "anyOf": [
+    {"properties": {"doi": {"type": "string", "minLength": 1}}},
+    {"properties": {"url": {"type": "string", "minLength": 1}}}
+  ],
+  "allOf": [{"if": {"properties": {"status": {"const": "verified"}}},
+             "then": {"properties": {"reviewer": {"type": "string", "minLength": 1}}}}],
+  "additionalProperties": false
+}

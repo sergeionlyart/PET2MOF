@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling>=1.25,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pet2mof"
+version = "0.1.0"
+description = "Local extraction and provenance tools for PET2MOF"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3", "scipy>=1.12,<2", "pandas>=2.2,<4",
+  "matplotlib>=3.8,<4", "pyyaml>=6.0.1,<7", "pymupdf>=1.24,<2",
+  "pillow>=10.3,<13", "jsonschema>=4.22,<5", "pytest>=8.2,<10",
+]
+
+[project.optional-dependencies]
+ocr-cloud = ["google-cloud-documentai>=2.30,<4", "google-auth>=2.29,<3", "requests>=2.32,<3"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --basetemp=.uv-cache/pytest-tmp"
+markers = ["ocr: offline extraction, provenance and security checks"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pet2mof"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"data/extraction/schema/extraction.schema.json" = "pet2mof/provenance/extraction.schema.json"

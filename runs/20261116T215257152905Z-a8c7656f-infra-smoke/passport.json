@@ -1,0 +1,43 @@
+{
+  "run_id": "20261116T215257152905Z-a8c7656f-infra-smoke",
+  "purpose": "T005 local infrastructure smoke",
+  "hypothesis": "passport records debug execution",
+  "commit_sha": "a8c7656f6c1ddbc54b69f29a2c9a33fd15b15fbd",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [],
+  "parameters": {},
+  "seed": null,
+  "command": [
+    ".venv/bin/python",
+    "-c",
+    "print(1)"
+  ],
+  "started_utc": "2026-11-16T21:52:57.152905+00:00",
+  "finished_utc": "2026-11-16T21:52:57.249685+00:00",
+  "status": "debug",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 0.024581208010204136,
+    "child_user_seconds": 0.011637,
+    "child_system_seconds": 0.006403999999999998,
+    "child_maxrss": 15712256,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [],
+  "checks": [],
+  "limitations": [],
+  "execution_status": "completed"
+}
