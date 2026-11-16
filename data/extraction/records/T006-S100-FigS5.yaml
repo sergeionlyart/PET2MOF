@@ -1,0 +1,55 @@
+extraction_id: T006-S100-FigS5
+source_id: S100
+doi: 10.1021/acs.iecr.5b03517
+url: null
+input_sha256: 241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3
+pdf_page: 7
+api_page_map:
+  '1': 7
+figure_or_table: SI Figure S5
+region:
+  coordinate_system: 200 dpi page pixels; top-left origin
+  crop:
+  - 380
+  - 1120
+  - 1310
+  - 1840
+  image_ref: private/renders/S100_FigS5.png
+  image_sha256: cede5fe73356e16f4fd5ab3788c0ea5b09324c9340a387ceadcd1e38ca20b51d
+tool: scripts/extraction/digitize_s100.py; NumPy/Pillow connected components
+tool_version: sha256:6769a309b61de94e0a587bfc36e15785ad2e3b7bafa0a7a68600af0bc3cddc09
+params:
+  project: data/extraction/digitization/T006-S100-FigS5.digitization.yaml
+  project_sha256: ea986128d2f1ebbb572fac809f9308feb004db2a94b0602fbb6c9fc20a1e9c28
+  export: data/extraction/digitization/T006-S100-FigS5.csv
+  overlay: private/renders/overlay_S100_FigS5.png
+  overlay_sha256: 0aa65d260cf75cdc53bc6a23188ba8befb07746ab6a31b3a53bc654f4697e307
+  temperature_K: unknown
+  RH: unknown
+  PEI_loading_basis: unknown
+  x_label_verbatim: P/P₀ (kPa)
+  axis_issue: P/P0 is a ratio but label says kPa; preserve displayed scale; physical
+    pressure interpretation provisional
+  units: displayed kPa and mmol/g; no conversions; pressure interpretation provisional
+date: '2026-11-16T22:23:58.342710+00:00'
+raw_response_ref: private/ocr_cache/raw/f08be584687e8d27874106751eeb5a606e073786fbb2f564df3fef9665b9fbe0.json
+unit_conversions: []
+derived_sha256: 99a4eda0dbacd43a188161fafbc56c3983e2a53013fffa27c6cb054559a4b23c
+status: verified
+reviewer: T007 (digitization fidelity); lead D-15 (conditions via NIST Fig.4 cross-match)
+corrections:
+- action: exclude unresolved blue marker overlapped by green near x=45 on displayed
+    scale
+  coordinates_imputed: false
+- action: exclude shared origin; no points sampled from DSL lines
+error_estimate:
+  readout_bound_px: 2
+  calibration_endpoint_bound_px: 1
+  method: worst-case linear sum, not a confidence interval
+  x_bound_kPa_min: 0.5825242718446602
+  x_bound_kPa_max: 0.5859176171175416
+  uptake_bound_mmol_g: 0.02116935483870968
+  source_experimental_uncertainty: unknown
+  nist_comparison: 'not performed: identity not established'
+data_kind: digitized_markers
+sensitivity_only: true

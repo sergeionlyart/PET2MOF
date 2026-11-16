@@ -1,0 +1,52 @@
+extraction_id: T006-S106-p04
+source_id: S106
+doi: 10.1016/j.micromeso.2021.111555
+url: null
+input_sha256: 8c54ae943403f8963f765704bfe6ddfcdc3923ae92d1b05e3d82681f7c34e0e7
+pdf_page: 4
+api_page_map:
+  '1': 4
+figure_or_table: QE-TPDA sample masses/He flow (left column); §3 Monte Carlo cycles
+  (right column top); §3 equation absolute/excess adsorption
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S106-p04.json
+  render: private/renders/S106_p04.png
+  render_sha256: 856e55167eaa3cced2f09bf803fb2b061d60f4c87f1c7b0203e803bf1c4ba7b6
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '3'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.272215+00:00'
+raw_response_ref: private/ocr_cache/raw/448d16286122524e51e2284db1f879c0ed9ed225bf447db053616b945d2ed97c.json
+unit_conversions: []
+derived_sha256: ac384e481e08d52a163cd02027771bd3a5ea02021fb472267aae6be4660dd62a
+status: provisional
+reviewer: null
+corrections:
+- field_id: S106-p04-088
+  kind: mismatch
+  reference: 5⋅10⁴
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p04-089
+  kind: mismatch
+  reference: 5⋅10⁵
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p04-090
+  kind: omission
+  reference: θ_excess = θ_absolute − PV/(zRT)
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 4
+  total: 7
+data_kind: text_value
+sensitivity_only: true

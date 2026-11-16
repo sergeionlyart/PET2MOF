@@ -1,0 +1,42 @@
+extraction_id: T006-S100-p04
+source_id: S100
+doi: 10.1021/acs.iecr.5b03517
+url: null
+input_sha256: 241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3
+pdf_page: 4
+api_page_map:
+  '1': 4
+figure_or_table: 'Eq. (1), free-volume correction, minus sign; Eq. (1): qi=Ci p/(mads
+  RT) × (Vt−Vcol+mads/rhoads); Fig. S1 caption, instrument list'
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S100-p04.json
+  render: private/renders/S100_p04.png
+  render_sha256: 7f97a13af12f7fc38392c2689cb6d3ab56ef42954ae2dc3f7fb01bc757b3895b
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: S4
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.246752+00:00'
+raw_response_ref: private/ocr_cache/raw/daf177d6b7e5e4096faf0373c863f27aaec0bdf8a620cca83abaf61b52e37231.json
+unit_conversions: []
+derived_sha256: 6cb566e869dcc114edd8245c00f6c053671869f5a5a4994869e12668d2acb0e3
+status: provisional
+reviewer: null
+corrections:
+- field_id: S100-p04-025
+  kind: omission
+  reference: qᵢ = Cᵢp/(m_ads RT) × (Vt − V_col + m_ads/ρ_ads)
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 5
+  total: 6
+data_kind: text_value
+sensitivity_only: true

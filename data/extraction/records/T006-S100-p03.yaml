@@ -1,0 +1,52 @@
+extraction_id: T006-S100-p03
+source_id: S100
+doi: 10.1021/acs.iecr.5b03517
+url: null
+input_sha256: 241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3
+pdf_page: 3
+api_page_map:
+  '1': 3
+figure_or_table: '§S2 first paragraph: apparatus precision; §S2 gas names; §S2 precision;
+  §S2 second paragraph: conditions'
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S100-p03.json
+  render: private/renders/S100_p03.png
+  render_sha256: 40d9f487fdaec55e89063c501e662ffcb8b96b5155665328b8e178680adf2e26
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: S3
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.244851+00:00'
+raw_response_ref: private/ocr_cache/raw/ec757e66e235b1a2e1d6948332f034b802b7fb694e21e94fd85ba03087146556.json
+unit_conversions: []
+derived_sha256: 9463e15be6267cbcf69e696a9ee71ea1a5849d837fb70384fde194e73065d49b
+status: provisional
+reviewer: null
+corrections:
+- field_id: S100-p03-017
+  kind: mismatch
+  reference: CO₂
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p03-018
+  kind: mismatch
+  reference: CH₄
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p03-019
+  kind: mismatch
+  reference: H₂O
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 6
+  total: 9
+data_kind: text_value
+sensitivity_only: true

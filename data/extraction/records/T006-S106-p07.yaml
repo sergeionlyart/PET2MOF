@@ -1,0 +1,42 @@
+extraction_id: T006-S106-p07
+source_id: S106
+doi: 10.1016/j.micromeso.2021.111555
+url: null
+input_sha256: 8c54ae943403f8963f765704bfe6ddfcdc3923ae92d1b05e3d82681f7c34e0e7
+pdf_page: 7
+api_page_map:
+  '1': 7
+figure_or_table: Fig. 7 caption temperature; Fig. 7 discussion, occupation profiles;
+  Framework charge, right column
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S106-p07.json
+  render: private/renders/S106_p07.png
+  render_sha256: f1cc822224986eb0ba83b8c7420cfddd343825a2a347b6e54a8532dd75c965ce
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '6'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.279423+00:00'
+raw_response_ref: private/ocr_cache/raw/abf52c25859d3b4c3a0cf96f852c23a281abe90368b60b896debe65e96472c24.json
+unit_conversions: []
+derived_sha256: 88d74857021de17c2ac8a7be1bbf53b1432edbfbfc5acb8be2f65e7be79c3b35
+status: provisional
+reviewer: null
+corrections:
+- field_id: S106-p07-124
+  kind: mismatch
+  reference: ¹²⁺
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 7
+  total: 8
+data_kind: text_value
+sensitivity_only: true

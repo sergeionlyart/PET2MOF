@@ -1,0 +1,87 @@
+extraction_id: T006-S100-p09
+source_id: S100
+doi: 10.1021/acs.iecr.5b03517
+url: null
+input_sha256: 241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3
+pdf_page: 9
+api_page_map:
+  '1': 9
+figure_or_table: Fig. S8 caption, parent material and conditions; Fig. S8 legend;
+  Table S1 headers (d2 preserved verbatim); Table S1 row 10PEI@UiO-66; Table S1 row
+  10PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit); Table S1 row 20PEI@UiO-66; Table
+  S1 row 20PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit); Table S1 row 30PEI@UiO-66;
+  Table S1 row 30PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit); Table S1 row 40PEI@UiO-66;
+  Table S1 row 40PEI@UiO-66, columns q1/b1/q2/d2/R² (author fit); Table S1 row UiO-66;
+  Table S1 row UiO-66, columns q1/b1/q2/d2/R² (author fit)
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S100-p09.json
+  render: private/renders/S100_p09.png
+  render_sha256: 9d260d09e4d8de43440f0d30bf6d448a4b45409189a4596af786f0db627ae2eb
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: S9
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.266809+00:00'
+raw_response_ref: private/ocr_cache/raw/eff207144cd8c2267fbfed8a1143d775d8e6be1139565bb84b613970aeb1fb88.json
+unit_conversions: []
+derived_sha256: 0ca587fa4bf78c9dee97ef4cce85928e316f856897766ff60242e559294ce223
+status: verified
+reviewer: T007
+corrections:
+- field_id: S100-p09-047
+  kind: omission
+  reference: UiO-66 | q1,b1,q2,d2,R² | 1.463,0.0126,72.940,1.7583E-4,0.99994
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p09-053
+  kind: omission
+  reference: 10PEI@UiO-66 | q1,b1,q2,d2,R² | 0.698,0.653,7.621,0.00299,0.99999
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p09-059
+  kind: omission
+  reference: 20PEI@UiO-66 | q1,b1,q2,d2,R² | 0.833,0.477,8.124,0.00307,0.99986
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p09-065
+  kind: omission
+  reference: 30PEI@UiO-66 | q1,b1,q2,d2,R² | 1.056,0.395,5.558,0.00307,0.99945
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p09-071
+  kind: omission
+  reference: 40PEI@UiO-66 | q1,b1,q2,d2,R² | 1.253,2.345,1.578,0.0115,0.99991
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p09-072
+  kind: mismatch
+  reference: q₁
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p09-073
+  kind: mismatch
+  reference: d₂
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p09-074
+  kind: mismatch
+  reference: R²
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S100-p09-076
+  kind: omission
+  reference: UiO-66 | CO₂/CH₄ | 308 K | 80% RH
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 26
+  total: 35
+data_kind: text_value
+sensitivity_only: true

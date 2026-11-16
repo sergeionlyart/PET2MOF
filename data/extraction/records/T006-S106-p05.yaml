@@ -1,0 +1,84 @@
+extraction_id: T006-S106-p05
+source_id: S106
+doi: 10.1016/j.micromeso.2021.111555
+url: null
+input_sha256: 8c54ae943403f8963f765704bfe6ddfcdc3923ae92d1b05e3d82681f7c34e0e7
+pdf_page: 5
+api_page_map:
+  '1': 5
+figure_or_table: Fig. 4 caption; Fig. 4 legend, water, measured at 293 K in caption;
+  Table 1 BET, UiO-66_100; Table 1 BET, UiO-66_160; Table 1 BET, UiO-66_220; Table
+  1 BET, columns UiO-66_220/_160/_100; Table 1 PV, UiO-66_100; Table 1 PV, UiO-66_160;
+  Table 1 PV, UiO-66_220; Table 1 PV, columns UiO-66_220/_160/_100; Table 1 row labels/units
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S106-p05.json
+  render: private/renders/S106_p05.png
+  render_sha256: 6c4c4ce1b882ad2264f86ee44a7aa5de63ffd10baf062abbcb17b36866ee7645
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '4'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.274261+00:00'
+raw_response_ref: private/ocr_cache/raw/96cd5258c0f1d8865211bfc85ee94ceb13ffe74783e192ffd33f520465d2bf37.json
+unit_conversions: []
+derived_sha256: dff423d887aeadc0227bd02dc77d4b22ab5f48fb10a676349f0dadab4348af69
+status: verified
+reviewer: T007
+corrections:
+- field_id: S106-p05-094
+  kind: omission
+  reference: UiO-66_220 | PV | 0.353
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p05-095
+  kind: omission
+  reference: UiO-66_160 | PV | 0.376
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p05-096
+  kind: omission
+  reference: UiO-66_100 | PV | 0.460
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p05-100
+  kind: omission
+  reference: UiO-66_220 | BET | 1115
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p05-101
+  kind: omission
+  reference: UiO-66_160 | BET | 1197
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p05-102
+  kind: omission
+  reference: UiO-66_100 | BET | 1646
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p05-103
+  kind: mismatch
+  reference: cm³/g
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p05-104
+  kind: mismatch
+  reference: m²/g
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p05-106
+  kind: omission
+  reference: purple square → UiO-66_220 | H₂O | 293 K
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 7
+  total: 16
+data_kind: text_value
+sensitivity_only: true

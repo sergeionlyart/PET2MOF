@@ -1,0 +1,52 @@
+extraction_id: T006-S106-p06
+source_id: S106
+doi: 10.1016/j.micromeso.2021.111555
+url: null
+input_sha256: 8c54ae943403f8963f765704bfe6ddfcdc3923ae92d1b05e3d82681f7c34e0e7
+pdf_page: 6
+api_page_map:
+  '1': 6
+figure_or_table: Fig. 5 axis minimum; Fig. 5 caption; Fig. 6 caption; Fig. 6a/b experimental
+  versus calculated curves
+region:
+  units: normalized page coordinates; origin top-left
+  field_regions: data/extraction/benchmark/T006-S106-p06.json
+  render: private/renders/S106_p06.png
+  render_sha256: e2c4e29b8323c29cc3cc534d1e902cef0f83bb7d02a0b9a89e933afe555d79b0
+tool: PyMuPDF region-assisted glyph audit; manual visual reference
+tool_version: 1.27.2.3
+params:
+  dpi: 200
+  sort: true
+  printed_page: '5'
+  script_sha256: 7cee1db5d5f0467a112126594622824436071756861f2b7abf4141a5cd90fb50
+  benchmark_only: true
+  not_a_measurement_dataset: true
+date: '2026-11-16T22:22:07.277794+00:00'
+raw_response_ref: private/ocr_cache/raw/cad5e1cbd627041b8a71dc70c839c7c1a911754a11f6b98b8722412ea3703e38.json
+unit_conversions: []
+derived_sha256: b309aefcd786726d74269903d276f806ac5d92d5f3e55414a2841aa20280438d
+status: verified
+reviewer: T007
+corrections:
+- field_id: S106-p06-112
+  kind: omission
+  reference: −1.0
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p06-115
+  kind: omission
+  reference: open squares → UiO-66_220 desorption
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+- field_id: S106-p06-116
+  kind: omission
+  reference: dashed circle curve → Tuned EQeq charges (simulation)
+  applied_to_raw: false
+  action: manual transcription/structure; pending T007
+error_estimate:
+  scope: selected fields only; region-assisted presence, not blind extraction
+  correct: 7
+  total: 10
+data_kind: text_value
+sensitivity_only: true

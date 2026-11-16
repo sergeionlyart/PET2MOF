@@ -1,0 +1,228 @@
+image_sha256: cede5fe73356e16f4fd5ab3788c0ea5b09324c9340a387ceadcd1e38ca20b51d
+code_version: sha256:6769a309b61de94e0a587bfc36e15785ad2e3b7bafa0a7a68600af0bc3cddc09
+x_axis:
+  pixel_1: 152
+  value_1: 0
+  pixel_2: 667
+  value_2: 100
+  scale: linear
+y_axis:
+  pixel_1: 601
+  value_1: 0
+  pixel_2: 105
+  value_2: 3.5
+  scale: linear
+series:
+- name: UiO-66
+  data_kind: digitized_markers
+  sigma_pixel: 2
+  pixels:
+  - - 181.0
+    - 576.5
+  - - 219.0
+    - 548.0
+  - - 269.0
+    - 513.0
+  - - 328.0
+    - 475.0
+  - - 385.0
+    - 443.0
+  - - 442.0
+    - 412.0
+  - - 499.5
+    - 383.5
+  - - 556.5
+    - 357.5
+  - - 613.5
+    - 331.5
+  marker: square
+- name: 10PEI@UiO-66
+  data_kind: digitized_markers
+  sigma_pixel: 2
+  pixels:
+  - - 180.5
+    - 507.0
+  - - 209.5
+    - 478.5
+  - - 268.5
+    - 439.5
+  - - 326.5
+    - 405.5
+  - - 384.0
+    - 376.5
+  - - 441.0
+    - 350.0
+  - - 498.5
+    - 320.5
+  - - 556.0
+    - 298.5
+  - - 613.5
+    - 275.5
+  - - 671.5
+    - 253.0
+  marker: circle
+- name: 20PEI@UiO-66
+  data_kind: digitized_markers
+  sigma_pixel: 2
+  pixels:
+  - - 179.0
+    - 496.5
+  - - 209.0
+    - 462.5
+  - - 268.5
+    - 414.5
+  - - 327.5
+    - 381.5
+  - - 443.0
+    - 315.0
+  - - 499.0
+    - 287.5
+  - - 556.0
+    - 261.0
+  - - 614.0
+    - 236.5
+  - - 670.0
+    - 212.5
+  marker: triangle_up
+- name: 30PEI@UiO-66
+  data_kind: digitized_markers
+  sigma_pixel: 2
+  pixels:
+  - - 184.5
+    - 457.0
+  - - 210.0
+    - 426.0
+  - - 267.5
+    - 365.5
+  - - 336.0
+    - 304.0
+  - - 384.5
+    - 269.5
+  - - 441.5
+    - 233.0
+  - - 498.5
+    - 202.0
+  - - 556.0
+    - 175.5
+  - - 613.5
+    - 151.0
+  - - 671.5
+    - 132.0
+  marker: triangle_down
+- name: 40PEI@UiO-66
+  data_kind: digitized_markers
+  sigma_pixel: 2
+  pixels:
+  - - 179.0
+    - 424.0
+  - - 212.0
+    - 403.0
+  - - 270.5
+    - 380.5
+  - - 328.0
+    - 362.0
+  - - 384.5
+    - 348.5
+  - - 441.0
+    - 337.0
+  - - 499.5
+    - 329.0
+  - - 556.5
+    - 319.0
+  - - 613.5
+    - 311.5
+  - - 670.5
+    - 303.5
+  marker: diamond
+extraction_id: T006-S100-FigS5
+source_pdf_sha256: 241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3
+pdf_page: 7
+figure: S5
+dpi: 200
+crop_page_pixels:
+- 380
+- 1120
+- 1310
+- 1840
+image_ref: private/renders/S100_FigS5.png
+x_label_verbatim: P/P₀ (kPa)
+y_label_verbatim: CO₂ Adsorbed amounts (mmol/g)
+axis_issue: P/P0 is a ratio but label says kPa; preserve displayed scale; physical
+  pressure interpretation provisional
+temperature_K: unknown in Fig. S5 caption; 298 K in Fig. S4 is not transferred
+RH: unknown
+PEI_loading_basis: unknown; retain sample labels
+excluded:
+- 'Shared origin: markers occlude each other'
+- Thin red DSL fitted curves
+- No error bars visible; no experimental uncertainty inferred
+calibration_error_px_bound: 1
+readout_error_px_bound: 2
+calibration_checks:
+  x:
+  - pixel: 152.0
+    value: 0
+    residual_data: 0.0
+  - pixel: 255.0
+    value: 20
+    residual_data: 0.0
+  - pixel: 358.0
+    value: 40
+    residual_data: 0.0
+  - pixel: 461.0
+    value: 60
+    residual_data: 0.0
+  - pixel: 564.0
+    value: 80
+    residual_data: 0.0
+  - pixel: 667.0
+    value: 100
+    residual_data: 0.0
+  - pixel: 770.0
+    value: 120
+    residual_data: 0.0
+  - pixel: 873.0
+    value: 140
+    residual_data: 0.0
+  y:
+  - pixel: 105.0
+    value: 3.5
+    residual_data: 0.0
+  - pixel: 176.0
+    value: 3
+    residual_data: -0.0010080645161290036
+  - pixel: 247.0
+    value: 2.5
+    residual_data: -0.002016129032258007
+  - pixel: 318.0
+    value: 2
+    residual_data: -0.003024193548387011
+  - pixel: 388.0
+    value: 1.5
+    residual_data: 0.003024193548387011
+  - pixel: 459.5
+    value: 1
+    residual_data: -0.0015120967741935054
+  - pixel: 530.5
+    value: 0.5
+    residual_data: -0.0025201612903225645
+  - pixel: 601.5
+    value: 0
+    residual_data: -0.003528225806451613
+  method: dark-pixel runs along x-axis row 609 and y-axis column 142; matches major
+    ticks
+  max_residual_x_data: 0.0
+  max_residual_y_data: 0.003528225806451613
+error_method: absolute linear worst-case sum; see frozen protocol
+algorithm:
+  color_masks: see versioned script
+  closing_square_px: 3
+  erosion_square_px: 3
+  component_connectivity: 8
+  roi:
+  - 168
+  - 95
+  - 682
+  - 588
+status: provisional
+sensitivity_only: true
