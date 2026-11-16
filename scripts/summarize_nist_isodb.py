@@ -71,8 +71,8 @@ def main():
     lines += ['', '## Около 308 K', '', f'При 308 K: {sum(float(r["T_K"])==308 for r in iso)} JSON; '
               f'в интервале 303–313 K: {len(near)} JSON (включая смеси). '
               'Все четыре записи ровно при 308 K имеют единицы cm3(STP)/g или cm3/m2: '
-              'load_isotherm отклоняет их без дополнительных сведений. Это наличие исходных данных, '
-              'а не готовых значений mmol/g.', '',
+              'две cm3(STP)/g загружаются при STP 273.15 K, 101.325 kPa (22.414 cm3/mmol); '
+              'две cm3/m2 отклоняются без массовой нормировки.', '',
               '| Материал | Адсорбат | T/K | Изотерма |', '| --- | --- | ---: | --- |']
     for r in near:
         lines.append(f'| {r["material"]} | {r["adsorbate"]} | {r["T_K"]} | {Path(r["filename"]).stem} |')
@@ -95,8 +95,8 @@ def main():
         'Наличие влажных смесей и H2O следует оценивать по точным строкам, а не по CO2-данным.', '',
         f'Не загружаются в нормализованные единицы без дополнительных допущений: {len(unsupported)} JSON. '
         'Исходники сохранены независимо от возможности конверсии. '
-        'Поддержаны bar, Pa, kPa, MPa, mbar, atm, Torr, mmHg → bar; mmol/g, mol/kg, mol/g, mmol/kg → mmol/g. '
-        'Для объёмной ёмкости нельзя выбирать молярный объём газа по догадке. '
+        'Поддержаны bar, Pa, kPa, MPa, mbar, atm, Torr, mmHg → bar; mmol/g, mol/kg, mol/g, mmol/kg, cm3(STP)/g → mmol/g. '
+        'Для cm3(STP)/g используется 22.414 cm3/mmol при 273.15 K и 101.325 kPa; cm3/g и cm3/m2 отклоняются. '
         'Mixture pressure_bar — полное давление; ёмкость — для конкретного компонента; состав и его тип сохраняются.', '',
         '| pressureUnits | adsorptionUnits | JSON |', '| --- | --- | ---: |']
     for (p,q),n in sorted(units.items()): lines.append(f'| {p} | {q} | {n} |')
@@ -126,7 +126,7 @@ def main():
         'Атрибуция: NIST/ARPA-E Database of Novel and Emerging Adsorbent Materials, версия 3.23726, '
         'дата доступа из manifest.csv; для каждого набора также cite DOI исходной статьи.', '',
         'Локальный тест: `python3 -m pytest tests/test_nist_isodb.py` '
-        '(эквивалентно `pytest tests/test_nist_isodb.py`, если executable доступен в PATH). Зависимости: `requirements-nist.txt`; '
+        '(эквивалентно `pytest tests/test_nist_isodb.py`, если executable доступен в PATH). Зависимости: `pyproject.toml` и `uv.lock`; fetch требует `uv sync --extra fetch`; '
         'источники импортируются через tests/conftest.py. '
         'Сеть только при явном `python scripts/fetch_nist_isodb.py`; '
         'отчёт пересоздаётся без сети: `python scripts/summarize_nist_isodb.py`. '
