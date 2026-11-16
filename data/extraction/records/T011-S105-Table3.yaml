@@ -1,0 +1,28 @@
+extraction_id: T011-S105-Table3
+source_id: S105
+doi: 10.3390/ma11040589
+url: https://www.mdpi.com/1996-1944/11/4/589
+input_sha256: 1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a
+pdf_page: 10
+api_page_map:
+  '1': 10
+figure_or_table: Table 3
+region:
+  render: private/renders/T011-S105-Table3.png
+  render_sha256: 132e0ae39f014fe7b49dcb622eebb32ef19bf535b1b3453571ce3ce1ad61b167
+tool: PyMuPDF text layer + visual table transcription; scripts/extraction/digitize_c_series.py
+tool_version: sha256:b60e081d8581c27ce884f9be1b5a08fdbdaa224e222fcb1bacaee0fec9757527
+params:
+  parameter_units: not printed in Table 3; inference kept separate
+  not_a_measurement: true
+  not_in_normalized_isotherms: true
+date: '2026-11-16T22:53:47.902774+00:00'
+raw_response_ref: private/ocr_cache/T011/T011-S105-Table3.txt
+unit_conversions: []
+derived_sha256: bbbc639bb77fefa9c1e82e94ac3029fe1c810e309d7111ca9d974c38efaf6ac2
+status: provisional
+reviewer: null
+corrections: []
+error_estimate: Printed precision only; fit parameter uncertainty unknown
+data_kind: author_fit
+sensitivity_only: true

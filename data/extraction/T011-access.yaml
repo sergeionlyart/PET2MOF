@@ -1,0 +1,63 @@
+task_id: T011-c-series
+checked_utc: '2026-11-16T22:51:24.719362+00:00'
+decision_authority: docs/decisions.md D-14; source split remains superseded by D-14
+  for S105/S106
+sources:
+- doi: 10.1021/acs.inorgchem.5b00435
+  unpaywall_url: https://api.unpaywall.org/v2/10.1021/acs.inorgchem.5b00435?email=pet2mof@users.noreply.github.com
+  unpaywall_http_status: 200
+  is_oa: false
+  oa_status: closed
+  best_oa_location: null
+  raw_response_ref: private/ocr_cache/T011/unpaywall_5b00435.json
+  raw_response_sha256: c4facc379e53915a9cddbd785e2216f783cf7ca7ff41fa2d84e2636c41791bef
+  publisher_url: https://pubs.acs.org/doi/10.1021/acs.inorgchem.5b00435
+  publisher_http_status: 403
+  supplement_url: https://pubs.acs.org/doi/suppl/10.1021/acs.inorgchem.5b00435/suppl_file/ic5b00435_si_001.pdf
+  supplement_http_status: 403
+  decision: Original figure not obtained in this session; NIST stays provisional,
+    sensitivity only. A 403 is an access failure, not proof that no legal copy exists.
+  publisher_response_ref: private/ocr_cache/T011/acs_landing.html
+  publisher_response_sha256: d78ea98428ab1489481b822cda1ebf45c66eba7d14ee52b7134899a841e8efe0
+  supplement_response_ref: private/ocr_cache/T011/acs_si_download
+  supplement_response_sha256: 0214f9ca0fec4bacee89cbc6808164abad70ac4fd8b56bfe196d626cb9d15d66
+- doi: 10.1039/C2cp23839j
+  unpaywall_url: https://api.unpaywall.org/v2/10.1039/C2cp23839j?email=pet2mof@users.noreply.github.com
+  unpaywall_http_status: 200
+  is_oa: false
+  oa_status: closed
+  best_oa_location: null
+  raw_response_ref: private/ocr_cache/T011/unpaywall_c2cp23839j.json
+  raw_response_sha256: 365fd54b0fbec0af3e973856dae6599ed7549ff4801173f494320f3e33826ebd
+  publisher_url: https://pubs.rsc.org/en/content/articlelanding/2012/cp/c2cp23839j
+  publisher_http_status: 403
+  supplement_url: https://www.rsc.org/suppdata/c2/cp/c2cp23839j/c2cp23839j.pdf
+  supplement_http_status: 403
+  decision: Original figure not obtained in this session; NIST stays provisional,
+    sensitivity only. A 403 is an access failure, not proof that no legal copy exists.
+  publisher_response_ref: private/ocr_cache/T011/rsc_landing.html
+  publisher_response_sha256: e1409c499fa4be17050231a61574ad43489df0e95cbb3215865808dfdf71faaa
+  supplement_response_ref: private/ocr_cache/T011/rsc_si_download
+  supplement_response_sha256: 98386d51458ba213122247acd59ca3913c65f0b2f5536764eee2715a78791c11
+- doi: 10.3390/ma11040589
+  url: https://mdpi-res.com/d_attachment/materials/materials-11-00589/article_deploy/materials-11-00589.pdf
+  input_ref: data/raw/pdf/S105_T011.pdf
+  input_sha256: 1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a
+  license: CC BY 4.0
+  access: Publisher open PDF downloaded, HTTP 200; MDPI article readable with web
+    tool; standard PDF endpoint returned 403.
+- doi: 10.1016/j.micromeso.2021.111555
+  url: https://doi.org/10.1016/j.micromeso.2021.111555
+  input_ref: data/raw/pdf/S106.pdf
+  input_sha256: 8c54ae943403f8963f765704bfe6ddfcdc3923ae92d1b05e3d82681f7c34e0e7
+  license: CC BY 4.0
+  access: Existing local publisher PDF with repository cover; no new network download.
+paid_calls: 0
+external_ocr_calls: 0
+holdout_sources_opened: []
+iapws:
+  url: https://iapws.org/public/documents/6dGkr/Supp-sat.pdf
+  pdf_page: 3
+  equation: 1
+  raw_ref: private/ocr_cache/T011/IAPWS-Supp-sat.pdf
+  sha256: a10d38d73339b0713c86cfac88f9adcba137202167ccdfa1cd58238c438361d7

@@ -1,0 +1,11 @@
+series_id,source_id,extraction_id,material,gas,T_K,p_bar,q_mmol_g,q_err_mmol_g,p_err_bar,data_kind,status
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.152116,0.0334801,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.250578,0.0518439,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.353525,0.0701924,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.451988,0.0885562,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.550432,0.10862,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.653397,0.125269,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.75186,0.143632,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.854824,0.160281,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.899562,0.170328,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm67,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm67,UiO-66-NH2,N2,298,0.953287,0.178645,,,nist_category_unknown,provisional

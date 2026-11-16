@@ -1,0 +1,14 @@
+series_id,source_id,extraction_id,material,gas,T_K,p_bar,q_mmol_g,q_err_mmol_g,p_err_bar,data_kind,status
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.146917,0.0387891,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.195954,0.045535,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.298351,0.0725187,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.342818,0.0893835,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.396302,0.097816,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.49427,0.121427,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.552201,0.131546,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.596738,0.141664,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.699188,0.163589,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.797139,0.188886,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.899606,0.209124,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.948608,0.219243,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm25,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm25,UiO-66,N2,273,0.99761,0.229362,,,nist_category_unknown,provisional

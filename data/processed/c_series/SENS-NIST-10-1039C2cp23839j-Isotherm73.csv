@@ -1,0 +1,17 @@
+series_id,source_id,extraction_id,material,gas,T_K,p_bar,q_mmol_g,q_err_mmol_g,p_err_bar,data_kind,status
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.0266667,0.468539,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.0488889,0.764458,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.102222,1.18368,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.151111,1.55358,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.2,1.82483,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.302222,2.26871,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.351111,2.44133,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.395556,2.61395,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.502222,2.93453,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.546667,3.03317,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.595556,3.18113,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.697778,3.42773,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.795556,3.57569,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.897778,3.77297,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.946667,3.89627,,,nist_category_unknown,provisional
+SENS-NIST-10-1039C2cp23839j-Isotherm73,NIST-10.1039C2cp23839j,T002-10.1039C2cp23839j.Isotherm73,UiO-66-NH2,CO2,273,0.995556,3.94559,,,nist_category_unknown,provisional

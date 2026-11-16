@@ -1,0 +1,52 @@
+extraction_id: T011-S105-Fig8A
+source_id: S105
+doi: 10.3390/ma11040589
+url: https://www.mdpi.com/1996-1944/11/4/589
+input_sha256: 1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a
+pdf_page: 8
+api_page_map:
+  '1': 8
+figure_or_table: Fig8A
+region:
+  image_ref: private/renders/T011-S105-Fig8A.png
+  image_sha256: 59b500b9a8a6a1ca4a38a897f25b461d9e389a04856479c383877db8d9d71ab0
+  crop_native_pixels:
+  - 0
+  - 0
+  - 2068
+  - 1660
+tool: scripts/extraction/digitize_c_series.py; NumPy/SciPy/Pillow; AxisCalibration
+tool_version: sha256:b60e081d8581c27ce884f9be1b5a08fdbdaa224e222fcb1bacaee0fec9757527
+params:
+  project: data/extraction/digitization/T011-S105-Fig8A.digitization.yaml
+  overlay: private/renders/T011-S105-Fig8A-overlay.png
+  overlay_sha256: a82c8d4e8525eff0dad70548b001dd5e4ef08446e6f495de5097bce199ce85d8
+  limitations:
+  - 'Activation conflict: section 2.3 ambient-temperature vacuum 12 h vs section 3.4
+    vacuum 393 K 12 h.'
+  - N2 section 3.5 gives 0-1 bar while Fig.9 absolute-pressure axis extends to 1.2
+    bar; retain plotted coordinates.
+  - GO composites kept distinct from unmodified carriers; no transfer of uptake normalization.
+  - Langmuir lines excluded; Table 3 is a separate author_fit.
+  - Unresolved or partially occluded markers omitted, especially in crowded low-pressure
+    regions; not imputed.
+  T_K: 273
+  gas: CO2
+  mass_basis: dry adsorbent; each material's own mass
+  RH: unknown; no humidification specified, not measured RH=0
+  license: CC BY 4.0
+  units: mmol/g
+  branch: adsorption; no desorption series identified in selected figure
+date: '2026-11-16T22:53:39.961087+00:00'
+raw_response_ref: private/renders/T011-S105-Fig8A-native.png
+unit_conversions: []
+derived_sha256: f3ff542972975cf388f23ee5265027dcae27d97b73274d4031ad40b1be7ef8d7
+status: provisional
+reviewer: null
+corrections: []
+error_estimate:
+  readout_bound_px: 7
+  calibration_endpoint_bound_px: 2
+  method: linear worst-case sum; no experimental uncertainty inferred
+data_kind: digitized_markers
+sensitivity_only: true
