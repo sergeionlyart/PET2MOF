@@ -1,0 +1,15 @@
+{
+  "phase": "nonblind source recheck after comparison; not added to blind controls",
+  "series": "UiO-66_160",
+  "roi": [
+    1233,
+    230,
+    1265,
+    279
+  ],
+  "pixel_x": 1247.0,
+  "pixel_y": 251.0,
+  "method": "pink upper arc bbox x midpoint; y=min colored y+13 px circle radius measured on isolated symbols",
+  "RH": 0.8226768968456948,
+  "q_cm3_STP_g": 461.78686759956946
+}

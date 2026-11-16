@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "S105": {
+      "pdf": "data/raw/pdf/S105_T011.pdf",
+      "sha256": "1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a",
+      "doi": "10.3390/ma11040589",
+      "credit": "Cao et al., Materials 2018, 11, 589",
+      "license": "CC BY 4.0"
+    },
+    "S106": {
+      "pdf": "data/raw/pdf/S106.pdf",
+      "sha256": "8c54ae943403f8963f765704bfe6ddfcdc3923ae92d1b05e3d82681f7c34e0e7",
+      "doi": "10.1016/j.micromeso.2021.111555",
+      "credit": "Jajko et al., Microporous and Mesoporous Materials 330 (2022) 111555",
+      "license": "CC BY 4.0; verified PDF page 2"
+    },
+    "IAPWS": {
+      "url": "https://iapws.org/public/documents/6dGkr/Supp-sat.pdf",
+      "sha256": "a10d38d73339b0713c86cfac88f9adcba137202167ccdfa1cd58238c438361d7",
+      "page": 3,
+      "credit": "IAPWS SR1-86(1992), official release",
+      "license": "Unrestricted publication allowed in all countries (title page)"
+    }
+  },
+  "figure_modifications": "PyMuPDF rendering/cropping and control-point annotation only; no generative editing"
+}

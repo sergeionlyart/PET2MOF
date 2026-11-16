@@ -1,0 +1,39 @@
+{
+  "psat_293K_bar": 0.02317544979505046,
+  "ideal_STP_cm3_per_mmol": 22.413969545014137,
+  "STP_rounding_relative_error": 1.3587502116774175e-06,
+  "roles": {
+    "C": 5,
+    "C_candidate": 11,
+    "context_GO": 8,
+    "sensitivity_only": 34
+  },
+  "sources": {
+    "S100": 50,
+    "S105": 677,
+    "S106": 98,
+    "NIST-10.1021Ie202325p": 23,
+    "NIST-10.1021acs.inorgchem.5b00435": 982,
+    "NIST-10.1039C2cp23839j": 302
+  },
+  "kinds": {
+    "digitized_markers": 1830,
+    "nist_category_unknown": 302
+  },
+  "statuses": {
+    "verified": 48,
+    "provisional": 2084
+  },
+  "independently_checked_conversion_rows": {
+    "S100": 48,
+    "S100_NIST_only": 2,
+    "S105": 677,
+    "S106": 98
+  },
+  "input_hashes_verified": 56,
+  "rebuilt_csv_identical": 58,
+  "manifest_identical": true,
+  "table3_numbers_verified": 36,
+  "no_holdout_rows": true,
+  "no_author_fit_in_measurements": true
+}

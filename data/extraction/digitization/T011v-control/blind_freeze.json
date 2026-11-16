@@ -1,0 +1,13 @@
+{
+  "phase": "blind; no T011 CSV/project/script/report read",
+  "controls_sha256": "2b6a6447548d3b8e0d1a7c1fdfc95b76197ccf47c96093214c767eeb9aeb7678",
+  "n_series": 19,
+  "n_controls": 228,
+  "projects": {
+    "S105-Fig8A": "987e2bc565bc46eba8b3567b3ebe002284498172c3e9b535fae1701a6ca3212b",
+    "S105-Fig8B": "8dcec48f89665ea66cbf08375fc1dd46a393b9e0f2b8ff6839c529196216072b",
+    "S105-Fig8C": "689ea0903fe36b1e949676ce93167a272296a563af68b4fb2b8400d039b9a45e",
+    "S105-Fig9": "e95710f6f9df00cd3ed693aad63a45b3e1cda140973ba09667a50908705f46ca",
+    "S106-Fig4": "c76bfc3e358762c978c512645e65cff6aa35965dba5b266f4a5331d2e59eaf66"
+  }
+}
