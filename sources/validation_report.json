@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-16",
+  "status": "pass",
+  "records": 20,
+  "crossref_verified": 19,
+  "located_measured_UiO_CO2_sources": [
+    "S2",
+    "S100",
+    "S103",
+    "S104",
+    "S105",
+    "S113"
+  ],
+  "data_items": 37,
+  "passports": 57,
+  "validated_downloads": 33,
+  "checks": [
+    "required fields, roles, types, locators and unique IDs",
+    "DOI/title/authors/year/journal against saved Crossref responses",
+    "minimum source counts with located experimental CO2 evidence",
+    "complete provenance IDs and registry/record hashes",
+    "all saved input and derivative hashes; manifest sizes and dates",
+    "explicit missing-data report section"
+  ],
+  "scientific_independent_review": "pending T004",
+  "errors": []
+}
