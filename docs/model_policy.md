@@ -46,3 +46,15 @@ JSON-события `codex exec --json` модель и effort **не раскр
 | T004-audit-check | sol, medium | sol, medium | принято | нет |
 | T005-infra-ocr-checks | sol, high | sol, high | принято после T005b; ревью T008 впереди | конфликт `tests/conftest.py` при слиянии разрешён руководителем |
 | T005b-publish-check-allowlist | sol, medium | sol, medium | принято | нашёл сторонний Mapbox-токен в сохранённых страницах NIST (верно) |
+| T006-extraction-pilot | sol, high | sol, high | принято после T007; V-часть — только на `holdout/v1` | условия S5 установлены руководителем сверкой с NIST (D-15) |
+| T007-extraction-review | astra, medium | astra, medium | принято | нет |
+| T008-security-review | astra, medium | astra, medium | принято: 8 дефектов | нет |
+| T008b-security-fixes | sol, high | sol, high | принято после T008c | T008-09 исправлен руководителем |
+| T008c-security-rereview | astra, medium, read-only | astra, medium, read-only | принято: 8/8 исправлены, найден T008-09 | исправление и регрессии — руководитель |
+| T009-registry-update | terra, medium | terra, medium | принято | нет |
+| T010-integration | sol, medium | sol, medium | принято | нет |
+| T012-model-design | astra, high | astra, high | принято (D-06) | нет |
+| T011-c-series | sol, high | sol, high | влито как `provisional`; ожидает T011v | нет |
+| T013-implement-m1 | sol, high | sol, high | влито как debug; контроль S100 не пройден (D-16) | абсолютный путь в паспортах: переносимые пути, история переписана до влития; журналы stdout/stderr debug-прогонов не сохранены (клон удалён до копирования `private/run_logs`) |
+| T011v-c-series-verify | astra, high | — (в работе) | — | — |
+| T015-model-revision | sol, high | — (в работе) | — | — |
