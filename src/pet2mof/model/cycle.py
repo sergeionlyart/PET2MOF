@@ -1,8 +1,8 @@
 """Quasi-equilibrium cycle, NOT a coupled kinetic/column model (D-08).
 
-Water and physical pools equilibrate at each endpoint; chemical residuals relax
-from the preceding endpoint. Reject incompatible residual N/water states. A wet
-bicarbonate-to-dry transition generally needs the deferred coupled integrator.
+Default v1: water/physical pools equilibrate at endpoints, chemistry relaxes.
+T015 optional common six-pool relaxation transports bound water with bicarbonate;
+it is a prescribed-target scenario, not a fitted reaction/transport integrator.
 """
 from dataclasses import dataclass, replace
 import math
@@ -22,6 +22,7 @@ class Model:
     xi: float = 0.
     baseline: object = None
     B0: bool = False
+    coupled_water: bool = False
 
     def equilibrium(self, w, gas):
         physical = iast(gas.p_C, gas.p_N, gas.T, self.co2, self.n2)
@@ -73,6 +74,12 @@ def periodic_cycle(model, w, ads, des, *, tau_over_t=0., tau_des_over_t=None,
         a, d = eq_a.copy(), eq_d.copy()
         a[2:4] = start[2:4] + fa * (eq_a[2:4] - start[2:4])
         d[2:4] = a[2:4] + fd * (eq_d[2:4] - a[2:4])
+        if model.coupled_water:
+            # Common relaxation of the full feasible state. In particular,
+            # b and its 1:1 bound water move together. Convexity preserves all
+            # linear water/N/volume inequalities at fixed dry geometry.
+            a = start + fa*(eq_a-start)
+            d = a + fd*(eq_d-a)
         if model.baseline is None:
             model.amines.check_state(w, a[2], a[3], a[5])
             model.amines.check_state(w, d[2], d[3], d[5])
@@ -85,6 +92,7 @@ def periodic_cycle(model, w, ads, des, *, tau_over_t=0., tau_des_over_t=None,
                         selectivity_ads=selectivity(a, ads), selectivity_kind='quasi_equilibrium_endpoint',
                         t_ads=t_ads, t_des=t_des, tau_over_t=tau_over_t,
                         tau_des_over_t=tau_over_t if tau_des_over_t is None else tau_des_over_t,
+                        kinetic_scheme='common_six_pool_relaxation' if model.coupled_water else 'v1_chemical_only_relaxation',
                         baseline_water_available=model.baseline is None, status='debug_quasi_equilibrium')
         start, previous_ads = d, a
     raise RuntimeError(f'periodic cycle did not converge in {max_cycles} cycles; residual={residual}')

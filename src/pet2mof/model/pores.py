@@ -15,6 +15,8 @@ class Pores:
     K_WP: float = 1.
     rho_water: float = 1.  # explicit liquid-density approximation, not IAPWS density
     M_water: float = 18.01528
+    connectivity_kappa: float = 0.
+    connectivity_power: float = 1.
 
     def __post_init__(self):
         if not all(math.isfinite(v) for v in vars(self).values()):
@@ -24,7 +26,10 @@ class Pores:
         if any(not 0 <= v <= 1 for v in (self.f_in, self.c_conn, self.alpha_in)):
             raise ValueError('pore fractions outside [0,1]')
         if self.f_in == 0 and self.alpha_in != 0:
-            raise Inadmissible('internal PEI water requires internal PEI')
+            if self.connectivity_kappa == 0:
+                raise Inadmissible('internal PEI water requires internal PEI or pore-mouth film')
+        if self.connectivity_kappa < 0 or self.connectivity_power < 1:
+            raise ValueError('invalid connectivity branch')
 
     @property
     def v_water(self):
@@ -40,6 +45,9 @@ class Pores:
         if w == 0 and self.c_conn != 1:
             raise Inadmissible('own bare-host basis requires c_conn=1')
         dry = self.c_conn * (host - pei)
+        if self.connectivity_kappa:
+            from .revision import connectivity
+            dry *= float(connectivity(w, self.connectivity_kappa, self.connectivity_power)) if w < 1 else 0.
         water_pei = w * self.W_max * a / (self.K_WP + a)
         remaining = dry - self.alpha_in * self.v_water * water_pei
         if remaining < 0:

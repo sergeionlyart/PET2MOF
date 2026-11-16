@@ -91,3 +91,8 @@ def test_publish_failure_output_has_no_matched_values(publication_repo, capsys):
     assert "TESTSECRET-should-never-print" not in output
     assert "FAIL public-text:authorization-literal" in output
     assert 'path="example.py"' in output
+
+
+def test_run_id_substitution_matches_actual_passport(tmp_path,fake_git):
+    _,passport=execute_run(tmp_path,[sys.executable,'-c',"from pathlib import Path; import sys; Path('id.txt').write_text(sys.argv[1])",'{run_id}'],outputs=['id.txt'])
+    assert (tmp_path/'id.txt').read_text()==passport['run_id']

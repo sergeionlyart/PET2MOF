@@ -21,6 +21,7 @@ class Amines:
     K_b: float = 1.
     Q_b: float = 0.
     T_ref: float = 298.
+    water_limited: bool = False
 
     def __post_init__(self):
         if not all(math.isfinite(v) for v in vars(self).values()):
@@ -43,6 +44,10 @@ class Amines:
         A = min(1., max(0., self.A0 * attenuation * (1 + self.gamma * a)))  # specified clip in (11)
         N = w * self.n_N * A
         h = self.h_max * a / (self.K_h + a)
+        if self.water_limited:
+            # Joint allocation before occupancy: h*N <= W. No rejected or clipped
+            # CO2 target and no second independent water pool for bicarbonate.
+            h *= water_pei/(water_pei+h*N) if water_pei+h*N > 0 else 0.
         kd, kb = affinity(self.K_d, self.Q_d, T, self.T_ref), affinity(self.K_b, self.Q_b, T, self.T_ref)
         d = (1 - h) * N * self.nu_d * kd * p_C / (1 + kd * p_C)
         b = h * N * kb * p_C / (1 + kb * p_C)

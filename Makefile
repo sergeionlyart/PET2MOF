@@ -14,11 +14,11 @@ publish-check:
 test-model:
 	uv run --locked --no-sync pytest tests/test_model_*.py
 reproduce-demo:
-	uv run --locked --no-sync python scripts/model_run.py demo
+	uv run --locked --no-sync python scripts/revision_run.py demo
 screen-debug:
-	uv run --locked --no-sync python scripts/model_run.py screen
+	uv run --locked --no-sync python scripts/revision_run.py screen
 report:
-	uv run --locked --no-sync python scripts/model_report.py
+	uv run --locked --no-sync python scripts/revision_run.py report
 reproduce-full:
 	@echo "not implemented yet (stage N)"
 	@exit 2

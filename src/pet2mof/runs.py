@@ -89,6 +89,7 @@ def run_command(root, *, name, purpose, hypothesis, command, inputs=(), outputs=
     commit = subprocess.run(["git", "rev-parse", "HEAD"], cwd=root, capture_output=True, check=True, text=True).stdout.strip()
     start = _utc()
     run_id = f"{start.strftime('%Y%m%dT%H%M%S%fZ')}-{commit[:8]}-{name}"
+    command = [entry.replace('{run_id}', run_id) for entry in command]
     input_hashes = _hash_paths(root, inputs)
     for path in outputs:
         _validate_output(root, path)
