@@ -45,3 +45,6 @@ data/raw/figures_full/
 # Full ISODB catalogs: re-fetchable via API, SHA-256 kept in data/raw/nist_isodb/manifest.csv
 data/raw/nist_isodb/catalogs/
 .uv-cache/
+
+# NIST web pages (contain a third-party public map token; not needed for reproduction). URL + SHA-256 in manifest.csv
+data/raw/nist_isodb/docs/*.html
