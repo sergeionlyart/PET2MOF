@@ -26,6 +26,18 @@
 4. Найти пропущенные важные источники (до 5) с измеренными CO2-данными для PEI/UiO-66 или влажного
    CO2 на UiO-66/UiO-66-NH2; проверить их DOI так же.
 
+5. Приоритеты (по убыванию): S100 (DOI 10.1021/acs.iecr.5b03517) → S2 → S115 → S111 → S101/S102.
+   * S100: NIST ISODB содержит изотермы CO2 при 298 K для 10/20/30/40PEI@UiO-66 с пометкой
+     `articleSource: Figure 4` (`data/raw/nist_isodb/isotherms/10.1021acs.iecr.5b03517.Isotherm6..9.json`),
+     а реестр указывает SI Fig. S4–S5. Установить, какой рисунок и какая нормировка (на массу? на
+     площадь?) верны; есть ли в основном тексте влажный тест композита (рисунок, RH, T, состав газа).
+     Как определена загрузка PEI (номинальная/TGA), Mw PEI, активация.
+   * S2: RH «moist»-опыта (Table 2/Fig. 9) — указан ли где-нибудь в Methods?
+   * S115: получить законный доступ к тексту/аннотации; есть ли CO2-данные UiO-66 из реальных отходов PET.
+6. Скачанные открытые тексты лежат в `data/raw/{pdf,html,figures_full}/` (см.
+   `sources/downloads_manifest.csv`); PMC может отдавать CAPTCHA — её **не обходить**, использовать
+   Europe PMC REST (`https://www.ebi.ac.uk/europepmc/webservices/rest/<PMCID>/fullTextXML`) или издателя.
+
 ## Артефакт
 
 `reviews/T004_registry_check.md` (русский): таблица `source_id | DOI ok | метаданные ok | указатель
