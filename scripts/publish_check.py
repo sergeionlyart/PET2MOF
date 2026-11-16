@@ -97,8 +97,12 @@ def forbidden_path(relative):
         elif pattern.startswith("**/"):
             if fnmatch.fnmatchcase(parts[-1], pattern[3:]):
                 return True
-        elif pattern == ".env*" and parts[-1] == ".env.example":
-            continue
+        elif pattern == ".env*":
+            # Only the final component may be the public template (T008-09).
+            if any(fnmatch.fnmatchcase(part, pattern) for part in parts[:-1]):
+                return True
+            if parts[-1] != ".env.example" and fnmatch.fnmatchcase(parts[-1], pattern):
+                return True
         elif any(fnmatch.fnmatchcase(part, pattern) for part in parts):
             return True
     return False

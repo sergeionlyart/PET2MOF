@@ -158,7 +158,8 @@ FORBIDDEN = [".env.backup", ".envrc", "nested/.env.secret", "nested/settings.env
     ".agent_sessions/log", "nested/credentials-demo.json", "nested/auth.json",
     "nested/service_account-demo.json", "nested/application_default_credentials.json",
     "nested/key.pem", "key.key", "key.p12", "key.pfx", "data/raw/pdf/a.pdf",
-    "data/raw/html/a.html", "data/raw/figures_full/a.png"]
+    "data/raw/html/a.html", "data/raw/figures_full/a.png",
+    ".env.private/.env.example", "nested/.env.d/.env.example"]
 
 
 @pytest.mark.parametrize("name", FORBIDDEN)
@@ -348,3 +349,18 @@ def test_t008_08_credential_ignore_patterns_agree():
     assert credentials <= git_patterns
     assert credentials <= docker_patterns
     assert {pattern for pattern in docker_patterns if pattern.endswith((".json", ".pem", ".key", ".p12", ".pfx"))} == credentials
+
+
+def test_t008_09_env_parent_with_template_rejected_in_history(repo, capsys):
+    """T008-09: the .env.example exception applies only to the final path component."""
+    root, module = repo
+    assert module.forbidden_path(".env.private/.env.example")
+    assert not module.forbidden_path("nested/.env.example")
+    (root / ".env.private").mkdir()
+    (root / ".env.private/.env.example").write_text("synthetic private text")
+    git(root, "add", "-f", ".env.private/.env.example")
+    git(root, "commit", "-m", "synthetic private history")
+    git(root, "rm", "-q", ".env.private/.env.example")
+    git(root, "commit", "-m", "delete private file")
+    assert module.check(root) == 1
+    assert "FAIL no-private-history-files" in capsys.readouterr().out
