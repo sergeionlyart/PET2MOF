@@ -1,0 +1,42 @@
+# --- Secrets (§10.3). Configured before the first commit. ---
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+secrets/
+.secrets/
+private/
+.local/
+.agent_sessions/
+**/credentials*.json
+**/auth.json
+**/service_account*.json
+**/application_default_credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# --- Python / tooling ---
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+tmp/
+
+# --- Local, non-redistributable inputs (see sources/LICENSES.md) ---
+data/raw/pdf/
+data/raw/html/
+data/raw/figures_full/
+
+# --- OS ---
+.DS_Store
