@@ -4,7 +4,7 @@ import math
 import re
 
 CO2_MOLAR_MASS_G_MOL = 44.0095
-STP_MOLAR_VOLUME_CM3_MOL = 22414.0  # 273.15 K, 1 atm; ideal gas convention
+STP_MOLAR_VOLUME_CM3_MOL = 22414.0  # RT/P at 273.15 K, 101.325 kPa, rounded
 _SUPER = str.maketrans("⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺", "0123456789-+")
 
 
@@ -24,7 +24,8 @@ def parse_number(value):
 
 
 def _capacity_factor(unit, molar_mass, stp_volume):
-    factors = {"mmol/g": 1.0, "mol/kg": 1.0, "mg/g": 1 / molar_mass,
+    factors = {"mmol/g": 1.0, "mol/kg": 1.0, "mol/g": 1000.0,
+               "mmol/kg": 0.001, "mg/g": 1 / molar_mass,
                "cm3(STP)/g": 1000 / stp_volume, "wt%": 10 / molar_mass}
     if unit not in factors:
         raise ValueError("unknown capacity unit")
@@ -33,15 +34,20 @@ def _capacity_factor(unit, molar_mass, stp_volume):
 
 def convert_capacity(value, from_unit, to_unit, *, molar_mass=CO2_MOLAR_MASS_G_MOL,
                      stp_molar_volume=STP_MOLAR_VOLUME_CM3_MOL):
-    """wt% = grams CO2 per 100 grams dry adsorbent; return scalar."""
+    """Return scalar; wt% is grams CO2 per 100 grams dry adsorbent.
+
+    Default STP volume is the ideal-gas RT/P at 273.15 K and 101.325 kPa,
+    rounded to 22414 cm3/mol (22.414 cm3/mmol), independent of sample T.
+    """
     if not math.isfinite(molar_mass) or molar_mass <= 0 or not math.isfinite(stp_molar_volume) or stp_molar_volume <= 0:
         raise ValueError("positive molecular mass and STP volume required")
     return parse_number(value) * _capacity_factor(from_unit, molar_mass, stp_molar_volume) / _capacity_factor(to_unit, molar_mass, stp_molar_volume)
 
 
 def convert_pressure(value, from_unit, to_unit):
-    factors = {"bar": 100000.0, "kPa": 1000.0, "Pa": 1.0, "mbar": 100.0,
-               "Torr": 101325 / 760, "atm": 101325.0}
+    factors = {"bar": 100000.0, "kPa": 1000.0, "MPa": 1e6, "Pa": 1.0,
+               "mbar": 100.0, "Torr": 101325 / 760, "mmHg": 101325 / 760,
+               "atm": 101325.0}
     if from_unit not in factors or to_unit not in factors:
         raise ValueError("unknown pressure unit")
     return parse_number(value) * factors[from_unit] / factors[to_unit]
