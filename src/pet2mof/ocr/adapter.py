@@ -138,6 +138,13 @@ class OCRAdapter:
         if sha256_file(input_path) != input_digest:
             raise ValueError("input changed during PDF selection")
         params = {"mime_type": "application/pdf", "selected_pages_only": True}
+        if config.provider == "google_docai":
+            params.update({
+                "project": config.value("GOOGLE_CLOUD_PROJECT"),
+                "location": config.value("GOOGLE_DOCUMENT_AI_LOCATION"),
+                "processor_id": config.value("GOOGLE_DOCUMENT_AI_PROCESSOR_ID"),
+                "skip_human_review": True,
+            })
         # An alias cannot safely identify a cached engine version.
         alias = "latest" in requested_version.lower()
         key = cache_key(input_path, pages, engine=config.provider, version=requested_version, params=params, input_sha256=input_digest)
@@ -158,8 +165,7 @@ class OCRAdapter:
             try:
                 raw, actual_version = provider(config, payload)
             except AuthorizationError:
-                ledger.confirm(reservation)
-                ledger.stop("authorization")
+                ledger.confirm(reservation, stop_reason="authorization")
                 raise AuthorizationError("OCR authorization failed; paid path stopped") from None
             except TransientError:
                 ledger.confirm(reservation)
