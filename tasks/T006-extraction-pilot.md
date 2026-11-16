@@ -12,6 +12,18 @@
 `sources/audit_report.md`, `src/pet2mof/ocr/`, `src/pet2mof/extraction/digitize.py`,
 `src/pet2mof/provenance/extraction.py`.
 
+## Уточнения руководителя (после T004)
+
+* Приоритетные страницы: S2 (Europe PMC XML: Table 1–2; Fig. 6, 9), S100 SI (`data/raw/pdf/S100_SI.pdf`:
+  p.S7 Fig. S4/S5, p.S9 Table S1/Fig. S8), S113 Fig. 5a–b, S106 PDF p.5 (Fig. 4, Table 1), S102 SI p.S5
+  (Fig. S6), S103 Fig. 2a, S105 pp.8–9; сканов среди источников, вероятно, нет — так и записать.
+* Пробная оцифровка: **S100 SI Fig. S5** (массовые изотермы PEI@UiO-66, CC BY-NC 4.0). Сравнить свою
+  оцифровку с независимой оцифровкой NIST основного Fig. 4 (`data/raw/nist_isodb/isotherms/
+  10.1021acs.iecr.5b03517.Isotherm6..9.json`) **только если** установлено, что это те же данные; иначе
+  сравнение не делать. Это даёт эмпирическую оценку погрешности оцифровки.
+* Не изменять `pyproject.toml`/`uv.lock` (их меняет T010); нужные пакеты перечислить в отчёте.
+* PMC может отдавать CAPTCHA — не обходить; использовать Europe PMC REST и локальные копии `data/raw/`.
+
 ## Шаги
 
 1. **До сравнения** записать в `reviews/document_extraction_benchmark.md` проверяемые поля и допуски
