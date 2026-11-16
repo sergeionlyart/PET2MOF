@@ -2,7 +2,7 @@ UV_CACHE_DIR := $(CURDIR)/.uv-cache
 export UV_CACHE_DIR
 export UV_PYTHON_DOWNLOADS := never
 
-.PHONY: env test test-ocr publish-check reproduce-demo reproduce-full report
+.PHONY: env test test-ocr test-model publish-check reproduce-demo reproduce-full report screen-debug
 env:
 	uv sync --locked
 test:
@@ -11,6 +11,14 @@ test-ocr:
 	uv run --locked --no-sync pytest -m ocr
 publish-check:
 	uv run --locked --no-sync python scripts/publish_check.py
-reproduce-demo reproduce-full report:
+test-model:
+	uv run --locked --no-sync pytest tests/test_model_*.py
+reproduce-demo:
+	uv run --locked --no-sync python scripts/model_run.py demo
+screen-debug:
+	uv run --locked --no-sync python scripts/model_run.py screen
+report:
+	uv run --locked --no-sync python scripts/model_report.py
+reproduce-full:
 	@echo "not implemented yet (stage N)"
 	@exit 2
