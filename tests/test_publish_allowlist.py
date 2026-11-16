@@ -32,14 +32,15 @@ def test_real_email_domains_fail(domain):
     assert "non-noreply-email" in publish_module().sensitive_rules("person@" + domain)
 
 
-def test_hash_allowlist_is_exact_and_expires(tmp_path):
-    module = publish_module()
+def test_hash_allowlist_is_exact_and_expires(publication_repo):
+    tmp_path, module = publication_repo
     payload = b"reviewed pattern definition"
     entry = {"path": "reviewed.py", "check": "credential-literal",
              "reason": "Definition of the redaction pattern, reviewed by security",
              "sha256": hashlib.sha256(payload).hexdigest()}
     (tmp_path / "configs").mkdir()
     (tmp_path / "configs/publish_allowlist.yaml").write_text(yaml.safe_dump([entry]))
+    subprocess.run(["git", "add", "configs/publish_allowlist.yaml"], cwd=tmp_path, check=True)
     records = module.load_allowlist(tmp_path)
     assert module.allowed_text_check(records, "reviewed.py", entry["check"], payload)
     assert not module.allowed_text_check(records, "reviewed.py", entry["check"], payload + b"changed")
@@ -47,8 +48,8 @@ def test_hash_allowlist_is_exact_and_expires(tmp_path):
     assert not module.allowed_text_check(records, "reviewed.py", "authorization-literal", payload)
 
 
-def test_hash_allowlist_controls_check_result(tmp_path, monkeypatch, capsys):
-    module = publish_module()
+def test_hash_allowlist_controls_check_result(publication_repo, capsys):
+    tmp_path, module = publication_repo
     path = tmp_path / "reviewed.py"
     payload = ("private" + "_key").encode()
     path.write_bytes(payload)
@@ -57,19 +58,10 @@ def test_hash_allowlist_controls_check_result(tmp_path, monkeypatch, capsys):
         {"path": "reviewed.py", "check": "credential-literal", "reason": "Pattern definition",
          "sha256": hashlib.sha256(payload).hexdigest()}]))
 
-    def fake_command(root, args):
-        if args[:2] == ["git", "ls-files"]:
-            output = b"reviewed.py\0"
-        elif args[:2] == ["git", "config"]:
-            output = b"public@users.noreply.github.com"
-        else:
-            output = b""
-        return subprocess.CompletedProcess(args, 0, output, b"")
-
-    monkeypatch.setattr(module, "command", fake_command)
-    monkeypatch.setattr(module.shutil, "which", lambda _: "gitleaks")
+    subprocess.run(["git", "add", "reviewed.py", "configs/publish_allowlist.yaml"], cwd=tmp_path, check=True)
     assert module.check(tmp_path) == 0
     path.write_bytes(payload + b" changed")
+    subprocess.run(["git", "add", "reviewed.py"], cwd=tmp_path, check=True)
     assert module.check(tmp_path) == 1
     assert 'path="reviewed.py"' in capsys.readouterr().out
 

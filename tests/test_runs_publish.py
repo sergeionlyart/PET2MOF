@@ -82,19 +82,11 @@ def test_publication_rules():
     assert "credential-literal" in module.sensitive_rules("private" + "_key")
 
 
-def test_publish_failure_output_has_no_matched_values(tmp_path, monkeypatch, capsys):
-    module = publish_module()
-    (tmp_path / "example.py").write_text("Bearer" + " TESTSECRET-should-never-print")
-    def fake_command(root, args):
-        if args[:2] == ["git", "ls-files"]:
-            result = b"example.py\0"
-        elif args[:2] == ["git", "config"]:
-            result = b"public@users.noreply.github.com\n"
-        else:
-            result = b""
-        return subprocess.CompletedProcess(args, 0, result, b"")
-    monkeypatch.setattr(module, "command", fake_command)
-    assert module.check(tmp_path) == 1
+def test_publish_failure_output_has_no_matched_values(publication_repo, capsys):
+    root, module = publication_repo
+    (root / "example.py").write_text("Bearer" + " TESTSECRET-should-never-print")
+    subprocess.run(["git", "add", "example.py"], cwd=root, check=True)
+    assert module.check(root) == 1
     output = capsys.readouterr().out
     assert "TESTSECRET-should-never-print" not in output
     assert "FAIL public-text:authorization-literal" in output
