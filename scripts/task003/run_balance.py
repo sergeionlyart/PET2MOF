@@ -601,6 +601,8 @@ def main():
     if not args.run_id or '/' in args.run_id or '\n' in args.run_id:
         raise ValueError('invalid run_id')
     (ROOT/OUT).mkdir(parents=True,exist_ok=True)
+    # Tree state is taken before any output is written (T045): outputs of this run must not mark their own run dirty.
+    tree_clean_at_start=not subprocess.check_output(['git','status','--porcelain'],cwd=ROOT)
     check_bounds()
     ga_note,raw_path=ga_source()
     recs,envelopes=records()
@@ -650,7 +652,8 @@ def main():
         'transfer_envelope.csv','sensitivity_rank.csv','analog_lines.png')]
     dump(OUT/'provenance.json',dict(run_id=args.run_id,
         commit_sha=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
-        status='debug_uncommitted_implementation' if subprocess.check_output(['git','status','--porcelain'],cwd=ROOT) else 'committed_tree',
+        status='committed_tree' if tree_clean_at_start else 'debug_uncommitted_implementation',
+        status_basis='git status --porcelain before outputs were written',
         inputs=hashed(inputs),implementation=hashed(code),outputs=hashed(outputs),
         assumptions=['q_s=0','dry pure CO2','no fitting of phi or eta','PET q_host unknown',
                      'defective skeleton masses are conditional upper bounds; caps and exact dry basis unknown'],
