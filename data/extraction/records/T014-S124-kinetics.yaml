@@ -10,21 +10,22 @@ figure_or_table: Table 3, p.10; Eq.(2), p.4
 region:
   render: private/T014/S124-p10.png
   render_sha256: 185ee2cfad8c329664112539182a3ee6c84b4446af15c3b7d5854d5c1b03cb5d
-  visual_check: T014 author checked; independent review pending
+  visual_check: T014 author checked; T014v independently reviewed
 tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
 tool_version: PyMuPDF 1.28.2; T014-v1
 params:
   input_ref: private/T014/S124.pdf
   output_ref: data/extraction/T014/T014-S124-kinetics.json
   page_note: PDF index is one-based, including repository cover page when present.
+  review_report: reviews/T014v_ranges_verification.md
   interpretation: No plot coordinates inferred; printed numbers only.
   logarithm_base: unspecified in printed Eq.(2); no conversion to a M1 e-fold mass-relaxation constant asserted
 date: '2026-11-16T23:59:48.788477+00:00'
 raw_response_ref: private/T014/S124.pdf
 unit_conversions: []
-derived_sha256: d3c67261117a16a48d8ca34a36c56d3d4f44dee30bc2935e2f227a654c18dddc
-status: provisional
-reviewer: null
+derived_sha256: 45b15f6ad9c460e25f0f192ec2509bd946ccc193def03f6c0223a03407b1bd61
+status: verified
+reviewer: T014v
 corrections: []
 error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
   interval.

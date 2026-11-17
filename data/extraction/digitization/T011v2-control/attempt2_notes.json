@@ -1,0 +1,4 @@
+{
+  "reason": "Containment did not remove ambiguities of boundary-only square fit. Replaced squares with directional straight-edge runs. Other shapes retained.",
+  "code_sha256": "0ea913407fffbca59aec6485a1540b524bce28b8f4015eccca483ed8f2293599"
+}

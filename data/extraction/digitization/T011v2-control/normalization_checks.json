@@ -1,0 +1,157 @@
+{
+  "series": [
+    {
+      "series_id": "C-S105-Fig8A-UiO-66-CO2-273K",
+      "rows": 46,
+      "max_rounding_residual": 4.93094454157017e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8A-UiO-66-NH2-CO2-273K",
+      "rows": 46,
+      "max_rounding_residual": 4.965139410728625e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8A-UiO-66-GO-CO2-273K",
+      "rows": 39,
+      "max_rounding_residual": 4.803268893738277e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8A-UiO-66-NH2-GO-CO2-273K",
+      "rows": 39,
+      "max_rounding_residual": 4.948930154569098e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8B-UiO-66-CO2-298K",
+      "rows": 47,
+      "max_rounding_residual": 4.882316773091588e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8B-UiO-66-NH2-CO2-298K",
+      "rows": 46,
+      "max_rounding_residual": 4.978240042419202e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8B-UiO-66-GO-CO2-298K",
+      "rows": 39,
+      "max_rounding_residual": 4.9609205632350495e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8B-UiO-66-NH2-GO-CO2-298K",
+      "rows": 39,
+      "max_rounding_residual": 4.986677737406353e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8C-UiO-66-CO2-318K",
+      "rows": 46,
+      "max_rounding_residual": 4.760414284987746e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8C-UiO-66-NH2-CO2-318K",
+      "rows": 44,
+      "max_rounding_residual": 4.729328040298242e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8C-UiO-66-GO-CO2-318K",
+      "rows": 39,
+      "max_rounding_residual": 4.9609205632350495e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig8C-UiO-66-NH2-GO-CO2-318K",
+      "rows": 40,
+      "max_rounding_residual": 4.976685730184727e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig9-UiO-66-N2-298K",
+      "rows": 46,
+      "max_rounding_residual": 4.455324997820753e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig9-UiO-66-NH2-N2-298K",
+      "rows": 50,
+      "max_rounding_residual": 4.785505325344275e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig9-UiO-66-GO-N2-298K",
+      "rows": 47,
+      "max_rounding_residual": 4.75264272381537e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S105-Fig9-UiO-66-NH2-GO-N2-298K",
+      "rows": 48,
+      "max_rounding_residual": 2.7062796448262816e-12,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 1.0,
+      "y_multiplier": 1.0
+    },
+    {
+      "series_id": "C-S106-Fig4-UiO-66-100-H2O-293K",
+      "rows": 35,
+      "max_rounding_residual": 4.9183768169314135e-11,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 0.02317544979505042,
+      "y_multiplier": 0.0446149727848666
+    },
+    {
+      "series_id": "C-S106-Fig4-UiO-66-160-H2O-293K",
+      "rows": 35,
+      "max_rounding_residual": 4.921929530610214e-11,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 0.02317544979505042,
+      "y_multiplier": 0.0446149727848666
+    },
+    {
+      "series_id": "C-S106-Fig4-UiO-66-220-H2O-293K",
+      "rows": 35,
+      "max_rounding_residual": 4.7990056373237167e-11,
+      "sha256_matches_manifest": true,
+      "x_multiplier": 0.02317544979505042,
+      "y_multiplier": 0.0446149727848666
+    }
+  ],
+  "checked_rows": 806
+}

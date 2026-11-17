@@ -6,24 +6,25 @@ input_sha256: 8d56f90d06607abb009bbf0389756773e60e532f40e75027b9078f784a38d6fa
 pdf_page: 16
 api_page_map:
   '1': 16
-figure_or_table: SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7
+figure_or_table: SI Table S3, p.16; 35 °C column; SI §4.1 pp.14–15 and Fig.S8; main Fig.4b and presaturation text
 region:
   render: private/T014/S121_SI-p16.png
   render_sha256: 95b3a156e9eb476caaac3699274d72a1235e5b6ad0854d7ba17398efaa3e0b97
-  visual_check: T014 author checked; independent review pending
+  visual_check: T014 author checked; T014v independently reviewed
 tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
 tool_version: PyMuPDF 1.28.2; T014-v1
 params:
   input_ref: private/T014/S121_SI.pdf
   output_ref: data/extraction/T014/T014-S121-humidity.json
   page_note: PDF index is one-based, including repository cover page when present.
+  review_report: reviews/T014v_ranges_verification.md
   interpretation: No plot coordinates inferred; printed numbers only.
 date: '2026-11-16T23:59:48.788477+00:00'
 raw_response_ref: private/T014/S121_SI.pdf
 unit_conversions: []
-derived_sha256: 821ea8609be30bba46931514b24abd430028ad0a56db1588080d4324012d38f2
-status: provisional
-reviewer: null
+derived_sha256: e94dde466da02cd43d06215fe5661afe32aaac090af09734196aaad4e9c3bbdc
+status: verified
+reviewer: T014v
 corrections: []
 error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
   interval.

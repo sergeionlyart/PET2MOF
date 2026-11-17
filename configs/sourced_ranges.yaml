@@ -1,7 +1,7 @@
 schema_version: T014-v1
-description: Provisional parameter evidence. Scenario retains broad stress bounds; literature_ranges are separate
+description: Independently verified transcription and project assumptions. Scenario retains broad stress bounds; literature_ranges are separate
   conditional analog observables, NOT automatically applied priors. No model/tolerance changes.
-review_required: T014v / T016
+review_required: T016
 blindness: No S2, S113, S103, S102 or S117/Madden 2021 source files or holdout datasets opened.
 scenario:
   tau_over_t:
@@ -12,7 +12,9 @@ scenario:
     type: assumption_range
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: assumption_range
     transfer_class: target_stress_only
     conditions: &id001
@@ -35,7 +37,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -50,7 +54,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -65,7 +71,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -80,7 +88,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -95,7 +105,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -110,7 +122,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -126,7 +140,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -141,7 +157,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -156,7 +174,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -171,7 +191,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -186,7 +208,9 @@ scenario:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -203,7 +227,9 @@ structural_branches:
       type: assumption_range
       source_id: DESIGN-T014
       extraction_id: T014-DESIGN
-      status: provisional
+      status: verified
+      reviewer: T014v
+      review_report: reviews/T014v_ranges_verification.md
       evidence_kind: assumption_range
       transfer_class: target_stress_only
       conditions: *id001
@@ -218,7 +244,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -232,7 +260,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -246,7 +276,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -260,7 +292,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -274,7 +308,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -288,7 +324,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -302,7 +340,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -316,7 +356,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -330,7 +372,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -344,7 +388,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -358,7 +404,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -372,7 +420,9 @@ target_knowledge:
     type: unknown
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: unknown
     transfer_class: target_unknown
     conditions: *id001
@@ -389,7 +439,9 @@ literature_ranges:
     type: derived
     source_id: S105
     extraction_id: T014-S105-Qphys
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: author_calculation
     transfer_class: analog
     conditions:
@@ -413,7 +465,9 @@ literature_ranges:
     type: derived
     source_id: S106
     extraction_id: T014-S106-pores
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: direct_measurement
     transfer_class: analog
     conditions:
@@ -437,7 +491,9 @@ literature_ranges:
     type: derived
     source_id: S106
     extraction_id: T014-S106-Qwater
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: simulation
     transfer_class: analog
     conditions:
@@ -460,7 +516,9 @@ literature_ranges:
     type: derived
     source_id: S119
     extraction_id: T014-S119-f3
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: author_NMR_deconvolution
     transfer_class: analog
     conditions:
@@ -484,7 +542,9 @@ literature_ranges:
     type: derived
     source_id: S110
     extraction_id: T014-S110-humidity
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: direct_measurement
     transfer_class: analog
     conditions:
@@ -511,7 +571,9 @@ literature_ranges:
     type: derived
     source_id: S121
     extraction_id: T014-S121-humidity
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: direct_measurement
     transfer_class: analog
     conditions:
@@ -520,8 +582,8 @@ literature_ranges:
       material: 30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE
       PEI_Mw: Mw~800 by LS, Mn~600 by GPC (SI p.3)
       method: fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3
-      activation: fixed-bed protocol Fig.S7; no extrapolation to 5% CO2
-    locator: SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7
+      activation: fixed-bed activation unknown/not independently specified; presaturation with humid N2 (main Fig.4b and text); no extrapolation to 5% CO2
+    locator: SI Table S3, p.16; 35 °C column; SI §4.1 pp.14–15 and Fig.S8; main Fig.4b and presaturation text
     limitations: 'Silica/ePTFE and DAC gas differ from target MOF/flue gas.; Do not impose a single RH multiplier:
       sign changes with loading and RH.'
     evidence_ref: data/extraction/T014/T014-S121-humidity.json#/quantities/wet_dry_ratio
@@ -537,7 +599,9 @@ literature_ranges:
     type: derived
     source_id: S116
     extraction_id: T014-S116-desorption
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: conditional_exponential_equivalent
     transfer_class: analog
     conditions:
@@ -561,7 +625,9 @@ literature_ranges:
     type: derived
     source_id: S124
     extraction_id: T014-S124-heat
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: direct_measurement
     transfer_class: analog
     conditions:
@@ -585,10 +651,14 @@ literature_ranges:
     type: derived
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: conditional_exponential_equivalent
     transfer_class: analog
-    conditions: *id001
+    conditions:
+      <<: *id001
+      source_numerator_conditions: "S116: 120 °C regeneration; 80% or 90% steam fraction, RH not reported; hyperbranched PEI/mesoporous silica; fluidized-bed CO2 desorption (see T014-S116-desorption:tau_CO2_des)."
     locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
     limitations: Envelope tau/t over stage-time design and S116 reactor-equivalent tau; no H2O equivalence, no common
       tau inference.
@@ -604,7 +674,9 @@ literature_ranges:
     type: derived
     source_id: DESIGN-T014
     extraction_id: T014-DESIGN
-    status: provisional
+    status: verified
+    reviewer: T014v
+    review_report: reviews/T014v_ranges_verification.md
     evidence_kind: conditional_heat_signal_proxy
     transfer_class: analog
     conditions:
@@ -614,6 +686,7 @@ literature_ranges:
       PEI_Mw: unknown
       method: retained project stress assumptions / exact physical endpoints
       activation: unknown
+      source_numerator_conditions: "S124: 25 °C, anhydrous; PEI-impregnated APTES/mesocellular silica MSG20I30; microcalorimetric heat signal (see T014-S124-kinetics:tau_heat_max)."
     locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
     limitations: Reported heat-signal parameter / chosen stage time only. Eq.(2) in S124 leaves the log base unspecified;
       this ratio is NOT an identified e-fold CO2/H2O relaxation ratio. If log means base ten, e-fold time would

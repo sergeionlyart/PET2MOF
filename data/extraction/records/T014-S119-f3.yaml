@@ -10,7 +10,7 @@ figure_or_table: Original HTML Table 2, id=T2; NMR characterization; Table 1 for
 region:
   render: private/T014/S119-table2.png
   render_sha256: 11e7746d39fc9df11a5e61de41e04830af500e4671334077e98f2cdedae611ce
-  visual_check: T014 author checked; independent review pending
+  visual_check: T014 author checked; T014v independently reviewed
 tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
 tool_version: PyMuPDF 1.28.2; T014-v1
 params:
@@ -18,14 +18,15 @@ params:
   output_ref: data/extraction/T014/T014-S119-f3.json
   page_note: No original PDF obtained. pdf_page=1 denotes the one-page render of unchanged original HTML section
     id=T2 via PyMuPDF Story, not a publication page.
+  review_report: reviews/T014v_ranges_verification.md
   interpretation: No plot coordinates inferred; printed numbers only.
 date: '2026-11-16T23:59:48.788477+00:00'
 raw_response_ref: private/T014/S119-source.html
 unit_conversions:
 - operation: min/max of tertiary amine percent / 100 = fraction
-derived_sha256: 5ea5e2190ac8d7a45b514ccfa138223559b206cdc3402b9460a685713e9a53a5
-status: provisional
-reviewer: null
+derived_sha256: af73da5c2c91116dfc686236787efab99001f3563337239cb2eed2046dfaad5a
+status: verified
+reviewer: T014v
 corrections: []
 error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
   interval.

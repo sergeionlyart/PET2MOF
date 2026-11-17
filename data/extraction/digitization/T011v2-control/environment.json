@@ -1,0 +1,19 @@
+{
+  "versions": {
+    "python": "3.11.5",
+    "PyMuPDF": "1.27.2.3",
+    "opencv": "4.13.0",
+    "numpy": "2.4.2",
+    "Pillow": "12.1.0",
+    "PyYAML": "6.0.3"
+  },
+  "network": "off; no network tools invoked",
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning_effort": "high",
+  "actual_model": "not exposed by interface; rollout not read outside worktree",
+  "actual_effort": "not exposed by interface",
+  "role": "independent verifier",
+  "platform": "OpenAI Codex",
+  "UV_CACHE_DIR": "$PWD/.uv-cache",
+  "no_commit": true
+}

@@ -19,7 +19,7 @@ tool: scripts/extraction/digitize_c_series.py; NumPy/SciPy/Pillow; AxisCalibrati
 tool_version: sha256:8db9672d603f3cc685691cc4cc4f6afb3a248fbf49b70d8f2dc914ccdb981ccb
 params:
   project: data/extraction/digitization/T011-S106-Fig4.digitization.yaml
-  review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
+  review_code_sha256: 012093537ae85f6057a30f616b85ab8f203d398031b8d1a62a570acc4b6d5971
   overlay: private/renders/T011-S106-Fig4-overlay.png
   overlay_sha256: b488b8db013d321329650d8d21404f51790323af2855d6216f935136ef5aa41c
   limitations:
@@ -53,10 +53,10 @@ params:
       coordinate_bytes_sha256: c5cd11ad0197a152e18a185b88e99a9db4e5c22a61f9a810b965c27c47e857df
       coordinates_byte_identical: true
     UiO-66_160:
-      status: provisional
-      reviewer: null
-      review_ref: null
-      pending_review: T011v2
+      status: verified
+      reviewer: T011v2
+      review_ref: reviews/T011v2_reverification.md
+      pending_review: null
       usable_p_min_bar: 0.0012384914816765272
       usable_range_note: lowest retained distinguishable symbol, not evidence of complete
         origin coverage; no initial-slope fit without sensitivity check
@@ -316,9 +316,9 @@ unit_conversions:
   source: https://iapws.org/public/documents/6dGkr/Supp-sat.pdf
   pdf_page: 3
   temperature_uncertainty: unknown
-derived_sha256: 990d32362582034ba921536ce2e9e3bb35a577d6a3a6f14e3f4cd328b27d0b28
-status: provisional
-reviewer: null
+derived_sha256: 23347d25eb2cd1dcc8e0dd16a4c9657030f4b645ce7447734e2a040c531191db
+status: verified
+reviewer: T011v2
 corrections:
 - task: T011b-c-series-fix
   defects:

@@ -19,7 +19,7 @@ tool: scripts/extraction/digitize_c_series.py; NumPy/SciPy/Pillow; AxisCalibrati
 tool_version: sha256:8db9672d603f3cc685691cc4cc4f6afb3a248fbf49b70d8f2dc914ccdb981ccb
 params:
   project: data/extraction/digitization/T011-S105-Fig8A.digitization.yaml
-  review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
+  review_code_sha256: 012093537ae85f6057a30f616b85ab8f203d398031b8d1a62a570acc4b6d5971
   overlay: private/renders/T011-S105-Fig8A-overlay.png
   overlay_sha256: dfa406cd790b9faf8896f8b92963ffe0eafe581ae0fc8aeacff9906c96496bff
   limitations:
@@ -40,10 +40,10 @@ params:
   branch: adsorption; no desorption series identified in selected figure
   series:
     UiO-66:
-      status: provisional
-      reviewer: null
-      review_ref: null
-      pending_review: T011v2
+      status: verified
+      reviewer: T011v2
+      review_ref: reviews/T011v2_reverification.md
+      pending_review: null
       usable_p_min_bar: 0.025576036866359446
       usable_range_note: lowest retained distinguishable symbol, not evidence of complete
         origin coverage; no initial-slope fit without sensitivity check
@@ -200,10 +200,10 @@ params:
       coordinate_bytes_sha256: 488809df8373064809b14bf789dcaf052892cba68727985490e5a0b74f29071c
       coordinates_byte_identical: true
     UiO-66/GO:
-      status: provisional
-      reviewer: null
-      review_ref: null
-      pending_review: T011v2
+      status: verified
+      reviewer: T011v2
+      review_ref: reviews/T011v2_reverification.md
+      pending_review: null
       usable_p_min_bar: 0.02868663594470046
       usable_range_note: lowest retained distinguishable symbol, not evidence of complete
         origin coverage; no initial-slope fit without sensitivity check
@@ -284,9 +284,9 @@ params:
 date: '2026-11-17T00:02:29.996854+00:00'
 raw_response_ref: private/renders/T011-S105-Fig8A-native.png
 unit_conversions: []
-derived_sha256: dbb7a0663fad54f13798f2f8e54865d175e926559670574a1e7ccdf31d32e10c
-status: provisional
-reviewer: null
+derived_sha256: 480b92ef87bc1cff89e95d23f3e7572e12fa67064fd3c50bbfe4095c1b0dc482
+status: verified
+reviewer: T011v2
 corrections:
 - task: T011b-c-series-fix
   defects:

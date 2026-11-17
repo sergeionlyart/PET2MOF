@@ -1,0 +1,247 @@
+{
+  "baseline_commit": "447364e5f59c962f73d46125263617886d49dbb1",
+  "literal_byte_check": false,
+  "numerical_and_nonstatus_byte_check": true,
+  "series": [
+    {
+      "series_id": "C-S105-Fig8A-UiO-66-NH2-CO2-273K",
+      "rows": 46,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 46,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "e136837c9b8745b5a4682638916d1074be776e73d6a9b80424b0d3e61b9f3da8",
+      "raw_current_sha256": "8562d8a62e2e954d10145581652cb17a6e3b9514f9dd0af1e55b5b787cc2c537",
+      "normalized_baseline_sha256": "817ac64297a423414453fe0825dbf1bdcb87df3f3d76caa83e59ca9553e57a07",
+      "normalized_current_sha256": "70ca15171439e995a38c24eea4cc591bb8ed299825ce4bd4538ba1e0f3156af8",
+      "raw_nonstatus_LF_sha256": "dfefc9e681e80e24f6b9e7922abe4b8250f5e5dd1f857b7defc4906b6979a9c0",
+      "normalized_nonstatus_LF_sha256": "d3a61c93147ff9f3d6845508c2ac18e15feda1809ff6aefd35e650783e719328"
+    },
+    {
+      "series_id": "C-S105-Fig8A-UiO-66-NH2-GO-CO2-273K",
+      "rows": 39,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 39,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "f4d235830b921d65e4f8f2e8964f30952641e45ff308318462f7c42206482c45",
+      "raw_current_sha256": "e8fb47ce41dd072e9eac5c8006dcced11726e8ceec04c4ad86c05456d7f2fa3a",
+      "normalized_baseline_sha256": "8c5a9a7f9c6be5142012d63ce1ff3d631b99cc09c71a9aea996f7d05f6de93a5",
+      "normalized_current_sha256": "34d112e33ecc04de818524ad1ad622772a276aa31f384b7db4a7f5c39ebd6ebf",
+      "raw_nonstatus_LF_sha256": "7fd8fbc8a2b84b5c36c6c8f50b00817e56ee35727a02f713274fe3e8c4aa626c",
+      "normalized_nonstatus_LF_sha256": "471fab7d711811474ed32257ba49eab7d54812e21272130270a5af30f46810e0"
+    },
+    {
+      "series_id": "C-S105-Fig8B-UiO-66-CO2-298K",
+      "rows": 47,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 47,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "f87a54da797e1d53c25b5cbe07a722b90e2eb73903b69cddfc6a62a8338c78fa",
+      "raw_current_sha256": "170cb39c55983b224dc483aa04c9d47395207bf465e14a746c667de0711813a4",
+      "normalized_baseline_sha256": "3cbd95835c475838423f8ff7b9fd0e80616c00eaea8831959e182db02f818c7a",
+      "normalized_current_sha256": "607b49aecd5faaf3fe3fb63aee37012a497266b12e80f2acbbb57826b699ccc9",
+      "raw_nonstatus_LF_sha256": "bf23441402222d8b018382eb28cb08326ba105a06115bebe15163fcb98dae2aa",
+      "normalized_nonstatus_LF_sha256": "b6ac18cd1f95a8b50b0396a39cdb931eb22537a928ca5e36e3843e5a8a77c609"
+    },
+    {
+      "series_id": "C-S105-Fig8B-UiO-66-NH2-CO2-298K",
+      "rows": 46,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 46,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "2e79fc59a6f9a390256f04f8f1d2789eb8461dfa840f90d4d644bc5e3afbf365",
+      "raw_current_sha256": "9a793d7e1a10189a464fa67f402f56f9ada8eb3e2605dc90d6096c98ef5bc970",
+      "normalized_baseline_sha256": "a84ae544f2f240571791bf5f9471de4fa63826c1d54e9a9d4cf211dc93fe31f2",
+      "normalized_current_sha256": "60bac3b60104592d2acea6628dc088ceea1fb34e78cefc86595b918ba168f490",
+      "raw_nonstatus_LF_sha256": "c9a5db1638c58ae80c7445b90f819eaf0e3b4fd9b42cb47778632f9f76d65e08",
+      "normalized_nonstatus_LF_sha256": "e85e2509484f6a9cf5e062a1304b4ddc20a9eedc2b5a03f70e08a505a0b22154"
+    },
+    {
+      "series_id": "C-S105-Fig8B-UiO-66-GO-CO2-298K",
+      "rows": 39,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 39,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "4ff4197f4ded6cd5cd90ab2e26ac3f4e718cc535abdc6bead40f978bccccd5d3",
+      "raw_current_sha256": "713b9d3d3e855f3a0a2e740580b16a31e0a840eb8ec4701e716e46ca781dcf67",
+      "normalized_baseline_sha256": "a537bf726b80fff5131fb83be0f131d44c2f851085f9efad99c3c0c9e8a100f7",
+      "normalized_current_sha256": "6642e064c5fcc5e103ae57d13ab6f7e3d52d304b4773e098b7e34155e181b21e",
+      "raw_nonstatus_LF_sha256": "2cb190abe6befb1d53f83bde640402b5e9414f351cfab483e3ad7ad530bc8065",
+      "normalized_nonstatus_LF_sha256": "d4e58bede3410382000aa9d0f61336fefcf75b25e9d03b696be6407642fc56e9"
+    },
+    {
+      "series_id": "C-S105-Fig8B-UiO-66-NH2-GO-CO2-298K",
+      "rows": 39,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 39,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "77c9c61ab6881f8aff02d42915a9475964dc3de5adeb3af4ff0e2e1a0771fa0c",
+      "raw_current_sha256": "89a2af50fb9774ce352aaa9b2e19aa33d8f2485b7e994c6787f2407bc70a9441",
+      "normalized_baseline_sha256": "3be95eac44be5d88c7a3ace384dce98ab4498da1e2160adfc56dc13e4e5b4b7a",
+      "normalized_current_sha256": "42f658827fe9f5697391c8e80a75396faff3df0ba662f3f200f84abfff0af576",
+      "raw_nonstatus_LF_sha256": "086b9f2aa7575ea78b349d34f8fe7c6aef840027077e6e8c53306778c6aaabe0",
+      "normalized_nonstatus_LF_sha256": "ddf1827f5b6dd90da7e7a5a27fb976381769ac361d2903a0ebbe8a6fb1b2da50"
+    },
+    {
+      "series_id": "C-S105-Fig8C-UiO-66-CO2-318K",
+      "rows": 46,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 46,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "346499aed44d21c5755ffd9ee60893e3fcc3373bf7651d7296cca29b9013ad4f",
+      "raw_current_sha256": "e1ad27ad39aeda5a3cc1b20518d05a07fd767cc9d5d74164412ebd3444bb3e07",
+      "normalized_baseline_sha256": "2a4b35c54f7cd9d68d17a813e18dd6f440013b2dcdee63c5134981218de427d4",
+      "normalized_current_sha256": "83510b67569e4510b902ef8d2c961ef43fe20b81e381c6da4898a0dc88ce7e72",
+      "raw_nonstatus_LF_sha256": "5d669143787bee5986d6ca5744143c68eaa69c8d14892b172907d460d4a0519c",
+      "normalized_nonstatus_LF_sha256": "992503194f27a64ec636a9a351c9c656dd1d71c95bdf22549fb8c8471c96d386"
+    },
+    {
+      "series_id": "C-S105-Fig8C-UiO-66-NH2-CO2-318K",
+      "rows": 44,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 44,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "ab9df08a6232ecfd63b4c05513a95a69c2f207cc3de07eb9c97214d475c94394",
+      "raw_current_sha256": "64cc096b9c856f1a96a375b97d46a39669ef1b2bbe01c2c598b1500f57f18a8e",
+      "normalized_baseline_sha256": "d2f57158ee359e7255c911604fb68d6c4f0a3d55c1f99a943516e07277feb584",
+      "normalized_current_sha256": "a6c799d05ffc77e620e108cd05901291a18bffb5b2a281aaffd3b8871d6851fa",
+      "raw_nonstatus_LF_sha256": "ccf916bd85a920a0eded6ace613c148e47016eeb9126b446eb336eafe7c9ba0c",
+      "normalized_nonstatus_LF_sha256": "4f7ca1af31842b1aa17b6fd0e1fc7c6042d8b008279b2dbce0a08d66afbb9291"
+    },
+    {
+      "series_id": "C-S105-Fig8C-UiO-66-NH2-GO-CO2-318K",
+      "rows": 40,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 40,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "4b487b246aad47c301fd2e8416d44b1dc37b7608c7f6c728cef8b06eb259c16f",
+      "raw_current_sha256": "870d072bc3ab8783fa8c9bf8efc5d01369c2fe16eac8a3d69eb0ba1d7d3bece2",
+      "normalized_baseline_sha256": "c7fbf2cc3c7f4e51fe6cdbbc99be82361702a4702fa8db1bc4bf764e9915df77",
+      "normalized_current_sha256": "284216d2482dbc48f8422e63504e50c77a3359a6ad7cff5644cbe8864f69e8de",
+      "raw_nonstatus_LF_sha256": "90ac6ec0beb02e08bb210885d543cd025d5698a8e981cc1177ed70355d9e9fd8",
+      "normalized_nonstatus_LF_sha256": "611d2118273ddbf305d9ca2257cb630a24c24510115d3449a65256679d0968c6"
+    },
+    {
+      "series_id": "C-S105-Fig9-UiO-66-NH2-GO-N2-298K",
+      "rows": 48,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 48,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "7cd75e3f220b26573ca9167ebb201800c1ff5b2dc2c793b3aca5ee9665fad81f",
+      "raw_current_sha256": "987b0b9d42e6d4b62fc39c66c26293514264eeafe6b525bcf86cf434ed181b31",
+      "normalized_baseline_sha256": "6f3fa583846dfa02f27a3fb7c95ec9a7586b97d9669a58bc92a47e0a4bc808c4",
+      "normalized_current_sha256": "633bf42f8c4a8b632fd30ae8723d015916d55ec59a4596cb9c6b5b3d40e3e294",
+      "raw_nonstatus_LF_sha256": "5d77d89463c4ab038260d1c21b04b1869892ebb56bc5ba17fd4c0e531ebfa746",
+      "normalized_nonstatus_LF_sha256": "9ded193ffb1ccc121be5c92f724c1dc2ae62b867ecb495a3e774d5dd5f4f8313"
+    },
+    {
+      "series_id": "C-S106-Fig4-UiO-66-100-H2O-293K",
+      "rows": 35,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 35,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "405f4924dab0beca59bbbb2b2ebb09042f15fa2c1098c54a75a43d491cdb828e",
+      "raw_current_sha256": "06f6afb2f8093804fabbb5bd323eddff437b40ef6622d156f4f12707b7d1d459",
+      "normalized_baseline_sha256": "e853451fd85485ed9392715156a37d78411d68aa7f5e513a9e4aae595c057a53",
+      "normalized_current_sha256": "0ad9decce43ac812ceea29ef24e166815cad5b87839060d4d236b38fff8ced52",
+      "raw_nonstatus_LF_sha256": "9b7a25d33a76142b99f198f11801e1284520b8f01aebd9405a0a43d52520046c",
+      "normalized_nonstatus_LF_sha256": "2721522511cfbce4ca419a076c7e18e54fe1ad34a8065095414c3bf1c63ebd51"
+    },
+    {
+      "series_id": "C-S106-Fig4-UiO-66-220-H2O-293K",
+      "rows": 35,
+      "changed_fields": [
+        "status"
+      ],
+      "raw_series_exact_byte_equal": false,
+      "normalized_file_exact_byte_equal": false,
+      "all_nonstatus_field_bytes_equal": true,
+      "raw_baseline_CRLF_count": 35,
+      "raw_current_CRLF_count": 0,
+      "normalized_baseline_CRLF_count": 0,
+      "normalized_current_CRLF_count": 0,
+      "raw_baseline_sha256": "c493d0ddec863ae117d8edbe0bec5928df83faa6e21478a34b161070246db695",
+      "raw_current_sha256": "8826a958ff1779144e0788a4050ece0da6b33aa69b08ab11cdebc7abfaadabf5",
+      "normalized_baseline_sha256": "23535a35eb610e5f92e388dfa60367029f8739780ddb976a0a153291277c625c",
+      "normalized_current_sha256": "01173f65d467e9050b1e94fa77ef5af415f84a240b6e78731215000878413e02",
+      "raw_nonstatus_LF_sha256": "581df338ae464ab69fb326f0ffbed260a1cc0e4db393857a3a98db1cc7381f0e",
+      "normalized_nonstatus_LF_sha256": "1de85c163e97e7737b7e506f1c01c6c5cb02ef55cb112a2c5e3ae83e39df09e1"
+    }
+  ]
+}

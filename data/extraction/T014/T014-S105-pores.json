@@ -9,8 +9,8 @@
     "material": "UiO-66 (no GO, no NH2, no PEI)",
     "PEI_Mw": "not applicable",
     "method": "N2 physisorption, total and micropore volume reported separately",
-    "pressure": "0.01–0.1 MPa as stated in heat calculation",
-    "activation": "conflict: ambient-temperature vacuum vs 393 K, both 12 h"
+    "pressure": "relative-pressure isotherm; numeric limits unknown",
+    "activation": "393 K for 12 h; §2.2; vacuum not specified for porometry"
   },
   "limitations": [
     "Different pore definitions must not be pooled as replicate measurements."
@@ -22,7 +22,7 @@
       "type": "literature_range",
       "source_id": "S105",
       "extraction_id": "T014-S105-pores",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -31,12 +31,14 @@
         "material": "UiO-66 (no GO, no NH2, no PEI)",
         "PEI_Mw": "not applicable",
         "method": "N2 physisorption, total and micropore volume reported separately",
-        "pressure": "0.01–0.1 MPa as stated in heat calculation",
-        "activation": "conflict: ambient-temperature vacuum vs 393 K, both 12 h"
+        "pressure": "relative-pressure isotherm; numeric limits unknown",
+        "activation": "393 K for 12 h; §2.2; vacuum not specified for porometry"
       },
       "locator": "Table 1, p.5, UiO-66 row",
       "limitations": "Different pore definitions must not be pooled as replicate measurements.",
-      "evidence_ref": "data/extraction/T014/T014-S105-pores.json#/quantities/total_volume"
+      "evidence_ref": "data/extraction/T014/T014-S105-pores.json#/quantities/total_volume",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "micropore_volume": {
       "value": 0.224,
@@ -44,7 +46,7 @@
       "type": "literature_range",
       "source_id": "S105",
       "extraction_id": "T014-S105-pores",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -53,12 +55,14 @@
         "material": "UiO-66 (no GO, no NH2, no PEI)",
         "PEI_Mw": "not applicable",
         "method": "N2 physisorption, total and micropore volume reported separately",
-        "pressure": "0.01–0.1 MPa as stated in heat calculation",
-        "activation": "conflict: ambient-temperature vacuum vs 393 K, both 12 h"
+        "pressure": "relative-pressure isotherm; numeric limits unknown",
+        "activation": "393 K for 12 h; §2.2; vacuum not specified for porometry"
       },
       "locator": "Table 1, p.5, UiO-66 row",
       "limitations": "Different pore definitions must not be pooled as replicate measurements.",
-      "evidence_ref": "data/extraction/T014/T014-S105-pores.json#/quantities/micropore_volume"
+      "evidence_ref": "data/extraction/T014/T014-S105-pores.json#/quantities/micropore_volume",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

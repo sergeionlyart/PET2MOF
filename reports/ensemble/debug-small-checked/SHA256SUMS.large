@@ -1,0 +1,12 @@
+f0bcead2ddbd17bee8c53e26b00cd4f15f5bf40b5b8e7ff0aa3f1f812afb8f21  reports/ensemble/debug-small-checked/stress/v1/composite/neutral/S100-own-temperature-ratio-S105/UiO-66_100/samples.npz
+da66571e5e8a41ca6fbe27ff3fb7d28c906f7c3220d7efab4821ba0fa90fc5e2  reports/ensemble/debug-small-checked/stress/v1/ratio/neutral/S100-own-temperature-ratio-S105/UiO-66_220/samples.npz
+37ad3b7018ab9566ec84c737d5ff082cec2362c62fcd9ff0b740a685e44aca2e  reports/ensemble/debug-small-checked/stress/v1.1-mof/composite/neutral/S105-full-carrier/UiO-66_220/samples.npz
+89072d9505c2336892cd943c35f6caeb8350022a217f0a243c73279c92a9c823  reports/ensemble/debug-small-checked/stress/v1.1-mof/ratio/availability/S100-own-temperature-ratio-S105/UiO-66_160/samples.npz
+1fe3be74e1795d3480b3862832c386e965701ad1ed8c55bf5a7f2957b8431115  reports/ensemble/debug-small-checked/stress/v1.1-connectivity/composite/availability/S105-full-carrier/UiO-66_160/samples.npz
+d1b7772097019259669a7b271cda5b3f5d4227c66959a15dd026cb0435e2fa9f  reports/ensemble/debug-small-checked/stress/v1.1-connectivity/ratio/bicarbonate/S100-own-temperature-ratio-S105/UiO-66_160/samples.npz
+20813825006cb40914b36806c99e3bb70f052a85f947d3f2cc25a0960fe83169  reports/ensemble/debug-small-checked/analog/v1/composite/bicarbonate/S105-full-carrier/UiO-66_100/samples.npz
+fa30014fbd40e4b9de46a4c0d910dd3e8d5a76f25081e49cbd6f876e6d01b639  reports/ensemble/debug-small-checked/analog/v1/ratio/suppression/S100-own-temperature-ratio-S105/UiO-66_100/samples.npz
+e1e8b4b3b2f15d38a373e84da63c92245395b980246dd0198647c8f9ff8c3ff9  reports/ensemble/debug-small-checked/analog/v1.1-mof/composite/suppression/S105-full-carrier/UiO-66_100/samples.npz
+d9487a796e9ff64635f115c271b1350b0270a98917c50a4419a1f25e50ab8e38  reports/ensemble/debug-small-checked/analog/v1.1-mof/ratio/suppression/S105-full-carrier/UiO-66_220/samples.npz
+f9048f9bc89bfff02089e107a3594602b79b7e4dd4fcbb51ebef59cd83013e11  reports/ensemble/debug-small-checked/analog/v1.1-connectivity/composite/affinity/S100-own-temperature-ratio-S105/UiO-66_220/samples.npz
+45d097a7bed058a40ec96db30a3199da370c7a00687ea83057d3b31a544a4530  reports/ensemble/debug-small-checked/analog/v1.1-connectivity/ratio/affinity/S105-full-carrier/UiO-66_220/samples.npz

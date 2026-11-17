@@ -29,7 +29,7 @@
       "type": "literature_range",
       "source_id": "S106",
       "extraction_id": "T014-S106-Qwater",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "simulation",
       "transfer_class": "analog",
       "conditions": {
@@ -42,7 +42,9 @@
       },
       "locator": "Table 2, article p.7 / repository PDF p.8; §3",
       "limitations": "Zero-coverage simulated adsorption heat does not identify effective Q_W of the cooperative water step.; Charge model was chosen against water data; not independent experimental calorimetry.",
-      "evidence_ref": "data/extraction/T014/T014-S106-Qwater.json#/quantities/zero_coverage_heats"
+      "evidence_ref": "data/extraction/T014/T014-S106-Qwater.json#/quantities/zero_coverage_heats",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "Q_water_simulation": {
       "range": [
@@ -53,7 +55,7 @@
       "type": "derived",
       "source_id": "S106",
       "extraction_id": "T014-S106-Qwater",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "simulation",
       "transfer_class": "analog",
       "conditions": {
@@ -69,7 +71,9 @@
       "evidence_ref": "data/extraction/T014/T014-S106-Qwater.json#/quantities/Q_water_simulation",
       "derived_from": [
         "zero_coverage_heats"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

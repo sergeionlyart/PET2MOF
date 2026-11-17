@@ -81,7 +81,7 @@ def correlations(params, targets):
     return out
 
 
-def screen_cell(fit, carrier, water, p, version, transfer, branch, grid):
+def screen_cell(fit, carrier, water, p, version, transfer, branch, grid, *, include_grid=False, include_correlations=True):
     idx = np.array([np.argmin(abs(grid-w)) for w in (0., .1, .2, .3)])
     ads = {RH:endpoint_grid(fit, carrier, water, p, grid, gas_arrays(p,'ads',RH), version=version, transfer=transfer)
            for RH in (0.,40.,70.)}
@@ -157,6 +157,8 @@ def screen_cell(fit, carrier, water, p, version, transfer, branch, grid):
             # Raw compact evidence: all four q_work, dense-grid maximizers and Delta.
             raw[key]=np.column_stack([candidate,lo,hi,delta])
             raw[key+'/B1']=baseq
+            if include_grid:
+                raw[key+'/grid']=q
         shift = summary[f'{kind}_RH0']['w_star_90'][1] < summary[f'{kind}_RH70']['w_star_90'][0] or summary[f'{kind}_RH70']['w_star_90'][1] < summary[f'{kind}_RH0']['w_star_90'][0]
         for RH in (40.,70.):
             contrast = ds[RH][2]-ds[0.][2]
@@ -165,7 +167,7 @@ def screen_cell(fit, carrier, water, p, version, transfer, branch, grid):
             targets[f'{kind}_RH{RH:g}/delta_vs_dry']=contrast
         summary[f'{kind}_conditional_H1'] = bool(summary[f'{kind}_RH70']['interior'] and summary[f'{kind}_RH70']['winner_resolved'] and shift and
              np.prod(summary[f'{kind}_RH70']['delta_vs_dry_95'])>0)
-    return summary, correlations(p,targets), raw
+    return summary, correlations(p,targets) if include_correlations else {}, raw
 
 
 def screen_revision(root, demo, scenario, settings, *, count=None, seeds=None):

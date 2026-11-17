@@ -25,7 +25,7 @@
       "type": "literature_range",
       "source_id": "S124",
       "extraction_id": "T014-S124-heat",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -38,7 +38,9 @@
       },
       "locator": "p.9 text above Fig.5; Table 7 p.13 is a separate representative heat",
       "limitations": "Initial differential heats are a high-energy tail, not a whole-coverage constant Q_d.; APTES and PEI contributions are not resolved; no transfer to pure PEI/UiO-66.",
-      "evidence_ref": "data/extraction/T014/T014-S124-heat.json#/quantities/initial_heat"
+      "evidence_ref": "data/extraction/T014/T014-S124-heat.json#/quantities/initial_heat",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "Q_d_initial_proxy": {
       "range": [
@@ -49,7 +51,7 @@
       "type": "derived",
       "source_id": "S124",
       "extraction_id": "T014-S124-heat",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -65,7 +67,9 @@
       "evidence_ref": "data/extraction/T014/T014-S124-heat.json#/quantities/Q_d_initial_proxy",
       "derived_from": [
         "initial_heat"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "representative_heat": {
       "value": 73.2,
@@ -73,7 +77,7 @@
       "type": "literature_range",
       "source_id": "S124",
       "extraction_id": "T014-S124-heat",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -86,7 +90,9 @@
       },
       "locator": "p.9 text above Fig.5; Table 7 p.13 is a separate representative heat",
       "limitations": "MSG20I30 Table 7 p.13, representative heat used for API at 50/75 °C; not two independent heat measurements. No pooling with initial differential heat.",
-      "evidence_ref": "data/extraction/T014/T014-S124-heat.json#/quantities/representative_heat"
+      "evidence_ref": "data/extraction/T014/T014-S124-heat.json#/quantities/representative_heat",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

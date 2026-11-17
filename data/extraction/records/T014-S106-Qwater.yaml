@@ -10,21 +10,22 @@ figure_or_table: Table 2, article p.7 / repository PDF p.8; §3
 region:
   render: private/T014/S106-p8.png
   render_sha256: 20d32884ef615332a6f16d0fa19e5c9f5f37a48bec74e9580d3aa2ed62a6a539
-  visual_check: T014 author checked; independent review pending
+  visual_check: T014 author checked; T014v independently reviewed
 tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
 tool_version: PyMuPDF 1.28.2; T014-v1
 params:
   input_ref: private/T014/S106.pdf
   output_ref: data/extraction/T014/T014-S106-Qwater.json
   page_note: PDF index is one-based, including repository cover page when present.
+  review_report: reviews/T014v_ranges_verification.md
   interpretation: No plot coordinates inferred; printed numbers only.
 date: '2026-11-16T23:59:48.788477+00:00'
 raw_response_ref: private/T014/S106.pdf
 unit_conversions:
 - operation: min/max over six structures; kJ/mol * 1000 = J/mol
-derived_sha256: ec0a747e8137c0e24d0a480089f2e9c0a213c35a77a2d6701b83c200d0a905a1
-status: provisional
-reviewer: null
+derived_sha256: 113da1d34aa5c354543a151f35cf36f2d82a458223b69407f6d90d815665cbd7
+status: verified
+reviewer: T014v
 corrections: []
 error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
   interval.

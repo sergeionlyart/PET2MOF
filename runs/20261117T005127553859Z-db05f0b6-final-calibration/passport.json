@@ -1,0 +1,64 @@
+{
+  "run_id": "20261117T005127553859Z-db05f0b6-final-calibration",
+  "purpose": "Final C calibration on all-verified C-series (S100, S105, S106) before prereg-v1",
+  "hypothesis": "calibration only; no V data",
+  "commit_sha": "db05f0b6b0052f34674ca72a4abf1e65dff9ff08",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [
+    {
+      "path": "data/processed/c_series/manifest.json",
+      "sha256": "9c1af3362e772d794f1bf11b85ca21f0fb68c6b0abbb5aa1e42826f498ca138e"
+    },
+    {
+      "path": "configs/calibration.yaml",
+      "sha256": "4b8dfc12e969ac949b1e09c13b7f61d051c1aab1d726bf6d200a60ccb1bc2acf"
+    },
+    {
+      "path": "scripts/calibrate_final.py",
+      "sha256": "ed896b56ea3c67bcc68330d6a134e3054900cb9852459f8bcbc6b3daef800302"
+    },
+    {
+      "path": "src/pet2mof/calibration/final.py",
+      "sha256": "c6f08176392b839792addb40b8017a1d8f81cd767489da66b67b683706ccfed0"
+    }
+  ],
+  "parameters": {},
+  "seed": 18018,
+  "command": [
+    "python",
+    "scripts/calibrate_final.py"
+  ],
+  "started_utc": "2026-11-17T00:51:27.553859+00:00",
+  "finished_utc": "2026-11-17T00:51:35.577131+00:00",
+  "status": "completed",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 8.009086083009606,
+    "child_user_seconds": 4.62542,
+    "child_system_seconds": 0.394766,
+    "child_maxrss": 148799488,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [
+    {
+      "path": "configs/frozen_parameters.yaml",
+      "sha256": "39143907fee6bec32a524aaed19acfe50f31c7519ccb4450a7b08a11adc19f0d"
+    }
+  ],
+  "checks": [],
+  "limitations": [],
+  "execution_status": "completed"
+}

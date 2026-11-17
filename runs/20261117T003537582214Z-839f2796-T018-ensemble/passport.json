@@ -1,0 +1,290 @@
+{
+  "run_id": "20261117T003537582214Z-839f2796-T018-ensemble",
+  "purpose": "Separate mechanism/structure/reading/transfer/defect ensembles",
+  "hypothesis": "conditional forecast; no pooling of branches; no independent validation claim",
+  "commit_sha": "839f27969af752c181596b483129754d0d644309",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [
+    {
+      "path": "configs/frozen_parameters_provisional.yaml",
+      "sha256": "e2ca1487379bf3f6b5833c1ac50ce74a0ef8e417109dacfcc4883e94a75c1afb"
+    },
+    {
+      "path": "Makefile",
+      "sha256": "9ea320b201a80232d9f65f898828facfa58b5062805050f8f5e11d41cfe8f113"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f8cf628e6fe5daecb47ef031177a2544f9c8e9f7b373ada6f610f9604aa19144"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "31723d3593017029129b76b55d9d71a9ed9f0bf549da38c6819273ef4d7ef1c7"
+    },
+    {
+      "path": "scripts/ensemble.py",
+      "sha256": "af2503414b03120c7e557af709362c6a81d0aa59ff6cfc0bc73080b36998f17c"
+    },
+    {
+      "path": "scripts/calibrate_final.py",
+      "sha256": "ed896b56ea3c67bcc68330d6a134e3054900cb9852459f8bcbc6b3daef800302"
+    },
+    {
+      "path": "scripts/predict_holdout.py",
+      "sha256": "401de5ace40bfd0863c3342a2dc992a8ca47c6205d473ee16a75739cc527c7e2"
+    },
+    {
+      "path": "scripts/validate.py",
+      "sha256": "91980ecc96b681c2da3f08790490e99f43cce6e6e1d11fb825cde6c741c4c358"
+    },
+    {
+      "path": "configs/scenarios.yaml",
+      "sha256": "a886d7ef1251f14230e4de1572595cc3ed69201eef69e258647377ed783100a1"
+    },
+    {
+      "path": "configs/revision.yaml",
+      "sha256": "bdd7377333b0dd8b3365cdb9ecab9449dd9af9b478a3d49e8b50a9ade16afd6f"
+    },
+    {
+      "path": "configs/sourced_ranges.yaml",
+      "sha256": "740854200b2d2756c9761972332fc3b69319a85f74eb2b0d019f28e9b6731d18"
+    },
+    {
+      "path": "docs/hypotheses.md",
+      "sha256": "54f8e5b34085a0dcb3d13b329a83a68dbab14074cee83c93af99ec9ff5fdc35f"
+    },
+    {
+      "path": "docs/validation_protocol.md",
+      "sha256": "9c3c9ff2513f4111abefd2ad1d7488c7d1a427597fa778f89dfb3ebc3fbbbd15"
+    },
+    {
+      "path": "docs/decisions.md",
+      "sha256": "a2f32d5b379f306015d576222fdf8ea80a6f43b555ffb127366567329f10285e"
+    },
+    {
+      "path": "data/processed/c_series/manifest.json",
+      "sha256": "29b77bba64edf71102de808ba0597d0d8a67e051479be13044743f809360d8b1"
+    },
+    {
+      "path": "src/pet2mof/model/__init__.py",
+      "sha256": "30a56288d3ecb442c93215933afe12baabe8bdc849982ebbd6f19e098e0a66f4"
+    },
+    {
+      "path": "src/pet2mof/model/amines.py",
+      "sha256": "bbf7192f254a3f736b112eba02df4bceb65eb4fc3e5067eaabb1d142b97169e8"
+    },
+    {
+      "path": "src/pet2mof/model/baseline.py",
+      "sha256": "d7de4666ee6e5cb3c13bfd2d7abecd67e9337d45f71d74f18ab5ddaa233e16b9"
+    },
+    {
+      "path": "src/pet2mof/model/batch.py",
+      "sha256": "9ac4dacbe70a90b19bf975b0e970c7c8f66d34bc66be0bd6c4d025a7d177b55e"
+    },
+    {
+      "path": "src/pet2mof/model/config.py",
+      "sha256": "b5d317ccb7638ef9ec6f42f0a8389996f4a4e212f3039706b0343d7b28d797f4"
+    },
+    {
+      "path": "src/pet2mof/model/cycle.py",
+      "sha256": "8da18f31d9fe1d80a9c8bd28cdfd71bfa01cfb070786ecdd335955165b72f983"
+    },
+    {
+      "path": "src/pet2mof/model/gas.py",
+      "sha256": "cedd1e1b45ebb32faa137ad9042831f87ed2f3b4d5497dc9f30b91606c6e85c9"
+    },
+    {
+      "path": "src/pet2mof/model/isotherms.py",
+      "sha256": "be58f08132e5fcad928126fceb057f3fde2dc0a52f74e1801d0d7311e05baba1"
+    },
+    {
+      "path": "src/pet2mof/model/pores.py",
+      "sha256": "4218d975c112f3dcb25639e796241387eadff6d98f3af14e800bdc40a727243a"
+    },
+    {
+      "path": "src/pet2mof/model/revision.py",
+      "sha256": "4dfdf623fa6cbf34edb4306b0a8e72bd27991e06e367757d6b46fb95e529a435"
+    },
+    {
+      "path": "src/pet2mof/calibration/__init__.py",
+      "sha256": "0967c955af8fa66042904fce05df39723f264a44ef1ab8a92eadd14a1c1a3d73"
+    },
+    {
+      "path": "src/pet2mof/calibration/demo.py",
+      "sha256": "ce80237e47b012f173d781de33ad5d715636d9749b3cd8c9b4830cc104f11804"
+    },
+    {
+      "path": "src/pet2mof/calibration/ensemble.py",
+      "sha256": "849a0f251df5868f8cb9c59b7cbca72e096e463cf3d68693365e1fa6f0e5c4be"
+    },
+    {
+      "path": "src/pet2mof/calibration/final.py",
+      "sha256": "c6f08176392b839792addb40b8017a1d8f81cd767489da66b67b683706ccfed0"
+    },
+    {
+      "path": "src/pet2mof/calibration/fit.py",
+      "sha256": "7c5d4670c77594238e0be4bb118c616187e153f2a0c28302e33fea24c9d13e11"
+    },
+    {
+      "path": "src/pet2mof/calibration/metrics.py",
+      "sha256": "9ee99897f83b13ceeaeb547c0ed80b493cd8422355b029596cf9d20ab354d0d2"
+    },
+    {
+      "path": "src/pet2mof/calibration/prediction.py",
+      "sha256": "73c7f05fda5c38c7f9553f8d7d5fe85992e9aa2eb5253035e61a41621bd2070b"
+    },
+    {
+      "path": "src/pet2mof/calibration/revision.py",
+      "sha256": "7ada8e81538ce724991ba57f00f41e9771afccf7f479e8ada34b12e2f7302834"
+    },
+    {
+      "path": "src/pet2mof/calibration/revision_screening.py",
+      "sha256": "d0199f2d9a55df36867289c2890c43ba3ff977f5264ef7b0ee4bccee0d28d72f"
+    },
+    {
+      "path": "src/pet2mof/calibration/screening.py",
+      "sha256": "21c02d2cff2abe9b7910403014195560a30913abe2ff1d1f9ad6d67830d7e68a"
+    },
+    {
+      "path": "src/pet2mof/runs.py",
+      "sha256": "bd7e683c24af9931760889282c6b97417664c35710dfd7fd71e0caaad8efd13f"
+    },
+    {
+      "path": "src/pet2mof/data/c_series.py",
+      "sha256": "3d3852b65507e24ad68e0adce769f1ef36948db0a833d350f0947b5ff24ef0fa"
+    },
+    {
+      "path": "data/processed/c_series/C-S100-FigS5-10PEI-UiO-66-CO2-298K.csv",
+      "sha256": "b1932951bac93b9671b3d2062647b6f17053dba3f1ce82dea1a19c446a2c59d7"
+    },
+    {
+      "path": "data/processed/c_series/C-S100-FigS5-20PEI-UiO-66-CO2-298K.csv",
+      "sha256": "7ccdbe12c7d518bb9ae0f8b281e16fc669bc983c17b52d394875de81be6ab3e5"
+    },
+    {
+      "path": "data/processed/c_series/C-S100-FigS5-30PEI-UiO-66-CO2-298K.csv",
+      "sha256": "aeb3c00f1b730aac783390e8f21dc7148084ce755a64ebda1d16d3b355498baa"
+    },
+    {
+      "path": "data/processed/c_series/C-S100-FigS5-40PEI-UiO-66-CO2-298K.csv",
+      "sha256": "3226d1366af93d902953241122a5a0f8766dfac513edff2f9ebcd3ab6179a777"
+    },
+    {
+      "path": "data/processed/c_series/C-S100-FigS5-UiO-66-CO2-298K.csv",
+      "sha256": "c4113c007933ee95f540b08c79d97eef29ceee9b3055799a7cf9de0662de6361"
+    },
+    {
+      "path": "data/processed/c_series/C-S105-Fig8A-UiO-66-CO2-273K.csv",
+      "sha256": "e093448cc1981ea69c2dd854eb597dd054e7ed682a6531070cfb5725f7c0d7fa"
+    },
+    {
+      "path": "data/processed/c_series/C-S105-Fig8A-UiO-66-NH2-CO2-273K.csv",
+      "sha256": "70ca15171439e995a38c24eea4cc591bb8ed299825ce4bd4538ba1e0f3156af8"
+    },
+    {
+      "path": "data/processed/c_series/C-S105-Fig8B-UiO-66-CO2-298K.csv",
+      "sha256": "607b49aecd5faaf3fe3fb63aee37012a497266b12e80f2acbbb57826b699ccc9"
+    },
+    {
+      "path": "data/processed/c_series/C-S105-Fig8B-UiO-66-NH2-CO2-298K.csv",
+      "sha256": "60bac3b60104592d2acea6628dc088ceea1fb34e78cefc86595b918ba168f490"
+    },
+    {
+      "path": "data/processed/c_series/C-S105-Fig8C-UiO-66-CO2-318K.csv",
+      "sha256": "83510b67569e4510b902ef8d2c961ef43fe20b81e381c6da4898a0dc88ce7e72"
+    },
+    {
+      "path": "data/processed/c_series/C-S105-Fig8C-UiO-66-NH2-CO2-318K.csv",
+      "sha256": "a6c799d05ffc77e620e108cd05901291a18bffb5b2a281aaffd3b8871d6851fa"
+    },
+    {
+      "path": "data/processed/c_series/C-S105-Fig9-UiO-66-N2-298K.csv",
+      "sha256": "5817e3501299e87e8f8530923792e9cda20b75c2b24f908bf698dfeb36b61ce9"
+    },
+    {
+      "path": "data/processed/c_series/C-S105-Fig9-UiO-66-NH2-N2-298K.csv",
+      "sha256": "c9f778d086e09eb0a2b4457e77b6ae6832d6c673d706ab5af9121d9217ba6e04"
+    },
+    {
+      "path": "data/processed/c_series/C-S106-Fig4-UiO-66-100-H2O-293K.csv",
+      "sha256": "0ad9decce43ac812ceea29ef24e166815cad5b87839060d4d236b38fff8ced52"
+    },
+    {
+      "path": "data/processed/c_series/C-S106-Fig4-UiO-66-160-H2O-293K.csv",
+      "sha256": "1818bd411c5f9ab99aac5f26ea4fadcef20c3cc52751d0f0f9fb689e6f0ef4fe"
+    },
+    {
+      "path": "data/processed/c_series/C-S106-Fig4-UiO-66-220-H2O-293K.csv",
+      "sha256": "01173f65d467e9050b1e94fa77ef5af415f84a240b6e78731215000878413e02"
+    }
+  ],
+  "parameters": {
+    "samples_per_repeat": {
+      "value": 1024,
+      "unit": "1"
+    },
+    "repeats": {
+      "value": 4,
+      "unit": "1"
+    }
+  },
+  "seed": 180180,
+  "command": [
+    ".venv/bin/python3",
+    "scripts/ensemble.py",
+    "--debug",
+    "--parameters",
+    "configs/frozen_parameters_provisional.yaml",
+    "--output",
+    "reports/ensemble/debug-timing-checked",
+    "--samples",
+    "1024",
+    "--repeats",
+    "4",
+    "--branch-limit",
+    "6",
+    "--no-plots",
+    "--worker-run-id",
+    "20261117T003537582214Z-839f2796-T018-ensemble"
+  ],
+  "started_utc": "2026-11-17T00:35:37.582214+00:00",
+  "finished_utc": "2026-11-17T00:35:43.801960+00:00",
+  "status": "debug",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 6.195841499982635,
+    "child_user_seconds": 4.114276,
+    "child_system_seconds": 0.2188,
+    "child_maxrss": 273137664,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [
+    {
+      "path": "reports/ensemble/debug-timing-checked/summary.json",
+      "sha256": "94c029cc4fedbb73314f75c109f0bd30b7fee9ceb2171d2c085f169cdfa4f7e6"
+    },
+    {
+      "path": "reports/ensemble/debug-timing-checked/SHA256SUMS.large",
+      "sha256": "afed4f083bfe9ab55e21ebd7262bff5bcb66d6a8b47f8c43e40aa4af66344e03"
+    }
+  ],
+  "checks": [],
+  "limitations": [
+    "target U unknown: full protocol convergence and decisive hypothesis status cannot be certified",
+    "analog ranges are provisional proxy sensitivity, not a target prior"
+  ],
+  "execution_status": "completed"
+}
