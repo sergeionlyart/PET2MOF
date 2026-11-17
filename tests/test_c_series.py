@@ -1,5 +1,6 @@
 """Offline contract checks for C data; never open holdout files or primary PDFs."""
 import csv
+import hashlib
 import importlib.util
 import json
 from collections import Counter
@@ -206,8 +207,14 @@ def test_each_printed_symbol_is_counted_once():
     # Check actual 2-D source-ink support, not just unique IDs or pressure gaps.
     from PIL import Image
     import numpy as np
-    for figure in builder.FIGURES:
-        project = read_project(ROOT/f"data/extraction/digitization/T011-{figure}.digitization.yaml")
+    projects = [read_project(ROOT/f"data/extraction/digitization/T011-{figure}.digitization.yaml")
+                for figure in builder.FIGURES]
+    missing = [p['image_ref'] for p in projects if not (ROOT/p['image_ref']).is_file()]
+    if missing:
+        pytest.skip('source-ink audit unavailable: original private C renders absent; '
+                    'scaled public review images cannot replace native pixel evidence: '+', '.join(missing))
+    for project in projects:
+        assert hashlib.sha256((ROOT/project['image_ref']).read_bytes()).hexdigest() == project['image_sha256']
         a = np.array(Image.open(ROOT/project["image_ref"]).convert("RGB"))
         for s in project["series"]:
             ids = [v["symbol_id"] for v in s["symbols"]]

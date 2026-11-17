@@ -45,7 +45,7 @@ def endpoint_grid(fit, carrier, water, params, w, gas, *, version, transfer):
     T, pc, pn, a = [np.broadcast_to(x, (size,)) for x in (T, pc, pn, a)]
     step_ps = water['a_s']*p_sat(water['T_ref'])*np.exp(-params['Q_W']/R*(1/T-1/water['T_ref']))
     psat = np.array([p_sat(float(t)) for t in T])
-    F = expit(water['m']*(np.log(np.maximum(a, 1e-300))-np.log(step_ps/psat)))
+    F = expit(np.asarray(water['m'])*(np.log(np.maximum(a, 1e-300))-np.log(step_ps/psat)))
     F = np.where(a == 0, 0., F)[:, None]
     if version == 'v1.1-connectivity':
         dry = (1-w)*v('V_p0')*np.exp(-(v('kappa')*r)**v('power'))
@@ -62,7 +62,8 @@ def endpoint_grid(fit, carrier, water, params, w, gas, *, version, transfer):
     cc, nn = iast_batch(pc, pn, T, hq, bc, params['Q_phys'], carrier['N2']['q_sat'], carrier['N2']['b'], params['Q_n2'])
     m = fit['models']['M1']['parameters']
     A0 = fit['n_N']*m['A0']/params['n_N']
-    A = np.clip(A0[:, None]*np.exp(-m['lam']*r)*(1+v('gamma')*a[:, None]), 0., 1.)
+    lam = np.broadcast_to(m['lam'], (size,))[:, None]
+    A = np.clip(A0[:, None]*np.exp(-lam*r)*(1+v('gamma')*a[:, None]), 0., 1.)
     N = w*v('n_N')*A
     h = v('h_max')*a[:, None]/(v('K_h')+a[:, None])
     h = h*np.divide(WP, WP+h*N, out=np.zeros_like(WP), where=(WP+h*N)>0)
