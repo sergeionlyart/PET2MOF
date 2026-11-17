@@ -11,7 +11,7 @@
 Прочитать: `docs/work_order_task003_RU.md` §§2–6, 8; `docs/task003/analysis_plan.md` (целиком); входы:
 `data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_*.csv`, `…/data/benchmark/S100_dry_isotherms.csv`,
 `data/task003/extracted/*.csv` (T040, принято руководителем; см. `reviews/T040_report.md` и принятие в нём),
-`data/task003/eta_bounds.csv` (T041 после приёмки), `reports/task003/route_compatibility.md` (если есть).
+`data/task003/eta_bounds.csv` (T041, принято), `reports/task003/drafts/route_compatibility_T041.md` (§4: подача GA 0.3851 г чистого GA на 1 г MOF по S2 §§4.1, 4.3 — проверить по `data/raw/html/S2.xml`, если файл есть в клоне; иначе взять из T041 с пометкой). **Поправки плана P3-01 и P3-02 обязательны** (классы B/C/D по η_lit = 0.3747 и η_ceil = 0.5; чувствительность η_ceil,low = 0.195; k_crit(φ), k*_adm; проверка ветви s-I по подаче GA).
 
 1. **Модуль** `src/pet2mof/task003/balance.py`: чистые функции без ввода-вывода — состав S2 по ветвям s-I/s-V, состав
    S100 по ветвям w-C/w-F и основы b-C/b-M, `eta_min(g, q_ref, h, phi, q_host, w, n_N)` с явной обработкой `w = 0`
