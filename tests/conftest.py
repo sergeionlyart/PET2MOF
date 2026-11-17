@@ -9,6 +9,13 @@ import socket
 import pytest
 
 
+def pytest_configure(config):
+    # --basetemp (pyproject) lives under .uv-cache/, which a fresh clone lacks.
+    basetemp = config.getoption("basetemp")
+    if basetemp:
+        Path(config.rootpath, basetemp).parent.mkdir(parents=True, exist_ok=True)
+
+
 @pytest.fixture(autouse=True)
 def forbid_network(monkeypatch):
     def denied(*args, **kwargs):
