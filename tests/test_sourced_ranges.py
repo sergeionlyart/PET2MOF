@@ -69,8 +69,9 @@ def test_every_number_resolves_to_canonical_evidence_and_registered_source():
     raw = yaml.safe_load(CONFIG.read_text())
     all_rows = list(quantities(raw))
     for eid, passport in passports.items():
-        assert passport["status"] == "provisional"
-        assert passport["reviewer"] is None
+        assert passport["status"] == "verified"
+        assert passport["reviewer"] == "T014v"
+        assert passport["params"]["review_report"] == "reviews/T014v_ranges_verification.md"
         assert passport["sensitivity_only"] is True
         assert passport["source_id"] not in FORBIDDEN
         path = ROOT / passport["params"]["output_ref"]
@@ -86,7 +87,9 @@ def test_every_number_resolves_to_canonical_evidence_and_registered_source():
                 origin, key = operand.split(":", 1) if ":" in operand else (eid, operand)
                 assert key in evidence(origin)["quantities"]
     for row in all_rows:
-        assert row["status"] == "provisional"
+        assert row["status"] == "verified"
+        assert row["reviewer"] == "T014v"
+        assert row["review_report"] == "reviews/T014v_ranges_verification.md"
         assert row["source_id"] in sources and row["source_id"] not in FORBIDDEN
         assert row["extraction_id"] in passports
         path, pointer = row["evidence_ref"].split("#", 1)

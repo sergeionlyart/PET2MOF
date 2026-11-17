@@ -26,7 +26,7 @@
       "type": "literature_range",
       "source_id": "S119",
       "extraction_id": "T014-S119-f3",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "author_NMR_deconvolution",
       "transfer_class": "analog",
       "conditions": {
@@ -39,7 +39,9 @@
       },
       "locator": "Original HTML Table 2, id=T2; NMR characterization; Table 1 for MW",
       "limitations": "Three commercial grades are analogs; target PEI identity/Mw remains unknown.; Printed amine percentages are rounded; do not force theoretical 25/50/25 or transfer independent fractions without simplex constraint.",
-      "evidence_ref": "data/extraction/T014/T014-S119-f3.json#/quantities/tertiary_percent"
+      "evidence_ref": "data/extraction/T014/T014-S119-f3.json#/quantities/tertiary_percent",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "f3": {
       "range": [
@@ -50,7 +52,7 @@
       "type": "derived",
       "source_id": "S119",
       "extraction_id": "T014-S119-f3",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "author_NMR_deconvolution",
       "transfer_class": "analog",
       "conditions": {
@@ -66,7 +68,9 @@
       "evidence_ref": "data/extraction/T014/T014-S119-f3.json#/quantities/f3",
       "derived_from": [
         "tertiary_percent"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

@@ -26,7 +26,7 @@
       "type": "literature_range",
       "source_id": "S105",
       "extraction_id": "T014-S105-Qphys",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "author_calculation",
       "transfer_class": "analog",
       "conditions": {
@@ -40,7 +40,9 @@
       },
       "locator": "Section 3.4, p.10, paragraph after Eq.(2)",
       "limitations": "Same framework chemistry; different batch from S100/PET.; Loading-dependent Qst is not automatically a single-site fitted Q or calorimetric desorption heat.",
-      "evidence_ref": "data/extraction/T014/T014-S105-Qphys.json#/quantities/reported_Qst"
+      "evidence_ref": "data/extraction/T014/T014-S105-Qphys.json#/quantities/reported_Qst",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "Q_phys": {
       "range": [
@@ -51,7 +53,7 @@
       "type": "derived",
       "source_id": "S105",
       "extraction_id": "T014-S105-Qphys",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "author_calculation",
       "transfer_class": "analog",
       "conditions": {
@@ -68,7 +70,9 @@
       "evidence_ref": "data/extraction/T014/T014-S105-Qphys.json#/quantities/Q_phys",
       "derived_from": [
         "reported_Qst"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

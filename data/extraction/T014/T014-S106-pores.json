@@ -26,7 +26,7 @@
       "type": "literature_range",
       "source_id": "S106",
       "extraction_id": "T014-S106-pores",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -39,7 +39,9 @@
       },
       "locator": "Table 1, article p.4 / repository PDF p.5",
       "limitations": "Micropore volume; no retained PEI series.; Sample-designation overlap with a held-out publication is known from the registry; no held-out measurements were opened. Use S106 only as existing C context, not independent V.",
-      "evidence_ref": "data/extraction/T014/T014-S106-pores.json#/quantities/micropore_volumes"
+      "evidence_ref": "data/extraction/T014/T014-S106-pores.json#/quantities/micropore_volumes",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "V_p0_proxy": {
       "range": [
@@ -50,7 +52,7 @@
       "type": "derived",
       "source_id": "S106",
       "extraction_id": "T014-S106-pores",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -66,7 +68,9 @@
       "evidence_ref": "data/extraction/T014/T014-S106-pores.json#/quantities/V_p0_proxy",
       "derived_from": [
         "micropore_volumes"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

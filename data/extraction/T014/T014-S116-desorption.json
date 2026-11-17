@@ -25,7 +25,7 @@
       "type": "literature_range",
       "source_id": "S116",
       "extraction_id": "T014-S116-desorption",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -38,7 +38,9 @@
       },
       "locator": "Section 3.1, p.5, text immediately above Fig.7",
       "limitations": "Reported approximate threshold times are reactor-scale, not intrinsic particle constants.; Threshold-derived exponential equivalents disagree; retain the envelope, not a fitted common tau.",
-      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/t80_minutes"
+      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/t80_minutes",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "t90_minutes": {
       "value": [
@@ -49,7 +51,7 @@
       "type": "literature_range",
       "source_id": "S116",
       "extraction_id": "T014-S116-desorption",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -62,7 +64,9 @@
       },
       "locator": "Section 3.1, p.5, text immediately above Fig.7",
       "limitations": "Reported approximate threshold times are reactor-scale, not intrinsic particle constants.; Threshold-derived exponential equivalents disagree; retain the envelope, not a fitted common tau.",
-      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/t90_minutes"
+      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/t90_minutes",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "fractions": {
       "value": [
@@ -73,7 +77,7 @@
       "type": "literature_range",
       "source_id": "S116",
       "extraction_id": "T014-S116-desorption",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -86,7 +90,9 @@
       },
       "locator": "Section 3.1, p.5, text immediately above Fig.7",
       "limitations": "Explicit 80% and 90% removal thresholds in source text.",
-      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/fractions"
+      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/fractions",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "tau_equivalents": {
       "value": [
@@ -99,7 +105,7 @@
       "type": "derived",
       "source_id": "S116",
       "extraction_id": "T014-S116-desorption",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "conditional_exponential_equivalent",
       "transfer_class": "analog",
       "conditions": {
@@ -117,7 +123,9 @@
         "t80_minutes",
         "t90_minutes",
         "fractions"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "tau_CO2_des": {
       "range": [
@@ -128,7 +136,7 @@
       "type": "derived",
       "source_id": "S116",
       "extraction_id": "T014-S116-desorption",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "conditional_exponential_equivalent",
       "transfer_class": "analog",
       "conditions": {
@@ -144,7 +152,9 @@
       "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/tau_CO2_des",
       "derived_from": [
         "tau_equivalents"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

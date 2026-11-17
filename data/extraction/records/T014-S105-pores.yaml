@@ -10,20 +10,21 @@ figure_or_table: Table 1, p.5, UiO-66 row
 region:
   render: private/T014/S105-p5.png
   render_sha256: b0ef5d13a4a5c96105df4f1c686d499407a1e93061fa795d5499f04e3e66af91
-  visual_check: T014 author checked; independent review pending
+  visual_check: T014 author checked; T014v independently reviewed
 tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
 tool_version: PyMuPDF 1.28.2; T014-v1
 params:
   input_ref: private/T014/S105.pdf
   output_ref: data/extraction/T014/T014-S105-pores.json
   page_note: PDF index is one-based, including repository cover page when present.
+  review_report: reviews/T014v_ranges_verification.md
   interpretation: No plot coordinates inferred; printed numbers only.
 date: '2026-11-16T23:59:48.788477+00:00'
 raw_response_ref: private/T014/S105.pdf
 unit_conversions: []
-derived_sha256: 5a6ab6f98b89107bef707a4602d656e3d5e8113de5786864b5b68f282d79a88d
-status: provisional
-reviewer: null
+derived_sha256: 9ed90bd70ee86ef60e17c0fed764ba223257a0acedb51bf074df67b30b58dc54
+status: verified
+reviewer: T014v
 corrections: []
 error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
   interval.

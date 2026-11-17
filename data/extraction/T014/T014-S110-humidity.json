@@ -22,7 +22,7 @@
       "type": "literature_range",
       "source_id": "S110",
       "extraction_id": "T014-S110-humidity",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -35,7 +35,9 @@
       },
       "locator": "Table 1, p.4; 25 °C rows only",
       "limitations": "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.; No inference of RH at 45 °C; those rows excluded.",
-      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/BPEI_dry"
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/BPEI_dry",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "BPEI_humid": {
       "value": 77.5,
@@ -43,7 +45,7 @@
       "type": "literature_range",
       "source_id": "S110",
       "extraction_id": "T014-S110-humidity",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -56,7 +58,9 @@
       },
       "locator": "Table 1, p.4; 25 °C rows only",
       "limitations": "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.; No inference of RH at 45 °C; those rows excluded.",
-      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/BPEI_humid"
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/BPEI_humid",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "LPEI_dry": {
       "value": 37.6,
@@ -64,7 +68,7 @@
       "type": "literature_range",
       "source_id": "S110",
       "extraction_id": "T014-S110-humidity",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -77,7 +81,9 @@
       },
       "locator": "Table 1, p.4; 25 °C rows only",
       "limitations": "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.; No inference of RH at 45 °C; those rows excluded.",
-      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/LPEI_dry"
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/LPEI_dry",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "LPEI_humid": {
       "value": 68.6,
@@ -85,7 +91,7 @@
       "type": "literature_range",
       "source_id": "S110",
       "extraction_id": "T014-S110-humidity",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -98,7 +104,9 @@
       },
       "locator": "Table 1, p.4; 25 °C rows only",
       "limitations": "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.; No inference of RH at 45 °C; those rows excluded.",
-      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/LPEI_humid"
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/LPEI_humid",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "BPEI_wet_dry_ratio": {
       "value": 1.8810679611650485,
@@ -106,7 +114,7 @@
       "type": "derived",
       "source_id": "S110",
       "extraction_id": "T014-S110-humidity",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -123,7 +131,9 @@
       "derived_from": [
         "BPEI_humid",
         "BPEI_dry"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "wet_dry_ratio_analog_envelope": {
       "range": [
@@ -134,7 +144,7 @@
       "type": "derived",
       "source_id": "S110",
       "extraction_id": "T014-S110-humidity",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -153,7 +163,9 @@
         "BPEI_humid",
         "LPEI_dry",
         "LPEI_humid"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

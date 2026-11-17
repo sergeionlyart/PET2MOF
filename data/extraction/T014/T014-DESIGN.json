@@ -25,7 +25,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -38,7 +38,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.tau_grid; interval envelope of D-08 scenario grid, not a continuous prior",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "tau_over_t_unknown": {
       "value": null,
@@ -46,7 +48,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -59,7 +61,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "Q_W": {
       "range": [
@@ -70,7 +74,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -83,7 +87,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.screen_bounds.Q_W",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_W"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_W",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "Q_W_unknown": {
       "value": null,
@@ -91,7 +97,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -104,7 +110,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_W_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_W_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "gamma": {
       "range": [
@@ -115,7 +123,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -128,7 +136,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.screen_bounds.gamma",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/gamma"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/gamma",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "gamma_unknown": {
       "value": null,
@@ -136,7 +146,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -149,7 +159,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/gamma_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/gamma_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "kappa": {
       "range": [
@@ -160,7 +172,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -173,7 +185,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.screen_bounds.kappa",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/kappa"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/kappa",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "kappa_unknown": {
       "value": null,
@@ -181,7 +195,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -194,7 +208,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/kappa_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/kappa_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "V_p0": {
       "range": [
@@ -205,7 +221,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -218,7 +234,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.screen_bounds.V_p0",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/V_p0"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/V_p0",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "V_p0_unknown": {
       "value": null,
@@ -226,7 +244,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -239,7 +257,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/V_p0_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/V_p0_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "alpha_in": {
       "range": [
@@ -250,7 +270,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -263,7 +283,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.screen_bounds.alpha_in",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/alpha_in"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/alpha_in",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "alpha_in_unknown": {
       "value": null,
@@ -271,7 +293,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -284,7 +306,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/alpha_in_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/alpha_in_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "W_max": {
       "range": [
@@ -295,7 +319,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -308,7 +332,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.screen_bounds.W_max; lower bound expanded to exact zero-water limit, upper unchanged",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/W_max"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/W_max",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "W_max_unknown": {
       "value": null,
@@ -316,7 +342,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -329,7 +355,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/W_max_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/W_max_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "h_max": {
       "range": [
@@ -340,7 +368,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -353,7 +381,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.screen_bounds.h_max",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/h_max"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/h_max",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "h_max_unknown": {
       "value": null,
@@ -361,7 +391,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -374,7 +404,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/h_max_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/h_max_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "Q_phys": {
       "range": [
@@ -385,7 +417,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -398,7 +430,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.screen_bounds.Q_phys",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_phys"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_phys",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "Q_phys_unknown": {
       "value": null,
@@ -406,7 +440,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -419,7 +453,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_phys_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_phys_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "Q_d": {
       "range": [
@@ -430,7 +466,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -443,7 +479,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/scenarios.yaml:scenario.screen_bounds.Q_d",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_d"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_d",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "Q_d_unknown": {
       "value": null,
@@ -451,7 +489,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -464,7 +502,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_d_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_d_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "f3": {
       "range": [
@@ -475,7 +515,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -488,7 +528,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "docs/model_spec.md §4.1 fraction simplex; full ignorance stress, not NMR evidence",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/f3"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/f3",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "f3_unknown": {
       "value": null,
@@ -496,7 +538,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -509,7 +551,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/f3_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/f3_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "water_volume_transfer": {
       "range": [
@@ -520,7 +564,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -533,7 +577,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/revision.yaml:water_volume_transfer_bounds",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/water_volume_transfer"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/water_volume_transfer",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "water_volume_transfer_unknown": {
       "value": null,
@@ -541,7 +587,7 @@
       "type": "unknown",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "unknown",
       "transfer_class": "target_unknown",
       "conditions": {
@@ -554,7 +600,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/water_volume_transfer_unknown"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/water_volume_transfer_unknown",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "kappa_connectivity": {
       "range": [
@@ -565,7 +613,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -578,7 +626,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "configs/revision.yaml:versions v1.1-connectivity; distinct structural branch, not pooled with linear kappa.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/kappa_connectivity"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/kappa_connectivity",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "stage_time": {
       "range": [
@@ -589,7 +639,7 @@
       "type": "assumption_range",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "assumption_range",
       "transfer_class": "target_stress_only",
       "conditions": {
@@ -602,7 +652,9 @@
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "t_ads and t_des both [600,3600] in configs/scenarios.yaml; design time, not a material property.",
-      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/stage_time"
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/stage_time",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "tau_over_t_des_analog": {
       "range": [
@@ -613,7 +665,7 @@
       "type": "derived",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "conditional_exponential_equivalent",
       "transfer_class": "analog",
       "conditions": {
@@ -622,7 +674,8 @@
         "material": "target PEI/UiO-66; no target measurements claimed",
         "PEI_Mw": "unknown",
         "method": "retained project stress assumptions / exact physical endpoints",
-        "activation": "unknown"
+        "activation": "unknown",
+        "source_numerator_conditions": "S116: 120 °C regeneration; 80% or 90% steam fraction, RH not reported; hyperbranched PEI/mesoporous silica; fluidized-bed CO2 desorption (see T014-S116-desorption:tau_CO2_des)."
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Envelope tau/t over stage-time design and S116 reactor-equivalent tau; no H2O equivalence, no common tau inference.",
@@ -630,7 +683,9 @@
       "derived_from": [
         "T014-S116-desorption:tau_CO2_des",
         "T014-DESIGN:stage_time"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "tau_over_t_heat_analog": {
       "range": [
@@ -641,7 +696,7 @@
       "type": "derived",
       "source_id": "DESIGN-T014",
       "extraction_id": "T014-DESIGN",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "conditional_heat_signal_proxy",
       "transfer_class": "analog",
       "conditions": {
@@ -650,7 +705,8 @@
         "material": "target PEI/UiO-66; no target measurements claimed",
         "PEI_Mw": "unknown",
         "method": "retained project stress assumptions / exact physical endpoints",
-        "activation": "unknown"
+        "activation": "unknown",
+        "source_numerator_conditions": "S124: 25 °C, anhydrous; PEI-impregnated APTES/mesocellular silica MSG20I30; microcalorimetric heat signal (see T014-S124-kinetics:tau_heat_max)."
       },
       "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
       "limitations": "Reported heat-signal parameter / chosen stage time only. Eq.(2) in S124 leaves the log base unspecified; this ratio is NOT an identified e-fold CO2/H2O relaxation ratio. If log means base ten, e-fold time would additionally require division by ln(10).",
@@ -658,7 +714,9 @@
       "derived_from": [
         "T014-S124-kinetics:tau_heat_max",
         "T014-DESIGN:stage_time"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

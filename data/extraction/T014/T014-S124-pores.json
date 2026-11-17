@@ -22,7 +22,7 @@
       "type": "literature_range",
       "source_id": "S124",
       "extraction_id": "T014-S124-pores",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -35,7 +35,9 @@
       },
       "locator": "Table 2, p.9; preparation §2.1.4",
       "limitations": "Silica/APTES analog; PEI impregnation changes mass normalization and pore access.; Single loaded composition with uncertain retained loading cannot identify target kappa, connectivity or alpha_in.",
-      "evidence_ref": "data/extraction/T014/T014-S124-pores.json#/quantities/V_parent"
+      "evidence_ref": "data/extraction/T014/T014-S124-pores.json#/quantities/V_parent",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "V_loaded": {
       "value": 0.06,
@@ -43,7 +45,7 @@
       "type": "literature_range",
       "source_id": "S124",
       "extraction_id": "T014-S124-pores",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -56,7 +58,9 @@
       },
       "locator": "Table 2, p.9; preparation §2.1.4",
       "limitations": "Silica/APTES analog; PEI impregnation changes mass normalization and pore access.; Single loaded composition with uncertain retained loading cannot identify target kappa, connectivity or alpha_in.",
-      "evidence_ref": "data/extraction/T014/T014-S124-pores.json#/quantities/V_loaded"
+      "evidence_ref": "data/extraction/T014/T014-S124-pores.json#/quantities/V_loaded",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     },
     "specific_volume_ratio": {
       "value": 0.0625,
@@ -64,7 +68,7 @@
       "type": "derived",
       "source_id": "S124",
       "extraction_id": "T014-S124-pores",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "direct_measurement",
       "transfer_class": "analog",
       "conditions": {
@@ -81,7 +85,9 @@
       "derived_from": [
         "V_parent",
         "V_loaded"
-      ]
+      ],
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }
