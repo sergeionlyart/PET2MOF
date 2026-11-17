@@ -17,3 +17,10 @@ condition = "AND"
 regexTarget = "match"
 paths = ['''^sources/metadata/[^/]+\.crossref\.json$''']
 regexes = ['''^key"\s*:\s*"[0-9]+_cit[0-9]+"$''']
+
+[[rules.allowlists]]
+description = "SHA-256 file digests keyed by access-record filenames in digitization control manifests"
+condition = "AND"
+regexTarget = "match"
+paths = ['''^data/extraction/digitization/[^/]+/protected_hashes\.json$''']
+regexes = ['''^[A-Za-z0-9_.-]*access\.(json|yaml)"\s*:\s*"[0-9a-f]{64}"$''']
