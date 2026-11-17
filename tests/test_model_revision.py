@@ -23,7 +23,8 @@ def test_json_adapter_roles_status_hash_and_csv_uncertainty(tmp_path):
     f=load_series(ROOT,sources=('S100',),debug=True)
     assert len(f)==50 and sum(f.status=='verified')==48
     with pytest.raises(ValueError,match='debug'):load_series(ROOT,sources=('S105',))
-    assert len(load_series(ROOT,sources=('S105',),roles=('context_GO',),debug=True))==319
+    # T011b restores eleven visible GO markers across Fig8A/C and Fig9.
+    assert len(load_series(ROOT,sources=('S105',),roles=('context_GO',),debug=True))==330
     with pytest.raises(ValueError,match='permitted'):load_series(ROOT,sources=('S2',),debug=True)
     x=f[f.status=='verified'].reset_index(drop=True)
     C=covariance_csv(x)

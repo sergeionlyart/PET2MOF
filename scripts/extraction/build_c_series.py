@@ -15,6 +15,7 @@ from collections import defaultdict
 from pathlib import Path
 
 import yaml
+from pet2mof.extraction.c_series_review import review_status
 
 ROOT = Path(__file__).resolve().parents[2]
 FIELDS = ["series_id", "source_id", "extraction_id", "material", "gas", "T_K",
@@ -75,6 +76,11 @@ def collect(root=ROOT):
     def remember(path):
         inputs[str(path.relative_to(root))] = sha(path)
 
+    for relative in ["data/extraction/digitization/T011b/baseline.json",
+                     "data/extraction/digitization/T011b/recovery_windows.json",
+                     "src/pet2mof/extraction/c_series_review.py",
+                     "reviews/T011v_c_series_verification.md"]:
+        remember(root/relative)
     for figure in FIGURES:
         eid = "T011-"+figure
         path = root / f"data/extraction/digitization/{eid}.csv"
@@ -91,12 +97,24 @@ def collect(root=ROOT):
             raise ValueError("unexpected digitization units")
         q_scale = project["protocol_scale_span_y"]
         p_scale = project["protocol_scale_span_x"]
-        for r in read_csv(path):
+        source_rows = read_csv(path)
+        qualities = {}
+        project_series = {s["name"]:s for s in project["series"]}
+        for material, s in project_series.items():
+            quality = review_status(root, figure, material, [r for r in source_rows if r["series"] == material])
+            for item in [s, record["params"]["series"][material]]:
+                if any(item[k] != quality[k] for k in quality):
+                    raise ValueError("series status disagrees with exact-coordinate review authority")
+                if not math.isfinite(item["usable_p_min_bar"]) or item["usable_p_min_bar"] < 0:
+                    raise ValueError("invalid usable pressure lower bound")
+            qualities[material] = quality
+        for r in source_rows:
             source = "S106" if water else "S105"
             if r["source_id"] != source or r["extraction_id"] != eid:
                 raise ValueError("source/extraction mismatch")
-            if r["status"] != "provisional" or r["data_kind"] != "digitized_markers":
-                raise ValueError("T011 needs independent T011v review")
+            quality = qualities[r["series"]]
+            if r["status"] != quality["status"] or r["data_kind"] != "digitized_markers":
+                raise ValueError("T011 row status disagrees with per-series review")
             T, x, y = float(r["T_K"]), float(r["x"]), float(r["y"])
             if T != project["T_K"] or r["gas"] != project["gas"]:
                 raise ValueError("temperature/gas mismatch")
@@ -107,10 +125,16 @@ def collect(root=ROOT):
             sid = f"C-{figure}-{slug(r['series'])}-{r['gas']}-{T:g}K"
             qe = max(float(r["y_err"]), PROTOCOL_SCALE_FRACTION*q_scale)*qf
             pe = max(float(r["x_err"]), PROTOCOL_SCALE_FRACTION*p_scale)*pf
+            usable_min = project_series[r["series"]]["usable_p_min_bar"]
+            if not math.isclose(usable_min, record["params"]["series"][r["series"]]["usable_p_min_bar"], abs_tol=1e-14):
+                raise ValueError("usable range differs between project and passport")
             datasets[sid].append(row(sid,source,eid,r["series"],r["gas"],T,x*pf,y*qf,qe,pe,
-                                     "digitized_markers","provisional"))
+                                     "digitized_markers",quality["status"]))
             metadata[sid] = dict(role="context_GO" if "/GO" in r["series"] else "C_candidate",
                                  branch="adsorption", figure=figure, passport=str(record_path.relative_to(root)),
+                                 status=quality["status"], reviewer=quality["reviewer"],
+                                 review_ref=quality["review_ref"], pending_review=quality["pending_review"],
+                                 usable_p_min_bar=usable_min,
                                  uncertainty="max(pixel worst-case bound, 3% displayed axis scale); experimental error unknown",
                                  p_conversion="p_bar=RH_fraction*p_sat(T); derived absolute water partial pressure" if water else "absolute bar, unchanged",
                                  q_conversion="q_mmol_g=q_cm3_STP_g/22.414" if water else "mmol/g, unchanged")

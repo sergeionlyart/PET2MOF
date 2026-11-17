@@ -16,9 +16,10 @@ region:
   - 2068
   - 3372
 tool: scripts/extraction/digitize_c_series.py; NumPy/SciPy/Pillow; AxisCalibration
-tool_version: sha256:b60e081d8581c27ce884f9be1b5a08fdbdaa224e222fcb1bacaee0fec9757527
+tool_version: sha256:8db9672d603f3cc685691cc4cc4f6afb3a248fbf49b70d8f2dc914ccdb981ccb
 params:
   project: data/extraction/digitization/T011-S105-Fig8B.digitization.yaml
+  review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
   overlay: private/renders/T011-S105-Fig8B-overlay.png
   overlay_sha256: eab9285eea7235a9bf2b00b17c2fbb280725903648bb143c676481a1ad7b80cf
   limitations:
@@ -28,8 +29,8 @@ params:
     bar; retain plotted coordinates.
   - GO composites kept distinct from unmodified carriers; no transfer of uptake normalization.
   - Langmuir lines excluded; Table 3 is a separate author_fit.
-  - Unresolved or partially occluded markers omitted, especially in crowded low-pressure
-    regions; not imputed.
+  - T011v-D03 partial markers recovered individually; fully hidden shared-origin glyphs
+    cannot be counted or imputed.
   T_K: 298
   gas: CO2
   mass_basis: dry adsorbent; each material's own mass
@@ -37,15 +38,83 @@ params:
   license: CC BY 4.0
   units: mmol/g
   branch: adsorption; no desorption series identified in selected figure
-date: '2026-11-16T22:53:42.394266+00:00'
+  series:
+    UiO-66:
+      status: verified
+      reviewer: T011v
+      review_ref: reviews/T011v_c_series_verification.md
+      pending_review: null
+      usable_p_min_bar: 0.02351585014409222
+      usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+        origin coverage; no initial-slope fit without sensitivity check
+      origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+        individual glyphs; no origin imputed'
+      recoveries: []
+      duplicate_detections_removed: []
+      baseline_coordinate_bytes_sha256: 6aeaba9b748753619ab05dec63574d1ba520cc29bc34b2306bc317f39fc910ac
+      coordinate_bytes_sha256: 6aeaba9b748753619ab05dec63574d1ba520cc29bc34b2306bc317f39fc910ac
+      coordinates_byte_identical: true
+    UiO-66-NH2:
+      status: verified
+      reviewer: T011v
+      review_ref: reviews/T011v_c_series_verification.md
+      pending_review: null
+      usable_p_min_bar: 0.02628242074927954
+      usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+        origin coverage; no initial-slope fit without sensitivity check
+      origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+        individual glyphs; no origin imputed'
+      recoveries: []
+      duplicate_detections_removed: []
+      baseline_coordinate_bytes_sha256: 17778f605c4578600e167276f0ae504b2e96131f166332b5f8f6d98879bb4614
+      coordinate_bytes_sha256: 17778f605c4578600e167276f0ae504b2e96131f166332b5f8f6d98879bb4614
+      coordinates_byte_identical: true
+    UiO-66/GO:
+      status: verified
+      reviewer: T011v
+      review_ref: reviews/T011v_c_series_verification.md
+      pending_review: null
+      usable_p_min_bar: 0.02904899135446686
+      usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+        origin coverage; no initial-slope fit without sensitivity check
+      origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+        individual glyphs; no origin imputed'
+      recoveries: []
+      duplicate_detections_removed: []
+      baseline_coordinate_bytes_sha256: d85c07ceb086ebc1e2910371d72ab8c43184ae74ba3f4af5ce2a855cdfdd922c
+      coordinate_bytes_sha256: d85c07ceb086ebc1e2910371d72ab8c43184ae74ba3f4af5ce2a855cdfdd922c
+      coordinates_byte_identical: true
+    UiO-66-NH2/GO:
+      status: verified
+      reviewer: T011v
+      review_ref: reviews/T011v_c_series_verification.md
+      pending_review: null
+      usable_p_min_bar: 0.0276657060518732
+      usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+        origin coverage; no initial-slope fit without sensitivity check
+      origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+        individual glyphs; no origin imputed'
+      recoveries: []
+      duplicate_detections_removed: []
+      baseline_coordinate_bytes_sha256: 7ad68b59cd333af04b41fb2ff2067644d3d0da816d4ab9f161272510c289906e
+      coordinate_bytes_sha256: 7ad68b59cd333af04b41fb2ff2067644d3d0da816d4ab9f161272510c289906e
+      coordinates_byte_identical: true
+date: '2026-11-17T00:02:31.529041+00:00'
 raw_response_ref: private/renders/T011-S105-Fig8B-native.png
 unit_conversions: []
-derived_sha256: 88b4a7f7264c15f7180a02b577feec8aca64af5d503f067c487405f5412e659a
-status: provisional
-reviewer: null
-corrections: []
+derived_sha256: ef1ba513e2dca436af67245f256a527028d90b410306dc9fdf7b66d292ec5ef7
+status: verified
+reviewer: T011v
+corrections:
+- task: T011b-c-series-fix
+  defects:
+  - T011v-D01
+  - T011v-D02
+  - T011v-D03
+  evidence: params.series; per-symbol recoveries and duplicate removals
 error_estimate:
   readout_bound_px: 7
+  base_readout_bound_px: 7
   calibration_endpoint_bound_px: 2
   method: linear worst-case sum; no experimental uncertainty inferred
 data_kind: digitized_markers

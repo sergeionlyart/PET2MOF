@@ -1,4 +1,6 @@
 series_id,source_id,extraction_id,material,gas,T_K,p_bar,q_mmol_g,q_err_mmol_g,p_err_bar,data_kind,status
+C-S105-Fig8A-UiO-66-GO-CO2-273K,S105,T011-S105-Fig8A,UiO-66/GO,CO2,273,0.0286866359447,0.485692188708,0.24,0.036,digitized_markers,provisional
+C-S105-Fig8A-UiO-66-GO-CO2-273K,S105,T011-S105-Fig8A,UiO-66/GO,CO2,273,0.0508064516129,0.813611755607,0.24,0.036,digitized_markers,provisional
 C-S105-Fig8A-UiO-66-GO-CO2-273K,S105,T011-S105-Fig8A,UiO-66/GO,CO2,273,0.0743087557604,1.11678267595,0.24,0.036,digitized_markers,provisional
 C-S105-Fig8A-UiO-66-GO-CO2-273K,S105,T011-S105-Fig8A,UiO-66/GO,CO2,273,0.0985023041475,1.38901778809,0.24,0.036,digitized_markers,provisional
 C-S105-Fig8A-UiO-66-GO-CO2-273K,S105,T011-S105-Fig8A,UiO-66/GO,CO2,273,0.128917050691,1.69837587007,0.24,0.036,digitized_markers,provisional

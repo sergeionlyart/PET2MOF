@@ -9,12 +9,16 @@ import pytest
 import yaml
 
 from pet2mof.extraction.digitize import AxisCalibration, read_project
+from pet2mof.extraction.c_series_review import review_status
 from pet2mof.provenance.extraction import validate_extraction
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location("build_c_series", ROOT/"scripts/extraction/build_c_series.py")
 builder = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(builder)
+spec = importlib.util.spec_from_file_location("digitize_c_series", ROOT/"scripts/extraction/digitize_c_series.py")
+digitizer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(digitizer)
 OUT = ROOT/"data/processed/c_series"
 
 
@@ -62,9 +66,11 @@ def test_csv_schema_source_allowlist_status_and_unknown_errors():
                 assert float(r["q_err_mmol_g"]) > 0
                 assert float(r["p_err_bar"]) > 0
             if r["status"] == "verified":
-                assert r["extraction_id"] == "T006-S100-FigS5" and r["source_id"] == "S100"
+                assert (r["extraction_id"] == "T006-S100-FigS5" and r["source_id"] == "S100") or r["extraction_id"].startswith("T011-")
         assert pressures == sorted(pressures)
-    assert counts == {"verified":48,"provisional":2084}
+    baseline = json.loads((ROOT/"data/extraction/digitization/T011b/baseline.json").read_text())
+    expected_verified = 48 + sum(s["rows"] for s in baseline["series"].values() if s["T011v_verdict"] == "verified")
+    assert counts["verified"] == expected_verified
     # Inputs are explicit. No searching/opening holdout content is needed for QA.
     assert all("S103" not in p and "S113" not in p for p in manifest["inputs"])
     assert not any(r["data_kind"]=="author_fit" for p in OUT.glob("*.csv") for r in rows(p))
@@ -112,7 +118,8 @@ def test_all_figure_series_projects_calibration_and_passports():
         passport = yaml.safe_load((ROOT/f"data/extraction/records/{eid}.yaml").read_text())
         validate_extraction(passport)
         assert builder.sha(path) == passport["derived_sha256"]
-        assert passport["status"] == project["status"] == "provisional"
+        expected_status = "verified" if all(s["status"] == "verified" for s in project["series"]) else "provisional"
+        assert passport["status"] == project["status"] == expected_status
         assert len(project["series"]) == (3 if figure.startswith("S106") else 4)
         x, y = AxisCalibration(**project["x_axis"]), AxisCalibration(**project["y_axis"])
         data = rows(path)
@@ -131,6 +138,104 @@ def test_all_figure_series_projects_calibration_and_passports():
     assert record["data_kind"] == "author_fit"
     table = rows(ROOT/"data/extraction/digitization/T011-S105-Table3.csv")
     assert len(table)==12 and {r["data_kind"] for r in table}=={"author_fit"}
+
+
+def test_t011v_status_requires_review_and_byte_identical_coordinates():
+    baseline = json.loads((ROOT/"data/extraction/digitization/T011b/baseline.json").read_text())
+    manifest = json.loads((OUT/"manifest.json").read_text())
+    reviewed = {}
+    for line in (ROOT/baseline["review_ref"]).read_text().splitlines():
+        c = [v.strip() for v in line.strip("|").split("|")]
+        if len(c) == 10 and c[0].startswith("T011-"):
+            reviewed[c[0].removeprefix("T011-")+"|"+c[1]] = c[8]
+    assert len(reviewed) == 19 and list(reviewed.values()).count("verified") == 12
+    for figure in builder.FIGURES:
+        eid = "T011-"+figure
+        data = rows(ROOT/f"data/extraction/digitization/{eid}.csv")
+        project = read_project(ROOT/f"data/extraction/digitization/{eid}.digitization.yaml")
+        passport = yaml.safe_load((ROOT/f"data/extraction/records/{eid}.yaml").read_text())
+        for s in project["series"]:
+            sub = [r for r in data if r["series"] == s["name"]]
+            quality = review_status(ROOT, figure, s["name"], sub)
+            accepted = reviewed[figure+"|"+s["name"]] == "verified"
+            assert (quality["status"] == "verified") == accepted
+            assert {r["status"] for r in sub} == {quality["status"]}
+            for item in [s, passport["params"]["series"][s["name"]]]:
+                assert all(item[k] == v for k,v in quality.items())
+            if accepted:
+                assert quality["coordinates_byte_identical"]
+                assert quality["review_ref"] == "reviews/T011v_c_series_verification.md"
+                assert quality["reviewer"] == "T011v"
+                changed = [dict(r) for r in sub]
+                changed[0]["pixel_x"] = str(float(changed[0]["pixel_x"]) + .01)
+                assert review_status(ROOT, figure, s["name"], changed)["status"] == "provisional"
+            else:
+                assert quality["pending_review"] == "T011v2"
+            sid = f"C-{figure}-{builder.slug(s['name'])}-{project['gas']}-{project['T_K']}K"
+            assert manifest["series"][sid]["status"] == quality["status"]
+            assert {r["status"] for r in rows(OUT/(sid+".csv"))} == {quality["status"]}
+
+
+def test_usable_pressure_ranges_and_individual_recovery_coverage():
+    requests = json.loads((ROOT/"data/extraction/digitization/T011b/recovery_windows.json").read_text())["windows"]
+    wanted = {r["id"] for r in requests}
+    recovered = set()
+    for figure in builder.FIGURES:
+        eid = "T011-"+figure
+        project = read_project(ROOT/f"data/extraction/digitization/{eid}.digitization.yaml")
+        passport = yaml.safe_load((ROOT/f"data/extraction/records/{eid}.yaml").read_text())
+        x = AxisCalibration(**project["x_axis"])
+        pf = builder.water_psat_bar(project["T_K"]) if figure.startswith("S106") else 1
+        for s in project["series"]:
+            minimum = min(x.transform(px)*pf for px,py in s["pixels"])
+            assert s["usable_p_min_bar"] == pytest.approx(minimum)
+            assert passport["params"]["series"][s["name"]]["usable_p_min_bar"] == minimum
+            for recovery in s["recoveries"]:
+                assert recovery["action"] == "recovered"
+                assert recovery["visible_support_pixels"] >= 10
+                assert recovery["readout_bound_px"] >= s["sigma_pixel"]
+                assert "source color mask" in recovery["method"]
+                assert recovery["pixel"] in s["pixels"]
+                recovered.add(recovery["id"])
+    assert recovered == wanted
+    assert sum(r["defect"] == "T011v-D02" for r in requests) == 2
+    assert len({(r["figure"],r["series_index"]) for r in requests if r["defect"] == "T011v-D03"}) == 7
+
+
+def test_each_printed_symbol_is_counted_once():
+    # Check actual 2-D source-ink support, not just unique IDs or pressure gaps.
+    from PIL import Image
+    import numpy as np
+    for figure in builder.FIGURES:
+        project = read_project(ROOT/f"data/extraction/digitization/T011-{figure}.digitization.yaml")
+        a = np.array(Image.open(ROOT/project["image_ref"]).convert("RGB"))
+        for s in project["series"]:
+            ids = [v["symbol_id"] for v in s["symbols"]]
+            assert len(ids) == len(set(ids)) == len(s["pixels"])
+            assert [v["pixel"] for v in s["symbols"]] == s["pixels"]
+            mask = digitizer.color_mask(a, s["color"])
+            l,t,r,b = s["template_box_native_pixels"]
+            template = mask[t:b,l:r]
+            supports = [digitizer.symbol_support(mask,template,p) for p in s["pixels"]]
+            for i, support in enumerate(supports):
+                for other in supports[:i]:
+                    assert len(support & other)/min(len(support),len(other)) <= .75
+    water = read_project(ROOT/"data/extraction/digitization/T011-S106-Fig4.digitization.yaml")
+    removed = next(s for s in water["series"] if s["name"] == "UiO-66_160")["duplicate_detections_removed"]
+    assert len(removed) == 1
+    assert removed[0]["shared_ink_fraction"] > .75
+
+
+def test_symbol_dedup_keeps_real_markers_with_same_pressure():
+    import numpy as np
+    mask = np.zeros((50,50),bool)
+    mask[10:19,10:19] = True
+    mask[30:39,10:19] = True
+    template = np.ones((9,9),bool)
+    candidates = [dict(pixel=p,score=s) for p,s in [([14.,14.],1),([15.,15.],.9),([14.,34.],1)]]
+    kept, rejected = digitizer.deduplicate_symbols(candidates,mask,template)
+    assert [v["pixel"] for v in kept] == [[14.,14.],[14.,34.]]
+    assert len(rejected) == 1
 
 
 def test_closed_nist_categories_stay_sensitivity_and_distinct():
