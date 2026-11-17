@@ -1,5 +1,5 @@
-import hashlib
 """Offline contract checks for C data; never open holdout files or primary PDFs."""
+import hashlib
 import csv
 import importlib.util
 import json
