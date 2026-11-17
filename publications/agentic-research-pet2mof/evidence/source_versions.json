@@ -45,7 +45,9 @@
     "T051": "gpt-6.1-sol/high, network off",
     "T052": "gpt-6-astra/high, network off",
     "T053": "gpt-6.1-terra/medium, network off",
-    "actual_settings_source": "evidence/agent_runs_task004.csv (from private launcher logs; TASK-001..003 runs remain in evidence/agent_runs.csv)"
+    "actual_settings_source": "evidence/agent_runs_task004.csv (from private launcher logs; TASK-001..003 runs remain in evidence/agent_runs.csv)",
+    "T054": "gpt-6-astra/high, network on (read-only, five listed public pages)",
+    "T054r": "gpt-6-astra/high, network off"
   },
   "lead": {
     "platform": "Anthropic Claude Code",
@@ -63,7 +65,7 @@
   ],
   "article_revisions": {
     "draft-0.9": "git tag task004-draft-0.9 (reviewed by T052/T053)",
-    "draft-1.0": "owner-requested full rewrite in a more dynamic style; reviewed by T054"
+    "draft-1.0": "owner-requested full rewrite; reviewed by T054 (on 1d23d0e) and T054r (on d0c741e); final lead edits per T054r not re-reviewed"
   },
   "external_sources_accessed_2026_11_17": [
     "https://ug.edu.pl/news/pl/10481/innowacyjna-technologia-wychwytu-co2-grant-dla-wydzialu-chemii",
