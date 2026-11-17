@@ -206,9 +206,10 @@ def check(root):
     for name in sorted(private):
         print(f"FAIL forbidden-index:path={json.dumps(name, ensure_ascii=True)}")
 
-    # main, the candidate branch and all tags are publication roots. Every
-    # reachable commit tree is inspected, including files deleted by later commits.
-    history = command(root, ["git", "rev-list", "main", "HEAD", "--tags"])
+    # Every local branch (main, holdout/*, report branches), HEAD and all tags are
+    # publication roots. Every reachable commit tree is inspected, including files
+    # deleted by later commits.
+    history = command(root, ["git", "rev-list", "--branches", "--tags", "HEAD"])
     history_ok = history.returncode == 0
     seen = set()
     for commit in history.stdout.decode("ascii").splitlines() if history_ok else []:

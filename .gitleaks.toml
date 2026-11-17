@@ -22,5 +22,5 @@ regexes = ['''^key"\s*:\s*"[0-9]+_cit[0-9]+"$''']
 description = "SHA-256 file digests keyed by access-record filenames in digitization control manifests"
 condition = "AND"
 regexTarget = "match"
-paths = ['''^data/extraction/digitization/[^/]+/protected_hashes\.json$''', '''^data/extraction/digitization/T[0-9]{3}[a-z0-9]*-checks\.json$''']
-regexes = ['''^[A-Za-z0-9_.-]*access\.(json|yaml)"\s*:\s*"[0-9a-f]{64}"$''']
+paths = ['''^data/extraction/digitization/[^/]+/protected_hashes\.json$''', '''^data/extraction/digitization/T[0-9]{3}[a-z0-9]*-checks\.json$''', '''^data/extraction/digitization/T[0-9]{3}[a-z0-9]*-control/[^/]+\.json$''']
+regexes = ['''^[A-Za-z0-9_.-]*access(-[0-9]+)?\.(json|yaml|xml|html)"\s*:\s*"[0-9a-f]{64}"$''']

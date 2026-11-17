@@ -380,3 +380,19 @@ def test_owner_marker_in_history_rejected(repo, monkeypatch, capsys):
     out = capsys.readouterr().out
     assert "FAIL no-owner-markers-in-history" in out
     assert "synthetic-owner-x" not in out
+
+
+def test_owner_marker_on_side_branch_rejected(repo, monkeypatch, capsys):
+    """A marker reachable only from a non-main branch (e.g. holdout/v1) still fails."""
+    root, module = repo
+    monkeypatch.setattr(module, "owner_markers", lambda _root: ["/home/synthetic-owner-y/"])
+    git(root, "checkout", "-q", "-b", "holdout/v9")
+    (root / "docs").mkdir(exist_ok=True)
+    (root / "docs/side.json").write_text('{"cmd": "/home/synthetic-owner-y/venv/bin/python"}')
+    git(root, "add", "docs/side.json")
+    git(root, "commit", "-m", "synthetic leaked path on side branch")
+    git(root, "checkout", "-q", "main")
+    assert module.check(root) == 1
+    out = capsys.readouterr().out
+    assert "FAIL no-owner-markers-in-history" in out
+    assert "synthetic-owner-y" not in out
