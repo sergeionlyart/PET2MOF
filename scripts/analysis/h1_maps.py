@@ -14,6 +14,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import subprocess
 
 import numpy as np
@@ -320,9 +321,10 @@ seeds {source['repeat_seeds']}. Это повторности MC, не эксп�
 Это отказ применимости сравнения, не численный fail прогноза. S106 откалиброван,
 независимой V по воде нет. Подтверждение извлечения и известность условий разделены
 в T019v2/T023; оригинальные материалы заново не оцифровывались.
-Прочитаны `git show holdout/v1:reviews/T019v2_holdout_reverification.md` и
-`git show holdout/v1:reviews/T023_holdout_testability.md` при SHA
-`{result['holdout_sha']}`; их хеши в analysis.json.
+Прочитаны `reviews/T019v2_holdout_reverification.md` и
+`reviews/T023_holdout_testability.md` из рабочего дерева; их хеши в analysis.json.
+Закреплённый SHA holdout `{result['holdout_sha']}` взят из сообщения тега `prereg-v1`;
+локальная ветка holdout для воспроизведения не нужна.
 S2 — отдельный PEI@UiO-66-NH2 контроль переноса, не целевой PET-derived материал.
 
 **Контроль на C.** Данные S100, extraction_id `T006-S100-FigS5`, и
@@ -426,6 +428,10 @@ RH показана дискретными равномерно размещён
 координатой. Номинальные условия: T_ads=308.15 K, P_ads=1 bar, сухой z_CO2=0.05,
 t_ads=t_des=1800 s; R1: 383.15 K/1 bar, R2: 363.15 K/0.1 bar;
 y_CO2=y_H2O=0.001 для R1, 0.01 для R2 (входной газ регенерации).
+Ограничение D-08/D-17 (`docs/decisions.md`): цикл квазиравновесный;
+релаксация — условное сценарное допущение, интегратор потоков не реализован.
+Общий τ шести пулов бикарбонатной ветви — ограничение модели,
+а не установленная кинетика.
 Все сохранённые знаки квантилей оставлены, в том числе малые отрицательные
 численные значения около нуля; обрезки к нулю не выполнялось.
 
@@ -511,6 +517,8 @@ uv run --locked --no-sync python scripts/run.py \\
   --input docs/prereg_status.md \\
   --input reviews/T013_implementation_report.md \\
   --input reviews/T015_revision_report.md \\
+  --input reviews/T019v2_holdout_reverification.md \\
+  --input reviews/T023_holdout_testability.md \\
   --output reports/T025/artifacts.sha256 \\
   --output reports/T025/analysis.json \\
   --output reports/T025/branches.json --output reports/T025/cells.csv \\
@@ -568,12 +576,13 @@ def main():
     inputs = {p: digest(ROOT / p) for p in (SUMMARY, VALIDATION, DEMO, 'scripts/analysis/h1_maps.py',
               'docs/hypotheses.md', 'docs/decisions.md', 'docs/validation_protocol.md',
               'docs/work_order_v1.1_RU.md', 'docs/prereg_status.md',
-              'reviews/T013_implementation_report.md', 'reviews/T015_revision_report.md')}
-    holdout_sha = git('rev-parse', 'holdout/v1')
-    for path in ('reviews/T019v2_holdout_reverification.md', 'reviews/T023_holdout_testability.md'):
-        raw = subprocess.run(['git', 'show', f'{holdout_sha}:{path}'], cwd=ROOT,
-                             capture_output=True, check=True).stdout
-        inputs[f'{holdout_sha}:{path}'] = hashlib.sha256(raw).hexdigest()
+              'reviews/T013_implementation_report.md', 'reviews/T015_revision_report.md',
+              'reviews/T019v2_holdout_reverification.md', 'reviews/T023_holdout_testability.md')}
+    tag_message = git('for-each-ref', '--format=%(contents)', 'refs/tags/prereg-v1')
+    pinned = re.findall(r'^holdout/v1 commit: ([0-9a-f]{40})$', tag_message, re.MULTILINE)
+    if len(pinned) != 1:
+        raise ValueError('prereg-v1 tag message must pin exactly one holdout commit')
+    holdout_sha = pinned[0]
     v = validation['series']
     result = dict(run_id=args.run_id, status=status, head=git('rev-parse', 'HEAD'),
                   source_run_id=source['run_id'], prereg_sha=git('rev-parse', 'prereg-v1^{commit}'),
