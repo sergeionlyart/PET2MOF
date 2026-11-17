@@ -32,3 +32,21 @@ task002-s100:
 report-task002:
 	uv run --locked --no-sync python scripts/build_final_report.py --input task002/final_report_task002.md --output task002/final_report_task002.pdf
 	uv run --locked --no-sync python scripts/build_final_report.py --input task002/decision_brief.md --output task002/decision_brief.pdf
+
+.PHONY: task003-test task003-reproduce
+task003-test:
+	UV_CACHE_DIR=$(CURDIR)/.uv-cache uv run --locked --no-sync pytest tests/test_task003_*.py
+task003-reproduce:
+	UV_CACHE_DIR=$(CURDIR)/.uv-cache uv run --locked --no-sync python scripts/run.py \
+		--name task003-balance-map --purpose 'TASK003 conditional material balance and transfer boundaries' \
+		--hypothesis 'PEI transfer can exceed its own PET host only within explicit eta and k bounds' \
+		--input docs/task003/analysis_plan.md --input data/task003/eta_bounds.csv \
+		--input data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_materials.csv \
+		--input data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_dry_CO2.csv \
+		--input data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv \
+		--input data/task003/extracted/SRC06_tables.csv --input data/task003/extracted/SRC03_tables.csv \
+		--output reports/task003/provenance.json --output reports/task003/material_balance.csv \
+		--output reports/task003/design_window.csv --output reports/task003/analog_lines.csv \
+		--output reports/task003/transfer_kstar.csv --output reports/task003/transfer_kstar_summary.csv \
+		--output reports/task003/uncertainty_vertices.csv --output reports/task003/summary.json \
+		$(TASK003_RUN_ARGS) -- .venv/bin/python scripts/task003/run_balance.py --run-id '{run_id}'
