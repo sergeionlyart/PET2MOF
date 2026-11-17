@@ -21,8 +21,8 @@
 ([PDF](reports/task003/decision_brief.pdf)), [отчёт](reports/task003/final_report.md)
 ([PDF](reports/task003/final_report.pdf)), [следующий опыт](reports/task003/next_experiment.md),
 [совместимость маршрутов](reports/task003/route_compatibility.md), [ревью](reports/task003/review.md),
-[вклад агентов](reports/task003/agent_contributions.md). Приоритет — прямое импрегнирование PEI (R1, протокол аналога
-«30PEI»), резерв — смешанный линкер PET-BDC/NH₂-BDC + PEI через GA (R2); порог переноса k* = 1.06–1.52 (R1) и 1.110 (R2)
+[вклад агентов](reports/task003/agent_contributions.md). Приоритет — прямое импрегнирование PEI (R1, номинальная загрузка
+как у аналога «30PEI»), резерв — смешанный линкер PET-BDC/NH₂-BDC + PEI через GA (R2); порог переноса k* = 1.06–1.52 (R1) и 1.110 (R2)
 при явной совместной гипотезе переноса; её проверяет один парный опыт. Сухой чистый CO₂, ≈298 K; влага, цикл, смесь не оценивались. Команды:
 `make task003-test`, `make task003-reproduce`, `make report-task003`.
 
