@@ -1,0 +1,35 @@
+{
+  "run_id": "debug-unregistered",
+  "execution_kind": "debug",
+  "head_sha": "ff214d87acf37cbdefab8412432edfb5e171b5de",
+  "python_version": "3.12.0 (main, Oct  2 2023, 20:56:14) [Clang 16.0.3 ]",
+  "inputs": {
+    "data/primary/S2_dry_CO2.csv": "54810c3fb45d0d39f378827d62a83988559c765a1d347af95c14e203f922c35c",
+    "data/primary/S2_materials.csv": "388731f9c7a1347f90aa71e352676df1dbf38fe2a6a2235c2441c22bdce6ca1c",
+    "data/primary/S2_secondary_properties.csv": "71cc00efb50da58fb064baa0219c915804ea6f52fd0ee139e53411b74412bb63",
+    "metadata/analysis_contract.json": "c6244cc6143aedc8e1437200ed4b33e27e5986cd48149b201c5f4902dc40291e",
+    "metadata/source_discrepancies.json": "54b3b6dada9a97afcac6bc91cde0c722d7b2fd996f311e0da947f19976cbefda",
+    "metadata/sources.json": "0e07752eb844895c018aa33cb60ea717ad69beeb6512d9d9aae12648d5301dd9",
+    "metadata/SHA256SUMS.txt": "41f68e6b209cad62d171ff900b7e1972bc5a9faf836f90d5a61b33e23d0af7d9",
+    "reference/S2_nominal_metrics.csv": "6489a52f49ebf1b09a717d012385f1242a856755f1971371eb386ee6ca3f8d24",
+    "reference/S2_stress_intervals.csv": "3106e8d3e7387dd3f54c78e058bf0f20e5670f4979e0ad73e4aed1513363dc85",
+    "reference/S2_pairwise_thresholds.csv": "a83e54a32b5ea904d0d9908bcc7ef4ff15be15e06dcef37d4952a5f375f5a060"
+  },
+  "extraction_id_scope": "Local calculation IDs T030-A-*; package transcriptions are cited, not newly independently verified",
+  "quantity_types": {
+    "q": "measurement",
+    "retained_PEI_wt_pct": "author_calculated",
+    "calculated_outputs": "our_derived"
+  },
+  "limitations": [
+    "S2 only, source conditions; no transfer to PET-derived material",
+    "not a cycle or process cost model",
+    "independent source verification and alternative arithmetic belong to T031/T033/T035"
+  ],
+  "command": [
+    "python",
+    "scripts/task002/screen_s2.py",
+    "--run-id",
+    "debug-unregistered"
+  ]
+}

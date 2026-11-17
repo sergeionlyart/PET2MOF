@@ -1,0 +1,70 @@
+{
+  "run_id": "debug-unregistered",
+  "methods": {
+    "T030": "closed form, IEEE floats (src/pet2mof/task002/screening.py)",
+    "T033": "exact fractions, interval vertex enumeration, bisection thresholds"
+  },
+  "tolerance": 1e-10,
+  "worst_abs_diff": 1.4210854715202004e-14,
+  "robustness_flag_mismatches": 0,
+  "passed": true,
+  "rows": [
+    {
+      "pair": "S2-C48/S2-BASE",
+      "max_abs_diff": 4.440892098500626e-16
+    },
+    {
+      "pair": "S2-C72/S2-BASE",
+      "max_abs_diff": 6.661338147750939e-16
+    },
+    {
+      "pair": "S2-C72/S2-C96",
+      "max_abs_diff": 4.440892098500626e-16
+    },
+    {
+      "pair": "S2-C72/S2-N72",
+      "max_abs_diff": 4.440892098500626e-16
+    },
+    {
+      "pair": "S2-C96/S2-BASE",
+      "max_abs_diff": 4.440892098500626e-16
+    },
+    {
+      "pair": "S2-C96/S2-I96",
+      "max_abs_diff": 6.661338147750939e-16
+    },
+    {
+      "pair": "S2-I96/S2-BASE",
+      "max_abs_diff": 5.551115123125783e-16
+    },
+    {
+      "pair": "S2-N72/S2-BASE",
+      "max_abs_diff": 4.440892098500626e-16
+    },
+    {
+      "sample": "S2-BASE",
+      "max_abs_diff_gain_pct_or_inventory_kg": 0.0
+    },
+    {
+      "sample": "S2-C48",
+      "max_abs_diff_gain_pct_or_inventory_kg": 7.549516567451064e-15
+    },
+    {
+      "sample": "S2-C72",
+      "max_abs_diff_gain_pct_or_inventory_kg": 1.4210854715202004e-14
+    },
+    {
+      "sample": "S2-C96",
+      "max_abs_diff_gain_pct_or_inventory_kg": 0.0
+    },
+    {
+      "sample": "S2-I96",
+      "max_abs_diff_gain_pct_or_inventory_kg": 3.552713678800501e-15
+    },
+    {
+      "sample": "S2-N72",
+      "max_abs_diff_gain_pct_or_inventory_kg": 8.881784197001252e-15
+    }
+  ],
+  "scope": "arithmetic agreement of two independent implementations; not validation of measurements"
+}

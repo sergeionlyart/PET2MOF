@@ -1,0 +1,29 @@
+{
+  "run_id": "debug-unregistered",
+  "absolute_tolerance": 1e-10,
+  "passed": true,
+  "comparisons": {
+    "nominal.csv": {
+      "passed": true,
+      "rows": 6,
+      "compared_fields": 42,
+      "max_absolute_error": 0.0,
+      "errors": []
+    },
+    "stress_independent.csv": {
+      "passed": true,
+      "rows": 18,
+      "compared_fields": 144,
+      "max_absolute_error": 0.0,
+      "errors": []
+    },
+    "pairwise.csv": {
+      "passed": true,
+      "rows": 30,
+      "compared_fields": 210,
+      "max_absolute_error": 0.0,
+      "errors": []
+    }
+  },
+  "scope": "open numerical reference reproduction, not blind or physical validation"
+}
