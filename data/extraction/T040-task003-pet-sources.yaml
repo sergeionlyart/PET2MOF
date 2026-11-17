@@ -1,0 +1,50 @@
+task_id: T040-task003-pet-sources
+status: provisional
+date: '2026-11-17'
+inputs:
+- path: data/raw/task003/si_S1385894723040809_mmc1.docx
+  sha256: 8c3524f7d1b71ed501215520ee323d80a2768f4fac373a54a0a73343b0577a8a
+- path: data/raw/task003/si_S0926337326013524_mmc1.docx
+  sha256: 8f3b77784be3388dcdac458bd440e3b9bfb33c75328fbabec472d80aac375936
+- path: data/raw/task003/cao2023_chalmers.pdf
+  sha256: 2fe6d5b267ccfbd61b5aac5916d08464e3dbc67813725a9d445882914c99ee6c
+- path: data/raw/html/S3_zenodo.zip
+  sha256: f253455c1420afdd6c7f5303dd4ed1ce8219a43c4973e2a73b560374fb983d40
+- path: data/raw/html/S2.xml
+  sha256: 0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574
+- path: data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_materials.csv
+  sha256: 388731f9c7a1347f90aa71e352676df1dbf38fe2a6a2235c2441c22bdce6ca1c
+- path: data/raw/pdf/S100_SI.pdf
+  sha256: 241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3
+- path: data/raw/html/S100_SI.text.txt
+  sha256: a2cf79094ddbff157779902dd1db6345d39caa617c874fcdd84a7ec66afbbbfa
+tools:
+  python: 3.12.0
+  PyMuPDF: 1.28.2
+  PyYAML: 6.0.3
+  parsers: Python ElementTree and minidom, independent tree implementations
+operations:
+- extraction_id: T040-SRC03-tables
+  locator: DOCX Table S1, S2 and partial S4
+  output: data/task003/extracted/SRC03_tables.csv
+  error_estimate: Native table transcription without rounding; visual QA not completed
+  status: provisional
+- extraction_id: T040-SRC06-tables
+  locator: DOCX Table S1, S2, S3, Table 4, S7, S8
+  output: data/task003/extracted/SRC06_tables.csv
+  error_estimate: Native table transcription without rounding; visual QA not completed
+  status: provisional
+- extraction_id: T040-SRC05-files
+  locator: ZIP Gas sorption/*.txt
+  output: data/task003/extracted/SRC05_files.csv
+  error_estimate: Counts and extrema computed from raw text; extrema formatting only
+  status: provisional
+- extraction_id: T040-S100-methods
+  locator: SI PDF text, pages 2, 4, 7
+  output: data/task003/extracted/S100_methods.csv
+  error_estimate: Text-layer reading; PDF visual QA not completed
+  status: provisional
+limitations:
+- Incomplete extraction; see reviews/T040_report.md.
+- No OCR or digitization.
+- Actual model and reasoning settings not disclosed by interface.

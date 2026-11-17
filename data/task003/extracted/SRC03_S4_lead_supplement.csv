@@ -1,0 +1,4 @@
+extraction_id,source_id,doi,locator,sample_label,quantity,value,unit,value_kind,basis,conditions,note
+T040L-SRC03-S4,SRC03,10.1016/j.cej.2023.145349,SI section S4 (formula line),PET-derived UiO-66 (sample not named in S4),weight loss of coordinated BDC2-,39.75,%,measured,TGA in air,air-zero atmosphere; 400-521 C,lead transcription from SI word/document.xml text; not independently re-extracted
+T040L-SRC03-S4,SRC03,10.1016/j.cej.2023.145349,SI section S4 (formula line),PET-derived UiO-66 (sample not named in S4),weight of residual ZrO2,40.72,%,measured,TGA in air,air-zero atmosphere,lead transcription; same caveat
+T040L-SRC03-S4,SRC03,10.1016/j.cej.2023.145349,SI section S4 (formula line),PET-derived UiO-66 (sample not named in S4),BDC2-/Zr6 ratio,4.4,mol/mol (author: approx),author_calculated,TGA in air,uses M(BDC2-)=164 and M(ZrO2)=123 as printed,"author then states 8.8 BDC per Zr6 (coordination count = 2x ratio); ideal UiO-66 ratio 6 (12 coordinated)"

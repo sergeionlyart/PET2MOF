@@ -1,0 +1,6 @@
+extraction_id,source_id,doi,locator,sample_label,header,point_count,p_p0_min,p_p0_max,note
+T040-SRC05-files,SRC-05,10.5281/zenodo.17475401,Dati grezzi/Gas sorption/Defective_UiO-66.txt,Defective_UiO-66,Relative pressure(P/P0)	V(cm3/g),55,0.000923,0.98604,No BET calculation; branches combined
+T040-SRC05-files,SRC-05,10.5281/zenodo.17475401,Dati grezzi/Gas sorption/No defective_UiO-66.txt,No defective_UiO-66,Relative pressure(P/P0)	V(cm3/g),54,0.00173,0.98571,No BET calculation; branches combined
+T040-SRC05-files,SRC-05,10.5281/zenodo.17475401,Dati grezzi/Gas sorption/P38.txt,P38,Relative pressure(P/P0)	V(cm3/g),101,1.32e-06,0.9904592,No BET calculation; branches combined
+T040-SRC05-files,SRC-05,10.5281/zenodo.17475401,Dati grezzi/Gas sorption/P39.txt,P39,Relative pressure(P/P0)	V(cm3/g),105,3.33e-06,0.99662678,No BET calculation; branches combined
+T040-SRC05-files,SRC-05,10.5281/zenodo.17475401,Dati grezzi/Gas sorption/P39_LS.txt,P39_LS,Relative pressure(P/P0)	V(cm3/g),109,5.26e-06,0.99394,No BET calculation; branches combined

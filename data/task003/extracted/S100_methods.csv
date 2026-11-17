@@ -1,0 +1,8 @@
+extraction_id,source_id,locator,quantity,value,note
+T040-S100-methods,SRC-02,SI entire text,PEI molecular weight,unknown,Not found in SI text
+T040-S100-methods,SRC-02,SI entire text,PEI type,unknown,Not found in SI text
+T040-S100-methods,SRC-02,SI entire text,PEI loading mass basis,unknown,Not specified in SI text
+T040-S100-methods,SRC-02,SI entire text,PEI introduction method,unknown,Not specified in SI text
+T040-S100-methods,SRC-02,"PDF page 2, S1",parent UiO-66 activation,activated under vacuum at 423 K for 8 h,"Parent UiO-66, not necessarily composite"
+T040-S100-methods,SRC-02,"PDF page 4, S3",working capacity basis,mads is the adsorbent mass,Equation basis; adsorbent in packed bed
+T040-S100-methods,SRC-02,"PDF page 7, Fig. S4",isotherm basis,surface area-basis,Different from gravimetric working capacity
