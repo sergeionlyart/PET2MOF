@@ -1,0 +1,154 @@
+[
+  {
+    "series_id": "C-S105-Fig8A-UiO-66-CO2-273K",
+    "n": 46,
+    "project_usable_p_min_bar": 0.025576036866359446,
+    "manifest_usable_p_min_bar": 0.025576036866359446,
+    "observed_min_p_bar": 0.025576036866359446,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8A-UiO-66-NH2-CO2-273K",
+    "n": 46,
+    "project_usable_p_min_bar": 0.025921658986175114,
+    "manifest_usable_p_min_bar": 0.025921658986175114,
+    "observed_min_p_bar": 0.025921658986175114,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8A-UiO-66-GO-CO2-273K",
+    "n": 39,
+    "project_usable_p_min_bar": 0.02868663594470046,
+    "manifest_usable_p_min_bar": 0.02868663594470046,
+    "observed_min_p_bar": 0.02868663594470046,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8A-UiO-66-NH2-GO-CO2-273K",
+    "n": 39,
+    "project_usable_p_min_bar": 0.027429828236279853,
+    "manifest_usable_p_min_bar": 0.027429828236279853,
+    "observed_min_p_bar": 0.027429828236279853,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8B-UiO-66-CO2-298K",
+    "n": 47,
+    "project_usable_p_min_bar": 0.02351585014409222,
+    "manifest_usable_p_min_bar": 0.02351585014409222,
+    "observed_min_p_bar": 0.02351585014409222,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8B-UiO-66-NH2-CO2-298K",
+    "n": 46,
+    "project_usable_p_min_bar": 0.02628242074927954,
+    "manifest_usable_p_min_bar": 0.02628242074927954,
+    "observed_min_p_bar": 0.02628242074927954,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8B-UiO-66-GO-CO2-298K",
+    "n": 39,
+    "project_usable_p_min_bar": 0.02904899135446686,
+    "manifest_usable_p_min_bar": 0.02904899135446686,
+    "observed_min_p_bar": 0.02904899135446686,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8B-UiO-66-NH2-GO-CO2-298K",
+    "n": 39,
+    "project_usable_p_min_bar": 0.0276657060518732,
+    "manifest_usable_p_min_bar": 0.0276657060518732,
+    "observed_min_p_bar": 0.0276657060518732,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8C-UiO-66-CO2-318K",
+    "n": 46,
+    "project_usable_p_min_bar": 0.025583405358686258,
+    "manifest_usable_p_min_bar": 0.025583405358686258,
+    "observed_min_p_bar": 0.025583405358686258,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8C-UiO-66-NH2-CO2-318K",
+    "n": 44,
+    "project_usable_p_min_bar": 0.04770959377700951,
+    "manifest_usable_p_min_bar": 0.04770959377700951,
+    "observed_min_p_bar": 0.04770959377700951,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8C-UiO-66-GO-CO2-318K",
+    "n": 39,
+    "project_usable_p_min_bar": 0.02834917891097666,
+    "manifest_usable_p_min_bar": 0.02834917891097666,
+    "observed_min_p_bar": 0.02834917891097666,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig8C-UiO-66-NH2-GO-CO2-318K",
+    "n": 40,
+    "project_usable_p_min_bar": 0.02834917891097666,
+    "manifest_usable_p_min_bar": 0.02834917891097666,
+    "observed_min_p_bar": 0.02834917891097666,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig9-UiO-66-N2-298K",
+    "n": 46,
+    "project_usable_p_min_bar": 0.02145214521452145,
+    "manifest_usable_p_min_bar": 0.02145214521452145,
+    "observed_min_p_bar": 0.02145214521452145,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig9-UiO-66-NH2-N2-298K",
+    "n": 50,
+    "project_usable_p_min_bar": 0.02376237623762376,
+    "manifest_usable_p_min_bar": 0.02376237623762376,
+    "observed_min_p_bar": 0.02376237623762376,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig9-UiO-66-GO-N2-298K",
+    "n": 47,
+    "project_usable_p_min_bar": 0.02244224422442244,
+    "manifest_usable_p_min_bar": 0.02244224422442244,
+    "observed_min_p_bar": 0.02244224422442244,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S105-Fig9-UiO-66-NH2-GO-N2-298K",
+    "n": 48,
+    "project_usable_p_min_bar": 0.02046204620462046,
+    "manifest_usable_p_min_bar": 0.02046204620462046,
+    "observed_min_p_bar": 0.02046204620462046,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S106-Fig4-UiO-66-100-H2O-293K",
+    "n": 35,
+    "project_usable_p_min_bar": 0.0011388427417715194,
+    "manifest_usable_p_min_bar": 0.0011388427417715194,
+    "observed_min_p_bar": 0.0011388427417715194,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S106-Fig4-UiO-66-160-H2O-293K",
+    "n": 35,
+    "project_usable_p_min_bar": 0.0012384914816765272,
+    "manifest_usable_p_min_bar": 0.0012384914816765272,
+    "observed_min_p_bar": 0.0012384914816765272,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  },
+  {
+    "series_id": "C-S106-Fig4-UiO-66-220-H2O-293K",
+    "n": 35,
+    "project_usable_p_min_bar": 0.0012100204131322394,
+    "manifest_usable_p_min_bar": 0.0012100204131322394,
+    "observed_min_p_bar": 0.0012100204131322394,
+    "origin_coverage": "unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed"
+  }
+]

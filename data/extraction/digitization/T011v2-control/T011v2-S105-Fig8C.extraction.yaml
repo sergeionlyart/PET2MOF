@@ -1,0 +1,50 @@
+extraction_id: T011v2-S105-Fig8C
+source_id: S105
+doi: 10.3390/ma11040589
+url: https://www.mdpi.com/1996-1944/11/4/589
+input_sha256: 1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a
+pdf_page: 9
+api_page_map: {}
+figure_or_table: Fig8C
+region:
+  image_ref: data/extraction/digitization/T011v2-control/S105-Fig8C-native.png
+  image_sha256: b76f48625fa394ee05b0c35629a148912798c435571332329230b71a881b0f18
+tool: data/extraction/digitization/T011v2-control/geometric_check.py
+tool_version: sha256:ca8f9c7bbb3fc5d87b26bfba4ae41731c2a2b62cdcfd0e449c05335827d61d26
+params:
+  control_project: data/extraction/digitization/T011v2-control/S105-Fig8C.project.json
+  axis_calibration:
+    x:
+    - 197.0
+    - 1932.5
+    - 0
+    - 1.2
+    y:
+    - 1352.5
+    - 59.5
+    - 0
+    - 3.0
+    scale: linear
+    method: long dark frame runs; midpoint of >=95% peak support
+    calibration_bound_native_px: 1.5
+    interior_ticks: null
+  non_blind_search_windows: true
+  no_curve_sampling: true
+  page_mapping_note: Local PDF extraction; no external OCR/API page mapping.
+  derived_ref: data/extraction/digitization/T011v2-control/geometric_comparison.csv
+  note: Independent review control data; acceptance by project lead pending. Report
+    verdicts refer to the audited T011 series.
+date: '2026-11-17T00:28:21.930684+00:00'
+raw_response_ref: data/extraction/digitization/T011v2-control/S105-Fig8C-native.png
+unit_conversions: []
+derived_sha256: 9ae7630f12c98fdbc1760b586c5bee353e6dcdc4191476437feb7611d5dc21e1
+status: provisional
+reviewer: null
+corrections: []
+error_estimate:
+  method: directed square edges or visible boundary geometry; saved pixel centre ranges
+    plus calibration allowance
+  calibration_bound_px: 1.5
+  details: data/extraction/digitization/T011v2-control/low_visibility_joint_checks.json
+data_kind: digitized_markers
+sensitivity_only: true

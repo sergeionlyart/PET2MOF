@@ -1,0 +1,102 @@
+{
+  "tool": "PyMuPDF",
+  "version": "1.27.2.3",
+  "sources": [
+    {
+      "panel": "S105-Fig8A",
+      "source": "data/raw/pdf/S105_T011.pdf",
+      "source_sha256": "1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a",
+      "pdf_page_1based": 8,
+      "source_image_index_0based": 0,
+      "image_xref": 130,
+      "pdf_image_rect_points": [
+        173.55799865722656,
+        277.89300537109375,
+        421.718017578125,
+        682.5330200195312
+      ],
+      "crop_native_pixels": [
+        0,
+        0,
+        2068,
+        1660
+      ],
+      "native_png_sha256": "59b500b9a8a6a1ca4a38a897f25b461d9e389a04856479c383877db8d9d71ab0",
+      "render_scale": 6,
+      "full_page_local_artifact": "tmp/T011v2-pages/S105-Fig8A-page.png",
+      "attribution": "S105: Materials 2018, 11, 589, Figs 8/9; S106: G. Jajko et al., Microporous and Mesoporous Materials 330 (2022) 111555, Fig4; source excerpts for verification"
+    },
+    {
+      "panel": "S105-Fig8C",
+      "source": "data/raw/pdf/S105_T011.pdf",
+      "source_sha256": "1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a",
+      "pdf_page_1based": 9,
+      "source_image_index_0based": 0,
+      "image_xref": 139,
+      "pdf_image_rect_points": [
+        176.85800170898438,
+        87.88504028320312,
+        418.4179992675781,
+        292.72503662109375
+      ],
+      "crop_native_pixels": [
+        0,
+        0,
+        2013,
+        1707
+      ],
+      "native_png_sha256": "b76f48625fa394ee05b0c35629a148912798c435571332329230b71a881b0f18",
+      "render_scale": 6,
+      "full_page_local_artifact": "tmp/T011v2-pages/S105-Fig8C-page.png",
+      "attribution": "S105: Materials 2018, 11, 589, Figs 8/9; S106: G. Jajko et al., Microporous and Mesoporous Materials 330 (2022) 111555, Fig4; source excerpts for verification"
+    },
+    {
+      "panel": "S105-Fig9",
+      "source": "data/raw/pdf/S105_T011.pdf",
+      "source_sha256": "1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a",
+      "pdf_page_1based": 11,
+      "source_image_index_0based": 0,
+      "image_xref": 159,
+      "pdf_image_rect_points": [
+        164.91799926757812,
+        343.26806640625,
+        430.3580017089844,
+        541.508056640625
+      ],
+      "crop_native_pixels": [
+        0,
+        0,
+        2212,
+        1652
+      ],
+      "native_png_sha256": "ef57ca39e09d96d27fba0cd066e52cc0b2e72c840ca381a8bf067c359b1964a8",
+      "render_scale": 6,
+      "full_page_local_artifact": "tmp/T011v2-pages/S105-Fig9-page.png",
+      "attribution": "S105: Materials 2018, 11, 589, Figs 8/9; S106: G. Jajko et al., Microporous and Mesoporous Materials 330 (2022) 111555, Fig4; source excerpts for verification"
+    },
+    {
+      "panel": "S106-Fig4",
+      "source": "data/raw/pdf/S106.pdf",
+      "source_sha256": "8c54ae943403f8963f765704bfe6ddfcdc3923ae92d1b05e3d82681f7c34e0e7",
+      "pdf_page_1based": 5,
+      "source_image_index_0based": 1,
+      "image_xref": 205,
+      "pdf_image_rect_points": [
+        308.635986328125,
+        55.39300537109375,
+        555.5960083007812,
+        244.177001953125
+      ],
+      "crop_native_pixels": [
+        0,
+        0,
+        1029,
+        787
+      ],
+      "native_png_sha256": "5fd30854d4f84efea81a397929855d2cc9e723cd4179337ba50851d67ddea584",
+      "render_scale": 6,
+      "full_page_local_artifact": "tmp/T011v2-pages/S106-Fig4-page.png",
+      "attribution": "S105: Materials 2018, 11, 589, Figs 8/9; S106: G. Jajko et al., Microporous and Mesoporous Materials 330 (2022) 111555, Fig4; source excerpts for verification"
+    }
+  ]
+}

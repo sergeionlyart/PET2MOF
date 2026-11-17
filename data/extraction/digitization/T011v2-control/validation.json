@@ -1,0 +1,56 @@
+{
+  "geometry_attempt1": {
+    "exit": 0,
+    "valid": false,
+    "cause": "square-edge reflection; wrong S106 x zero selector; preserved attempt1 comparison/notes"
+  },
+  "geometry_attempt2": {
+    "exit": 0,
+    "valid": false,
+    "cause": "square-edge ambiguities persisted; replaced by directed straight-edge measurement; preserved attempt2 comparison/notes"
+  },
+  "check_data_attempt1": {
+    "exit": 1,
+    "cause": "review script assumed status is last column; water has two RH columns after status"
+  },
+  "check_data_attempt2": {
+    "exit": 1,
+    "cause": "strict byte comparison exposed CRLF-to-LF in raw CSV; numeric fields unchanged"
+  },
+  "final_geometry": {
+    "exit": 0,
+    "controls": 302,
+    "outside_raw_error": 0
+  },
+  "final_data_check": {
+    "exit": 0,
+    "series": 19,
+    "rows": 806
+  },
+  "summary": {
+    "exit": 0,
+    "low_visibility": 9,
+    "all_compatible": true
+  },
+  "passport_range_check": {
+    "exit": 0,
+    "series": 19
+  },
+  "joint_sensitivity": {
+    "exit": 0,
+    "all_9_total_bounds_compatible": true
+  },
+  "passport_schema": {
+    "exit": 0,
+    "validated": 4,
+    "draft_note": "API map empty for local extraction; descriptive fields moved under params before validation"
+  },
+  "final_integrity": {
+    "exit": 0,
+    "tracked_changes": 0,
+    "staged_changes": 0,
+    "commit_created": false,
+    "freeze_and_input_hashes_unchanged": true,
+    "git_diff_check_exit": 0
+  }
+}
