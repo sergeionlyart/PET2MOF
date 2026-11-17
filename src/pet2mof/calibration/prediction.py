@@ -47,6 +47,22 @@ def evaluate(row, sample, label):
         if row.get('source_id') == 'S2':
             if row['w_reading'] != 'retained' or _number(row, 'Mw_PEI') != 600.:
                 raise ValueError('D-11 requires retained loading and Mw=600')
+    if obs == 'Vp_ratio_to_w0':
+        # Mass-normalized pore volume uses no gas isotherm or temperature
+        # transfer. A supplied porosimetry temperature must still be physical.
+        T = _number(row, 'T_K', required=False)
+        if T is not None and T <= 0:
+            raise ValueError('nonpositive temperature')
+        m = fit['models'][model]['parameters']
+        if model == 'B1':
+            scale = 1-w
+        elif version == 'v1.1-connectivity':
+            scale = (1-w)*math.exp(-(m['kappa']*w/(1-w))**m['power'])
+        else:
+            scale = 1-w-m['kappa']*w
+        if scale < 0:
+            raise ValueError('loading outside feasible dry-pore domain')
+        return scale/(1-w) if row['basis'] == 'dry_MOF' else scale
     T = _number(row, 'T_K')
     if T <= 0:
         raise ValueError('nonpositive temperature')
@@ -82,9 +98,6 @@ def evaluate(row, sample, label):
         scale = 1-w-m['kappa']*w
     if scale < 0:
         raise ValueError('loading outside feasible dry-pore domain')
-    if obs == 'Vp_ratio_to_w0':
-        # Accessible volume per reported mass. B1 has simple dilution only.
-        return scale/(1-w) if row['basis'] == 'dry_MOF' else scale
     q = scale*host_q
     if gas == 'CO2':
         eta = m['eta0'] if model == 'B1' else .5*m['A0']*math.exp(-m['lam']*w/(1-w))
