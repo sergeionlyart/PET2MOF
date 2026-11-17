@@ -1,6 +1,6 @@
 {
   "task_id": "T030-task002-screening",
-  "run_id": "debug-unregistered",
+  "run_id": "20261117T044031484585Z-1acc1c2c-task002-A",
   "status": "passed",
   "scope": "integrity and numerical reproduction; not physical validation",
   "python_version": "3.12.0 (main, Oct  2 2023, 20:56:14) [Clang 16.0.3 ]",
@@ -84,7 +84,7 @@
     }
   ],
   "errors": [],
-  "head_sha": "ff214d87acf37cbdefab8412432edfb5e171b5de",
+  "head_sha": "1acc1c2c226bd4b23ee5c687af4f9a5450015501",
   "manifest": [
     {
       "path": ".gitignore",

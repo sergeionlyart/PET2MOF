@@ -1,7 +1,7 @@
 {
-  "run_id": "debug-unregistered",
-  "execution_kind": "debug",
-  "head_sha": "ff214d87acf37cbdefab8412432edfb5e171b5de",
+  "run_id": "20261117T044031484585Z-1acc1c2c-task002-A",
+  "execution_kind": "see runs passport",
+  "head_sha": "1acc1c2c226bd4b23ee5c687af4f9a5450015501",
   "python_version": "3.12.0 (main, Oct  2 2023, 20:56:14) [Clang 16.0.3 ]",
   "inputs": {
     "data/primary/S2_dry_CO2.csv": "54810c3fb45d0d39f378827d62a83988559c765a1d347af95c14e203f922c35c",
@@ -30,6 +30,6 @@
     "python",
     "scripts/task002/screen_s2.py",
     "--run-id",
-    "debug-unregistered"
+    "20261117T044031484585Z-1acc1c2c-task002-A"
   ]
 }

@@ -1,0 +1,242 @@
+{
+  "run_id": "20261117T044031484585Z-1acc1c2c-task002-A",
+  "purpose": "\u041f\u0440\u0438\u0451\u043c\u043a\u0430 \u043f\u0430\u043a\u0435\u0442\u0430 \u0438 \u0441\u0443\u0445\u043e\u0435 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435 S2, T030",
+  "hypothesis": "\u0421\u0443\u0445\u0430\u044f q \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442 \u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u043e\u0432; \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u0442\u0441\u044f \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u043c\u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u044f\u043c\u0438",
+  "commit_sha": "1acc1c2c226bd4b23ee5c687af4f9a5450015501",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/.gitignore",
+      "sha256": "e34c8e9c54de27f84c5cad1f71a3f94f5805d8dea72278873f5d52ade2067ca7"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/Makefile",
+      "sha256": "f595027ede7df3622b394e9fef24f237e58a11f7d49cd6c6d198685a1fe67e10"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/README_RU.md",
+      "sha256": "af4b739795bf20619dbc4d0fb6d3e6dcbf74193f1ca14df5d79227f1fbf154f5"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/audit_fixture/README.json",
+      "sha256": "f5f9ce40f195300c9a77a68ee638a2608b4cecfab2c96c2372f10be9a2face85"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/audit_fixture/audit_probe.py",
+      "sha256": "ecb8be5f7768a2934b2addc4cdb65fbed226bd068029f81e3784097cf6e0931d"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/audit_fixture/prediction_excerpt.py",
+      "sha256": "2503c2cd74cf6a0ba4acf490e85fb181443c7dd19b04272963f53ea6e8b04854"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/audit_fixture/probe_results.json",
+      "sha256": "c3f45f6ead71580dd8d2f250069c9ff3f8c0433a36924a719230e48b9f6fa753"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/checks/data_check.json",
+      "sha256": "6723d2d197e90d8777139e051660f838895c32dc87ae0aa2ef37ae6b2a1ac585"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/checks/environment.json",
+      "sha256": "e5dadac78834bd770b7205536a70038f8477aa03abc054ed2f4fc97e4934069d"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/checks/independent_arithmetic_check.json",
+      "sha256": "72a99bf1bd0b4e3c78290dadc2ba35e1b8b64b9b3aa526041892dc3004003040"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/checks/local_run.txt",
+      "sha256": "c61dc1195793d91069db037b994e25291beb0ac423f0f42139ff02b79801146b"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv",
+      "sha256": "757e879b0488f5fe81530344973560505b10d206c4e05f2a77a56bc9fc96eda9"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/legacy_original/C-S100-FigS5-10PEI-UiO-66-CO2-298K.csv",
+      "sha256": "b1932951bac93b9671b3d2062647b6f17053dba3f1ce82dea1a19c446a2c59d7"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/legacy_original/C-S100-FigS5-20PEI-UiO-66-CO2-298K.csv",
+      "sha256": "7ccdbe12c7d518bb9ae0f8b281e16fc669bc983c17b52d394875de81be6ab3e5"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/legacy_original/C-S100-FigS5-30PEI-UiO-66-CO2-298K.csv",
+      "sha256": "aeb3c00f1b730aac783390e8f21dc7148084ce755a64ebda1d16d3b355498baa"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/legacy_original/C-S100-FigS5-40PEI-UiO-66-CO2-298K.csv",
+      "sha256": "3226d1366af93d902953241122a5a0f8766dfac513edff2f9ebcd3ab6179a777"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/legacy_original/C-S100-FigS5-UiO-66-CO2-298K.csv",
+      "sha256": "c4113c007933ee95f540b08c79d97eef29ceee9b3055799a7cf9de0662de6361"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_dry_CO2.csv",
+      "sha256": "54810c3fb45d0d39f378827d62a83988559c765a1d347af95c14e203f922c35c"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_materials.csv",
+      "sha256": "388731f9c7a1347f90aa71e352676df1dbf38fe2a6a2235c2441c22bdce6ca1c"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_secondary_properties.csv",
+      "sha256": "71cc00efb50da58fb064baa0219c915804ea6f52fd0ee139e53411b74412bb63"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/quarantine/S100_excluded_points.csv",
+      "sha256": "91a459b7575920f73b43f300c4d1f85bbd6a277d6810f28cbf22968453d3ce05"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/docs/DATA_DICTIONARY_RU.md",
+      "sha256": "be8b4529e7e7c408584d07691f3bf51026f48ffc198d722d4a44a3daca70805e"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/docs/EXECUTOR_HANDOFF_RU.md",
+      "sha256": "bdd89eebf16e7f4b38e548a97bd25f37bb5b1d8bcde3ddf4037d6a0775756917"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/docs/RIGHTS_AND_SOURCES.md",
+      "sha256": "2ef425870165a2ebfca581734c4ec62d385e9d62606f453dc2236e852f174c7a"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/metadata/S100_internal_split.csv",
+      "sha256": "a9fc6271a01f407039d51f0ac9e457fcfafcbecdfa7cd73b0b10c20f522b6703"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/metadata/S2_transcription_crosscheck.csv",
+      "sha256": "e52e4a9a9ba9763bbf68175a3af10793964b40db58d58d7bfe38282919a78e60"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/metadata/SHA256SUMS.txt",
+      "sha256": "41f68e6b209cad62d171ff900b7e1972bc5a9faf836f90d5a61b33e23d0af7d9"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/metadata/analysis_contract.json",
+      "sha256": "c6244cc6143aedc8e1437200ed4b33e27e5986cd48149b201c5f4902dc40291e"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/metadata/legacy_sources.json",
+      "sha256": "42d63fe9550fcc62b87af6c9a53b94e9f75bab7bed527b5a40bfb8fcefc84ef3"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/metadata/source_discrepancies.json",
+      "sha256": "54b3b6dada9a97afcac6bc91cde0c722d7b2fd996f311e0da947f19976cbefda"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/metadata/sources.json",
+      "sha256": "0e07752eb844895c018aa33cb60ea717ad69beeb6512d9d9aae12648d5301dd9"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/S100_internal_baseline_residuals.csv",
+      "sha256": "02babd328e0df390357c4e1f412dd70d7476ff2f2a6a985fd5e04d545179fb58"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/S100_nominal_shapes.csv",
+      "sha256": "2ecd8ee24692c252da727ebe7f23f5ab0a876919b7c7eb5ca344594998d67336"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/S2_nominal_metrics.csv",
+      "sha256": "6489a52f49ebf1b09a717d012385f1242a856755f1971371eb386ee6ca3f8d24"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/S2_pairwise_thresholds.csv",
+      "sha256": "a83e54a32b5ea904d0d9908bcc7ef4ff15be15e06dcef37d4952a5f375f5a060"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/S2_stress_intervals.csv",
+      "sha256": "3106e8d3e7387dd3f54c78e058bf0f20e5670f4979e0ad73e4aed1513363dc85"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/baseline_summary.json",
+      "sha256": "1562e2f4f8b92afbb6a2d4f42fd792203123db64cbc3607eef22a748949b4dc1"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/scripts/check_data.py",
+      "sha256": "5c3a21dd5f6a1b7b442ba50eb149b02b01043afe7c70bd8546a7093a5756a356"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/scripts/reference_baseline.py",
+      "sha256": "044c8241f5be59ce95229c49ec77682a3616f1483a10cb9a02e0a2341e7cc424"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/tests/test_pack.py",
+      "sha256": "3cd2f0cfdbe0640147540afec425e162c105fa71a57ce106a3226668cf2bda88"
+    }
+  ],
+  "parameters": {},
+  "seed": null,
+  "command": [
+    ".venv/bin/python",
+    "scripts/task002/reproduce.py",
+    "--run-id",
+    "20261117T044031484585Z-1acc1c2c-task002-A"
+  ],
+  "started_utc": "2026-11-17T04:40:31.484585+00:00",
+  "finished_utc": "2026-11-17T04:40:31.847178+00:00",
+  "status": "completed",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 0.34701299999142066,
+    "child_user_seconds": 0.18450099999999997,
+    "child_system_seconds": 0.12087299999999998,
+    "child_maxrss": 26279936,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [
+    {
+      "path": "reports/task002/intake/acceptance.json",
+      "sha256": "28680ea9ac34c7cc3922492d99d890002d57aea1f979b7332a677afee7d26641"
+    },
+    {
+      "path": "reports/task002/A/nominal.csv",
+      "sha256": "98e72523b1a7f0235809e62b8117a5119a8b9b291bb053d78f7073409506b4e5"
+    },
+    {
+      "path": "reports/task002/A/stress_independent.csv",
+      "sha256": "eaffcd68a9a80e7d946fc27b3e465476fdb91cc1e5c86f6c5f76c7b6994178c2"
+    },
+    {
+      "path": "reports/task002/A/stress_common_factor.csv",
+      "sha256": "d9fdf19a49ee893da2786811f216d2728d5819e8a8036721f684d3ed4df3c66c"
+    },
+    {
+      "path": "reports/task002/A/pairwise.csv",
+      "sha256": "ced179596e0f919c9433141a6bd1291e312a043a699ac852b1b8f090f9361fb4"
+    },
+    {
+      "path": "reports/task002/A/candidates.csv",
+      "sha256": "733c575b050f48f06ca69b400711ef50b2b70a73043082ecc343b4d0bd90f3d9"
+    },
+    {
+      "path": "reports/task002/A/candidates.md",
+      "sha256": "32aceb898554c51edcf18776b2408444b50ecda93beb66a26c39d51be2a89c50"
+    },
+    {
+      "path": "reports/task002/A/reproduce_reference.json",
+      "sha256": "de19e2797f3ecca6cea830f01d45bd5e461066bc7ba8f6495722ad310bf301f7"
+    },
+    {
+      "path": "reports/task002/A/provenance.json",
+      "sha256": "d856b7269a5854404b0ac767b2554a211e3b40018bace6d4d93ecc8d71d788ab"
+    }
+  ],
+  "checks": [],
+  "limitations": [],
+  "execution_status": "completed"
+}
