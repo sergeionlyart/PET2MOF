@@ -55,3 +55,11 @@ report-task003:
 	UV_CACHE_DIR=$(CURDIR)/.uv-cache uv run --locked --no-sync python scripts/build_final_report.py --input task003/final_report.md --output task003/final_report.pdf
 	UV_CACHE_DIR=$(CURDIR)/.uv-cache uv run --locked --no-sync python scripts/build_final_report.py --input task003/decision_brief.md --output task003/decision_brief.pdf
 	UV_CACHE_DIR=$(CURDIR)/.uv-cache uv run --locked --no-sync python scripts/build_final_report.py --input task003/next_experiment.md --output task003/next_experiment.pdf
+.PHONY: task003-agreement
+task003-agreement:
+	UV_CACHE_DIR=$(CURDIR)/.uv-cache uv run --locked --no-sync python scripts/run.py \
+		--name task003-agreement --purpose 'Compare counted TASK003 run with independent T043 exact recompute' \
+		--hypothesis 'Main and independent computations agree within numerical tolerance' \
+		--input reports/task003/analog_lines.csv --input reports/task003/transfer_kstar.csv \
+		--input reports/task003/independent/recompute.csv --output reports/task003/independent_agreement.json \
+		$(TASK003_RUN_ARGS) -- .venv/bin/python scripts/task003/compare_independent.py --run-id '{run_id}'
