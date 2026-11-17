@@ -32,6 +32,8 @@ JSON-события `codex exec --json` модель и effort **не раскр
 применённые клиентом значения берутся из записи `turn_context` rollout-файла
 `~/.codex/sessions/**/rollout-*-<thread_id>.jsonl` (`scripts/agents/actual_settings.py`) и
 сохраняются в `private/agent_logs/<task>.*.exit.json`; публичная сводка — `reviews/agent_contributions.md`.
+Ограничение изоляции: `--ignore-user-config` не отключает глобальный `~/.codex/AGENTS.md` владельца; его указания
+(например, о Linear) могут попадать в контекст исполнителя. Карточки проекта явно указывают, что Linear не используется.
 Ограничение: это настройки, применённые и отправленные клиентом; маршрутизация на стороне сервера
 не наблюдаема. Самоотчёт модели о своём имени ненадёжен и не используется.
 
@@ -76,3 +78,9 @@ JSON-события `codex exec --json` модель и effort **не раскр
 | T023-holdout-testability | terra, high | terra, high | принято: по D-18 нет ни одной количественно проверяемой серии | нет |
 | T019c-holdout-marker-fix | astra, medium | astra, medium | принято (T019v2-01) | нет |
 | T019c2-holdout-consistency | terra, medium | terra, medium | принято | нет |
+| T024-freeze-reveal | sol, medium | sol, medium | принято: прогнозы зафиксированы до раскрытия; хеши совпали с тегом | нет |
+| T025-h1-analysis | sol, high | sol, high | принято после T025v/T025b | учитываемые запуски выполнены руководителем |
+| T025v-h1-analysis-verify | astra, high, read-only | astra, high, read-only | принято: числа подтверждены, 2 замечания medium | нет |
+| T025b-h1-analysis-fix | sol, medium | sol, medium | принято | первый запуск остановлен руководителем: в клоне оказались пустые копии отчётов (ошибка руководителя, модификатор zsh); перезапуск в чистом клоне |
+| T016-clean-reproduction | astra, medium, сеть off | astra, medium, сеть off | принято: все make-цели exit 0, 360/360 выборок совпали | нет |
+| T017-final-report | terra, high | — (в работе) | первый запуск остановился до изменений: требование Linear из глобального `~/.codex/AGENTS.md` владельца; карточка уточнена | — |
