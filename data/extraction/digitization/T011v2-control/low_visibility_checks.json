@@ -1,0 +1,319 @@
+{
+  "definition": "T011b visible_support_pixels/template_ink_pixels < 25%; not independently re-estimated area fraction",
+  "method": "union of threshold/radius geometry envelopes, plus calibration and shape allowance; diagnostic bounds, not statistical confidence intervals",
+  "points": [
+    {
+      "recovery_id": "S105-Fig9-s0-m01",
+      "series_row": 1,
+      "shape": "square",
+      "T011b_visible_fraction": 0.05672009864364982,
+      "control_center": [
+        337.0,
+        1390.0
+      ],
+      "T011_center": [
+        336.5,
+        1390.0
+      ],
+      "union_center_bounds": [
+        336.0,
+        1389.0,
+        338.0,
+        1391.0
+      ],
+      "calibration_allowance_px": 1.5,
+      "extra_shape_allowance_px": 0.5,
+      "required_total_bound_x_px": 3.5,
+      "required_total_bound_y_px": 3.0,
+      "T011_total_bound_px": 9.0,
+      "within_total_T011_bound": true,
+      "source_identity": "own black orthogonal edges",
+      "directed_runs": [
+        {
+          "axis": 0,
+          "outside_direction": -1,
+          "edge_coordinate": 323,
+          "center_estimate": 337.0,
+          "consecutive_pixels": 4
+        },
+        {
+          "axis": 1,
+          "outside_direction": 1,
+          "edge_coordinate": 1404,
+          "center_estimate": 1390.0,
+          "consecutive_pixels": 9
+        }
+      ],
+      "edge_count": 13
+    },
+    {
+      "recovery_id": "S105-Fig9-s0-m02",
+      "series_row": 2,
+      "shape": "square",
+      "T011b_visible_fraction": 0.040690505548705305,
+      "control_center": [
+        374.0,
+        1371.0
+      ],
+      "T011_center": [
+        373.5,
+        1371.0
+      ],
+      "union_center_bounds": [
+        373.0,
+        1370.0,
+        375.0,
+        1372.0
+      ],
+      "calibration_allowance_px": 1.5,
+      "extra_shape_allowance_px": 0.5,
+      "required_total_bound_x_px": 3.5,
+      "required_total_bound_y_px": 3.0,
+      "T011_total_bound_px": 9.0,
+      "within_total_T011_bound": true,
+      "source_identity": "own black orthogonal edges",
+      "directed_runs": [
+        {
+          "axis": 0,
+          "outside_direction": -1,
+          "edge_coordinate": 360,
+          "center_estimate": 374.0,
+          "consecutive_pixels": 15
+        },
+        {
+          "axis": 1,
+          "outside_direction": 1,
+          "edge_coordinate": 1385,
+          "center_estimate": 1371.0,
+          "consecutive_pixels": 4
+        }
+      ],
+      "edge_count": 19
+    },
+    {
+      "recovery_id": "S105-Fig9-s0-m03",
+      "series_row": 3,
+      "shape": "square",
+      "T011b_visible_fraction": 0.16892725030826142,
+      "control_center": [
+        412.0,
+        1352.0
+      ],
+      "T011_center": [
+        412.0,
+        1351.0
+      ],
+      "union_center_bounds": [
+        411.0,
+        1351.0,
+        413.0,
+        1353.0
+      ],
+      "calibration_allowance_px": 1.5,
+      "extra_shape_allowance_px": 0.5,
+      "required_total_bound_x_px": 3.0,
+      "required_total_bound_y_px": 4.0,
+      "T011_total_bound_px": 9.5,
+      "within_total_T011_bound": true,
+      "source_identity": "own black orthogonal edges",
+      "directed_runs": [
+        {
+          "axis": 0,
+          "outside_direction": 1,
+          "edge_coordinate": 426,
+          "center_estimate": 412.0,
+          "consecutive_pixels": 13
+        },
+        {
+          "axis": 1,
+          "outside_direction": -1,
+          "edge_coordinate": 1338,
+          "center_estimate": 1352.0,
+          "consecutive_pixels": 8
+        },
+        {
+          "axis": 1,
+          "outside_direction": 1,
+          "edge_coordinate": 1366,
+          "center_estimate": 1352.0,
+          "consecutive_pixels": 3
+        }
+      ],
+      "edge_count": 24
+    },
+    {
+      "recovery_id": "S106-Fig4-s1-m01",
+      "series_row": 1,
+      "shape": "circle",
+      "T011b_visible_fraction": 0.06130268199233716,
+      "control_center": [
+        237.0,
+        643.5
+      ],
+      "T011_center": [
+        237.0,
+        643.5
+      ],
+      "union_center_bounds": [
+        233.5,
+        641.5,
+        241.5,
+        645.5
+      ],
+      "calibration_allowance_px": 1.5,
+      "extra_shape_allowance_px": 0.0,
+      "required_total_bound_x_px": 6.0,
+      "required_total_bound_y_px": 3.5,
+      "T011_total_bound_px": 6.0,
+      "within_total_T011_bound": true,
+      "source_identity": "own pink upper arc over purple square",
+      "directed_runs": null,
+      "edge_count": 13
+    },
+    {
+      "recovery_id": "S106-Fig4-s1-m02",
+      "series_row": 2,
+      "shape": "circle",
+      "T011b_visible_fraction": 0.07279693486590039,
+      "control_center": [
+        251.5,
+        639.5
+      ],
+      "T011_center": [
+        252.0,
+        639.5
+      ],
+      "union_center_bounds": [
+        248.0,
+        637.5,
+        255.0,
+        641.5
+      ],
+      "calibration_allowance_px": 1.5,
+      "extra_shape_allowance_px": 0.0,
+      "required_total_bound_x_px": 5.5,
+      "required_total_bound_y_px": 3.5,
+      "T011_total_bound_px": 6.0,
+      "within_total_T011_bound": true,
+      "source_identity": "own pink upper arc over purple square",
+      "directed_runs": null,
+      "edge_count": 11
+    },
+    {
+      "recovery_id": "S106-Fig4-s1-m04",
+      "series_row": 4,
+      "shape": "circle",
+      "T011b_visible_fraction": 0.12260536398467432,
+      "control_center": [
+        293.5,
+        629.5
+      ],
+      "T011_center": [
+        293.0,
+        629.5
+      ],
+      "union_center_bounds": [
+        291.0,
+        627.0,
+        295.5,
+        632.0
+      ],
+      "calibration_allowance_px": 1.5,
+      "extra_shape_allowance_px": 0.0,
+      "required_total_bound_x_px": 4.0,
+      "required_total_bound_y_px": 4.0,
+      "T011_total_bound_px": 6.0,
+      "within_total_T011_bound": true,
+      "source_identity": "own pink upper arc over purple square",
+      "directed_runs": null,
+      "edge_count": 21
+    },
+    {
+      "recovery_id": "S106-Fig4-s1-m05",
+      "series_row": 5,
+      "shape": "circle",
+      "T011b_visible_fraction": 0.12643678160919541,
+      "control_center": [
+        313.5,
+        624.5
+      ],
+      "T011_center": [
+        313.0,
+        624.5
+      ],
+      "union_center_bounds": [
+        311.5,
+        622.0,
+        316.0,
+        627.0
+      ],
+      "calibration_allowance_px": 1.5,
+      "extra_shape_allowance_px": 0.0,
+      "required_total_bound_x_px": 4.5,
+      "required_total_bound_y_px": 4.0,
+      "T011_total_bound_px": 6.0,
+      "within_total_T011_bound": true,
+      "source_identity": "own pink upper arc over purple square",
+      "directed_runs": null,
+      "edge_count": 24
+    },
+    {
+      "recovery_id": "S106-Fig4-s1-m06",
+      "series_row": 6,
+      "shape": "circle",
+      "T011b_visible_fraction": 0.19540229885057472,
+      "control_center": [
+        337.0,
+        618.5
+      ],
+      "T011_center": [
+        337.0,
+        618.5
+      ],
+      "union_center_bounds": [
+        335.0,
+        616.0,
+        339.5,
+        621.0
+      ],
+      "calibration_allowance_px": 1.5,
+      "extra_shape_allowance_px": 0.0,
+      "required_total_bound_x_px": 4.0,
+      "required_total_bound_y_px": 4.0,
+      "T011_total_bound_px": 6.0,
+      "within_total_T011_bound": true,
+      "source_identity": "own pink upper arc over purple square",
+      "directed_runs": null,
+      "edge_count": 26
+    },
+    {
+      "recovery_id": "S106-Fig4-s1-m07",
+      "series_row": 7,
+      "shape": "circle",
+      "T011b_visible_fraction": 0.210727969348659,
+      "control_center": [
+        357.0,
+        611.0
+      ],
+      "T011_center": [
+        357.0,
+        610.5
+      ],
+      "union_center_bounds": [
+        355.0,
+        608.5,
+        359.0,
+        613.0
+      ],
+      "calibration_allowance_px": 1.5,
+      "extra_shape_allowance_px": 0.0,
+      "required_total_bound_x_px": 3.5,
+      "required_total_bound_y_px": 4.0,
+      "T011_total_bound_px": 6.0,
+      "within_total_T011_bound": true,
+      "source_identity": "own pink upper arc over purple square",
+      "directed_runs": null,
+      "edge_count": 23
+    }
+  ]
+}

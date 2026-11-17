@@ -1,0 +1,4 @@
+{
+  "reason": "Exploratory boundary fit lacked ink containment: square edges could be flipped. S106 zero x chosen from overlapping markers instead of tick, corrected using internal ticks. Not evidence of source error.",
+  "code_sha256": "9659af099a13bdb909add27087f87c82dbbe68298d1f033ef2dd74e1d9a5f905"
+}
