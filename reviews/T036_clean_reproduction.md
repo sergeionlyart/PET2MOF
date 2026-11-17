@@ -69,3 +69,16 @@
 изоляцию дополнительно подтверждает журнал запуска: фактический sandbox исполнителя `network_access = false` (rollout
 `turn_context`). Ограничения: офлайн `uv sync` в sandbox не выполнился (нет доступа к кэшу), использован готовый
 `.venv` с editable-установкой исходного клона (код `src/pet2mof` совпадал с HEAD).
+
+## Дополнительное воспроизведение руководителем (закрытие ограничений T036)
+
+Свежий `git clone --no-local` итогового коммита `032cb5a` во временный каталог; `.env` отсутствует; **собственное**
+окружение `uv sync --locked --offline` (Python 3.12.0, `UV_OFFLINE=1`, кэш uv только для чтения пакетов) — `pet2mof`
+импортируется из чистой копии. Все команды с `env -i` (HOME, PATH, LANG): `make test` (501 passed, 1 skipped),
+`make task002-intake`, `make task002-screen`, `make task002-s100`, `scripts/task002_independent/recompute.py`,
+`scripts/task002/compare_independent.py`, `make report-task002`, `make report` — все exit 0.
+Сравнение с HEAD: 21 файл А/Б совпал до `run_id`; `provenance.json` и `acceptance.json` — только SHA коммита, вид
+исполнения, статус регистрации и SHA-256 плана (поправка E-05 после учитываемого запуска Б); PNG — 2394 пикселя в
+строках 937–951 (подпись `run_id`). PDF: `decision_brief.pdf` и v1 `final_report.pdf` побайтово совпали;
+`final_report_task002.pdf` совпал побайтово после восстановления закоммиченных PNG (отличие было только во встроенной
+подписи `run_id`). `reviews/T033-control/recompute.json` идентичен.
