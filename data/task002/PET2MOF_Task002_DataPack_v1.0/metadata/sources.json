@@ -1,0 +1,62 @@
+[
+  {
+    "id": "S2",
+    "doi": "10.1021/acsomega.8b02319",
+    "title": "Polyethyleneimine-Modified UiO-66-NH2(Zr) Metal–Organic Frameworks: Preparation and Enhanced CO2 Selective Adsorption",
+    "authors": [
+      "Junjie Zhu",
+      "Linbo Wu",
+      "Zhiyang Bu",
+      "Suyun Jie",
+      "Bo-Geng Li"
+    ],
+    "year": 2019,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6648867/",
+    "publisher_url": "https://pubs.acs.org/doi/10.1021/acsomega.8b02319",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acsomega.8b02319",
+    "locators": [
+      "Table 1 p.3189",
+      "Table 2 p.3192",
+      "sections 2.2, 4.1, 4.6"
+    ],
+    "accessed": "2026-11-17",
+    "extraction_method": "manual transcription of published numeric tables; checked against publisher parsed PDF and primary HTML; no OCR",
+    "visual_pdf_page_check": "attempted; screenshot tool returned cache miss; not claimed completed",
+    "original_file_sha256": null,
+    "licence_as_stated": "ACS AuthorChoice: copying/redistribution/adaptations for non-commercial purposes",
+    "provenance_limits": [
+      "Both representations are the same primary study, not independent experiments.",
+      "Retained PEI is author-calculated, not raw elemental-analysis repetitions.",
+      "Paper says experimental error <3% in comparison of C72 and N72; no full uncertainty budget or replicate data.",
+      "Source discrepancies recorded separately."
+    ]
+  },
+  {
+    "id": "S100",
+    "doi": "10.1021/acs.iecr.5b03517",
+    "title": "Enhanced Dynamic CO2 Adsorption Capacity and CO2/CH4 Selectivity on Polyethylenimine-Impregnated UiO-66",
+    "authors": [
+      "Shikai Xian",
+      "Ying Wu",
+      "Junliang Wu",
+      "Xun Wang",
+      "Jing Xiao"
+    ],
+    "year": 2015,
+    "publisher_url": "https://pubs.acs.org/doi/10.1021/acs.iecr.5b03517",
+    "SI_url": "https://pstorage-acs-6854636.s3.amazonaws.com/3743113/ie5b03517_si_001.pdf",
+    "source_locator": "SI Fig. S5",
+    "accessed": "2026-11-17",
+    "extraction_method": "existing project digitisation, connector-fetched and checked byte-for-byte by Git blob SHA-1; not independently redigitised",
+    "upstream_commit": "66bae26af9970c3142b72d25031c844b5461708f",
+    "original_file_sha256": null,
+    "licence_as_stated": "Legacy project records SI CC BY-NC 4.0; verify publisher terms before redistribution. No PDF or image included.",
+    "primary_access": "SI parsed text obtained; full paper and rendered page unavailable in this preparation",
+    "limits": [
+      "Mass denominator and true retained PEI remain unresolved; labels are opaque sample identifiers.",
+      "Legacy coordinate verified status is not complete experimental verification.",
+      "Error columns are conservative digitisation halfwidths, not experimental standard uncertainties.",
+      "All these points were previously used in v1, so they cannot be a new external holdout."
+    ]
+  }
+]

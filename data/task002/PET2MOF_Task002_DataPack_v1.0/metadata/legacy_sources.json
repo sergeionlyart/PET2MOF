@@ -1,0 +1,37 @@
+[
+  {
+    "path": "data/legacy_original/C-S100-FigS5-UiO-66-CO2-298K.csv",
+    "git_blob_sha1": "3b24dbe157047b5d475f77cc26da355a50127f7c",
+    "sha256": "c4113c007933ee95f540b08c79d97eef29ceee9b3055799a7cf9de0662de6361",
+    "source_url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26/data/processed/c_series/C-S100-FigS5-UiO-66-CO2-298K.csv",
+    "source_commit": "66bae26af9970c3142b72d25031c844b5461708f"
+  },
+  {
+    "path": "data/legacy_original/C-S100-FigS5-10PEI-UiO-66-CO2-298K.csv",
+    "git_blob_sha1": "add0fd6821f34b152d46ebb5e0f5e15c1cfc1cba",
+    "sha256": "b1932951bac93b9671b3d2062647b6f17053dba3f1ce82dea1a19c446a2c59d7",
+    "source_url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26/data/processed/c_series/C-S100-FigS5-10PEI-UiO-66-CO2-298K.csv",
+    "source_commit": "66bae26af9970c3142b72d25031c844b5461708f"
+  },
+  {
+    "path": "data/legacy_original/C-S100-FigS5-20PEI-UiO-66-CO2-298K.csv",
+    "git_blob_sha1": "ffafc41bcbba5cb4464271590622f9984ce83484",
+    "sha256": "7ccdbe12c7d518bb9ae0f8b281e16fc669bc983c17b52d394875de81be6ab3e5",
+    "source_url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26/data/processed/c_series/C-S100-FigS5-20PEI-UiO-66-CO2-298K.csv",
+    "source_commit": "66bae26af9970c3142b72d25031c844b5461708f"
+  },
+  {
+    "path": "data/legacy_original/C-S100-FigS5-30PEI-UiO-66-CO2-298K.csv",
+    "git_blob_sha1": "c129cfc899bb00413162e525074b9d261f874e44",
+    "sha256": "aeb3c00f1b730aac783390e8f21dc7148084ce755a64ebda1d16d3b355498baa",
+    "source_url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26/data/processed/c_series/C-S100-FigS5-30PEI-UiO-66-CO2-298K.csv",
+    "source_commit": "66bae26af9970c3142b72d25031c844b5461708f"
+  },
+  {
+    "path": "data/legacy_original/C-S100-FigS5-40PEI-UiO-66-CO2-298K.csv",
+    "git_blob_sha1": "47970a17b18c936cea22778867fb16bd9eaf9447",
+    "sha256": "3226d1366af93d902953241122a5a0f8766dfac513edff2f9ebcd3ab6179a777",
+    "source_url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26/data/processed/c_series/C-S100-FigS5-40PEI-UiO-66-CO2-298K.csv",
+    "source_commit": "66bae26af9970c3142b72d25031c844b5461708f"
+  }
+]

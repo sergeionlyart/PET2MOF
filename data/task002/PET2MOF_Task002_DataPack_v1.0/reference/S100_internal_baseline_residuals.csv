@@ -1,0 +1,10 @@
+point_id,sample_label,p_bar,observed_q_reported,predicted_q_reported,residual,evidence
+10PEI-UiO-66-04,10PEI@UiO-66,0.338834951456,1.37953629032,1.351964995322012,-0.027571294997987827,retrospective_internal_interpolation_check_NOT_external_validation
+10PEI-UiO-66-05,10PEI@UiO-66,0.450485436893,1.5841733871,1.562482468442012,-0.021690918657988112,retrospective_internal_interpolation_check_NOT_external_validation
+20PEI-UiO-66-04,20PEI@UiO-66,0.340776699029,1.54889112903,1.5534201982645321,0.004529069234532113,retrospective_internal_interpolation_check_NOT_external_validation
+30PEI-UiO-66-04,30PEI@UiO-66,0.357281553398,2.09576612903,2.0298754982404716,-0.06589063078952817,retrospective_internal_interpolation_check_NOT_external_validation
+30PEI-UiO-66-05,30PEI@UiO-66,0.45145631068,2.33921370968,2.290487694663673,-0.04872601501632712,retrospective_internal_interpolation_check_NOT_external_validation
+40PEI-UiO-66-04,40PEI@UiO-66,0.341747572816,1.68649193548,1.659466346613164,-0.027025588866836037,retrospective_internal_interpolation_check_NOT_external_validation
+40PEI-UiO-66-05,40PEI@UiO-66,0.45145631068,1.78175403226,1.7611847862115821,-0.020569246048417922,retrospective_internal_interpolation_check_NOT_external_validation
+UiO-66-04,UiO-66,0.341747572816,0.889112903226,0.8640278295743355,-0.025085073651664458,retrospective_internal_interpolation_check_NOT_external_validation
+UiO-66-05,UiO-66,0.452427184466,1.11491935484,1.098848592206107,-0.016070762633892954,retrospective_internal_interpolation_check_NOT_external_validation

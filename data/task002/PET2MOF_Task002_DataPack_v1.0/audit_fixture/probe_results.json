@@ -1,0 +1,33 @@
+{
+  "source_commit": "66bae26af9970c3142b72d25031c844b5461708f",
+  "scope": "Exact published _number/evaluate excerpt; synthetic input; no full repository run",
+  "expected_pore_ratio_by_implemented_formula": 0.7000000000000001,
+  "observed": [
+    {
+      "case": "missing_RH_and_pressure",
+      "status": "blocked",
+      "reason": "unknown RH_fraction"
+    },
+    {
+      "case": "missing_pressure",
+      "status": "blocked",
+      "reason": "unknown p_partial_bar"
+    },
+    {
+      "case": "complete_pressure_0.01",
+      "status": "computed",
+      "value": 0.7000000000000001
+    },
+    {
+      "case": "complete_pressure_100",
+      "status": "computed",
+      "value": 0.7000000000000001
+    },
+    {
+      "case": "porosimetry_temperature_77K",
+      "status": "blocked",
+      "reason": "PEI temperature coefficient unknown"
+    }
+  ],
+  "conclusion": "Pore-ratio evaluation is unnecessarily gated by gas RH, partial pressure and PEI isotherm temperature; this does NOT establish empirical validity of the pore formula."
+}

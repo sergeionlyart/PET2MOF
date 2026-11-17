@@ -1,0 +1,6 @@
+{
+  "data_type": "synthetic_software_fixture_not_scientific_measurement",
+  "source_commit": "66bae26af9970c3142b72d25031c844b5461708f",
+  "purpose": "Reproduce unnecessarily required RH/pCO2/T for Vp_ratio operator; test real fix separately against current code.",
+  "running_this_fixture": "asserts historical bug exists; it is NOT a passing regression test of a fix"
+}

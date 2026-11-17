@@ -1,0 +1,38 @@
+[
+  {
+    "id": "D01",
+    "source": "S2",
+    "issue": "pressure: 1 bar in table vs 1 atm/atmospheric in text",
+    "resolution": "Keep alternatives [1,1.01325] bar. Same-study measured ranking needs no pressure extrapolation. Do not call an interval a CI."
+  },
+  {
+    "id": "D02",
+    "source": "S2",
+    "issue": "C96 PEI retained: Table 1 22.4%, conclusion 22.1%",
+    "resolution": "Preserve Table 1 value 22.4 in main CSV; record 22.1 separately as source discrepancy, not silently average."
+  },
+  {
+    "id": "D03",
+    "source": "S2",
+    "issue": "Mixture fraction: flow 10+60 mL/min =>14.2857%, some labels say 15%",
+    "resolution": "Secondary calculations only. Do not use as exact 0.15 bar pure-CO2 isotherm point."
+  },
+  {
+    "id": "D04",
+    "source": "S2",
+    "issue": "No per-sample measurement uncertainty / replicates",
+    "resolution": "Use explicit deterministic +/-3/5/10% design sensitivity, plus rounding. No p-values or probability statements."
+  },
+  {
+    "id": "D05",
+    "source": "S100",
+    "issue": "Mass basis and PEI loading definition unresolved",
+    "resolution": "Empirical shape benchmark and same-sample normalised ratios only; no claim of optimal actual wt% or absolute mass sizing."
+  },
+  {
+    "id": "D06",
+    "source": "S100",
+    "issue": "Parsed SI Table S1 parameter row for 30PEI not reliably consistent with legacy curve; original rendered table not inspected",
+    "resolution": "Author DSL coefficients NOT delivered as calibration data. Do not derive synthetic measured points from them."
+  }
+]

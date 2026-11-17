@@ -1,0 +1,8 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux",
+  "machine": "x86_64",
+  "dependencies_for_baseline": "Python standard library only",
+  "external_API_calls_in_tests": 0,
+  "GitHub_Actions_used": false
+}

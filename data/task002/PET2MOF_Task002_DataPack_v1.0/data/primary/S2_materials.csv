@@ -1,0 +1,7 @@
+sample_id,source_label,modification_method,PEI_feed_pct_of_initial_MOF,PEI_feed_pct_of_total_feed,mass_gain_pct_of_initial_MOF,N_elemental_wt_pct,PEI_content_author_calculated_wt_pct,BET_area_m2_g,pore_volume_cm3_g,mean_pore_size_nm,source_id,source_locator,PEI_Mw_g_mol,host,PET_derived
+S2-BASE,UiO-66-NH2,unmodified,0,0,0,5.0,0,987,0.51,2.05,S2,"Table 1, p.3189; PEI formula p.3190",600,UiO-66-NH2,not_reported
+S2-C48,PEI^C48@UiO,CO2_preabsorbed_PEI_GD_grafting,48,26,41,6.8,10.6,151,0.14,3.58,S2,"Table 1, p.3189; PEI formula p.3190",600,UiO-66-NH2,not_reported
+S2-C72,PEI^C72@UiO,CO2_preabsorbed_PEI_GD_grafting,72,34,64,9.0,19.4,12.0,0.076,25.4,S2,"Table 1, p.3189; PEI formula p.3190",600,UiO-66-NH2,not_reported
+S2-C96,PEI^C96@UiO,CO2_preabsorbed_PEI_GD_grafting,96,41,90,9.5,22.4,7.64,0.11,55.5,S2,"Table 1, p.3189; PEI formula p.3190",600,UiO-66-NH2,not_reported
+S2-N72,PEI72@UiO,PEI_GD_grafting_without_CO2_preabsorption,72,34,62,8.4,17.3,14.4,0.096,26.5,S2,"Table 1, p.3189; PEI formula p.3190",600,UiO-66-NH2,not_reported
+S2-I96,PEI96+UiO,impregnation_without_GD,96,49,89,16.0,43.4,1.4,0.0034,9.6,S2,"Table 1, p.3189; PEI formula p.3190",600,UiO-66-NH2,not_reported

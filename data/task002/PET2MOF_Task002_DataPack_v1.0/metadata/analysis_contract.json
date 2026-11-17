@@ -1,0 +1,47 @@
+{
+  "task_id": "PET-CO2-TASK-002",
+  "version": "1.0",
+  "prepared_date": "2026-11-17",
+  "primary_question": "Which measured dry PEI/UiO-66-NH2 samples justify priority for further research, and how robust are the differences?",
+  "source_commit": "66bae26af9970c3142b72d25031c844b5461708f",
+  "primary_dataset": "S2",
+  "primary_n_samples": 6,
+  "s100_accepted_points": 48,
+  "s100_excluded_points": 2,
+  "s100_role": "numerical benchmark and within-sample shape sensitivity; no absolute recipe selection",
+  "q_stress_halfwidth_relative": [
+    0.03,
+    0.05,
+    0.1
+  ],
+  "stress_interpretation": "design scenarios, not measured standard uncertainty or confidence intervals",
+  "rounding_q_halfwidth_mmol_g": 0.005,
+  "primary_materials": [
+    "UiO-66-NH2",
+    "PEI-modified UiO-66-NH2"
+  ],
+  "S100_probe_pressures_bar": [
+    0.15,
+    0.5,
+    0.85
+  ],
+  "S100_common_nominal_domain_bar": [
+    0.0631067961165,
+    0.896116504854
+  ],
+  "M_CO2_g_mol": 44.01,
+  "mass_conversion_interpretation": "one equilibrium loading from initially unloaded material; not cyclic working capacity",
+  "numerical_check_abs_tol": 1e-10,
+  "GitHub_Actions": false,
+  "new_API_keys_required": false,
+  "not_a_blind_holdout": true,
+  "hard_exclusions": [
+    "wet chemistry fitting",
+    "whole-cycle energy estimates",
+    "industrial readiness",
+    "continuous optimal PEI content",
+    "direct transfer to PET-derived UiO-66",
+    "pooled fit across S2 and S100",
+    "treating author fits or corrected mixture values as independent measurements"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "method": "Independent Decimal calculation m=1000/(44.01*q) on six output rows; tolerance 1e-10",
+  "passed": 6,
+  "total": 6,
+  "does_not_validate_measurement_quality": true
+}

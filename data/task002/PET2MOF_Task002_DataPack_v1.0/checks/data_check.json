@@ -1,0 +1,158 @@
+{
+  "scope": "file integrity, schema, units and explicit exclusions; NOT validation of physical model",
+  "counts": {
+    "S2_samples": 6,
+    "S2_dry_observations": 6,
+    "S2_secondary_records": 30,
+    "S100_benchmark_points": 48,
+    "S100_quarantined_points": 2
+  },
+  "passed": 36,
+  "total": 36,
+  "checks": [
+    {
+      "check": "S2_materials_6_unique",
+      "passed": true
+    },
+    {
+      "check": "S2_dry_exactly_one_per_sample",
+      "passed": true
+    },
+    {
+      "check": "S2_secondary_grain_30_unique",
+      "passed": true
+    },
+    {
+      "check": "S2_missing_heat_preserved",
+      "passed": true
+    },
+    {
+      "check": "S2_positive_dry_capacity",
+      "passed": true
+    },
+    {
+      "check": "S2_pressure_discrepancy_retained",
+      "passed": true
+    },
+    {
+      "check": "S2_PEI_not_feed_label",
+      "passed": true
+    },
+    {
+      "check": "S2_no_false_PET_provenance",
+      "passed": true
+    },
+    {
+      "check": "S2_wet_segregated",
+      "passed": true
+    },
+    {
+      "check": "S100_48_points_5_series",
+      "passed": true
+    },
+    {
+      "check": "S100_2_provisional_quarantined",
+      "passed": true
+    },
+    {
+      "check": "S100_unique_point_ids",
+      "passed": true
+    },
+    {
+      "check": "S100_unknown_mass_not_filled",
+      "passed": true
+    },
+    {
+      "check": "S100_error_not_missing_in_benchmark",
+      "passed": true
+    },
+    {
+      "check": "S100_gas_and_temperature",
+      "passed": true
+    },
+    {
+      "check": "S100_monotone_10PEI@UiO-66",
+      "passed": true
+    },
+    {
+      "check": "S100_probe_interior_10PEI@UiO-66",
+      "passed": true
+    },
+    {
+      "check": "S100_monotone_20PEI@UiO-66",
+      "passed": true
+    },
+    {
+      "check": "S100_probe_interior_20PEI@UiO-66",
+      "passed": true
+    },
+    {
+      "check": "S100_monotone_30PEI@UiO-66",
+      "passed": true
+    },
+    {
+      "check": "S100_probe_interior_30PEI@UiO-66",
+      "passed": true
+    },
+    {
+      "check": "S100_monotone_40PEI@UiO-66",
+      "passed": true
+    },
+    {
+      "check": "S100_probe_interior_40PEI@UiO-66",
+      "passed": true
+    },
+    {
+      "check": "S100_monotone_UiO-66",
+      "passed": true
+    },
+    {
+      "check": "S100_probe_interior_UiO-66",
+      "passed": true
+    },
+    {
+      "check": "Git_blob_C-S100-FigS5-UiO-66-CO2-298K",
+      "passed": true
+    },
+    {
+      "check": "Git_blob_C-S100-FigS5-10PEI-UiO-66-CO2-298K",
+      "passed": true
+    },
+    {
+      "check": "Git_blob_C-S100-FigS5-20PEI-UiO-66-CO2-298K",
+      "passed": true
+    },
+    {
+      "check": "Git_blob_C-S100-FigS5-30PEI-UiO-66-CO2-298K",
+      "passed": true
+    },
+    {
+      "check": "Git_blob_C-S100-FigS5-40PEI-UiO-66-CO2-298K",
+      "passed": true
+    },
+    {
+      "check": "split_exact_coverage",
+      "passed": true
+    },
+    {
+      "check": "split_no_false_external",
+      "passed": true
+    },
+    {
+      "check": "no_GitHub_Actions",
+      "passed": true
+    },
+    {
+      "check": "no_env_or_keys",
+      "passed": true
+    },
+    {
+      "check": "S2_transcription_crosscheck",
+      "passed": true
+    },
+    {
+      "check": "distributed_manifest_integrity",
+      "passed": true
+    }
+  ]
+}

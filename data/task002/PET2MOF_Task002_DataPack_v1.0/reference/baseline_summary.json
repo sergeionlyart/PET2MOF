@@ -1,0 +1,9 @@
+{
+  "S100_internal_points": 9,
+  "S100_internal_MAE_reported_units": 0.028573177766352747,
+  "reference_is_not_blind": true,
+  "reference_includes_no_physical_wet_model": true,
+  "S2_top_nominal": "S2-C72",
+  "S2_C72_vs_C96_gain_pct": 3.4920634920634797,
+  "warning": "Prepared baseline is a numerical reference, not the executor final research or independent empirical validation."
+}
