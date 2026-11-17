@@ -15,8 +15,8 @@
 
 ## Происхождение и границы
 
-Анализ: run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps`, статус **completed_analysis**,
-HEAD `31de0d4c2dbf8aae01eb0fe75664f191d6cb80a6`. Исходный продуктивный ансамбль:
+Анализ: run_id `20261117T024913232242Z-625a5999-T025-h1-maps`, статус **completed_analysis**,
+HEAD `625a59998e73e6b2df0a2d545c622f3028c89525`. Исходный продуктивный ансамбль:
 `20261117T020350339501Z-e6dc3bd5-T018-full`; тег `prereg-v1` — `e6dc3bd5550fb8d4092e2df6bd12afe9f7aaccfd`.
 Источник всех следующих чисел ветвей — `results/prereg-v1/ensemble/summary.json`,
 SHA-256 `2e13662aff2f270dcdea662fc4855fb0a8a4303c6c36e244583088879edcf5e8`; расчёт производных — `scripts/analysis/h1_maps.py`.
@@ -46,9 +46,10 @@ seeds [12001, 12002, 12003, 12004]. Это повторности MC, не эк�
 Это отказ применимости сравнения, не численный fail прогноза. S106 откалиброван,
 независимой V по воде нет. Подтверждение извлечения и известность условий разделены
 в T019v2/T023; оригинальные материалы заново не оцифровывались.
-Прочитаны `git show holdout/v1:reviews/T019v2_holdout_reverification.md` и
-`git show holdout/v1:reviews/T023_holdout_testability.md` при SHA
-`7f43d1de3fe884a315793d77936477b3d4e5f605`; их хеши в analysis.json.
+Прочитаны `reviews/T019v2_holdout_reverification.md` и
+`reviews/T023_holdout_testability.md` из рабочего дерева; их хеши в analysis.json.
+Закреплённый SHA holdout `7f43d1de3fe884a315793d77936477b3d4e5f605` взят из сообщения тега `prereg-v1`;
+локальная ветка holdout для воспроизведения не нужна.
 S2 — отдельный PEI@UiO-66-NH2 контроль переноса, не целевой PET-derived материал.
 
 **Контроль на C.** Данные S100, extraction_id `T006-S100-FigS5`, и
@@ -196,7 +197,7 @@ summary не содержит таких парных интервалов ра�
 ![Доли ветвей](branch_fractions.png)
 
 Рисунок: доли элементов дизайна с признаком хотя бы в одной ячейке; звёздочкой
-отмечена диагностика. run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis),
+отмечена диагностика. run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis),
 ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, extraction_id T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 Строки перекрываются, их нельзя суммировать как независимые выборки.
 
@@ -208,6 +209,10 @@ RH показана дискретными равномерно размещён
 координатой. Номинальные условия: T_ads=308.15 K, P_ads=1 bar, сухой z_CO2=0.05,
 t_ads=t_des=1800 s; R1: 383.15 K/1 bar, R2: 363.15 K/0.1 bar;
 y_CO2=y_H2O=0.001 для R1, 0.01 для R2 (входной газ регенерации).
+Ограничение D-08/D-17 (`docs/decisions.md`): цикл квазиравновесный;
+релаксация — условное сценарное допущение, интегратор потоков не реализован.
+Общий τ шести пулов бикарбонатной ветви — ограничение модели,
+а не установленная кинетика.
 Все сохранённые знаки квантилей оставлены, в том числе малые отрицательные
 численные значения около нуля; обрезки к нулю не выполнялось.
 
@@ -219,67 +224,67 @@ y_CO2=y_H2O=0.001 для R1, 0.01 для R2 (входной газ регене�
 
 ![stress/v1/composite/neutral/S105-full-carrier/UiO-66_100](map_01.png)
 
-map_01.png: `stress/v1/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_01.png: `stress/v1/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![stress/v1/ratio/neutral/S105-full-carrier/UiO-66_100](map_02.png)
 
-map_02.png: `stress/v1/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_02.png: `stress/v1/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![stress/v1.1-mof/composite/neutral/S105-full-carrier/UiO-66_100](map_03.png)
 
-map_03.png: `stress/v1.1-mof/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_03.png: `stress/v1.1-mof/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![stress/v1.1-mof/ratio/neutral/S105-full-carrier/UiO-66_100](map_04.png)
 
-map_04.png: `stress/v1.1-mof/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_04.png: `stress/v1.1-mof/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![stress/v1.1-connectivity/composite/neutral/S105-full-carrier/UiO-66_100](map_05.png)
 
-map_05.png: `stress/v1.1-connectivity/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_05.png: `stress/v1.1-connectivity/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![stress/v1.1-connectivity/ratio/neutral/S105-full-carrier/UiO-66_100](map_06.png)
 
-map_06.png: `stress/v1.1-connectivity/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_06.png: `stress/v1.1-connectivity/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![analog/v1/composite/neutral/S105-full-carrier/UiO-66_100](map_07.png)
 
-map_07.png: `analog/v1/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_07.png: `analog/v1/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![analog/v1/ratio/neutral/S105-full-carrier/UiO-66_100](map_08.png)
 
-map_08.png: `analog/v1/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_08.png: `analog/v1/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![analog/v1.1-mof/composite/neutral/S105-full-carrier/UiO-66_100](map_09.png)
 
-map_09.png: `analog/v1.1-mof/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_09.png: `analog/v1.1-mof/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![analog/v1.1-mof/ratio/neutral/S105-full-carrier/UiO-66_100](map_10.png)
 
-map_10.png: `analog/v1.1-mof/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_10.png: `analog/v1.1-mof/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![analog/v1.1-connectivity/composite/neutral/S105-full-carrier/UiO-66_100](map_11.png)
 
-map_11.png: `analog/v1.1-connectivity/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_11.png: `analog/v1.1-connectivity/composite/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![analog/v1.1-connectivity/ratio/neutral/S105-full-carrier/UiO-66_100](map_12.png)
 
-map_12.png: `analog/v1.1-connectivity/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_12.png: `analog/v1.1-connectivity/ratio/neutral/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![stress/v1.1-connectivity/ratio/availability/S105-full-carrier/UiO-66_100](map_13.png)
 
-map_13.png: `stress/v1.1-connectivity/ratio/availability/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_13.png: `stress/v1.1-connectivity/ratio/availability/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![stress/v1.1-connectivity/ratio/bicarbonate/S105-full-carrier/UiO-66_100](map_14.png)
 
-map_14.png: `stress/v1.1-connectivity/ratio/bicarbonate/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_14.png: `stress/v1.1-connectivity/ratio/bicarbonate/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![stress/v1.1-connectivity/ratio/suppression/S105-full-carrier/UiO-66_100](map_15.png)
 
-map_15.png: `stress/v1.1-connectivity/ratio/suppression/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_15.png: `stress/v1.1-connectivity/ratio/suppression/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ![stress/v1.1-connectivity/ratio/affinity/S105-full-carrier/UiO-66_100](map_16.png)
 
-map_16.png: `stress/v1.1-connectivity/ratio/affinity/S105-full-carrier/UiO-66_100`; run_id `20261117T024034653291Z-31de0d4c-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
+map_16.png: `stress/v1.1-connectivity/ratio/affinity/S105-full-carrier/UiO-66_100`; run_id `20261117T024913232242Z-625a5999-T025-h1-maps` (completed_analysis); ансамбль `20261117T020350339501Z-e6dc3bd5-T018-full`, наборы/extraction_id: T006-S100-FigS5, T011-S105-Fig8A, T011-S105-Fig8B, T011-S105-Fig8C, T011-S105-Fig9, T011-S106-Fig4.
 
 ## Приоритеты следующей проверки
 
@@ -355,6 +360,8 @@ uv run --locked --no-sync python scripts/run.py \
   --input docs/prereg_status.md \
   --input reviews/T013_implementation_report.md \
   --input reviews/T015_revision_report.md \
+  --input reviews/T019v2_holdout_reverification.md \
+  --input reviews/T023_holdout_testability.md \
   --output reports/T025/artifacts.sha256 \
   --output reports/T025/analysis.json \
   --output reports/T025/branches.json --output reports/T025/cells.csv \

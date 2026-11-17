@@ -1,0 +1,118 @@
+{
+  "run_id": "20261117T024913232242Z-625a5999-T025-h1-maps",
+  "purpose": "T025 frozen branch maps and H1 analysis",
+  "hypothesis": "H1 H1a A1 A2 A3 A4",
+  "commit_sha": "625a59998e73e6b2df0a2d545c622f3028c89525",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [
+    {
+      "path": "scripts/analysis/h1_maps.py",
+      "sha256": "5a709fb0cb1ae22b3302954390cc935ba351622c4f77d3b2b45d32ba98c70fe3"
+    },
+    {
+      "path": "results/prereg-v1/ensemble/summary.json",
+      "sha256": "2e13662aff2f270dcdea662fc4855fb0a8a4303c6c36e244583088879edcf5e8"
+    },
+    {
+      "path": "results/prereg-v1/validation/validation.json",
+      "sha256": "34157afb04e6b2fde4fb8c13d5625a7a075ebc35cefd6b89d94544577bec4507"
+    },
+    {
+      "path": "reports/T015/demo.json",
+      "sha256": "97d77b70bb10f64f8cdbe1a3ea8ee637caa2406b1ffe949968750c2ae89402b1"
+    },
+    {
+      "path": "docs/hypotheses.md",
+      "sha256": "54f8e5b34085a0dcb3d13b329a83a68dbab14074cee83c93af99ec9ff5fdc35f"
+    },
+    {
+      "path": "docs/decisions.md",
+      "sha256": "5a442fa2dfac19ca5eb444dad73e2b8e9f03b487b0380d8e0b24ab7495735c05"
+    },
+    {
+      "path": "docs/validation_protocol.md",
+      "sha256": "10596c11b382722062f252b34f160b78d1c50970bb0720e3d7bd57945129b46c"
+    },
+    {
+      "path": "docs/work_order_v1.1_RU.md",
+      "sha256": "c9d1d6b60d44fa084cb62bd2d06dbc4d32312032d7f796f9a81321abcbedb88e"
+    },
+    {
+      "path": "docs/prereg_status.md",
+      "sha256": "7b274849483c846cd645c73f313704d167638fbb95f76575263dd3465bd37ddd"
+    },
+    {
+      "path": "reviews/T013_implementation_report.md",
+      "sha256": "4ff816a982d35c19530145f7a2a89633201344688ae4f04384fa4f1a968d4a6e"
+    },
+    {
+      "path": "reviews/T015_revision_report.md",
+      "sha256": "1e85664ae9a67e26bc9e7fdf3ad898c69a3c37645603361acd83b32136abd22d"
+    },
+    {
+      "path": "reviews/T019v2_holdout_reverification.md",
+      "sha256": "804007c9f086af9c82de828fcf2babc0f9dfe5328e9defaba61ec4f0e3bb0b2a"
+    },
+    {
+      "path": "reviews/T023_holdout_testability.md",
+      "sha256": "9aa8f17e84d8c639019f14d6b164ea5a1520aaa581cf86e9821ead73a8c928e2"
+    }
+  ],
+  "parameters": {},
+  "seed": null,
+  "command": [
+    ".venv/bin/python",
+    "scripts/analysis/h1_maps.py",
+    "--run-id",
+    "20261117T024913232242Z-625a5999-T025-h1-maps"
+  ],
+  "started_utc": "2026-11-17T02:49:13.232242+00:00",
+  "finished_utc": "2026-11-17T02:49:18.527098+00:00",
+  "status": "completed",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 5.267856499995105,
+    "child_user_seconds": 4.5292259999999995,
+    "child_system_seconds": 0.306961,
+    "child_maxrss": 249462784,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [
+    {
+      "path": "reports/T025/artifacts.sha256",
+      "sha256": "4301f3fafb7e91f6d573e1ac35ae423fc1bc374e04d940cec58b33a61597152e"
+    },
+    {
+      "path": "reports/T025/analysis.json",
+      "sha256": "10efa6fe4e889f033eeac30275e7e01bc075da28c2953c120d6661fb886ba150"
+    },
+    {
+      "path": "reports/T025/branches.json",
+      "sha256": "8a1cff238d5c007650528bbab826d273cb0b19326592d50e8aa08312af4184de"
+    },
+    {
+      "path": "reports/T025/cells.csv",
+      "sha256": "65aca00c3b71dad061dabf9735c1cd58d68dc98af0b82e55ee307138dfbdb8ff"
+    },
+    {
+      "path": "reports/T025/h1_analysis.md",
+      "sha256": "c9fb4f249dc6ddfc3a85e2443d38824b159ede2b71c8c3e8f7ec06ca53c55dfb"
+    }
+  ],
+  "checks": [],
+  "limitations": [],
+  "execution_status": "completed"
+}

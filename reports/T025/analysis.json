@@ -1,7 +1,7 @@
 {
-  "run_id": "20261117T024034653291Z-31de0d4c-T025-h1-maps",
+  "run_id": "20261117T024913232242Z-625a5999-T025-h1-maps",
   "status": "completed_analysis",
-  "head": "31de0d4c2dbf8aae01eb0fe75664f191d6cb80a6",
+  "head": "625a59998e73e6b2df0a2d545c622f3028c89525",
   "source_run_id": "20261117T020350339501Z-e6dc3bd5-T018-full",
   "prereg_sha": "e6dc3bd5550fb8d4092e2df6bd12afe9f7aaccfd",
   "holdout_sha": "7f43d1de3fe884a315793d77936477b3d4e5f605",
@@ -9,7 +9,7 @@
     "results/prereg-v1/ensemble/summary.json": "2e13662aff2f270dcdea662fc4855fb0a8a4303c6c36e244583088879edcf5e8",
     "results/prereg-v1/validation/validation.json": "34157afb04e6b2fde4fb8c13d5625a7a075ebc35cefd6b89d94544577bec4507",
     "reports/T015/demo.json": "97d77b70bb10f64f8cdbe1a3ea8ee637caa2406b1ffe949968750c2ae89402b1",
-    "scripts/analysis/h1_maps.py": "2bb44891949862581c745463efafd549a2a167189a5621b7ebaeacff5a0780ae",
+    "scripts/analysis/h1_maps.py": "5a709fb0cb1ae22b3302954390cc935ba351622c4f77d3b2b45d32ba98c70fe3",
     "docs/hypotheses.md": "54f8e5b34085a0dcb3d13b329a83a68dbab14074cee83c93af99ec9ff5fdc35f",
     "docs/decisions.md": "5a442fa2dfac19ca5eb444dad73e2b8e9f03b487b0380d8e0b24ab7495735c05",
     "docs/validation_protocol.md": "10596c11b382722062f252b34f160b78d1c50970bb0720e3d7bd57945129b46c",
@@ -17,8 +17,8 @@
     "docs/prereg_status.md": "7b274849483c846cd645c73f313704d167638fbb95f76575263dd3465bd37ddd",
     "reviews/T013_implementation_report.md": "4ff816a982d35c19530145f7a2a89633201344688ae4f04384fa4f1a968d4a6e",
     "reviews/T015_revision_report.md": "1e85664ae9a67e26bc9e7fdf3ad898c69a3c37645603361acd83b32136abd22d",
-    "7f43d1de3fe884a315793d77936477b3d4e5f605:reviews/T019v2_holdout_reverification.md": "804007c9f086af9c82de828fcf2babc0f9dfe5328e9defaba61ec4f0e3bb0b2a",
-    "7f43d1de3fe884a315793d77936477b3d4e5f605:reviews/T023_holdout_testability.md": "9aa8f17e84d8c639019f14d6b164ea5a1520aaa581cf86e9821ead73a8c928e2"
+    "reviews/T019v2_holdout_reverification.md": "804007c9f086af9c82de828fcf2babc0f9dfe5328e9defaba61ec4f0e3bb0b2a",
+    "reviews/T023_holdout_testability.md": "9aa8f17e84d8c639019f14d6b164ea5a1520aaa581cf86e9821ead73a8c928e2"
   },
   "extraction_ids": [
     "T006-S100-FigS5",
