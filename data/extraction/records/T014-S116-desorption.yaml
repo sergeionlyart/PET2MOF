@@ -10,21 +10,22 @@ figure_or_table: Section 3.1, p.5, text immediately above Fig.7
 region:
   render: private/T014/S116-p5.png
   render_sha256: 1ef0b5dc3fdbb0bf362d13c51f4611a684ae45319a762b6bbdfa5bb3e600f966
-  visual_check: T014 author checked; independent review pending
+  visual_check: T014 author checked; T014v independently reviewed
 tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
 tool_version: PyMuPDF 1.28.2; T014-v1
 params:
   input_ref: private/T014/S116.pdf
   output_ref: data/extraction/T014/T014-S116-desorption.json
   page_note: PDF index is one-based, including repository cover page when present.
+  review_report: reviews/T014v_ranges_verification.md
   interpretation: No plot coordinates inferred; printed numbers only.
 date: '2026-11-16T23:59:48.788477+00:00'
 raw_response_ref: private/T014/S116.pdf
 unit_conversions:
 - operation: minutes * 60 = seconds; tau_f = -t_f / ln(1-f); min/max over both threshold fractions and flows
-derived_sha256: f09c16bceef985cbf9d78ed904d120529c5ffe707ce24c57c516aa0fa6a23167
-status: provisional
-reviewer: null
+derived_sha256: f788281770611e33b4f00db50155e36c33f1cc682a08e1d3eb2cba6533e15dbd
+status: verified
+reviewer: T014v
 corrections: []
 error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
   interval.

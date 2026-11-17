@@ -14,14 +14,15 @@ params:
   input_ref: data/extraction/T014/design_basis.json
   output_ref: data/extraction/T014/T014-DESIGN.json
   page_note: 'Schema requires a page: 1 means the logical design manifest, not a PDF or literature page.'
+  review_report: reviews/T014v_ranges_verification.md
   interpretation: No plot coordinates inferred; printed numbers only.
   not_a_measurement: true
 date: '2026-11-16T23:59:48.788477+00:00'
 raw_response_ref: data/extraction/T014/design_basis.json
 unit_conversions: []
-derived_sha256: 2b391bd2069e46f66b4ff07598def8bfdcfedb10920ebb4f3ffba939ac793862
-status: provisional
-reviewer: null
+derived_sha256: cbb40537b8f67aa35aeab61a4f339993dd49ef45d0ad4ef0c84ca1ad397a0465
+status: verified
+reviewer: T014v
 corrections: []
 error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
   interval.

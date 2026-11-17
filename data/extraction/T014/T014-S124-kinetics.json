@@ -22,7 +22,7 @@
       "type": "literature_range",
       "source_id": "S124",
       "extraction_id": "T014-S124-kinetics",
-      "status": "provisional",
+      "status": "verified",
       "evidence_kind": "author_exponential_heat_signal_fit",
       "transfer_class": "analog",
       "conditions": {
@@ -35,7 +35,9 @@
       },
       "locator": "Table 3, p.10; Eq.(2), p.4",
       "limitations": "MSG20I30 only; maximum across gas doses, no lower endpoint reported. Eq.(2) prints log without specifying its base. The reported parameter is not established as the natural-exponential mass-uptake tau of M1.",
-      "evidence_ref": "data/extraction/T014/T014-S124-kinetics.json#/quantities/tau_heat_max"
+      "evidence_ref": "data/extraction/T014/T014-S124-kinetics.json#/quantities/tau_heat_max",
+      "reviewer": "T014v",
+      "review_report": "reviews/T014v_ranges_verification.md"
     }
   }
 }

@@ -10,20 +10,21 @@ figure_or_table: Table 1, p.4; 25 °C rows only
 region:
   render: private/T014/S110-p4.png
   render_sha256: a02d9173c25c8d61d0b9e6d00340a361696cbc977fd5c75c1a56f3b59631048d
-  visual_check: T014 author checked; independent review pending
+  visual_check: T014 author checked; T014v independently reviewed
 tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
 tool_version: PyMuPDF 1.28.2; T014-v1
 params:
   input_ref: private/T014/S110.pdf
   output_ref: data/extraction/T014/T014-S110-humidity.json
   page_note: PDF index is one-based, including repository cover page when present.
+  review_report: reviews/T014v_ranges_verification.md
   interpretation: No plot coordinates inferred; printed numbers only.
 date: '2026-11-16T23:59:48.788477+00:00'
 raw_response_ref: private/T014/S110.pdf
 unit_conversions: []
-derived_sha256: 36502f96beb57b37d59d87cb9176d89546ffc12f706388be1d795c884c714315
-status: provisional
-reviewer: null
+derived_sha256: 9193ef4075de6fa619c04693ae86d9fdb3d35d9a7ddba788779052394359fb7e
+status: verified
+reviewer: T014v
 corrections: []
 error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
   interval.

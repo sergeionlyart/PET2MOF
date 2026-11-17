@@ -10,13 +10,14 @@ figure_or_table: p.9 text above Fig.5; Table 7 p.13 is a separate representative
 region:
   render: private/T014/S124-p9.png
   render_sha256: b63b68748ab750a79e54f14736a712a94ecbfe96cdd1e4b82ba27d07bdde6139
-  visual_check: T014 author checked; independent review pending
+  visual_check: T014 author checked; T014v independently reviewed
 tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
 tool_version: PyMuPDF 1.28.2; T014-v1
 params:
   input_ref: private/T014/S124.pdf
   output_ref: data/extraction/T014/T014-S124-heat.json
   page_note: PDF index is one-based, including repository cover page when present.
+  review_report: reviews/T014v_ranges_verification.md
   interpretation: No plot coordinates inferred; printed numbers only.
   additional_render: private/T014/S124-p13.png
   additional_render_sha256: b61ed8fbcd73d39e1c570890f11bc9c1e8127964b23b9ddba75cbb7201619c97
@@ -24,9 +25,9 @@ date: '2026-11-16T23:59:48.788477+00:00'
 raw_response_ref: private/T014/S124.pdf
 unit_conversions:
 - operation: kJ/mol * 1000 = J/mol, positive magnitude
-derived_sha256: fc6fce111385cf334117cf3ea70f2243954e80c134e82d1c74d2cc48eb76beb7
-status: provisional
-reviewer: null
+derived_sha256: c3ca6302b439f90be90de000c0958c855b996ee4cdc39b6483e84027456fedc2
+status: verified
+reviewer: T014v
 corrections: []
 error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
   interval.
