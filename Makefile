@@ -50,3 +50,8 @@ task003-reproduce:
 		--output reports/task003/transfer_kstar.csv --output reports/task003/transfer_kstar_summary.csv \
 		--output reports/task003/uncertainty_vertices.csv --output reports/task003/summary.json \
 		$(TASK003_RUN_ARGS) -- .venv/bin/python scripts/task003/run_balance.py --run-id '{run_id}'
+.PHONY: report-task003
+report-task003:
+	UV_CACHE_DIR=$(CURDIR)/.uv-cache uv run --locked --no-sync python scripts/build_final_report.py --input task003/final_report.md --output task003/final_report.pdf
+	UV_CACHE_DIR=$(CURDIR)/.uv-cache uv run --locked --no-sync python scripts/build_final_report.py --input task003/decision_brief.md --output task003/decision_brief.pdf
+	UV_CACHE_DIR=$(CURDIR)/.uv-cache uv run --locked --no-sync python scripts/build_final_report.py --input task003/next_experiment.md --output task003/next_experiment.pdf
