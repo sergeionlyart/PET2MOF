@@ -1,0 +1,659 @@
+{
+  "checks": [
+    {
+      "name": "S2 S2-BASE PEI_feed_pct_of_initial_MOF",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-BASE PEI_feed_pct_of_total_feed",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-BASE mass_gain_pct_of_initial_MOF",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-BASE N_elemental_wt_pct",
+      "actual": "5.0",
+      "expected": "5.0",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-BASE PEI_content_author_calculated_wt_pct",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C48 PEI_feed_pct_of_initial_MOF",
+      "actual": "48",
+      "expected": "48",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C48 PEI_feed_pct_of_total_feed",
+      "actual": "26",
+      "expected": "26",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C48 mass_gain_pct_of_initial_MOF",
+      "actual": "41",
+      "expected": "41",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C48 N_elemental_wt_pct",
+      "actual": "6.8",
+      "expected": "6.8",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C48 PEI_content_author_calculated_wt_pct",
+      "actual": "10.6",
+      "expected": "10.6",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C72 PEI_feed_pct_of_initial_MOF",
+      "actual": "72",
+      "expected": "72",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C72 PEI_feed_pct_of_total_feed",
+      "actual": "34",
+      "expected": "34",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C72 mass_gain_pct_of_initial_MOF",
+      "actual": "64",
+      "expected": "64",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C72 N_elemental_wt_pct",
+      "actual": "9.0",
+      "expected": "9.0",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C72 PEI_content_author_calculated_wt_pct",
+      "actual": "19.4",
+      "expected": "19.4",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C96 PEI_feed_pct_of_initial_MOF",
+      "actual": "96",
+      "expected": "96",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C96 PEI_feed_pct_of_total_feed",
+      "actual": "41",
+      "expected": "41",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C96 mass_gain_pct_of_initial_MOF",
+      "actual": "90",
+      "expected": "90",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C96 N_elemental_wt_pct",
+      "actual": "9.5",
+      "expected": "9.5",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-C96 PEI_content_author_calculated_wt_pct",
+      "actual": "22.4",
+      "expected": "22.4",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-N72 PEI_feed_pct_of_initial_MOF",
+      "actual": "72",
+      "expected": "72",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-N72 PEI_feed_pct_of_total_feed",
+      "actual": "34",
+      "expected": "34",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-N72 mass_gain_pct_of_initial_MOF",
+      "actual": "62",
+      "expected": "62",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-N72 N_elemental_wt_pct",
+      "actual": "8.4",
+      "expected": "8.4",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-N72 PEI_content_author_calculated_wt_pct",
+      "actual": "17.3",
+      "expected": "17.3",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-I96 PEI_feed_pct_of_initial_MOF",
+      "actual": "96",
+      "expected": "96",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-I96 PEI_feed_pct_of_total_feed",
+      "actual": "49",
+      "expected": "49",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-I96 mass_gain_pct_of_initial_MOF",
+      "actual": "89",
+      "expected": "89",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-I96 N_elemental_wt_pct",
+      "actual": "16.0",
+      "expected": "16.0",
+      "passed": true
+    },
+    {
+      "name": "S2 S2-I96 PEI_content_author_calculated_wt_pct",
+      "actual": "43.4",
+      "expected": "43.4",
+      "passed": true
+    },
+    {
+      "name": "S2 dry S2-BASE",
+      "actual": "2.67",
+      "expected": "2.67",
+      "passed": true
+    },
+    {
+      "name": "S2 dry S2-C48",
+      "actual": "2.75",
+      "expected": "2.75",
+      "passed": true
+    },
+    {
+      "name": "S2 dry S2-C72",
+      "actual": "3.26",
+      "expected": "3.26",
+      "passed": true
+    },
+    {
+      "name": "S2 dry S2-N72",
+      "actual": "2.99",
+      "expected": "2.99",
+      "passed": true
+    },
+    {
+      "name": "S2 dry S2-C96",
+      "actual": "3.15",
+      "expected": "3.15",
+      "passed": true
+    },
+    {
+      "name": "S2 dry S2-I96",
+      "actual": "1.87",
+      "expected": "1.87",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S1 #1 PET mass",
+      "actual": "2.11",
+      "expected": "2.11",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S1 #1 BDC yield",
+      "actual": "1.77",
+      "expected": "1.77",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S1 #2 PET mass",
+      "actual": "2.05",
+      "expected": "2.05",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S1 #2 BDC yield",
+      "actual": "1.66",
+      "expected": "1.66",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S1 #3 PET mass",
+      "actual": "1.97",
+      "expected": "1.97",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S1 #3 BDC yield",
+      "actual": "1.64",
+      "expected": "1.64",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S2 PET-UiO-66",
+      "actual": "78",
+      "expected": "78",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S2 PET-UiO-66-NH2-25%",
+      "actual": "73",
+      "expected": "73",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S2 PET-UiO-66-NH2-50%",
+      "actual": "71",
+      "expected": "71",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S2 PET-UiO-66-NH2-75%",
+      "actual": "74",
+      "expected": "74",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S2 PET-UiO-66-NH2-100%",
+      "actual": "75",
+      "expected": "75",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S3 PET-UiO-66",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S3 PET-UiO-66-NH2-25%",
+      "actual": "34",
+      "expected": "34",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S3 PET-UiO-66-NH2-50%",
+      "actual": "54",
+      "expected": "54",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S3 PET-UiO-66-NH2-75%",
+      "actual": "80",
+      "expected": "80",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S3 PET-UiO-66-NH2-100%",
+      "actual": "100",
+      "expected": "100",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S4 PET-UiO-66",
+      "actual": "0.51",
+      "expected": "0.51",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S4 PET-UiO-66-NH2-25%",
+      "actual": "0.93",
+      "expected": "0.93",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S4 PET-UiO-66-NH2-50%",
+      "actual": "1.36",
+      "expected": "1.36",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S4 PET-UiO-66-NH2-75%",
+      "actual": "1.29",
+      "expected": "1.29",
+      "passed": true
+    },
+    {
+      "name": "SRC06 S4 PET-UiO-66-NH2-100%",
+      "actual": "0.43",
+      "expected": "0.43",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1PET BET area",
+      "actual": "874.6",
+      "expected": "874.6",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1PET Langmuir area",
+      "actual": "1029.4",
+      "expected": "1029.4",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1PET t-plot micropore area",
+      "actual": "792.9",
+      "expected": "792.9",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1PET t-plot micropore volume",
+      "actual": "0.30",
+      "expected": "0.30",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1PET cumulative BJH adsorption volume",
+      "actual": "0.08",
+      "expected": "0.08",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1PET total pore volume",
+      "actual": "0.37",
+      "expected": "0.37",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1PET HK pore size",
+      "actual": "0.51",
+      "expected": "0.51",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1BDC BET area",
+      "actual": "873.9",
+      "expected": "873.9",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1BDC Langmuir area",
+      "actual": "998.2",
+      "expected": "998.2",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1BDC t-plot micropore area",
+      "actual": "774.0",
+      "expected": "774.0",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1BDC t-plot micropore volume",
+      "actual": "0.30",
+      "expected": "0.30",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1BDC cumulative BJH adsorption volume",
+      "actual": "0.05",
+      "expected": "0.05",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1BDC total pore volume",
+      "actual": "0.36",
+      "expected": "0.36",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:1BDC HK pore size",
+      "actual": "0.49",
+      "expected": "0.49",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2PET BET area",
+      "actual": "664.2",
+      "expected": "664.2",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2PET Langmuir area",
+      "actual": "784.2",
+      "expected": "784.2",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2PET t-plot micropore area",
+      "actual": "600.7",
+      "expected": "600.7",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2PET t-plot micropore volume",
+      "actual": "0.23",
+      "expected": "0.23",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2PET cumulative BJH adsorption volume",
+      "actual": "0.07",
+      "expected": "0.07",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2PET total pore volume",
+      "actual": "0.27",
+      "expected": "0.27",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2PET HK pore size",
+      "actual": "0.48",
+      "expected": "0.48",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2BDC BET area",
+      "actual": "851.2",
+      "expected": "851.2",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2BDC Langmuir area",
+      "actual": "991.2",
+      "expected": "991.2",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2BDC t-plot micropore area",
+      "actual": "790.8",
+      "expected": "790.8",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2BDC t-plot micropore volume",
+      "actual": "0.31",
+      "expected": "0.31",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2BDC cumulative BJH adsorption volume",
+      "actual": "0.08",
+      "expected": "0.08",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2BDC total pore volume",
+      "actual": "0.35",
+      "expected": "0.35",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 1Zr:2BDC HK pore size",
+      "actual": "0.46",
+      "expected": "0.46",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1PET BET area",
+      "actual": "545.9",
+      "expected": "545.9",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1PET Langmuir area",
+      "actual": "659.5",
+      "expected": "659.5",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1PET t-plot micropore area",
+      "actual": "498.5",
+      "expected": "498.5",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1PET t-plot micropore volume",
+      "actual": "0.19",
+      "expected": "0.19",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1PET cumulative BJH adsorption volume",
+      "actual": "0.07",
+      "expected": "0.07",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1PET total pore volume",
+      "actual": "0.23",
+      "expected": "0.23",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1PET HK pore size",
+      "actual": "0.45",
+      "expected": "0.45",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1BDC BET area",
+      "actual": "523.6",
+      "expected": "523.6",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1BDC Langmuir area",
+      "actual": "634.9",
+      "expected": "634.9",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1BDC t-plot micropore area",
+      "actual": "489.4",
+      "expected": "489.4",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1BDC t-plot micropore volume",
+      "actual": "0.19",
+      "expected": "0.19",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1BDC cumulative BJH adsorption volume",
+      "actual": "0.08",
+      "expected": "0.08",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1BDC total pore volume",
+      "actual": "0.23",
+      "expected": "0.23",
+      "passed": true
+    },
+    {
+      "name": "SRC03 S2 2Zr:1BDC HK pore size",
+      "actual": "0.43",
+      "expected": "0.43",
+      "passed": true
+    }
+  ],
+  "failures": 0,
+  "arithmetic": {
+    "SRC03_linkers_per_Zr6": 4.392804518664047,
+    "SRC06_f50": 0.5406698564593301,
+    "SRC06_f75": 0.8023255813953488,
+    "SRC06_BDC_recovery_mass_ratios": [
+      0.8388625592417063,
+      0.8097560975609757,
+      0.83248730964467
+    ],
+    "S2_primary_fraction_conditional": 0.3890577507598785,
+    "lower_ceiling_conditional": 0.19452887537993924,
+    "HP20_apparent_eta": 0.3747003
+  },
+  "source_xml_identity": [
+    {
+      "file": "reviews/T044_checks/source_downloads/HP20.xml",
+      "title": "Benchmarking selective capture of trace CO2 from C2H2 using an amine-functionalized adsorbent",
+      "dois": [
+        "10.1038/s41467-025-57972-7"
+      ]
+    },
+    {
+      "file": "reviews/T044_checks/source_downloads/stoichiometry.xml",
+      "title": "In Situ Polymerization\nElectrospinning of Amine–Epoxy/Poly(vinyl\nalcohol) Nanofiber Webs for Direct CO2 Capture from the\nAir",
+      "dois": [
+        "10.1021/acsomega.4c07631"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "data/raw/html/S2.xml",
+      "sha256": "0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574"
+    },
+    {
+      "path": "data/raw/html/S100_SI.text.txt",
+      "sha256": "a2cf79094ddbff157779902dd1db6345d39caa617c874fcdd84a7ec66afbbbfa"
+    },
+    {
+      "path": "data/raw/task003/si_S1385894723040809_mmc1.docx",
+      "sha256": "8c3524f7d1b71ed501215520ee323d80a2768f4fac373a54a0a73343b0577a8a"
+    },
+    {
+      "path": "data/raw/task003/si_S0926337326013524_mmc1.docx",
+      "sha256": "8f3b77784be3388dcdac458bd440e3b9bfb33c75328fbabec472d80aac375936"
+    },
+    {
+      "path": "reviews/T044_checks/source_downloads/HP20.xml",
+      "sha256": "d490bccc41ca235d10526c2afc1b0f5f4473f2d6ca94c09441bb53db4b876118"
+    },
+    {
+      "path": "reviews/T044_checks/source_downloads/stoichiometry.xml",
+      "sha256": "11184fa12859e8b6a83026a0b53f41657f7459a8ba538bf2cbb15ec3c4eeef11"
+    },
+    {
+      "path": "reviews/T044_checks/source_downloads/S100_SI.pdf",
+      "sha256": "241d7261ba3289845fb9f109cb6b4d972c2996a8b51ba18214d144b36b3fc7f3"
+    }
+  ],
+  "render_limitation": "Original DOCX to PDF conversion failed (LibreOffice exit 1); tables rendered from original XML cells, not original pagination."
+}

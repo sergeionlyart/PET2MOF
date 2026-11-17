@@ -59,3 +59,10 @@ data/raw/nist_isodb/docs/*.html
 
 # TASK-003 raw downloads (rights per source; not redistributed)
 data/raw/task003/
+
+# T044 review caches (local sources and renders; not redistributed)
+reviews/T044_checks/source_downloads/
+reviews/T044_checks/rendered/
+reviews/T044_checks/lo_profile/
+reviews/T044_checks/uv-cache/
+reviews/T044_checks/pytest_tmp/

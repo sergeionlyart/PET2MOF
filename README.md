@@ -22,8 +22,8 @@
 ([PDF](reports/task003/final_report.pdf)), [следующий опыт](reports/task003/next_experiment.md),
 [совместимость маршрутов](reports/task003/route_compatibility.md), [ревью](reports/task003/review.md),
 [вклад агентов](reports/task003/agent_contributions.md). Приоритет — прямое импрегнирование PEI (R1, протокол аналога
-«30PEI»), резерв — смешанный линкер PET-BDC/NH₂-BDC + PEI через GA (R2); порог переноса k* = 1.06–1.52 (R1) и 1.110 (R2),
-устойчиво по всем ветвям — k ≤ 0.95. Сухой чистый CO₂, ≈298 K; влага, цикл, смесь не оценивались. Команды:
+«30PEI»), резерв — смешанный линкер PET-BDC/NH₂-BDC + PEI через GA (R2); порог переноса k* = 1.06–1.52 (R1) и 1.110 (R2)
+при явной совместной гипотезе переноса; её проверяет один парный опыт. Сухой чистый CO₂, ≈298 K; влага, цикл, смесь не оценивались. Команды:
 `make task003-test`, `make task003-reproduce`, `make report-task003`.
 
 ## Локальное воспроизведение
@@ -85,9 +85,11 @@ source gives the CO₂ capacity of PET-derived UiO-66, so every boundary is cond
 A minimal mass balance (MOF + PEI + residue, η = mol CO₂ per mol PEI N, φ = retained host capacity) was applied to the
 S2 (PEI@UiO-66-NH₂) and S100 (PEI@UiO-66) analogs under all unresolved composition and mass-basis readings, and
 recomputed independently with exact arithmetic (124 checks, 0 discrepancies). Under the selection rule fixed before the
-calculation, direct PEI impregnation (R1, following the S100 "30PEI" protocol) is preferred, with a mixed
+calculation, direct PEI impregnation (R1, nominal loading as the S100 "30PEI" analog) is preferred, with a mixed
 PET-BDC/NH₂-BDC linker plus glutaraldehyde-anchored PEI (R2) as reserve; the S2 anchoring scheme itself is not applicable
 to NH₂-free PET-UiO-66. A ≥ 10 % gain over the own PET host is retained for any pore blocking if k ≤ 1.06–1.52 (R1,
-by S100 basis reading) or k ≤ 1.110 (R2 analog C72); robustly across all readings only if k ≤ 0.95. The S2 mass balance
+by S100 basis reading) or k ≤ 1.110 (R2 analog C72), assuming the absolute PEI contribution, composition and retained
+host capacity transfer unchanged; a paired experiment (PET and commercial UiO-66, each with and without the same PEI)
+tests this joint assumption with an interval prediction. The S2 mass balance
 does not close (18.5–25 % of composite mass is neither MOF nor PEI). This is a conditional map, not a validated
 prediction; humidity, cycling, gas mixtures and synthesizability are not assessed. See `reports/task003/`.
