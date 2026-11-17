@@ -2,7 +2,6 @@
 import copy
 import csv
 import json
-from types import SimpleNamespace
 
 import numpy as np
 import pandas as pd
@@ -43,7 +42,7 @@ def comparison(synthetic, monkeypatch, *, condition=None, observation=None, q=No
     freeze.update({p.name+'_sha256': sha256(p) for p in folder.iterdir()})
     (folder/'freeze.json').write_text(json.dumps(freeze))
     consumer = script('validate')
-    monkeypatch.setattr(consumer.subprocess, 'run', lambda *a, **kw: SimpleNamespace(stdout='synthetic-head'))
+    monkeypatch.setattr(consumer, 'require_freeze', lambda _: 'synthetic-head')
     result = consumer.validate(root)
     return result, predictions, derivs
 

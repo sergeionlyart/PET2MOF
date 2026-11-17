@@ -208,6 +208,16 @@ def test_design_bounds_have_project_origin_and_structures_remain_separate():
             # Preserve that exact historical hash; new entries are frozen in
             # frozen_parameters.yaml, not retroactively in T014's evidence.
             content = content.split(b'\n## D-18 (', 1)[0].rstrip()+b'\n'
+        elif item['path'] == 'configs/scenarios.yaml':
+            # T014 pins the original design bounds. T022 adds only a separate
+            # nominal-controls block; retain T014's historical hash unchanged.
+            # Current full config is hashed in frozen_parameters.yaml; nominal
+            # values and their use are checked independently in test_pretag_fixes.
+            prefix, marker, rest = content.partition(b'  # Fixed controls for H1/H1a;')
+            if marker:
+                _, separator, suffix = rest.partition(b'  tau_over_t:')
+                assert separator
+                content = prefix + separator + suffix
         assert hashlib.sha256(content).hexdigest() == item["sha256"]
 
 

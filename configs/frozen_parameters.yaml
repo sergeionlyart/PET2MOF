@@ -110,7 +110,7 @@ missing: []
 config_hashes:
   configs/calibration.yaml: 4b8dfc12e969ac949b1e09c13b7f61d051c1aab1d726bf6d200a60ccb1bc2acf
   configs/revision.yaml: bdd7377333b0dd8b3365cdb9ecab9449dd9af9b478a3d49e8b50a9ade16afd6f
-  configs/scenarios.yaml: a886d7ef1251f14230e4de1572595cc3ed69201eef69e258647377ed783100a1
+  configs/scenarios.yaml: 6ab842acad63b55f1f5b496f2153e4774d29889bb43017c0adb29756b5e16ea4
   configs/sourced_ranges.yaml: 99c4b160090c92a0dbb760877dc019569144c6a6af1e6f4b53071a0a98524c03
 document_hashes:
   docs/validation_protocol.md: 10596c11b382722062f252b34f160b78d1c50970bb0720e3d7bd57945129b46c

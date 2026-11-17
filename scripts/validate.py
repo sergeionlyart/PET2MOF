@@ -14,13 +14,14 @@ Correlated uncertainty and rank-pair covariance require reviewer-provided joint
 intervals; this scaffold deliberately does not manufacture rank significance.
 """
 import argparse
-import hashlib
 import json
 from pathlib import Path
 import subprocess
 import numpy as np
 import pandas as pd
 from pet2mof.calibration.metrics import metrics
+from pet2mof.calibration.final import sha256
+from pet2mof.calibration.freeze import require_freeze
 from pet2mof.calibration.prediction import MODEL_LABELS
 
 
@@ -28,38 +29,44 @@ def validate(root, directory='holdout/v1', *, output='reports/validation/validat
     root=Path(root).resolve()
     directory=(root/directory).resolve()
     directory.relative_to(root/'holdout')
-    paths=[directory/'observations.csv',directory/'predictions.csv',directory/'freeze.json']
+    paths=[directory/name for name in ('observations.csv', 'conditions.csv', 'predictions.csv',
+                                      'model_derivatives.csv', 'prediction_metadata.json', 'freeze.json')]
     if not all(p.is_file() for p in paths):
-        raise FileNotFoundError('V data unavailable: expected observations.csv, predictions.csv and freeze.json under holdout/v1; no validation performed')
-    tag=subprocess.run(['git','rev-parse','prereg-v1^{commit}'],cwd=root,capture_output=True,text=True,check=True).stdout.strip()
-    head=subprocess.run(['git','rev-parse','HEAD'],cwd=root,capture_output=True,text=True,check=True).stdout.strip()
-    if tag!=head:
-        raise ValueError('validation requires exact frozen prereg-v1 HEAD')
-    freeze=json.loads(paths[2].read_text())
-    if freeze['commit_sha']!=tag or not freeze.get('reviewer') or not freeze.get('predictions_precede_disclosure'):
+        raise FileNotFoundError('V data unavailable: complete prediction package, conditions.csv, observations.csv and freeze.json required; no validation performed')
+    head = require_freeze(root)
+    freeze=json.loads((directory/'freeze.json').read_text())
+    if freeze.get('commit_sha')!=head or not freeze.get('reviewer') or freeze.get('predictions_precede_disclosure') is not True:
         raise ValueError('independent freeze/disclosure declaration missing')
-    for file in paths[:2]:
-        if hashlib.sha256(file.read_bytes()).hexdigest()!=freeze[file.name+'_sha256']:
+    # Authenticate the whole package before parsing observations or computing any
+    # comparison. Metadata must also bind the original conditions and parameters.
+    for file in paths[:-1]:
+        if sha256(file)!=freeze.get(file.name+'_sha256'):
             raise ValueError('frozen holdout input hash mismatch')
-    obs,pred=pd.read_csv(paths[0]),pd.read_csv(paths[1])
+    metadata=json.loads((directory/'prediction_metadata.json').read_text())
+    if metadata.get('status')!='frozen_prediction' or metadata.get('commit_sha')!=head:
+        raise ValueError('synthetic or unfrozen prediction metadata')
+    internal_hashes = {'conditions_sha256': directory/'conditions.csv',
+                       'parameters_sha256': root/'configs/frozen_parameters.yaml',
+                       'prediction_sha256': directory/'predictions.csv',
+                       'derivatives_sha256': directory/'model_derivatives.csv'}
+    for field, file in internal_hashes.items():
+        if metadata.get(field) != sha256(file):
+            raise ValueError('prediction metadata hash mismatch: '+field)
+    pred=pd.read_csv(directory/'predictions.csv')
+    if pred.empty or 'run_status' not in pred or not pred.run_status.eq('frozen_prediction').all():
+        raise ValueError('predictions require run_status=frozen_prediction')
+    derivatives=pd.read_csv(directory/'model_derivatives.csv')
     keys=['series','point_id']
-    if obs.duplicated(keys).any() or pred.duplicated(keys+['model']).any():
+    if pred.duplicated(keys+['model']).any():
         raise ValueError('duplicate V identities')
-    derivative_path=directory/'model_derivatives.csv'
-    derivatives=None
-    if derivative_path.is_file():
-        for file in (derivative_path,directory/'prediction_metadata.json'):
-            if hashlib.sha256(file.read_bytes()).hexdigest()!=freeze.get(file.name+'_sha256'):
-                raise ValueError('frozen derivative/metadata input hash mismatch')
-        metadata=json.loads((directory/'prediction_metadata.json').read_text())
-        if metadata.get('status')!='frozen_prediction' or metadata.get('commit_sha')!=tag:
-            raise ValueError('synthetic or unfrozen prediction metadata')
-        derivatives=pd.read_csv(derivative_path)
-        if derivatives.duplicated(keys+['model']).any():
-            raise ValueError('duplicate derivative identity')
-        expected=set(map(tuple,pred[keys+['model']].to_numpy()))
-        if set(map(tuple,derivatives[keys+['model']].to_numpy()))!=expected:
-            raise ValueError('derivative/prediction identities differ')
+    if derivatives.duplicated(keys+['model']).any():
+        raise ValueError('duplicate derivative identity')
+    expected=set(map(tuple,pred[keys+['model']].to_numpy()))
+    if set(map(tuple,derivatives[keys+['model']].to_numpy()))!=expected:
+        raise ValueError('derivative/prediction identities differ')
+    obs=pd.read_csv(directory/'observations.csv')
+    if obs.duplicated(keys).any():
+        raise ValueError('duplicate V identities')
     models=sorted(pred.model.dropna().unique())
     if not models:
         raise ValueError('no frozen model labels')
@@ -72,12 +79,11 @@ def validate(root, directory='holdout/v1', *, output='reports/validation/validat
             continue
         for model in models:
             merged=f.merge(pred[pred.model==model],on=keys,validate='one_to_one',how='left')
-            if derivatives is not None:
-                # Sidecar is produced without observations; its model-specific
-                # derivatives replace the common observation placeholders.
-                side=derivatives[derivatives.model==model].drop(columns=['model'])
-                merged=merged.drop(columns=[c for c in ('dq_dp','dq_dT','dq_da','u_num','u_num_x','u_num_y') if c in merged])
-                merged=merged.merge(side,on=keys,validate='one_to_one',how='left')
+            # Sidecar is produced without observations; its model-specific
+            # derivatives replace the common observation placeholders.
+            side=derivatives[derivatives.model==model].drop(columns=['model'])
+            merged=merged.drop(columns=[c for c in ('dq_dp','dq_dT','dq_da','u_num','u_num_x','u_num_y') if c in merged])
+            merged=merged.merge(side,on=keys,validate='one_to_one',how='left')
             if merged.q_pred.isna().any():
                 reasons = sorted(set(merged.get('reason', pd.Series(dtype=str)).dropna()))
                 reports.append(dict(series=name,model=model,status='not_testable',reason='frozen predictions missing',

@@ -182,15 +182,19 @@ def test_validator_model_labels_and_sidecar_contract(synthetic, monkeypatch):
                scale=3., observable='q_CO2', comparable=True, inputs_known=True)
     pd.DataFrame([obs]).to_csv(folder/'observations.csv', index=False)
     pd.DataFrame([dict(series='synthetic', point_id='p1', model=m, q_pred=2., u_num=1e-12,
-                       prediction_low=1.9, prediction_high=2.1) for m in MODEL_LABELS]).to_csv(folder/'predictions.csv', index=False)
+                       prediction_low=1.9, prediction_high=2.1, run_status='frozen_prediction') for m in MODEL_LABELS]).to_csv(folder/'predictions.csv', index=False)
     pd.DataFrame([dict(series='synthetic', point_id='p1', model=m, dq_dp=1.6, dq_dT=None, dq_da=None,
                        u_num=1e-12) for m in MODEL_LABELS]).to_csv(folder/'model_derivatives.csv', index=False)
-    (folder/'prediction_metadata.json').write_text(json.dumps(dict(status='frozen_prediction', commit_sha='synthetic-head')))
     from pet2mof.calibration.final import sha256
+    pd.DataFrame([row]).to_csv(folder/'conditions.csv', index=False)
+    (folder/'prediction_metadata.json').write_text(json.dumps(dict(
+        status='frozen_prediction', commit_sha='synthetic-head',
+        conditions_sha256=sha256(folder/'conditions.csv'), parameters_sha256=sha256(root/'configs/frozen_parameters.yaml'),
+        prediction_sha256=sha256(folder/'predictions.csv'), derivatives_sha256=sha256(folder/'model_derivatives.csv'))))
     freeze = dict(commit_sha='synthetic-head', reviewer='synthetic', predictions_precede_disclosure=True)
     freeze.update({p.name+'_sha256': sha256(p) for p in folder.iterdir()})
     (folder/'freeze.json').write_text(json.dumps(freeze))
-    monkeypatch.setattr(module.subprocess, 'run', lambda *a, **kw: SimpleNamespace(stdout='synthetic-head'))
+    monkeypatch.setattr(module, 'require_freeze', lambda _: 'synthetic-head')
     report = module.validate(root, output='reports/validation.json')
     assert len(report['series']) == 12 and {s['model'] for s in report['series']} == set(MODEL_LABELS)
     assert all(s['status'] != 'not_testable' for s in report['series'])

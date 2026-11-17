@@ -14,7 +14,7 @@ import yaml
 
 from pet2mof.model.config import load_config
 from .final import sha256, verify_frozen_inputs
-from .revision_screening import draws, feasible_parameters, screen_cell
+from .revision_screening import draws, feasible_parameters, screen_cell, nominal_controls
 from .screening import BRANCHES
 
 CONDITIONS = tuple(f'{r}_RH{rh}' for r in ('R1', 'R2') for rh in (0, 40, 70))
@@ -22,7 +22,8 @@ CANDIDATES = np.array([0., .1, .2, .3])
 
 
 def parameter_draws(scenario, settings, sourced, count, seed, mechanism, fit, measure):
-    p = draws(scenario, count, seed, mechanism, fit['n_N']*fit['models']['M1']['parameters']['A0'], settings)
+    p = draws(scenario, count, seed, mechanism, fit['n_N']*fit['models']['M1']['parameters']['A0'], settings,
+              controls='nominal')
     if measure == 'analog':
         rng = np.random.default_rng(np.random.SeedSequence([int(seed), 14014]))
         literature = sourced['literature_ranges']
@@ -189,6 +190,11 @@ def run_ensemble(root, *, frozen_path='configs/frozen_parameters.yaml', output='
         # Spread a small debug run across the factorial; production always all.
         cases = [cases[i] for i in np.unique(np.linspace(0, len(cases)-1, branch_limit, dtype=int))]
     result = dict(status='debug' if debug else 'conditional_forecast', run_id=run_id, seed=seed,
+                  analysis_role='nominal_H1_H1a', fixed_controls=nominal_controls(scenario),
+                  RH_percent=[0, 40, 70],
+                  control_sensitivity=dict(status='separate_analysis', decisive=False,
+                                           implementation='pet2mof.calibration.revision_screening.screen_revision',
+                                           output='reports/T015/screen.json'),
                   repeat_seeds=list(range(seed, seed+repeats)),
                   samples_per_repeat=count, repeats=repeats, branches={}, elapsed_seconds=None,
                   parameter_sha256=sha256(frozen_file), rng='numpy.PCG64', numpy_version=np.__version__,
@@ -239,6 +245,7 @@ def run_ensemble(root, *, frozen_path='configs/frozen_parameters.yaml', output='
         pooled = {k: np.concatenate([r[k] for r in reps]) for k in reps[0]}
         summary = summarize(pooled)
         result['branches'][label] = dict(summary=summary, convergence=convergence(reps, pooled, fine_checks),
+                                         analysis_role='nominal_H1_H1a', fixed_controls=result['fixed_controls'],
                                          attempted=count*repeats, accepted=count*repeats, rejected=0,
                                          verdict='данных недостаточно', provisional_inputs=bool(frozen['include_provisional']))
         result['branch_compute_seconds'][label] = time.monotonic()-branch_start
