@@ -1,247 +1,247 @@
 run_id,input_path,extraction_id,source_locator,sample_label,quantity,value,unit,evidence_class,input_status
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,SI entire text,,PEI molecular weight,unknown,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,SI entire text,,PEI type,unknown,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,SI entire text,,PEI loading mass basis,unknown,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,SI entire text,,PEI introduction method,unknown,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,"PDF page 2, S1",,parent UiO-66 activation,activated under vacuum at 423 K for 8 h,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,"PDF page 4, S3",,working capacity basis,mads is the adsorbent mass,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,"PDF page 7, Fig. S4",,isotherm basis,surface area-basis,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_S4_lead_supplement.csv,T040L-SRC03-S4,SI section S4 (formula line),PET-derived UiO-66 (sample not named in S4),weight loss of coordinated BDC2-,39.75,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_S4_lead_supplement.csv,T040L-SRC03-S4,SI section S4 (formula line),PET-derived UiO-66 (sample not named in S4),weight of residual ZrO2,40.72,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_S4_lead_supplement.csv,T040L-SRC03-S4,SI section S4 (formula line),PET-derived UiO-66 (sample not named in S4),BDC2-/Zr6 ratio,4.4,mol/mol (author: approx),author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount Zr,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,DI water,20,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,amount Zr,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,amount PET or BDC as labeled,8,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,DI water,20,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,amount Zr,8,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,DI water,20,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount Zr,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,DI water,20,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,amount Zr,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,amount PET or BDC as labeled,8,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,DI water,20,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,amount Zr,8,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,DI water,20,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,amount Zr,unknown,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,DI water,20,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,amount Zr,unknown,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,amount PET or BDC as labeled,8,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,DI water,20,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount Zr,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,DI water,30,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,CH3COOH,unknown,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount Zr,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,DI water,30,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,HCl,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,CH3COOH,unknown,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount Zr,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,DI water,30,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,HCl,unknown,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount Zr,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,DI water,30,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,HCl,unknown,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,CH3COOH,10,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount Zr,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,DI water,40,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,HCl,unknown,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,CH3COOH,unknown,mL,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,time,30,min,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,temperature,200,°C,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,BET area,874.6,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,Langmuir area,1029.4,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,t-plot micropore area,792.9,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,t-plot micropore volume,0.30,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,cumulative BJH adsorption volume,0.08,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,total pore volume,0.37,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,HK pore size,0.51,nm,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,BET area,873.9,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,Langmuir area,998.2,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,t-plot micropore area,774.0,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,t-plot micropore volume,0.30,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,cumulative BJH adsorption volume,0.05,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,total pore volume,0.36,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,HK pore size,0.49,nm,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,BET area,664.2,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,Langmuir area,784.2,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,t-plot micropore area,600.7,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,t-plot micropore volume,0.23,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,cumulative BJH adsorption volume,0.07,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,total pore volume,0.27,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,HK pore size,0.48,nm,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,BET area,851.2,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,Langmuir area,991.2,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,t-plot micropore area,790.8,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,t-plot micropore volume,0.31,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,cumulative BJH adsorption volume,0.08,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,total pore volume,0.35,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,HK pore size,0.46,nm,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,BET area,545.9,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,Langmuir area,659.5,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,t-plot micropore area,498.5,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,t-plot micropore volume,0.19,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,cumulative BJH adsorption volume,0.07,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,total pore volume,0.23,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,HK pore size,0.45,nm,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,BET area,523.6,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,Langmuir area,634.9,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,t-plot micropore area,489.4,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,t-plot micropore volume,0.19,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,cumulative BJH adsorption volume,0.08,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,total pore volume,0.23,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,HK pore size,0.43,nm,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,S4,PET-derived UiO-66,BDC/Zr6 coordination reported,8.8,BDC per Zr6,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,S4,PET-derived UiO-66,comparison coordination,12,BDC per Zr6,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,S4,PET-derived UiO-66,linker weight loss begins,400,°C,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,S4,PET-derived UiO-66,linker weight loss ends,521,°C,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/Defective_UiO-66.txt,Defective_UiO-66,,,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/No defective_UiO-66.txt,No defective_UiO-66,,,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/P38.txt,P38,,,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/P39.txt,P39,,,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/P39_LS.txt,P39_LS,,,,unknown,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#1,PET mass,2.11,g,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#1,BDC yield,1.77,g,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#1,recovery rate,84,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#2,PET mass,2.05,g,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#2,BDC yield,1.66,g,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#2,recovery rate,81,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#3,PET mass,1.97,g,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#3,BDC yield,1.64,g,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#3,recovery rate,83,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,Average,PET mass,2.04,g,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,Average,BDC yield,1.69,unknown,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,Average,recovery rate,82.7,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66,linker amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66,MOF amount,3.12,mmol,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66,MOF conversion,78,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-25%,linker amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-25%,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-25%,MOF amount,2.92,mmol,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-25%,MOF conversion,73,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-50%,linker amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-50%,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-50%,MOF amount,2.84,mmol,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-50%,MOF conversion,71,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-75%,linker amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-75%,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-75%,MOF amount,2.96,mmol,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-75%,MOF conversion,74,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-100%,linker amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-100%,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-100%,MOF amount,3.00,mmol,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-100%,MOF conversion,75,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66,BDC,2.25,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66,BDC-NH2,0,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66,BDC-NH2 fraction by NMR,0,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-25%,BDC,1.19,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-25%,BDC-NH2,0.61/0.64,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-25%,BDC-NH2 fraction by NMR,34,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-50%,BDC,0.96,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-50%,BDC-NH2,1.13,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-50%,BDC-NH2 fraction by NMR,54,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-75%,BDC,0.34,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-75%,BDC-NH2,1.38,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-75%,BDC-NH2 fraction by NMR,80,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-100%,BDC,0,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-100%,BDC-NH2,1.43,µmol,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-100%,BDC-NH2 fraction by NMR,100,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66,BDC-NH2 fraction by NMR,0,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66,w,211,%,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66,x,0.51,unknown,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66,missing linker,8.5,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-25%,BDC-NH2 fraction by NMR,34,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-25%,w,205,%,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-25%,x,0.93,unknown,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-25%,missing linker,15.6,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-50%,BDC-NH2 fraction by NMR,54,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-50%,w,198,%,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-50%,x,1.36,unknown,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-50%,missing linker,22.7,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-75%,BDC-NH2 fraction by NMR,80,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-75%,w,202,%,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-75%,x,1.29,unknown,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-75%,missing linker,21.5,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-100%,BDC-NH2 fraction by NMR,100,mol%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-100%,w,223,%,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-100%,x,0.43,unknown,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-100%,missing linker,7.1,%,author_calculated,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Fresh PET-UiO-66-NH2-50%,C atomic fraction,59.87,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Fresh PET-UiO-66-NH2-50%,O atomic fraction,33.33,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Fresh PET-UiO-66-NH2-50%,N atomic fraction,2.76,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Fresh PET-UiO-66-NH2-50%,Zr atomic fraction,4.03,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Post PET-UiO-66-NH2-50%,C atomic fraction,62.55,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Post PET-UiO-66-NH2-50%,O atomic fraction,30.85,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Post PET-UiO-66-NH2-50%,N atomic fraction,3.23,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Post PET-UiO-66-NH2-50%,Zr atomic fraction,3.38,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,BDC -UiO-66-NH2-50%,C atomic fraction,55.45,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,BDC -UiO-66-NH2-50%,O atomic fraction,33.11,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,BDC -UiO-66-NH2-50%,N atomic fraction,2.51,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,BDC -UiO-66-NH2-50%,Zr atomic fraction,4.64,%,measured,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,BET area,635,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,Langmuir area,1116,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,t-plot micropore area,446,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,t-plot micropore volume,0.21,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,total pore volume,0.28,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,BET area,406,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,Langmuir area,841,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,t-plot micropore area,267,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,t-plot micropore volume,0.14,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,total pore volume,0.21,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,BET area,521,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,Langmuir area,975,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,t-plot micropore area,368,m²/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,t-plot micropore volume,0.18,cm³/g,reported_derived,provisional
-20261117T083940795087Z-6b405b9f-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,total pore volume,0.35,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,SI entire text,,PEI molecular weight,unknown,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,SI entire text,,PEI type,unknown,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,SI entire text,,PEI loading mass basis,unknown,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,SI entire text,,PEI introduction method,unknown,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,"PDF page 2, S1",,parent UiO-66 activation,activated under vacuum at 423 K for 8 h,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,"PDF page 4, S3",,working capacity basis,mads is the adsorbent mass,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/S100_methods.csv,T040-S100-methods,"PDF page 7, Fig. S4",,isotherm basis,surface area-basis,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_S4_lead_supplement.csv,T040L-SRC03-S4,SI section S4 (formula line),PET-derived UiO-66 (sample not named in S4),weight loss of coordinated BDC2-,39.75,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_S4_lead_supplement.csv,T040L-SRC03-S4,SI section S4 (formula line),PET-derived UiO-66 (sample not named in S4),weight of residual ZrO2,40.72,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_S4_lead_supplement.csv,T040L-SRC03-S4,SI section S4 (formula line),PET-derived UiO-66 (sample not named in S4),BDC2-/Zr6 ratio,4.4,mol/mol (author: approx),author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount Zr,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,DI water,20,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,amount Zr,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,amount PET or BDC as labeled,8,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,DI water,20,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2 PET,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,amount Zr,8,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,DI water,20,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1PET,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount Zr,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,DI water,20,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,amount Zr,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,amount PET or BDC as labeled,8,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,DI water,20,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:2BDC,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,amount Zr,8,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,DI water,20,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,2Zr:1BDC,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,amount Zr,unknown,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,DI water,20,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,amount Zr,unknown,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,amount PET or BDC as labeled,8,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,DI water,20,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,PET,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount Zr,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,DI water,30,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,CH3COOH,unknown,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount Zr,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,DI water,30,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,HCl,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,CH3COOH,unknown,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount Zr,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,DI water,30,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,HCl,unknown,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount Zr,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,DI water,30,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,HCl,unknown,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,CH3COOH,10,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1PET,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount Zr,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,amount PET or BDC as labeled,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,DI water,40,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,HCl,unknown,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,CH3COOH,unknown,mL,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,time,30,min,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S1,1Zr:1BDC,temperature,200,°C,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,BET area,874.6,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,Langmuir area,1029.4,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,t-plot micropore area,792.9,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,t-plot micropore volume,0.30,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,cumulative BJH adsorption volume,0.08,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,total pore volume,0.37,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1PET,HK pore size,0.51,nm,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,BET area,873.9,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,Langmuir area,998.2,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,t-plot micropore area,774.0,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,t-plot micropore volume,0.30,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,cumulative BJH adsorption volume,0.05,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,total pore volume,0.36,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:1BDC,HK pore size,0.49,nm,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,BET area,664.2,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,Langmuir area,784.2,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,t-plot micropore area,600.7,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,t-plot micropore volume,0.23,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,cumulative BJH adsorption volume,0.07,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,total pore volume,0.27,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2PET,HK pore size,0.48,nm,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,BET area,851.2,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,Langmuir area,991.2,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,t-plot micropore area,790.8,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,t-plot micropore volume,0.31,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,cumulative BJH adsorption volume,0.08,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,total pore volume,0.35,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,1Zr:2BDC,HK pore size,0.46,nm,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,BET area,545.9,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,Langmuir area,659.5,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,t-plot micropore area,498.5,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,t-plot micropore volume,0.19,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,cumulative BJH adsorption volume,0.07,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,total pore volume,0.23,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1PET,HK pore size,0.45,nm,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,BET area,523.6,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,Langmuir area,634.9,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,t-plot micropore area,489.4,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,t-plot micropore volume,0.19,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,cumulative BJH adsorption volume,0.08,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,total pore volume,0.23,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,Table S2,2Zr:1BDC,HK pore size,0.43,nm,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,S4,PET-derived UiO-66,BDC/Zr6 coordination reported,8.8,BDC per Zr6,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,S4,PET-derived UiO-66,comparison coordination,12,BDC per Zr6,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,S4,PET-derived UiO-66,linker weight loss begins,400,°C,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC03_tables.csv,T040-SRC03-tables,S4,PET-derived UiO-66,linker weight loss ends,521,°C,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/Defective_UiO-66.txt,Defective_UiO-66,,,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/No defective_UiO-66.txt,No defective_UiO-66,,,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/P38.txt,P38,,,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/P39.txt,P39,,,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC05_files.csv,T040-SRC05-files,Dati grezzi/Gas sorption/P39_LS.txt,P39_LS,,,,unknown,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#1,PET mass,2.11,g,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#1,BDC yield,1.77,g,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#1,recovery rate,84,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#2,PET mass,2.05,g,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#2,BDC yield,1.66,g,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#2,recovery rate,81,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#3,PET mass,1.97,g,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#3,BDC yield,1.64,g,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,#3,recovery rate,83,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,Average,PET mass,2.04,g,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,Average,BDC yield,1.69,unknown,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S1,Average,recovery rate,82.7,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66,linker amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66,MOF amount,3.12,mmol,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66,MOF conversion,78,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-25%,linker amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-25%,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-25%,MOF amount,2.92,mmol,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-25%,MOF conversion,73,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-50%,linker amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-50%,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-50%,MOF amount,2.84,mmol,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-50%,MOF conversion,71,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-75%,linker amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-75%,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-75%,MOF amount,2.96,mmol,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-75%,MOF conversion,74,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-100%,linker amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-100%,ZrOCl2·8H2O amount,4,mmol,recipe_input,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-100%,MOF amount,3.00,mmol,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S2,PET-UiO-66-NH2-100%,MOF conversion,75,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66,BDC,2.25,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66,BDC-NH2,0,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66,BDC-NH2 fraction by NMR,0,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-25%,BDC,1.19,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-25%,BDC-NH2,0.61/0.64,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-25%,BDC-NH2 fraction by NMR,34,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-50%,BDC,0.96,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-50%,BDC-NH2,1.13,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-50%,BDC-NH2 fraction by NMR,54,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-75%,BDC,0.34,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-75%,BDC-NH2,1.38,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-75%,BDC-NH2 fraction by NMR,80,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-100%,BDC,0,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-100%,BDC-NH2,1.43,µmol,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S3,PET-UiO-66-NH2-100%,BDC-NH2 fraction by NMR,100,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66,BDC-NH2 fraction by NMR,0,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66,w,211,%,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66,x,0.51,unknown,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66,missing linker,8.5,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-25%,BDC-NH2 fraction by NMR,34,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-25%,w,205,%,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-25%,x,0.93,unknown,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-25%,missing linker,15.6,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-50%,BDC-NH2 fraction by NMR,54,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-50%,w,198,%,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-50%,x,1.36,unknown,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-50%,missing linker,22.7,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-75%,BDC-NH2 fraction by NMR,80,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-75%,w,202,%,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-75%,x,1.29,unknown,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-75%,missing linker,21.5,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-100%,BDC-NH2 fraction by NMR,100,mol%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-100%,w,223,%,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-100%,x,0.43,unknown,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table 4,PET-UiO-66-NH2-100%,missing linker,7.1,%,author_calculated,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Fresh PET-UiO-66-NH2-50%,C atomic fraction,59.87,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Fresh PET-UiO-66-NH2-50%,O atomic fraction,33.33,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Fresh PET-UiO-66-NH2-50%,N atomic fraction,2.76,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Fresh PET-UiO-66-NH2-50%,Zr atomic fraction,4.03,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Post PET-UiO-66-NH2-50%,C atomic fraction,62.55,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Post PET-UiO-66-NH2-50%,O atomic fraction,30.85,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Post PET-UiO-66-NH2-50%,N atomic fraction,3.23,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,Post PET-UiO-66-NH2-50%,Zr atomic fraction,3.38,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,BDC -UiO-66-NH2-50%,C atomic fraction,55.45,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,BDC -UiO-66-NH2-50%,O atomic fraction,33.11,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,BDC -UiO-66-NH2-50%,N atomic fraction,2.51,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S7,BDC -UiO-66-NH2-50%,Zr atomic fraction,4.64,%,measured,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,BET area,635,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,Langmuir area,1116,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,t-plot micropore area,446,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,t-plot micropore volume,0.21,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66,total pore volume,0.28,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,BET area,406,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,Langmuir area,841,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,t-plot micropore area,267,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,t-plot micropore volume,0.14,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-50%,total pore volume,0.21,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,BET area,521,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,Langmuir area,975,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,t-plot micropore area,368,m²/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,t-plot micropore volume,0.18,cm³/g,reported_derived,provisional
+20261117T090913416011Z-315d886c-task003-balance-map,data/task003/extracted/SRC06_tables.csv,T040-SRC06-tables,Table S8,PET-UiO-66-NH2-100%,total pore volume,0.35,cm³/g,reported_derived,provisional

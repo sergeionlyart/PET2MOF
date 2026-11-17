@@ -1,0 +1,106 @@
+{
+  "run_id": "20261117T090913416011Z-315d886c-task003-balance-map",
+  "purpose": "TASK003 conditional material balance and transfer boundaries",
+  "hypothesis": "PEI transfer can exceed its own PET host only within explicit eta and k bounds",
+  "commit_sha": "315d886c17469f8cf1d523dca09afe31fd446491",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [
+    {
+      "path": "docs/task003/analysis_plan.md",
+      "sha256": "a3e283572b53cfbad1aa7c4d080974c2addb5d7182a48fd3c247dc2e5afb4ac0"
+    },
+    {
+      "path": "data/task003/eta_bounds.csv",
+      "sha256": "2b03079c2024c430c6056f16b62530deb459fe133bb6eed1e38bfad3f9f064ac"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_materials.csv",
+      "sha256": "388731f9c7a1347f90aa71e352676df1dbf38fe2a6a2235c2441c22bdce6ca1c"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_dry_CO2.csv",
+      "sha256": "54810c3fb45d0d39f378827d62a83988559c765a1d347af95c14e203f922c35c"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv",
+      "sha256": "757e879b0488f5fe81530344973560505b10d206c4e05f2a77a56bc9fc96eda9"
+    },
+    {
+      "path": "data/task003/extracted/SRC06_tables.csv",
+      "sha256": "16579c9702cbd8ecf987b01b31f75c028a5eda8c20d354c364517b31aa03169e"
+    },
+    {
+      "path": "data/task003/extracted/SRC03_tables.csv",
+      "sha256": "575ed610abb5570ee4dba35df67d6f4eaa111902cb94e81a7cca04c8e39701ac"
+    }
+  ],
+  "parameters": {},
+  "seed": null,
+  "command": [
+    ".venv/bin/python",
+    "scripts/task003/run_balance.py",
+    "--run-id",
+    "20261117T090913416011Z-315d886c-task003-balance-map"
+  ],
+  "started_utc": "2026-11-17T09:09:13.416011+00:00",
+  "finished_utc": "2026-11-17T09:09:15.101494+00:00",
+  "status": "completed",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 1.6742857080243994,
+    "child_user_seconds": 1.387637,
+    "child_system_seconds": 0.136345,
+    "child_maxrss": 136314880,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [
+    {
+      "path": "reports/task003/provenance.json",
+      "sha256": "62a1941f8a7d3d9fd2f78458aef030b39027e8fbb13f2471919a73d7f542a0bf"
+    },
+    {
+      "path": "reports/task003/material_balance.csv",
+      "sha256": "8b7166ebd1be72a1355ef0403765216207bc4d7188f40c1c09d32b882aa7bc7d"
+    },
+    {
+      "path": "reports/task003/design_window.csv",
+      "sha256": "d30703cc79fbbcf0490ad8bd2714a97d8ac4d24ea5d3a244b8730cb3dd1f533d"
+    },
+    {
+      "path": "reports/task003/analog_lines.csv",
+      "sha256": "8bae51b1948071218905008b0d208654456e1647bd4141bf09de858fbdb9ced9"
+    },
+    {
+      "path": "reports/task003/transfer_kstar.csv",
+      "sha256": "acce66d1f3a068d14fda5c1091341def5d8113f294a880894be502f3be27b2cb"
+    },
+    {
+      "path": "reports/task003/transfer_kstar_summary.csv",
+      "sha256": "5e6c50a4886d61c85ea7b66a0890962d5989c50c423779353a6284e01e5874c5"
+    },
+    {
+      "path": "reports/task003/uncertainty_vertices.csv",
+      "sha256": "f34f447d83d378075fae1b2b48485427b65ee6b15af2037cb9266ffcbdfe1002"
+    },
+    {
+      "path": "reports/task003/summary.json",
+      "sha256": "aed750bb7621ad16c992b42031dcedf461d2804801fe51fa1648f7b5dee69399"
+    }
+  ],
+  "checks": [],
+  "limitations": [],
+  "execution_status": "completed"
+}
