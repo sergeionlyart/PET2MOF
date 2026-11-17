@@ -36,3 +36,5 @@ Requires the already available Python packages listed in `checks.json`, plus Pil
 
 Published crops/overlays/page renders come only from S102 (Figshare SI, CC BY-NC 4.0, non-commercial reuse with attribution), S103 and S113 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/). Rendering, cropping and control-point annotation only; no generative editing.
 S117 images are **not** published because a reuse licence is not established; they are kept privately by the lead and their SHA-256 are listed in `private_images_sha256.json`.
+
+S2 access-attempt responses (`S2-access-*.html`, `S2-access-2.xml` — full-text JATS and access-denial pages) are not redistributed; they are kept privately by the lead and their SHA-256 are listed in `private_access_sha256.json`.
