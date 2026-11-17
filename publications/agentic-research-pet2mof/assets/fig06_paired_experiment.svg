@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="576pt" viewBox="0 0 864 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>PET2MOF tools/make_figures.py</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 864 576 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f8f7f3"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 306.820106 221.184 
+Q 412.127595 221.184 516.093443 221.184 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #0755dc; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 510.893443 218.584 
+L 516.093443 221.184 
+L 510.893443 223.784 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #0755dc; stroke: #0755dc; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 370.413295 342.6048 
+Q 447.900646 342.6048 524.046356 342.6048 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 518.846356 340.0048 
+L 524.046356 342.6048 
+L 518.846356 345.2048 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5c5c59" x="58.4064" y="146.7648" transform="rotate(-0 58.4064 146.7648)">Без PEI</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5c5c59" x="519.4368" y="146.7648" transform="rotate(-0 519.4368 146.7648)">С одним и тем же PEI</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_4">
+     <path d="M 139.741078 251.187516 
+L 247.330922 251.187516 
+L 247.330922 191.180484 
+L 139.741078 191.180484 
+z
+" style="fill: #ffffff; stroke: #0755dc; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans'; fill: #0755dc" transform="translate(184.241859 216.078434)">P0</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans'; fill: #0755dc" transform="translate(151.741078 234.082535)">PET-UiO-66</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_5">
+     <path d="M 590.400384 240.684 
+L 718.732416 240.684 
+L 718.732416 201.684 
+L 590.400384 201.684 
+z
+" style="fill: #ffffff; stroke: #0755dc; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0755dc" x="654.5664" y="225.080484" transform="rotate(-0 654.5664 225.080484)">P1 = P0 + PEI</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_6">
+     <path d="M 88.947563 366.607613 
+L 298.124437 366.607613 
+L 298.124437 318.601988 
+L 88.947563 318.601988 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(185.528813 338.520347)">C0</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(98.547562 352.923628)">UiO-66 из коммерческого BDC</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_7">
+     <path d="M 588.970697 362.1048 
+L 720.162103 362.1048 
+L 720.162103 323.1048 
+L 588.970697 323.1048 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #121212" x="654.5664" y="346.501284" transform="rotate(-0 654.5664 346.501284)">C1 = C0 + PEI</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0755dc" x="424.0512" y="185.9328" transform="rotate(-0 424.0512 185.9328)">G_P = q(P1)/q(P0)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #121212" x="439.9488" y="315.1872" transform="rotate(-0 439.9488 315.1872)">G_C = q(C1)/q(C0)</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #121212" x="58.4064" y="285.8112" transform="rotate(-0 58.4064 285.8112)">k = q(P0)/q(C0)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(341.325937 424.469175)">G_P = G_C/k + φ(h_P − h_C/k)</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(309.518437 443.669175)">A = G_C/k;  B = A + φ_max(h_P − h_C/k)</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(262.077187 462.869175)">φ_max = min(1, G_C/h_C);  G_P ∈ [min(A, B); max(A, B)]</text>
+   </g>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #121212" x="34.56" y="45.825938" transform="rotate(-0 34.56 45.825938)">6 / Парный опыт: предложен, не проведён</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5c5c59" x="34.56" y="74.785625" transform="rotate(-0 34.56 74.785625)">Четыре образца одной лаборатории; один PEI и одинаковый протокол модификации.</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #5c5c59" transform="translate(34.56 527.805234)">Источник: reports/task003/next_experiment.md. Не научный запуск, run_id не применим.</text>
+   <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #5c5c59" transform="translate(34.56 539.869102)">Гипотеза: одинаковы абсолютный PEI-вклад на грамм композита и φ. h_P, h_C — доли носителя.</text>
+   <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #5c5c59" transform="translate(34.56 551.90543)">Интервал фиксируют до измерения q(P1); попадание внутрь не определяет механизм и не измеряет φ.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbb1c69f550">
+   <rect x="34.56" y="103.68" width="794.88" height="391.68"/>
+  </clipPath>
+ </defs>
+</svg>

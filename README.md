@@ -4,6 +4,23 @@
 
 Научный статус H1: **данных недостаточно**. Внешнее количественное сравнение недоступно, контроль на калибровочных сериях не прошёл, формальная сходимость ансамбля не установлена. PEI@UiO-66-NH2 [S2] — отдельный контроль, а не целевой PET-derived материал.
 
+## Путеводитель: три этапа, ветки и статья
+
+Проект прошёл три вычислительных этапа; лабораторных опытов в нём нет. Владелец ставит задачу и принимает решения;
+поручения и пакеты данных готовились с помощью ChatGPT; руководитель — Claude Code (план, карточки, приёмка,
+редактура); исполнители и проверяющие — субагенты OpenAI Codex (`gpt-6-astra`, `gpt-6.1-sol`, `gpt-6.1-terra`).
+
+| Этап | Результат | Ветка | Commit |
+| --- | --- | --- | --- |
+| TASK-001 (v1) | данных недостаточно; инфраструктура, предрегистрация, чистое воспроизведение | `main` | `66bae26` |
+| TASK-002 (v2) | два кандидата C72/C96 в сухом CO₂, победитель не разрешён | `task002-dry-screening` | `1558433` |
+| TASK-003 (v3) | частично: условная карта переноса PEI на PET-UiO-66, парный опыт | `task003-pet-transfer` | `70685dc` |
+| TASK-004 | статья «Агентская система в работе исследователя» (черновик) | `task004-article` (локально) | — |
+
+**Если вы смотрите `main`**, вы видите только этап v1: материалы v2 и v3 лежат в своих ветках, пока их не влили в
+`main`. Подробная карта — [docs/GUIDE_RU.md](docs/GUIDE_RU.md) (поручения, решения, ошибки, ревью, источники,
+команды). Черновик статьи — `publications/agentic-research-pet2mof/` (`index.html` открывается локально).
+
 ## Этап v2 (PET-CO2-TASK-002): сухой выбор кандидатов
 
 Ветка `task002-dry-screening`. [Краткое решение](reports/task002/decision_brief.md) ([PDF](reports/task002/decision_brief.pdf)),
@@ -94,3 +111,9 @@ host capacity transfer unchanged; a paired experiment (PET and commercial UiO-66
 tests this joint assumption with an interval prediction. The S2 mass balance
 does not close (18.5–25 % of composite mass is neither MOF nor PEI). This is a conditional map, not a validated
 prediction; humidity, cycling, gas mixtures and synthesizability are not assessed. See `reports/task003/`.
+
+**Navigation and article (PET-CO2-TASK-004, branch `task004-article`, local draft).** A Russian-language practitioner
+article on using an agentic system (Claude Code as lead, OpenAI Codex executors and reviewers) for this research is
+prepared in `publications/agentic-research-pet2mof/`; it adds no new calculations. The `main` branch shows stage v1
+only; stages v2 and v3 are on their own branches. See `docs/GUIDE_RU.md` for branches, commits and an index of work
+orders, decisions, error logs, reviews and sources.

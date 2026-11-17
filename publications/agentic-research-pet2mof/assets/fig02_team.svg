@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="576pt" viewBox="0 0 864 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>PET2MOF tools/make_figures.py</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 864 576 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f8f7f3"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 235.278844 154.5984 
+Q 265.072782 154.5984 293.525079 154.5984 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 288.325079 151.9984 
+L 293.525079 154.5984 
+L 288.325079 157.1984 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 294.871556 142.848 
+Q 265.077618 142.848 236.625321 142.848 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 241.825321 145.448 
+L 236.625321 142.848 
+L 241.825321 140.248 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 561.180614 154.5984 
+Q 583.027294 154.5984 603.532333 154.5984 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 598.332333 151.9984 
+L 603.532333 154.5984 
+L 598.332333 157.1984 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 726.1056 199.681284 
+Q 726.1056 225.098504 726.1056 249.174083 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 728.7056 243.974083 
+L 726.1056 249.174083 
+L 723.5056 243.974083 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 604.874756 303.4368 
+Q 575.080818 303.4368 546.628521 303.4368 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 551.828521 306.0368 
+L 546.628521 303.4368 
+L 551.828521 300.8368 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 310.767701 303.4368 
+Q 284.947259 303.4368 260.468458 303.4368 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 265.668458 306.0368 
+L 260.468458 303.4368 
+L 265.668458 300.8368 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 137.8944 348.522075 
+Q 137.8944 377.854603 137.8944 405.84549 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 140.4944 400.64549 
+L 137.8944 405.84549 
+L 135.2944 400.64549 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 267.075499 452.2752 
+Q 320.718102 452.2752 373.019065 452.2752 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 367.819065 449.6752 
+L 373.019065 452.2752 
+L 367.819065 454.8752 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 489.64578 452.2752 
+Q 559.181921 452.2752 627.376421 452.2752 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 622.176421 449.6752 
+L 627.376421 452.2752 
+L 622.176421 454.8752 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 171.630652 248.121477 
+Q 419.610391 187.015192 667.20808 243.934499 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 662.722778 240.235572 
+L 667.20808 243.934499 
+L 661.557757 245.303385 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 813.5424 403.27444 
+Q 813.5424 307.355227 813.5424 212.777655 
+" clip-path="url(#pbb1c69f550)" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 810.9424 217.977655 
+L 813.5424 212.777655 
+L 816.1424 217.977655 
+z
+" clip-path="url(#pbb1c69f550)" style="fill: #5c5c59; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <g id="patch_13">
+     <path d="M 87.416275 174.600353 
+L 188.372525 174.600353 
+L 188.372525 134.596447 
+L 87.416275 134.596447 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(111.9944 151.19508)">Владелец</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(95.416275 163.197033)">цель и решения</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_14">
+     <path d="M 365.478906 174.600744 
+L 498.521094 174.600744 
+L 498.521094 134.596056 
+L 365.478906 134.596056 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(373.478906 151.19547)">Подготовка с ChatGPT</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(377.471875 163.197423)">поручения и данные</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_15">
+     <path d="M 643.464975 174.600744 
+L 808.746225 174.600744 
+L 808.746225 134.596056 
+L 643.464975 134.596056 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(694.350912 151.19547)">Claude Code</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(651.464975 163.197423)">план, карточки, интеграция</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_16">
+     <path d="M 649.450131 323.439144 
+L 802.761069 323.439144 
+L 802.761069 283.434456 
+L 649.450131 283.434456 
+z
+" style="fill: #ffffff; stroke: #0755dc; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #0755dc" transform="translate(664.337631 300.03387)">Codex: Astra / Sol / Terra</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #0755dc" transform="translate(657.450131 312.035823)">отдельные клоны и ветки</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_17">
+     <path d="M 364.396094 329.44012 
+L 499.603906 329.44012 
+L 499.603906 277.43348 
+L 364.396094 277.43348 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(397.671094 294.032112)">Научный код</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(376.611719 306.034066)">учитываемый запуск</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(372.396094 318.0368)">паспорт runs/&lt;run_id&gt;</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_18">
+     <path d="M 68.923306 323.438753 
+L 206.865494 323.438753 
+L 206.865494 283.434847 
+L 68.923306 283.434847 
+z
+" style="fill: #ffffff; stroke: #0755dc; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #0755dc" transform="translate(76.923306 300.03348)">Независимая проверка</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #0755dc" transform="translate(83.606119 312.035433)">другой исполнитель</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_19">
+     <path d="M 64.229556 465.2752 
+L 211.559244 465.2752 
+L 211.559244 439.2752 
+L 64.229556 439.2752 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #121212" x="137.8944" y="454.872856" transform="rotate(-0 137.8944 454.872856)">Приёмка руководителем</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_20">
+     <path d="M 408.208594 465.2752 
+L 455.791406 465.2752 
+L 455.791406 439.2752 
+L 408.208594 439.2752 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #121212" x="432" y="454.872856" transform="rotate(-0 432 454.872856)">Отчёт</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_21">
+     <path d="M 662.509506 472.277153 
+L 789.701694 472.277153 
+L 789.701694 432.273247 
+L 662.509506 432.273247 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(700.2056 448.87188)">Владелец</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(670.509506 460.873833)">следующее решение</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #121212" x="579.0528" y="131.0976" transform="rotate(-0 579.0528 131.0976)">поручение</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #121212" x="742.0032" y="225.1008" transform="rotate(-0 742.0032 225.1008)">карточки</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #5c5c59" x="416.1024" y="209.4336" transform="rotate(-0 416.1024 209.4336)">ревью → исправление</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #5c5c59" x="432" y="511.0272" transform="rotate(-0 432 511.0272)">Отчёт → новое поручение владельца → следующий цикл</text>
+   </g>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #121212" x="34.56" y="45.514844" transform="rotate(-0 34.56 45.514844)">2 / Кто ставит задачу, выполняет и проверяет</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5c5c59" x="34.56" y="74.785625" transform="rotate(-0 34.56 74.785625)">Роли и поток артефактов; стрелки обратной связи — пунктир.</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5c5c59" x="34.56" y="551.805234" transform="rotate(-0 34.56 551.805234)">Источник: AGENTS.md; docs/model_policy.md; docs/work_order_task004_RU.md. Схема ролей, не журнал конкретного запуска.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbb1c69f550">
+   <rect x="34.56" y="103.68" width="794.88" height="391.68"/>
+  </clipPath>
+ </defs>
+</svg>

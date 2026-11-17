@@ -1,0 +1,246 @@
+{
+  "inputs": {
+    "docs/work_order_task004_RU.md": "797f7cf495c9e11f8c18eedc4f7d23cf7b4d04789df78f2307fbb9d6b79381a2",
+    "reports/task003/next_experiment.md": "36b26cb3a2c5e08310ba8ea52dc98b6451b96bcee7604a4e913dbbd381f557fa",
+    "AGENTS.md": "113cf2ceadbc27d014a1b32a5513d5ceeabee0e6a616669c888e96ebbf4ddfc1",
+    "docs/model_policy.md": "c15a6aac01e34c080f277efe32ec9d1f7c15915ac5d5e45d4686014a75b226f3",
+    "publications/agentic-research-pet2mof/evidence/agent_runs.csv": "8d53ff2680c3d23b740b5dfeee6791cb363fa071485ef7729fd333174d6c4d06",
+    "reports/task002/A/nominal.csv": "98e72523b1a7f0235809e62b8117a5119a8b9b291bb053d78f7073409506b4e5",
+    "reports/task002/A/candidates.csv": "733c575b050f48f06ca69b400711ef50b2b70a73043082ecc343b4d0bd90f3d9",
+    "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv": "757e879b0488f5fe81530344973560505b10d206c4e05f2a77a56bc9fc96eda9",
+    "reports/task002/B/check_residuals.csv": "db51c414176d2d64054768479a852392d30ed70c86de1b9c758b8cdb7090194d",
+    "reports/task002/B/langmuir_fit.csv": "ff936461db26639b4262005701c9a00e949e1550903142d7b26f08bcddccb965",
+    "reviews/T044_checks/counterexamples.json": "c0c39a8a84c82c8da0a0875934c3ec3afc5a427050cfd5b36cdf766820c4008d"
+  },
+  "figures": {
+    "fig01_domain": {
+      "files": {
+        "png": {
+          "bytes": 137022,
+          "width": 2160,
+          "height": 1260
+        },
+        "svg": {
+          "bytes": 7711,
+          "editable_text": true
+        }
+      },
+      "evidence": {}
+    },
+    "fig02_team": {
+      "files": {
+        "png": {
+          "bytes": 140506,
+          "width": 2160,
+          "height": 1440
+        },
+        "svg": {
+          "bytes": 12767,
+          "editable_text": true
+        }
+      },
+      "evidence": {}
+    },
+    "fig03_timeline": {
+      "files": {
+        "png": {
+          "bytes": 171728,
+          "width": 2160,
+          "height": 1800
+        },
+        "svg": {
+          "bytes": 37841,
+          "editable_text": true
+        }
+      },
+      "evidence": {
+        "runs": 62,
+        "total_seconds": 39229.0,
+        "span_seconds": 42594.0,
+        "active_seconds": 23158.0,
+        "commits": [
+          {
+            "sha": "66bae26af9970c3142b72d25031c844b5461708f",
+            "utc": "2026-11-17T03:03:24+00:00"
+          },
+          {
+            "sha": "1558433614619e04102989d6b6f1479c50f364ce",
+            "utc": "2026-11-17T05:24:54+00:00"
+          },
+          {
+            "sha": "70685dc686ce22505b303a60920980a02772f019",
+            "utc": "2026-11-17T09:28:35+00:00"
+          }
+        ]
+      }
+    },
+    "fig04_task002_dry": {
+      "files": {
+        "png": {
+          "bytes": 126049,
+          "width": 2160,
+          "height": 1260
+        },
+        "svg": {
+          "bytes": 14232,
+          "editable_text": true
+        }
+      },
+      "evidence": {
+        "S2-BASE": {
+          "q": 2.67,
+          "gain_pct": 0.0,
+          "extraction_id": "T030-A-nominal-S2-BASE"
+        },
+        "S2-C48": {
+          "q": 2.75,
+          "gain_pct": 2.9962546816479474,
+          "extraction_id": "T030-A-nominal-S2-C48"
+        },
+        "S2-C72": {
+          "q": 3.26,
+          "gain_pct": 22.097378277153545,
+          "extraction_id": "T030-A-nominal-S2-C72"
+        },
+        "S2-N72": {
+          "q": 2.99,
+          "gain_pct": 11.985018726591768,
+          "extraction_id": "T030-A-nominal-S2-N72"
+        },
+        "S2-C96": {
+          "q": 3.15,
+          "gain_pct": 17.97752808988764,
+          "extraction_id": "T030-A-nominal-S2-C96"
+        },
+        "S2-I96": {
+          "q": 1.87,
+          "gain_pct": -29.962546816479396,
+          "extraction_id": "T030-A-nominal-S2-I96"
+        }
+      }
+    },
+    "fig05_methods": {
+      "files": {
+        "png": {
+          "bytes": 199859,
+          "width": 2160,
+          "height": 1620
+        },
+        "svg": {
+          "bytes": 66289,
+          "editable_text": true
+        }
+      },
+      "evidence": {
+        "10PEI@UiO-66": {
+          "fit_extraction_id": "T034-B-langmuir-001",
+          "qs": 3.0665924432265945,
+          "b": 3.0200332201708178,
+          "checks": [
+            {
+              "point_id": "10PEI-UiO-66-04",
+              "baseline_residual": "-0.027571294997987827",
+              "langmuir_residual": "0.17141173962690104",
+              "q_digitization_halfwidth": "0.105",
+              "extraction_id": "T034-B-check-001"
+            },
+            {
+              "point_id": "10PEI-UiO-66-05",
+              "baseline_residual": "-0.02169091865798789",
+              "langmuir_residual": "0.1832802521254957",
+              "q_digitization_halfwidth": "0.105",
+              "extraction_id": "T034-B-check-002"
+            }
+          ]
+        },
+        "20PEI@UiO-66": {
+          "fit_extraction_id": "T034-B-langmuir-002",
+          "qs": 3.3617563707986213,
+          "b": 3.2646134923890404,
+          "checks": [
+            {
+              "point_id": "20PEI-UiO-66-04",
+              "baseline_residual": "0.004529069234532113",
+              "langmuir_residual": "0.2215044503372674",
+              "q_digitization_halfwidth": "0.105",
+              "extraction_id": "T034-B-check-003"
+            }
+          ]
+        },
+        "30PEI@UiO-66": {
+          "fit_extraction_id": "T034-B-langmuir-003",
+          "qs": 4.062523078488463,
+          "b": 3.629751622642331,
+          "checks": [
+            {
+              "point_id": "30PEI-UiO-66-04",
+              "baseline_residual": "-0.06589063078952817",
+              "langmuir_residual": "0.19801500624624468",
+              "q_digitization_halfwidth": "0.105",
+              "extraction_id": "T034-B-check-004"
+            },
+            {
+              "point_id": "30PEI-UiO-66-05",
+              "baseline_residual": "-0.04872601501632756",
+              "langmuir_residual": "0.18370172755271907",
+              "q_digitization_halfwidth": "0.105",
+              "extraction_id": "T034-B-check-005"
+            }
+          ]
+        }
+      }
+    },
+    "fig06_paired_experiment": {
+      "files": {
+        "png": {
+          "bytes": 120422,
+          "width": 2160,
+          "height": 1440
+        },
+        "svg": {
+          "bytes": 6947,
+          "editable_text": true
+        }
+      },
+      "evidence": {}
+    },
+    "fig07_before_after": {
+      "files": {
+        "png": {
+          "bytes": 166392,
+          "width": 2160,
+          "height": 1260
+        },
+        "svg": {
+          "bytes": 22997,
+          "editable_text": true
+        }
+      },
+      "evidence": {
+        "before": {
+          "h": 0.7,
+          "k": 0.95,
+          "G_analog": 1.0482970734194283,
+          "phi": 1.0,
+          "G_PET_at_k095": 1.0666284983362404
+        },
+        "after": {
+          "h": 0.7,
+          "G_C": 1.17,
+          "k": 1.1,
+          "A": 1.0636363636363635,
+          "B": 1.1272727272727272,
+          "outward_interval": [
+            1.063,
+            1.128
+          ]
+        }
+      }
+    }
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.5",
+    "font": "DejaVu Sans"
+  }
+}

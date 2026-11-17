@@ -1,0 +1,4 @@
+__pycache__/
+.mpl-cache/
+.test-tmp/
+.chrome-profile/

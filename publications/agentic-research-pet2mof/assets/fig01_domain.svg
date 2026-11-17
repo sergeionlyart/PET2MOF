@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="504pt" viewBox="0 0 864 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>PET2MOF tools/make_figures.py</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 864 504 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f8f7f3"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 131.944201 148.9824 
+Q 173.663375 148.9824 214.040909 148.9824 
+" clip-path="url(#p3fd185359b)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 208.840909 146.3824 
+L 214.040909 148.9824 
+L 208.840909 151.5824 
+z
+" clip-path="url(#p3fd185359b)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 418.102699 148.9824 
+Q 443.923141 148.9824 468.401942 148.9824 
+" clip-path="url(#p3fd185359b)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 463.201942 146.3824 
+L 468.401942 148.9824 
+L 463.201942 151.5824 
+z
+" clip-path="url(#p3fd185359b)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 648.62178 148.9824 
+Q 682.389809 148.9824 714.816197 148.9824 
+" clip-path="url(#p3fd185359b)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 709.616197 146.3824 
+L 714.816197 148.9824 
+L 709.616197 151.5824 
+z
+" clip-path="url(#p3fd185359b)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 764.52197 184.751499 
+Q 714.18321 241.515886 664.734618 297.276479 
+" clip-path="url(#p3fd185359b)" style="fill: none; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 670.13005 295.110998 
+L 664.734618 297.276479 
+L 666.239492 291.660844 
+z
+" clip-path="url(#p3fd185359b)" style="fill: #5c5c59; stroke: #5c5c59; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <g id="patch_6">
+     <path d="M 70.065584 163.2824 
+L 110.337616 163.2824 
+L 110.337616 134.6824 
+L 70.065584 134.6824 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #121212" x="90.2016" y="151.839822" transform="rotate(-0 90.2016 151.839822)">ПЭТ</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_7">
+     <path d="M 250.715969 163.2824 
+L 374.820031 163.2824 
+L 374.820031 134.6824 
+L 250.715969 134.6824 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #121212" x="312.768" y="151.839822" transform="rotate(-0 312.768 151.839822)">Деполимеризация</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_8">
+     <path d="M 508.664159 170.984548 
+L 609.697441 170.984548 
+L 609.697441 126.980252 
+L 508.664159 126.980252 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(517.464159 145.238748)">Терефталевая</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(517.916191 158.440896)">кислота (BDC)</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_9">
+     <path d="M 738.030772 170.984978 
+L 793.668428 170.984978 
+L 793.668428 126.979822 
+L 738.030772 126.979822 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(746.830772 145.239177)">UiO-66</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(755.529366 158.441326)">(Zr)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #121212" x="432" y="227.808" transform="rotate(-0 432 227.808)">Литературный прецедент: PET-derived UiO-66 получен (SRC-03, SRC-06)</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_10">
+     <path d="M 485.281987 368.785041 
+L 712.567612 368.785041 
+L 712.567612 306.171759 
+L 485.281987 306.171759 
+z
+" style="fill: #ffffff; stroke: #0755dc; stroke-width: 1.5; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #0755dc" transform="translate(494.881987 326.295431)">Модификация PEI → сорбция CO₂</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #0755dc" transform="translate(495.577612 340.698712)">Наша гипотеза: PET-UiO-66 + PEI</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #0755dc" transform="translate(520.795425 355.101056)">Композит не изготовлен</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_11">
+     <path d="M 124.872378 366.082482 
+L 278.097222 366.082482 
+L 278.097222 308.874318 
+L 124.872378 308.874318 
+z
+" style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(133.672378 327.132814)">Коммерческие аналоги</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(148.522378 340.335822)">PEI@UiO-66 (S100)</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(143.080816 353.53883)">PEI@UiO-66-NH₂ (S2)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #121212" x="432" y="426.5856" transform="rotate(-0 432 426.5856)">Носитель ≠ композит  ·  S2 — отдельный материал, не PET-композит</text>
+   </g>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #121212" x="34.56" y="42.023125" transform="rotate(-0 34.56 42.023125)">1 / От отходов ПЭТ к проверяемой гипотезе</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5c5c59" x="34.56" y="66.505625" transform="rotate(-0 34.56 66.505625)">Схема предмета исследования. Сорбция CO₂ — сухой чистый газ.</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5c5c59" x="34.56" y="482.325234" transform="rotate(-0 34.56 482.325234)">Источники: docs/work_order_task004_RU.md; reports/task003/next_experiment.md; SRC-03, SRC-06, S100, S2.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3fd185359b">
+   <rect x="34.56" y="90.72" width="794.88" height="342.72"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "schema": "pet2mof-article-draft/1",
+  "status": "draft_for_owner_review",
+  "status_label_ru": "Черновик для согласования",
+  "lang": "ru",
+  "locales_prepared": [
+    "ru"
+  ],
+  "locale_decision_required": "Сайт по умолчанию публикует pl/en/ru; для ru-only или переводов нужно отдельное решение владельца.",
+  "slug": "agentic-research-pet2mof",
+  "proposed_path": "/ru/writing/agentic-research-pet2mof",
+  "proposed_path_status": "proposal_only_not_published",
+  "title": "Агентская система в работе исследователя: от научного вопроса к проверяемым расчётам",
+  "subtitle": "Практический опыт исследования MOF–полимерных сорбентов и переработки ПЭТ",
+  "eyebrow": "Исследовательская практика / агентная инженерия",
+  "summary": "Как исследователь применил агентскую систему к незнакомой узкой задаче — сорбентам CO₂ на основе UiO-66 из ПЭТ: поручения, роли, расчёты, проверки, ошибки и три этапа от широкого вопроса к проверяемому опыту.",
+  "author_display": "Dobrovola",
+  "version": "черновик 0.9",
+  "draft_date": "2026-11-17",
+  "published_at": null,
+  "work_order": "PET-CO2-TASK-004 v1.0 (docs/work_order_task004_RU.md)",
+  "research_commits": {
+    "TASK-001": "66bae26af9970c3142b72d25031c844b5461708f",
+    "TASK-002": "1558433614619e04102989d6b6f1479c50f364ce",
+    "TASK-003": "70685dc686ce22505b303a60920980a02772f019"
+  },
+  "style_reference": "Dobrovola.dev article template; private site repository main b4a57048d32148707e81bb373088c6003b342b67 (read only, not copied)",
+  "robots": "noindex,nofollow",
+  "author": "Dobrovola",
+  "date": "17 ноября 2026",
+  "reading_time": "25 минут"
+}
