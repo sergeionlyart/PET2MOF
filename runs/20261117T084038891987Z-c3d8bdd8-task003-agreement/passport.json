@@ -1,0 +1,62 @@
+{
+  "run_id": "20261117T084038891987Z-c3d8bdd8-task003-agreement",
+  "purpose": "Compare counted TASK003 run with independent T043 exact recompute",
+  "hypothesis": "Main and independent computations agree within numerical tolerance",
+  "commit_sha": "c3d8bdd89082b56d1bfa58597bdd1d06490db87f",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [
+    {
+      "path": "reports/task003/analog_lines.csv",
+      "sha256": "282001b1d7dd063ca2b484e90ecd7cb7386a7aaba46ef10a56f928263e39cb1f"
+    },
+    {
+      "path": "reports/task003/transfer_kstar.csv",
+      "sha256": "67980bb5c757d10b58ae7bcb4f0aff0cc9ebca5f7a97e6e34b9a47401b5a13a5"
+    },
+    {
+      "path": "reports/task003/independent/recompute.csv",
+      "sha256": "7c9d099885986c3d39285ac62c156a1961708073e188e394d749592a864c948f"
+    }
+  ],
+  "parameters": {},
+  "seed": null,
+  "command": [
+    ".venv/bin/python",
+    "scripts/task003/compare_independent.py",
+    "--run-id",
+    "20261117T084038891987Z-c3d8bdd8-task003-agreement"
+  ],
+  "started_utc": "2026-11-17T08:40:38.891987+00:00",
+  "finished_utc": "2026-11-17T08:40:38.937097+00:00",
+  "status": "completed",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 0.032462417002534494,
+    "child_user_seconds": 0.021365000000000002,
+    "child_system_seconds": 0.007438,
+    "child_maxrss": 21397504,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [
+    {
+      "path": "reports/task003/independent_agreement.json",
+      "sha256": "826016bfca9c2a204b1e20e53c323f38ed65b4507763be821b65a7603e4abab0"
+    }
+  ],
+  "checks": [],
+  "limitations": [],
+  "execution_status": "completed"
+}
