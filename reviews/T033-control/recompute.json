@@ -1,0 +1,2108 @@
+{
+  "task_id": "T033-task002-recompute",
+  "input": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_dry_CO2.csv",
+  "source_locator": "Table 2 dry, p.3192; sections 2.2 and 4.6",
+  "source_id": "S2",
+  "extraction_id": "not present in permitted CSV inputs",
+  "status": "provisional sensitivity analysis",
+  "rounding_half_width_mmol_g": {
+    "fraction": "1/200",
+    "decimal": "0.005000000000000"
+  },
+  "samples": {
+    "S2-BASE": {
+      "q_mmol_g": {
+        "fraction": "267/100",
+        "decimal": "2.670000000000000"
+      },
+      "ratio_to_base": {
+        "fraction": "1",
+        "decimal": "1.000000000000000"
+      },
+      "gain_fraction": {
+        "fraction": "0",
+        "decimal": "0.000000000000000"
+      },
+      "gain_percent": {
+        "fraction": "0",
+        "decimal": "0.000000000000000"
+      },
+      "inventory_kg": {
+        "fraction": "10000000/1175067",
+        "decimal": "8.510153038082084"
+      },
+      "author_estimated_pei_pct": {
+        "fraction": "0",
+        "decimal": "0.000000000000000"
+      },
+      "author_estimated_pei_inventory_kg": {
+        "fraction": "0",
+        "decimal": "0.000000000000000"
+      }
+    },
+    "S2-C48": {
+      "q_mmol_g": {
+        "fraction": "11/4",
+        "decimal": "2.750000000000000"
+      },
+      "ratio_to_base": {
+        "fraction": "275/267",
+        "decimal": "1.029962546816479"
+      },
+      "gain_fraction": {
+        "fraction": "8/267",
+        "decimal": "0.029962546816479"
+      },
+      "gain_percent": {
+        "fraction": "800/267",
+        "decimal": "2.996254681647940"
+      },
+      "inventory_kg": {
+        "fraction": "400000/48411",
+        "decimal": "8.262584949701514"
+      },
+      "author_estimated_pei_pct": {
+        "fraction": "53/5",
+        "decimal": "10.600000000000000"
+      },
+      "author_estimated_pei_inventory_kg": {
+        "fraction": "42400/48411",
+        "decimal": "0.875834004668360"
+      }
+    },
+    "S2-C72": {
+      "q_mmol_g": {
+        "fraction": "163/50",
+        "decimal": "3.260000000000000"
+      },
+      "ratio_to_base": {
+        "fraction": "326/267",
+        "decimal": "1.220973782771536"
+      },
+      "gain_fraction": {
+        "fraction": "59/267",
+        "decimal": "0.220973782771536"
+      },
+      "gain_percent": {
+        "fraction": "5900/267",
+        "decimal": "22.097378277153558"
+      },
+      "inventory_kg": {
+        "fraction": "5000000/717363",
+        "decimal": "6.969971966772750"
+      },
+      "author_estimated_pei_pct": {
+        "fraction": "97/5",
+        "decimal": "19.400000000000000"
+      },
+      "author_estimated_pei_inventory_kg": {
+        "fraction": "970000/717363",
+        "decimal": "1.352174561553913"
+      }
+    },
+    "S2-N72": {
+      "q_mmol_g": {
+        "fraction": "299/100",
+        "decimal": "2.990000000000000"
+      },
+      "ratio_to_base": {
+        "fraction": "299/267",
+        "decimal": "1.119850187265918"
+      },
+      "gain_fraction": {
+        "fraction": "32/267",
+        "decimal": "0.119850187265918"
+      },
+      "gain_percent": {
+        "fraction": "3200/267",
+        "decimal": "11.985018726591760"
+      },
+      "inventory_kg": {
+        "fraction": "10000000/1315899",
+        "decimal": "7.599367428655239"
+      },
+      "author_estimated_pei_pct": {
+        "fraction": "173/10",
+        "decimal": "17.300000000000000"
+      },
+      "author_estimated_pei_inventory_kg": {
+        "fraction": "1730000/1315899",
+        "decimal": "1.314690565157356"
+      }
+    },
+    "S2-C96": {
+      "q_mmol_g": {
+        "fraction": "63/20",
+        "decimal": "3.150000000000000"
+      },
+      "ratio_to_base": {
+        "fraction": "105/89",
+        "decimal": "1.179775280898876"
+      },
+      "gain_fraction": {
+        "fraction": "16/89",
+        "decimal": "0.179775280898876"
+      },
+      "gain_percent": {
+        "fraction": "1600/89",
+        "decimal": "17.977528089887640"
+      },
+      "inventory_kg": {
+        "fraction": "2000000/277263",
+        "decimal": "7.213367813231481"
+      },
+      "author_estimated_pei_pct": {
+        "fraction": "112/5",
+        "decimal": "22.400000000000000"
+      },
+      "author_estimated_pei_inventory_kg": {
+        "fraction": "64000/39609",
+        "decimal": "1.615794390163852"
+      }
+    },
+    "S2-I96": {
+      "q_mmol_g": {
+        "fraction": "187/100",
+        "decimal": "1.870000000000000"
+      },
+      "ratio_to_base": {
+        "fraction": "187/267",
+        "decimal": "0.700374531835206"
+      },
+      "gain_fraction": {
+        "fraction": "-80/267",
+        "decimal": "-0.299625468164794"
+      },
+      "gain_percent": {
+        "fraction": "-8000/267",
+        "decimal": "-29.962546816479401"
+      },
+      "inventory_kg": {
+        "fraction": "10000000/822987",
+        "decimal": "12.150860220149285"
+      },
+      "author_estimated_pei_pct": {
+        "fraction": "217/5",
+        "decimal": "43.400000000000000"
+      },
+      "author_estimated_pei_inventory_kg": {
+        "fraction": "4340000/822987",
+        "decimal": "5.273473335544790"
+      }
+    }
+  },
+  "comparisons": {
+    "S2-C72/S2-C96": {
+      "ratio": {
+        "fraction": "326/315",
+        "decimal": "1.034920634920635"
+      },
+      "scenarios": {
+        "0.03": {
+          "a_bounds": [
+            {
+              "fraction": "7893/2500",
+              "decimal": "3.157200000000000"
+            },
+            {
+              "fraction": "8407/2500",
+              "decimal": "3.362800000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "6101/2000",
+              "decimal": "3.050500000000000"
+            },
+            {
+              "fraction": "6499/2000",
+              "decimal": "3.249500000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "31572/30505",
+              "decimal": "1.034977872479921"
+            },
+            {
+              "fraction": "31572/32495",
+              "decimal": "0.971595630096938"
+            },
+            {
+              "fraction": "33628/30505",
+              "decimal": "1.102376659564006"
+            },
+            {
+              "fraction": "33628/32495",
+              "decimal": "1.034866902600400"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "31572/32495",
+            "decimal": "0.971595630096938"
+          },
+          "ratio_max": {
+            "fraction": "33628/30505",
+            "decimal": "1.102376659564006"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        },
+        "0.05": {
+          "a_bounds": [
+            {
+              "fraction": "773/250",
+              "decimal": "3.092000000000000"
+            },
+            {
+              "fraction": "857/250",
+              "decimal": "3.428000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "239/80",
+              "decimal": "2.987500000000000"
+            },
+            {
+              "fraction": "53/16",
+              "decimal": "3.312500000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "6184/5975",
+              "decimal": "1.034979079497908"
+            },
+            {
+              "fraction": "6184/6625",
+              "decimal": "0.933433962264151"
+            },
+            {
+              "fraction": "6856/5975",
+              "decimal": "1.147447698744770"
+            },
+            {
+              "fraction": "6856/6625",
+              "decimal": "1.034867924528302"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "6184/6625",
+            "decimal": "0.933433962264151"
+          },
+          "ratio_max": {
+            "fraction": "6856/5975",
+            "decimal": "1.147447698744770"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        },
+        "0.10": {
+          "a_bounds": [
+            {
+              "fraction": "2929/1000",
+              "decimal": "2.929000000000000"
+            },
+            {
+              "fraction": "3591/1000",
+              "decimal": "3.591000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "283/100",
+              "decimal": "2.830000000000000"
+            },
+            {
+              "fraction": "347/100",
+              "decimal": "3.470000000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "2929/2830",
+              "decimal": "1.034982332155477"
+            },
+            {
+              "fraction": "2929/3470",
+              "decimal": "0.844092219020173"
+            },
+            {
+              "fraction": "3591/2830",
+              "decimal": "1.268904593639576"
+            },
+            {
+              "fraction": "3591/3470",
+              "decimal": "1.034870317002882"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "2929/3470",
+            "decimal": "0.844092219020173"
+          },
+          "ratio_max": {
+            "fraction": "3591/2830",
+            "decimal": "1.268904593639576"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        }
+      },
+      "threshold_with_rounding": {
+        "bisect_lo": {
+          "fraction": "4288266879/274877906944",
+          "decimal": "0.015600624024955"
+        },
+        "bisect_hi": {
+          "fraction": "17153067517/1099511627776",
+          "decimal": "0.015600624025865"
+        },
+        "bisect_mid": {
+          "fraction": "34306135033/2199023255552",
+          "decimal": "0.015600624025410"
+        },
+        "formula": {
+          "fraction": "10/641",
+          "decimal": "0.015600624024961"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      },
+      "threshold_without_rounding": {
+        "bisect_lo": {
+          "fraction": "18868374267/1099511627776",
+          "decimal": "0.017160686426905"
+        },
+        "bisect_hi": {
+          "fraction": "4717093567/274877906944",
+          "decimal": "0.017160686427815"
+        },
+        "bisect_mid": {
+          "fraction": "37736748535/2199023255552",
+          "decimal": "0.017160686427360"
+        },
+        "formula": {
+          "fraction": "11/641",
+          "decimal": "0.017160686427457"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      }
+    },
+    "S2-C72/S2-N72": {
+      "ratio": {
+        "fraction": "326/299",
+        "decimal": "1.090301003344482"
+      },
+      "scenarios": {
+        "0.03": {
+          "a_bounds": [
+            {
+              "fraction": "7893/2500",
+              "decimal": "3.157200000000000"
+            },
+            {
+              "fraction": "8407/2500",
+              "decimal": "3.362800000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "28953/10000",
+              "decimal": "2.895300000000000"
+            },
+            {
+              "fraction": "30847/10000",
+              "decimal": "3.084700000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "3508/3217",
+              "decimal": "1.090456947466584"
+            },
+            {
+              "fraction": "31572/30847",
+              "decimal": "1.023503095925049"
+            },
+            {
+              "fraction": "33628/28953",
+              "decimal": "1.161468587020343"
+            },
+            {
+              "fraction": "33628/30847",
+              "decimal": "1.090154634162155"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "31572/30847",
+            "decimal": "1.023503095925049"
+          },
+          "ratio_max": {
+            "fraction": "33628/28953",
+            "decimal": "1.161468587020343"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        },
+        "0.05": {
+          "a_bounds": [
+            {
+              "fraction": "773/250",
+              "decimal": "3.092000000000000"
+            },
+            {
+              "fraction": "857/250",
+              "decimal": "3.428000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "5671/2000",
+              "decimal": "2.835500000000000"
+            },
+            {
+              "fraction": "6289/2000",
+              "decimal": "3.144500000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "6184/5671",
+              "decimal": "1.090460236289896"
+            },
+            {
+              "fraction": "6184/6289",
+              "decimal": "0.983304181904913"
+            },
+            {
+              "fraction": "6856/5671",
+              "decimal": "1.208957855757362"
+            },
+            {
+              "fraction": "6856/6289",
+              "decimal": "1.090157417713468"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "6184/6289",
+            "decimal": "0.983304181904913"
+          },
+          "ratio_max": {
+            "fraction": "6856/5671",
+            "decimal": "1.208957855757362"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        },
+        "0.10": {
+          "a_bounds": [
+            {
+              "fraction": "2929/1000",
+              "decimal": "2.929000000000000"
+            },
+            {
+              "fraction": "3591/1000",
+              "decimal": "3.591000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "1343/500",
+              "decimal": "2.686000000000000"
+            },
+            {
+              "fraction": "1647/500",
+              "decimal": "3.294000000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "2929/2686",
+              "decimal": "1.090469099032018"
+            },
+            {
+              "fraction": "2929/3294",
+              "decimal": "0.889192471159684"
+            },
+            {
+              "fraction": "3591/2686",
+              "decimal": "1.336932241250931"
+            },
+            {
+              "fraction": "133/122",
+              "decimal": "1.090163934426230"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "2929/3294",
+            "decimal": "0.889192471159684"
+          },
+          "ratio_max": {
+            "fraction": "3591/2686",
+            "decimal": "1.336932241250931"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        }
+      },
+      "threshold_with_rounding": {
+        "bisect_lo": {
+          "fraction": "45739683715/1099511627776",
+          "decimal": "0.041599999999562"
+        },
+        "bisect_hi": {
+          "fraction": "11434920929/274877906944",
+          "decimal": "0.041600000000471"
+        },
+        "bisect_mid": {
+          "fraction": "91479367431/2199023255552",
+          "decimal": "0.041600000000017"
+        },
+        "formula": {
+          "fraction": "26/625",
+          "decimal": "0.041600000000000"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      },
+      "threshold_without_rounding": {
+        "bisect_lo": {
+          "fraction": "47498902319/1099511627776",
+          "decimal": "0.043199999999160"
+        },
+        "bisect_hi": {
+          "fraction": "2968681395/68719476736",
+          "decimal": "0.043200000000070"
+        },
+        "bisect_mid": {
+          "fraction": "94997804639/2199023255552",
+          "decimal": "0.043199999999615"
+        },
+        "formula": {
+          "fraction": "27/625",
+          "decimal": "0.043200000000000"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      }
+    },
+    "S2-C96/S2-I96": {
+      "ratio": {
+        "fraction": "315/187",
+        "decimal": "1.684491978609626"
+      },
+      "scenarios": {
+        "0.03": {
+          "a_bounds": [
+            {
+              "fraction": "6101/2000",
+              "decimal": "3.050500000000000"
+            },
+            {
+              "fraction": "6499/2000",
+              "decimal": "3.249500000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "18089/10000",
+              "decimal": "1.808900000000000"
+            },
+            {
+              "fraction": "19311/10000",
+              "decimal": "1.931100000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "30505/18089",
+              "decimal": "1.686383990270330"
+            },
+            {
+              "fraction": "30505/19311",
+              "decimal": "1.579669618352234"
+            },
+            {
+              "fraction": "32495/18089",
+              "decimal": "1.796395599535629"
+            },
+            {
+              "fraction": "32495/19311",
+              "decimal": "1.682719693438973"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "30505/19311",
+            "decimal": "1.579669618352234"
+          },
+          "ratio_max": {
+            "fraction": "32495/18089",
+            "decimal": "1.796395599535629"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        },
+        "0.05": {
+          "a_bounds": [
+            {
+              "fraction": "239/80",
+              "decimal": "2.987500000000000"
+            },
+            {
+              "fraction": "53/16",
+              "decimal": "3.312500000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "3543/2000",
+              "decimal": "1.771500000000000"
+            },
+            {
+              "fraction": "3937/2000",
+              "decimal": "1.968500000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "5975/3543",
+              "decimal": "1.686423934518769"
+            },
+            {
+              "fraction": "5975/3937",
+              "decimal": "1.517653035306071"
+            },
+            {
+              "fraction": "6625/3543",
+              "decimal": "1.869884278859723"
+            },
+            {
+              "fraction": "6625/3937",
+              "decimal": "1.682753365506731"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "5975/3937",
+            "decimal": "1.517653035306071"
+          },
+          "ratio_max": {
+            "fraction": "6625/3543",
+            "decimal": "1.869884278859723"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        },
+        "0.10": {
+          "a_bounds": [
+            {
+              "fraction": "283/100",
+              "decimal": "2.830000000000000"
+            },
+            {
+              "fraction": "347/100",
+              "decimal": "3.470000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "839/500",
+              "decimal": "1.678000000000000"
+            },
+            {
+              "fraction": "1031/500",
+              "decimal": "2.062000000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "1415/839",
+              "decimal": "1.686531585220501"
+            },
+            {
+              "fraction": "1415/1031",
+              "decimal": "1.372453928225024"
+            },
+            {
+              "fraction": "1735/839",
+              "decimal": "2.067938021454112"
+            },
+            {
+              "fraction": "1735/1031",
+              "decimal": "1.682832201745878"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "1415/1031",
+            "decimal": "1.372453928225024"
+          },
+          "ratio_max": {
+            "fraction": "1735/839",
+            "decimal": "2.067938021454112"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        }
+      },
+      "threshold_with_rounding": {
+        "bisect_lo": {
+          "fraction": "139081650127/549755813888",
+          "decimal": "0.252988047808685"
+        },
+        "bisect_hi": {
+          "fraction": "278163300255/1099511627776",
+          "decimal": "0.252988047809595"
+        },
+        "bisect_mid": {
+          "fraction": "556326600509/2199023255552",
+          "decimal": "0.252988047809140"
+        },
+        "formula": {
+          "fraction": "127/502",
+          "decimal": "0.252988047808765"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      },
+      "threshold_without_rounding": {
+        "bisect_lo": {
+          "fraction": "70088390615/274877906944",
+          "decimal": "0.254980079680536"
+        },
+        "bisect_hi": {
+          "fraction": "280353562461/1099511627776",
+          "decimal": "0.254980079681445"
+        },
+        "bisect_mid": {
+          "fraction": "560707124921/2199023255552",
+          "decimal": "0.254980079680990"
+        },
+        "formula": {
+          "fraction": "64/251",
+          "decimal": "0.254980079681275"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      }
+    },
+    "S2-C48/S2-BASE": {
+      "ratio": {
+        "fraction": "275/267",
+        "decimal": "1.029962546816479"
+      },
+      "scenarios": {
+        "0.03": {
+          "a_bounds": [
+            {
+              "fraction": "213/80",
+              "decimal": "2.662500000000000"
+            },
+            {
+              "fraction": "227/80",
+              "decimal": "2.837500000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "25849/10000",
+              "decimal": "2.584900000000000"
+            },
+            {
+              "fraction": "27551/10000",
+              "decimal": "2.755100000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "26625/25849",
+              "decimal": "1.030020503694534"
+            },
+            {
+              "fraction": "26625/27551",
+              "decimal": "0.966389604733041"
+            },
+            {
+              "fraction": "28375/25849",
+              "decimal": "1.097721381871639"
+            },
+            {
+              "fraction": "28375/27551",
+              "decimal": "1.029908170302348"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "26625/27551",
+            "decimal": "0.966389604733041"
+          },
+          "ratio_max": {
+            "fraction": "28375/25849",
+            "decimal": "1.097721381871639"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        },
+        "0.05": {
+          "a_bounds": [
+            {
+              "fraction": "1043/400",
+              "decimal": "2.607500000000000"
+            },
+            {
+              "fraction": "1157/400",
+              "decimal": "2.892500000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "5063/2000",
+              "decimal": "2.531500000000000"
+            },
+            {
+              "fraction": "5617/2000",
+              "decimal": "2.808500000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "5215/5063",
+              "decimal": "1.030021726249259"
+            },
+            {
+              "fraction": "5215/5617",
+              "decimal": "0.928431547089194"
+            },
+            {
+              "fraction": "5785/5063",
+              "decimal": "1.142603199683982"
+            },
+            {
+              "fraction": "5785/5617",
+              "decimal": "1.029909204201531"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "5215/5617",
+            "decimal": "0.928431547089194"
+          },
+          "ratio_max": {
+            "fraction": "5785/5063",
+            "decimal": "1.142603199683982"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        },
+        "0.10": {
+          "a_bounds": [
+            {
+              "fraction": "247/100",
+              "decimal": "2.470000000000000"
+            },
+            {
+              "fraction": "303/100",
+              "decimal": "3.030000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "1199/500",
+              "decimal": "2.398000000000000"
+            },
+            {
+              "fraction": "1471/500",
+              "decimal": "2.942000000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "1235/1199",
+              "decimal": "1.030025020850709"
+            },
+            {
+              "fraction": "1235/1471",
+              "decimal": "0.839564921821890"
+            },
+            {
+              "fraction": "1515/1199",
+              "decimal": "1.263552960800667"
+            },
+            {
+              "fraction": "1515/1471",
+              "decimal": "1.029911624745071"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "1235/1471",
+            "decimal": "0.839564921821890"
+          },
+          "ratio_max": {
+            "fraction": "1515/1199",
+            "decimal": "1.263552960800667"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        }
+      },
+      "threshold_with_rounding": {
+        "bisect_lo": {
+          "fraction": "3550083669/274877906944",
+          "decimal": "0.012915129151224"
+        },
+        "bisect_hi": {
+          "fraction": "14200334677/1099511627776",
+          "decimal": "0.012915129152134"
+        },
+        "bisect_mid": {
+          "fraction": "28400669353/2199023255552",
+          "decimal": "0.012915129151679"
+        },
+        "formula": {
+          "fraction": "7/542",
+          "decimal": "0.012915129151292"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      },
+      "threshold_without_rounding": {
+        "bisect_lo": {
+          "fraction": "16228953915/1099511627776",
+          "decimal": "0.014760147601010"
+        },
+        "bisect_hi": {
+          "fraction": "4057238479/274877906944",
+          "decimal": "0.014760147601919"
+        },
+        "bisect_mid": {
+          "fraction": "32457907831/2199023255552",
+          "decimal": "0.014760147601464"
+        },
+        "formula": {
+          "fraction": "4/271",
+          "decimal": "0.014760147601476"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      }
+    },
+    "S2-C72/S2-BASE": {
+      "ratio": {
+        "fraction": "326/267",
+        "decimal": "1.220973782771536"
+      },
+      "scenarios": {
+        "0.03": {
+          "a_bounds": [
+            {
+              "fraction": "7893/2500",
+              "decimal": "3.157200000000000"
+            },
+            {
+              "fraction": "8407/2500",
+              "decimal": "3.362800000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "25849/10000",
+              "decimal": "2.584900000000000"
+            },
+            {
+              "fraction": "27551/10000",
+              "decimal": "2.755100000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "31572/25849",
+              "decimal": "1.221401214747186"
+            },
+            {
+              "fraction": "31572/27551",
+              "decimal": "1.145947515516678"
+            },
+            {
+              "fraction": "33628/25849",
+              "decimal": "1.300940075051259"
+            },
+            {
+              "fraction": "33628/27551",
+              "decimal": "1.220572755979819"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "31572/27551",
+            "decimal": "1.145947515516678"
+          },
+          "ratio_max": {
+            "fraction": "33628/25849",
+            "decimal": "1.300940075051259"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        },
+        "0.05": {
+          "a_bounds": [
+            {
+              "fraction": "773/250",
+              "decimal": "3.092000000000000"
+            },
+            {
+              "fraction": "857/250",
+              "decimal": "3.428000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "5063/2000",
+              "decimal": "2.531500000000000"
+            },
+            {
+              "fraction": "5617/2000",
+              "decimal": "2.808500000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "6184/5063",
+              "decimal": "1.221410231088288"
+            },
+            {
+              "fraction": "6184/5617",
+              "decimal": "1.100943564180167"
+            },
+            {
+              "fraction": "6856/5063",
+              "decimal": "1.354137862927118"
+            },
+            {
+              "fraction": "6856/5617",
+              "decimal": "1.220580380986292"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "6184/5617",
+            "decimal": "1.100943564180167"
+          },
+          "ratio_max": {
+            "fraction": "6856/5063",
+            "decimal": "1.354137862927118"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        },
+        "0.10": {
+          "a_bounds": [
+            {
+              "fraction": "2929/1000",
+              "decimal": "2.929000000000000"
+            },
+            {
+              "fraction": "3591/1000",
+              "decimal": "3.591000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "1199/500",
+              "decimal": "2.398000000000000"
+            },
+            {
+              "fraction": "1471/500",
+              "decimal": "2.942000000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "2929/2398",
+              "decimal": "1.221434528773978"
+            },
+            {
+              "fraction": "2929/2942",
+              "decimal": "0.995581237253569"
+            },
+            {
+              "fraction": "3591/2398",
+              "decimal": "1.497497914929108"
+            },
+            {
+              "fraction": "3591/2942",
+              "decimal": "1.220598232494901"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "2929/2942",
+            "decimal": "0.995581237253569"
+          },
+          "ratio_max": {
+            "fraction": "3591/2398",
+            "decimal": "1.497497914929108"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        }
+      },
+      "threshold_with_rounding": {
+        "bisect_lo": {
+          "fraction": "107540766291/1099511627776",
+          "decimal": "0.097807757166265"
+        },
+        "bisect_hi": {
+          "fraction": "26885191573/274877906944",
+          "decimal": "0.097807757167175"
+        },
+        "bisect_mid": {
+          "fraction": "215081532583/2199023255552",
+          "decimal": "0.097807757166720"
+        },
+        "formula": {
+          "fraction": "58/593",
+          "decimal": "0.097807757166948"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      },
+      "threshold_without_rounding": {
+        "bisect_lo": {
+          "fraction": "54697458717/549755813888",
+          "decimal": "0.099494097807110"
+        },
+        "bisect_hi": {
+          "fraction": "109394917435/1099511627776",
+          "decimal": "0.099494097808019"
+        },
+        "bisect_mid": {
+          "fraction": "218789834869/2199023255552",
+          "decimal": "0.099494097807565"
+        },
+        "formula": {
+          "fraction": "59/593",
+          "decimal": "0.099494097807757"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      }
+    },
+    "S2-N72/S2-BASE": {
+      "ratio": {
+        "fraction": "299/267",
+        "decimal": "1.119850187265918"
+      },
+      "scenarios": {
+        "0.03": {
+          "a_bounds": [
+            {
+              "fraction": "28953/10000",
+              "decimal": "2.895300000000000"
+            },
+            {
+              "fraction": "30847/10000",
+              "decimal": "3.084700000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "25849/10000",
+              "decimal": "2.584900000000000"
+            },
+            {
+              "fraction": "27551/10000",
+              "decimal": "2.755100000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "28953/25849",
+              "decimal": "1.120082014778135"
+            },
+            {
+              "fraction": "28953/27551",
+              "decimal": "1.050887445101811"
+            },
+            {
+              "fraction": "30847/25849",
+              "decimal": "1.193353708073813"
+            },
+            {
+              "fraction": "30847/27551",
+              "decimal": "1.119632681209393"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "28953/27551",
+            "decimal": "1.050887445101811"
+          },
+          "ratio_max": {
+            "fraction": "30847/25849",
+            "decimal": "1.193353708073813"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        },
+        "0.05": {
+          "a_bounds": [
+            {
+              "fraction": "5671/2000",
+              "decimal": "2.835500000000000"
+            },
+            {
+              "fraction": "6289/2000",
+              "decimal": "3.144500000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "5063/2000",
+              "decimal": "2.531500000000000"
+            },
+            {
+              "fraction": "5617/2000",
+              "decimal": "2.808500000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "5671/5063",
+              "decimal": "1.120086904997037"
+            },
+            {
+              "fraction": "5671/5617",
+              "decimal": "1.009613672779064"
+            },
+            {
+              "fraction": "6289/5063",
+              "decimal": "1.242148923563105"
+            },
+            {
+              "fraction": "6289/5617",
+              "decimal": "1.119636816806124"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "5671/5617",
+            "decimal": "1.009613672779064"
+          },
+          "ratio_max": {
+            "fraction": "6289/5063",
+            "decimal": "1.242148923563105"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        },
+        "0.10": {
+          "a_bounds": [
+            {
+              "fraction": "1343/500",
+              "decimal": "2.686000000000000"
+            },
+            {
+              "fraction": "1647/500",
+              "decimal": "3.294000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "1199/500",
+              "decimal": "2.398000000000000"
+            },
+            {
+              "fraction": "1471/500",
+              "decimal": "2.942000000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "1343/1199",
+              "decimal": "1.120100083402836"
+            },
+            {
+              "fraction": "1343/1471",
+              "decimal": "0.912984364377974"
+            },
+            {
+              "fraction": "1647/1199",
+              "decimal": "1.373644703919933"
+            },
+            {
+              "fraction": "1647/1471",
+              "decimal": "1.119646498980286"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "1343/1471",
+            "decimal": "0.912984364377974"
+          },
+          "ratio_max": {
+            "fraction": "1647/1199",
+            "decimal": "1.373644703919933"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        }
+      },
+      "threshold_with_rounding": {
+        "bisect_lo": {
+          "fraction": "60220601521/1099511627776",
+          "decimal": "0.054770318020928"
+        },
+        "bisect_hi": {
+          "fraction": "30110300761/549755813888",
+          "decimal": "0.054770318021838"
+        },
+        "bisect_mid": {
+          "fraction": "120441203043/2199023255552",
+          "decimal": "0.054770318021383"
+        },
+        "formula": {
+          "fraction": "31/566",
+          "decimal": "0.054770318021201"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      },
+      "threshold_without_rounding": {
+        "bisect_lo": {
+          "fraction": "31081600785/549755813888",
+          "decimal": "0.056537102473158"
+        },
+        "bisect_hi": {
+          "fraction": "62163201571/1099511627776",
+          "decimal": "0.056537102474067"
+        },
+        "bisect_mid": {
+          "fraction": "124326403141/2199023255552",
+          "decimal": "0.056537102473612"
+        },
+        "formula": {
+          "fraction": "16/283",
+          "decimal": "0.056537102473498"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      }
+    },
+    "S2-C96/S2-BASE": {
+      "ratio": {
+        "fraction": "105/89",
+        "decimal": "1.179775280898876"
+      },
+      "scenarios": {
+        "0.03": {
+          "a_bounds": [
+            {
+              "fraction": "6101/2000",
+              "decimal": "3.050500000000000"
+            },
+            {
+              "fraction": "6499/2000",
+              "decimal": "3.249500000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "25849/10000",
+              "decimal": "2.584900000000000"
+            },
+            {
+              "fraction": "27551/10000",
+              "decimal": "2.755100000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "30505/25849",
+              "decimal": "1.180123022167202"
+            },
+            {
+              "fraction": "30505/27551",
+              "decimal": "1.107219338680992"
+            },
+            {
+              "fraction": "32495/25849",
+              "decimal": "1.257108592208596"
+            },
+            {
+              "fraction": "32495/27551",
+              "decimal": "1.179449021814090"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "30505/27551",
+            "decimal": "1.107219338680992"
+          },
+          "ratio_max": {
+            "fraction": "32495/25849",
+            "decimal": "1.257108592208596"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        },
+        "0.05": {
+          "a_bounds": [
+            {
+              "fraction": "239/80",
+              "decimal": "2.987500000000000"
+            },
+            {
+              "fraction": "53/16",
+              "decimal": "3.312500000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "5063/2000",
+              "decimal": "2.531500000000000"
+            },
+            {
+              "fraction": "5617/2000",
+              "decimal": "2.808500000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "5975/5063",
+              "decimal": "1.180130357495556"
+            },
+            {
+              "fraction": "5975/5617",
+              "decimal": "1.063735089905644"
+            },
+            {
+              "fraction": "6625/5063",
+              "decimal": "1.308512739482520"
+            },
+            {
+              "fraction": "6625/5617",
+              "decimal": "1.179455225209186"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "5975/5617",
+            "decimal": "1.063735089905644"
+          },
+          "ratio_max": {
+            "fraction": "6625/5063",
+            "decimal": "1.308512739482520"
+          },
+          "a_above_b": true,
+          "b_above_a": false
+        },
+        "0.10": {
+          "a_bounds": [
+            {
+              "fraction": "283/100",
+              "decimal": "2.830000000000000"
+            },
+            {
+              "fraction": "347/100",
+              "decimal": "3.470000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "1199/500",
+              "decimal": "2.398000000000000"
+            },
+            {
+              "fraction": "1471/500",
+              "decimal": "2.942000000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "1415/1199",
+              "decimal": "1.180150125104254"
+            },
+            {
+              "fraction": "1415/1471",
+              "decimal": "0.961930659415364"
+            },
+            {
+              "fraction": "1735/1199",
+              "decimal": "1.447039199332777"
+            },
+            {
+              "fraction": "1735/1471",
+              "decimal": "1.179469748470428"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "1415/1471",
+            "decimal": "0.961930659415364"
+          },
+          "ratio_max": {
+            "fraction": "1735/1199",
+            "decimal": "1.447039199332777"
+          },
+          "a_above_b": false,
+          "b_above_a": false
+        }
+      },
+      "threshold_with_rounding": {
+        "bisect_lo": {
+          "fraction": "44396088063/549755813888",
+          "decimal": "0.080756013745486"
+        },
+        "bisect_hi": {
+          "fraction": "88792176127/1099511627776",
+          "decimal": "0.080756013746395"
+        },
+        "bisect_mid": {
+          "fraction": "177584352253/2199023255552",
+          "decimal": "0.080756013745940"
+        },
+        "formula": {
+          "fraction": "47/582",
+          "decimal": "0.080756013745704"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      },
+      "threshold_without_rounding": {
+        "bisect_lo": {
+          "fraction": "45340685681/549755813888",
+          "decimal": "0.082474226803242"
+        },
+        "bisect_hi": {
+          "fraction": "90681371363/1099511627776",
+          "decimal": "0.082474226804152"
+        },
+        "bisect_mid": {
+          "fraction": "181362742725/2199023255552",
+          "decimal": "0.082474226803697"
+        },
+        "formula": {
+          "fraction": "8/97",
+          "decimal": "0.082474226804124"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": true
+      }
+    },
+    "S2-I96/S2-BASE": {
+      "ratio": {
+        "fraction": "187/267",
+        "decimal": "0.700374531835206"
+      },
+      "scenarios": {
+        "0.03": {
+          "a_bounds": [
+            {
+              "fraction": "18089/10000",
+              "decimal": "1.808900000000000"
+            },
+            {
+              "fraction": "19311/10000",
+              "decimal": "1.931100000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "25849/10000",
+              "decimal": "2.584900000000000"
+            },
+            {
+              "fraction": "27551/10000",
+              "decimal": "2.755100000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "18089/25849",
+              "decimal": "0.699794963054664"
+            },
+            {
+              "fraction": "18089/27551",
+              "decimal": "0.656564190047548"
+            },
+            {
+              "fraction": "19311/25849",
+              "decimal": "0.747069519130334"
+            },
+            {
+              "fraction": "19311/27551",
+              "decimal": "0.700918296976516"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "18089/27551",
+            "decimal": "0.656564190047548"
+          },
+          "ratio_max": {
+            "fraction": "19311/25849",
+            "decimal": "0.747069519130334"
+          },
+          "a_above_b": false,
+          "b_above_a": true
+        },
+        "0.05": {
+          "a_bounds": [
+            {
+              "fraction": "3543/2000",
+              "decimal": "1.771500000000000"
+            },
+            {
+              "fraction": "3937/2000",
+              "decimal": "1.968500000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "5063/2000",
+              "decimal": "2.531500000000000"
+            },
+            {
+              "fraction": "5617/2000",
+              "decimal": "2.808500000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "3543/5063",
+              "decimal": "0.699782737507407"
+            },
+            {
+              "fraction": "3543/5617",
+              "decimal": "0.630763752893003"
+            },
+            {
+              "fraction": "3937/5063",
+              "decimal": "0.777602212127197"
+            },
+            {
+              "fraction": "3937/5617",
+              "decimal": "0.700907957984689"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "3543/5617",
+            "decimal": "0.630763752893003"
+          },
+          "ratio_max": {
+            "fraction": "3937/5063",
+            "decimal": "0.777602212127197"
+          },
+          "a_above_b": false,
+          "b_above_a": true
+        },
+        "0.10": {
+          "a_bounds": [
+            {
+              "fraction": "839/500",
+              "decimal": "1.678000000000000"
+            },
+            {
+              "fraction": "1031/500",
+              "decimal": "2.062000000000000"
+            }
+          ],
+          "b_bounds": [
+            {
+              "fraction": "1199/500",
+              "decimal": "2.398000000000000"
+            },
+            {
+              "fraction": "1471/500",
+              "decimal": "2.942000000000000"
+            }
+          ],
+          "ratio_vertices": [
+            {
+              "fraction": "839/1199",
+              "decimal": "0.699749791492911"
+            },
+            {
+              "fraction": "839/1471",
+              "decimal": "0.570360299116247"
+            },
+            {
+              "fraction": "1031/1199",
+              "decimal": "0.859883236030025"
+            },
+            {
+              "fraction": "1031/1471",
+              "decimal": "0.700883752549286"
+            }
+          ],
+          "ratio_min": {
+            "fraction": "839/1471",
+            "decimal": "0.570360299116247"
+          },
+          "ratio_max": {
+            "fraction": "1031/1199",
+            "decimal": "0.859883236030025"
+          },
+          "a_above_b": false,
+          "b_above_a": true
+        }
+      },
+      "threshold_with_rounding": {
+        "bisect_lo": {
+          "fraction": "-196168374119/1099511627776",
+          "decimal": "-0.178414096916640"
+        },
+        "bisect_hi": {
+          "fraction": "-98084187059/549755813888",
+          "decimal": "-0.178414096915731"
+        },
+        "bisect_mid": {
+          "fraction": "-392336748237/2199023255552",
+          "decimal": "-0.178414096916185"
+        },
+        "formula": {
+          "fraction": "-81/454",
+          "decimal": "-0.178414096916300"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": false
+      },
+      "threshold_without_rounding": {
+        "bisect_lo": {
+          "fraction": "-48436635585/274877906944",
+          "decimal": "-0.176211453745054"
+        },
+        "bisect_hi": {
+          "fraction": "-193746542339/1099511627776",
+          "decimal": "-0.176211453744145"
+        },
+        "bisect_mid": {
+          "fraction": "-387493084679/2199023255552",
+          "decimal": "-0.176211453744600"
+        },
+        "formula": {
+          "fraction": "-40/227",
+          "decimal": "-0.176211453744493"
+        },
+        "absolute_error_bound": {
+          "fraction": "1/1099511627776",
+          "decimal": "0.000000000000909"
+        },
+        "nonnegative_root": false
+      }
+    }
+  },
+  "common_multiplier": {
+    "0.03": {
+      "minus": {
+        "k": {
+          "fraction": "97/100",
+          "decimal": "0.970000000000000"
+        },
+        "inventory_multiplier": {
+          "fraction": "100/97",
+          "decimal": "1.030927835051546"
+        },
+        "ranking": [
+          "S2-C72",
+          "S2-C96",
+          "S2-N72",
+          "S2-C48",
+          "S2-BASE",
+          "S2-I96"
+        ],
+        "inventory_kg": {
+          "S2-BASE": {
+            "fraction": "1000000000/113981499",
+            "decimal": "8.773353647507303"
+          },
+          "S2-C48": {
+            "fraction": "40000000/4695867",
+            "decimal": "8.518128814125272"
+          },
+          "S2-C72": {
+            "fraction": "500000000/69584211",
+            "decimal": "7.185538110075000"
+          },
+          "S2-N72": {
+            "fraction": "1000000000/127642203",
+            "decimal": "7.834399410984782"
+          },
+          "S2-C96": {
+            "fraction": "200000000/26894511",
+            "decimal": "7.436461663125238"
+          },
+          "S2-I96": {
+            "fraction": "1000000000/79829739",
+            "decimal": "12.526660020772459"
+          }
+        }
+      },
+      "plus": {
+        "k": {
+          "fraction": "103/100",
+          "decimal": "1.030000000000000"
+        },
+        "inventory_multiplier": {
+          "fraction": "100/103",
+          "decimal": "0.970873786407767"
+        },
+        "ranking": [
+          "S2-C72",
+          "S2-C96",
+          "S2-N72",
+          "S2-C48",
+          "S2-BASE",
+          "S2-I96"
+        ],
+        "inventory_kg": {
+          "S2-BASE": {
+            "fraction": "1000000000/121031901",
+            "decimal": "8.262284502992314"
+          },
+          "S2-C48": {
+            "fraction": "40000000/4986333",
+            "decimal": "8.021927135632538"
+          },
+          "S2-C72": {
+            "fraction": "500000000/73888389",
+            "decimal": "6.766963074536650"
+          },
+          "S2-N72": {
+            "fraction": "1000000000/135537597",
+            "decimal": "7.378026629762368"
+          },
+          "S2-C96": {
+            "fraction": "200000000/28558089",
+            "decimal": "7.003269721583962"
+          },
+          "S2-I96": {
+            "fraction": "1000000000/84767661",
+            "decimal": "11.796951670047850"
+          }
+        }
+      }
+    },
+    "0.05": {
+      "minus": {
+        "k": {
+          "fraction": "19/20",
+          "decimal": "0.950000000000000"
+        },
+        "inventory_multiplier": {
+          "fraction": "20/19",
+          "decimal": "1.052631578947368"
+        },
+        "ranking": [
+          "S2-C72",
+          "S2-C96",
+          "S2-N72",
+          "S2-C48",
+          "S2-BASE",
+          "S2-I96"
+        ],
+        "inventory_kg": {
+          "S2-BASE": {
+            "fraction": "200000000/22326273",
+            "decimal": "8.958055829560088"
+          },
+          "S2-C48": {
+            "fraction": "8000000/919809",
+            "decimal": "8.697457841791067"
+          },
+          "S2-C72": {
+            "fraction": "100000000/13629897",
+            "decimal": "7.336812596602894"
+          },
+          "S2-N72": {
+            "fraction": "200000000/25002081",
+            "decimal": "7.999334135426567"
+          },
+          "S2-C96": {
+            "fraction": "40000000/5267997",
+            "decimal": "7.593018750769980"
+          },
+          "S2-I96": {
+            "fraction": "200000000/15636753",
+            "decimal": "12.790379179104511"
+          }
+        }
+      },
+      "plus": {
+        "k": {
+          "fraction": "21/20",
+          "decimal": "1.050000000000000"
+        },
+        "inventory_multiplier": {
+          "fraction": "20/21",
+          "decimal": "0.952380952380952"
+        },
+        "ranking": [
+          "S2-C72",
+          "S2-C96",
+          "S2-N72",
+          "S2-C48",
+          "S2-BASE",
+          "S2-I96"
+        ],
+        "inventory_kg": {
+          "S2-BASE": {
+            "fraction": "200000000/24676407",
+            "decimal": "8.104907655316270"
+          },
+          "S2-C48": {
+            "fraction": "8000000/1016631",
+            "decimal": "7.869128523525252"
+          },
+          "S2-C72": {
+            "fraction": "100000000/15064623",
+            "decimal": "6.638068539783571"
+          },
+          "S2-N72": {
+            "fraction": "200000000/27633879",
+            "decimal": "7.237492789195465"
+          },
+          "S2-C96": {
+            "fraction": "40000000/5822523",
+            "decimal": "6.869874107839505"
+          },
+          "S2-I96": {
+            "fraction": "200000000/17282727",
+            "decimal": "11.572247828713605"
+          }
+        }
+      }
+    },
+    "0.10": {
+      "minus": {
+        "k": {
+          "fraction": "9/10",
+          "decimal": "0.900000000000000"
+        },
+        "inventory_multiplier": {
+          "fraction": "10/9",
+          "decimal": "1.111111111111111"
+        },
+        "ranking": [
+          "S2-C72",
+          "S2-C96",
+          "S2-N72",
+          "S2-C48",
+          "S2-BASE",
+          "S2-I96"
+        ],
+        "inventory_kg": {
+          "S2-BASE": {
+            "fraction": "100000000/10575603",
+            "decimal": "9.455725597868982"
+          },
+          "S2-C48": {
+            "fraction": "4000000/435699",
+            "decimal": "9.180649944112793"
+          },
+          "S2-C72": {
+            "fraction": "50000000/6456267",
+            "decimal": "7.744413296414166"
+          },
+          "S2-N72": {
+            "fraction": "100000000/11843091",
+            "decimal": "8.443741587394710"
+          },
+          "S2-C96": {
+            "fraction": "20000000/2495367",
+            "decimal": "8.014853125812756"
+          },
+          "S2-I96": {
+            "fraction": "100000000/7406883",
+            "decimal": "13.500955800165873"
+          }
+        }
+      },
+      "plus": {
+        "k": {
+          "fraction": "11/10",
+          "decimal": "1.100000000000000"
+        },
+        "inventory_multiplier": {
+          "fraction": "10/11",
+          "decimal": "0.909090909090909"
+        },
+        "ranking": [
+          "S2-C72",
+          "S2-C96",
+          "S2-N72",
+          "S2-C48",
+          "S2-BASE",
+          "S2-I96"
+        ],
+        "inventory_kg": {
+          "S2-BASE": {
+            "fraction": "100000000/12925737",
+            "decimal": "7.736502761892803"
+          },
+          "S2-C48": {
+            "fraction": "4000000/532521",
+            "decimal": "7.511440863365013"
+          },
+          "S2-C72": {
+            "fraction": "50000000/7890993",
+            "decimal": "6.336338151611591"
+          },
+          "S2-N72": {
+            "fraction": "100000000/14474889",
+            "decimal": "6.908515844232035"
+          },
+          "S2-C96": {
+            "fraction": "20000000/3049893",
+            "decimal": "6.557607102937710"
+          },
+          "S2-I96": {
+            "fraction": "100000000/9052857",
+            "decimal": "11.046236563772078"
+          }
+        }
+      }
+    }
+  },
+  "nominal_ranking": [
+    "S2-C72",
+    "S2-C96",
+    "S2-N72",
+    "S2-C48",
+    "S2-BASE",
+    "S2-I96"
+  ]
+}
