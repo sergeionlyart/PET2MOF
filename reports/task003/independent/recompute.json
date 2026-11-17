@@ -1,0 +1,1669 @@
+{
+  "task": "T043-task003-independent-recompute",
+  "status": "provisional conditional sensitivity analysis; not a validated prediction",
+  "pressure_bar": "0.896",
+  "interpolation_brackets_point_ids": {
+    "10PEI@UiO-66": [
+      "10PEI-UiO-66-08",
+      "10PEI-UiO-66-09"
+    ],
+    "20PEI@UiO-66": [
+      "20PEI-UiO-66-08",
+      "20PEI-UiO-66-09"
+    ],
+    "30PEI@UiO-66": [
+      "30PEI-UiO-66-08",
+      "30PEI-UiO-66-09"
+    ],
+    "40PEI@UiO-66": [
+      "40PEI-UiO-66-08",
+      "40PEI-UiO-66-09"
+    ],
+    "UiO-66": [
+      "UiO-66-08",
+      "UiO-66-09"
+    ]
+  },
+  "n_N_mmol_g": {
+    "30.74": "21.95",
+    "32.52": "23.22"
+  },
+  "extraction_ids": {
+    "S2": "T001-S2-02; T001-S2-03; T001-S2-04; T001-S2-05; T001-S2-06; T001-S2-07",
+    "S100": "T006-S100-FigS5",
+    "S100_methods": "T040-S100-methods"
+  },
+  "inputs": [
+    "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_materials.csv",
+    "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_dry_CO2.csv",
+    "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv",
+    "data/task003/extracted/S100_methods.csv"
+  ],
+  "bisection": "lower and upper rational brackets width <= 1e-12; lower satisfies inequality",
+  "rows": [
+    {
+      "quantity": "PEI_exp_recomputed",
+      "case": "S2-C48",
+      "branch": "N_W",
+      "value_exact": "22940/216717",
+      "value_float": 0.10585233276577287
+    },
+    {
+      "quantity": "PEI_exp_author",
+      "case": "S2-C48",
+      "branch": "table",
+      "value_exact": "53/500",
+      "value_float": 0.106
+    },
+    {
+      "quantity": "PEI_exp_difference",
+      "case": "S2-C48",
+      "branch": "N_W_minus_table",
+      "value_exact": "-16001/108358500",
+      "value_float": -0.00014766723422712569
+    },
+    {
+      "quantity": "h",
+      "case": "S2-C48",
+      "branch": "s-I",
+      "value_exact": "100/141",
+      "value_float": 0.7092198581560284
+    },
+    {
+      "quantity": "w",
+      "case": "S2-C48",
+      "branch": "s-I",
+      "value_exact": "53/500",
+      "value_float": 0.106
+    },
+    {
+      "quantity": "s",
+      "case": "S2-C48",
+      "branch": "s-I",
+      "value_exact": "13027/70500",
+      "value_float": 0.18478014184397162
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-C48",
+      "branch": "s-I",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "h",
+      "case": "S2-C48",
+      "branch": "s-V",
+      "value_exact": "50000/57473",
+      "value_float": 0.8699737267934509
+    },
+    {
+      "quantity": "w",
+      "case": "S2-C48",
+      "branch": "s-V",
+      "value_exact": "7473/57473",
+      "value_float": 0.13002627320654916
+    },
+    {
+      "quantity": "s",
+      "case": "S2-C48",
+      "branch": "s-V",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-C48",
+      "branch": "s-V",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "PEI_exp_recomputed",
+      "case": "S2-C72",
+      "branch": "N_W",
+      "value_exact": "12200/63017",
+      "value_float": 0.19359855277147436
+    },
+    {
+      "quantity": "PEI_exp_author",
+      "case": "S2-C72",
+      "branch": "table",
+      "value_exact": "97/500",
+      "value_float": 0.194
+    },
+    {
+      "quantity": "PEI_exp_difference",
+      "case": "S2-C72",
+      "branch": "N_W_minus_table",
+      "value_exact": "-12649/31508500",
+      "value_float": -0.00040144722852563595
+    },
+    {
+      "quantity": "h",
+      "case": "S2-C72",
+      "branch": "s-I",
+      "value_exact": "25/41",
+      "value_float": 0.6097560975609756
+    },
+    {
+      "quantity": "w",
+      "case": "S2-C72",
+      "branch": "s-I",
+      "value_exact": "97/500",
+      "value_float": 0.194
+    },
+    {
+      "quantity": "s",
+      "case": "S2-C72",
+      "branch": "s-I",
+      "value_exact": "4023/20500",
+      "value_float": 0.1962439024390244
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-C72",
+      "branch": "s-I",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "h",
+      "case": "S2-C72",
+      "branch": "s-V",
+      "value_exact": "12500/16477",
+      "value_float": 0.7586332463433878
+    },
+    {
+      "quantity": "w",
+      "case": "S2-C72",
+      "branch": "s-V",
+      "value_exact": "3977/16477",
+      "value_float": 0.24136675365661225
+    },
+    {
+      "quantity": "s",
+      "case": "S2-C72",
+      "branch": "s-V",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-C72",
+      "branch": "s-V",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "PEI_exp_recomputed",
+      "case": "S2-C96",
+      "branch": "N_W",
+      "value_exact": "225/1007",
+      "value_float": 0.2234359483614697
+    },
+    {
+      "quantity": "PEI_exp_author",
+      "case": "S2-C96",
+      "branch": "table",
+      "value_exact": "28/125",
+      "value_float": 0.224
+    },
+    {
+      "quantity": "PEI_exp_difference",
+      "case": "S2-C96",
+      "branch": "N_W_minus_table",
+      "value_exact": "-71/125875",
+      "value_float": -0.000564051638530288
+    },
+    {
+      "quantity": "h",
+      "case": "S2-C96",
+      "branch": "s-I",
+      "value_exact": "10/19",
+      "value_float": 0.5263157894736842
+    },
+    {
+      "quantity": "w",
+      "case": "S2-C96",
+      "branch": "s-I",
+      "value_exact": "28/125",
+      "value_float": 0.224
+    },
+    {
+      "quantity": "s",
+      "case": "S2-C96",
+      "branch": "s-I",
+      "value_exact": "593/2375",
+      "value_float": 0.2496842105263158
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-C96",
+      "branch": "s-I",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "h",
+      "case": "S2-C96",
+      "branch": "s-V",
+      "value_exact": "625/891",
+      "value_float": 0.7014590347923682
+    },
+    {
+      "quantity": "w",
+      "case": "S2-C96",
+      "branch": "s-V",
+      "value_exact": "266/891",
+      "value_float": 0.29854096520763185
+    },
+    {
+      "quantity": "s",
+      "case": "S2-C96",
+      "branch": "s-V",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-C96",
+      "branch": "s-V",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "PEI_exp_recomputed",
+      "case": "S2-N72",
+      "branch": "N_W",
+      "value_exact": "21520/124497",
+      "value_float": 0.17285557081696748
+    },
+    {
+      "quantity": "PEI_exp_author",
+      "case": "S2-N72",
+      "branch": "table",
+      "value_exact": "173/1000",
+      "value_float": 0.173
+    },
+    {
+      "quantity": "PEI_exp_difference",
+      "case": "S2-N72",
+      "branch": "N_W_minus_table",
+      "value_exact": "-17981/124497000",
+      "value_float": -0.00014442918303252288
+    },
+    {
+      "quantity": "h",
+      "case": "S2-N72",
+      "branch": "s-I",
+      "value_exact": "50/81",
+      "value_float": 0.6172839506172839
+    },
+    {
+      "quantity": "w",
+      "case": "S2-N72",
+      "branch": "s-I",
+      "value_exact": "173/1000",
+      "value_float": 0.173
+    },
+    {
+      "quantity": "s",
+      "case": "S2-N72",
+      "branch": "s-I",
+      "value_exact": "16987/81000",
+      "value_float": 0.20971604938271604
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-N72",
+      "branch": "s-I",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "h",
+      "case": "S2-N72",
+      "branch": "s-V",
+      "value_exact": "50000/64013",
+      "value_float": 0.7810913408213956
+    },
+    {
+      "quantity": "w",
+      "case": "S2-N72",
+      "branch": "s-V",
+      "value_exact": "14013/64013",
+      "value_float": 0.21890865917860436
+    },
+    {
+      "quantity": "s",
+      "case": "S2-N72",
+      "branch": "s-V",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-N72",
+      "branch": "s-V",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "PEI_exp_recomputed",
+      "case": "S2-I96",
+      "branch": "N_W",
+      "value_exact": "126200/290493",
+      "value_float": 0.4344338762035574
+    },
+    {
+      "quantity": "PEI_exp_author",
+      "case": "S2-I96",
+      "branch": "table",
+      "value_exact": "217/500",
+      "value_float": 0.434
+    },
+    {
+      "quantity": "PEI_exp_difference",
+      "case": "S2-I96",
+      "branch": "N_W_minus_table",
+      "value_exact": "63019/145246500",
+      "value_float": 0.0004338762035574007
+    },
+    {
+      "quantity": "h",
+      "case": "S2-I96",
+      "branch": "s-I",
+      "value_exact": "100/189",
+      "value_float": 0.5291005291005291
+    },
+    {
+      "quantity": "w",
+      "case": "S2-I96",
+      "branch": "s-I",
+      "value_exact": "217/500",
+      "value_float": 0.434
+    },
+    {
+      "quantity": "s",
+      "case": "S2-I96",
+      "branch": "s-I",
+      "value_exact": "3487/94500",
+      "value_float": 0.0368994708994709
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-I96",
+      "branch": "s-I",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "h",
+      "case": "S2-I96",
+      "branch": "s-V",
+      "value_exact": "50000/91013",
+      "value_float": 0.5493720677265885
+    },
+    {
+      "quantity": "w",
+      "case": "S2-I96",
+      "branch": "s-V",
+      "value_exact": "41013/91013",
+      "value_float": 0.45062793227341147
+    },
+    {
+      "quantity": "s",
+      "case": "S2-I96",
+      "branch": "s-V",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S2-I96",
+      "branch": "s-V",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_interpolated_mmol_g",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "reported_basis",
+      "value_exact": "1282141500941079270083/558252427185000000000",
+      "value_float": 2.2967056451618233
+    },
+    {
+      "quantity": "q_interpolated_mmol_g",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "reported_basis",
+      "value_exact": "28948277482132129325869/11262135922400000000000",
+      "value_float": 2.5704073971043986
+    },
+    {
+      "quantity": "q_interpolated_mmol_g",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "reported_basis",
+      "value_exact": "35451516990371125234889/11165048543700000000000",
+      "value_float": 3.175222826091072
+    },
+    {
+      "quantity": "q_interpolated_mmol_g",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "reported_basis",
+      "value_exact": "70654648596391592693/34587378640625000000",
+      "value_float": 2.04278703311165
+    },
+    {
+      "quantity": "q_interpolated_mmol_g",
+      "case": "S100-UiO-66",
+      "branch": "reported_basis",
+      "value_exact": "5261488999359370409881/2766990291250000000000",
+      "value_float": 1.9015205857417266
+    },
+    {
+      "quantity": "w",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1/10",
+      "value_float": 0.1
+    },
+    {
+      "quantity": "h",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "9/10",
+      "value_float": 0.9
+    },
+    {
+      "quantity": "s",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1282141500941079270083/558252427185000000000",
+      "value_float": 2.2967056451618233
+    },
+    {
+      "quantity": "G",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "709534617022533815723259516334750/587447800899909088277907311402997",
+      "value_float": 1.2078258118178338
+    },
+    {
+      "quantity": "w",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "1/10",
+      "value_float": 0.1
+    },
+    {
+      "quantity": "h",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "9/10",
+      "value_float": 0.9
+    },
+    {
+      "quantity": "s",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "1282141500941079270083/620280474650000000000",
+      "value_float": 2.067035080645641
+    },
+    {
+      "quantity": "G",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "70953461702253381572325951633475/65271977877767676475323034600333",
+      "value_float": 1.0870432306360502
+    },
+    {
+      "quantity": "w",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1/11",
+      "value_float": 0.09090909090909091
+    },
+    {
+      "quantity": "h",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "10/11",
+      "value_float": 0.9090909090909091
+    },
+    {
+      "quantity": "s",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1282141500941079270083/558252427185000000000",
+      "value_float": 2.2967056451618233
+    },
+    {
+      "quantity": "G",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "709534617022533815723259516334750/587447800899909088277907311402997",
+      "value_float": 1.2078258118178338
+    },
+    {
+      "quantity": "w",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "1/11",
+      "value_float": 0.09090909090909091
+    },
+    {
+      "quantity": "h",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "10/11",
+      "value_float": 0.9090909090909091
+    },
+    {
+      "quantity": "s",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "1282141500941079270083/614077669903500000000",
+      "value_float": 2.0879142228743848
+    },
+    {
+      "quantity": "G",
+      "case": "S100-10PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "7095346170225338157232595163347500/6461925809898999971056980425432967",
+      "value_float": 1.0980234652889398
+    },
+    {
+      "quantity": "w",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1/5",
+      "value_float": 0.2
+    },
+    {
+      "quantity": "h",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "4/5",
+      "value_float": 0.8
+    },
+    {
+      "quantity": "s",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "28948277482132129325869/11262135922400000000000",
+      "value_float": 2.5704073971043986
+    },
+    {
+      "quantity": "G",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1601992054829411943887378609386925/1185112085299951921603368440184688",
+      "value_float": 1.351764170410892
+    },
+    {
+      "quantity": "w",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "1/5",
+      "value_float": 0.2
+    },
+    {
+      "quantity": "h",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "4/5",
+      "value_float": 0.8
+    },
+    {
+      "quantity": "s",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "28948277482132129325869/14077669903000000000000",
+      "value_float": 2.0563259176835187
+    },
+    {
+      "quantity": "G",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "320398410965882388777475721877385/296278021324987980400842110046172",
+      "value_float": 1.0814113363287137
+    },
+    {
+      "quantity": "w",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1/6",
+      "value_float": 0.16666666666666666
+    },
+    {
+      "quantity": "h",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "5/6",
+      "value_float": 0.8333333333333334
+    },
+    {
+      "quantity": "s",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "28948277482132129325869/11262135922400000000000",
+      "value_float": 2.5704073971043986
+    },
+    {
+      "quantity": "G",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1601992054829411943887378609386925/1185112085299951921603368440184688",
+      "value_float": 1.351764170410892
+    },
+    {
+      "quantity": "w",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "1/6",
+      "value_float": 0.16666666666666666
+    },
+    {
+      "quantity": "h",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "5/6",
+      "value_float": 0.8333333333333334
+    },
+    {
+      "quantity": "s",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "28948277482132129325869/13514563106880000000000",
+      "value_float": 2.1420061642536656
+    },
+    {
+      "quantity": "G",
+      "case": "S100-20PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "8009960274147059719436893046934625/7110672511799711529620210641108128",
+      "value_float": 1.1264701420090768
+    },
+    {
+      "quantity": "w",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "3/10",
+      "value_float": 0.3
+    },
+    {
+      "quantity": "h",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "7/10",
+      "value_float": 0.7
+    },
+    {
+      "quantity": "s",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "35451516990371125234889/11165048543700000000000",
+      "value_float": 3.175222826091072
+    },
+    {
+      "quantity": "G",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1961880066448826465185514775428425/1174895601799818176555814622805994",
+      "value_float": 1.6698335268626674
+    },
+    {
+      "quantity": "w",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "3/10",
+      "value_float": 0.3
+    },
+    {
+      "quantity": "h",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "7/10",
+      "value_float": 0.7
+    },
+    {
+      "quantity": "s",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "248160618932597876644223/111650485437000000000000",
+      "value_float": 2.2226559782637505
+    },
+    {
+      "quantity": "G",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "2746632093028357051259720685599795/2349791203599636353111629245611988",
+      "value_float": 1.1688834688038672
+    },
+    {
+      "quantity": "w",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "3/13",
+      "value_float": 0.23076923076923078
+    },
+    {
+      "quantity": "h",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "10/13",
+      "value_float": 0.7692307692307693
+    },
+    {
+      "quantity": "s",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "35451516990371125234889/11165048543700000000000",
+      "value_float": 3.175222826091072
+    },
+    {
+      "quantity": "G",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1961880066448826465185514775428425/1174895601799818176555814622805994",
+      "value_float": 1.6698335268626674
+    },
+    {
+      "quantity": "w",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "3/13",
+      "value_float": 0.23076923076923078
+    },
+    {
+      "quantity": "h",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "10/13",
+      "value_float": 0.7692307692307693
+    },
+    {
+      "quantity": "s",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "35451516990371125234889/14514563106810000000000",
+      "value_float": 2.4424790969931327
+    },
+    {
+      "quantity": "G",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "9809400332244132325927573877142125/7636821411698818147612795048238961",
+      "value_float": 1.284487328355898
+    },
+    {
+      "quantity": "w",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "2/5",
+      "value_float": 0.4
+    },
+    {
+      "quantity": "h",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "3/5",
+      "value_float": 0.6
+    },
+    {
+      "quantity": "s",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "70654648596391592693/34587378640625000000",
+      "value_float": 2.04278703311165
+    },
+    {
+      "quantity": "G",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "5652371887711327415440/5261488999359370409881",
+      "value_float": 1.074291305826079
+    },
+    {
+      "quantity": "w",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "2/5",
+      "value_float": 0.4
+    },
+    {
+      "quantity": "h",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "3/5",
+      "value_float": 0.6
+    },
+    {
+      "quantity": "s",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "211963945789174778079/172936893203125000000",
+      "value_float": 1.2256722198669898
+    },
+    {
+      "quantity": "G",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "3391423132626796449264/5261488999359370409881",
+      "value_float": 0.6445747834956473
+    },
+    {
+      "quantity": "w",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "2/7",
+      "value_float": 0.2857142857142857
+    },
+    {
+      "quantity": "h",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "5/7",
+      "value_float": 0.7142857142857143
+    },
+    {
+      "quantity": "s",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "70654648596391592693/34587378640625000000",
+      "value_float": 2.04278703311165
+    },
+    {
+      "quantity": "G",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "5652371887711327415440/5261488999359370409881",
+      "value_float": 1.074291305826079
+    },
+    {
+      "quantity": "w",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "2/7",
+      "value_float": 0.2857142857142857
+    },
+    {
+      "quantity": "h",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "5/7",
+      "value_float": 0.7142857142857143
+    },
+    {
+      "quantity": "s",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "0/1",
+      "value_float": 0.0
+    },
+    {
+      "quantity": "sum",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "1/1",
+      "value_float": 1.0
+    },
+    {
+      "quantity": "q_comp_mmol_g",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "70654648596391592693/48422330096875000000",
+      "value_float": 1.45913359507975
+    },
+    {
+      "quantity": "G",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "28261859438556637077200/36830422995515592869167",
+      "value_float": 0.7673509327329135
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-C72",
+      "branch": "s-I;N=30.74;phi=0",
+      "value_exact": "32600/42583",
+      "value_float": 0.7655637226123101
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-C72",
+      "branch": "s-I;N=30.74;phi=1",
+      "value_exact": "669100/1745903",
+      "value_float": 0.38324007691148937
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-C72",
+      "branch": "s-I;N=32.52;phi=0",
+      "value_exact": "81500/112617",
+      "value_float": 0.7236918049672785
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-C72",
+      "branch": "s-I;N=32.52;phi=1",
+      "value_exact": "1672750/4617297",
+      "value_float": 0.36227905633967233
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-C72",
+      "branch": "s-V;N=30.74;phi=0",
+      "value_exact": "5371502/8729515",
+      "value_float": 0.6153265101211236
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-C72",
+      "branch": "s-V;N=30.74;phi=1",
+      "value_exact": "2034002/8729515",
+      "value_float": 0.23300286442030285
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-C72",
+      "branch": "s-V;N=32.52;phi=0",
+      "value_exact": "2685751/4617297",
+      "value_float": 0.5816717009973584
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-C72",
+      "branch": "s-V;N=32.52;phi=1",
+      "value_exact": "1017001/4617297",
+      "value_float": 0.22025895236975226
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-I96",
+      "branch": "s-I;N=30.74;phi=0",
+      "value_exact": "18700/95263",
+      "value_float": 0.19629866789834458
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-I96",
+      "branch": "s-I;N=30.74;phi=1",
+      "value_exact": "288100/6001569",
+      "value_float": 0.04800411359096263
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-I96",
+      "branch": "s-I;N=32.52;phi=0",
+      "value_exact": "46750/251937",
+      "value_float": 0.18556226358176847
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-I96",
+      "branch": "s-I;N=32.52;phi=1",
+      "value_exact": "16750/369117",
+      "value_float": 0.04537856560386002
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-I96",
+      "branch": "s-V;N=30.74;phi=0",
+      "value_exact": "17019431/90023535",
+      "value_float": 0.18905535091462472
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-I96",
+      "branch": "s-V;N=30.74;phi=1",
+      "value_exact": "3669431/90023535",
+      "value_float": 0.040760796607242765
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-I96",
+      "branch": "s-V;N=32.52;phi=0",
+      "value_exact": "17019431/95232186",
+      "value_float": 0.17871511423669303
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S2-I96",
+      "branch": "s-V;N=32.52;phi=1",
+      "value_exact": "3669431/95232186",
+      "value_float": 0.03853141625878461
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C;N=30.74;phi=0",
+      "value_exact": "35451516990371125234889/73521844660264500000000",
+      "value_float": 0.48219025453167386
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C;N=30.74;phi=1",
+      "value_exact": "2848632862972384353991111348660573/10171711518487126307851781250000000",
+      "value_float": 0.28005442916808865
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C;N=32.52;phi=0",
+      "value_exact": "35451516990371125234889/77775728155414200000000",
+      "value_float": 0.45581723027434284
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C;N=32.52;phi=1",
+      "value_exact": "2848632862972384353991111348660573/10760234235046518126119287500000000",
+      "value_float": 0.26473706805510533
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M;N=30.74;phi=0",
+      "value_exact": "248160618932597876644223/735218446602645000000000",
+      "value_float": 0.3375331781721717
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M;N=30.74;phi=1",
+      "value_exact": "5508891252543058020407901068357017/40686846073948505231407125000000000",
+      "value_float": 0.1353973528085865
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M;N=32.52;phi=0",
+      "value_exact": "248160618932597876644223/777757281554142000000000",
+      "value_float": 0.31907206119204
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M;N=32.52;phi=1",
+      "value_exact": "5508891252543058020407901068357017/43040936940186072504477150000000000",
+      "value_float": 0.12799189897280247
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C;N=30.74;phi=0",
+      "value_exact": "460869720874824628053557/735218446602645000000000",
+      "value_float": 0.6268473308911761
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C;N=30.74;phi=1",
+      "value_exact": "2751096969167312456370709170501917/8137369214789701046281425000000000",
+      "value_float": 0.3380818660860543
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C;N=32.52;phi=0",
+      "value_exact": "460869720874824628053557/777757281554142000000000",
+      "value_float": 0.5925623993566457
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C;N=32.52;phi=1",
+      "value_exact": "2751096969167312456370709170501917/8608187388037214500895430000000000",
+      "value_float": 0.31959073904344926
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M;N=30.74;phi=0",
+      "value_exact": "35451516990371125234889/73521844660264500000000",
+      "value_float": 0.48219025453167386
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M;N=30.74;phi=1",
+      "value_exact": "786984464649008288629700152622431/4068684607394850523140712500000000",
+      "value_float": 0.19342478972655214
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M;N=32.52;phi=0",
+      "value_exact": "35451516990371125234889/77775728155414200000000",
+      "value_float": 0.45581723027434284
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M;N=32.52;phi=1",
+      "value_exact": "786984464649008288629700152622431/4304093694018607250447715000000000",
+      "value_float": 0.1828455699611464
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C;N=30.74;phi=0",
+      "value_exact": "70654648596391592693/303677184464687500000",
+      "value_float": 0.23266367119722664
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C;N=30.74;phi=1",
+      "value_exact": "12477392440478525847557/121470873785875000000000",
+      "value_float": 0.10271921203492186
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C;N=32.52;phi=0",
+      "value_exact": "70654648596391592693/321247572814125000000",
+      "value_float": 0.2199383110585325
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-C;N=32.52;phi=1",
+      "value_exact": "12477392440478525847557/128499029125650000000000",
+      "value_float": 0.0971010639175941
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M;N=30.74;phi=0",
+      "value_exact": "211963945789174778079/1518385922323437500000",
+      "value_float": 0.13959820271833598
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M;N=30.74;phi=1",
+      "value_exact": "1172648665055871016677/121470873785875000000000",
+      "value_float": 0.009653743556031208
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M;N=32.52;phi=0",
+      "value_exact": "70654648596391592693/535412621356875000000",
+      "value_float": 0.1319629866351195
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-C;b-M;N=32.52;phi=1",
+      "value_exact": "43431432039106333951/4759223300950000000000",
+      "value_float": 0.009125739494181094
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C;N=30.74;phi=0",
+      "value_exact": "494582540174741148851/1518385922323437500000",
+      "value_float": 0.3257291396761173
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C;N=30.74;phi=1",
+      "value_exact": "530366328687297594347/4858834951435000000000",
+      "value_float": 0.109155041072276
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C;N=32.52;phi=0",
+      "value_exact": "494582540174741148851/1606237864070625000000",
+      "value_float": 0.3079136354819455
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-C;N=32.52;phi=1",
+      "value_exact": "530366328687297594347/5139961165026000000000",
+      "value_float": 0.10318489024704816
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M;N=30.74;phi=0",
+      "value_exact": "70654648596391592693/303677184464687500000",
+      "value_float": 0.23266367119722664
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M;N=30.74;phi=1",
+      "value_exact": "390882888351957005559/24294174757175000000000",
+      "value_float": 0.016089572593385348
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M;N=32.52;phi=0",
+      "value_exact": "70654648596391592693/321247572814125000000",
+      "value_float": 0.2199383110585325
+    },
+    {
+      "quantity": "eta_line",
+      "case": "S100-40PEI@UiO-66",
+      "branch": "w-F;b-M;N=32.52;phi=1",
+      "value_exact": "43431432039106333951/2855533980570000000000",
+      "value_float": 0.015209565823635158
+    },
+    {
+      "quantity": "k_max_lower",
+      "case": "S2-C72",
+      "branch": "s-I",
+      "value_exact": "1249722062071567/1125899906842624",
+      "value_float": 1.1099761661551062
+    },
+    {
+      "quantity": "k_max_upper",
+      "case": "S2-C72",
+      "branch": "s-I",
+      "value_exact": "2499444124145181/2251799813685248",
+      "value_float": 1.1099761661560152
+    },
+    {
+      "quantity": "k_max_lower",
+      "case": "S2-C72",
+      "branch": "s-V",
+      "value_exact": "1249722062071567/1125899906842624",
+      "value_float": 1.1099761661551062
+    },
+    {
+      "quantity": "k_max_upper",
+      "case": "S2-C72",
+      "branch": "s-V",
+      "value_exact": "2499444124145181/2251799813685248",
+      "value_float": 1.1099761661560152
+    },
+    {
+      "quantity": "k_max_lower",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "1709150374852049/1125899906842624",
+      "value_float": 1.5180304789659695
+    },
+    {
+      "quantity": "k_max_upper",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-C",
+      "value_exact": "3418300749706145/2251799813685248",
+      "value_float": 1.5180304789668786
+    },
+    {
+      "quantity": "k_max_lower",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "299101315599067/281474976710656",
+      "value_float": 1.062621335276031
+    },
+    {
+      "quantity": "k_max_upper",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-C;b-M",
+      "value_exact": "2392810524794583/2251799813685248",
+      "value_float": 1.06262133527694
+    },
+    {
+      "quantity": "k_max_lower",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "1709150374852049/1125899906842624",
+      "value_float": 1.5180304789659695
+    },
+    {
+      "quantity": "k_max_upper",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-C",
+      "value_exact": "3418300749706145/2251799813685248",
+      "value_float": 1.5180304789668786
+    },
+    {
+      "quantity": "k_max_lower",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "82170691098599/70368744177664",
+      "value_float": 1.167715753049933
+    },
+    {
+      "quantity": "k_max_upper",
+      "case": "S100-30PEI@UiO-66",
+      "branch": "w-F;b-M",
+      "value_exact": "2629462115157215/2251799813685248",
+      "value_float": 1.167715753050842
+    },
+    {
+      "quantity": "phi_crit_lower",
+      "case": "S2-BASE",
+      "branch": "N=30.74;eta=0.20",
+      "value_exact": "529937837451/549755813888",
+      "value_float": 0.9639513108613755
+    },
+    {
+      "quantity": "phi_crit_upper",
+      "case": "S2-BASE",
+      "branch": "N=30.74;eta=0.20",
+      "value_exact": "1059875674903/1099511627776",
+      "value_float": 0.963951310862285
+    },
+    {
+      "quantity": "phi_crit_lower",
+      "case": "S2-BASE",
+      "branch": "N=30.74;eta=0.30",
+      "value_exact": "833899268257/1099511627776",
+      "value_float": 0.7584269662920633
+    },
+    {
+      "quantity": "phi_crit_upper",
+      "case": "S2-BASE",
+      "branch": "N=30.74;eta=0.30",
+      "value_exact": "416949634129/549755813888",
+      "value_float": 0.7584269662929728
+    },
+    {
+      "quantity": "phi_crit_lower",
+      "case": "S2-BASE",
+      "branch": "N=32.52;eta=0.20",
+      "value_exact": "1033726241057/1099511627776",
+      "value_float": 0.9401685393249863
+    },
+    {
+      "quantity": "phi_crit_upper",
+      "case": "S2-BASE",
+      "branch": "N=32.52;eta=0.20",
+      "value_exact": "516863120529/549755813888",
+      "value_float": 0.9401685393258958
+    },
+    {
+      "quantity": "phi_crit_lower",
+      "case": "S2-BASE",
+      "branch": "N=32.52;eta=0.30",
+      "value_exact": "397337558745/549755813888",
+      "value_float": 0.7227528089879343
+    },
+    {
+      "quantity": "phi_crit_upper",
+      "case": "S2-BASE",
+      "branch": "N=32.52;eta=0.30",
+      "value_exact": "794675117491/1099511627776",
+      "value_float": 0.7227528089888438
+    },
+    {
+      "quantity": "phi_crit_lower",
+      "case": "S100-UiO-66",
+      "branch": "N=30.74;eta=0.20",
+      "value_exact": "438611865007/549755813888",
+      "value_float": 0.7978303347172186
+    },
+    {
+      "quantity": "phi_crit_upper",
+      "case": "S100-UiO-66",
+      "branch": "N=30.74;eta=0.20",
+      "value_exact": "877223730015/1099511627776",
+      "value_float": 0.7978303347181281
+    },
+    {
+      "quantity": "phi_crit_lower",
+      "case": "S100-UiO-66",
+      "branch": "N=30.74;eta=0.30",
+      "value_exact": "559921350925/1099511627776",
+      "value_float": 0.509245502075828
+    },
+    {
+      "quantity": "phi_crit_upper",
+      "case": "S100-UiO-66",
+      "branch": "N=30.74;eta=0.30",
+      "value_exact": "279960675463/549755813888",
+      "value_float": 0.5092455020767375
+    },
+    {
+      "quantity": "phi_crit_lower",
+      "case": "S100-UiO-66",
+      "branch": "N=32.52;eta=0.20",
+      "value_exact": "840506279313/1099511627776",
+      "value_float": 0.7644360078420505
+    },
+    {
+      "quantity": "phi_crit_upper",
+      "case": "S100-UiO-66",
+      "branch": "N=32.52;eta=0.20",
+      "value_exact": "420253139657/549755813888",
+      "value_float": 0.76443600784296
+    },
+    {
+      "quantity": "phi_crit_lower",
+      "case": "S100-UiO-66",
+      "branch": "N=32.52;eta=0.30",
+      "value_exact": "252422587437/549755813888",
+      "value_float": 0.45915401176353043
+    },
+    {
+      "quantity": "phi_crit_upper",
+      "case": "S100-UiO-66",
+      "branch": "N=32.52;eta=0.30",
+      "value_exact": "504845174875/1099511627776",
+      "value_float": 0.45915401176443993
+    }
+  ]
+}
