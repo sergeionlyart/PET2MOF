@@ -29,7 +29,7 @@
 | [T014v-ranges-verify](../tasks/T014v-ranges-verify.md) | gpt-6.1-sol, reasoning effort high | sol, high | sol, high | принято | руководитель |
 | [T015-model-revision](../tasks/T015-model-revision.md) | gpt-6.1-sol, reasoning effort high | sol, high | sol, high | принято (D-17) | T016 (независимая проверка), руководитель |
 | [T016-clean-reproduction](../tasks/T016-clean-reproduction.md) | gpt-6-astra, reasoning effort medium | gpt-6-astra, reasoning effort medium | astra, medium, сеть off | принято: все make-цели exit 0, 360/360 выборок совпали | руководитель |
-| [T017-final-report](../tasks/T017-final-report.md) | gpt-6.1-terra, reasoning effort high | gpt-6.1-terra, reasoning effort high | terra, high | принято после научной редактуры руководителя и T017v | T017v (другая модель) и руководитель (научная редактура) |
+| [T017-final-report](../tasks/T017-final-report.md) | gpt-6.1-terra, reasoning effort high | gpt-6.1-terra, reasoning effort high | terra, high (rollout `turn_context`, `private/agent_logs/T017-final-report.20261117T024656Z.exit.json`) | принято после научной редактуры руководителя; замечания T017v-01…06 исправлены руководителем | T017v (другая модель) и руководитель (научная редактура) |
 | [T018-freeze-prep](../tasks/T018-freeze-prep.md) | gpt-6.1-sol, reasoning effort high | sol, high | sol, high | принято | T016, руководитель |
 | [T019-holdout-extract](../tasks/T019-holdout-extract.md) | gpt-6-astra, reasoning effort high | astra, high | astra, high | только `holdout/v1`; T019v нашёл 9 дефектов | T019v |
 | [T019-holdout-schema](../tasks/T019-holdout-schema.md) | не указан в карточке | не указан в карточке | не установлено | в журнале не указана; требуется приёмка | не указан в карточке |

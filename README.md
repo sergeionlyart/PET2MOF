@@ -6,7 +6,7 @@
 
 ## Локальное воспроизведение
 
-Установите Python и `uv`, затем выполните `UV_CACHE_DIR="$PWD/.uv-cache" uv sync --locked`. Проектные команды используют зафиксированное окружение; не нужны ключи или модели ИИ.
+Установите Python и `uv`, затем выполните `UV_CACHE_DIR="$PWD/.uv-cache" uv sync --locked`. Проектные команды используют зафиксированное окружение; не нужны ключи или модели ИИ. Для `make publish-check` дополнительно нужны установленный `gitleaks` и Git-идентичность с адресом `@users.noreply.github.com` (см. `docs/security.md`).
 
 ```sh
 make test
@@ -35,9 +35,9 @@ PET2MOF investigates a hypothesis about how PEI loading and humidity might affec
 
 The scientific status of H1 is **insufficient data**. External quantitative validation cannot be performed with the available conditions, the calibration-set control did not meet all criteria, and the ensemble's formal convergence has not been established.
 
-Everything that decides the hypothesis (code, fitted parameters, tolerances, decision rules and the held-out validation series, pinned by commit and SHA-256) was frozen in the annotated tag `prereg-v1` before the validation observations were revealed. Of 20 held-out literature series (31 records), none was quantitatively testable under the pre-registered rules (0 full, 0 conditional comparisons): humidity, temperature uncertainty, mass basis or pressure meaning are not stated in the sources, and breakthrough curves do not give equilibrium capacities. The rules were not relaxed after this was seen.
+Everything that decides the hypothesis (code, fitted parameters, tolerances, decision rules and the held-out validation series, pinned by commit and SHA-256) was frozen in the annotated tag `prereg-v1` before the validation package was formally revealed by an independent reviewer. One known exception: the lead had seen S2 Tables 1–2 earlier, so the lead took no decision on how to read the S2 pressure (see `docs/prereg_status.md`). Of 20 held-out literature series (31 records), none was quantitatively testable under the pre-registered rules (0 full, 0 conditional comparisons): humidity, temperature uncertainty, mass basis or pressure meaning are not stated in the sources, and breakthrough curves do not give equilibrium capacities. The rules were not relaxed after this was seen.
 
-In the frozen ensemble (360 model branches × 4 × 4096 draws, two regeneration modes, RH 0/40/70 %), no branch shows the hypothesised humidity-driven shift of the PEI optimum (`conditional_H1` 0/360), and no branch shows a robust rank inversion between dry equilibrium and humid working capacity (H1a 0/360). The only resolved interior optimum (about 20 wt % PEI, 38 branches) occurs in a single model version and a single reading of the PEI label, and it does not move with humidity. An independent clean-clone, offline reproduction reproduced all 360 ensemble sample files byte-for-byte.
+In the frozen ensemble (360 model branches × 4 × 4096 draws, two regeneration modes, RH 0/40/70 %), no branch shows the hypothesised humidity-driven shift of the PEI optimum (`conditional_H1` 0/360), and no branch shows a robust rank inversion between dry equilibrium and humid working capacity (H1a 0/360). The only resolved interior optimum (about 20 wt % PEI, 38 branches) occurs in a single model version and a single reading of the PEI label, and its shift with humidity is not resolved at the adopted uncertainty; this does not prove that the optimum is humidity-independent. An independent clean-clone, offline reproduction reproduced all 360 ensemble sample files byte-for-byte.
 
 The ensemble is a conditional model prediction, not a validation. Its branch frequencies describe the chosen design and should not be interpreted as probabilities for the real material. Maps and their input provenance are in `reports/T025/`.
 
