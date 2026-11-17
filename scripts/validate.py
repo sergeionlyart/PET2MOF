@@ -24,7 +24,7 @@ from pet2mof.calibration.metrics import metrics
 from pet2mof.calibration.prediction import MODEL_LABELS
 
 
-def validate(root, directory='holdout/v1', *, output='reports/T013/validation.json'):
+def validate(root, directory='holdout/v1', *, output='reports/validation/validation.json'):
     root=Path(root).resolve()
     directory=(root/directory).resolve()
     directory.relative_to(root/'holdout')
@@ -78,29 +78,53 @@ def validate(root, directory='holdout/v1', *, output='reports/T013/validation.js
                 side=derivatives[derivatives.model==model].drop(columns=['model'])
                 merged=merged.drop(columns=[c for c in ('dq_dp','dq_dT','dq_da','u_num','u_num_x','u_num_y') if c in merged])
                 merged=merged.merge(side,on=keys,validate='one_to_one',how='left')
-                for derivative,uncertainty in (('dq_dp','u_p'),('dq_dT','u_T'),('dq_da','u_a')):
-                    # Missing slope is harmless only for an exactly fixed input;
-                    # never replace an unknown input uncertainty with zero.
-                    merged.loc[merged[derivative].isna() & merged[uncertainty].eq(0),derivative]=0.
             if merged.q_pred.isna().any():
-                reports.append(dict(series=name,model=model,status='not_testable',reason='frozen predictions missing'));continue
+                reasons = sorted(set(merged.get('reason', pd.Series(dtype=str)).dropna()))
+                reports.append(dict(series=name,model=model,status='not_testable',reason='frozen predictions missing',
+                                    prediction_reasons=reasons));continue
+            conditional_reasons = []
+            # D-18: dry a is identically zero, even when source u_a is blank.
+            # Keep dq_da blank in the immutable sidecar; zero only its contribution.
+            dry = merged.get('dry_series', pd.Series(False, index=merged.index)).eq(True)
+            merged.loc[dry, ['u_a', 'dq_da']] = 0.
+            matching_T = merged.get('temperature_matches_calibration', pd.Series(False, index=merged.index)).eq(True)
+            excluded_T = merged.u_T.isna() & matching_T
+            if excluded_T.any():
+                conditional_reasons.append('T-uncertainty excluded')
+                # Computational zero represents an excluded term, not an estimate
+                # of u_T. The report explicitly records every excluded point.
+                merged.loc[excluded_T, ['u_T', 'dq_dT']] = 0.
+            for derivative,uncertainty in (('dq_dp','u_p'),('dq_dT','u_T'),('dq_da','u_a')):
+                merged.loc[merged[derivative].isna() & merged[uncertainty].eq(0),derivative]=0.
             if any(merged[k].isna().any() for k in ('u_dig','u_p','u_T','u_a','dq_dp','dq_dT','dq_da','u_num')):
                 reports.append(dict(series=name,model=model,status='not_testable',reason='observation/numerical uncertainty budget incomplete'));continue
+            uncertainties = merged[['u_exp','u_dig','u_p','u_T','u_a','u_num']]
+            if (uncertainties < 0).any().any() or np.isinf(uncertainties.to_numpy()).any():
+                reports.append(dict(series=name,model=model,status='not_testable',reason='invalid standard uncertainty'));continue
             known=not merged.u_exp.isna().any()
             if not known:
                 # Sensitivity scenario only, as protocol section 4.2; scale required.
-                if merged.scale.isna().any():
-                    reports.append(dict(series=name,model=model,status='conditional_comparison',reason='experimental error and source scale unknown'));continue
-                exp=.03*merged.scale/np.sqrt(3)
+                missing_exp = merged.u_exp.isna()
+                if not (merged.loc[missing_exp, 'scale'] > 0).all():
+                    reports.append(dict(series=name,model=model,status='not_testable',reason='experimental error and source scale unknown'));continue
+                exp=merged.u_exp.fillna(.03*merged.scale/np.sqrt(3))
+                conditional_reasons.append('experimental uncertainty unknown; 3% source-scale scenario')
             else:exp=merged.u_exp
             u=np.sqrt(exp**2+merged.u_dig**2+(merged.dq_dp*merged.u_p)**2+
                       (merged.dq_dT*merged.u_T)**2+(merged.dq_da*merged.u_a)**2)
             if (merged.u_num > .05*u.min()).any():
                 reports.append(dict(series=name,model=model,status='not_testable',reason='numerical uncertainty exceeds protocol budget'));continue
-            report=metrics(merged.q,merged.q_pred,u,u_num=float(merged.u_num.max()),experimental_known=known,
+            full_budget = not conditional_reasons
+            report=metrics(merged.q,merged.q_pred,u,u_num=float(merged.u_num.max()),experimental_known=full_budget,
                            scale=None if merged.scale.isna().any() else float(merged.scale.iloc[0]))
             report.update(series=name,model=model,source_ids=sorted(f.source_id.unique()),extraction_ids=sorted(f.extraction_id.unique()))
-            if (merged.q_pred<0).any():report.update(status='fail',reason='negative predicted loading')
+            report.update(comparison_kind='full' if full_budget else 'conditional',
+                          conditional_reasons=conditional_reasons,
+                          excluded_T_points=merged.loc[excluded_T, 'point_id'].tolist(),
+                          dry_activity_points=merged.loc[dry, 'point_id'].tolist())
+            if (merged.q_pred<0).any():
+                report.update(status='fail' if full_budget else 'conditional_comparison',
+                              within_conditional_tolerances=False,reason='negative predicted loading')
             if merged.prediction_low.notna().all() and merged.prediction_high.notna().all():
                 report.update(prediction_coverage=float(((merged.q>=merged.prediction_low)&(merged.q<=merged.prediction_high)).mean()),
                               prediction_mean_width=float((merged.prediction_high-merged.prediction_low).mean()))
@@ -108,6 +132,11 @@ def validate(root, directory='holdout/v1', *, output='reports/T013/validation.js
     result=dict(commit_sha=head,series=reports,rank_comparison='requires independent joint pair intervals; not inferred from adjacent points',
                 S2_attribution='bare-host failure -> carrier; porosity trend failure -> placement; capacity failure after both pass -> chemistry',
                 water_split='reviewer uses accepted D-14 split; do not count calibrated S106 as independent V')
+    result['comparison_groups'] = {
+        'full': [r for r in reports if r.get('comparison_kind') == 'full'],
+        'conditional': [r for r in reports if r.get('comparison_kind') == 'conditional'],
+        'not_testable': [r for r in reports if r['status'] == 'not_testable']}
+    result['full_verdict_available'] = bool(reports) and all(r.get('comparison_kind') == 'full' for r in reports)
     path=root/output;path.parent.mkdir(parents=True,exist_ok=True)
     path.write_text(json.dumps(result,indent=2,allow_nan=False)+'\n')
     return result

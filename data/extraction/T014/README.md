@@ -33,6 +33,11 @@ The schema has no `assumption_range` data-kind enum, so that passport uses `text
 with `params.not_a_measurement: true`; parameter-level `type` is authoritative. Page 1
 means the logical design manifest. No DOI is invented for this project source.
 
+T020: the journal hash in this historical manifest covers decisions through D-17,
+before D-18 was appended. The test checks that exact prefix (one final newline),
+without changing the evidence packet or its accepted passport. The current whole
+journal, including D-18, is separately hashed by the final frozen calibration.
+
 Validation, from repository root:
 
 ```sh

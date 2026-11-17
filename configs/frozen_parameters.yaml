@@ -113,9 +113,9 @@ config_hashes:
   configs/scenarios.yaml: a886d7ef1251f14230e4de1572595cc3ed69201eef69e258647377ed783100a1
   configs/sourced_ranges.yaml: 99c4b160090c92a0dbb760877dc019569144c6a6af1e6f4b53071a0a98524c03
 document_hashes:
-  docs/validation_protocol.md: 9c3c9ff2513f4111abefd2ad1d7488c7d1a427597fa778f89dfb3ebc3fbbbd15
+  docs/validation_protocol.md: 10596c11b382722062f252b34f160b78d1c50970bb0720e3d7bd57945129b46c
   docs/hypotheses.md: 54f8e5b34085a0dcb3d13b329a83a68dbab14074cee83c93af99ec9ff5fdc35f
-  docs/decisions.md: a2f32d5b379f306015d576222fdf8ea80a6f43b555ffb127366567329f10285e
+  docs/decisions.md: 5a442fa2dfac19ca5eb444dad73e2b8e9f03b487b0380d8e0b24ab7495735c05
 uncertainty_method: joint parametric correlated extraction-error refits; equal-weight
   draws; 2.5/97.5 percentiles; covariance fixed from C CSV bounds/sqrt(3), half variance
   shared by whole isotherm
@@ -7466,6 +7466,10 @@ c_fits:
     - T011-S105-Fig8A
     - T011-S105-Fig8B
     - T011-S105-Fig8C
+    calibration_temperatures_K:
+    - 273
+    - 298
+    - 318
     chi2: 50.5624155594304
     optimizer_success: true
     metrics:
@@ -8909,6 +8913,8 @@ c_fits:
     T_ref: 298.0
     extraction_ids:
     - T011-S105-Fig9
+    calibration_temperatures_K:
+    - 298
     chi2: 0.13261720032332797
     optimizer_success: true
     metrics:
@@ -9411,6 +9417,10 @@ c_fits:
     - T011-S105-Fig8A
     - T011-S105-Fig8B
     - T011-S105-Fig8C
+    calibration_temperatures_K:
+    - 273
+    - 298
+    - 318
     chi2: 84.69851333082008
     optimizer_success: true
     metrics:
@@ -10827,6 +10837,8 @@ c_fits:
     T_ref: 298.0
     extraction_ids:
     - T011-S105-Fig9
+    calibration_temperatures_K:
+    - 298
     chi2: 0.16672369041253676
     optimizer_success: true
     metrics:
@@ -11366,6 +11378,8 @@ c_fits:
     equivalent_volume_cm3_g: 0.4608005576449566
     extraction_ids:
     - T011-S106-Fig4
+    calibration_temperatures_K:
+    - 293
     chi2: 49.79665430353049
     optimizer_success: true
     metrics:
@@ -11745,6 +11759,8 @@ c_fits:
     equivalent_volume_cm3_g: 0.35055293892221034
     extraction_ids:
     - T011-S106-Fig4
+    calibration_temperatures_K:
+    - 293
     chi2: 42.43063453880762
     optimizer_success: true
     metrics:
@@ -12124,6 +12140,8 @@ c_fits:
     equivalent_volume_cm3_g: 0.3443159941670017
     extraction_ids:
     - T011-S106-Fig4
+    calibration_temperatures_K:
+    - 293
     chi2: 41.766419128621834
     optimizer_success: true
     metrics:
@@ -12629,6 +12647,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -12638,6 +12660,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -12649,6 +12673,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -12658,6 +12686,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -12670,6 +12700,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4526939965421045
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -12681,6 +12713,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3491140928411764
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -12692,6 +12726,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.33744704066436754
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -12828,6 +12864,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -12837,6 +12877,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -12848,6 +12890,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -12857,6 +12903,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -12869,6 +12917,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4519555631053845
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -12880,6 +12930,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34727632835902483
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -12891,6 +12943,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34258098012515714
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -13027,6 +13081,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -13036,6 +13094,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -13047,6 +13107,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -13056,6 +13120,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -13068,6 +13134,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.44934886060695084
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -13079,6 +13147,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35399819608806415
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -13090,6 +13160,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.33851290459337663
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -13226,6 +13298,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -13235,6 +13311,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -13246,6 +13324,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -13255,6 +13337,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -13267,6 +13351,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.45574951303210887
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -13278,6 +13364,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3626899371597477
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -13289,6 +13377,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3391529218951055
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -13425,6 +13515,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -13434,6 +13528,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -13445,6 +13541,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -13454,6 +13554,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -13466,6 +13568,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4469889268636385
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -13477,6 +13581,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.353660279757606
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -13488,6 +13594,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3450324400770799
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -13624,6 +13732,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -13633,6 +13745,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -13644,6 +13758,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -13653,6 +13771,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -13665,6 +13785,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4750990807096725
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -13676,6 +13798,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35346897354783097
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -13687,6 +13811,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34949483853845253
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -13823,6 +13949,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -13832,6 +13962,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -13843,6 +13975,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -13852,6 +13988,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -13864,6 +14002,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.465297295287475
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -13875,6 +14015,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35340198596187733
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -13886,6 +14028,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3377122655416529
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -14022,6 +14166,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -14031,6 +14179,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -14042,6 +14192,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -14051,6 +14205,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -14063,6 +14219,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4577344844488707
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -14074,6 +14232,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35695307997980463
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -14085,6 +14245,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3364739762096321
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -14221,6 +14383,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -14230,6 +14396,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -14241,6 +14409,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -14250,6 +14422,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -14262,6 +14436,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4705821868904508
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -14273,6 +14449,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3517690422406243
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -14284,6 +14462,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3427322879245942
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -14420,6 +14600,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -14429,6 +14613,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -14440,6 +14626,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -14449,6 +14639,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -14461,6 +14653,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.45091845668673386
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -14472,6 +14666,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3469156867115432
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -14483,6 +14679,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3467134666442748
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -14619,6 +14817,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -14628,6 +14830,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -14639,6 +14843,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -14648,6 +14856,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -14660,6 +14870,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4553603600813022
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -14671,6 +14883,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3479402518780146
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -14682,6 +14896,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3404832899287661
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -14818,6 +15034,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -14827,6 +15047,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -14838,6 +15060,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -14847,6 +15073,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -14859,6 +15087,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4710344285602141
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -14870,6 +15100,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35923915671338863
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -14881,6 +15113,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3436742697488845
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -15017,6 +15251,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -15026,6 +15264,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -15037,6 +15277,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -15046,6 +15290,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -15058,6 +15304,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.470385871197581
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -15069,6 +15317,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3430555343489308
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -15080,6 +15330,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35018333263735935
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -15216,6 +15468,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -15225,6 +15481,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -15236,6 +15494,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -15245,6 +15507,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -15257,6 +15521,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4539321595382373
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -15268,6 +15534,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3484890575165557
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -15279,6 +15547,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3468544626622509
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -15415,6 +15685,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -15424,6 +15698,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -15435,6 +15711,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -15444,6 +15724,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -15456,6 +15738,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4687923600326119
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -15467,6 +15751,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35659196247732683
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -15478,6 +15764,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34276795721925873
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -15614,6 +15902,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -15623,6 +15915,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -15634,6 +15928,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -15643,6 +15941,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -15655,6 +15955,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.463032950757172
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -15666,6 +15968,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3590220919878067
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -15677,6 +15981,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3457447387136733
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -15813,6 +16119,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -15822,6 +16132,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -15833,6 +16145,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -15842,6 +16158,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -15854,6 +16172,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4615163666806856
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -15865,6 +16185,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3518502288875669
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -15876,6 +16198,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3329643175516448
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -16012,6 +16336,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -16021,6 +16349,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -16032,6 +16362,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -16041,6 +16375,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -16053,6 +16389,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4793945460063143
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -16064,6 +16402,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34588432943800457
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -16075,6 +16415,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3306522888481894
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -16211,6 +16553,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -16220,6 +16566,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -16231,6 +16579,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -16240,6 +16592,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -16252,6 +16606,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4795654942161285
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -16263,6 +16619,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34376016246973773
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -16274,6 +16632,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3485889001991112
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -16410,6 +16770,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -16419,6 +16783,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -16430,6 +16796,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -16439,6 +16809,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -16451,6 +16823,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4590991295945262
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -16462,6 +16836,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35370947744687814
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -16473,6 +16849,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35550895726750154
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -16609,6 +16987,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -16618,6 +17000,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -16629,6 +17013,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -16638,6 +17026,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -16650,6 +17040,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4503936496085157
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -16661,6 +17053,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3487087203875752
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -16672,6 +17066,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3462342389517599
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -16808,6 +17204,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -16817,6 +17217,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -16828,6 +17230,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -16837,6 +17243,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -16849,6 +17257,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4658292555836423
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -16860,6 +17270,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34030088644878265
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -16871,6 +17283,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3457893731585663
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -17007,6 +17421,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -17016,6 +17434,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -17027,6 +17447,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -17036,6 +17460,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -17048,6 +17474,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4609276842648617
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -17059,6 +17487,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3472795975944592
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -17070,6 +17500,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34704973305583897
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -17206,6 +17638,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -17215,6 +17651,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -17226,6 +17664,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -17235,6 +17677,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -17247,6 +17691,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4704837509035786
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -17258,6 +17704,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3492936303772164
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -17269,6 +17717,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3571866765148996
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -17405,6 +17855,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -17414,6 +17868,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -17425,6 +17881,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -17434,6 +17894,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -17446,6 +17908,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4615034555164491
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -17457,6 +17921,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35532453622740284
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -17468,6 +17934,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3306758923582361
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -17604,6 +18072,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -17613,6 +18085,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -17624,6 +18098,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -17633,6 +18111,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -17645,6 +18125,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4575153657107862
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -17656,6 +18138,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34228087344803876
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -17667,6 +18151,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3426082944783541
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -17803,6 +18289,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -17812,6 +18302,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -17823,6 +18315,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -17832,6 +18328,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -17844,6 +18342,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.45636798868066525
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -17855,6 +18355,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3496842046545724
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -17866,6 +18368,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3388305923681434
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -18002,6 +18506,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -18011,6 +18519,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -18022,6 +18532,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -18031,6 +18545,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -18043,6 +18559,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4610761860080754
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -18054,6 +18572,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34997268504882234
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -18065,6 +18585,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3379086527242157
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -18201,6 +18723,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -18210,6 +18736,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -18221,6 +18749,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -18230,6 +18762,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -18242,6 +18776,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.44302663848824947
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -18253,6 +18789,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.33979144765908725
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -18264,6 +18802,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3546493908419786
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -18400,6 +18940,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -18409,6 +18953,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -18420,6 +18966,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -18429,6 +18979,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -18441,6 +18993,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4663731302292615
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -18452,6 +19006,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34846568566863406
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -18463,6 +19019,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34080603431827583
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -18599,6 +19157,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -18608,6 +19170,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -18619,6 +19183,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -18628,6 +19196,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -18640,6 +19210,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4598160854602016
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -18651,6 +19223,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3514136246406562
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -18662,6 +19236,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.33891271736482925
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -18798,6 +19374,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -18807,6 +19387,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -18818,6 +19400,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -18827,6 +19413,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -18839,6 +19427,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.45405737240347493
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -18850,6 +19440,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35039756716223913
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -18861,6 +19453,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35745253705332664
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -18997,6 +19591,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -19006,6 +19604,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -19017,6 +19617,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -19026,6 +19630,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -19038,6 +19644,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.45505094760525305
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -19049,6 +19657,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3553169872038589
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -19060,6 +19670,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3390401207638894
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -19196,6 +19808,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -19205,6 +19821,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -19216,6 +19834,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -19225,6 +19847,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -19237,6 +19861,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4474608005953209
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -19248,6 +19874,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.342257080830202
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -19259,6 +19887,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34839292344434747
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -19395,6 +20025,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -19404,6 +20038,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -19415,6 +20051,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -19424,6 +20064,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -19436,6 +20078,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4591632334230402
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -19447,6 +20091,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34929882650193456
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -19458,6 +20104,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3345340789912065
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -19594,6 +20242,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -19603,6 +20255,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -19614,6 +20268,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -19623,6 +20281,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -19635,6 +20295,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4569038243468314
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -19646,6 +20308,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34808378332903733
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -19657,6 +20321,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.33578817878005257
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -19793,6 +20459,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -19802,6 +20472,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -19813,6 +20485,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -19822,6 +20498,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -19834,6 +20512,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4679411783596976
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -19845,6 +20525,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35045118414191506
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -19856,6 +20538,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3456278902488764
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -19992,6 +20676,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -20001,6 +20689,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -20012,6 +20702,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -20021,6 +20715,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -20033,6 +20729,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.448549506854457
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -20044,6 +20742,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.350015740749407
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -20055,6 +20755,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.33206883330710246
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -20191,6 +20893,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -20200,6 +20906,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -20211,6 +20919,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -20220,6 +20932,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -20232,6 +20946,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4518768315585466
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -20243,6 +20959,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3562750870914577
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -20254,6 +20972,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3427500958962658
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -20390,6 +21110,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -20399,6 +21123,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -20410,6 +21136,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -20419,6 +21149,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -20431,6 +21163,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4562857834811708
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -20442,6 +21176,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3465793122621319
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -20453,6 +21189,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3426488086316371
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -20589,6 +21327,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -20598,6 +21340,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -20609,6 +21353,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -20618,6 +21366,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -20630,6 +21380,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4550659951583626
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -20641,6 +21393,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3546820804839624
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -20652,6 +21406,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34552211343166184
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -20788,6 +21544,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -20797,6 +21557,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -20808,6 +21570,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -20817,6 +21583,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -20829,6 +21597,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.44411440907942246
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -20840,6 +21610,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3536149267482238
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -20851,6 +21623,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.33515764879372
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -20987,6 +21761,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -20996,6 +21774,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -21007,6 +21787,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -21016,6 +21800,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -21028,6 +21814,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.46362873706078195
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -21039,6 +21827,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34525000025245256
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -21050,6 +21840,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3439124150731034
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -21186,6 +21978,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -21195,6 +21991,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -21206,6 +22004,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -21215,6 +22017,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -21227,6 +22031,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.46852172564664524
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -21238,6 +22044,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35266017405061517
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -21249,6 +22057,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.33472878671350265
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -21385,6 +22195,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -21394,6 +22208,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -21405,6 +22221,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -21414,6 +22234,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -21426,6 +22248,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4501455607753348
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -21437,6 +22261,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3497853229382912
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -21448,6 +22274,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3432069837740793
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -21584,6 +22412,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -21593,6 +22425,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -21604,6 +22438,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -21613,6 +22451,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -21625,6 +22465,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.45898256423145467
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -21636,6 +22478,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35589496251663993
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -21647,6 +22491,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34486440666669527
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -21783,6 +22629,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -21792,6 +22642,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -21803,6 +22655,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -21812,6 +22668,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -21824,6 +22682,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.45121923315852086
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -21835,6 +22695,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35515742365729097
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -21846,6 +22708,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3420306420590859
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -21982,6 +22846,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -21991,6 +22859,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -22002,6 +22872,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -22011,6 +22885,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -22023,6 +22899,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4660701853362438
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -22034,6 +22912,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3461756839213497
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -22045,6 +22925,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.340276790375759
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -22181,6 +23063,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -22190,6 +23076,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -22201,6 +23089,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -22210,6 +23102,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -22222,6 +23116,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4627068706652501
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -22233,6 +23129,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35196712237038025
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -22244,6 +23142,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3487967634174879
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -22380,6 +23280,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -22389,6 +23293,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -22400,6 +23306,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -22409,6 +23319,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -22421,6 +23333,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.456732272368319
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -22432,6 +23346,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3450986249973605
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -22443,6 +23359,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3491258533475285
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -22579,6 +23497,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -22588,6 +23510,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -22599,6 +23523,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -22608,6 +23536,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -22620,6 +23550,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.460249441543333
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -22631,6 +23563,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34974570047957515
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -22642,6 +23576,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3499126051739271
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -22778,6 +23714,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -22787,6 +23727,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -22798,6 +23740,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -22807,6 +23753,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -22819,6 +23767,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.45388603886840806
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -22830,6 +23780,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34776907891098174
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -22841,6 +23793,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3446785142828771
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -22977,6 +23931,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -22986,6 +23944,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -22997,6 +23957,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -23006,6 +23970,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -23018,6 +23984,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.44662251908918255
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -23029,6 +23997,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3600058918417228
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -23040,6 +24010,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3493039109546273
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -23176,6 +24148,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -23185,6 +24161,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -23196,6 +24174,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -23205,6 +24187,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -23217,6 +24201,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4538782382358041
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -23228,6 +24214,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34632976270497323
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -23239,6 +24227,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3460816842095222
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -23375,6 +24365,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -23384,6 +24378,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -23395,6 +24391,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -23404,6 +24404,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -23416,6 +24418,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4603298499284606
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -23427,6 +24431,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34638234882901686
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -23438,6 +24444,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3484689529921529
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -23574,6 +24582,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -23583,6 +24595,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -23594,6 +24608,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -23603,6 +24621,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -23615,6 +24635,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.46410188589384
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -23626,6 +24648,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34693995869709215
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -23637,6 +24661,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3389008460065092
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -23773,6 +24799,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -23782,6 +24812,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -23793,6 +24825,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -23802,6 +24838,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -23814,6 +24852,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.47053783625203244
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -23825,6 +24865,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35724740386577275
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -23836,6 +24878,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.336642233194376
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -23972,6 +25016,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -23981,6 +25029,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -23992,6 +25042,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -24001,6 +25055,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -24013,6 +25069,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4774241618232811
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -24024,6 +25082,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35181923108851226
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -24035,6 +25095,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34371002984516746
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -24171,6 +25233,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -24180,6 +25246,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -24191,6 +25259,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -24200,6 +25272,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -24212,6 +25286,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4495397826680045
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -24223,6 +25299,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34810536414633986
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -24234,6 +25312,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35564458050760245
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -24370,6 +25450,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -24379,6 +25463,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -24390,6 +25476,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -24399,6 +25489,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -24411,6 +25503,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4588006887367421
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -24422,6 +25516,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35212843714336606
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -24433,6 +25529,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3545391503674207
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -24569,6 +25667,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -24578,6 +25680,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -24589,6 +25693,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -24598,6 +25706,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -24610,6 +25720,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.47350013097171334
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -24621,6 +25733,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35142691842050927
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -24632,6 +25746,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3497337064341835
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -24768,6 +25884,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -24777,6 +25897,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -24788,6 +25910,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -24797,6 +25923,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -24809,6 +25937,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.45429369378026707
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -24820,6 +25950,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35053165949728715
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -24831,6 +25963,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.33797540514259555
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -24967,6 +26101,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -24976,6 +26114,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -24987,6 +26127,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -24996,6 +26140,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -25008,6 +26154,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4591903145213334
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -25019,6 +26167,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3546655205615805
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -25030,6 +26180,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.3391633835475292
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
 - fits:
   - model_version: v1
     interpretation: composite
@@ -25166,6 +26318,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66
       gas: N2
@@ -25175,6 +26331,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     - source_id: S105
       material: UiO-66-NH2
       gas: CO2
@@ -25186,6 +26344,10 @@ joint_draws:
       - T011-S105-Fig8A
       - T011-S105-Fig8B
       - T011-S105-Fig8C
+      calibration_temperatures_K:
+      - 273
+      - 298
+      - 318
     - source_id: S105
       material: UiO-66-NH2
       gas: N2
@@ -25195,6 +26357,8 @@ joint_draws:
       T_ref: 298.0
       extraction_ids:
       - T011-S105-Fig9
+      calibration_temperatures_K:
+      - 298
     water:
     - source_id: S106
       material: UiO-66_100
@@ -25207,6 +26371,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.4814197377535415
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_160
       gas: H2O
@@ -25218,6 +26384,8 @@ joint_draws:
       equivalent_volume_cm3_g: 0.35210697638941824
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293
     - source_id: S106
       material: UiO-66_220
       gas: H2O
@@ -25229,3 +26397,5 @@ joint_draws:
       equivalent_volume_cm3_g: 0.34468246089664434
       extraction_ids:
       - T011-S106-Fig4
+      calibration_temperatures_K:
+      - 293

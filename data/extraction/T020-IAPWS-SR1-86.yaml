@@ -1,0 +1,33 @@
+extraction_id: T020-IAPWS-SR1-86
+source_id: IAPWS-SR1-86-1992
+doi: null
+url: https://iapws.org/public/documents/6dGkr/Supp-sat.pdf
+input_sha256: a10d38d73339b0713c86cfac88f9adcba137202167ccdfa1cd58238c438361d7
+pdf_page: 3
+api_page_map:
+  '3': 3
+  '7': 7
+figure_or_table: Equation (1), sections 2/3; Table 1 on page 7
+region: null
+tool: manual visual transcription; PyMuPDF rendering (no OCR)
+tool_version: PyMuPDF 1.28.2
+params:
+  render_scale: 1.8
+  table_render_scale: 1.5
+  reference: data/extraction/records/T020-IAPWS-SR1-86.json
+date: '2026-11-17T00:00:00Z'
+raw_response_ref: .uv-cache/iapws/Supp-sat.pdf
+unit_conversions:
+- source: Pa
+  target: bar
+  factor: 1.0e-05
+- source: MPa
+  target: bar
+  factor: 10.0
+derived_sha256: 5993c59e2f70c765ae0d99c3ec4322770892b3204b683f8403dc77382472ed64
+status: provisional
+reviewer: null
+corrections: []
+error_estimate: Printed rounding only for calculated Table 1 checks; not a measurement
+  uncertainty; independent T021 acceptance pending
+data_kind: author_fit

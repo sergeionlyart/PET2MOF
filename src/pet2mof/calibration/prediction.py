@@ -125,3 +125,25 @@ def derivatives(row, sample, label, *, ensemble=None):
             result[name] = None
     result['dq_da'] = None  # unknown wet chemistry; only u_a=0 permits a dry test
     return result
+
+
+def applicability(row, sample, label):
+    """D-18 declarations from conditions/C only, never observation errors.
+
+    A matching temperature permits *excluding* unknown u_T conditionally;
+    it does not identify a missing temperature derivative or set u_T to zero.
+    evaluate() still refuses transfer of a single-temperature component.
+    """
+    evaluate(row, sample, label)
+    _, version, reading = label.split('/')
+    fit = next(f for f in sample['fits'] if f['model_version'] == version and f['interpretation'] == reading)
+    host = 'UiO-66-NH2' if 'NH2' in row['material'] else 'UiO-66'
+    gas = 'CO2' if row['observable'] in ('q_CO2_ratio_to_w0', 'Vp_ratio_to_w0') else row['gas']
+    carrier = next(c for c in sample['c_fits']['carriers'] if c['material'] == host and c['gas'] == gas)
+    temperatures = carrier.get('calibration_temperatures_K', [carrier['T_ref']] if carrier['Q'] is None else [])
+    T = _number(row, 'T_K')
+    matches = any(abs(T-t) <= 1. for t in temperatures)
+    if _number(row, 'w_PEI', required=False, default=0.) > 0 and gas == 'CO2':
+        matches = matches and abs(T-fit['T_fit']) <= 1.
+    return dict(dry_series=_number(row, 'RH_fraction') == 0.,
+                temperature_matches_calibration=matches)

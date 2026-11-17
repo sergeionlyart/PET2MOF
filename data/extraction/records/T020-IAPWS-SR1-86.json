@@ -1,0 +1,45 @@
+{
+  "extraction_id": "T020-IAPWS-SR1-86",
+  "source_id": "IAPWS-SR1-86-1992",
+  "equation_page": 3,
+  "equation": "1",
+  "Tc_K": 647.096,
+  "pc_MPa": 22.064,
+  "coefficients": [
+    -7.85951783,
+    1.84408259,
+    -11.7866497,
+    22.6807411,
+    -15.9618719,
+    1.80122502
+  ],
+  "powers": [
+    1.0,
+    1.5,
+    3.0,
+    3.5,
+    4.0,
+    7.5
+  ],
+  "table_page": 7,
+  "table": "Table 1",
+  "table_values": [
+    {
+      "T_K": 273.16,
+      "p_Pa": 611.657,
+      "dp_dT_Pa_K": 44.436693
+    },
+    {
+      "T_K": 373.1243,
+      "p_Pa": 101325.0,
+      "dp_dT_Pa_K": 3616.0
+    },
+    {
+      "T_K": 647.096,
+      "p_Pa": 22064000.0,
+      "dp_dT_Pa_K": 268000.0
+    }
+  ],
+  "data_kind": "author_fit",
+  "note": "Correlation and its calculated check table, not experimental observations"
+}

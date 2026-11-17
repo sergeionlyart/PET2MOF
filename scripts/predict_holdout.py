@@ -12,7 +12,7 @@ import subprocess
 import numpy as np
 import yaml
 from pet2mof.calibration.final import sha256, verify_frozen_inputs
-from pet2mof.calibration.prediction import MODEL_LABELS, evaluate, derivatives
+from pet2mof.calibration.prediction import MODEL_LABELS, evaluate, derivatives, applicability
 
 CONDITION_FIELDS = 'series point_id source_id extraction_id material gas observable unit basis T_K p_total_bar p_partial_bar y_CO2_dry RH_fraction w_PEI w_reading Mw_PEI notes'.split()
 
@@ -69,7 +69,8 @@ def predict(root, *, directory='holdout/v1', dry_run=False, parameters='configs/
             identity = dict(series=row['series'], point_id=row['point_id'], model=label)
             pred = dict(identity, q_pred=None, u_num=None, prediction_low=None, prediction_high=None,
                         status='not_testable', reason='', run_status='debug' if dry_run else 'frozen_prediction')
-            der = dict(identity, dq_dp=None, dq_dT=None, dq_da=None, u_num=None)
+            der = dict(identity, dq_dp=None, dq_dT=None, dq_da=None, u_num=None,
+                       dry_series=False, temperature_matches_calibration=False)
             try:
                 evaluate(row, point, label)
                 values = [evaluate(row, sample, label) for sample in frozen['joint_draws']]
@@ -77,8 +78,9 @@ def predict(root, *, directory='holdout/v1', dry_run=False, parameters='configs/
                 low, high = np.quantile(values, [.025, .975])
                 u_num = float(64*np.finfo(float).eps*max(1., abs(q), abs(low), abs(high)))
                 pred.update(q_pred=float(q), u_num=u_num, prediction_low=float(low), prediction_high=float(high),
-                            status='conditional_prediction', reason='calibration uncertainty only; unknown dq_dT/dq_da require zero matching input uncertainty')
+                            status='conditional_prediction', reason='calibration uncertainty only; comparison budget follows D-18')
                 der.update(derivatives(row, point, label, ensemble=frozen['joint_draws']), u_num=u_num)
+                der.update(applicability(row, point, label))
             except (ValueError, OverflowError) as exc:
                 pred['reason'] = str(exc)
             predictions.append(pred); derivs.append(der)
