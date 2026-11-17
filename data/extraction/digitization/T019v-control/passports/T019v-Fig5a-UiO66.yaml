@@ -1,0 +1,72 @@
+extraction_id: T019v-Fig5a-UiO66
+source_id: S113
+doi: 10.3390/membranes10070154
+url: https://mdpi-res.com/d_attachment/membranes/membranes-10-00154/article_deploy/membranes-10-00154.pdf
+input_sha256: 4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a
+pdf_page: 9
+api_page_map:
+  '1': 9
+figure_or_table: S113-Fig5a-UiO66
+region:
+  image: private/T019v/S113_T019-p9-im0.jpeg
+  image_sha256: ced0c3f92e0ffc745606e7397bf3bc27e5544f29ba3f87f2ba69e1d22c6d3a74
+  overlay: private/T019v/S113-Fig5a-UiO66-control-overlay.png
+  overlay_sha256: c9668b7900af8fe7ff3949d8071e99a6281e5a9607c9d0a712a77c28b6673f77
+tool: independent T019v raster control; control.py
+tool_version: source image extraction PyMuPDF 1.27.2.3; numpy 2.5.5; scipy 1.18.1;
+  Pillow 12.3.0
+params:
+  script_sha256: e92faab76ccb03e43e2a34b79f1807d6f81c5f46723689b759373ac3631f27ab
+  project: data/extraction/digitization/T019v-control/projects.json
+  series_selector: S113-Fig5a-UiO66
+  method: local black square core contrast
+  x_axis:
+    pixel_centers:
+    - 126.5
+    - 191.0
+    - 256.0
+    - 321.0
+    tick_values:
+    - 0.2
+    - 0.4
+    - 0.6
+    - 0.8
+    intercept: -0.18966600583159676
+    slope: 0.003084029092595179
+    max_residual: 0.0006164491459175192
+    scale: linear
+  y_axis:
+    pixel_centers:
+    - 76.5
+    - 140.0
+    - 203.0
+    tick_values:
+    - 1.2
+    - 0.8
+    - 0.4
+    intercept: 1.684316870456391
+    slope: -0.00632407773866311
+    max_residual: 0.0010540129564445833
+    scale: linear
+  comparison_rule: abscissa-only nearest unique same-series marker within 4 native
+    pixels
+  scope: source check; not model validation
+  uncertainty_role: control readout and calibration; not independent experiment
+date: '2026-11-17T01:08:58.870323+00:00'
+raw_response_ref: data/raw/pdf/S113_T019.pdf
+unit_conversions:
+- ordinate_factor: 1
+  abscissa: native displayed pressure; S102 not total/partial assigned
+derived_sha256: 3fead3398c21df7b5625de42ca1d6cc54d767dc0df698ed4ac416bc62fa1bb64
+status: provisional
+reviewer: null
+corrections:
+- reason: Own initial method/compare errors preserved and corrected; see method_corrections.json
+error_estimate:
+  type: standard k=1, conservative readout estimate
+  formula: abs(y_slope * unit_factor) * sqrt((readout_bound_px**2 + 1)/3)
+  readout_bound_px: 1.5
+  experimental_uncertainty: unknown
+  calibration_shared: true
+data_kind: digitized_markers
+sensitivity_only: true

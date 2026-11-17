@@ -1,0 +1,24 @@
+{
+  "stage": "steps 1-2 completed before opening reviews/T019_holdout_extraction.md",
+  "timestamp_utc": "2026-11-17T00:58:21.803622+00:00",
+  "head": "8a81f3d1766d0f4dd27dcfa13d69152efd9bd7d8",
+  "findings": [
+    "schema columns and unique pair joins pass; no q in conditions",
+    "S113 source marker check passes",
+    "S103 recoverable adsorption markers omitted; UiO66_160 adsorption singleton cannot meet 8-point control",
+    "S102 only five identifiable binary diamonds in each panel; no 8 distinct observed points available; T/RH and pressure semantics unknown",
+    "S2 all table values/derived ratios and D11 w/Mw independently match XML; pressure textual conflicts; original PDF visual unavailable",
+    "Madden breakthrough ratio is not equilibrium uptake; blank reference and sample normalisation missing"
+  ],
+  "frozen_artifacts": {
+    "control.py": "e92faab76ccb03e43e2a34b79f1807d6f81c5f46723689b759373ac3631f27ab",
+    "projects.json": "4226c4bae2ba51531df19917f64456d55a6cec9c3979ee4e1ad554c178c3fede",
+    "controls.csv": "3fead3398c21df7b5625de42ca1d6cc54d767dc0df698ed4ac416bc62fa1bb64",
+    "compare.py": "f47673dcafec041204c0b806a8949f174052c4af131790a454aeb9484b59281e",
+    "comparison.csv": "dabdffa5b828e8e38f25c862e570465953137f7a0b99243c38c0b5851571b092",
+    "comparison_summary.json": "14c2134ba62e0f373dc2035303d9082b3bbce6ee96c37f0da0fd913d9dbcb69a",
+    "schema_checks.json": "39933490983f759eca60f0e399eb1b7ea769b20c719cccb7c9abfaa952543de8",
+    "S2-comparison.csv": "9e65b2bcacd940d0952e1f3723b4db8df79f272e26add1a7e413160249262a99"
+  },
+  "independence_limit": "T019 project metadata and exports inspected to locate sources before own controls; T019 report not read. Independent extraction method, not an unseen-exports claim."
+}

@@ -1,0 +1,1689 @@
+[
+  {
+    "series": "S113-Fig5a-UiO66",
+    "image": "private/T019v/S113_T019-p9-im0.jpeg",
+    "method": "local black square core contrast",
+    "x_axis": {
+      "pixel_centers": [
+        126.5,
+        191.0,
+        256.0,
+        321.0
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "intercept": -0.18966600583159676,
+      "slope": 0.003084029092595179,
+      "max_residual": 0.0006164491459175192,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        76.5,
+        140.0,
+        203.0
+      ],
+      "tick_values": [
+        1.2,
+        0.8,
+        0.4
+      ],
+      "intercept": 1.684316870456391,
+      "slope": -0.00632407773866311,
+      "max_residual": 0.0010540129564445833,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        119.5,
+        232.0,
+        0.9859375000000002
+      ],
+      [
+        154.0,
+        212.5,
+        0.9859375000000002
+      ],
+      [
+        182.5,
+        197.5,
+        0.9859375000000002
+      ],
+      [
+        213.5,
+        182.5,
+        0.9859375000000002
+      ],
+      [
+        252.0,
+        162.0,
+        0.9859375000000002
+      ],
+      [
+        287.0,
+        147.0,
+        0.9859375000000002
+      ],
+      [
+        328.0,
+        129.0,
+        0.9859375000000002
+      ],
+      [
+        381.5,
+        105.0,
+        0.9859375000000002
+      ],
+      [
+        401.0,
+        96.0,
+        0.9578125000000002
+      ]
+    ],
+    "readout_bound_px": 1.5,
+    "overlay": "private/T019v/S113-Fig5a-UiO66-control-overlay.png",
+    "overlay_sha256": "c9668b7900af8fe7ff3949d8071e99a6281e5a9607c9d0a712a77c28b6673f77",
+    "image_sha256": "ced0c3f92e0ffc745606e7397bf3bc27e5544f29ba3f87f2ba69e1d22c6d3a74"
+  },
+  {
+    "series": "S113-Fig5b-UiO66",
+    "image": "private/T019v/S113_T019-p9-im0.jpeg",
+    "method": "local black square core contrast",
+    "x_axis": {
+      "pixel_centers": [
+        546.5,
+        610.5,
+        674.5,
+        738.5
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "intercept": -1.5078124999999973,
+      "slope": 0.0031249999999999976,
+      "max_residual": 1.27675647831893e-15,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        77.0,
+        140.0,
+        202.0
+      ],
+      "tick_values": [
+        0.12,
+        0.08,
+        0.04
+      ],
+      "intercept": 0.169384759791791,
+      "slope": -0.0006399863469579312,
+      "max_residual": 0.0002133287823193747,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        546.0,
+        245.0,
+        0.9859375000000002
+      ],
+      [
+        578.0,
+        233.0,
+        0.9859375000000002
+      ],
+      [
+        607.0,
+        222.5,
+        0.9859375000000002
+      ],
+      [
+        643.5,
+        207.5,
+        0.9859375000000002
+      ],
+      [
+        668.5,
+        198.0,
+        0.9859375000000002
+      ],
+      [
+        708.5,
+        181.0,
+        0.9859375000000002
+      ],
+      [
+        758.0,
+        159.5,
+        0.9859375000000002
+      ],
+      [
+        816.0,
+        134.5,
+        0.9718750000000003
+      ]
+    ],
+    "readout_bound_px": 1.5,
+    "overlay": "private/T019v/S113-Fig5b-UiO66-control-overlay.png",
+    "overlay_sha256": "e756c17af513f718d27d90519325d4555f990a825adfe7ba7077fdc34bf8861f",
+    "image_sha256": "ced0c3f92e0ffc745606e7397bf3bc27e5544f29ba3f87f2ba69e1d22c6d3a74"
+  },
+  {
+    "series": "S103-Fig2a-UiO66_100-adsorption",
+    "image": "private/T019v/S103_T019-p3-im0.png",
+    "method": "analytic native symbol stencil; colour foreground/background contrast",
+    "color": "orange",
+    "shape": "circle",
+    "filled": true,
+    "roi": [
+      355,
+      130,
+      545,
+      420
+    ],
+    "threshold": 0.62,
+    "x_axis": {
+      "pixel_centers": [
+        250.0,
+        359.5,
+        468.5,
+        578.0
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "intercept": -0.2575473988197381,
+      "slope": 0.0018298246348302846,
+      "max_residual": 0.0002745574017497532,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        72.0,
+        131.5,
+        191.5,
+        251.0,
+        311.0,
+        371.0,
+        431.0,
+        490.5
+      ],
+      "tick_values": [
+        80,
+        70,
+        60,
+        50,
+        40,
+        30,
+        20,
+        10
+      ],
+      "intercept": 91.99973308981588,
+      "slope": -0.1671473059428883,
+      "max_residual": 0.045759298150912286,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        361.0,
+        325.0,
+        0.9368055555555573
+      ],
+      [
+        374.0,
+        316.0,
+        0.9708333333333351
+      ],
+      [
+        387.0,
+        306.0,
+        0.965972222222224
+      ],
+      [
+        401.0,
+        296.0,
+        0.9513888888888906
+      ],
+      [
+        415.0,
+        285.0,
+        0.9465277777777795
+      ],
+      [
+        428.6666666666667,
+        276.3333333333333,
+        0.927083333333335
+      ],
+      [
+        442.0,
+        267.0,
+        0.9465277777777795
+      ],
+      [
+        456.0,
+        258.0,
+        0.9611111111111129
+      ],
+      [
+        470.0,
+        249.0,
+        0.9513888888888906
+      ],
+      [
+        483.3333333333333,
+        239.66666666666666,
+        0.9465277777777795
+      ],
+      [
+        497.0,
+        231.5,
+        0.9416666666666684
+      ],
+      [
+        510.0,
+        223.0,
+        0.9465277777777795
+      ],
+      [
+        524.0,
+        215.5,
+        0.9465277777777795
+      ],
+      [
+        538.0,
+        207.0,
+        0.965972222222224
+      ]
+    ],
+    "readout_bound_px": 2,
+    "unit_factor": 0.044615033405470315,
+    "occlusion_note": "No centre inferred from smooth curve. Teal filled markers obscured by triangles may be unresolvable.",
+    "overlay": "private/T019v/S103-Fig2a-UiO66_100-adsorption-control-overlay.png",
+    "overlay_sha256": "4433f57623fdcd838ccf3a22c52ece10ce08ec12109f7125d952b357820cecf8",
+    "image_sha256": "951a4e1673a5ca85ea8d82446954389b3009d9cc04e61157eb32b22078602bf7"
+  },
+  {
+    "series": "S103-Fig2a-UiO66_100-desorption",
+    "image": "private/T019v/S103_T019-p3-im0.png",
+    "method": "analytic native symbol stencil; colour foreground/background contrast",
+    "color": "orange",
+    "shape": "circle",
+    "filled": false,
+    "roi": [
+      355,
+      130,
+      545,
+      420
+    ],
+    "threshold": 0.62,
+    "x_axis": {
+      "pixel_centers": [
+        250.0,
+        359.5,
+        468.5,
+        578.0
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "intercept": -0.2575473988197381,
+      "slope": 0.0018298246348302846,
+      "max_residual": 0.0002745574017497532,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        72.0,
+        131.5,
+        191.5,
+        251.0,
+        311.0,
+        371.0,
+        431.0,
+        490.5
+      ],
+      "tick_values": [
+        80,
+        70,
+        60,
+        50,
+        40,
+        30,
+        20,
+        10
+      ],
+      "intercept": 91.99973308981588,
+      "slope": -0.1671473059428883,
+      "max_residual": 0.045759298150912286,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        359.0,
+        312.0,
+        0.7787579393083985
+      ],
+      [
+        372.0,
+        301.0,
+        0.7307339449541288
+      ],
+      [
+        386.0,
+        291.0,
+        0.7852152434721247
+      ],
+      [
+        400.0,
+        282.0,
+        0.7787932251235008
+      ],
+      [
+        414.0,
+        273.0,
+        0.7531051517290054
+      ],
+      [
+        427.0,
+        263.0,
+        0.7499294283697957
+      ],
+      [
+        441.0,
+        255.0,
+        0.7531051517290054
+      ],
+      [
+        454.0,
+        245.0,
+        0.7499294283697957
+      ],
+      [
+        468.0,
+        237.0,
+        0.8011997177134798
+      ],
+      [
+        482.0,
+        228.0,
+        0.7434721242060696
+      ],
+      [
+        495.0,
+        220.0,
+        0.7595271700776293
+      ],
+      [
+        509.0,
+        212.0,
+        0.7691249117854627
+      ],
+      [
+        523.0,
+        204.0,
+        0.7434721242060696
+      ],
+      [
+        536.0,
+        196.0,
+        0.7210303458009885
+      ]
+    ],
+    "readout_bound_px": 2,
+    "unit_factor": 0.044615033405470315,
+    "occlusion_note": "No centre inferred from smooth curve. Teal filled markers obscured by triangles may be unresolvable.",
+    "overlay": "private/T019v/S103-Fig2a-UiO66_100-desorption-control-overlay.png",
+    "overlay_sha256": "6d599fb5dbdae2fdb2ca600f150a9cdad3ea449f6f3c6947f9740dbca4189c70",
+    "image_sha256": "951a4e1673a5ca85ea8d82446954389b3009d9cc04e61157eb32b22078602bf7"
+  },
+  {
+    "series": "S103-Fig2a-UiO66_160-adsorption",
+    "image": "private/T019v/S103_T019-p3-im0.png",
+    "method": "analytic native symbol stencil; colour foreground/background contrast",
+    "color": "teal",
+    "shape": "square",
+    "filled": true,
+    "roi": [
+      355,
+      130,
+      545,
+      420
+    ],
+    "threshold": 0.62,
+    "x_axis": {
+      "pixel_centers": [
+        250.0,
+        359.5,
+        468.5,
+        578.0
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "intercept": -0.2575473988197381,
+      "slope": 0.0018298246348302846,
+      "max_residual": 0.0002745574017497532,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        72.0,
+        131.5,
+        191.5,
+        251.0,
+        311.0,
+        371.0,
+        431.0,
+        490.5
+      ],
+      "tick_values": [
+        80,
+        70,
+        60,
+        50,
+        40,
+        30,
+        20,
+        10
+      ],
+      "intercept": 91.99973308981588,
+      "slope": -0.1671473059428883,
+      "max_residual": 0.045759298150912286,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        527.0,
+        291.0,
+        0.728835034013606
+      ],
+      [
+        541.0,
+        286.0,
+        0.7200935374149665
+      ]
+    ],
+    "readout_bound_px": 2,
+    "unit_factor": 0.044615033405470315,
+    "occlusion_note": "No centre inferred from smooth curve. Teal filled markers obscured by triangles may be unresolvable.",
+    "overlay": "private/T019v/S103-Fig2a-UiO66_160-adsorption-control-overlay.png",
+    "overlay_sha256": "51aff383720f3e6a96ec8a3f578b62a000adba3a9f3c68f567714f17334307a7",
+    "image_sha256": "951a4e1673a5ca85ea8d82446954389b3009d9cc04e61157eb32b22078602bf7"
+  },
+  {
+    "series": "S103-Fig2a-UiO66_160-desorption",
+    "image": "private/T019v/S103_T019-p3-im0.png",
+    "method": "analytic native symbol stencil; colour foreground/background contrast",
+    "color": "teal",
+    "shape": "square",
+    "filled": false,
+    "roi": [
+      355,
+      130,
+      545,
+      420
+    ],
+    "threshold": 0.62,
+    "x_axis": {
+      "pixel_centers": [
+        250.0,
+        359.5,
+        468.5,
+        578.0
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "intercept": -0.2575473988197381,
+      "slope": 0.0018298246348302846,
+      "max_residual": 0.0002745574017497532,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        72.0,
+        131.5,
+        191.5,
+        251.0,
+        311.0,
+        371.0,
+        431.0,
+        490.5
+      ],
+      "tick_values": [
+        80,
+        70,
+        60,
+        50,
+        40,
+        30,
+        20,
+        10
+      ],
+      "intercept": 91.99973308981588,
+      "slope": -0.1671473059428883,
+      "max_residual": 0.045759298150912286,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        358.0,
+        363.0,
+        0.8519868637110023
+      ],
+      [
+        372.0,
+        355.0,
+        0.8375041050903126
+      ],
+      [
+        386.0,
+        347.0,
+        0.7588341543513963
+      ],
+      [
+        399.0,
+        340.0,
+        0.739852216748769
+      ],
+      [
+        413.0,
+        333.0,
+        0.7992118226600992
+      ],
+      [
+        427.0,
+        327.0,
+        0.6991461412151072
+      ],
+      [
+        440.0,
+        320.0,
+        0.8133661740558298
+      ],
+      [
+        454.0,
+        314.0,
+        0.8037110016420367
+      ],
+      [
+        468.0,
+        308.0,
+        0.6870771756978659
+      ],
+      [
+        482.0,
+        312.0,
+        0.7633333333333339
+      ],
+      [
+        495.5,
+        296.0,
+        0.679835796387521
+      ],
+      [
+        509.0,
+        290.0,
+        0.6701806239737278
+      ],
+      [
+        523.0,
+        285.0,
+        0.7892282430213471
+      ],
+      [
+        537.0,
+        279.0,
+        0.6770935960591137
+      ]
+    ],
+    "readout_bound_px": 2,
+    "unit_factor": 0.044615033405470315,
+    "occlusion_note": "No centre inferred from smooth curve. Teal filled markers obscured by triangles may be unresolvable.",
+    "overlay": "private/T019v/S103-Fig2a-UiO66_160-desorption-control-overlay.png",
+    "overlay_sha256": "b02983129013e6ea30ef1cda78404441685bbaf9b41cce7b9a42d398c9c1a065",
+    "image_sha256": "951a4e1673a5ca85ea8d82446954389b3009d9cc04e61157eb32b22078602bf7"
+  },
+  {
+    "series": "S103-Fig2a-UiO66_220-adsorption",
+    "image": "private/T019v/S103_T019-p3-im0.png",
+    "method": "analytic native symbol stencil; colour foreground/background contrast",
+    "color": "red",
+    "shape": "triangle",
+    "filled": true,
+    "roi": [
+      355,
+      130,
+      545,
+      420
+    ],
+    "threshold": 0.58,
+    "x_axis": {
+      "pixel_centers": [
+        250.0,
+        359.5,
+        468.5,
+        578.0
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "intercept": -0.2575473988197381,
+      "slope": 0.0018298246348302846,
+      "max_residual": 0.0002745574017497532,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        72.0,
+        131.5,
+        191.5,
+        251.0,
+        311.0,
+        371.0,
+        431.0,
+        490.5
+      ],
+      "tick_values": [
+        80,
+        70,
+        60,
+        50,
+        40,
+        30,
+        20,
+        10
+      ],
+      "intercept": 91.99973308981588,
+      "slope": -0.1671473059428883,
+      "max_residual": 0.045759298150912286,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        359.5,
+        386.0,
+        0.8772727272727259
+      ],
+      [
+        374.0,
+        379.0,
+        0.895454545454544
+      ],
+      [
+        388.0,
+        371.0,
+        0.8636363636363622
+      ],
+      [
+        401.0,
+        365.0,
+        0.8772727272727259
+      ],
+      [
+        414.5,
+        358.0,
+        0.8772727272727259
+      ],
+      [
+        428.0,
+        351.0,
+        0.8487816307403921
+      ],
+      [
+        442.0,
+        345.0,
+        0.845454545454544
+      ],
+      [
+        456.0,
+        339.0,
+        0.854545454545453
+      ],
+      [
+        469.0,
+        332.0,
+        0.8305998125585741
+      ],
+      [
+        483.0,
+        326.0,
+        0.806654170571695
+      ],
+      [
+        496.5,
+        320.0,
+        0.8111996251171495
+      ],
+      [
+        511.0,
+        314.0,
+        0.815745079662604
+      ],
+      [
+        525.0,
+        308.0,
+        0.7584348641049661
+      ],
+      [
+        538.0,
+        303.0,
+        0.7802717900656032
+      ]
+    ],
+    "readout_bound_px": 2,
+    "unit_factor": 0.044615033405470315,
+    "occlusion_note": "No centre inferred from smooth curve. Teal filled markers obscured by triangles may be unresolvable.",
+    "overlay": "private/T019v/S103-Fig2a-UiO66_220-adsorption-control-overlay.png",
+    "overlay_sha256": "8e0b60831dc036738d9e2c9f3b7fba55c6f18033834b01b0e9376e4ee39b3312",
+    "image_sha256": "951a4e1673a5ca85ea8d82446954389b3009d9cc04e61157eb32b22078602bf7"
+  },
+  {
+    "series": "S103-Fig2a-UiO66_220-desorption",
+    "image": "private/T019v/S103_T019-p3-im0.png",
+    "method": "analytic native symbol stencil; colour foreground/background contrast",
+    "color": "red",
+    "shape": "triangle",
+    "filled": false,
+    "roi": [
+      355,
+      130,
+      545,
+      420
+    ],
+    "threshold": 0.58,
+    "x_axis": {
+      "pixel_centers": [
+        250.0,
+        359.5,
+        468.5,
+        578.0
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "intercept": -0.2575473988197381,
+      "slope": 0.0018298246348302846,
+      "max_residual": 0.0002745574017497532,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        72.0,
+        131.5,
+        191.5,
+        251.0,
+        311.0,
+        371.0,
+        431.0,
+        490.5
+      ],
+      "tick_values": [
+        80,
+        70,
+        60,
+        50,
+        40,
+        30,
+        20,
+        10
+      ],
+      "intercept": 91.99973308981588,
+      "slope": -0.1671473059428883,
+      "max_residual": 0.045759298150912286,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        368.0,
+        374.0,
+        0.5999400399733508
+      ],
+      [
+        382.0,
+        367.0,
+        0.5835976015989338
+      ],
+      [
+        395.0,
+        360.0,
+        0.612598267821452
+      ],
+      [
+        424.0,
+        342.0,
+        0.5999400399733508
+      ],
+      [
+        438.0,
+        335.0,
+        0.5925716189207192
+      ],
+      [
+        479.0,
+        318.0,
+        0.5904930046635573
+      ],
+      [
+        507.0,
+        306.0,
+        0.5835976015989338
+      ],
+      [
+        520.0,
+        302.0,
+        0.595782811459027
+      ],
+      [
+        534.0,
+        296.0,
+        0.6231778814123914
+      ]
+    ],
+    "readout_bound_px": 2,
+    "unit_factor": 0.044615033405470315,
+    "occlusion_note": "No centre inferred from smooth curve. Teal filled markers obscured by triangles may be unresolvable.",
+    "overlay": "private/T019v/S103-Fig2a-UiO66_220-desorption-control-overlay.png",
+    "overlay_sha256": "79772c9ee082b0f705d6cc67d3322d9ac74d275c2d1d4830471418b0f6aee332",
+    "image_sha256": "951a4e1673a5ca85ea8d82446954389b3009d9cc04e61157eb32b22078602bf7"
+  },
+  {
+    "series": "S102-FigS6a-binary",
+    "image": "private/T019v/S102_T019-p5-im0.jpeg",
+    "method": "analytic diamond stencil; green outline contrast",
+    "x_axis": {
+      "pixel_centers": [
+        273.5,
+        432.5,
+        592.0
+      ],
+      "tick_values": [
+        2,
+        4,
+        6
+      ],
+      "intercept": -1.4337998271595978,
+      "slope": 0.012558859384806472,
+      "max_residual": 0.0020931432307986775,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        129.5,
+        233.5,
+        337.5
+      ],
+      "tick_values": [
+        0.15,
+        0.1,
+        0.05
+      ],
+      "intercept": 0.21225961538461535,
+      "slope": -0.00048076923076923063,
+      "max_residual": 1.3877787807814457e-17,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        156.0,
+        88.0,
+        0.814814814814814
+      ],
+      [
+        284.0,
+        355.0,
+        0.5803338549817417
+      ],
+      [
+        485.0,
+        261.0,
+        0.786567553468961
+      ],
+      [
+        565.0,
+        220.0,
+        0.8902190923317673
+      ],
+      [
+        643.0,
+        198.0,
+        0.8469222743870622
+      ],
+      [
+        749.0,
+        127.0,
+        0.814945226917057
+      ]
+    ],
+    "readout_bound_px": 2,
+    "pressure_factor": 0.01,
+    "pressure_semantics": "displayed kPa only; total/partial not asserted",
+    "overlay": "private/T019v/S102-FigS6a-binary-control-overlay.png",
+    "overlay_sha256": "15b81d71ac2c8a9e76f4235f1bde55384963cdbb24b72171ccb8e81cbb42b8cc",
+    "image_sha256": "c88d434825fdbbdd6b76676f83939cf7e2e44c39ac571d88fe95a3c866b40afd"
+  },
+  {
+    "series": "S102-FigS6b-binary",
+    "image": "private/T019v/S102_T019-p5-im1.jpeg",
+    "method": "analytic diamond stencil; green outline contrast",
+    "x_axis": {
+      "pixel_centers": [
+        273.5,
+        432.5,
+        592.0
+      ],
+      "tick_values": [
+        2,
+        4,
+        6
+      ],
+      "intercept": -1.4337998271595978,
+      "slope": 0.012558859384806472,
+      "max_residual": 0.0020931432307986775,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        129.5,
+        233.5,
+        337.5
+      ],
+      "tick_values": [
+        0.15,
+        0.1,
+        0.05
+      ],
+      "intercept": 0.21225961538461535,
+      "slope": -0.00048076923076923063,
+      "max_residual": 1.3877787807814457e-17,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        156.0,
+        88.0,
+        0.814814814814814
+      ],
+      [
+        235.0,
+        372.0,
+        0.7210224308815851
+      ],
+      [
+        345.0,
+        320.0,
+        0.7198226395409487
+      ],
+      [
+        469.0,
+        250.0,
+        0.8531820552947303
+      ],
+      [
+        602.0,
+        168.0,
+        0.7679186228481996
+      ],
+      [
+        726.0,
+        98.0,
+        0.7123630672926441
+      ]
+    ],
+    "readout_bound_px": 2,
+    "pressure_factor": 0.01,
+    "pressure_semantics": "displayed kPa only; total/partial not asserted",
+    "overlay": "private/T019v/S102-FigS6b-binary-control-overlay.png",
+    "overlay_sha256": "70035505624552e8ceb0d8604d6ce06c76c2f82234e274fb887c034471097fdf",
+    "image_sha256": "f8779ab405e93a4ea17e8db2ab6272e17526d02cb10f48900831f4c1e3be558b"
+  },
+  {
+    "series": "S102-FigS6c-binary",
+    "image": "private/T019v/S102_T019-p5-im2.jpeg",
+    "method": "analytic diamond stencil; green outline contrast",
+    "x_axis": {
+      "pixel_centers": [
+        267.5,
+        423.5,
+        579.5
+      ],
+      "tick_values": [
+        2,
+        4,
+        6
+      ],
+      "intercept": -1.4294871794871822,
+      "slope": 0.012820512820512827,
+      "max_residual": 1.1102230246251565e-15,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        126.5,
+        228.5,
+        330.5
+      ],
+      "tick_values": [
+        0.15,
+        0.1,
+        0.05
+      ],
+      "intercept": 0.21200980392156862,
+      "slope": -0.0004901960784313728,
+      "max_residual": 6.938893903907228e-17,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        153.0,
+        87.0,
+        0.8333333333333325
+      ],
+      [
+        245.0,
+        367.0,
+        0.5976525821596238
+      ],
+      [
+        383.0,
+        320.0,
+        0.7643192488262902
+      ],
+      [
+        523.0,
+        253.0,
+        0.9173969744392269
+      ],
+      [
+        650.0,
+        189.0,
+        0.9136671883150745
+      ],
+      [
+        750.0,
+        147.0,
+        0.8840897235263422
+      ]
+    ],
+    "readout_bound_px": 2,
+    "pressure_factor": 0.01,
+    "pressure_semantics": "displayed kPa only; total/partial not asserted",
+    "overlay": "private/T019v/S102-FigS6c-binary-control-overlay.png",
+    "overlay_sha256": "f26bdb0a5d0464ddf1eddfeb0e63336cdd3f498b7a06e2c90830507b5ef31107",
+    "image_sha256": "d6bb313d6e8ca71129283c190bb36dc69c60533a2b501098b3e7a87a61cda397"
+  },
+  {
+    "series": "S117-FigS37A-wet-breakthrough-control",
+    "reference_series": "S37A-wet-CO2",
+    "image": "private/T019v/S117_SI_T019-p25-im2.png",
+    "method": "purple filled circle: Euclidean distance-to-background local maxima; excludes thin line and hollow N2 markers",
+    "x_axis": {
+      "pixel_centers": [
+        211.5,
+        315.5,
+        419.5,
+        523.5
+      ],
+      "tick_values": [
+        25,
+        50,
+        75,
+        100
+      ],
+      "intercept": -25.84134615384616,
+      "slope": 0.24038461538461553,
+      "max_residual": 7.105427357601002e-14,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        83.5,
+        135.5,
+        187.5,
+        239.5,
+        291.5,
+        344.5,
+        396.5
+      ],
+      "tick_values": [
+        1.4,
+        1.2,
+        1,
+        0.8,
+        0.6,
+        0.4,
+        0.2
+      ],
+      "intercept": 1.7190900504840407,
+      "slope": -0.0038329641664511635,
+      "max_residual": 0.0017809959635265438,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        183.0,
+        429.0,
+        4.123105625617661
+      ],
+      [
+        190.5,
+        422.0,
+        3.605551275463989
+      ],
+      [
+        197.5,
+        413.0,
+        3.605551275463989
+      ],
+      [
+        205.0,
+        402.5,
+        3.605551275463989
+      ],
+      [
+        212.0,
+        388.5,
+        3.605551275463989
+      ],
+      [
+        220.0,
+        372.0,
+        4.123105625617661
+      ],
+      [
+        228.0,
+        355.0,
+        4.0
+      ],
+      [
+        234.5,
+        340.0,
+        3.605551275463989
+      ],
+      [
+        242.33333333333334,
+        323.6666666666667,
+        3.605551275463989
+      ],
+      [
+        250.0,
+        306.0,
+        4.123105625617661
+      ],
+      [
+        257.0,
+        290.0,
+        4.123105625617661
+      ],
+      [
+        265.0,
+        275.5,
+        3.605551275463989
+      ],
+      [
+        272.0,
+        261.0,
+        4.0
+      ],
+      [
+        279.5,
+        250.0,
+        3.605551275463989
+      ],
+      [
+        287.0,
+        239.0,
+        4.0
+      ],
+      [
+        294.0,
+        231.0,
+        4.0
+      ],
+      [
+        302.0,
+        221.5,
+        3.605551275463989
+      ],
+      [
+        310.0,
+        215.0,
+        4.0
+      ],
+      [
+        318.0,
+        209.0,
+        4.0
+      ],
+      [
+        325.0,
+        205.0,
+        4.0
+      ],
+      [
+        332.0,
+        199.5,
+        3.605551275463989
+      ],
+      [
+        340.0,
+        196.0,
+        4.123105625617661
+      ],
+      [
+        346.0,
+        192.5,
+        4.0
+      ],
+      [
+        354.0,
+        190.0,
+        4.0
+      ],
+      [
+        361.5,
+        188.0,
+        3.605551275463989
+      ],
+      [
+        368.6666666666667,
+        187.33333333333334,
+        3.605551275463989
+      ]
+    ],
+    "readout_bound_px": 2,
+    "observable": "outlet_ratio_CO2",
+    "unit": "1",
+    "x_unit": "min/cm3 as printed; not equilibrium pressure",
+    "not_capacity": true,
+    "overlay": "private/T019v/S117-FigS37A-wet-breakthrough-control-control-overlay.png",
+    "overlay_sha256": "de20fc93716c549d95273636c0eff6e4e9e2aa02ebbdff28b021171c672bff38",
+    "image_sha256": "a7f40e84ef30ee14c510ece6f76df67a5017d4ef37a1c61c61ff045e274b2698"
+  },
+  {
+    "series": "S117-FigS37B-wet-breakthrough-control",
+    "reference_series": "S37B-wet-CO2",
+    "image": "private/T019v/S117_SI_T019-p25-im2.png",
+    "method": "purple filled circle: Euclidean distance-to-background local maxima; excludes thin line and hollow N2 markers",
+    "x_axis": {
+      "pixel_centers": [
+        872.5,
+        1002.5,
+        1131.5
+      ],
+      "tick_values": [
+        25,
+        50,
+        75
+      ],
+      "intercept": -143.467507105802,
+      "slope": 0.1930492337659758,
+      "max_residual": 0.06434974458872489,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        83.5,
+        135.5,
+        187.5,
+        239.5,
+        291.5,
+        344.5,
+        396.5
+      ],
+      "tick_values": [
+        1.4,
+        1.2,
+        1,
+        0.8,
+        0.6,
+        0.4,
+        0.2
+      ],
+      "intercept": 1.7190900504840407,
+      "slope": -0.0038329641664511635,
+      "max_residual": 0.0017809959635265438,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        835.0,
+        421.5,
+        3.605551275463989
+      ],
+      [
+        842.0,
+        376.0,
+        4.123105625617661
+      ],
+      [
+        849.0,
+        319.0,
+        4.0
+      ],
+      [
+        856.0,
+        277.0,
+        4.0
+      ],
+      [
+        862.0,
+        245.0,
+        4.0
+      ],
+      [
+        869.0,
+        219.0,
+        4.0
+      ],
+      [
+        875.5,
+        206.5,
+        3.605551275463989
+      ],
+      [
+        882.0,
+        196.0,
+        4.0
+      ],
+      [
+        889.0,
+        194.0,
+        4.123105625617661
+      ],
+      [
+        895.5,
+        192.0,
+        4.123105625617661
+      ],
+      [
+        902.5,
+        192.0,
+        4.0
+      ]
+    ],
+    "readout_bound_px": 2,
+    "observable": "outlet_ratio_CO2",
+    "unit": "1",
+    "x_unit": "min/cm3 as printed; not equilibrium pressure",
+    "not_capacity": true,
+    "overlay": "private/T019v/S117-FigS37B-wet-breakthrough-control-control-overlay.png",
+    "overlay_sha256": "9fe7fb9483db63815156323a49b1948678b091cd91d8634c78c9ac83d912f013",
+    "image_sha256": "a7f40e84ef30ee14c510ece6f76df67a5017d4ef37a1c61c61ff045e274b2698"
+  },
+  {
+    "series": "S117-FigS38A-wet-breakthrough-control",
+    "reference_series": "S38A-wet-CO2",
+    "image": "private/T019v/S117_SI_T019-p25-im1.png",
+    "method": "purple filled circle: Euclidean distance-to-background local maxima; excludes thin line and hollow N2 markers",
+    "x_axis": {
+      "pixel_centers": [
+        205.5,
+        309.5,
+        413.5,
+        517.5
+      ],
+      "tick_values": [
+        25,
+        50,
+        75,
+        100
+      ],
+      "intercept": -24.39903846153848,
+      "slope": 0.24038461538461536,
+      "max_residual": 2.842170943040401e-14,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        83.5,
+        135.5,
+        187.5,
+        239.5,
+        291.5,
+        344.5,
+        396.5
+      ],
+      "tick_values": [
+        1.4,
+        1.2,
+        1,
+        0.8,
+        0.6,
+        0.4,
+        0.2
+      ],
+      "intercept": 1.7190900504840407,
+      "slope": -0.0038329641664511635,
+      "max_residual": 0.0017809959635265438,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        204.0,
+        419.0,
+        4.0
+      ],
+      [
+        218.5,
+        399.0,
+        3.605551275463989
+      ],
+      [
+        234.0,
+        375.5,
+        3.605551275463989
+      ],
+      [
+        248.5,
+        352.0,
+        3.605551275463989
+      ],
+      [
+        264.0,
+        330.0,
+        4.0
+      ],
+      [
+        278.6666666666667,
+        305.3333333333333,
+        3.605551275463989
+      ],
+      [
+        293.0,
+        285.5,
+        3.605551275463989
+      ],
+      [
+        308.0,
+        269.0,
+        4.0
+      ],
+      [
+        322.0,
+        253.0,
+        4.0
+      ],
+      [
+        337.5,
+        233.5,
+        3.605551275463989
+      ],
+      [
+        352.0,
+        221.0,
+        4.0
+      ],
+      [
+        368.5,
+        213.0,
+        3.605551275463989
+      ],
+      [
+        382.0,
+        209.0,
+        4.0
+      ],
+      [
+        398.0,
+        203.0,
+        4.123105625617661
+      ],
+      [
+        412.0,
+        199.0,
+        4.123105625617661
+      ]
+    ],
+    "readout_bound_px": 2,
+    "observable": "outlet_ratio_CO2",
+    "unit": "1",
+    "x_unit": "min/cm3 as printed; not equilibrium pressure",
+    "not_capacity": true,
+    "overlay": "private/T019v/S117-FigS38A-wet-breakthrough-control-control-overlay.png",
+    "overlay_sha256": "b95cd1448cf2f6c1a4d1518c6d73a7e50a92bce7760d9afa74eba0d9d3834afa",
+    "image_sha256": "9da326830da49fd8bcaf397e7aecdf07d74717b6653514fce92112abc507364b"
+  },
+  {
+    "series": "S117-FigS38B-wet-breakthrough-control",
+    "reference_series": "S38B-wet-CO2",
+    "image": "private/T019v/S117_SI_T019-p25-im1.png",
+    "method": "purple filled circle: Euclidean distance-to-background local maxima; excludes thin line and hollow N2 markers",
+    "x_axis": {
+      "pixel_centers": [
+        839.5,
+        943.5,
+        1047.5,
+        1151.5
+      ],
+      "tick_values": [
+        25,
+        50,
+        75,
+        100
+      ],
+      "intercept": -176.80288461538427,
+      "slope": 0.24038461538461506,
+      "max_residual": 5.684341886080802e-14,
+      "scale": "linear"
+    },
+    "y_axis": {
+      "pixel_centers": [
+        83.5,
+        135.5,
+        187.5,
+        239.5,
+        291.5,
+        344.5,
+        396.5
+      ],
+      "tick_values": [
+        1.4,
+        1.2,
+        1,
+        0.8,
+        0.6,
+        0.4,
+        0.2
+      ],
+      "intercept": 1.7190900504840407,
+      "slope": -0.0038329641664511635,
+      "max_residual": 0.0017809959635265438,
+      "scale": "linear"
+    },
+    "pixels": [
+      [
+        815.0,
+        402.0,
+        4.0
+      ],
+      [
+        824.0,
+        346.0,
+        4.123105625617661
+      ],
+      [
+        832.3333333333334,
+        305.3333333333333,
+        3.605551275463989
+      ],
+      [
+        841.6666666666666,
+        249.33333333333334,
+        3.605551275463989
+      ],
+      [
+        850.0,
+        216.0,
+        4.123105625617661
+      ],
+      [
+        860.0,
+        202.0,
+        4.0
+      ],
+      [
+        868.0,
+        197.0,
+        4.123105625617661
+      ],
+      [
+        877.5,
+        191.0,
+        3.605551275463989
+      ],
+      [
+        886.0,
+        190.0,
+        4.0
+      ],
+      [
+        896.0,
+        188.5,
+        4.123105625617661
+      ],
+      [
+        905.0,
+        188.0,
+        4.123105625617661
+      ],
+      [
+        914.0,
+        187.5,
+        3.605551275463989
+      ]
+    ],
+    "readout_bound_px": 2,
+    "observable": "outlet_ratio_CO2",
+    "unit": "1",
+    "x_unit": "min/cm3 as printed; not equilibrium pressure",
+    "not_capacity": true,
+    "overlay": "private/T019v/S117-FigS38B-wet-breakthrough-control-control-overlay.png",
+    "overlay_sha256": "74cfa86f4ac324400b4c890af28bb19961aef968248899192c8854d01c5af6b2",
+    "image_sha256": "9da326830da49fd8bcaf397e7aecdf07d74717b6653514fce92112abc507364b"
+  }
+]

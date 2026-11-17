@@ -1,0 +1,81 @@
+extraction_id: T019v-FigS38B-wet-breakthrough-control
+source_id: S117
+doi: 10.1039/d1fd00017a
+url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8517963/supplementaryFiles
+input_sha256: 1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4
+pdf_page: 25
+api_page_map:
+  '1': 25
+figure_or_table: S117-FigS38B-wet-breakthrough-control
+region:
+  image: private/T019v/S117_SI_T019-p25-im1.png
+  image_sha256: 9da326830da49fd8bcaf397e7aecdf07d74717b6653514fce92112abc507364b
+  overlay: private/T019v/S117-FigS38B-wet-breakthrough-control-control-overlay.png
+  overlay_sha256: 74cfa86f4ac324400b4c890af28bb19961aef968248899192c8854d01c5af6b2
+tool: independent T019v raster control; control.py
+tool_version: source image extraction PyMuPDF 1.27.2.3; numpy 2.5.5; scipy 1.18.1;
+  Pillow 12.3.0
+params:
+  script_sha256: e92faab76ccb03e43e2a34b79f1807d6f81c5f46723689b759373ac3631f27ab
+  project: data/extraction/digitization/T019v-control/projects.json
+  series_selector: S117-FigS38B-wet-breakthrough-control
+  method: 'purple filled circle: Euclidean distance-to-background local maxima; excludes
+    thin line and hollow N2 markers'
+  x_axis:
+    pixel_centers:
+    - 839.5
+    - 943.5
+    - 1047.5
+    - 1151.5
+    tick_values:
+    - 25
+    - 50
+    - 75
+    - 100
+    intercept: -176.80288461538427
+    slope: 0.24038461538461506
+    max_residual: 5.684341886080802e-14
+    scale: linear
+  y_axis:
+    pixel_centers:
+    - 83.5
+    - 135.5
+    - 187.5
+    - 239.5
+    - 291.5
+    - 344.5
+    - 396.5
+    tick_values:
+    - 1.4
+    - 1.2
+    - 1
+    - 0.8
+    - 0.6
+    - 0.4
+    - 0.2
+    intercept: 1.7190900504840407
+    slope: -0.0038329641664511635
+    max_residual: 0.0017809959635265438
+    scale: linear
+  comparison_rule: abscissa-only nearest unique same-series marker within 4 native
+    pixels
+  scope: source check; not model validation
+  uncertainty_role: control readout and calibration; not independent experiment
+date: '2026-11-17T01:08:58.870323+00:00'
+raw_response_ref: data/raw/pdf/S117_SI_T019.pdf
+unit_conversions:
+- ordinate_factor: 1
+  abscissa: min/cm3 as printed; not equilibrium pressure
+derived_sha256: 3fead3398c21df7b5625de42ca1d6cc54d767dc0df698ed4ac416bc62fa1bb64
+status: provisional
+reviewer: null
+corrections:
+- reason: Own initial method/compare errors preserved and corrected; see method_corrections.json
+error_estimate:
+  type: standard k=1, conservative readout estimate
+  formula: abs(y_slope * unit_factor) * sqrt((readout_bound_px**2 + 1)/3)
+  readout_bound_px: 2
+  experimental_uncertainty: unknown
+  calibration_shared: true
+data_kind: digitized_markers
+sensitivity_only: true

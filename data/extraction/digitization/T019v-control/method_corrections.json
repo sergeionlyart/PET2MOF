@@ -1,0 +1,5 @@
+{
+  "initial_artifacts_prefix": "initial_",
+  "reason": "Visual QA rejected covered teal solid fragments masquerading as hollow markers. Analytic triangle anchor converted to its specified vertex bounding-box midpoint. More primary-image area inspected. Initial Madden comparator erroneously pooled dry and wet series; fixed series-key filter. Initial artifacts preserved; T019 unchanged.",
+  "not_allowed": "No curve-derived point recovery or observation-driven curve fitting."
+}

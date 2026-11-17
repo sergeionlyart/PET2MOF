@@ -1,0 +1,66 @@
+[
+  {
+    "source": "S2",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6648867/fullTextXML",
+    "status": 200,
+    "kind": "primary JATS",
+    "local": "private/T019v/S2.xml",
+    "sha256": "0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574"
+  },
+  {
+    "source": "S2",
+    "url": "https://europepmc.org/articles/PMC6648867?pdf=render",
+    "status": 403,
+    "kind": "PDF attempt",
+    "local": "private/T019v/S2-pdf.download",
+    "sha256": "bd086416e78efafd194268e3e85ea0fb83ff027ef4066558c0d78123894cb948"
+  },
+  {
+    "source": "S2",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6648867/pdf/ao8b02319.pdf",
+    "status": 200,
+    "kind": "HTML, not a PDF; rejected",
+    "local": "private/T019v/S2-original.download",
+    "sha256": "76740edcbf77db0f3b4bf006ebd9367960c855e0783a12b3ac742ca78ece09d2"
+  },
+  {
+    "source": "S2",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6648867/supplementaryFiles",
+    "status": 200,
+    "kind": "ZIP of figures and SI, no main PDF",
+    "local": "private/T019v/S2-supplementary.download",
+    "sha256": "9890ef4fb594f0d1bcccd75b2479e199c3df8f15022896112ec065b5e2958902"
+  },
+  {
+    "source": "S102",
+    "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.langmuir.1c01149",
+    "status": 403,
+    "kind": "main PDF attempt",
+    "local": "private/T019v/S102-main.download",
+    "sha256": "0ba1778664fa8678c61de4d8fb8d68d14fe98c5153f9da2b07b7fefbe1cf24dd"
+  },
+  {
+    "source": "S102",
+    "url": "https://api.figshare.com/v2/articles?resource_doi=10.1021/acs.langmuir.1c01149",
+    "status": 200,
+    "kind": "only SI metadata",
+    "local": "private/T019v/S102-figshare.json",
+    "sha256": "3e9e8a62059fff8e32af0c89a6bc10e7552692d8a38e6e8fbf61968e203b9eb7"
+  },
+  {
+    "source": "S102",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1021/acs.langmuir.1c01149&format=json",
+    "status": 200,
+    "kind": "no PMCID / isOpenAccess=N",
+    "local": "private/T019v/S102-epmc-search.json",
+    "sha256": "bd9733ddaf0df1075894d5db143ef1e2a23ee9c9b4c6693b7defc66de4abfb3a"
+  },
+  {
+    "source": "S103",
+    "url": "https://zenodo.org/api/records/7112787",
+    "status": 200,
+    "kind": "429 files: 423 simulation .data, 6 DFT .outmol; no experimental table",
+    "local": "private/T019v/S103-zenodo.json",
+    "sha256": "48f0340efb8d8189d79f72ae5e07b8ab06b16f677aad6d3f89750b0ea1f804eb"
+  }
+]

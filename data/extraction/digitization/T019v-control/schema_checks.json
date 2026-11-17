@@ -1,0 +1,15 @@
+{
+  "conditions_rows": 230,
+  "observations_rows": 230,
+  "series": 20,
+  "numeric_observation_rows": 220,
+  "placeholder_rows": 10,
+  "schema_and_join_issues": [],
+  "conditions_observation_columns_present": [],
+  "S2_numeric_checks": 24,
+  "S2_values_exact": true,
+  "S2_retained_w_all_match": true,
+  "S2_Mw_all_match": true,
+  "control_matches": 177,
+  "source_XML_sha256": "0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574"
+}

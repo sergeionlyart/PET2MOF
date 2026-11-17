@@ -1,0 +1,7 @@
+{
+  "data/extraction/digitization/T019v-control/projects.json": "4226c4bae2ba51531df19917f64456d55a6cec9c3979ee4e1ad554c178c3fede",
+  "data/extraction/digitization/T019v-control/controls.csv": "3fead3398c21df7b5625de42ca1d6cc54d767dc0df698ed4ac416bc62fa1bb64",
+  "data/extraction/digitization/T019v-control/control.py": "e92faab76ccb03e43e2a34b79f1807d6f81c5f46723689b759373ac3631f27ab",
+  "holdout/v1/conditions.csv": "b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa",
+  "holdout/v1/observations.csv": "572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb"
+}

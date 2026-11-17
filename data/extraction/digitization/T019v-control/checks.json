@@ -1,0 +1,108 @@
+{
+  "head": "8a81f3d1766d0f4dd27dcfa13d69152efd9bd7d8",
+  "checks": [
+    {
+      "command": "UV_CACHE_DIR=$PWD/.uv-cache uv sync --frozen",
+      "exit_code": 0
+    },
+    {
+      "command": "UV_CACHE_DIR=$PWD/.uv-cache .venv/bin/python data/extraction/digitization/T019v-control/prepare.py (initial incompatible PyMuPDF 1.28.2)",
+      "exit_code": 1,
+      "reason": "Native PNG byte encoding differed; initial failure preserved; restored with source engine 1.27.2.3"
+    },
+    {
+      "command": "UV_CACHE_DIR=$PWD/.uv-cache python3 data/extraction/digitization/T019v-control/prepare.py",
+      "exit_code": 0
+    },
+    {
+      "command": "UV_CACHE_DIR=$PWD/.uv-cache .venv/bin/python data/extraction/digitization/T019v-control/control.py",
+      "exit_code": 0
+    },
+    {
+      "command": "UV_CACHE_DIR=$PWD/.uv-cache .venv/bin/python data/extraction/digitization/T019v-control/compare.py",
+      "exit_code": 0
+    },
+    {
+      "command": "make test-ocr",
+      "exit_code": 0,
+      "passed": 81
+    },
+    {
+      "command": "UV_CACHE_DIR=$PWD/.uv-cache .venv/bin/python data/extraction/digitization/T019v-control/finalize.py",
+      "exit_code": 0
+    }
+  ],
+  "control_passports_valid": 15,
+  "known_T019_schema_failures": [
+    {
+      "file": "data/extraction/records/T019-S2-Table1.yaml",
+      "errors": [
+        {
+          "path": [
+            "pdf_page"
+          ],
+          "message": "None is not of type 'integer'"
+        }
+      ]
+    },
+    {
+      "file": "data/extraction/records/T019-S2-Table2-corrected.yaml",
+      "errors": [
+        {
+          "path": [
+            "pdf_page"
+          ],
+          "message": "None is not of type 'integer'"
+        }
+      ]
+    },
+    {
+      "file": "data/extraction/records/T019-S2-Table2-dry.yaml",
+      "errors": [
+        {
+          "path": [
+            "pdf_page"
+          ],
+          "message": "None is not of type 'integer'"
+        }
+      ]
+    },
+    {
+      "file": "data/extraction/records/T019-S2-moist.yaml",
+      "errors": [
+        {
+          "path": [
+            "pdf_page"
+          ],
+          "message": "None is not of type 'integer'"
+        }
+      ]
+    }
+  ],
+  "protected_file_hashes_unchanged": 40,
+  "blind_checkpoint_hashes_unchanged": 8,
+  "conditions_rows": 230,
+  "observations_rows": 230,
+  "matched_graph_controls": 177,
+  "table_comparisons": 24,
+  "control_quotas_unmet": [
+    "S103-Fig2a-UiO66_160-adsorption",
+    "S102-FigS6a-binary",
+    "S102-FigS6b-binary",
+    "S102-FigS6c-binary"
+  ],
+  "verdicts": {
+    "verified": 5,
+    "исправить": 7,
+    "not_testable": 7,
+    "excluded": 1
+  },
+  "not_run": [
+    "model predictions",
+    "validate.py",
+    "CI",
+    "make publish-check",
+    "commit",
+    "push"
+  ]
+}

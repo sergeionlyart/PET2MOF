@@ -1,0 +1,5 @@
+{
+  "script_sha256": "e92faab76ccb03e43e2a34b79f1807d6f81c5f46723689b759373ac3631f27ab",
+  "stage": "independent source-only control; before comparison with T019 exports",
+  "method_note": "Parameters chosen from primary images, without T019 extraction implementation. T019 project metadata were seen for locating sources; this is independence of measurement method, not full blinding to exports."
+}
