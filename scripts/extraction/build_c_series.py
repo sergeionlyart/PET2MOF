@@ -79,7 +79,8 @@ def collect(root=ROOT):
     for relative in ["data/extraction/digitization/T011b/baseline.json",
                      "data/extraction/digitization/T011b/recovery_windows.json",
                      "src/pet2mof/extraction/c_series_review.py",
-                     "reviews/T011v_c_series_verification.md"]:
+                     "reviews/T011v_c_series_verification.md",
+                     "reviews/T011v2_reverification.md"]:
         remember(root/relative)
     for figure in FIGURES:
         eid = "T011-"+figure

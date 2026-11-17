@@ -19,7 +19,7 @@ tool: scripts/extraction/digitize_c_series.py; NumPy/SciPy/Pillow; AxisCalibrati
 tool_version: sha256:8db9672d603f3cc685691cc4cc4f6afb3a248fbf49b70d8f2dc914ccdb981ccb
 params:
   project: data/extraction/digitization/T011-S105-Fig8B.digitization.yaml
-  review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
+  review_code_sha256: 012093537ae85f6057a30f616b85ab8f203d398031b8d1a62a570acc4b6d5971
   overlay: private/renders/T011-S105-Fig8B-overlay.png
   overlay_sha256: eab9285eea7235a9bf2b00b17c2fbb280725903648bb143c676481a1ad7b80cf
   limitations:

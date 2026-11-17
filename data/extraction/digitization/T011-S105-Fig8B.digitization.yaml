@@ -1854,7 +1854,7 @@ series:
   coordinates_byte_identical: true
 recovery_windows_ref: data/extraction/digitization/T011b/recovery_windows.json
 recovery_windows_sha256: 9c43ffc42e2b0e9b183febfe1dc7c00278bdb3ff11c2bd9e66105baa9296f10e
-review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
+review_code_sha256: 012093537ae85f6057a30f616b85ab8f203d398031b8d1a62a570acc4b6d5971
 versions:
   numpy: 2.5.5
   scipy: 1.18.1

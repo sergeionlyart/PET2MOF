@@ -19,7 +19,7 @@ tool: scripts/extraction/digitize_c_series.py; NumPy/SciPy/Pillow; AxisCalibrati
 tool_version: sha256:8db9672d603f3cc685691cc4cc4f6afb3a248fbf49b70d8f2dc914ccdb981ccb
 params:
   project: data/extraction/digitization/T011-S105-Fig8C.digitization.yaml
-  review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
+  review_code_sha256: 012093537ae85f6057a30f616b85ab8f203d398031b8d1a62a570acc4b6d5971
   overlay: private/renders/T011-S105-Fig8C-overlay.png
   overlay_sha256: 33ec832328e61a81fe8872465e61d719a503c7a47c0d8e3c9de4876174b59e2c
   limitations:
@@ -70,10 +70,10 @@ params:
       coordinate_bytes_sha256: 6ff49d704e026b0a71d6606513e3d4e2187dc9b3eb9d4e3e46c8b48d47af2fdd
       coordinates_byte_identical: true
     UiO-66/GO:
-      status: provisional
-      reviewer: null
-      review_ref: null
-      pending_review: T011v2
+      status: verified
+      reviewer: T011v2
+      review_ref: reviews/T011v2_reverification.md
+      pending_review: null
       usable_p_min_bar: 0.02834917891097666
       usable_range_note: lowest retained distinguishable symbol, not evidence of complete
         origin coverage; no initial-slope fit without sensitivity check
@@ -180,9 +180,9 @@ params:
 date: '2026-11-17T00:02:32.869740+00:00'
 raw_response_ref: private/renders/T011-S105-Fig8C-native.png
 unit_conversions: []
-derived_sha256: ae011cd174db24ba105870a6af9972ac125aa2a9630282cc9a1bd0391e08475c
-status: provisional
-reviewer: null
+derived_sha256: 7efd2f1f68818270fb8ac7ecfbdf0ee8ad22717fd88adc32c5b603b10952de1c
+status: verified
+reviewer: T011v2
 corrections:
 - task: T011b-c-series-fix
   defects:

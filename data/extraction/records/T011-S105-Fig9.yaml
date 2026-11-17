@@ -19,7 +19,7 @@ tool: scripts/extraction/digitize_c_series.py; NumPy/SciPy/Pillow; AxisCalibrati
 tool_version: sha256:8db9672d603f3cc685691cc4cc4f6afb3a248fbf49b70d8f2dc914ccdb981ccb
 params:
   project: data/extraction/digitization/T011-S105-Fig9.digitization.yaml
-  review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
+  review_code_sha256: 012093537ae85f6057a30f616b85ab8f203d398031b8d1a62a570acc4b6d5971
   overlay: private/renders/T011-S105-Fig9-overlay.png
   overlay_sha256: db8d8d55b669edfe07096fbdcb81734871ec08e636077af99ed084080e089a60
   limitations:
@@ -40,10 +40,10 @@ params:
   branch: adsorption; no desorption series identified in selected figure
   series:
     UiO-66:
-      status: provisional
-      reviewer: null
-      review_ref: null
-      pending_review: T011v2
+      status: verified
+      reviewer: T011v2
+      review_ref: reviews/T011v2_reverification.md
+      pending_review: null
       usable_p_min_bar: 0.02145214521452145
       usable_range_note: lowest retained distinguishable symbol, not evidence of complete
         origin coverage; no initial-slope fit without sensitivity check
@@ -211,10 +211,10 @@ params:
       coordinate_bytes_sha256: 1b732b68eadb25b85baf4cb31c6e45e47a151c270d5b48f016742862a2b023d2
       coordinates_byte_identical: false
     UiO-66-NH2:
-      status: provisional
-      reviewer: null
-      review_ref: null
-      pending_review: T011v2
+      status: verified
+      reviewer: T011v2
+      review_ref: reviews/T011v2_reverification.md
+      pending_review: null
       usable_p_min_bar: 0.02376237623762376
       usable_range_note: lowest retained distinguishable symbol, not evidence of complete
         origin coverage; no initial-slope fit without sensitivity check
@@ -278,10 +278,10 @@ params:
       coordinate_bytes_sha256: edfc654e903a846539209274aadd34eced59051ff959d67c4506fded5e3e727b
       coordinates_byte_identical: false
     UiO-66/GO:
-      status: provisional
-      reviewer: null
-      review_ref: null
-      pending_review: T011v2
+      status: verified
+      reviewer: T011v2
+      review_ref: reviews/T011v2_reverification.md
+      pending_review: null
       usable_p_min_bar: 0.02244224422442244
       usable_range_note: lowest retained distinguishable symbol, not evidence of complete
         origin coverage; no initial-slope fit without sensitivity check
@@ -466,9 +466,9 @@ params:
 date: '2026-11-17T00:02:34.612603+00:00'
 raw_response_ref: private/renders/T011-S105-Fig9-native.png
 unit_conversions: []
-derived_sha256: 6bdc8d6ffcc411b74a330da287db8d587206895ee2bcc60f5482169f6b45582f
-status: provisional
-reviewer: null
+derived_sha256: 261efd68ac7192d3f9139fac4e3dcb2cc1a37ba88b5888f702893b181c99dbe5
+status: verified
+reviewer: T011v2
 corrections:
 - task: T011b-c-series-fix
   defects:
