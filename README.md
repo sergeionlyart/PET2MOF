@@ -14,6 +14,18 @@
 установлены; v1 и его статус не изменены. Команды: `make task002-intake`, `make task002-screen`, `make task002-s100`,
 `make report-task002`.
 
+## Этап v3 (PET-CO2-TASK-003): перенос PEI на PET-derived UiO-66
+
+Ветка `task003-pet-transfer`. Статус: **частично выполнено** — CO₂-ёмкость PET-derived UiO-66 в открытых источниках не
+найдена, поэтому границы условны через k = q(PET-носителя)/q(аналога). [Решение](reports/task003/decision_brief.md)
+([PDF](reports/task003/decision_brief.pdf)), [отчёт](reports/task003/final_report.md)
+([PDF](reports/task003/final_report.pdf)), [следующий опыт](reports/task003/next_experiment.md),
+[совместимость маршрутов](reports/task003/route_compatibility.md), [ревью](reports/task003/review.md),
+[вклад агентов](reports/task003/agent_contributions.md). Приоритет — прямое импрегнирование PEI (R1, протокол аналога
+«30PEI»), резерв — смешанный линкер PET-BDC/NH₂-BDC + PEI через GA (R2); порог переноса k* = 1.06–1.52 (R1) и 1.110 (R2),
+устойчиво по всем ветвям — k ≤ 0.95. Сухой чистый CO₂, ≈298 K; влага, цикл, смесь не оценивались. Команды:
+`make task003-test`, `make task003-reproduce`, `make report-task003`.
+
 ## Локальное воспроизведение
 
 Установите Python и `uv`, затем выполните `UV_CACHE_DIR="$PWD/.uv-cache" uv sync --locked`. Проектные команды используют зафиксированное окружение; не нужны ключи или модели ИИ. Для `make publish-check` дополнительно нужны установленный `gitleaks` и Git-идентичность с адресом `@users.noreply.github.com` (см. `docs/security.md`).
@@ -67,3 +79,15 @@ intervals, and no probabilities are claimed. An auxiliary check on five digitize
 interpolation: a single-site Langmuir fit was worse on a pre-assigned internal pressure block (not a blind test). A
 pore-volume operator defect was fixed and regression-tested. Humid behaviour, cycling, industrial readiness and transfer
 to PET-derived UiO-66 are not established. See `reports/task002/`.
+
+**Stage v3 (PET-CO2-TASK-003, branch `task003-pet-transfer`).** Status: **partially completed** — no open primary
+source gives the CO₂ capacity of PET-derived UiO-66, so every boundary is conditional on k = q(PET host)/q(analog host).
+A minimal mass balance (MOF + PEI + residue, η = mol CO₂ per mol PEI N, φ = retained host capacity) was applied to the
+S2 (PEI@UiO-66-NH₂) and S100 (PEI@UiO-66) analogs under all unresolved composition and mass-basis readings, and
+recomputed independently with exact arithmetic (124 checks, 0 discrepancies). Under the selection rule fixed before the
+calculation, direct PEI impregnation (R1, following the S100 "30PEI" protocol) is preferred, with a mixed
+PET-BDC/NH₂-BDC linker plus glutaraldehyde-anchored PEI (R2) as reserve; the S2 anchoring scheme itself is not applicable
+to NH₂-free PET-UiO-66. A ≥ 10 % gain over the own PET host is retained for any pore blocking if k ≤ 1.06–1.52 (R1,
+by S100 basis reading) or k ≤ 1.110 (R2 analog C72); robustly across all readings only if k ≤ 0.95. The S2 mass balance
+does not close (18.5–25 % of composite mass is neither MOF nor PEI). This is a conditional map, not a validated
+prediction; humidity, cycling, gas mixtures and synthesizability are not assessed. See `reports/task003/`.
