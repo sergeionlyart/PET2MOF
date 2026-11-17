@@ -2,7 +2,7 @@ UV_CACHE_DIR := $(CURDIR)/.uv-cache
 export UV_CACHE_DIR
 export UV_PYTHON_DOWNLOADS := never
 
-.PHONY: env test test-ocr test-model publish-check reproduce-demo reproduce-full report screen-debug
+.PHONY: env test test-ocr test-model publish-check reproduce-demo reproduce-full report report-t015 screen-debug
 env:
 	uv sync --locked
 test:
@@ -18,6 +18,8 @@ reproduce-demo:
 screen-debug:
 	uv run --locked --no-sync python scripts/revision_run.py screen
 report:
+	uv run --locked --no-sync python scripts/build_final_report.py
+report-t015:
 	uv run --locked --no-sync python scripts/revision_run.py report
 reproduce-full:
 	uv run --locked --no-sync python scripts/reproduce_full.py $(REPRODUCE_FULL_ARGS)
