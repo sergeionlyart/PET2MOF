@@ -58,8 +58,14 @@ def render(source):
     return '<html><body>' + '\n'.join(out) + '</body></html>'
 
 
-def main():
-    css = '''@font-face {font-family: dejavu; src: url(assets/DejaVuSans.ttf);}
+def main(argv=None):
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--input', default='final_report.md', help='Markdown path relative to reports/')
+    parser.add_argument('--output', default='final_report.pdf', help='PDF path relative to reports/')
+    args = parser.parse_args(argv)
+    source = REPORTS / args.input
+    css ='''@font-face {font-family: dejavu; src: url(assets/DejaVuSans.ttf);}
     body {font-family: dejavu; font-size: 9pt; line-height: 1.3;}
     h1 {font-size: 19pt;} h2 {font-size: 13pt; margin-top: 14pt;}
     p {margin: 6pt 0;}
@@ -68,9 +74,14 @@ def main():
     th {background-color: #eeeeee;}
     img {width: 480px; height: 309px;} a {color: #175080;} code {font-family: dejavu; font-size: 8pt;}
     '''
-    story = fitz.Story(html=render((REPORTS / 'final_report.md').read_text(encoding='utf-8')),
-                       user_css=css, archive=fitz.Archive(str(REPORTS)))
-    output = REPORTS / 'final_report.pdf'
+    # Images and the font resolve relative to the Markdown file's directory; the font is
+    # always taken from reports/assets via a second archive entry.
+    archive = fitz.Archive(str(source.parent))
+    if source.parent != REPORTS:
+        archive.add(str(REPORTS))
+    story = fitz.Story(html=render(source.read_text(encoding='utf-8')),
+                       user_css=css, archive=archive)
+    output = REPORTS / args.output
     writer = fitz.DocumentWriter(str(output))
     page = fitz.paper_rect('a4')
     content = page + (42, 42, -42, -42)
