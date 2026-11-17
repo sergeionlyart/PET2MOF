@@ -56,3 +56,6 @@ data/raw/nist_isodb/docs/*.html
 /reports/ensemble/
 /reports/validation/
 /runs/*/
+
+# TASK-003 raw downloads (rights per source; not redistributed)
+data/raw/task003/

@@ -1,0 +1,84 @@
+{
+  "work_order": "PET-CO2-TASK-003",
+  "version": "1.0",
+  "prepared_date": "2026-11-17",
+  "base_commit": "1558433614619e04102989d6b6f1479c50f364ce",
+  "new_experimental_dataset_included": false,
+  "sources": [
+    {
+      "id": "SRC-00",
+      "kind": "project_evidence",
+      "url": "https://github.com/sergeionlyart/PET2MOF/tree/1558433614619e04102989d6b6f1479c50f364ce",
+      "checked": "Final report and next-experiment file read through GitHub connector",
+      "use": "Existing Task002 evidence and inputs",
+      "limitation": "Not independent experimental evidence; no source-system write was performed"
+    },
+    {
+      "id": "SRC-01",
+      "legacy": "S2",
+      "doi": "10.1021/acsomega.8b02319",
+      "url": "https://doi.org/10.1021/acsomega.8b02319",
+      "checked": "Publisher/PubMed description; existing Task002 numerical work",
+      "use": "Chemical grafting route and within-study dry comparison",
+      "limitation": "UiO-66-NH2, not established waste-PET provenance; newly validated raw measurements are not supplied"
+    },
+    {
+      "id": "SRC-02",
+      "legacy": "S100",
+      "doi": "10.1021/acs.iecr.5b03517",
+      "url": "https://doi.org/10.1021/acs.iecr.5b03517",
+      "checked": "Publisher abstract",
+      "use": "PEI impregnation on UiO-66; primary-method lookup",
+      "limitation": "Existing digitization retains unresolved mass basis; abstract is not full input dataset"
+    },
+    {
+      "id": "SRC-03",
+      "legacy": "S115",
+      "doi": "10.1016/j.cej.2023.145349",
+      "url": "https://doi.org/10.1016/j.cej.2023.145349",
+      "checked": "Publisher title, abstract, highlights",
+      "use": "Real waste-PET to UiO-66 / CO2 candidate reference",
+      "limitation": "Full methods and pointwise data not retrieved in preparing this order; do not insert abstract capacity without verified conditions"
+    },
+    {
+      "id": "SRC-04",
+      "legacy": "S3",
+      "doi": "10.1039/D5SU00463B",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2026/su/d5su00463b",
+      "checked": "Publisher indexed abstract, conclusion and data availability",
+      "use": "Water-based ester route and characterization",
+      "limitation": "Commercial DMT/BHET discussed; not proof of actual waste feed, not a PEI/CO2 data set"
+    },
+    {
+      "id": "SRC-05",
+      "doi": "10.5281/zenodo.17475401",
+      "url": "https://zenodo.org/records/17475401",
+      "checked": "Record read: version v1, 2025-10-29, CC BY 4.0, archive link",
+      "use": "Author characterization source for SRC-04",
+      "archive_included": false,
+      "archive_download_attempt": "Failed in this environment; no bytes or SHA-256 verified",
+      "publisher_md5_unverified_locally": "11146af83d6144080ae9c1c071c07ddb",
+      "limitation": "Published checksum is not a local verification; inspect contents and methods before scientific use"
+    },
+    {
+      "id": "SRC-06",
+      "doi": "10.1016/j.apcatb.2026.127731",
+      "url": "https://doi.org/10.1016/j.apcatb.2026.127731",
+      "author_repository_url": "https://researchers.mq.edu.au/en/publications/enhanced-dual-pathway-photocatalytic-hydrogen-peroxide-production/",
+      "checked": "Publisher indexed text; university metadata",
+      "university_status": "Accepted/In press, 2026-11-02",
+      "publisher_issue_label": "2027, volume 404",
+      "use": "PET-derived BDC and NH2-BDC mixed-linker synthesis precedent",
+      "limitation": "Photocatalytic H2O2 paper; not CO2 sorption data or validation of PEI attachment"
+    },
+    {
+      "id": "SRC-07",
+      "kind": "official_documentation",
+      "url": "https://developers.openai.com/api/docs/guides/model-selection",
+      "reasoning_url": "https://developers.openai.com/api/docs/guides/reasoning",
+      "checked": "Official guidance read",
+      "use": "Model and reasoning-effort assignment",
+      "limitation": "Availability and allowed model identifiers must be checked in the executor account"
+    }
+  ]
+}
