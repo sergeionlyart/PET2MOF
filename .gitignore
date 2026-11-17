@@ -49,3 +49,10 @@ data/raw/nist_isodb/docs/*.html
 
 # Large regenerable outputs (hashes kept in-repo)
 *.npz
+
+# Post-tag inputs/outputs stay local while HEAD remains exactly prereg-v1.
+# Already tracked historical runs remain tracked. Hashes belong to passports.
+/holdout/v1/
+/reports/ensemble/
+/reports/validation/
+/runs/*/

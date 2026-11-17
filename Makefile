@@ -20,4 +20,4 @@ screen-debug:
 report:
 	uv run --locked --no-sync python scripts/revision_run.py report
 reproduce-full:
-	uv run --locked --no-sync python scripts/reproduce_full.py
+	uv run --locked --no-sync python scripts/reproduce_full.py $(REPRODUCE_FULL_ARGS)

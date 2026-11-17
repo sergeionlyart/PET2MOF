@@ -124,6 +124,7 @@ def calibrate(root, *, include_provisional=False, draws=64, seed=18018):
         for k, v in values.items():
             records[k] = carrier_record(k, v)
             records[k]['extraction_ids'] = sorted(problems[k]['frame'].extraction_id.unique().tolist())
+            records[k]['calibration_temperatures_K'] = sorted(problems[k]['frame'].T_K.unique().tolist())
         return dict(carriers=[r for k, r in records.items() if k[0] == 'S105'],
                     water=[r for k, r in records.items() if k[0] == 'S106'])
 

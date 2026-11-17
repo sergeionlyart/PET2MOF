@@ -202,7 +202,13 @@ def test_design_bounds_have_project_origin_and_structures_remain_separate():
     assert result["structural_branches"]["v1.1-connectivity"]["kappa"] == revision["branches"]["v1.1-connectivity"]["kappa_bounds"]
     basis = json.loads((EVIDENCE / "design_basis.json").read_text())
     for item in basis["inputs"]:
-        assert hashlib.sha256((ROOT / item["path"]).read_bytes()).hexdigest() == item["sha256"]
+        content = (ROOT / item["path"]).read_bytes()
+        if item['path'] == 'docs/decisions.md':
+            # T014 pins the journal through D-17, before D-18 was appended.
+            # Preserve that exact historical hash; new entries are frozen in
+            # frozen_parameters.yaml, not retroactively in T014's evidence.
+            content = content.split(b'\n## D-18 (', 1)[0].rstrip()+b'\n'
+        assert hashlib.sha256(content).hexdigest() == item["sha256"]
 
 
 @pytest.mark.parametrize("change", ["missing_source", "bare_number", "two_value_fields", "nonfinite"])

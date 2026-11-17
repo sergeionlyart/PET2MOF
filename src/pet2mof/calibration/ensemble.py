@@ -173,8 +173,8 @@ def run_ensemble(root, *, frozen_path='configs/frozen_parameters.yaml', output='
     verify_frozen_inputs(root, frozen)
     if frozen['missing']:
         raise ValueError('ensemble requires calibrated N2 and three water samples; missing '+str(frozen['missing']))
-    if not debug and (frozen['include_provisional'] or repeats != 4 or count < 4096 or branch_limit is not None or seed != 12001):
-        raise ValueError('production requires verified calibration, all branches, four repeats, seeds 12001..12004 and >=4096 draws')
+    if not debug and (frozen['include_provisional'] or repeats != 4 or count != 4096 or branch_limit is not None or seed != 12001):
+        raise ValueError('production requires verified calibration, all branches, four repeats, seeds 12001..12004 and exactly 4096 draws (D-18)')
     if count < 4 or repeats < 2:
         raise ValueError('at least two repeats of four draws required')
     scenario = load_config(root/'configs/scenarios.yaml')['scenario']

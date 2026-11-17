@@ -1,12 +1,12 @@
 """Ideal wet gas and IAPWS SR1-86(1992), equation (1).
 
 Correlation source: https://iapws.org/public/documents/6dGkr/Supp-sat.pdf
-Section 1: Tc=647.096 K, pc=22.064 MPa; powers 1,1.5,3,3.5,4,7.5.
-Reference checks (pressure in MPa): 273.16 K -> 0.000611657,
-373.15 K -> 0.101417994, critical point -> 22.064.
-The official PDF is not present in the blind T013 checkout and source network
-access is forbidden. Coefficient transcription/reference checks are provisional
-pending independent comparison with that document (T016); no claim of source QA.
+Page 3, sections 2/3: Tc=647.096 K, pc=22.064 MPa; powers
+1,1.5,3,3.5,4,7.5. Table 1 (page 7), pressure in Pa:
+273.16 K -> 611.657; 373.1243 K -> 101325; 647.096 K -> 22064000.
+T020: coefficients and Table 1 visually checked against the official PDF,
+SHA256 a10d38d73339b0713c86cfac88f9adcba137202167ccdfa1cd58238c438361d7.
+Independent acceptance remains with T021; see reviews/T020_prereg_rules.md.
 """
 from dataclasses import dataclass
 import math

@@ -1,0 +1,432 @@
+{
+  "task_id": "T020-prereg-rules",
+  "kind": "synthetic_debug_rehearsal_not_V_validation",
+  "original_head": "1cf4a652ba97532a4c303bd79cecf24b7e9c1666",
+  "clone": ".uv-cache/rehearsal-shallow",
+  "clone_commit": "acde2e71cff90c7c09935a5b83179e9c89e7c14c",
+  "clone_tree": "88389b3f25b52cda515417b2c9e255a842c7847e",
+  "temporary_tag": "prereg-v1",
+  "source_snapshot_sha256": {
+    ".gitignore": "4dd67f5e4d5df70a18198f548c11267e0e24a504ecb059875ac259c3749dea87",
+    "Makefile": "e0dde2b7e76a89e5fa687f62f92f1f128b3de220ceee6a21372905c72cd308ab",
+    "configs/frozen_parameters.yaml": "57c79dcb3d44d93a40cff1933e4d1cef8f7b8307d5aa8098cdf7745570a6a941",
+    "configs/frozen_parameters_provisional.yaml": "deleted",
+    "data/extraction/T014/README.md": "b27e3f7c3120df25ed414ae3c9d6db06cbba1e41ddc1147f8f754a5944f2df8e",
+    "data/extraction/T020-IAPWS-SR1-86.yaml": "ac060f2a70747d7526d9c763361c96f33f5c708f077aa8f54a829f6871a2d677",
+    "data/extraction/records/T020-IAPWS-SR1-86.json": "5993c59e2f70c765ae0d99c3ec4322770892b3204b683f8403dc77382472ed64",
+    "docs/holdout_schema.md": "0f68b802817170d389f6fd547aa6968bdd9712de872f07c6b05159653a02a94b",
+    "docs/post_tag_procedure.md": "87d4576be6110fbef646c79f6b0565e03f10c815bb3c62872dc31271ed29e5dd",
+    "docs/validation_protocol.md": "10596c11b382722062f252b34f160b78d1c50970bb0720e3d7bd57945129b46c",
+    "scripts/predict_holdout.py": "cf91a13f63ab15039cc71fb4c90b2fad7cdca014f960166c6d7839c78ce6b0b7",
+    "scripts/reproduce_full.py": "5d5add9417864457e6bdad09871a725be2e1c915d75fbb98657dd923b4b4c316",
+    "scripts/validate.py": "7f3783b2e6e74d9d818d32863d5b6da293c3457001c17efc5dafb52b3f669de6",
+    "src/pet2mof/calibration/ensemble.py": "0f645c03c37af2cc7c1692e035546681f52985d94020eb97790bb850cf9ee382",
+    "src/pet2mof/calibration/final.py": "8b23c3d073d28c4ab9d0d50e6bd3de19f3085ef7a9f5b7823cd4257887ee7be3",
+    "src/pet2mof/calibration/prediction.py": "3f28016cc85e4b98770adb777a58a996f9fbb9784e285a48a0148bcb1f5a831e",
+    "src/pet2mof/model/gas.py": "483ad4f252af0476f340f9f79a63ea57478be4108f1c7c29f6030328df22333b",
+    "tests/test_prereg_rules.py": "f5cf9400d6c7258d272224054ddcb220a9e5325fd6e56b2e83b830ff241e5060",
+    "tests/test_sourced_ranges.py": "06433d9f8882083da74d989cb6d91857aff742670e071ccac348bc526500cd3a"
+  },
+  "commands": [
+    {
+      "command": "uv sync --locked",
+      "exit_code": 0
+    },
+    {
+      "command": "make publish-check",
+      "exit_code": 0
+    },
+    {
+      "command": "make reproduce-full REPRODUCE_FULL_ARGS=--rehearsal",
+      "exit_code": 0
+    },
+    {
+      "command": "python scripts/predict_holdout.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python ../rehearsal_driver.py disclose",
+      "exit_code": 0
+    },
+    {
+      "command": "python scripts/validate.py",
+      "exit_code": 0
+    },
+    {
+      "command": "git diff --exit-code HEAD -- configs/frozen_parameters.yaml",
+      "exit_code": 0
+    },
+    {
+      "command": "git status --porcelain --untracked-files=all",
+      "exit_code": 0
+    }
+  ],
+  "head_equals_tag": true,
+  "git_status_porcelain": "",
+  "synthetic_conditions": 21,
+  "synthetic_series": 7,
+  "comparison_counts": {
+    "full": 12,
+    "conditional": 48,
+    "not_testable": 24
+  },
+  "full_verdict_available": false,
+  "ensemble": {
+    "status": "debug",
+    "branch_count": 2,
+    "samples_per_repeat": 8,
+    "repeats": 2,
+    "convergence_statuses": [
+      "not_established"
+    ]
+  },
+  "passport": {
+    "run_id": "20261117T011047176171Z-acde2e71-T020-rehearsal",
+    "purpose": "Debug chain rehearsal",
+    "hypothesis": "conditional forecast, branches separate",
+    "commit_sha": "acde2e71cff90c7c09935a5b83179e9c89e7c14c",
+    "versions": {
+      "python": "3.12.0",
+      "pet2mof": "0.1.0",
+      "numpy": "2.5.5",
+      "scipy": "1.18.1",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "pyyaml": "6.0.3",
+      "pymupdf": "1.28.2",
+      "pillow": "12.3.0",
+      "jsonschema": "4.26.0",
+      "pytest": "9.2.0"
+    },
+    "inputs": [
+      {
+        "path": "Makefile",
+        "sha256": "e0dde2b7e76a89e5fa687f62f92f1f128b3de220ceee6a21372905c72cd308ab"
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "f8cf628e6fe5daecb47ef031177a2544f9c8e9f7b373ada6f610f9604aa19144"
+      },
+      {
+        "path": "uv.lock",
+        "sha256": "31723d3593017029129b76b55d9d71a9ed9f0bf549da38c6819273ef4d7ef1c7"
+      },
+      {
+        "path": "data/processed/c_series/manifest.json",
+        "sha256": "9c1af3362e772d794f1bf11b85ca21f0fb68c6b0abbb5aa1e42826f498ca138e"
+      },
+      {
+        "path": "configs/calibration.yaml",
+        "sha256": "4b8dfc12e969ac949b1e09c13b7f61d051c1aab1d726bf6d200a60ccb1bc2acf"
+      },
+      {
+        "path": "configs/constants.yaml",
+        "sha256": "3b41c1a5f1b59489594158b9ac2c5e3f8382f5539bb5cfec8a0261d9c4b1eb87"
+      },
+      {
+        "path": "configs/demo_expected.yaml",
+        "sha256": "23e32718abb3098d6a04e9aaba154afbddc3a60a8b3c3d6654d00b7862dc1c7f"
+      },
+      {
+        "path": "configs/fitted_debug.yaml",
+        "sha256": "ad0927bb999a0c9766ac27bc9f648946ba73e0da15cbcd3dd4025e25bc3e80cf"
+      },
+      {
+        "path": "configs/fitted_v1_1_debug.yaml",
+        "sha256": "4e2791503ef86b3bf8062435ea69865a93e3e91e6d6bd43af22d78519538305b"
+      },
+      {
+        "path": "configs/frozen_parameters.yaml",
+        "sha256": "57c79dcb3d44d93a40cff1933e4d1cef8f7b8307d5aa8098cdf7745570a6a941"
+      },
+      {
+        "path": "configs/publish_allowlist.yaml",
+        "sha256": "7aa1a3ec0d47923bdde8223074bd4ab1765a9316daeb2c5f0e06bb851f5c10f4"
+      },
+      {
+        "path": "configs/revision.yaml",
+        "sha256": "bdd7377333b0dd8b3365cdb9ecab9449dd9af9b478a3d49e8b50a9ade16afd6f"
+      },
+      {
+        "path": "configs/scenarios.yaml",
+        "sha256": "a886d7ef1251f14230e4de1572595cc3ed69201eef69e258647377ed783100a1"
+      },
+      {
+        "path": "configs/sourced_ranges.yaml",
+        "sha256": "99c4b160090c92a0dbb760877dc019569144c6a6af1e6f4b53071a0a98524c03"
+      },
+      {
+        "path": "src/pet2mof/model/__init__.py",
+        "sha256": "30a56288d3ecb442c93215933afe12baabe8bdc849982ebbd6f19e098e0a66f4"
+      },
+      {
+        "path": "src/pet2mof/model/amines.py",
+        "sha256": "bbf7192f254a3f736b112eba02df4bceb65eb4fc3e5067eaabb1d142b97169e8"
+      },
+      {
+        "path": "src/pet2mof/model/baseline.py",
+        "sha256": "d7de4666ee6e5cb3c13bfd2d7abecd67e9337d45f71d74f18ab5ddaa233e16b9"
+      },
+      {
+        "path": "src/pet2mof/model/batch.py",
+        "sha256": "9ac4dacbe70a90b19bf975b0e970c7c8f66d34bc66be0bd6c4d025a7d177b55e"
+      },
+      {
+        "path": "src/pet2mof/model/config.py",
+        "sha256": "b5d317ccb7638ef9ec6f42f0a8389996f4a4e212f3039706b0343d7b28d797f4"
+      },
+      {
+        "path": "src/pet2mof/model/cycle.py",
+        "sha256": "8da18f31d9fe1d80a9c8bd28cdfd71bfa01cfb070786ecdd335955165b72f983"
+      },
+      {
+        "path": "src/pet2mof/model/gas.py",
+        "sha256": "483ad4f252af0476f340f9f79a63ea57478be4108f1c7c29f6030328df22333b"
+      },
+      {
+        "path": "src/pet2mof/model/isotherms.py",
+        "sha256": "be58f08132e5fcad928126fceb057f3fde2dc0a52f74e1801d0d7311e05baba1"
+      },
+      {
+        "path": "src/pet2mof/model/pores.py",
+        "sha256": "4218d975c112f3dcb25639e796241387eadff6d98f3af14e800bdc40a727243a"
+      },
+      {
+        "path": "src/pet2mof/model/revision.py",
+        "sha256": "4dfdf623fa6cbf34edb4306b0a8e72bd27991e06e367757d6b46fb95e529a435"
+      },
+      {
+        "path": "src/pet2mof/calibration/__init__.py",
+        "sha256": "0967c955af8fa66042904fce05df39723f264a44ef1ab8a92eadd14a1c1a3d73"
+      },
+      {
+        "path": "src/pet2mof/calibration/demo.py",
+        "sha256": "ce80237e47b012f173d781de33ad5d715636d9749b3cd8c9b4830cc104f11804"
+      },
+      {
+        "path": "src/pet2mof/calibration/ensemble.py",
+        "sha256": "0f645c03c37af2cc7c1692e035546681f52985d94020eb97790bb850cf9ee382"
+      },
+      {
+        "path": "src/pet2mof/calibration/final.py",
+        "sha256": "8b23c3d073d28c4ab9d0d50e6bd3de19f3085ef7a9f5b7823cd4257887ee7be3"
+      },
+      {
+        "path": "src/pet2mof/calibration/fit.py",
+        "sha256": "7c5d4670c77594238e0be4bb118c616187e153f2a0c28302e33fea24c9d13e11"
+      },
+      {
+        "path": "src/pet2mof/calibration/metrics.py",
+        "sha256": "9ee99897f83b13ceeaeb547c0ed80b493cd8422355b029596cf9d20ab354d0d2"
+      },
+      {
+        "path": "src/pet2mof/calibration/prediction.py",
+        "sha256": "3f28016cc85e4b98770adb777a58a996f9fbb9784e285a48a0148bcb1f5a831e"
+      },
+      {
+        "path": "src/pet2mof/calibration/revision.py",
+        "sha256": "7ada8e81538ce724991ba57f00f41e9771afccf7f479e8ada34b12e2f7302834"
+      },
+      {
+        "path": "src/pet2mof/calibration/revision_screening.py",
+        "sha256": "d0199f2d9a55df36867289c2890c43ba3ff977f5264ef7b0ee4bccee0d28d72f"
+      },
+      {
+        "path": "src/pet2mof/calibration/screening.py",
+        "sha256": "21c02d2cff2abe9b7910403014195560a30913abe2ff1d1f9ad6d67830d7e68a"
+      },
+      {
+        "path": "data/processed/c_series/C-S100-FigS5-10PEI-UiO-66-CO2-298K.csv",
+        "sha256": "b1932951bac93b9671b3d2062647b6f17053dba3f1ce82dea1a19c446a2c59d7"
+      },
+      {
+        "path": "data/processed/c_series/C-S100-FigS5-20PEI-UiO-66-CO2-298K.csv",
+        "sha256": "7ccdbe12c7d518bb9ae0f8b281e16fc669bc983c17b52d394875de81be6ab3e5"
+      },
+      {
+        "path": "data/processed/c_series/C-S100-FigS5-30PEI-UiO-66-CO2-298K.csv",
+        "sha256": "aeb3c00f1b730aac783390e8f21dc7148084ce755a64ebda1d16d3b355498baa"
+      },
+      {
+        "path": "data/processed/c_series/C-S100-FigS5-40PEI-UiO-66-CO2-298K.csv",
+        "sha256": "3226d1366af93d902953241122a5a0f8766dfac513edff2f9ebcd3ab6179a777"
+      },
+      {
+        "path": "data/processed/c_series/C-S100-FigS5-UiO-66-CO2-298K.csv",
+        "sha256": "c4113c007933ee95f540b08c79d97eef29ceee9b3055799a7cf9de0662de6361"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8A-UiO-66-CO2-273K.csv",
+        "sha256": "f0df2e4ab3da32795cd99ea6ef43d9782ce7e5bfd1df6d76fee79408380fd5f1"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8A-UiO-66-GO-CO2-273K.csv",
+        "sha256": "d9bcf716bfdf3a90e9daf154920f1b8d687bc38c7fb3312aaa1961c7ba9c3567"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8A-UiO-66-NH2-CO2-273K.csv",
+        "sha256": "70ca15171439e995a38c24eea4cc591bb8ed299825ce4bd4538ba1e0f3156af8"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8A-UiO-66-NH2-GO-CO2-273K.csv",
+        "sha256": "34d112e33ecc04de818524ad1ad622772a276aa31f384b7db4a7f5c39ebd6ebf"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8B-UiO-66-CO2-298K.csv",
+        "sha256": "607b49aecd5faaf3fe3fb63aee37012a497266b12e80f2acbbb57826b699ccc9"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8B-UiO-66-GO-CO2-298K.csv",
+        "sha256": "6642e064c5fcc5e103ae57d13ab6f7e3d52d304b4773e098b7e34155e181b21e"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8B-UiO-66-NH2-CO2-298K.csv",
+        "sha256": "60bac3b60104592d2acea6628dc088ceea1fb34e78cefc86595b918ba168f490"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8B-UiO-66-NH2-GO-CO2-298K.csv",
+        "sha256": "42f658827fe9f5697391c8e80a75396faff3df0ba662f3f200f84abfff0af576"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8C-UiO-66-CO2-318K.csv",
+        "sha256": "83510b67569e4510b902ef8d2c961ef43fe20b81e381c6da4898a0dc88ce7e72"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8C-UiO-66-GO-CO2-318K.csv",
+        "sha256": "fb4b64969521357c34e9cc9a7e95b01ccbdd54a58909432a7050d356135d0fea"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8C-UiO-66-NH2-CO2-318K.csv",
+        "sha256": "a6c799d05ffc77e620e108cd05901291a18bffb5b2a281aaffd3b8871d6851fa"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig8C-UiO-66-NH2-GO-CO2-318K.csv",
+        "sha256": "284216d2482dbc48f8422e63504e50c77a3359a6ad7cff5644cbe8864f69e8de"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig9-UiO-66-GO-N2-298K.csv",
+        "sha256": "c74e6f20f798c056e81038289489300c4f575bff2b88ccb50663fdfbba121660"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig9-UiO-66-N2-298K.csv",
+        "sha256": "1372e2373acce2a3280b30142b742560cb80f155ab03f3c08e8a979cc49e7d79"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig9-UiO-66-NH2-GO-N2-298K.csv",
+        "sha256": "633bf42f8c4a8b632fd30ae8723d015916d55ec59a4596cb9c6b5b3d40e3e294"
+      },
+      {
+        "path": "data/processed/c_series/C-S105-Fig9-UiO-66-NH2-N2-298K.csv",
+        "sha256": "c84eb6ffe9fbf77027d37f14cccfa9f904ffd58230db51fa4802e0ca3c37265a"
+      },
+      {
+        "path": "data/processed/c_series/C-S106-Fig4-UiO-66-100-H2O-293K.csv",
+        "sha256": "0ad9decce43ac812ceea29ef24e166815cad5b87839060d4d236b38fff8ced52"
+      },
+      {
+        "path": "data/processed/c_series/C-S106-Fig4-UiO-66-160-H2O-293K.csv",
+        "sha256": "a28600e0d1250ddfccea728d98e22fb8aa8a3aae846c46f242c630811727f24f"
+      },
+      {
+        "path": "data/processed/c_series/C-S106-Fig4-UiO-66-220-H2O-293K.csv",
+        "sha256": "01173f65d467e9050b1e94fa77ef5af415f84a240b6e78731215000878413e02"
+      },
+      {
+        "path": "scripts/calibrate_final.py",
+        "sha256": "ed896b56ea3c67bcc68330d6a134e3054900cb9852459f8bcbc6b3daef800302"
+      },
+      {
+        "path": "scripts/ensemble.py",
+        "sha256": "a3438438c69a955f7fdbcc03dec405884d50dc79520dd0744519c54fd1cebb7e"
+      },
+      {
+        "path": "scripts/reproduce_full.py",
+        "sha256": "5d5add9417864457e6bdad09871a725be2e1c915d75fbb98657dd923b4b4c316"
+      },
+      {
+        "path": "scripts/predict_holdout.py",
+        "sha256": "cf91a13f63ab15039cc71fb4c90b2fad7cdca014f960166c6d7839c78ce6b0b7"
+      },
+      {
+        "path": "src/pet2mof/data/c_series.py",
+        "sha256": "3d3852b65507e24ad68e0adce769f1ef36948db0a833d350f0947b5ff24ef0fa"
+      },
+      {
+        "path": "src/pet2mof/runs.py",
+        "sha256": "bd7e683c24af9931760889282c6b97417664c35710dfd7fd71e0caaad8efd13f"
+      },
+      {
+        "path": "docs/hypotheses.md",
+        "sha256": "54f8e5b34085a0dcb3d13b329a83a68dbab14074cee83c93af99ec9ff5fdc35f"
+      },
+      {
+        "path": "docs/validation_protocol.md",
+        "sha256": "10596c11b382722062f252b34f160b78d1c50970bb0720e3d7bd57945129b46c"
+      }
+    ],
+    "parameters": {
+      "rehearsal": {
+        "value": true,
+        "unit": "1"
+      }
+    },
+    "seed": 12001,
+    "command": [
+      ".venv/bin/python3",
+      "-c",
+      "import subprocess,sys; subprocess.run([sys.executable,\"scripts/calibrate_final.py\"],check=True); subprocess.run([\"git\",\"diff\",\"--quiet\",\"HEAD\",\"--\",\"configs/frozen_parameters.yaml\"],check=True); subprocess.run([sys.executable,\"scripts/ensemble.py\",\"--worker-run-id\",\"20261117T011047176171Z-acde2e71-T020-rehearsal\"]+['--debug', '--samples', '8', '--repeats', '2', '--branch-limit', '2', '--no-plots'],check=True)"
+    ],
+    "started_utc": "2026-11-17T01:10:47.176171+00:00",
+    "finished_utc": "2026-11-17T01:10:56.365922+00:00",
+    "status": "debug",
+    "exit_code": 0,
+    "resources": {
+      "elapsed_seconds": 9.143931208003778,
+      "child_user_seconds": 4.845777,
+      "child_system_seconds": 0.29424599999999995,
+      "child_maxrss": 187006976,
+      "maxrss_unit": "bytes",
+      "maxrss_scope": "process-lifetime child high-water mark"
+    },
+    "outputs": [
+      {
+        "path": "configs/frozen_parameters.yaml",
+        "sha256": "57c79dcb3d44d93a40cff1933e4d1cef8f7b8307d5aa8098cdf7745570a6a941"
+      },
+      {
+        "path": "reports/ensemble/summary.json",
+        "sha256": "583777ab90911d9705b4a56761b01ef7a8471df27090af5ae07b9a5564b3c9d2"
+      },
+      {
+        "path": "reports/ensemble/SHA256SUMS.large",
+        "sha256": "c3ff6837a309032650b7faf4923b669737f53a4e835f5578efad3ad62ec202a9"
+      }
+    ],
+    "checks": [],
+    "limitations": [
+      "requires independent prereg-v1 freeze and all required verified C inputs",
+      "small debug rehearsal; not a production ensemble or convergence result"
+    ],
+    "execution_status": "completed"
+  },
+  "artifact_sha256": {
+    "holdout/v1/conditions.csv": "25886733c42cc55b186310e57262269b0bfa80503c6f20eb2e04045f3afa254f",
+    "holdout/v1/predictions.csv": "15309c28cf24d8e40991645ebb3a50004ed9d51dcf39f315fe4e4a740108d1f2",
+    "holdout/v1/model_derivatives.csv": "a3090240134b4a4fdf9a8aaa7da07ed2b316e9e4e87ccb6d16d91390d8685c90",
+    "holdout/v1/prediction_metadata.json": "e549e74c553a1f5f50c5c5b108d7ff2e5262e070538a274620c410d38318089f",
+    "holdout/v1/observations.csv": "1ff4a6a6b0349321fde4f7e06608b34d1ea08e93b4ad5a7c8d1fdfd3d0146edd",
+    "holdout/v1/freeze.json": "eda50051099a7c22f8d8d279a3d5da6562e153e61ae2b2341681ec486fcfbf4c",
+    "configs/frozen_parameters.yaml": "57c79dcb3d44d93a40cff1933e4d1cef8f7b8307d5aa8098cdf7745570a6a941",
+    "reports/ensemble/summary.json": "583777ab90911d9705b4a56761b01ef7a8471df27090af5ae07b9a5564b3c9d2",
+    "reports/ensemble/SHA256SUMS.large": "c3ff6837a309032650b7faf4923b669737f53a4e835f5578efad3ad62ec202a9",
+    "reports/validation/validation.json": "52225805ee500ddf16af5d19a8daa96d06ce4fa06f8dbef2ab393fb978edc9d8",
+    "runs/20261117T011047176171Z-acde2e71-T020-rehearsal/passport.json": "b1cddffe0c6871d6b09e6c24a2d0795880e5558267e8ac7504883afc72a52255"
+  },
+  "synthetic_driver_sha256": "3ef2f6f5103f32967ade5f51d3ec4f2b38405d7dc2f5ee122e458f132650833b",
+  "limitations": [
+    "No real holdout data were opened; no independent real-V disclosure assertion.",
+    "Temporary clone/tag only; no commit/tag/push in original worktree.",
+    "Rehearsal uses debug sampling; cannot establish scientific convergence or H1.",
+    "Publication check applies to the shallow clone snapshot/history, not original full history."
+  ]
+}
