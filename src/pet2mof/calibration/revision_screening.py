@@ -11,9 +11,19 @@ from pet2mof.model.gas import p_sat
 from .screening import BRANCHES
 
 
-def draws(scenario, count, seed, branch, product, settings=None):
+def nominal_controls(scenario):
+    """Protocol §6 / model_spec §6: controls fixed across every material draw."""
+    return dict(scenario['nominal_controls'], T_ads=scenario['ads']['T'],
+                P_ads=scenario['ads']['P'], z_ads_C=scenario['ads']['z_C'])
+
+
+def draws(scenario, count, seed, branch, product, settings=None, *, controls='sensitivity'):
+    if controls not in ('nominal', 'sensitivity'):
+        raise ValueError('unknown control sampling mode')
+    fixed = nominal_controls(scenario) if controls == 'nominal' else {}
     rng = np.random.default_rng(seed)
-    p = {k:rng.uniform(*v, count) for k,v in scenario['screen_bounds'].items()}
+    p = {k:rng.uniform(*v, count) for k,v in scenario['screen_bounds'].items() if k not in fixed}
+    p.update({k:np.full(count, v) for k,v in fixed.items()})
     p['tau_over_t'] = rng.choice(scenario['tau_grid'], count)
     p['f1'], p['f2'], p['f3'] = rng.dirichlet([1.,1.,1.], count).T
     p['n_N'] = rng.uniform(max(scenario['screen_bounds']['n_N'][0], product), scenario['screen_bounds']['n_N'][1], count)
@@ -49,12 +59,14 @@ def feasible_parameters(raw, water, version, max_w=.3):
 
 def gas_arrays(p, kind, RH=None):
     if kind == 'ads':
-        T = np.full(len(p['Q_d']), 308.15); P = np.ones_like(T)
+        T = p.get('T_ads', np.full(len(p['Q_d']), 308.15))
+        P = p.get('P_ads', np.ones_like(T))
         a = np.full_like(T, RH/100)
-        pw = a*p_sat(308.15)
-        pc, pn = .05*(P-pw), .95*(P-pw)
+        pw = a*np.array([p_sat(float(t)) for t in T])
+        z = p.get('z_ads_C', .05)
+        pc, pn = z*(P-pw), (1-z)*(P-pw)
     else:
-        T = p['T_'+kind]; P = np.ones_like(T) if kind == 'R1' else p['P_R2']
+        T = p['T_'+kind]; P = p.get('P_R1', np.ones_like(T)) if kind == 'R1' else p['P_R2']
         pc = P*p['y_'+kind+'_C']; pw = P*p['y_'+kind+'_W']; pn = P-pc-pw
         a = pw/np.array([p_sat(float(t)) for t in T])
     return dict(T=T, P=P, p_C=pc, p_N=pn, a=a)
@@ -180,6 +192,7 @@ def screen_revision(root, demo, scenario, settings, *, count=None, seeds=None):
     grid = np.round(np.arange(0.,.30001,scenario['dense_step']),8)
     carrier = {r['gas']:r for r in demo['c_fits']['carriers']}
     out = dict(status='debug', scientific_status='проверяемый прогноз; данных недостаточно',
+               analysis_role='control_sensitivity', hypothesis_decisions_applicable=False,
                samples_per_cell=count, seeds=seeds, rng='numpy.PCG64', numpy_version=np.__version__,
                sampling_measure='uniform stress intervals; joint N,kappa,alpha geometry constraints; common random numbers across transfer/defect branches',
                correlations_selection_threshold=settings['correlation_selection_threshold'], branches={})

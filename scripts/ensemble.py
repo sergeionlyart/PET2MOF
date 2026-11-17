@@ -6,6 +6,7 @@ import sys
 import subprocess
 import yaml
 from pet2mof.calibration.ensemble import run_ensemble
+from pet2mof.calibration.freeze import require_freeze
 from pet2mof.runs import run_command
 
 
@@ -25,7 +26,6 @@ def main():
     output = (root/args.output).resolve(); output.relative_to(root)
     parameters = (root/args.parameters).resolve(); parameters.relative_to(root)
     if not args.debug:
-        from predict_holdout import require_freeze
         require_freeze(root)
     if args.worker_run_id:
         run_ensemble(root, frozen_path=args.parameters, output=args.output, count=args.samples, repeats=args.repeats,

@@ -12,25 +12,10 @@ import subprocess
 import numpy as np
 import yaml
 from pet2mof.calibration.final import sha256, verify_frozen_inputs
+from pet2mof.calibration.freeze import require_freeze
 from pet2mof.calibration.prediction import MODEL_LABELS, evaluate, derivatives, applicability
 
 CONDITION_FIELDS = 'series point_id source_id extraction_id material gas observable unit basis T_K p_total_bar p_partial_bar y_CO2_dry RH_fraction w_PEI w_reading Mw_PEI notes'.split()
-
-
-def require_freeze(root):
-    def git(*args):
-        return subprocess.run(['git', *args], cwd=root, text=True, capture_output=True, check=True).stdout.strip()
-    try:
-        head, tag = git('rev-parse', 'HEAD'), git('rev-parse', 'prereg-v1^{commit}')
-    except subprocess.CalledProcessError:
-        raise ValueError('prediction requires exact frozen prereg-v1 HEAD') from None
-    if head != tag:
-        raise ValueError('prediction requires exact frozen prereg-v1 HEAD')
-    subprocess.run(['git', 'diff', '--exit-code', '--quiet', 'HEAD', '--', 'src', 'scripts', 'configs', 'docs', 'data/processed/c_series'],
-                   cwd=root, check=True)
-    if git('ls-files', '--others', '--exclude-standard', '--', 'src', 'scripts', 'configs', 'docs', 'data/processed/c_series'):
-        raise ValueError('untracked scientific code/configuration is not frozen')
-    return head
 
 
 def predict(root, *, directory='holdout/v1', dry_run=False, parameters='configs/frozen_parameters.yaml'):

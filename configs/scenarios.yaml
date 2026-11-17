@@ -130,6 +130,78 @@ scenario:
       source_id: WO/DESIGN-T012
       extraction_id: not_applicable
       status: debug
+  # Fixed controls for H1/H1a; model_spec §6 nominal R1/R2, not fitted inputs.
+  nominal_controls:
+    T_R1:
+      value: 383.15
+      unit: K
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
+    P_R1:
+      value: 1.0
+      unit: bar
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
+    T_R2:
+      value: 363.15
+      unit: K
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
+    P_R2:
+      value: 0.1
+      unit: bar
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
+    y_R1_C:
+      value: 0.001
+      unit: '1'
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
+    y_R1_W:
+      value: 0.001
+      unit: '1'
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
+    y_R2_C:
+      value: 0.01
+      unit: '1'
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
+    y_R2_W:
+      value: 0.01
+      unit: '1'
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
+    t_ads:
+      value: 1800.0
+      unit: s
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
+    t_des:
+      value: 1800.0
+      unit: s
+      type: regression_reference
+      source_id: DESIGN-T012/model_spec-section-6
+      extraction_id: not_applicable
+      status: preregistered_design
   tau_over_t:
     value: 1.0
     unit: '1'

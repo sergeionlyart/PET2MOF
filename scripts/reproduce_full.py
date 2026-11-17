@@ -5,7 +5,7 @@ import argparse
 import sys
 import subprocess
 from pet2mof.runs import run_command
-from predict_holdout import require_freeze
+from pet2mof.calibration.freeze import require_freeze
 
 
 def main():
