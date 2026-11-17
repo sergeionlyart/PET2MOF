@@ -1,0 +1,9 @@
+S6
+Figure S7.  UiO-66-NH2 characterization data showing changes in the adsorption isotherms and PXRD pattern after water 
+adsorption and subsequent regeneration at 120 oC  (a) CO2 adsorption isotherm 25 oC (b) water adsorption isotherms 25 oC (c) N2 
+isotherm (d) PXRD pattern of UiO-66-NH2 after binary CO2/H2O adsorption isotherm measurements where the sample was 
+regenerated 6 times.
+a
+b
+c
+d

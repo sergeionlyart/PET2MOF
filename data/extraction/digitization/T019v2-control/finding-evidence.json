@@ -1,0 +1,31 @@
+{
+  "id": "T019v2-02",
+  "file": "T019-S103-Fig2a.csv",
+  "series": "S103-Fig2a-UiO66_100-desorption",
+  "point_id": "006",
+  "reason": "inter-symbol white pocket falsely recognized as hollow orange circle; annular coverage is diagnostic, final identification from rendered native crop",
+  "geometry": [
+    {
+      "pixel": [
+        230,
+        437
+      ],
+      "orange_annular_coverage": 0.7055555555555556
+    },
+    {
+      "pixel": [
+        222,
+        429
+      ],
+      "orange_annular_coverage": 1.0
+    },
+    {
+      "pixel": [
+        236,
+        415
+      ],
+      "orange_annular_coverage": 1.0
+    }
+  ],
+  "source_crop": "S103-open-circle-candidate.png"
+}

@@ -1,0 +1,80 @@
+Membranes 2020, 10, 154 
+15 of 18 
+ 
+References 
+1. 
+Chuah, C.Y. Microporous materials with tailored structural properties for enhanced gas separation; Nanyang 
+Technological University: Singapore, Singapore, 2019. 
+2. 
+Chuah, C.Y.; Kim, K.; Lee, J.; Koh, D.Y.; Bae, T.H. CO2 absorption using membrane contactors: Recent 
+progress and future perspective. Ind. Eng. Chem. Res. 2020, 59, 6773–6794. 
+3. 
+Aaron, D.; Tsouris, C. Separation of CO2 from flue gas: A review. Sep. Sci. Technol. 2005, 40, 321–348. 
+4. 
+Chuah, C.Y.; Goh, K.; Yang, Y.; Gong, H.; Li, W.; Karahan, H.E.; Guiver, M.D.; Wang, R.; Bae, T.H. 
+Harnessing filler materials for enhancing biogas separation membranes. Chem. Rev. 2018, 118, 8655–8769. 
+5. 
+Mondal, M.K.; Balsora, H.K.; Varshney, P. Progress and trends in CO2 capture/separation technologies: A 
+review. Energy 2012, 46, 431–441. 
+6. 
+Zhang, Y.; Sunarso, J.; Liu, S.; Wang, R. Current status and development of membranes for CO2/CH4 
+separation: A review. Int. J. Greenh. Gas Con. 2013, 12, 84–107. 
+7. 
+Yu, C.H.; Huang, C.H.; Tan, C.S. A review of CO2 capture by absorption and adsorption. Aerosol Air Qual. 
+Res 2012, 12, 745–769. 
+8. 
+Yang, H.; Xu, Z.; Fan, M.; Gupta, R.; Slimane, R.B.; Bland, A.E.; Wright, I. Progress in carbon dioxide 
+separation and capture: A review. J. Environ. Sci. 2008, 20, 14–27. 
+9. 
+Esposito, E.; Dellamuzia, L.; Moretti, U.; Fuoco, A.; Giorno, L.; Jansen, J.C. Simultaneous production of 
+biomethane and food grade CO2 from biogas: An industrial case study. Energy Environ. Sci. 2019, 12, 
+281–289. 
+10. 
+Sanders, D.F.; Smith, Z.P.; Guo, R.; Robeson, L.M.; McGrath, J.E.; Paul, D.R.; Freeman, B.D. 
+Energy-efficient polymeric gas separation membranes for a sustainable future: A review. Polymer 2013, 54, 
+4729–4761. 
+11. 
+Karahan, H.E.; Goh, K.; Zhang, C.; Yang, E.; Yıldırım, C.; Chuah, C.Y.; Ahunbay, M.G.; Lee, J.; 
+Tantekin-Ersolmaz, Ş.B.; Chen, Y. MXene Materials for Designing Advanced Separation Membranes. Adv. 
+Mater. 2020, 1906697. 
+12. 
+Robeson, L.M. The upper bound revisited. J. Membr. Sci. 2008, 320, 390–400. 
+13. 
+Robeson, L.M. Correlation of separation factor versus permeability for polymeric membranes. J. Membr. 
+Sci. 1991, 62, 165–185. 
+14. 
+Li, W.; Goh, K.; Chuah, C.Y.; Bae, T.H. Mixed-matrix carbon molecular sieve membranes using 
+hierarchical zeolite: A simple approach towards high CO2 permeability enhancements. J. Membr. Sci. 2019, 
+588, 117220. 
+15. 
+Li, S.; Falconer, J.L.; Noble, R.D. SAPO-34 membranes for CO2/CH4 separation. J. Membr. Sci. 2004, 241, 
+121–135. 
+16. 
+Pera-Titus, M. Porous inorganic membranes for CO2 capture: Present and prospects. Chem. Rev. 2013, 114, 
+1413–1492. 
+17. 
+Zhang, X.; Chuah, C.Y.; Dong, P.; Cha, Y.H.; Bae, T.H.; Song, M.K. Hierarchically Porous Co-MOF-74 
+Hollow Nanorods for Enhanced Dynamic CO2 Separation. ACS Appl. Mater. Int. 2018, 10, 43316–43322. 
+18. 
+Vinoba, M.; Bhagiyalakshmi, M.; Alqaheem, Y.; Alomair, A.A.; Pérez, A.; Rana, M.S. Recent progress of 
+fillers in mixed matrix membranes for CO2 separation: A review. Sep. Purif. Technol. 2017, 188, 431–450. 
+19. 
+Adatoz, E.; Avci, A.K.; Keskin, S. Opportunities and challenges of MOF-based membranes in gas 
+separations. Sep. Purif. Technol. 2015, 152, 207–237. 
+20. 
+Lin, Y.S. Metal organic framework membranes for separation applications. Curr. Opin. Chem. Eng. 2015, 8, 
+21–28. 
+21. 
+Sumida, K.; Rogow, D.L.; Mason, J.A.; McDonald, T.M.; Bloch, E.D.; Herm, Z.R.; Bae, T.H.; Long, J.R. 
+Carbon dioxide capture in metal–organic frameworks. Chem. Rev. 2012, 112, 724–781. 
+22. 
+Chuah, C.Y.; Li, W.; Samarasinghe, S.; Sethunga, G.; Bae, T.H. Enhancing the CO2 separation performance 
+of polymer membranes via the incorporation of amine-functionalized HKUST-1 nanocrystals. Micropor. 
+Mesopor. Mater. 2019, 290, 109680. 
+23. 
+McDonald, T.M.; Lee, W.R.; Mason, J.A.; Wiers, B.M.; Hong, C.S.; Long, J.R. Capture of carbon dioxide 
+from air and flue gas in the alkylamine-appended metal–organic framework mmen-Mg2(dobpdc). J. Am. 
+Chem. Soc. 2012, 134, 7056–7065. 
+24. 
+Darunte, L.A.; Oetomo, A.D.; Walton, K.S.; Sholl, D.S.; Jones, C.W. Direct air capture of CO2 using amine 
+functionalized MIL-101 (Cr). ACS Sust. Chem. Eng. 2016, 4, 5761–5768. 

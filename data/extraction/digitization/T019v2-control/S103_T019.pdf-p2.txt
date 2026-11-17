@@ -1,0 +1,117 @@
+M
+olecular polarity is determined by the dipole moment as
+a result of nonsymmetric charge distribution1–3. Since
+polarity highly inﬂuences adsorption, it is important to
+model the interactions of polar and nonpolar molecules in
+hydrophobic and hydrophilic structures properly. These interac-
+tions play a key role in many biochemical processes, such as
+protein folding, where hydrophobic interactions with nonpolar
+groups contribute to the stability of folded proteins, bases in
+helical nucleic acids, and membrane layers4,5. In this regard,
+accurate descriptions of interactions between adsorbate molecules
+and porous solids are easier to achieve for nonpolar molecules
+than for polar ones. This is because when describing nonpolar
+molecules the electrostatic part of the model can be neglected,
+reducing the number of parameters (point charges of the guest
+molecule or/and of the host structure). Modeling interactions
+with polar molecules involves the use of coulombic interactions in
+combination with other potentials to describe van der Waals
+interactions. Finding a proper set of charges for the structure is
+crucial and can be a challenging task6–8.
+Besides, tuning the hydrophobic and hydrophilic character of
+structures may also have a role in many environmental and
+catalytic applications9–11. There are many possibilities in the use
+of MOFs as adsorbents. They differ in the ability to adsorb
+molecules, the pressure at which the pores are ﬁlled and the shape
+of the adsorption isotherm. In the literature, many papers can be
+found on the effect of functionalization, or the size and mor-
+phology of pores on the adsorption of water, which is one of the
+most important representatives of polar molecules12–14. It has
+also been shown that the adsorption in MOFs is mainly depen-
+dent on the morphology and pore size, while modiﬁcation of the
+chemical nature of the linker allows tuning the hydrophilicity of
+the material15. However, is some cases the transition from
+hydrophobic to hydrophilic character may be induced by the
+introduction of structural defects16–19, the addition of salts, or the
+co-adsorption of water and other polar molecules20.
+In this work, we used experimental methodology in combi-
+nation with computational techniques to model and understand
+the adsorption of molecules with different dipole moments in the
+UiO-66 MOF. An additional aspect is the change of the
+adsorption mechanism of these molecules on the UiO-66 struc-
+ture as defects are created (Fig. 1). As we know from the previous
+studies7,21–23,
+UiO-66
+may
+act
+as
+either
+hydrophobic
+or
+hydrophilic adsorbent, which alters the adsorption of polar and
+nonpolar molecules.
+Results and discussion
+In this work we used experimental methods such as powder X-ray
+diffraction (PXRD), volumetric adsorption and IR spectroscopy;
+and computational ones: DFT + D and Monte Carlo simulations.
+PXRD. The crystal structures of the materials were conﬁrmed by
+the powder X-ray diffraction (Fig. S1b in the ESI). Symmetry
+forbidden low-angle reﬂections in the most defective UiO-66_100
+sample were conﬁrmed by modeling and are traced by vertical
+dashed lines (Fig. S1a in the ESI). Previous studies have shown
+that the lower the synthesis temperature, the greater the number
+of structural defects in the form of a missing linker7,22. Thus, the
+material synthesized at 220 °C (UiO-66_200) was assumed to be
+ideal, while the ones synthesized at 160 °C (UiO-66_160) and
+100 °C (UiO-66_100) contained some defects.
+DFT+D calculations. Adsorption in UiO-66 material may occur
+with a preference for interactions with the metal-oxide zirconium
+clusters or more favorable interactions with aromatic linker rings,
+depending on the chemical nature of the adsorbate molecule. To
+compare the energy preferences of interactions at different
+adsorption sites, we selected two representatives: polar (metha-
+nol) and nonpolar molecules (carbon dioxide). The initial con-
+ﬁgurations for the molecules were selected on the basis of the
+preliminary Monte Carlo calculations. We used Density Func-
+tional Theory (DFT) to obtain the adsorption energy when
+adsorbed on the zirconium cluster and on the organic linker.
+These systems were optimized, and the adsorption energy was
+calculated as:
+4Gads ¼ Gguestþhost  Ghost  Gguest
+where Gguest+host is the energy of the adsorbed molecule in the
+framework, Ghost is the energy of the framework and Gguest is the
+energy of the molecule. The adsorption energies are summarized
+in Table 1. Lower adsorption energy, i.e. more favorable inter-
+actions, can be observed for carbon dioxide adsorbed near the
+1,4-bdc linkers. In the case of methanol molecules, the lowest
+energy occurs in the interactions with the zirconium cluster. This
+gives the ﬁrst prerequisite for the preferred adsorption sites of
+polar and nonpolar molecules.
+Adsorption measurements and Monte Carlo calculations. To
+extend the information obtained from the DFT calculations, we
+combined experiments with classical simulations to analyze the
+behavior of polar and nonpolar molecules. First, we studied
+nonpolar molecules possessing quadrupole moments, then polar
+molecules, and ﬁnally nonpolar molecules without quadrupole. In
+all cases, we used a set of charges for the structures that was
+Fig. 1 UiO-66 structure with different content of defects. Schematic
+representation of the inﬂuence of the synthesis temperature on the number
+of defects introduced into the structure and its dependence on the nature of
+the material.
+Table 1 Results from DFT+D calculations of adsorption
+energies.
+ΔGads
+Metal cluster
+Organic linker
+Carbon dioxide
+1.89
+−7.86
+Methanol
+−7.70
+−3.27
+Calculated for the adsorption of carbon dioxide and methanol in the vicinity of the metal cluster
+and organic linkers, respectively. All energies are given in kcal·mol−1.
+ARTICLE
+COMMUNICATIONS CHEMISTRY | https://doi.org/10.1038/s42004-022-00742-z
+2
+COMMUNICATIONS CHEMISTRY |  (2022) 5:120 | https://doi.org/10.1038/s42004-022-00742-z | www.nature.com/commschem

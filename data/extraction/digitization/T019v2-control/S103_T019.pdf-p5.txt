@@ -1,0 +1,88 @@
+due to the increasing number of defects. For the two polar
+molecules (methanol and ethanol) the heats of adsorption are the
+highest in the most hydrophilic structure UiO-66_32 and the
+lowest in the most hydrophobic UiO-66_0. This is a consequence
+of the adsorption of the polar molecules next to the -OH groups
+incorporated after the removal of the linkers. Therefore, it can be
+concluded that these sites are even more attractive than the initial
+adsorption sites on defect-free UiO-66, i.e. in the vicinity of the
+zirconium clusters. This is in line with the previous conclusions
+drawn directly from adsorption
+isotherms: the lower the
+adsorption onset, the higher the heat of adsorption. In the case
+of nonpolar molecules and molecules with quadrupole moment,
+the heat of adsorption shows little change with increasing number
+of structural defects, since there are no signiﬁcant electrostatic
+interactions with the framework.
+FT-IR spectroscopy. The activation process (heating at 100 and
+300 °C) and adsorption of polar methanol and nonpolar carbon
+dioxide was followed by in situ FT-IR spectroscopy. Two acti-
+vation temperatures were chosen to observe the changes in the
+organic linker and of the inorganic unit caused by thermal
+treatment (Fig. 6). Activation at 300 °C caused changes in the
+skeletal vibration, indicated by the disappearance of the OH
+groups located in the zirconium cluster (IR bands at 730 and
+680 cm−1) and in coordination of the linker, observed as the
+increase of the 745 cm−1 maximum characteristic of CO2-CH
+vibrations (Fig. 6 and more detailed Figure S24).
+Dehydration and dehydroxylation caused by thermal treatment
+can be observed on the IR spectra in the range of O-H stretching
+vibrations (Fig. 6 and Fig. S25). After activation at 100 °C two
+maxima can be observed at 3674 cm−1 and 3663 cm−1. The
+Fig. 5 Adsorption isotherms of argon in UiO-66. a From experiment7,
+b from calculations, measured/computed at −186 °C. Closed symbols
+stand for adsorption, open for desorption.
+Table 3 Heats of adsorption of polar and nonpolar molecules
+in UiO-66 structures.
+UiO-66_0
+UiO-66_1
+UiO-66_2
+UiO-66_8
+UiO-
+66_32
+Argon
+13.63
+13.62
+13.61
+13.58
+13.33
+Methane
+14.12
+14.09
+14.05
+13.81
+12.33
+Nitrogen
+15.06
+14.81
+14.80
+14.76
+14.58
+Carbon
+dioxide
+20.06
+19.85
+19.83
+19.67
+19.13
+Methanol
+25.88
+31.80
+41.83
+44.08
+54.05
+Ethanol
+62.41
+62.49
+62.64
+66.76
+81.24
+All data were calculated for 2×2×2 super-cells, and are given in kJ·mol−1.
+Fig. 6 IR spectra of UiO-66 material. a The range of OH groups, b the
+range of skeletal vibrations, both for sample activated at 100°C; c the range
+of skeletal vibrations for sample activated at 300 °C. Normalized to the
+same band height of 1020 cm−1.
+COMMUNICATIONS CHEMISTRY | https://doi.org/10.1038/s42004-022-00742-z
+ARTICLE
+COMMUNICATIONS CHEMISTRY |  (2022) 5:120 | https://doi.org/10.1038/s42004-022-00742-z | www.nature.com/commschem
+5

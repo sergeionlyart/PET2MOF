@@ -1,0 +1,74 @@
+Membranes 2020, 10, 154 
+5 of 18 
+ 
+UiO-66 and its derivatives. The Br content in UiO-66-Br was estimated via FESEM equipped with 
+energy-dispersive X-ray (EDX) spectroscopy. 
+Thermal stability: The thermal stabilities of the nanocrystalline UiO-66 and its derivatives were 
+measured via thermogravimetric analysis (SDT Q600 TGA, TA Instrument, New Castle, DE, USA), 
+under a temperature scan from 40 to 800 °C at the ramping rate of 10 °C/min. Prior to the analysis, 
+the samples are purged at 120 °C under pure nitrogen flow (flow rate set at 100 mL/min) for 8 h to 
+minimize the effect of the residual solvents on the TGA curve. 
+2.4.2. Characterization of Mixed-Matrix Membranes 
+FESEM was used to investigate the cross-sectional morphologies of membranes under uniform 
+accelerating voltage conditions. The membranes were fractured before Platinum coating (with the 
+use of liquid nitrogen) to preserve the overall morphologies. FTIR and XRD analyses were 
+conducted with the same settings as above to investigate the properties of the membranes. Similarly, 
+thermogravimetric analysis was used to investigate the thermal stability of the membranes with the 
+same settings as mentioned above. An analytical balance (ME204, Mettler Toledo, Columbus, OH, 
+USA) equipped with a density kit was used to determine the membranes’ densities. This 
+measurement was conducted by computing the difference in the mass of the samples in an auxiliary 
+liquid (ethanol) and air via Archimedes’ principle. The density of the membrane, ρ, can be computed 
+from Equation (4): 
+
+
+A
+A
+B
+L
+A
+A
+
+
+
+
+
+
+
+
+ 
+(4) 
+In this equation, A—mass of the membrane sample in air; B—mass of the membrane sample in 
+the auxiliary liquid; 
+L
+—density of the auxiliary liquid; 
+A
+
+—density of air. The calculated value 
+can be accurately determined up to 4 decimal places, based on the precision of the analytical balance. 
+2.4.3. Gas Permeation Test 
+A gas permeation test (GTR-11, GTR Tec Corporation, Kyoto, Japan) was carried out using a 
+constant pressure-variable volume system. The gases (CO2/N2 test gas: 80 vol% N2 (99.9995%) and 20 
+vol% CO2 (99.8%) and helium (99.9995%)) were purchased from Airliquide Singapore Pte. Ltd. The 
+membranes were mounted onto the gas permeation cell with the aid of vacuum grease. To minimize 
+the potential contamination of the vacuum grease onto the desired permeation area (1.77 cm2) in the 
+permeation cell, the membrane that is mounted onto the permeation cell is prepared in such a way 
+that the membrane area is larger than the permeation area. Throughout the measurement, a uniform 
+temperature of 35 °C was maintained with a temperature controller. Using a mass flow controller, 
+the test gas and helium were continuously supplied upstream and downstream of the membrane, 
+respectively. At set time intervals, the downstream permeated gas was swept by helium and sent to 
+the gas chromatograph to calculate the composition of the gas stream. This process continued until it 
+was ensured that the permeated gas’ concentration did not fluctuate substantially over a designated 
+time period. The gas permeability and selectivity were calculated based on the concentration of the 
+permeated gas. The equation of permeability, P, can be written as shown below (5). The parameters 
+q, l, a, p, and t are the concentration (of CO2 and N2 gas calculated from gas chromatography), the 
+membrane thickness, the permeation area, the pressure, and the time, respectively. To ensure 
+sufficient reproducibility of the result, at least three different samples were measured. 
+ql
+P
+apt
+
+ 
+(5) 
+2.4.4. Gas Adsorption Analysis 
+The adsorption properties of CO2 and N2 gases in each membrane were measured under 
+identical conditions using a volumetric gas sorption analyzer (iSorbHP1, Quantachrome, Boynton 

@@ -1,0 +1,32 @@
+ 
+S4 
+per step. Monolith powders were prepared for PXRD analysis by gently crushing with a pestle and 
+mortar before being placed on a zero-background silicon wafer.  
+Thermogravimetric analysis (TGA) was recorded under nitrogen using TGA instrument TA Q50. 
+Platinum pans and a flow rate of 60 mL min-1 for the nitrogen gas were used for the experiments. The 
+data was collected at a temperature ramp of 10 °C min-1 up to 700 °C. 
+Mercury porosimetry was obtained up to a final pressure of 2,000 bar using an AutoPore IV 9500 
+instrument from Micromeritics. This technique was used to estimate the particle density of both 
+powders and monoliths at atmospheric pressure. Prior to the analysis, all samples were activated 
+overnight at 120 °C (vacuum) before measuring the mass, and then degassed in situ thoroughly before 
+the mercury porosimetry.  
+Gas adorption measurements. Ultra-high-purity grade CH4, N2 and CO2 were used for gas sorption 
+experiments. Adsorption experiments (up to 1 bar) for different pure gases were performed on 
+Micromeritics 3Flex surface area and pore size analyzer. About 200 mg of activated samples were 
+used for the measurements. A Julabo temperature controller was used to maintain a constant 
+temperature in the bath through the duration of the experiment. Samples were degassed on a Smart 
+VacPrep instrument prior to the analysis. 
+Isosteric heat of adsorption (Qst) calculations. A virial-type expression of the form below was 
+used to fit the combined isotherm data for all the compounds at 273 and 298 K, where P is the 
+pressure described in Pa, N is the adsorbed amount in mmol/g, T is the temperature in K, ai and bi 
+are virial coefficients, and m and n are the number of coefficients used to describe the isotherms. Qst 
+is the coverage-dependent enthalpy of adsorption and R is the universal gas constant. All the related 
+fitting curves are shown in Figure S14-Figure S16. 
+ln𝑃= ln𝑁+ ∑𝑎𝑖𝑁𝑖
+𝑚
+𝑖=0
++ ∑(𝑛
+𝑘) 𝑏𝑖𝑁𝑖
+𝑛
+𝑖=0
+ 

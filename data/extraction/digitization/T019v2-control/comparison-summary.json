@@ -1,0 +1,177 @@
+[
+  {
+    "series": "S113-Fig5a-UiO66",
+    "export_rows": 9,
+    "source_controls": 8,
+    "matched": 8,
+    "quota_met": true,
+    "within_u_dig": 7,
+    "within_2_combined": 8,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S113-Fig5b-UiO66",
+    "export_rows": 8,
+    "source_controls": 9,
+    "matched": 8,
+    "quota_met": true,
+    "within_u_dig": 8,
+    "within_2_combined": 8,
+    "unmatched": [
+      "S113-b-01"
+    ],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S103-Fig2a-UiO66_100-adsorption",
+    "export_rows": 33,
+    "source_controls": 9,
+    "matched": 9,
+    "quota_met": true,
+    "within_u_dig": 8,
+    "within_2_combined": 9,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S103-Fig2a-UiO66_100-desorption",
+    "export_rows": 39,
+    "source_controls": 9,
+    "matched": 9,
+    "quota_met": true,
+    "within_u_dig": 9,
+    "within_2_combined": 9,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S103-Fig2a-UiO66_160-adsorption",
+    "export_rows": 1,
+    "source_controls": 1,
+    "matched": 1,
+    "quota_met": false,
+    "within_u_dig": 1,
+    "within_2_combined": 1,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S103-Fig2a-UiO66_160-desorption",
+    "export_rows": 32,
+    "source_controls": 9,
+    "matched": 9,
+    "quota_met": true,
+    "within_u_dig": 9,
+    "within_2_combined": 9,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S103-Fig2a-UiO66_220-adsorption",
+    "export_rows": 30,
+    "source_controls": 9,
+    "matched": 6,
+    "quota_met": false,
+    "within_u_dig": 3,
+    "within_2_combined": 6,
+    "unmatched": [
+      "S103-220-ads-06",
+      "S103-220-ads-07",
+      "S103-220-ads-08"
+    ],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S103-Fig2a-UiO66_220-desorption",
+    "export_rows": 39,
+    "source_controls": 9,
+    "matched": 9,
+    "quota_met": true,
+    "within_u_dig": 9,
+    "within_2_combined": 9,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S102-FigS6a-binary",
+    "export_rows": 5,
+    "source_controls": 5,
+    "matched": 5,
+    "quota_met": false,
+    "within_u_dig": 3,
+    "within_2_combined": 5,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S102-FigS6b-binary",
+    "export_rows": 5,
+    "source_controls": 5,
+    "matched": 5,
+    "quota_met": false,
+    "within_u_dig": 3,
+    "within_2_combined": 5,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S102-FigS6c-binary",
+    "export_rows": 5,
+    "source_controls": 5,
+    "matched": 5,
+    "quota_met": false,
+    "within_u_dig": 3,
+    "within_2_combined": 4,
+    "unmatched": [],
+    "outside_2_combined": [
+      "S102-c-02"
+    ]
+  },
+  {
+    "series": "S37A-wet-CO2",
+    "export_rows": 21,
+    "source_controls": 20,
+    "matched": 20,
+    "quota_met": true,
+    "within_u_dig": 20,
+    "within_2_combined": 20,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S37B-wet-CO2",
+    "export_rows": 9,
+    "source_controls": 9,
+    "matched": 8,
+    "quota_met": true,
+    "within_u_dig": 8,
+    "within_2_combined": 8,
+    "unmatched": [
+      "S117-S37B-09"
+    ],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S38A-wet-CO2",
+    "export_rows": 29,
+    "source_controls": 12,
+    "matched": 12,
+    "quota_met": true,
+    "within_u_dig": 12,
+    "within_2_combined": 12,
+    "unmatched": [],
+    "outside_2_combined": []
+  },
+  {
+    "series": "S38B-wet-CO2",
+    "export_rows": 20,
+    "source_controls": 12,
+    "matched": 12,
+    "quota_met": true,
+    "within_u_dig": 11,
+    "within_2_combined": 12,
+    "unmatched": [],
+    "outside_2_combined": []
+  }
+]

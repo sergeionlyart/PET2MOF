@@ -1,0 +1,78 @@
+Membranes 2020, 10, 154 
+16 of 18 
+ 
+25. 
+Gong, H.; Lee, S.S.; Bae, T.H. Mixed-matrix membranes containing inorganically surface-modified 5A 
+zeolite for enhanced CO2/CH4 separation. Micropor. Mesopor. Mater. 2017, 237, 82–89. 
+26. 
+Bae, T.H.; Liu, J.; Thompson, J.A.; Koros, W.J.; Jones, C.W.; Nair, S. Solvothermal deposition and 
+characterization of magnesium hydroxide nanostructures on zeolite crystals. Micropor. Mesopor. Mater. 
+2011, 139, 120–129. 
+27. 
+Li, Y.; Chung, T.S.; Cao, C.; Kulprathipanja, S. The effects of polymer chain rigidification, zeolite pore size 
+and pore blockage on polyethersulfone (PES)-zeolite A mixed matrix membranes. J. Membr. Sci. 2005, 260, 
+45–55. 
+28. 
+Li, Y.; Guan, H.M.; Chung, T.S.; Kulprathipanja, S. Effects of novel silane modification of zeolite surface on 
+polymer chain rigidification and partial pore blockage in polyethersulfone (PES)–zeolite A mixed matrix 
+membranes. J. Membr. Sci. 2006, 275, 17–28. 
+29. 
+Bae, T.H.; Liu, J.; Lee, J.S.; Koros, W.J.; Jones, C.W.; Nair, S. Facile high-yield solvothermal deposition of 
+inorganic nanostructures on zeolite crystals for mixed matrix membrane fabrication. J. Am. Chem. Soc. 
+2009, 131, 14662–14663. 
+30. 
+Liu, J.; Benin, A.I.; Furtado, A.M.; Jakubczak, P.; Willis, R.R.; LeVan, M.D. Stability effects on CO2 
+adsorption for the DOBDC series of metal–organic frameworks. Langmuir 2011, 27, 11451–11456. 
+31. 
+Li, W.; Chuah, C.Y.; Yang, Y.; Bae, T.H. Nanocomposites formed by in situ growth of NiDOBDC 
+nanoparticles on graphene oxide sheets for enhanced CO2 and H2 storage. Micropor. Mesopor. Mater. 2018, 
+265, 35–42. 
+32. 
+Garibay, S.J.; Cohen, S.M. Isoreticular synthesis and modification of frameworks with the UiO-66 
+topology. Chem. Commun. 2010, 46, 7700–7702. 
+33. 
+Katz, M.J.; Brown, Z.J.; Colón, Y.J.; Siu, P.W.; Scheidt, K.A.; Snurr, R.Q.; Hupp, J.T.; Farha, O.K. A facile 
+synthesis of UiO-66, UiO-67 and their derivatives. Chem. Commun. 2013, 49, 9449–9451. 
+34. 
+Samarasinghe, S.; Chuah, C.Y.; Karahan, H.E.; Sethunga, G.; Bae, T.H. Enhanced O2/N2 Separation of 
+Mixed-Matrix Membrane Filled with Pluronic-Compatibilized Cobalt Phthalocyanine Particles. 
+Membranes 2020, 10, 75. 
+35. 
+Dorosti, F.; Omidkhah, M.; Abedini, R. Fabrication and characterization of Matrimid/MIL-53 mixed matrix 
+membrane for CO2/CH4 separation. Chem. Eng. Res. Des. 2014, 92, 2439–2448. 
+36. 
+Castro-Munoz, R.; Fila, V.; Martin-Gil, V.; Muller, C. Enhanced CO2 permeability in Matrimid® 5218 mixed 
+matrix membranes for separating binary CO2/CH4 mixtures. Sep. Purif. Technol. 2019, 210, 553–562. 
+37. 
+Yong, W.F.; Li, F.Y.; Xiao, Y.C.; Chung, T.S.; Tong, Y.W. High performance PIM-1/Matrimid hollow fiber 
+membranes for CO2/CH4, O2/N2 and CO2/N2 separation. J. Membr. Sci. 2013, 443, 156–169. 
+38. 
+Dai, Y.; Johnson, J.; Karvan, O.; Sholl, D.S.; Koros, W. Ultem®/ZIF-8 mixed matrix hollow fiber membranes 
+for CO2/N2 separations. J. Membr. Sci. 2012, 401, 76–82. 
+39. 
+Samarasinghe, S.; Chuah, C.Y.; Li, W.; Sethunga, G.; Wang, R.; Bae, T.H. Incorporation of CoIII 
+acetylacetonate and SNW-1 nanoparticles to tailor O2/N2 separation performance of mixed-matrix 
+membrane. Sep. Purif. Technol. 2019, 223, 133–141. 
+40. 
+Samarasinghe, S.; Chuah, C.Y.; Yang, Y.; Bae, T.H. Tailoring CO2/CH4 separation properties of 
+mixed-matrix membranes via combined use of two-and three-dimensional metal–organic frameworks. J. 
+Membr. Sci. 2018, 557, 30–37. 
+41. 
+Gong, H.; Chuah, C.Y.; Yang, Y.; Bae, T.H. High performance composite membranes comprising 
+Zn(pyrz)2(SiF6) nanocrystals for CO2/CH4 separation. J. Ind. Eng. Chem. 2018, 60, 279–285. 
+42. 
+Yang, Y.; Goh, K.; Weerachanchai, P.; Bae, T.H. 3D covalent organic framework for morphologically 
+induced high-performance membranes with strong resistance toward physical aging. J. Membr. Sci. 2019, 
+574, 235–242. 
+43. 
+Chuah, C.Y.; Samarasinghe, S.; Li, W.; Goh, K.; Bae, T.H. Leveraging Nanocrystal HKUST-1 in 
+Mixed-Matrix Membranes for Ethylene/Ethane Separation. Membranes 2020, 10, 74. 
+44. 
+Askari, M.; Chung, T.S. Natural gas purification and olefin/paraffin separation using thermal 
+cross-linkable co-polyimide/ZIF-8 mixed matrix membranes. J. Membr. Sci. 2013, 444, 173–183. 
+45. 
+Duan, C.; Jie, X.; Liu, D.; Cao, Y.; Yuan, Q. Post-treatment effect on gas separation property of mixed 
+matrix membranes containing metal organic frameworks. J. Membr. Sci. 2014, 466, 92–102. 
+46. 
+Chuah, C.Y.; Yang, Y.; Bae, T.H. Hierarchically porous polymers containing triphenylamine for enhanced 
+SF6 separation. Micropor. Mesopor. Mater. 2018, 272, 232–240. 

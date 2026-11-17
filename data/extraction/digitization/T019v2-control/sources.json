@@ -1,0 +1,40 @@
+[
+  {
+    "file": "data/raw/pdf/S113_T019.pdf",
+    "sha256": "4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a",
+    "pages": 18,
+    "rendered": []
+  },
+  {
+    "file": "data/raw/pdf/S103_T019.pdf",
+    "sha256": "402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734",
+    "pages": 9,
+    "rendered": [
+      3
+    ]
+  },
+  {
+    "file": "data/raw/pdf/S102_T019.pdf",
+    "sha256": "1fbbe940f717c6d40e0b261595aa07e91760d045e9149d6dc4338392ab9aec6e",
+    "pages": 11,
+    "rendered": [
+      5
+    ]
+  },
+  {
+    "file": "data/raw/pdf/S117_SI_T019.pdf",
+    "sha256": "1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4",
+    "pages": 27,
+    "rendered": [
+      5,
+      6,
+      25
+    ]
+  },
+  {
+    "file": "data/raw/pdf/S2.pdf",
+    "sha256": "6f60086ac157a6e544ef770dfee942d9bf1c3edf1990dbb97829f345cf1032a3",
+    "pages": 1,
+    "rendered": []
+  }
+]

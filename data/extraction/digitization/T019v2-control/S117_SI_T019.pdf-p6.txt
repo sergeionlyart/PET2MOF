@@ -1,0 +1,29 @@
+ 
+S6 
+was continuously monitored using an Agilent 5975 MSD mass spectrometer (MS). Upon complete 
+breakthrough and saturation of the packed bed adsorbent, the gas mixed is switched off and dry 
+helium was flowed over the solid. Heating was switch on and samples were heated to 353 K to aid 
+regeneration.  
+To calculate the CO2 uptake, initially the gas mixture is passed through an empty reactor containing 
+quartz wool at a flow rate of 2 cm3 min-1 as a blank reference. The gas flow is constantly monitored 
+using the MS. The CO2 curve is integrated to calculate the area of the curve (ARef). Upon completion 
+of a CO2 breakthrough experiment with an adsorbent, the area of the CO2 adsorption curve is also 
+integrated (AExp). To calculate the total amount of CO2 adsorbed, the following equation is used: 
+Total CO2 Uptake = (ARef – AExp) x CO2 flow (cm3 min-1) 
+Gravimetric CO2 uptake experiments. Gravimetric uptakes were recorded using a TA Q50 
+thermogravimetric analyser (TGA). A flow rate of 20 cm3 min-1 was used for all gases during uptake 
+experiments. Samples were initially heated to 398 K under a 1 bar N2 flow of 20 cm3 min-1 for 2 h. 
+Once the weight loss stabilises, the sample allowed cool to room temperature before being exposed 
+to a 1 bar CO2 flow of 20 cm3 min-1. The weight changes during CO2 adsorption step were monitored 
+continuously under isothermal condition at 298 K.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

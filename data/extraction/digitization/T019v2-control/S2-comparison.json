@@ -1,0 +1,146 @@
+[
+  {
+    "series": "S2-Table2-dry",
+    "sample": "UiO-66-NH2",
+    "expected": 2.67,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry-ratio",
+    "sample": "UiO-66-NH2",
+    "expected": 1.0,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-corrected-secondary",
+    "sample": "UiO-66-NH2",
+    "expected": 1.98,
+    "match": true
+  },
+  {
+    "series": "S2-Table1-Vp-ratio",
+    "sample": "UiO-66-NH2",
+    "expected": 1.0,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry",
+    "sample": "PEIC48@UiO",
+    "expected": 2.75,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry-ratio",
+    "sample": "PEIC48@UiO",
+    "expected": 1.0299625468164795,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-corrected-secondary",
+    "sample": "PEIC48@UiO",
+    "expected": 2.0,
+    "match": true
+  },
+  {
+    "series": "S2-Table1-Vp-ratio",
+    "sample": "PEIC48@UiO",
+    "expected": 0.27450980392156865,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry",
+    "sample": "PEIC72@UiO",
+    "expected": 3.26,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry-ratio",
+    "sample": "PEIC72@UiO",
+    "expected": 1.2209737827715355,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-corrected-secondary",
+    "sample": "PEIC72@UiO",
+    "expected": 2.12,
+    "match": true
+  },
+  {
+    "series": "S2-Table1-Vp-ratio",
+    "sample": "PEIC72@UiO",
+    "expected": 0.14901960784313725,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry",
+    "sample": "PEI72@UiO",
+    "expected": 2.99,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry-ratio",
+    "sample": "PEI72@UiO",
+    "expected": 1.1198501872659177,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-corrected-secondary",
+    "sample": "PEI72@UiO",
+    "expected": 2.04,
+    "match": true
+  },
+  {
+    "series": "S2-Table1-Vp-ratio",
+    "sample": "PEI72@UiO",
+    "expected": 0.18823529411764706,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry",
+    "sample": "PEIC96@UiO",
+    "expected": 3.15,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry-ratio",
+    "sample": "PEIC96@UiO",
+    "expected": 1.1797752808988764,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-corrected-secondary",
+    "sample": "PEIC96@UiO",
+    "expected": 2.33,
+    "match": true
+  },
+  {
+    "series": "S2-Table1-Vp-ratio",
+    "sample": "PEIC96@UiO",
+    "expected": 0.21568627450980393,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry",
+    "sample": "PEI96+UiO",
+    "expected": 1.87,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-dry-ratio",
+    "sample": "PEI96+UiO",
+    "expected": 0.700374531835206,
+    "match": true
+  },
+  {
+    "series": "S2-Table2-corrected-secondary",
+    "sample": "PEI96+UiO",
+    "expected": 1.55,
+    "match": true
+  },
+  {
+    "series": "S2-Table1-Vp-ratio",
+    "sample": "PEI96+UiO",
+    "expected": 0.006666666666666666,
+    "match": true
+  }
+]

@@ -1,0 +1,10 @@
+ 
+S19
+ 
+Figure S22: Fitting of the CO2 adsorption isotherms at 298K and 273K for monoUiO-66-NH2 to the 
+virial equation. 
+ 
+ 
+Figure S23: CO2 isosteric heats of adsorption (Qst) for monoHKUST-1, monoUiO-66 and monoUiO-66-
+NH2. 
+ 

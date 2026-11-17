@@ -1,0 +1,24 @@
+Membranes 2020, 10, 154 
+3 of 18 
+ 
+followed by an additional sonication for at least 20 min. This was followed by heating at 80 °C for 24 
+h to ensure an effective formation of UiO-66 particles. The precipitated particles were washed and 
+centrifuged with DMF and methanol to remove the unreacted impurities. Before characterization, 
+the samples were dried in a vacuum at 60 °C overnight. For the synthesis of UiO-66-NH2, UiO-66-Br, 
+and UiO-66-(OH)2, the porous materials were prepared by a similar protocol to that described above, 
+and 1.34 g of 2-aminoterephthalic acid, 1.84 g of 2-bromoterephthalic acid, and 1.47 g of 
+2.5-dihydroxyterephthalic acid were added to the solution. The reaction scheme was summarized in 
+Figure 1. The synthesis of ODPA-TMPDA polymer, on the other hand, is conducted based on the 
+procedure as described elsewhere [45]. The reaction scheme is provided in Figure 2. 
+ 
+Figure 1. Synthesis scheme of nanocrystalline UiO-66 and its derivatives. 
+ 
+Figure 2. Synthesis of ODPA-TMPDA. 
+2.3. Membrane Fabrication 
+The membranes were fabricated via a solution-casting method to form a dense membrane film. 
+First, UiO-66 and its derivatives were dispersed in chloroform. The dispersion of porous fillers in the 
+suspension was improved with a sonication horn before the polymer was added into the solution. 
+This step is required for the aggregated nanocrystals of UiO-66 and its derivatives to be dispersed 
+readily in chloroform. To minimize solvent evaporation of chloroform during the sonication process 
+(due to its low boiling point), an ice bath was used. The resulting dope solution was stirred for at 
+least 24 h. Next, membranes were formed by casting on a glass plate, and the thickness was 

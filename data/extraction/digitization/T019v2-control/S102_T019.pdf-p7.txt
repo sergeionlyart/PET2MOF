@@ -1,0 +1,29 @@
+S7
+Differences in “Wet” Adsorption of CO2 for UiO-66-NH2-D1 and UiO-66-NH2-D2
+To better understand the cause of the differences in wet adsorption of CO2 between UiO-66-
+NH2-D1 and UiO-66-NH2-D2 a detailed analysis of the host-adsorbate and adsorbate-adsorbate 
+energies was performed on each structure at identical water loadings (2 mol/kg) and identical 
+pressures (pCO2 = 5 kPa). As shown by Figure S1B and S1C of the ESI, both defect structures show 
+comparable CO2 adsorption when dry (~0.52 mol/kg at 5 kPa), however at 2 mol/kg water loading, 
+defect 1 has a significantly higher adsorption of CO2 (~0.65 mol/kg at 5 kPa) compared with defect 
+2 (~0.52 mol/kg at 5 kPa). Here, the number of adsorbed CO2 molecules in each MOF varies 
+throughout the simulation, as shown by the CO2 adsorption histogram in Figure S8 below.  As 
+expected, UiO-66-NH2-D1 has a higher mean adsorption compared to UiO-66-NH2-D2. 
+Moreover, the overall energy of each system varies according to the number of adsorbent 
+molecules in the system at a given instant. 
+A code was written to determine the average energy of each system as a function of the number 
+of adsorbed CO2 molecules. The difference in this energy (ED2 – ED1) is displayed in Figure S9 
+below.  As expected, the total energy of UiO-66-NH2-D2 is higher than UiO-66-NH2-D1, meaning 
+that CO2 adsorption is less favored for the former. Interestingly, this energy difference is a 
+consistent 25 kT higher for D2, regardless of the number of CO2 molecules that are adsorbed. This 
+energy includes the host-adsorbate and adsorbate-adsorbate contributions but not the host-host 
+interactions. Importantly, this breakdown of the energies shows that the reason for D2’s higher 
+energy relative to D1 is due to the large unfavourability of the host-adsorbate interactions in that 
+system that outweigh the favorable adsorbate-adsorbate interaction differences.
+As outlined in the main manuscript, the presence of water-bridges that have replaced linker 
+defects can enhance CO2 adsorption relative to dry CO2 adsorption in the same systems. These 
+water bridges provide an additional surface, which can enhance CO2 adsorption. Interestingly, 
+D2 shows adsorbate-adsorbate interactions that are even more favorable than D1 (noted as 
+Figure S8.  The probability distribution of adsorbed CO2 for UiO-
+66-NH2-D2 and UiO-66-NH2-D1 at 2 mol/kg water loading and at a 
+partial pressure of CO2 of 5 kPa.

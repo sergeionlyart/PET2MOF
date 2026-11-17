@@ -1,0 +1,68 @@
+32. Mayo, S. L., Olafson, B. D. & Goddard, W. A. DREIDING: A Generic Force
+Field for Molecular Simulations. J. Phys. Chem. 94(26), 8897–8909 (1990).
+33. Rappé, A. K., Casewit, C. J., Colwell, K. S., Goddard, W. A. & Skiff, W. M. UFF, a
+Full Periodic Table Force Field for Molecular Mechanics and Molecular
+Dynamics Simulations. J. Am. Chem. Soc. 114(25), 10024–10035 (1992).
+34. Frenkel, D., Smit, B., Tobochnik, J., McKay, S. R. & Christian, W.
+Understanding Molecular Simulation. Comput. Phys. 11, 351, https://doi.org/
+10.1063/1.4822570 (1997).
+35. Widom, B. Some Topics in the Theory of Fluids. J. Chem. Phys. 39, 2808–2812
+(1963).
+36. Frenkel, D., Smit, B. Understanding Molecular Simulation: From Algorithms to
+Applications; https://doi.org/10.1063/1.881812 1996.
+37. Dubbeldam, D., Torres-Knoop, A. & Walton, K. S. On the Inner Workings of
+Monte Carlo Codes. Mol. Simul. 39(14–15), 1253–1292 (2013).
+38. Dubbeldam, D., Calero, S., Ellis, D. E. & Snurr, R. Q. RASPA: Molecular
+Simulation Software for Adsorption and Diffusion in Flexible Nanoporous
+Materials. Mol. Simul. 42(2), 81–101 (2016).
+39. Delley, B. From Molecules to Solids with the DMol3 Approach. J. Chem. Phys.
+113, 7756–7764 (2000).
+40. Hammer, B., Hansen, L. B. & Nørskov, J. K. Improved Adsorption Energetics
+within Density-Functional Theory Using Revised Perdew-Burke-Ernzerhof
+Functionals. Phys. Rev. B 59, 7413–7421 (1999).
+41. Perdew, J. P., Burke, K. & Ernzerhof, M. Generalized Gradient Approximation
+Made Simple. Phys. Rev. Lett. 77, 3865–3868 (1996).
+42. Tkatchenko, A. & Schefﬂer, M. Accurate Molecular van Der Waals
+Interactions from Ground-State Electron Density and Free-Atom Reference
+Data. Phys. Rev. Lett. 102, 073005 (2009).
+43. Delley, B. Hardness Conserving Semilocal Pseudopotentials. Phys. Rev. B 66,
+155125 (2002).
+Acknowledgements
+This study was funded by the National Science Centre Poland (grant 2018/29/B/ST4/
+00328) and by the Spanish Ministerio de Ciencia e Innovacion (IJC2018-038162-I). We
+thank C3UPO for the HPC support. A.S. was partly supported by program “Excellence
+initiative – research university” for the AGH University of Science and Technology. The
+calculations were partially performed at the Academic Computer Center Cyfronet AGH.
+M. Szuﬂa and Prof. D. Matoga are acknowledged for the synthesis of UiO-66 samples.
+Author contributions
+Conceptualization: G.J., J.J.G.S., methodology: G.J., S.C., P.K., W.M., A.S., B.G., J.J.G.S.;
+Data Curation: G.J., A.S., B.G.; formal analysis: G.J., J.J.G.S., Writing-original draft: G.J.,
+P.K.; Writing-review and editing: S.C., J.J.G.S.; funding: S.C, W.M.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s42004-022-00742-z.
+Correspondence and requests for materials should be addressed to Soﬁa Calero, Paweł.
+Kozyra or Juan José. Gutiérrez-Sevillano.
+Peer review information Communications Chemistry thanks the anonymous reviewers
+for their contribution to the peer review of this work. Peer reviewer reports are available.
+Reprints and permission information is available at http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder. To view a copy of this license, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2022
+COMMUNICATIONS CHEMISTRY | https://doi.org/10.1038/s42004-022-00742-z
+ARTICLE
+COMMUNICATIONS CHEMISTRY |  (2022) 5:120 | https://doi.org/10.1038/s42004-022-00742-z | www.nature.com/commschem
+9

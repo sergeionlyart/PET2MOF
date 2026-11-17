@@ -1,0 +1,29 @@
+ARTICLE
+Defect-induced tuning of polarity-dependent
+adsorption in hydrophobic–hydrophilic UiO-66
+Gabriela Jajko
+1, Soﬁa Calero
+2✉, Paweł Kozyra
+1✉, Wacław Makowski1, Andrzej Sławek
+3,
+Barbara Gil
+1 & Juan José Gutiérrez-Sevillano
+4✉
+Structural defects in metal–organic frameworks can be exploited to tune material properties.
+In the case of UiO-66 material, they may change its nature from hydrophobic to hydrophilic
+and therefore affect the mechanism of adsorption of polar and non-polar molecules. In this
+work, we focused on understanding this mechanism during adsorption of molecules with
+different dipole moments, using the standard volumetric adsorption measurements, IR
+spectroscopy, DFT + D calculations, and Monte Carlo calculations. Average occupation
+proﬁles showed that polar and nonpolar molecules change their preferences for adsorption
+sites. Hence, defects in the structure can be used to tune the adsorption properties of the
+MOF as well as to control the position of the adsorbates within the micropores of UiO-66.
+https://doi.org/10.1038/s42004-022-00742-z
+OPEN
+1 Faculty of Chemistry, Jagiellonian University in Kraków, Gronostajowa 2, 30-387 Kraków, Poland. 2 Materials Simulation and Modelling, Department of
+Applied Physics, Eindhoven University of Technology, 5600 MB Eindhoven, The Netherlands. 3 AGH University of Science and Technology, Academic Centre
+for Materials and Nanotechnology, al. A. Mickiewicza 30, 30-059 Kraków, Poland. 4 Department of Physical, Chemical and Natural Systems, Universidad
+Pablo de Olavide, Ctra. Utrera Km. 1, Seville ES-41013, Spain. ✉email: s.calero@tue.nl; kozyra@chemia.uj.edu.pl; jjgutierrez@upo.es
+COMMUNICATIONS CHEMISTRY |  (2022) 5:120 | https://doi.org/10.1038/s42004-022-00742-z | www.nature.com/commschem
+1
+1234567890():,;

@@ -1,0 +1,81 @@
+Membranes 2020, 10, 154 
+12 of 18 
+ 
+10 wt% UiO-66-Br 
+158 + 2 
+33.7 + 1.0 
+20 wt% UiO-66-Br 
+200 + 4 
+34.5 + 1.9 
+10 wt% UiO-66-(OH)2 
+98 + 2 
+35.2 + 0.8 
+20 wt% UiO-66-(OH)2 
+125 + 4 
+38.9 + 0.9 
+(a) The overall thickness of the membrane is determined to be ranging from 50 to 70 μm, based on the 
+measurement from a micrometer screw gauge. (b) 1 Barrer = 3.35 × 10 −16 mol-m/m2-s-Pa. 
+The solubility–diffusivity of CO2 and N2 in MMMs was then quantitatively analyzed. The 
+solubility of gas in the membranes was determined by measuring the pure-component CO2 and N2 
+adsorption isotherms at 35 °C, with the data summarized in Figure 8. The fitting parameters for CO2 
+and N2 adsorption by the membranes are compiled in Table S5. Table 3 summarizes the quantitative 
+solubility–diffusivity data for CO2 and N2 in the membranes. Based on the gas adsorption data 
+(which corresponds to the analysis of solubility), at the point of interest (CO2 at 0.2 bar), the 
+adsorption performance is slightly inferior to the pristine membrane without nanocrystals. 
+Nevertheless, at 0.8 bar of N2 (point of interest in this study), the incorporation of UiO-66 and its 
+derivatives substantially suppressed the N2 solubility, which is consistent with the behavior of other 
+porous materials in membranes, as reported in previous studies [22,40,59]. In contrast, it was found 
+that the diffusivities of both CO2 and N2 dramatically increased upon incorporation of 
+nanocrystalline UiO-66 and its derivatives, which possess large pore volumes, resulting in improved 
+gas permeabilities of MMMs. 
+ 
+Figure 8. (a) CO2 and (b) N2 isotherm of ODPA-TMPDA membrane and mixed-matrix membrane 
+containing UiO-66, UiO-66-NH2, UiO-66-Br and UiO-66-(OH)2 at 20 wt% loading. 
+Table 3. Solubility–diffusivity data of CO2 and N2 on membranes measured at 35 °C and total feed 
+pressure of 1 bar. The pressure point is determined to be 0.2 bar for CO2 and 0.8 bar for N2. 
+Membrane 
+Density 
+(g/cm3) 
+CO2 solubility 
+(mol/m3.bar) 
+CO2 
+diffusivity, × 
+10−12 (m2/s) 
+N2 solubility 
+(mol/m3.bar) 
+N2 diffusivity, 
+× 10−12 (m2/s)  
+ODPA-TMPDA 
+1.286 
+1526 
+1.96 
+32.1 
+2.81 
+20 wt% UiO-66 
+1.210 
+1164 
+4.92 
+31.5 
+5.71 
+20 wt% 
+UiO-66-NH2 
+1.330 
+1172 
+4.11 
+28.1 
+4.62 
+20 wt% 
+UiO-66-Br 
+1.354 
+1256 
+5.40 
+22.5 
+8.72 
+20 wt% 
+UiO-66-(OH)2 
+1.380 
+1385 
+3.06 
+29.3 
+3.72 
+ 

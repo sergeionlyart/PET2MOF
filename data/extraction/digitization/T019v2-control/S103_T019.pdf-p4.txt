@@ -1,0 +1,68 @@
+adsorption shifts to lower relative pressure, and the adsorption
+capacity increases. When calculating the isotherm, we found that
+even with our new set of charges, the calculations underestimated
+the experimental data. Therefore, it was necessary to modify the
+Lennard-Jones parameters of the force ﬁeld to increase the van
+der Waals interactions between ethanol and UiO-66 framework
+(Fig. S13, Table S2 in the ESI). The new set of LJ parameters leads
+to a better agreement with experiment in the and the most
+defective structures (Fig. S14 in the ESI). Thus calculated
+adsorption isotherms show a shift from 0.1 to almost 0.0 p/p0
+with increasing hydrophilicity of the UiO-66 structure (Fig. 4b).
+The adsorption capacity also increases signiﬁcantly from 125 cm3
+STP/g for the defect-free material to 160 cm3 STP/g for UiO-
+66_32. Similarly to the methanol adsorption, ethanol is adsorbed
+at ﬁrst near the -OH groups introduced after removal of the
+linkers, and then ﬁlls the other voids in the UiO-66 structures
+(Figs. S15 and S16 in the ESI).
+Methane, as a nonpolar organic molecule, should preferentially
+adsorb near organic linkers, following the assumption that the
+nonpolar molecules do not have strong afﬁnity for any adsorption
+site. This assumption is corroborated by the isotherms calculated
+up to 80 bars (Fig. S17 in the ESI). They show that introduction of
+defects, and thus increased hydrophilicity, has no signiﬁcant
+effect on methane adsorption. Average Occupation Proﬁles
+(Figs. S18 and S19 in the ESI) show that methane molecules
+adsorb in all accessible volume, with no particular afﬁnity for the
+metal clusters or the -OH groups.
+Argon, as a relatively small, nonpolar, monoatomic molecule,
+also has no preferential adsorption sites. The shape of the isotherm
+depends only on the size and number of pores in the structure
+(Fig. 5a). As defects are created, Ar molecules ﬁll the pores at a
+higher relative pressure but to a greater extent. Based on the argon
+isotherm, we calculated the pore size distributions of the studied
+materials, which may be found also in our previous work7 (Fig. S20
+in the ESI). On this basis, two types of micropores at 7 Å and 9 Å
+can be identiﬁed, which can correspond to the two types of cavities
+present in the UiO-66 structure for samples _160 and _220. For
+sample UiO-66_100, the pore size distribution differs from the
+others, showing larger micropores (7.5–11 Å and 17 Å).
+We performed Monte Carlo simulations to trace the mechan-
+ism of argon adsorption in the pores of UiO-66 (Fig. 5b), as it was
+done for other molecules. Due to material speciﬁcity, the
+simulations do not accurately reﬂect the experiment (Figure S21
+in the ESI), but the trend is kept. AOPs based on the calculations
+help to understand the adsorption mechanism (Figs. S22 and S23
+in the ESI). Argon is frequently used as a probe molecule to
+obtain the distribution of micropores in a structure. Argon ﬁlls
+ﬁrst the smaller tetrahedral cages, then the corners of the
+octahedral cages and ﬁnally the voids created by linkers removal.
+In this case, AOPs do not provide a clear picture of the sorption
+mechanism, and only in the structure with 32 defects is it possible
+to see some “blurring” where linkers are missing.
+In addition to the adsorption isotherms, we calculated the heats
+of adsorption for all studied molecules using the Widom particle-
+insertion method at zero coverage. The heats of adsorption
+change signiﬁcantly with the dipole moment of the adsorbates.
+(Table 3). For nonpolar molecules (methane and argon) and
+quadrupole molecules (nitrogen and carbon dioxide) the heat of
+adsorption is lower as the structure becomes more hydrophilic
+Fig. 3 Adsorption isotherms of methanol in UiO-66. a From experiment, b from calculations, measured/computed at 27 °C. Closed symbols stand for
+adsorption, open for desorption.
+Fig. 4 Adsorption isotherms of ethanol in UiO-66. a From experiment,
+b from calculations, measured/computed at 27 °C. Closed symbols stand
+for adsorption, open for desorption.
+ARTICLE
+COMMUNICATIONS CHEMISTRY | https://doi.org/10.1038/s42004-022-00742-z
+4
+COMMUNICATIONS CHEMISTRY |  (2022) 5:120 | https://doi.org/10.1038/s42004-022-00742-z | www.nature.com/commschem

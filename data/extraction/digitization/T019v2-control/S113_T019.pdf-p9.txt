@@ -1,0 +1,25 @@
+Membranes 2020, 10, 154 
+9 of 18 
+ 
+ 
+Figure 5. (a) CO2 and (b) N2 adsorption by nanocrystalline UiO-66 nanocrystals and its derivatives at 
+35 °C. 
+3.3. Fabrication of Mixed-matrix Membranes 
+In this study, in-house-made polyimide (ODPA-TMPDA) was used as the polymeric membrane 
+for the gas separation process. Successful synthesis of ODPA-TMPDA was verified from its FTIR 
+spectrum (Figure 6), which exhibits the characteristic asymmetric and symmetric stretching (1770 
+and 1710 cm−1) of C=O as well as the stretching of C-N (1300 cm−1). The corresponding colors of the 
+functional groups are also indicated in the figure for guidance. The most important evidence of 
+successful formation of ODPA-TMPDA is the band at 3500 cm−1 (i.e., O-H absorption band), 
+corresponding to residual unreacted polyamic acid. As described in the section on synthesis 
+procedure [45], the ODPA-TMPDA polymer was formed in two steps: (1) formation of polyamic acid 
+via condensation reaction and (2) chemical imidization of polyamic acid. This band was not detected 
+in this work, implying the imidization was completely done. The overall features of the spectrum are 
+comparable to those of previously reported spectra [39,40,59]. 
+ 
+Figure 6. FTIR spectrum of ODPA-TMPDA polymer. 
+Hence, MMMs containing UiO-66, UiO-66-NH2, UiO-66-Br, and UiO-66-(OH)2 with 10 and 20 
+wt% loading were developed in this work. The FTIR spectra of the MMMs indicate that the 
+structural properties of the polyimide membrane remained intact (Figure S3). In addition, the XRD 
+patterns of the MMMs indicate that the crystallinity of UiO-66 and its derivatives remained 
+unaffected after annealing (Figure S4). Hence, the cross-sectional morphologies were further 

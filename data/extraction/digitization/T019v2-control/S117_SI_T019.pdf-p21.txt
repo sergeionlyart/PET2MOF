@@ -1,0 +1,10 @@
+ 
+S21
+ 
+Figure S25: IAST selectivity’s for 15% CO2/85% N2 and 50% CO2/50% CH4 v/v gas mixtures for 
+monoUiO-66 at 298K. 
+ 
+ 
+Figure S26: IAST selectivity’s for 15% CO2/85% N2 and 50% CO2/50% CH4 v/v gas mixtures for 
+monoUiO-66-NH2 at 298K. 
+ 

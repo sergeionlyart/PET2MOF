@@ -1,0 +1,284 @@
+[
+  {
+    "id": "tbl1",
+    "text": "Table 1 Preparation Conditions\nand Results\nof Pristine and PEI-Modified UiO-66-NH 2 sample PEI theo a  (wt %) PEI theo b  (wt %) W c  (wt %) N d  (wt %) PEI exp e  (wt %) A p f  (m 2 /g) V p f  (cm 3 /g) D p f  (nm) UiO-66-NH 2 0 0 0 5.0 0 987 0.51 2.05 PEI C 48@UiO 48 26 41 6.8 10.6 151 0.14 3.58 PEI C 72@UiO 72 34 64 9.0 19.4 12.0 0.076 25.4 PEI C 96@UiO 96 41 90 9.5 22.4 7.64 0.11 55.5 PEI72@UiO 72 34 62 8.4 17.3 14.4 0.096 26.5 PEI96+UiO 96 49 89 16.0 43.4 1.40 0.0034 9.60 a The mass percentage of PEI used\nin adsorbent synthesis, based on the mass of UiO-66-NH 2 . b The mass percentage of\nPEI used\nin adsorbent synthesis, based on the sum of UiO-66-NH 2 ,\nPEI, and GD fed. c Weight\ngain based on the mass of\nUiO-66-NH 2 , calculated from the weight change before and\nafter the modification reaction. d Nitrogen content measured by elemental\nanalysis. e PEI content in\nadsorbent, calculated\nby nitrogen content. f A p :\nspecific surface area;  V p : total pore\nvolume;  D p : average pore size.",
+    "rows": [
+      [
+        "sample",
+        "PEI theo a  (wt %)",
+        "PEI theo b  (wt %)",
+        "W c  (wt %)",
+        "N d  (wt %)",
+        "PEI exp e  (wt %)",
+        "A p f  (m 2 /g)",
+        "V p f  (cm 3 /g)",
+        "D p f  (nm)"
+      ],
+      [
+        "UiO-66-NH 2",
+        "0",
+        "0",
+        "0",
+        "5.0",
+        "0",
+        "987",
+        "0.51",
+        "2.05"
+      ],
+      [
+        "PEI C 48@UiO",
+        "48",
+        "26",
+        "41",
+        "6.8",
+        "10.6",
+        "151",
+        "0.14",
+        "3.58"
+      ],
+      [
+        "PEI C 72@UiO",
+        "72",
+        "34",
+        "64",
+        "9.0",
+        "19.4",
+        "12.0",
+        "0.076",
+        "25.4"
+      ],
+      [
+        "PEI C 96@UiO",
+        "96",
+        "41",
+        "90",
+        "9.5",
+        "22.4",
+        "7.64",
+        "0.11",
+        "55.5"
+      ],
+      [
+        "PEI72@UiO",
+        "72",
+        "34",
+        "62",
+        "8.4",
+        "17.3",
+        "14.4",
+        "0.096",
+        "26.5"
+      ],
+      [
+        "PEI96+UiO",
+        "96",
+        "49",
+        "89",
+        "16.0",
+        "43.4",
+        "1.40",
+        "0.0034",
+        "9.60"
+      ]
+    ]
+  },
+  {
+    "id": "tbl2",
+    "text": "Table 2 CO 2  Adsorption/Desorption\nProperties of Pristine UiO-66-NH 2  and PEI-Modified Adsorbents   C s,1bar a  (mmol CO 2 /g)         adsorbent dry moist b α C s,exp c (mmol CO 2  + N 2 /g) C s,0.15bar d (mmol CO 2 /g) Q des e (kJ/mol CO 2 ) UiO-66-NH 2 2.67 2.13 25.5 2.06 1.98   PEI C 48@UiO 2.75 2.69 30.9 2.06 2.00 63.3 PEI C 72@UiO 3.26 3.43 40.6 2.17 2.12 67.3 PEI72@UiO 2.99 3.02 36.1 2.10 2.04   PEI C 96@UiO 3.15 3.33 48.0 2.38 2.33 68.0 PEI96+UiO 1.87 2.69 36.0 1.59 1.55   a Experimental CO 2  adsorption\ncapacity. b The CO 2  adsorption capacity\nmeasured with moist CO 2 . c Experimental gas adsorption capacity\nmeasured in simulated flue gas (14.3 vol % CO 2 ). d CO 2  adsorption capacity\ncalibrated by the separation factor α in simulated flue gas. e The CO 2  desorption\nheat.",
+    "rows": [
+      [
+        " ",
+        "C s,1bar a  (mmol CO 2 /g)",
+        " ",
+        " ",
+        " ",
+        " "
+      ],
+      [
+        "adsorbent",
+        "dry",
+        "moist b",
+        "α",
+        "C s,exp c (mmol CO 2  + N 2 /g)",
+        "C s,0.15bar d (mmol CO 2 /g)",
+        "Q des e (kJ/mol CO 2 )"
+      ],
+      [
+        "UiO-66-NH 2",
+        "2.67",
+        "2.13",
+        "25.5",
+        "2.06",
+        "1.98",
+        " "
+      ],
+      [
+        "PEI C 48@UiO",
+        "2.75",
+        "2.69",
+        "30.9",
+        "2.06",
+        "2.00",
+        "63.3"
+      ],
+      [
+        "PEI C 72@UiO",
+        "3.26",
+        "3.43",
+        "40.6",
+        "2.17",
+        "2.12",
+        "67.3"
+      ],
+      [
+        "PEI72@UiO",
+        "2.99",
+        "3.02",
+        "36.1",
+        "2.10",
+        "2.04",
+        " "
+      ],
+      [
+        "PEI C 96@UiO",
+        "3.15",
+        "3.33",
+        "48.0",
+        "2.38",
+        "2.33",
+        "68.0"
+      ],
+      [
+        "PEI96+UiO",
+        "1.87",
+        "2.69",
+        "36.0",
+        "1.59",
+        "1.55",
+        " "
+      ]
+    ]
+  },
+  {
+    "id": "tbl3",
+    "text": "Table 3 CO 2  Adsorption Performance\nof Different Adsorbents     C s c  (mmol/g)       adsorbents a T b  (K) 1 bar 0.15 bar α d α e refs PEI C 96@UiO 298 3.1 2.3 48   this work PEI (50%) + silica 348 3.1 3.0     ( 36 ) 0.70PEI@PDVB 298 3.2 2.4     ( 37 ) PEI@PS\npolyHIPE 313 3.5   26   ( 49 ) PEI@poly(GMA)HIPE 313 4.0 3.1 27   ( 50 ) PEI + UiO-66 298 3.3 1.6     ( 23 ) GMA-UiO-66 298 4.3 1.8 46   ( 21 ) TEPA (50%) + NH 2 -MIL-101 298 3.1       ( 29 ) PEI (2.5%) + HKUST 298 4.1 0.8 2   ( 32 ) en-[Mg 2 (dobpdc)] 298 4.5 3.5   230 ( 16 ) pyrrolic N-enriched carbon 298 3.6 1.5   115 ( 51 ) a PAF: porous aromatic framework;\nPDVB: nanoporous poly(divinylbenzene). PS: poly(styrene divinylbenzene),\nmodified with polyacrylic acid. b Temperature. c CO 2  adsorption capacity\nat the indicated CO 2  partial pressure. d CO 2 /N 2  selectivity:\nα =  n CO 2  (1 bar)/ n N 2  (1 bar). e Calculated by ideal adsorption solution\ntheory (IAST) model, α = [ n CO 2  (0.15\nbar)/ n N 2  (0.85 bar)] × (0.85/0.15).",
+    "rows": [
+      [
+        " ",
+        " ",
+        "C s c  (mmol/g)",
+        " ",
+        " ",
+        " "
+      ],
+      [
+        "adsorbents a",
+        "T b  (K)",
+        "1 bar",
+        "0.15 bar",
+        "α d",
+        "α e",
+        "refs"
+      ],
+      [
+        "PEI C 96@UiO",
+        "298",
+        "3.1",
+        "2.3",
+        "48",
+        " ",
+        "this work"
+      ],
+      [
+        "PEI (50%) + silica",
+        "348",
+        "3.1",
+        "3.0",
+        " ",
+        " ",
+        "( 36 )"
+      ],
+      [
+        "0.70PEI@PDVB",
+        "298",
+        "3.2",
+        "2.4",
+        " ",
+        " ",
+        "( 37 )"
+      ],
+      [
+        "PEI@PS\npolyHIPE",
+        "313",
+        "3.5",
+        " ",
+        "26",
+        " ",
+        "( 49 )"
+      ],
+      [
+        "PEI@poly(GMA)HIPE",
+        "313",
+        "4.0",
+        "3.1",
+        "27",
+        " ",
+        "( 50 )"
+      ],
+      [
+        "PEI + UiO-66",
+        "298",
+        "3.3",
+        "1.6",
+        " ",
+        " ",
+        "( 23 )"
+      ],
+      [
+        "GMA-UiO-66",
+        "298",
+        "4.3",
+        "1.8",
+        "46",
+        " ",
+        "( 21 )"
+      ],
+      [
+        "TEPA (50%) + NH 2 -MIL-101",
+        "298",
+        "3.1",
+        " ",
+        " ",
+        " ",
+        "( 29 )"
+      ],
+      [
+        "PEI (2.5%) + HKUST",
+        "298",
+        "4.1",
+        "0.8",
+        "2",
+        " ",
+        "( 32 )"
+      ],
+      [
+        "en-[Mg 2 (dobpdc)]",
+        "298",
+        "4.5",
+        "3.5",
+        " ",
+        "230",
+        "( 16 )"
+      ],
+      [
+        "pyrrolic N-enriched carbon",
+        "298",
+        "3.6",
+        "1.5",
+        " ",
+        "115",
+        "( 51 )"
+      ]
+    ]
+  }
+]

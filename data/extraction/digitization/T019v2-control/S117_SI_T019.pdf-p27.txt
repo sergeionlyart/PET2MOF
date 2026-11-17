@@ -1,0 +1,21 @@
+ 
+S27
+Cyclability Testing 
+ 
+Figure S42: Cyclability of monoMOFs in 50% CO2/50% CH4 v/v breakthrough studies, regeneration 
+at 120 °C. 
+ 
+References 
+1. T. Tian, Z. Zeng, D. Vulpe, M. E. Casco, G. Divitini, P. A. Midgley, J. Silvestre-Albero, J. C. 
+Tan, P. Z. Moghadam and D. Fairen-Jimenez, Nat Mater, 2018, 17, 174-179. 
+2. B. M. Connolly, M. Aragones-Anglada, J. Gandara-Loe, N. A. Danaf, D. C. Lamb, J. P. Mehta, 
+D. Vulpe, S. Wuttke, J. Silvestre-Albero, P. Z. Moghadam, A. E. H. Wheatley and D. Fairen-
+Jimenez, Nat Commun, 2019, 10, 2345. 
+3. F. Raganati, V. Gargiulo, P. Ammendola, M. Alfe and R. Chirone, Chem. Eng. J., 2014, 239, 75-
+86. 
+4. J. H. Cavka, S. Jakobsen, U. Olsbye, N. Guillou, C. Lamberti, S. Bordiga and K. P. Lillerud, 
+Journal of the American Chemical Society, 2008, 130, 13850-13851. 
+5. M. Kandiah, M. H. Nilsen, S. Usseglio, S. Jakobsen, U. Olsbye, M. Tilset, C. Larabi, E. A. 
+Quadrelli, F. Bonino and K. P. Lillerud, Chemistry of Materials, 2010, 22, 6632-6640. 
+6. A. L. Myers and J. M. Prausnitz, AIChE Journal, 1965, 11, 121-127. 
+ 

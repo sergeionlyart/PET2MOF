@@ -1,0 +1,10 @@
+ 
+S23
+CO2 uptake kinetics studies 
+ 
+Figure S30: 1.0 bar gravimetric CO2 uptake versus time for monoHKUST-1 at 298 K. 
+ 
+Figure S31: 1.0 bar gravimetric CO2 uptake versus time for monoUiO-66 at 298 K. 
+ 
+Figure S32: 1.0 bar gravimetric CO2 uptake versus time for monoUiO-66-NH2 at 298 K. 
+ 

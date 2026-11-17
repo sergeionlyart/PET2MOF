@@ -1,0 +1,17 @@
+{
+  "phase": "source-only measurement frozen BEFORE opening current T019 exports, passports, scripts, T019b report",
+  "utc": "2026-11-17T01:33:20.465483+00:00",
+  "head": "23a87312d9ff9881f6fa4477e04013bc912b424b",
+  "hashes": {
+    "source_control.py": "d99a8a03b8591ab41639372ccc2fa7de35563c5c67e8dbbea69f7935cdb78b4b",
+    "source-projects.json": "c708bb0410f6b9a42a9ccfb124c81902a3838b7bc85813479f968b7d2c81c1b7",
+    "source-controls.csv": "4f0fba3ca29806c7e72318d3a3538509aa18f7dadf535f208a004d8afb7e3f37",
+    "S2-source-tables.json": "b441a655426cd69f58c650d5a871575fc9af627293784e79c484bb2b538063bf",
+    "S2-access-2.xml": "0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574",
+    "source-notes.json": "9e1fa8c38900a8d092a93416819a4db6e3974dd47b07c5a0bf1e3e8278bcb3b6",
+    "sources.json": "d2fd07722c9c7caa676985337d6ffa978b3e32e405341e4109b3c6dbd09a8cb0",
+    "image-manifest.json": "c26cf3c4f44ee264c945f898da551fcc34602e4b4a2eeed152043bfc87ef2117"
+  },
+  "prior_knowledge": "Task, T019v prior defect report, holdout schema incl T019b policy and D18 read; no current CSV/project coordinates opened. Initial template trials source-only, retained separately.",
+  "rule": "Do not modify source controls after comparison. Any source-only mistakes discovered later are flagged and excluded from count, never silently refitted."
+}

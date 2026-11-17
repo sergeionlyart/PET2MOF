@@ -1,0 +1,13 @@
+Membranes 2020, 10, 154 
+10 of 18 
+ 
+investigated by FESEM (Figure 7). The sieve-in-a-cage morphology, which is common in 
+zeolite/polymer MMMs, was not observed in this work [60]. The presence of organic ligands in 
+UiO-66, UiO-66-NH2, UiO-66-Br, and UiO-66-(OH)2 improves the polymer/filler compatibility. The 
+use of small particles in this study was also advantageous because it created large interfacial areas 
+between the filler and polymer [41,61]. Thermogravimetric analysis of the pure polymer and MMMs 
+verified that the incorporation of nanoporous materials did not affect the thermal stability of the 
+polymer (Figure S5). The initial drop in weight loss is attributed to the removal of residual solvent 
+present in the sample. For the MMMs, because the thermal stability of the filler is weaker than that of 
+the polymer matrices, a two-stage weight loss was observed. This observation is consistent with a 
+previous study [22]. 

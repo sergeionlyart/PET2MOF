@@ -1,0 +1,101 @@
+Membranes 2020, 10, 154 
+2 of 18 
+ 
+generally show poorer scalability than polymeric membranes due to their inherent brittleness 
+[14–16]. 
+The incorporation of porous fillers into polymer films to form mixed-matrix membranes 
+(MMMs) has been explored with the aim of combining the advantages of polymer and porous fillers. 
+In terms of the choice of porous materials, MOFs have attracted substantial research interest due to 
+properties such as their large accessible surface area and micropore volume [17–21]. MOFs are also 
+capable of pre- or post-synthetic functionalization to promote favorable interaction with target gases 
+such as CO2, which is highly polarizable [22–24]. In addition, the presence of organic moieties in 
+MOFs also ensures better compatibility with the polymer matrices than zeolites, which typically 
+require additional compatibilizers to mitigate the interfacial defects that would otherwise be present 
+between the filler and polymer [25–29]. 
+In this work, we demonstrate the potential utility of nanocrystalline UiO-66 and its derivatives 
+(UiO-66-NH2, UiO-66-Br, and UiO-66-(OH)2) in a polymeric membrane for CO2/N2 separation. The 
+presence of zirconium at the metal sites in UiO-66 allows very stable coordination bonding with the 
+ligand, resulting in high stability under humid conditions [30–32]. Furthermore, the synthesis of 
+UiO-66 nanocrystals can be conducted using a facile, scalable method [33]. The CO2/N2 separation 
+performance was further tuned with the incorporation of ligands with various functional groups, 
+namely amine (-NH2), bromine (-Br), and hydroxyl (-OH), via pre-synthetic functionalization, as 
+these functional groups interact favorably with CO2. In terms of the choice of polymeric membrane, 
+an in-house polyimide, ODPA-TMPDA (the abbreviations will be elaborated in Section 2.1), was 
+used. OPDA-TMPDA (
+2
+88 barrer
+CO
+P
+
+) possesses greater CO2 permeability than commercial 
+polymers such as Matrimid (
+2
+10 barrer
+CO
+P
+
+), polysulfone (
+2
+5 barrer
+CO
+P
+
+), and Ultem 
+(
+2
+2 barrer
+CO
+P
+
+) [34–38]. Moreover, ODPA-TMPDA can be readily synthesized without a monomer 
+purification process [39,40]. In contrast, the synthesis of 6FDA-based polymers (6FDA = 
+4,4′-(hexafluoroisopropylidene)diphthalic 
+anhydride) 
+(e.g., 
+6FDA-DAM 
+(DAM 
+= 
+2,4,6-trimethyl-m-phenylenediamine),
+2
+681 barrer
+CO
+P
+
+) 
+and 
+PIM-1 
+(polymer 
+of 
+intrinsic 
+microporosity-1) (
+2
+5120 barrer
+CO
+P
+
+) typically requires the monomers to be purified before 
+polymer synthesis to allow the production of those polymers with a high average molecular weight 
+in order to develop membrane with high intrinsic CO2 permeability [41–44]. It should be noted that 
+the CO2 permeabilities indicated above are obtained at the condition that is reasonably close to the 
+measurement condition used in this work (35 °C and 1 bar feed pressure, as stated in Section 2.4.3.). 
+Finally, the effect of different functional groups in UiO-66 on CO2/N2 separation performance was 
+systematically studied. 
+2. Materials and Methods 
+2.1. Materials 
+2-Bromoterephthalic 
+acid, 
+2-aminoterephthalic 
+acid, 
+2-5-dihydroxyterephthalic 
+acid, 
+2,4,6-trimethyl-m-phenylenediamine (TMPDA), 4,4′-oxydiphthalic anhydride (ODPA), acetic 
+anhydride (Ac2O), terephthalic acid, triethylamine (TEA), and zirconium(IV) chloride (ZrCl4) were 
+purchased from Sigma Aldrich (Singapore). Chloroform, dimethylformamide (DMF), methanol, 
+N,N-dimethylacetamide (DMAc), and hydrochloric acid (HCl, 37%) were purchased from VWR 
+(Singapore). All other chemicals were used as received without further purification. 
+2.2. Synthesis of MOFs (UiO-66 and Its Derivatives) and Polymer (ODPA-TMPDA) 
+UiO-66 nanocrystals were synthesized by the experimental procedure described as follows, 
+with some modifications [33]. In a round-bottom flask, 1.25 g of ZrCl4, 50 mL of DMF and 10 mL of 
+HCl were loaded, and the resulting mixture was sonicated for at least 20 min to ensure that all 
+reactants were completely dissolved and mixed. In a separate flask, 1.23 g of terephthalic acid and 
+100 mL of DMF were loaded. The contents of this flask were then poured into the above mixture, 

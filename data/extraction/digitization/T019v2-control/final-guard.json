@@ -1,0 +1,14 @@
+{
+  "head": "23a87312d9ff9881f6fa4477e04013bc912b424b",
+  "git_diff_check_exit": 0,
+  "protected_input_hashes_unchanged": true,
+  "blind_checkpoint_hashes_unchanged": true,
+  "only_allowed_output_paths": true,
+  "output_files": 167,
+  "series_verdicts": {
+    "not_testable": 14,
+    "исправить": 2,
+    "excluded": 4
+  },
+  "report": "reviews/T019v2_holdout_reverification.md"
+}

@@ -1,0 +1,11 @@
+ 
+S25
+ 
+Figure S36: Dry and 74% relative humidity 15% CO2/85% N2 v/v breakthrough studies for (A) 
+monoHKUST-1 and (B) powdered HKUST-1 and at 298K (Total flow = 2 cm3 min-1). 
+ 
+Figure S37: Dry and 74% relative humidity 15% CO2/85% N2 v/v breakthrough studies for (A) 
+monoUiO-66 and (B) powdered UiO-66 and at 298K (Total flow = 2 cm3 min-1). 
+ 
+Figure S38: Dry and 74% relative humidity 15% CO2/85% N2 v/v breakthrough studies for (A) 
+monoUiO-66-NH2 and (B) powdered UiO-66-NH2 and at 298K (Total flow = 2 cm3 min-1). 

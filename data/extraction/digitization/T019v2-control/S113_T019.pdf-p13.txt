@@ -1,0 +1,212 @@
+Membranes 2020, 10, 154 
+13 of 18 
+ 
+Besides, the CO2/N2 separation properties of our membranes are also compared with the 
+literature data, where UiO-66 and its derivative are used as the fillers in the fabrication of MMM. In 
+general, as summarized in the gas permeation data (Table 2) and Table 4, UiO-66 is incapable of 
+improving the CO2/N2 selectivity to a substantial extent, unless rubbery polymer (PEBA) is used, as 
+reported by Shen et al. [51]. This is plausibly attributed to the high chain mobility of the rubbery 
+polymer, which minimize the formation of interfacial nanogaps more effectively than the glassy 
+polymers [61]. Nevertheless, although the performance of UiO-66 in PEBA looks promising, it is 
+noteworthy that membrane should be fabricated on a porous support owing to its poor mechanical 
+stability [62–64], thus, limiting potential utility in large scale membrane production. In order to 
+ensure a clear enhancement in CO2/N2 selectivity of glassy polymer membrane, functionalization of 
+UiO-66 to allow favorable CO2 adsorption is deemed necessary. 
+With reference to the CO2/N2 separation performance reported in Table 4, an empirical metric 
+(Findex) was used to compute the effectiveness of the fillers in MMM, considering the fact that 
+different polymers were used as the matrices in membranes. In this work, the most promising 
+performance was that of UiO-66-Br at 20 wt% loading, with Findex = 0.94, a performance close to the 
+Robeson upper bound for CO2/N2 separation [12], as plotted in Figure S6. In contrast, the value of 
+Findex for UiO-66 was only 0.09 at 10 wt% and 0.55 at 20 wt% loading, lower than for any other fillers 
+investigated in this work. Notably, the Findex of 0.94 for the case of UiO-66-Br is found to be higher 
+than most of the reported literature data, with the exception of the incorporation of azo-UiO-66 at 10 
+wt% loading in Matrimid membrane [65] and UiO-66-H (20 wt%) and UiO-66-NH2 (10 wt%) in 
+PIM-1 membrane [66]. However, it should be noted that the data in the above studies were obtained 
+from the pure gas permeation test, which does not reflect the practical conditions. For example, the 
+partial pressure of CO2 in the feed is considerably low (<20 vol%) in a typical post-combustion CO2 
+capture process [58,67], as compared to volume fraction of 50 vol% (of CO2) used in several studies 
+[51,66]. Thus, evidently, the measurement of UiO-66-NH2 (10 wt%) in PIM-1 membrane under the 
+mixed-gas condition has led to a clear 54% decrease in Findex from 1.48 to 0.67, as shown in Table 4. 
+Hence, it is generally important to conduct the measurement under the mixed-gas condition rather 
+than pure gas testing in order to demonstrate a clear illustration of the gas separation performance of 
+porous materials in MMM. 
+Table 4. Summary of gas permeation results of the mixed-matrix membranes that utilize UiO-66 and 
+its derivatives(a). 
+Filler 
+Polymer 
+Filler 
+loading 
+(wt%)(b) 
+Separation performance 
+Findex 
+Yr 
+(Ref.) 
+Testing condition 
+P(CO2) 
+Barrer 
+% 
+En. 
+α 
+(CO2/N2) 
+% 
+En. 
+Pressure 
+(bar) 
+Temp. 
+(°C) 
+UiO-66 
+PEBA 
+10 
+-(c) 
+25 
+96.3 
+87.0 
+56.6 
+34.4 
+1.48 
+16′ 
+[51] 
+UiO-66 
+PEBA 
+10 
+-(c, d) 
+25 
+139.7 
+171 
+61.1 
+45.1 
+2.07 
+16′ 
+[51] 
+UiO-66 
+PSF 
+20 
+3 
+35 
+16 
+186 
+26.2 
+-11.0 
+0.71 
+16′ 
+[68] 
+UiO-66-NH2 
+PEBA 
+20 
+-(c) 
+25 
+87.0 
+68.9 
+66.1 
+57.0 
+1.82 
+16′ 
+[51] 
+UiO-66-NH2 
+PEBA 
+20 
+-(c, d) 
+25 
+130.2 
+153 
+72.2 
+71.5 
+2.48 
+16′ 
+[51] 
+UiO-66-ref 
+PIM-1 
+20 
+4 
+25 
+6981 
+128.6 
+13.0 
+-19.3 
+0.21 
+17′ 
+[66] 
+UiO-66 
+PIM-1 
+23.1 
+1 
+25 
+7610 
+59.5 
+20.7 
+-5.1 
+0.31 
+17′ 
+[50] 
+UiO-66 
+PIM-1 (MeOH 
+treated) 
+23.1 
+1 
+25 
+9980 
+109.2 
+21.6 
+-0.9 
+0.71 
+17′ 
+[50] 
+UiO-66-COOH 
+PIM-1 
+23.1 
+1 
+25 
+5300 
+11.1 
+20 
+-8.26 
+-0.14 
+17′ 
+[50] 
+UiO-66-H 
+PIM-1 
+20 
+4 
+25 
+2606 
+-14.7 
+24.6 
+52.8 
+1.07 
+17′ 
+[66] 
+UiO-66-NH2 
+PIM-1 
+9.1 
+1 
+25 
+4810 
+0.83 
+22.3 
+2.29 
+0.07 
+17′ 
+[50] 
+UiO-66-NH2 
+PIM-1 
+10 
+4 
+25 
+2869 
+-6.1 
+27.5 
+70.8 
+1.48 
+17′ 
+[66] 
+UiO-66-NH2 
+PIM-1 
+10 
+4(c) 
+25 
+1900 
+-37.8 
+24 
+49.0 
+0.67 
+17′ 

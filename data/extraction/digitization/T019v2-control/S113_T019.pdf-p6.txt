@@ -1,0 +1,85 @@
+Membranes 2020, 10, 154 
+6 of 18 
+ 
+Beach, FL, USA). All membranes were outgassed at 120 °C for 1 day. The CO2 and N2 adsorption 
+isotherms were fitted using the single-site Langmuir equation as elaborated in Equation (1). This 
+was followed by the calculation of the solubility, S, of CO2 and N2 in the respective membranes. In 
+Equation 6, q, ρ, and p are defined as the gas adsorbed per unit membrane mass, the membrane’s 
+density, and the specified pressure, respectively. The diffusivity, D, of gas in the membrane can be 
+calculated using the relationship between permeability and solubility because the solution–diffusion 
+mechanism is the transport mechanism in a dense membrane. 
+q
+S
+p
+
+
+ 
+(6) 
+2.4.5. Filler Enhancement Index 
+Equation 7, which evaluates the parameter of filler enhancement index (Findex), was used to 
+calculate the performance of the MMMs. In this expression, Pfilled and Punfilled are defined as the 
+permeability of MMM and pure polymeric membrane; αfilled and αunfilled are the CO2/N2 selectivity of 
+MMM and pure polymeric membrane; η is the enhancement coefficient, which is defined as 2.888 
+based on the slope of the Robeson upper bound published in 2008. This parameter was defined for 
+CO2/N2 in a 2008 study to assist in quantifying the effectiveness of fillers in MMMs [4]. 
+ln
+ln
+filled
+filled
+index
+unfilled
+unfilled
+P
+F
+P
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+(7) 
+3. Results and Discussion 
+3.1. Synthesis of Nanocrystalline UiO-66 and Its Derivatives 
+First, the PXRD patterns were inspected to verify the crystallinity of the UiO-66 nanocrystals 
+(Figure 3a). A comparison of UiO-66 and its derivatives shows that the overall structural crystallinity 
+remained intact, despite the use of different ligands. The peaks observed here are consistent with the 
+diffraction peaks previously reported for UiO-66 [49–53]. Next, the N2 adsorption–desorption 
+isotherm measured at 77 K (Figure 3b) clearly depicted that the UiO-66 nanocrystals possess high N2 
+sorption at low P/Po. This implies that these nanocrystals possess large micropore volumes, as 
+summarized in Table 1. However, it can be expected that after the incorporation of ligands with 
+different functional groups (via pre-synthetic functionalization), the overall porosity of the 
+framework would decrease substantially. Indeed, the N2 adsorption–desorption measurements 
+confirm the decreases in overall porosity with the various functional groups. As expected, the 
+introduction of difunctional groups causes a sharper decrease in the accessible surface area than 
+modification with monofunctional groups. Comparing amine (-NH2) and bromine (-Br) functional 
+groups, UiO-66-Br suffers a slight decrease in accessible surface area compared with UiO-66-NH2, 
+consistent with the larger atomic size of -Br. Further verification of the presence of -NH2 and -Br 
+functional groups was conducted via elemental analysis and EDX (Figure S1), and the results are 
+summarized in Table S1 (the theoretical values of the elemental composition are supplemented in 
+Table S2). FTIR analysis of UiO-66 and its derivatives demonstrated that the presence of different 
+functional groups did not influence the FTIR spectrum (Figure 3c). The spectrum of UiO-66 is similar 
+to that reported in the literature [54]. A clearly observable O-H stretch as well as N-H stretch at 
+around 3000 and 3300 cm−1, respectively, for UiO-66-(OH)2 and UiO-66-NH2 indicated the 
+unmistakable presence of 2,5-dihydroxyterephthalate and 2-aminoterephthalate in each sample. As 
+for the thermal stability of UiO-66 and its derivatives, thermogravimetric analysis (Figure 3d) 
+demonstrated that the overall structure of UiO-66 and UiO-66-Br remained thermally stable up to 
+550 and 500 °C, respectively, whereas UiO-66-NH2 and UiO-66-(OH)2 showed a substantial weight 
+loss after 200 °C. Thus, for the subsequent experiments (gas adsorption and membrane annealing), 
+the activation condition of all nanoporous materials were set at 120 °C. In addition, it should be 

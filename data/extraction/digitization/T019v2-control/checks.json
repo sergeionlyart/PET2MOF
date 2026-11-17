@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "command": "source-only build_blind.py",
+      "exit_code": 0,
+      "result": "initial template search produced false candidates; superseded before export exposure, retained as initial artefact"
+    },
+    {
+      "command": "source_control.py",
+      "exit_code": 0,
+      "result": "source-only coordinates frozen; no refit after disclosure"
+    },
+    {
+      "command": "compare.py",
+      "exit_code": 0,
+      "result": "diagnostic, scientific quota flags can be false; not a verification pass"
+    },
+    {
+      "command": "audit_contract.py",
+      "exit_code": 0,
+      "result": "final independent checks pass; earlier checker-development failures: S102 unknown u_p expectation, filename indexing, f-string syntax, sample-name normalization; corrected only checker, never data"
+    },
+    {
+      "command": "UV_CACHE_DIR=\"$PWD/.uv-cache\" PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m pytest -p no:cacheprovider --basetemp=data/extraction/digitization/T019v2-control/pytest-tmp tests/test_provenance_units.py",
+      "exit_code": 0,
+      "result": "17 passed"
+    },
+    {
+      "command": "supplemental.py",
+      "exit_code": 0,
+      "result": "dry source controls after export read, not blind; no extra triangle point passed threshold"
+    },
+    {
+      "command": "own-completion checkpoint before report read",
+      "exit_code": 1,
+      "result": "SyntaxError; failed checkpoint not represented as existing"
+    }
+  ],
+  "versions": {
+    "python": "3.11.5",
+    "opencv": "4.13.0",
+    "pymupdf": "1.27.2.3",
+    "numpy": "2.4.2"
+  },
+  "limitations": "make test-ocr / T019 checker not run: do not create .venv/cache outside authorized output or rewrite T019-work/validation.json; source checker imports missing scipy. Targeted provenance tests and separate independent audit executed."
+}

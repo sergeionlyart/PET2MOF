@@ -1,0 +1,139 @@
+Membranes 2020, 10, 154 
+14 of 18 
+ 
+[66] 
+UiO-66-NH2 
+PIM-1 (3-month 
+aging) 
+9.1 
+1(e) 
+25 
+4835 
+1.36 
+28.2 
+29.4 
+0.75 
+17′ 
+[50] 
+UiO-66 
+PU 
+24 
+- 
+- 
+75.2 
+95.8 
+34.2 
+-12.8 
+0.27 
+18′ 
+[52] 
+UiO-66 
+Matrimid 
+10 
+4 
+37 
+7.8 
+13.0 
+29.4 
+-1.4 
+0.08 
+18′ 
+[65] 
+Azo-UiO-66 
+Matrimid 
+10 
+4 
+37 
+10 
+44.9 
+37 
+24.0 
+0.99 
+18′ 
+[65] 
+UiO-66 
+ODPA-TMPDA 
+20 
+1(f) 
+35 
+169 
+92.0 
+31.9 
+-3.6 
+0.54 
+This 
+work 
+UiO-66-NH2 
+ODPA-TMPDA 
+20 
+1(f) 
+35 
+142 
+61.3 
+37.1 
+12.0 
+0.81 
+This 
+work 
+UiO-66-Br 
+ODPA-TMPDA 
+20 
+1(f) 
+35 
+200 
+127 
+34.5 
+4.23 
+0.94 
+This 
+work 
+UiO-66-(OH)2 
+ODPA-TMPDA 
+20 
+1(f) 
+35 
+125 
+42.0 
+38.9 
+17.5 
+0.81 
+This 
+work 
+Note: % En.—Percentage enhancement; Findex—Filler enhancement index (in Section 2.4.5); 
+MeOH—methanol; PEBA—polyether block amide; PSF—Polysulfone; PU—Polyurethane ether; 
+azo—azobenzene; UiO-66-ref—UiO-66 particles without water modulation (to make small particles). 
+(a) The performance in the table is reported as pure gas permeation unless stated (indicated in the 
+pressure column); (b) the loading amount is selected to be as close as possible to the amount that is 
+used in this work in order to provide a better comparability with the Findex calculation; (c) CO2/N2 
+(50/50, in vol%); (d) humid condition; (e) N2/CO2/O2 (80:10:10, in vol%); (f) N2/CO2 (80:20, in vol%). 
+4. Conclusions 
+Nanocrystalline UiO66 and its derivatives were developed via pre-synthetic functionalization 
+with ZrCl4, and these porous fillers were used to develop MMMs for the analysis of CO2/N2 
+separation. It was observed that the addition of UiO-66 nanocrystals successfully improved CO2 
+permeability but with a slight dip in CO2/N2 selectivity. Thus, derivatives of UiO-66 with different 
+functional groups (-NH2, -Br, and -(OH)2) were prepared and evaluated under similar conditions. 
+All of these UiO-66 derivatives were found to improve the CO2/N2 selectivity, which was consistent 
+with the calculated IAST of these porous materials together with the experimental results of a gas 
+permeation test, where the particles were incorporated into an MMM. Further solubility–diffusivity 
+analysis indicated that the addition of UiO-66 derivatives with different functional groups 
+suppressed the solubility of N2, which led, in turn, to enhanced CO2/N2 selectivity. Based on our 
+findings, UiO-66-Br at 20 wt% loading is capable of improving both the CO2 permeability and 
+CO2/N2 selectivity of MMMs for gas separation, with performance close to the reported upper 
+bound. Future efforts can be devoted to realizing a practically attractive performance by employing 
+high-performance polymer matrices (e.g., 6FDA-based polyimides and PIM-1) in MMM fabrication. 
+Supplementary Materials: The following are available online at www.mdpi.com/2077-0375/10/7/154/s1, Figure 
+S1: EDX analysis of UiO-66-Br, Figure S2: (a) CO2 adsorption at 25 °C; (b) N2 adsorption at 25 °C; (c) Isosteric 
+heat of adsorption of CO2 and (d) CO2/N2 IAST selectivity (feed mixture of CO2/N2 = 20/80) for UiO-66, 
+UiO-66-NH2, UiO-66-Br and UiO-66-(OH)2, Figure S3: FTIR spectrum of mixed-matrix membrane, Figure S4: 
+XRD analysis of mixed-matrix membrane, Figure S5: TGA analysis of mixed-matrix membrane, Figure S6: 
+Comparison of the gas permeation data with the upper bound limit for CO2/N2 constructed in 2008. The 
+numerical number indicated in the figure illustrate the value of Findex as described in Section 2.4.5. The data used 
+in this plot is provided in Table 4, Table S1: Elemental analysis of UiO-66 and its derivative, Table S2: 
+Theoretical amount of UiO-66 and its derivative, Table S3: Fitting parameters for CO2 and N2 for UiO-66 and its 
+derivative at 25 °C, Table S4: Fitting parameters for CO2 and N2 for UiO-66 and its derivative at 35 °C, Table S5: 
+Fitting parameters for CO2 and N2 for polymeric and mixed-matrix membranes at 35 °C 
+Author Contributions: Original draft preparation, experimental and characterization: C.Y.C., assistance in the 
+membrane characterization: J.L.; Writing—review and editing: T-H.B. and J.S.; funding acquisition, T-H.B. All 
+authors have read and agreed to the published version of the manuscript. 
+Funding: This work is funded by Saudi Aramco-KAIST CO2 Management Center. 
+Conflicts of Interest: The authors declare no conflict of interest. 

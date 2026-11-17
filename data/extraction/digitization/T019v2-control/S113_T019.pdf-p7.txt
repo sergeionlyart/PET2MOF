@@ -1,0 +1,46 @@
+Membranes 2020, 10, 154 
+7 of 18 
+ 
+noted that the nanoporous materials that are used in MMM for gas separation should have 
+sufficiently small particle sizes [55]. Thus, the morphologies of UiO-66 and its derivatives were 
+verified via FESEM (Figure 4). Based on the images, the particle sizes generally ranged from 300 to 
+500 nm, which is sufficiently small for these particles to be used in gas separation. 
+ 
+Figure 3. (a) Powdered X-ray diffraction (PXRD) pattern; (b) N2 adsorption–desorption isotherms at 
+77 K (open and closed symbols describe the adsorption and desorption isotherms); (c) FTIR curves; 
+(d) thermogravimetric curves of UiO-66 and its derivatives. 
+Table 1. Surface areas and pore volumes of UiO-66 and its derivatives, determined by N2 
+physisorption at 77 K. 
+Sample 
+SBET(a) (m2/g) 
+SLANG(a) (m2/g) 
+Smicro(b) (m2/g) 
+Vmicro(b) (cc/g) 
+Vtotal(c) (cc/g) 
+UiO-66 
+1733 
+2266 
+1662 
+0.809 
+0.938 
+UiO-66-NH2 
+1218 
+1599 
+1160 
+0.569 
+0.682 
+UiO-66-Br 
+851 
+1117 
+818 
+0.380 
+0.440 
+UiO-66-(OH)2 
+318 
+418 
+293 
+0.136 
+0.178 
+(a) BET surface area and Langmuir surface area (SBET and SLANG) were determined at P/Po = 0.05–0.2; 
+(b) Micropore surface area and micropore volume (Smicro and Vmicro) were determined at P/Po = 0.4–0.6 
+using t-plot method; (c) Total pore volume (Vtotal) was determined at P/Po = 0.99. 

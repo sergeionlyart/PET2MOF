@@ -1,0 +1,11 @@
+S8
+negative values in Figure S9), indicating that CO2 may still like to interact with the water 
+bridges, however the unfavourability of the ensuing host-adsorbate interactions outweigh these 
+benefits.  This indicates that the local environments caused by the differences in the NH2 
+positions relative to the defects can, in cases such as D1, encourage CO2 adsorption, while for 
+other cases, such as D2, this leads to no net enhancement. Thus, the orientation of functional 
+groups near defect sites plays a large role in this enhancement effect.
+Figure S9. The difference in energy between UiO-66-NH2-D2 and 
+UiO-66-NH2-D1 as a function of the number of adsorbed CO2 
+molecules at 2 mol/kg water loading and at a partial pressure of CO2 
+of 5 kPa.

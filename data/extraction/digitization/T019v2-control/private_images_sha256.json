@@ -1,0 +1,27 @@
+{
+  "files": {
+    "S117-S37A-accepted.png": "a813d974e85c0ceee83b63a3ef9142edaedc2fe64ec4880461812116d58dd089",
+    "S117-S37A-overlay.png": "adde8baf930330f257225ef0f32dd023a1088b6c21bcd54e4efda89ef9a90eca",
+    "S117-S37B-accepted.png": "6b4c3fe135f7cb9066c6c79cd94c3d2ebe7a390183b554eff3a8eadddcf1ddd0",
+    "S117-S37B-overlay.png": "c31c0a0f7b6cbe3c9cf553a7d2783fbc5b2a95c3be16630b2b3b2c3323c4cf85",
+    "S117-S38A-accepted.png": "17ed0f1fe0929690db327d24485e3147987d1040ac22a40ac390017b352102df",
+    "S117-S38A-overlay.png": "632797a2e364fead97928c75a5a44e472aecda87ed2aad7253d09ce3d7e1240d",
+    "S117-S38B-accepted.png": "2692e0627bedea6e4111489faed84e9e23ca48ad281af3cbc20be6de07c5d185",
+    "S117-S38B-overlay.png": "0aff5e8eb83a4332051fdae0448c7d607f1baafce991ebb4f17cbfb2b020ec40",
+    "S117_SI_T019.pdf-image0.png": "6a1fe1789ddfb7b22956fe6c0acc42684f047ee8a3664efbeabb8eedf1862fce",
+    "S117_SI_T019.pdf-image1.png": "9da326830da49fd8bcaf397e7aecdf07d74717b6653514fce92112abc507364b",
+    "S117_SI_T019.pdf-image2.png": "a7f40e84ef30ee14c510ece6f76df67a5017d4ef37a1c61c61ff045e274b2698",
+    "S117_SI_T019.pdf-p25.png": "1e917739c263cb02602f240991f36acdb6687a39fdcd83be99a899fa880eb2ef",
+    "S117_SI_T019.pdf-p5.png": "01640049493b77d866344551b0e0de099657b17d1ea8960602db16973f1be0df",
+    "S117_SI_T019.pdf-p6.png": "8daf125e68e08b67b4f17a02cb6d6ab15a7695a2012ee899fa90ccba1f8a0b6f",
+    "S37A-dry-supplemental.png": "c8b832c91ee5995504a854536ec1ec25f11068ef07c779fbdcc9752ab79b0203",
+    "S37B-dry-supplemental.png": "fc9d95b4f82807fc819d75c019b6b3d87d0a1457f63865c6af276eaca50ada42",
+    "S38A-dry-supplemental.png": "71f7c27af8c8bd46d6ad3ed7ccf1968cb25f5defe2de48fe3086ade26972d1d4",
+    "S38B-dry-supplemental.png": "4a0510beecb286111057cda3d51506b96983be0401cb08b034a253f916d8a128",
+    "T019-S117-FigS37A.digitization.yaml.export-overlay.png": "85ef8a44be9cbb8ac9ec4b836ead32ee82adab1442ddb7ad50915b511c4392ce",
+    "T019-S117-FigS37B.digitization.yaml.export-overlay.png": "1778e96b0e5b74642e6fd71b3c3154d00e344e9fdb83b30312bef9a144369643",
+    "T019-S117-FigS38A.digitization.yaml.export-overlay.png": "ae8da4c2c34936a94e76ee63c8bfa405407dd01f91aaa495a77fcd0b978b88ba",
+    "T019-S117-FigS38B.digitization.yaml.export-overlay.png": "6ed7519f24e437fb3194a9cb8a1d8c24c0e7d5ca855caf6208caa0b418c8995d"
+  },
+  "reason": "S117 reuse licence not established (sources/registry.yaml: unknown); images kept privately by the lead, hashes published"
+}

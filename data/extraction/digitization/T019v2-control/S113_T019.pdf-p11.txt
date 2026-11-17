@@ -1,0 +1,41 @@
+Membranes 2020, 10, 154 
+11 of 18 
+ 
+ 
+Figure 7. FESEM images of (a) 10 wt% UiO-66; (b) 20 wt% UiO-66; (c) 10 wt% UiO-66-NH2; (d) 20 
+wt% UiO-66-NH2; (e) 10 wt% UiO-66-Br; (f) 20 wt% UiO-66-Br; (g) 10 wt% UiO-66-(OH)2; (h) 20 wt% 
+UiO-66-(OH)2 in ODPA-TMPDA membrane. 
+3.4. Gas Permeation Properties 
+The gas permeation properties of the membranes were measured at the upstream pressure of 1 
+bar of CO2 (20/80 mixture) at 35 °C (Table 2). The presence of 20 wt% UiO-66 in the polymeric 
+membrane was found to improve the overall CO2 permeability by 92%, but with a marginal decrease 
+in CO2/N2 selectivity. The large micropore volume of UiO-66 presumably allowed rapid transport of 
+both CO2 and N2 molecules through the MMM with minimal resistance. However, due to the 
+relatively poor CO2/N2 selectivity of UiO-66, it was anticipated that the incorporation of the 
+above-tested derivatives of UiO-66 in MMMs would give better gas separation performance. Indeed, 
+the gas permeation results confirm that UiO-66-NH2, UiO-66-Br, and UiO-66-(OH)2 improved the 
+CO2/N2 selectivity by 12%, 4%, and 17%, respectively, which is consistent with the IAST calculation 
+(Figure S1d), which predicted that UiO-66-(OH)2 would demonstrate the highest improvement in 
+selectivity among the UiO-66 derivatives. Nevertheless, considering the overall performance in 
+terms of both CO2 permeability and CO2/N2 selectivity, 20 wt% UiO-66-Br demonstrates the highest 
+CO2 permeability along with attractive CO2/N2 selectivity. 
+Table 2. Permeation results of the membranes at 35 °C at the feed pressure of 1 bar (or 105 Pa) CO2/N2 
+mixture (20 vol%/80 vol%)(a). 
+Membrane 
+CO2 permeability (Barrer)(b) 
+CO2/N2 selectivity 
+ODPA-TMPDA 
+88 + 2 
+33.1 + 1.2 
+10 wt% UiO-66 
+142 + 5 
+29.0 + 0.4 
+20 wt% UiO-66 
+169 + 2 
+31.9 + 0.2 
+10 wt% UiO-66-NH2 
+129 + 3 
+36.1 + 0.8 
+20 wt% UiO-66-NH2 
+142 + 1 
+37.1 + 2.3 

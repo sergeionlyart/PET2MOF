@@ -1,0 +1,82 @@
+In conclusion, switching the properties of the material from
+hydrophobic to hydrophilic has no major effect on the adsorption
+of nonpolar molecules such as argon or methane. However, if the
+nonpolar molecule has a nonzero quadrupole moment, as is the
+case for carbon dioxide and nitrogen, the high-pressure adsorp-
+tion varies signiﬁcantly as the amount of structural defects
+increases. In the case of polar methanol and ethanol molecules,
+increased hydrophilicity signiﬁcantly affects adsorption, with a
+shift of the isotherm onset towards lower pressure values and an
+increase in adsorption capacity. The use of FT-IR spectroscopy
+correlated with DFT+D (DMol3) calculations allowed pre-
+liminary estimates of the preferential adsorption sites for carbon
+dioxide and methanol.
+The preferred adsorption sites of molecules with different
+polarities were also determined from an atomistic point of view,
+together with the increase of the hydrophilicity of the structure.
+Monte Carlo simulations showed that the selection of the set of
+point charges for the structure plays a key role in accurately
+describing the adsorption of polar molecules in UiO-66. In this
+regard, the new set of charges proposed by us results in better
+agreement with experiments than the EQeq charges previously
+used in the literature. For the ethanol molecule, a new set of LJ
+parameters for the guest-host interaction was also needed to
+reproduce the experimental results.
+Experimental
+All chemicals and solvents were purchased from commercial
+sources (Merck, Avantor) and were used without further pur-
+iﬁcation. UiO-66 samples, with and without defects, were syn-
+thesized based on the previously published methods7,22. Powder
+X-ray diffraction (PXRD) patterns were recorded at room tem-
+perature (25 °C) on a Rigaku MiniFlex diffractometer in refection
+mode with Cu-Kα radiation (λ = 0.154 nm) in a 2θ range from 3°
+to 40° with a 0.02° step and 3°/min scan speed.
+Adsorption isotherms were measured using static volumetric
+Autosorb IQ apparatus (Quantachrome Instruments) at -196 °C
+for nitrogen, and 27 °C for carbon dioxide, methanol, and etha-
+nol. Adsorption isotherms for argon were taken from our pre-
+vious work7. Prior to measurements, all samples were activated
+under vacuum for 8 h at 100 °C (2 °C/min ramp). Speciﬁc surface
+areas were determined from N2 isotherms with the use of the
+Brunauer-Emmett-Teller (BET) method, and the pore volumes
+were obtained using the t-plot method.
+FT-IR spectra were recorded on a Bruker Tensor 27 spectro-
+meter, equipped with an MCT detector, working at 2 cm−1 reso-
+lution. UiO-66 samples were deposited as thin layers on a silicon
+wafer by evaporating a few drops of the MOF suspension in
+methanol. The wafer was placed in an IR cell closed with KBr
+windows. The cell was designed to allow outgassing under vacuum
+and the adsorption of gases at different temperatures. MOF sam-
+ples were outgassed in vacuum at 100 or 300 °C for 1 h prior to
+adsorption of the probe molecules. The adsorption temperatures
+were: -100 °C for CO2 and RT for methanol. All measured spectra
+were normalized to the same intensity of the 1020 cm−1 maximum
+characteristic of C-H out-of-plane bending vibrations.
+To describe the molecules of methanol and ethanol we used the
+TraPPE force ﬁeld27. For carbon dioxide we used the model and
+Lennard-Jones (LJ) parameters developed by García-Sánchez
+et al.28, while for nitrogen, argon and methane the models and LJ
+parameters developed by Martín-Calvo et al.29. For alcohols,
+point charges were placed on the hydrogen, oxygen, and alkyl
+pseudoatoms near the atom of oxygen. To reproduce the quad-
+rupole moments of carbon dioxide and nitrogen, the negative
+charge was placed on oxygen and nitrogen atoms and the double-
+positive charge on the center of mass. This offsets the total charge
+of the molecules to zero30. All these models and sets of LJ
+parameters are well validated31. Details are shown in Tables S1
+and S2 in the Supporting information. For the UiO-66 structures,
+we used ideal and defective models from the previous work7. For
+clarity, we used the same labels, where UiO-66_0 represents the
+defect-free structure, while UiO-66_1, UiO-66_2, UiO-66_8, and
+UiO-66_32 have one, two, eight, and thirty-two 1,4-bdc linkers
+removed in the 2×2×2 supercell.
+Crossed guest-guest interactions and guest-host interactions
+between the adsorbates and the MOFs were calculated with
+Fig. 8 IR spectra of methanol adsorbed in UiO-66_160. a The range of OH
+groups for sample activated at 100 °C and 300 °C; the range of skeletal
+vibrations for sample activated at 100 °C (b) and 300 °C (c). The gray line
+indicates the state before adsorption.
+COMMUNICATIONS CHEMISTRY | https://doi.org/10.1038/s42004-022-00742-z
+ARTICLE
+COMMUNICATIONS CHEMISTRY |  (2022) 5:120 | https://doi.org/10.1038/s42004-022-00742-z | www.nature.com/commschem
+7

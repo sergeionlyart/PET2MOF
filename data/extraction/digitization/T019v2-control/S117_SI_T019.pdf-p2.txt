@@ -1,0 +1,27 @@
+ 
+S2 
+Materials & methodology 
+monoHKUST-1 Synthesis. monoHKUST-1 was synthesised using the previously reported method.1 In 
+a typical synthesis, 6.42 mmol of 1,3,5-benzentricarboxylic acid (H3BTC) (1.35 g) and 6.42 mmol of 
+Cu(NO3)2⋅2.5H2O (1.5 g) were mixed separately in 100 mL ethanol, and sonicated in an ultrasonic 
+bath for 10 minutes until the solids are completely dissolved. After dissolving the solutions separately, 
+Cu(NO3)2⋅2.5H2O was added to trimesic acid and stirred well at room temperature for 10 min. The 
+reacted solution is then transferred to a falcon tube, centrifuged, and washed with ethanol for 10 
+minutes (3 × 25 ml, 4200 rpm). After last centrifugation, the supernatant was slowly poured, and the 
+samples are dried overnight to form the monoHKUST-1. Activation was carried out by heating to 120 
+°C under vacuum overnight. 
+monoUiO-66 & monoUiO-66-NH2 Synthesis. monoUiO-66 and monoUiO-66-NH2 were synthesised using 
+the previously reported methods.2 In a typical monoUiO-66 synthesis, 7.25 mmol of benzene-1,4-
+dicarboxylic acid (H2BDC) (1.20 g) and 5.0 mmol of zirconium(IV) oxychloride octahydrate (1.61 
+g) were dissolved in 30 ml of N,N-dimethylformamide (DMF). In a monoUiO-66-NH2 synthesis, 
+H2BDC is substituted with 2-aminoterephthalic acid (H2N-H2BDC).  1.5 mL of concentrated 
+hydrochloric acid (37 %) and 2.0 ml of glacial acetic acid were added to the above solution with 
+strong stirring. The resulting solution was sealed in a 100 mL Pyrex Schott bottle and heated to 100 
+°C for 2 h. 50 ml of DMF was added to the MOF gel and vigorously mixed. The diluted suspension 
+(7.5 mL per tube) was centrifuged (5 min, 4750 rpm) and the supernatant decanted. The gel was 
+washed again with DMF, centrifuged (4750 rpm) and dried to produce monolithic materials. The 
+obtained monoliths were soaked in acetone (3 × 5 ml, 24 h) and methanol (3 × 5 ml, 24 h) and then 
+dried at room temperature overnight. Final materials were activated by heating to 120 °C under 
+vacuum overnight. 
+HKUST-1 Synthesis. HKUST-1 was synthesized following previously published procedure.3 In a 
+typical reaction, 1.00 g (4.76 mmol) of H3BTC and 2.00 g (6.87 mmol) of Cu(NO3)2·3H2O were 

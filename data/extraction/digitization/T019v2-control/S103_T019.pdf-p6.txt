@@ -1,0 +1,102 @@
+former is characteristic of isolated -OH groups attached to the
+metal cluster (the bending vibrations seen at 730 and 680 cm−1).
+The position of the bands was conﬁrmed by DFT+D calculations
+of the Vibrational Analysis performed with the DMol3 software,
+where the band characteristic of isolated -OH groups appears at
+3700 cm−1, asymmetric OZrO at 747 cm−1 and bending Zr-OH
+at 682 cm−1. Additional maxima seen in the OH region, at
+3663 cm−1, may be assigned to the interaction of OH groups with
+residual water molecules in very small amount. This assignment
+was based on the analysis of the IR spectra recorded during
+dehydration of the UiO-66_220 sample (Fig. S26 in the ESI). Both
+maxima disappear after activation at 300 °C indicating complete
+sample dehydroxylation.
+Carbon dioxide was adsorbed in hydroxylated and dehydroxy-
+lated UiO-66 samples to conﬁrm that (as observed in DFT+D,
+DMol3 calculations) CO2 molecule adsorbs preferentially near the
+zirconium cluster for the hydroxylated sample, and on the organic
+linkers for the dehydrated and dehydroxylated one. Both structures
+were optimized using DFT+D (DMol3) and vibration analysis was
+performed to identify the IR bands: 2366 cm−1 was assigned to
+carbon dioxide adsorbed on organic linkers, and 2353 cm−1 to
+carbon dioxide near the OH group located on the zirconium linker.
+The frequencies observed in the IR spectra and recorded
+during carbon dioxide adsorption are shifted (Fig. S27 in the ESI)
+to
+2340
+and
+2336 cm−1,
+characteristic
+of
+CO2··OH
+and
+CO2··linker, respectively. There is a third carbon dioxide band
+present in the spectra, at 2328 cm−1, which may be assigned to
+perturbed CO2 structures formed due to co-adsorption with other
+components such as water26.
+Carbon dioxide adsorption affects the vibrations of the MOF
+functional groups (Fig. 7). The bands at 3675 and 730 cm−1,
+characteristic of OH vibrations near the zirconium cluster
+(stretching and bending vibrations, respectively), disappear after
+carbon dioxide adsorption, and new bands are observed – at
+3640 cm−1 (red-shifted OH vibrations) and 658 cm−1 (CO2
+bending vibrations). The latter band position is constant,
+independently of carbon dioxide adsorption on the cluster or
+on the linker The results, presented here for UiO-66_220 are
+qualitatively the same for all other UiO-66 samples.
+Methanol, as the example of polar molecules, was adsorbed on
+OH-terminated and dehydroxylated structures (Fig. 8) and
+followed with FT-IR spectroscopy. For comparison with experi-
+ment, models analogous to those of carbon dioxide (with
+adsorption on linkers and metal clusters) were created and
+optimized and vibrational analysis was calculated to conﬁrm and
+identify the IR bands.
+Analysis of the spectra conﬁrms that methanol adsorbs
+strongly on both the cluster -OH groups and the linker. The IR
+spectra are dominated by the wide band of hydrogen-bonded
+methanol molecules (at 3310 cm−1) resulting mostly from the
+interaction between adjacent methanol molecules. The -OH
+groups, present in the sample activated at 100 °C, are also
+hydrogen-bonded to methanol. After adsorption, the bands of
+free -OH at 3675 and 730 cm−1 disappear.
+Adsorption of nonpolar molecules (argon and methane) was
+also performed and, according to the calculation, no speciﬁc
+adsorption site was found. The spectra in the skeletal vibrations
+were the same before and after adsorption and the molecules
+remained symmetric and therefore IR invisible.
+Conclusion
+We analyzed the effect of the adsorption of polar, nonpolar and
+quadruple
+molecules on UiO-66 structures
+with changing
+hydrophobic to hydrophilic character. Using a combination of
+experiments and calculations, we obtained a molecular-level view
+of the processes involved. It has been found that, in the case of the
+nitrogen molecule, the available sites within the cavities are ﬁlled
+only at the highest pressure, governing by the strongest guest-host
+interactions in smaller tetrahedral cages. For methane and argon,
+adsorption takes place on all available sites, with no preference for
+being closer to the metal clusters or -OH groups. In the case of
+carbon dioxide, the presence of a small number of defects does
+not signiﬁcantly affect the shape of the adsorption isotherm, and
+molecules adsorb mainly on the organic linkers, avoiding
+adsorption sites close to metal clusters containing -OH groups.
+For
+polar
+molecules
+such
+as
+methanol
+and
+ethanol,
+the
+mechanism is analogous to that of water. The additional -OH
+groups introduced at the defect sites attract the molecules,
+resulting in adsorption at the lowest pressure.
+Fig. 7 IR spectra of carbon dioxide adsorbed in UiO-66_220. a The range
+of OH groups, b the range of skeletal vibrations, both for sample activated
+at 100 °C; c the range of skeletal vibrations for sample activated at 300 °C.
+ARTICLE
+COMMUNICATIONS CHEMISTRY | https://doi.org/10.1038/s42004-022-00742-z
+6
+COMMUNICATIONS CHEMISTRY |  (2022) 5:120 | https://doi.org/10.1038/s42004-022-00742-z | www.nature.com/commschem

@@ -1,0 +1,156 @@
+standard Lorentz-Berthelot mixing rules. Effective potentials were
+cut and shifted at a cut-off distance of 12 Å. The Lennard-Jones
+parameters for the framework were taken from the DREIDING32
+force ﬁeld for all the atoms except for zirconium, which was taken
+from UFF33 (Table S3 in the ESI). Coulombic interactions were
+calculated with the Ewald summation method with a relative
+precision of 10−6. Partial charges of the framework atoms were
+taken from the previous work7. The full set of charges and
+parameters for the L-J potentials for guests and host is shown in
+Tables S3 and S4 of the Supporting information.
+Simulations were performed in a simulation box of 2×2×2 unit
+cells, using periodic boundary conditions34. The crystal lattice
+was treated as rigid during the Monte Carlo calculations. Heats of
+adsorption and helium void fractions (HVF) were calculated
+using the Widom particle-insertion method35. Pore volumes were
+obtained from the HVF and framework density. Characteristics of
+the tested systems are provided in Table S5 in the ESI. The cal-
+culations of adsorption isotherms were conducted with the Grand
+Canonical Monte Carlo (GCMC) method, with ﬁxed chemical
+potential, volume, and temperature36. The pressure is related to
+the chemical potential by fugacity, using the Peng-Robinson
+equation of state. Absolute adsorption is related to excess
+adsorption
+using
+the
+equation
+from
+Frenkel
+et
+al.36:
+θexcess ¼ θabsolute  pV
+zRT, where p, V, T are the pressure, volume and
+temperature of the system, R is the gas constant, and z is the gas
+compressibility. Each point on the adsorption isotherm was
+computed by running 5·104 initialization cycles and 5·105 pro-
+duction cycles of equally probable trial moves translation, rota-
+tion, swap, and reinsertion. All simulations were performed using
+the RASPA code37,38.
+Quantum-chemical periodic DFT calculations were performed
+using DMol3 code39 using the RPBE40,41 functional with cor-
+rection for dispersion London interactions TS42. The orbitals
+were described using the basis set of DND with DSPP
+pseudopotentials43. The Fermi smearing and the spatial cut-off
+distance were set to 0.005 Ha and 4.5 Å respectively. The opti-
+mization energy convergence was set to 2·10-5 Ha, SCF density
+convergence to 10−5 Ha, and the maximal atom displacement to
+5·10−3 Å. The UiO-66 structure has a large unit cell, so the Γ-
+point sampling of the irreducible part of the ﬁrst Brillouin zone
+(IBZ) and the k-point separation in the reciprocal cell turned out
+to be sufﬁcient. The entropic contributions were calculated using
+classic, harmonic vibrational analysis. Gibbs free energies were
+calculated keeping same temperature as for the IR experiments.
+The Vibrational Analysis was analyzed using the DMol3 software.
+Data availability
+Any relevant data are available from the authors upon reasonable request and in the
+Zenodo repository (10.5281/zenodo.7112787). The cif ﬁles of the structures used during
+the simulations are also available as Supplementary Data ﬁles S1-S5 or from CCDC with
+Deposition Numbers CCDC 2209071-2209075.
+Code availability
+RASPA code is free available from the website https://iraspa.org/raspa/. DMol3 code is
+available from its website.
+Received: 7 June 2022; Accepted: 26 September 2022;
+References
+1.
+Bernreuther, W. & Suzuki, M. The Electric Dipole Moment of the Electron.
+Rev. Mod. Phys. 63, 313–340 (1991).
+2.
+Klessinger, M. Polarity of Covalent Bonds. Angew. Chem., Int. Ed. 9, 500–512
+(1970).
+3.
+Smyth, C. P. Dipole Moments. Ind. Eng. Chem. Res. 23, 1224–1227 (1931).
+4.
+Hummer, G., Garde, S., García, A. E., Paulaitis, M. E. & Pratt, L. R. Hydrophobic
+Effects on a Molecular Scale. J. Phys. Chem. B 102, 10469–10482 (1998).
+5.
+Schwenke, K. D. Charles Tanford: The Hydrophobic Effect: Formation of
+Micelles and Biological Membranes. 200 Seiten, Zahlreiche Abb. Und Tab.,
+John Wiley & Sons, New York, London, Sydney, Toronto 1973. Preis: 7,90 £.
+Food / Nahr. 20, 449–449 (1976).
+6.
+Hamad, S., Balestra, S. R. G., Bueno-Perez, R., Calero, S. & Ruiz-Salvador, A.
+R. Atomic Charges for Modeling Metal-Organic Frameworks: Why and How.
+J. Solid State Chem. 223, 144–151 (2015).
+7.
+Jajko, G. et al. Water Adsorption in Ideal and Defective UiO-66 Structures.
+Microporous Mesoporous Mater. 330, 111555 (2021).
+8.
+Sevillano, J. J. G. et al. Toward a Transferable Set of Charges to Model Zeolitic
+Imidazolate Frameworks: Combined Experimental-Theoretical Research. J.
+Phys. Chem. C 2013, 117 (1). https://doi.org/10.1021/jp3107167.
+9.
+Halasz, I., Kim, S. & Marcus, B. Uncommon Adsorption Isotherm of
+Methanol on a Hydrophobic Y-Zeolite. J. Phys. Chem. B 105, 10788–10796
+(2001).
+10. Halasz, I., Kim, S. & Marcus, B. Hydrophilic and Hydrophobic Adsorption on
+Y Zeolites. Mol. Phys. 100, 3123–3132 (2002).
+11. Kast, W. Principles of Adsorption and Adsorption Processes. Chem. Eng.
+Process 19, 118 (1985).
+12. Akiyama, G. et al. Effect of Functional Groups in MIL-101 on Water Sorption
+Behavior. Microporous Mesoporous Mater. 157, 89–93 (2012).
+13. Wade, C. R., Corrales-Sanchez, T., Narayan, T. C. & Dincǎ, M. Postsynthetic
+Tuning of Hydrophilicity in Pyrazolate MOFs to Modulate Water Adsorption
+Properties. Energy Environ. Sci. 6, 2172–2177 (2013).
+14. Reinsch, H. et al. Structures, Sorption Characteristics, and Nonlinear Optical
+Properties of a New Series of Highly Stable Aluminum MOFs. Chem. Mater.
+25, 17–26 (2013).
+15. Canivet, J. et al. Structure-Property Relationships of Water Adsorption in
+Metal-Organic Frameworks. N. J. Chem. 38, 3102–3111 (2014).
+16. Dissegna, S. et al. Using Water Adsorption Measurements to Access the
+Chemistry of Defects in the Metal-Organic Framework UiO-66.
+CrystEngComm 19, 4137–4141 (2017).
+17. Ni, L. et al. Defect-Engineered UiO-66-NH2 Modiﬁed Thin Film
+Nanocomposite Membrane with Enhanced Nanoﬁltration Performance.
+Chem. Commun. 56, 8372–8375 (2020).
+18. Fu, G. et al. Unexpected Linker-Dependent Brønsted Acidity in the (Zr)UiO-
+66 Metal Organic Framework and Application to Biomass Valorization. Catal.
+Sci. Technol. 10, 4002–4009 (2020).
+19. Huang, Y. et al. Tuning the Wettability of Metal-Organic Frameworks via
+Defect Engineering for Efﬁcient Oil/Water Separation. ACS Appl. Mater.
+Interfaces 12, 34413–34422 (2020).
+20. Gutiérrez-Sevillano, J. J., Martin-Calvo, A., Dubbeldam, D. & Calero, S.
+Modifying the Hydrophobic Nature of MAF-6. Sep. Purif. Technol. 277,
+119422 (2021).
+21. Cavka, J. H. et al. A New Zirconium Inorganic Building Brick Forming Metal
+Organic Frameworks with Exceptional Stability. J. Am. Chem. Soc. 130,
+13850–13851 (2008).
+22. Shearer, G. C. et al. Tuned to Perfection: Ironing out the Defects in Metal-
+Organic Framework UiO-66. Chem. Mater. 26, 4068–4071 (2014).
+23. Ghosh, P., Colón, Y. J. & Snurr, R. Q. Water Adsorption in UiO-66: The
+Importance of Defects. ChemComm 50, 11329–11331 (2014).
+24. Jajko, G., Kozyra, P., Gutiérrez-Sevillano, J. J., Makowski, W. & Calero, S.
+Carbon Dioxide Capture Enhanced by Pre-Adsorption of Water and
+Methanol in UiO-66. Chem. - A Eur. J. 27(59), 14653–14659 (2021).
+25. Wilmer, C. E., Kim, K. C. & Snurr, R. Q. An Extended Charge Equilibration
+Method. J. Phys. Chem. Lett. 3(17), 2506–2511 (2012).
+26. Escribano, R. M., Caro, G. M. M., Cruz-Diaz, G. A., Rodríguez-Lazcano, Y. &
+Maté, B. Crystallization of CO2 Ice and the Absence of Amorphous CO 2 Ice
+in Space. Proc. Natl Acad. Sci. U. S. A. 110(32), 12899–12904 (2013).
+27. Chen, B., Potoff, J. J. & Siepmann, J. I. Monte Carlo Calculations for Alcohols
+and Their Mixtures with Alkanes. Transferable Potentials for Phase Equilibria.
+5. United-Atom Description of Primary, Secondary, and Tertiary Alcohols. J.
+Phys. Chem. B 105, 3093–3104 (2002).
+28. García-Sánchez, A. et al. Transferable Force Field for Carbon Dioxide
+Adsorption in Zeolites. J. Phys. Chem. C. 13, 8814–8820 (2009).
+29. Martín-Calvo, A. et al. Effect of Air Humidity on the Removal of Carbon
+Tetrachloride from Air Using Cu-BTC Metal-Organic Framework. Phys.
+Chem. Chem. Phys. 13, 11165–11174 (2011).
+30. Murthy, C. S., Singer, K., Klein, M. L. & McDonald, I. R. Pairwise Additive
+Effective Potentials for Nitrogen. Mol. Phys. 41, 1387–1399 (1980).
+31. Gutiérrez-Sevillano, J. J., Vicent-Luna, J. M., Dubbeldam, D. & Calero, S.
+Molecular Mechanisms for Adsorption in Cu-BTC Metal Organic Framework.
+J. Phys. Chem. C. 117(21), 11357–11366 (2013).
+ARTICLE
+COMMUNICATIONS CHEMISTRY | https://doi.org/10.1038/s42004-022-00742-z
+8
+COMMUNICATIONS CHEMISTRY |  (2022) 5:120 | https://doi.org/10.1038/s42004-022-00742-z | www.nature.com/commschem

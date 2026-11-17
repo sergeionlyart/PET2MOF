@@ -1,0 +1,57 @@
+{
+  "S113": {
+    "source": "PDF pp4,9 Fig5",
+    "gas": [
+      "CO2",
+      "N2"
+    ],
+    "T_K": 308.15,
+    "pressure": "bar; pure-gas volumetric; absolute not explicitly stated",
+    "basis": "activated adsorbent mass",
+    "RH": "unknown: sample activation is not feed dryness",
+    "u_T": "not stated",
+    "u_exp": "not stated"
+  },
+  "S103": {
+    "source": "PDF pp3,7 Fig2a",
+    "gas": "CO2",
+    "T_K": 300.15,
+    "pressure": "bar; pure-gas volumetric; absolute not explicit",
+    "basis": "activated adsorbent; cm3(STP)/g",
+    "RH": "unknown: vacuum activation not gas dryness",
+    "u_T": "not stated",
+    "u_exp": "not stated",
+    "branches": "closed adsorption; open desorption; panel b simulation excluded",
+    "sampling": "_100/_220 partial visible centers; _160 adsorption one endpoint"
+  },
+  "S102": {
+    "source": "SI PDF p5 FigureS6",
+    "gas": "CO2+H2O",
+    "T_K": "unknown",
+    "pressure": "kPa; total/partial unknown",
+    "basis": "unknown",
+    "RH": "unknown; preadsorbed water loading is not RH",
+    "symbols": "green open diamonds; red dry circles and IAST triangles excluded",
+    "quota": "five resolved diamonds per panel, below eight"
+  },
+  "S117": {
+    "source": "SI PDF p25 FigureS37/S38; methods pp5,6",
+    "gas": "CO2/N2 with water",
+    "T_K": 298,
+    "RH_fraction": 0.74,
+    "flow_cm3_min": 2,
+    "ordinates": "C/C0, not equilibrium q",
+    "abscissa": "mins/cm3; S37B max100, other max125",
+    "capacity": "not recoverable without exact blank, mass and normalisation",
+    "S36": "HKUST-1 outside material scope"
+  },
+  "S2": {
+    "source": "fresh JATS tbl1/tbl2 and §§2.2,2.4,4.5,4.6",
+    "visual_pdf": "not obtained; local S2.pdf waiting page",
+    "table_rows": "all six samples, joined by identity not position",
+    "RH": "dry pure CO2 explicitly §2.4; moist and corrected mixture unknown; N2 porometry unknown",
+    "u_T": "not stated",
+    "u_exp": "<3% lacks coverage; leave unknown",
+    "pressure": "Table2 bar vs text atm, mixture nominal label vs gas flows; cannot resolve as random uncertainty"
+  }
+}

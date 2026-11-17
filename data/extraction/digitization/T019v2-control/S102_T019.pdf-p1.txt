@@ -1,0 +1,18 @@
+S1
+Supplementary Information for:
+Water-bridges Substitute for Defects in
+Amine-functionalized UiO-66, boosting CO2 Adsorption
+Arianjel F. Hernandez, Rebekah K. Impastato, Mohammad I. Hossain, 
+Brooks D. Rabideau,* T. Grant Glover*
+Department of Chemical & Biomolecular Engineering,
+University of South Alabama,
+Mobile, AL 36688
+*authors to whom correspondence should be addressed.
+E-mail: brabideau@southalabama.edu ; glover@southalabama.edu
+Figure S1. A block flow diagram of the volumetric adsorption 
+system. Adapted with permission from Liu et al., Langmuir 2010, 26 
+(17), 14301–14307. https://doi.org/10.1021/la102359q 
+Figure S2. Single component CO2 adsorption isotherm 
+data measured using the multicomponent volumetric 
+system,  and a commercial system (Micromeritics 
+3Flex).

@@ -1,0 +1,42 @@
+ 
+S5 
+Q𝑠𝑡= −𝑅∑𝑎𝑖𝑁𝑖
+𝑚
+𝑖=0
+ 
+IAST selectivity calculations. The selectivity for the adsorbate mixture composition of interest were 
+predicted from the single-component adsorption isotherms using Ideal Adsorbed Solution Theory 
+(IAST).6 First, the single-component isotherms for the adsorbates at 293 K were fitted to the dual-
+site Langmuir-Freundlich equation (Table S1-S3): 
+𝑛(𝑃) = 𝑛𝑚1𝑏1𝑃
+( 1
+𝑡1)
+1 + 𝑏1𝑃
+( 1
+𝑡1) + 𝑛𝑚2𝑏2𝑃
+( 1
+𝑡2)
+1 + 𝑏2𝑃
+( 1
+𝑡2) 
+In this equation, n is the amount adsorbed per mass of material (in mol/kg), P is the total pressure (in 
+kPa) of the bulk gas at equilibrium with the adsorbed phase, nm1 and nm2 are the saturation uptakes 
+(in mol/kg) for sites 1 and 2, b1 and b2 are the affinity coefficients (in kPa–1) for sites 1 and 2, and t1 
+and t2 represent the deviations from the ideal homogeneous surface (unit-less) for sites 1 and 2. The 
+parameters that were obtained from the fitting for all the three compounds are found in Tables S1–
+S3, respectively. The final selectivity for adsorbate i relative to adsorbate j was calculated using the 
+following: 
+𝑆𝑖𝑗
+⁄ = 𝑥𝑖
+𝑥𝑗
+𝑦𝑗
+𝑦𝑖
+ 
+Here, xi and xj are the mole fractions of components i and j, respectively, in the adsorbed phase, and 
+yi and yj are the mole fractions of components i and j, respectively, in the gas phase. 
+Dynamic mixed gas breakthrough studies. In a typical experiment, ca. 0.3 g of pre-activated 
+sample was placed in a quartz tube (Ø = 8 mm) to form a fixed bed held in place using quartz wool. 
+For monolithic samples, individual monoliths were broken and sieved to reduce the particle diameter 
+to ca. 2 mm to ensure good packing within the sample tube. Each sample was heated to 353 K under 
+a dry helium flow to remove atmospheric contaminants. Upon cooling, the chosen gas mixture was 
+passed over the packed bed with a total flow rate of 2 cm3 min-1 at 298 K. The outlet gas concentration 

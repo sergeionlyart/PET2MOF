@@ -1,0 +1,81 @@
+Membranes 2020, 10, 154 
+4 of 18 
+ 
+controlled using a casting knife, such that the resulting membrane thickness can be in the range of 
+50−70 μm. The casting was conducted in a glove bag in an environment filled with chloroform vapor 
+to minimize rapid solvent evaporation, after which the membranes were left undisturbed for 4 to 5 
+h. The membranes were then annealed at 120 °C in a vacuum oven after ensuring that they had 
+peeled off from the glass plate. 
+2.4. Characterization 
+2.4.1. Characterization of Nanocrystalline UiO-66 and Its Derivative 
+A volumetric gas sorption analyzer (iSorbHP1, Quantachrome, Boynton Beach, FL, USA) was 
+used to determine CO2 and N2 adsorption on nanocrystalline UiO-66 and its derivatives. The 
+samples were activated at 120 °C for 1 day to remove the residual solvents. Measurements of gas 
+adsorption isotherms at 25 and 35 °C were conducted at pressures from 0 to 1 bar, during which a 
+water circulator was used to ensure that the measurement environment remained in isothermal 
+conditions. Considering the shape of the adsorption curve, the single-site Langmuir equation 
+(Equation 1) was deemed appropriate to fit the isotherm with a sufficiently high R2 value [46,47]. 
+1
+sat
+q bp
+q
+bp
+
+ 
+(1) 
+In Equation 1, q, qsat, b, and p are the adsorption quantity (mmol/g), saturation loading 
+(mmol/g), Langmuir constant (bar−1), and pressure (bar), respectively. The CO2/N2 selectivity of 
+UiO-66 and its derivative can be calculated using the ideal adsorbed solution theory (IAST) [48], 
+expressed by Equation 2: 
+1
+2
+1
+2
+Selectivity
+x x
+y
+y
+
+ 
+(2) 
+where x1, x2—the mole fraction of the adsorbed phase and y1, y2—the mole fraction of the gas phase. 
+The isosteric heat of adsorption, −Qst for CO2 and N2, was evaluated using the Clausius–Clapeyron 
+equation (Equation 3), with p, T, and q denoting pressure (bar), absolute temperature (K), and 
+amount adsorbed (mmol/g), respectively. An explicit analytical solution for the calculation of −Qst 
+that uses a single-site Langmuir equation has been derived, and it has been observed that −Qst is a 
+weak function of temperature. 
+2
+ln
+st
+q
+P
+Q
+RT
+T
+
+
+
+
+
+
+
+
+
+
+ 
+(3) 
+N2 physisorption isotherm: The porosities of UiO-66 and its derivatives were measured via N2 
+physisorption analysis (77 K), under the conditions specified above, using a volumetric gas sorption 
+analyzer (NOVATouch LX2, Quantachrome, Boynton Beach, FL, USA). 
+Powdered X-ray diffraction (PXRD; Advanced D8, Bruker, Billerica, MA, USA): PXRD was used 
+to verify the crystallinity of the powdered samples. The samples were measured at ambient 
+conditions, with 2θ scanned from 5° to 40° (step size of 0.02°) using a Cu-Kα radiation (1.5148 Å) 
+diffractor. 
+Field-emission scanning electron microscopy (FESEM; JSM6701, JEOL, Akishima, Tokyo, 
+Japan): FESEM was performed to examine the structural morphology of nanocrystalline UiO-66 and 
+its derivatives. The accelerating voltage was set at 5 kV. 
+Fourier-transformed infrared (FTIR) spectroscopy: FTIR was conducted in the range of 
+4000−450 cm−1 (resolution of 4 cm−1) to identify the functional groups of the porous materials 
+(IRPrestige-21, Shimadzu, Kyoto, Japan). 
+Elemental analysis (Vario EL III CHNS Elemental Analyzer, Elementar, Langenselbold, 
+Germany): Elemental analysis was used to determine the elemental composition of nanocrystalline 

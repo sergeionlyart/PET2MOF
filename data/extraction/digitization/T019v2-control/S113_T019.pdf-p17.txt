@@ -1,0 +1,75 @@
+Membranes 2020, 10, 154 
+17 of 18 
+ 
+47. 
+Chuah, C.Y.; Yu, S.; Na, K.; Bae, T.H. Enhanced SF6 recovery by hierarchically structured MFI zeolite. J. 
+Ind. Eng. Chem. 2018, 62, 64–71. 
+48. 
+Myers, A.; Prausnitz, J.M. Thermodynamics of mixed-gas adsorption. AIChE J. 1965, 11, 121–127. 
+49. 
+Li, J.; Musho, T.; Bright, J.; Wu, N. Functionalization of a Metal–organic Framework Semiconductor for 
+Tuned Band Structure and Catalytic Activity. J. Electrochem. Soc. 2019, 166, H3029–H3034. 
+50. 
+Khdhayyer, M.R.; Esposito, E.; Fuoco, A.; Monteleone, M.; Giorno, L.; Jansen, J.C.; Attfield, M.P.; Budd, 
+P.M. Mixed matrix membranes based on UiO-66 MOFs in the polymer of intrinsic microporosity PIM-1. 
+Sep. Purif. Technol. 2017, 173, 304–313. 
+51. 
+Shen, J.; Liu, G.; Huang, K.; Li, Q.; Guan, K.; Li, Y.; Jin, W. UiO-66-polyether block amide mixed matrix 
+membranes for CO2 separation. J. Membr. Sci. 2016, 513, 155–165. 
+52. 
+Rodrigues, M.A.; de Souza Ribeiro, J.; de Souza Costa, E.; de Miranda, J.L.; Ferraz, H.C. Nanostructured 
+membranes containing UiO-66 (Zr) and MIL-101 (Cr) for O2/N2 and CO2/N2 separation. Sep. Purif. Technol. 
+2018, 192, 491–500. 
+53. 
+Jadhav, N.; Kumar, S.N.; Tanvidkar, P.S.; Kuncharam, B.V.R. Synthesis and characterization of 
+mixed-matrix material of Zirconium based metal organic framework (MOF: UiO-66-NH2) and poly 
+(ether-urethane-urea). Mater. Today Proc. 2020, 28, 734–738. 
+54. 
+Han, Y.; Liu, M.; Li, K.; Zuo, Y.; Wei, Y.; Xu, S.; Zhang, G.; Song, C.; Zhang, Z.; Guo, X. Facile synthesis of 
+morphology and size-controlled zirconium metal–organic framework UiO-66: The role of hydrofluoric 
+acid in crystallization. CrystEngComm 2015, 17, 6434–6440. 
+55. 
+Bae, T.H.; Lee, J.S.; Qiu, W.; Koros, W.J.; Jones, C.W.; Nair, S. A high-performance gas-separation 
+membrane containing submicrometer-sized metal–organic framework crystals. Angew. Chem. Int. Ed. 2010, 
+49, 9863–9866. 
+56. 
+Li, J.R.; Kuppler, R.J.; Zhou, H.C. Selective gas adsorption and separation in metal–organic frameworks. 
+Chem. Soc. Rev. 2009, 38, 1477–1504. 
+57. 
+Kim, M.B.; Kim, K.M.; Kim, T.H.; Yoon, T.U.; Kim, E.J.; Kim, J.H.; Bae, Y.S. Highly selective adsorption of 
+SF6 over N2 in a bromine-functionalized zirconium-based metal–organic framework. Chem. Eng. J. 2018, 
+339, 223–229. 
+58. 
+Yang, Y.; Chuah, C.Y.; Bae, T.H. Polyamine-appended porous organic polymers for efficient 
+post-combustion CO2 capture. Chem. Eng. J. 2019, 358, 1227–1234. 
+59. 
+Li, W.; Samarasinghe, S.; Bae, T.H. Enhancing CO2/CH4 separation performance and mechanical strength 
+of mixed-matrix membrane via combined use of graphene oxide and ZIF-8. J. Ind. Eng. Chem. 2018, 67, 
+156–163. 
+60. 
+Goh, P.; Ismail, A.; Sanip, S.; Ng, B.; Aziz, M. Recent advances of inorganic fillers in mixed matrix 
+membrane for gas separation. Sep. Purif. Technol. 2011, 81, 243–264. 
+61. 
+Gong, H.; Nguyen, T.H.; Wang, R.; Bae, T.H. Separations of binary mixtures of CO2/CH4 and CO2/N2 with 
+mixed-matrix membranes containing Zn(pyrz)2(SiF6) metal–organic framework. J. Membr. Sci. 2015, 495, 
+169–175. 
+62. 
+Kim, K.; Ingole, P.G.; Kim, J.; Lee, H. Separation performance of PEBAX/PEI hollow fiber composite 
+membrane for SO2/CO2/N2 mixed gas. Chem. Eng. J. 2013, 233, 242–250. 
+63. 
+Esposito, E.; Clarizia, G.; Bernardo, P.; Jansen, J.C.; Sedláková, Z.; Izák, P.; Curcio, S.; de Cindio, B.; 
+Tasselli, F. Pebax®/PAN hollow fiber membranes for CO2/CH4 separation. Chem. Eng. Process 2015, 94, 
+53–61. 
+64. 
+Sutrisna, P.D.; Hou, J.; Zulkifli, M.Y.; Li, H.; Zhang, Y.; Liang, W.; D’Alessandro, D.M.; Chen, V. Surface 
+functionalized UiO-66/Pebax-based ultrathin composite hollow fiber gas separation membranes. J. Mater. 
+Chem. A 2018, 6, 918–931. 
+65. 
+Prasetya, N.; Donose, B.C.; Ladewig, B.P. A new and highly robust light-responsive Azo-UiO-66 for highly 
+selective and low energy post-combustion CO2 capture and its application in a mixed matrix membrane 
+for CO2/N2 separation. J. Mater. Chem. A 2018, 6, 16390–16402. 
+66. 
+Ghalei, B.; Sakurai, K.; Kinoshita, Y.; Wakimoto, K.; Isfahani, A.P.; Song, Q.; Doitomi, K.; Furukawa, S.; 
+Hirao, H.; Kusuda, H. Enhanced selectivity in mixed matrix membranes for CO2 capture through efficient 
+dispersion of amine-functionalized MOF nanoparticles. Nat. Energy 2017, 2, 17086. 
+ 

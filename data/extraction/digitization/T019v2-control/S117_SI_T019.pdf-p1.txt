@@ -1,0 +1,34 @@
+ 
+S1 
+Supporting information for: 
+Monolithic metal-organic frameworks for carbon dioxide separation 
+David G. Madden,a† Robin Babu,a† Ceren Çamur,a Nakul Rampal,a Joaquin Silvestre-Alberob, Teresa 
+Curtinc and David Fairen-Jimeneza* 
+aAdsorption & Advanced Materials Laboratory (A2ML), Department of Chemical Engineering & 
+Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge, CB3 0AS, United 
+Kingdom 
+bLaboratorio de Materiales Avanzados, Depto. de Química Inorgánica, Universidad de Alicante, E-
+03690, San Vicente del Raspeig, Spain 
+cBernal Institute, Department of Chemical Sciences, University of Limerick, Limerick V94 T9PX, 
+Republic of Ireland 
+†These authors contributed equally 
+*e-mail: David Fairen-Jimenez, df334@cam.ac.uk  
+ 
+Table of Contents 
+Materials & Methodology .......................................................................................................... 2 
+Powder X-Ray Diffraction ......................................................................................................... 7 
+Thermogravimetric Analysis (TGA) .......................................................................................... 8 
+77K N2 Adsorption/Desorption Isotherms ................................................................................. 9 
+Single-Component Gas Adsorption Studies ............................................................................ 16 
+Isosteric Heat of Adsorption (Qst) ............................................................................................ 18 
+Dual-Site Langmuir-Freundlich Fittings .................................................................................. 20 
+Ideal Adsorbed Solution Theory (IAST) Studies ..................................................................... 20 
+CO2 Uptake Kinetics Studies ................................................................................................... 23 
+Dynamic Mixed Gas Breakthrough Studies............................................................................. 24 
+Cyclability Testing ................................................................................................................... 27 
+References ................................................................................................................................ 27 
+ 
+ 
+ 
+Electronic Supplementary Material (ESI) for Faraday Discussions.
+This journal is © The Royal Society of Chemistry 2021

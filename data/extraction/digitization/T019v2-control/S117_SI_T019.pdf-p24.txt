@@ -1,0 +1,12 @@
+ 
+S24
+Dynamic mixed gas breakthrough studies 
+ 
+Figure S33: (A) Gravimetric and (B) volumetric 15% CO2/85% N2 v/v breakthrough studies for 
+powdered HKUST-1 and monoHKUST-1 at 298K (Total flow = 2 cm3 min-1). 
+ 
+Figure S34: (A) Gravimetric and (B) volumetric 15% CO2/85% N2 v/v breakthrough studies for 
+powdered UiO-66 and mono UiO-66 at 298K (Total flow = 2 cm3 min-1). 
+ 
+Figure S35: (A) Gravimetric and (B) volumetric 15% CO2/85% N2 v/v breakthrough studies for 
+powdered UiO-66-NH2 and mono UiO-66-NH2 at 298K (Total flow = 2 cm3 min-1). 

@@ -1,0 +1,30 @@
+[
+  {
+    "series": "S37A-dry-CO2",
+    "controls": 14,
+    "matches": 13,
+    "quota_met": true,
+    "blind": false
+  },
+  {
+    "series": "S37B-dry-CO2",
+    "controls": 10,
+    "matches": 10,
+    "quota_met": true,
+    "blind": false
+  },
+  {
+    "series": "S38A-dry-CO2",
+    "controls": 14,
+    "matches": 13,
+    "quota_met": true,
+    "blind": false
+  },
+  {
+    "series": "S38B-dry-CO2",
+    "controls": 11,
+    "matches": 11,
+    "quota_met": true,
+    "blind": false
+  }
+]

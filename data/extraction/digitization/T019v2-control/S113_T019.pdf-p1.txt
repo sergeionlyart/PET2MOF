@@ -1,0 +1,51 @@
+ 
+Membranes 2020, 10, 154; doi:10.3390/membranes10070154 
+www.mdpi.com/journal/membranes 
+Article 
+CO2/N2 Separation Properties of Polyimide-Based 
+Mixed-Matrix Membranes Comprising UiO-66  
+with Various Functionalities 
+Chong Yang Chuah 1, Junghyun Lee 2, Juha Song 2 and Tae-Hyun Bae 3,* 
+1 Singapore membrane Technology Centre, Nanyang Environment and Water Research Institute,  
+Nanyang Technological University, Singapore 637141, Singapore; chongyang.chuah@ntu.edu.sg 
+2 School of Chemical and Biomedical Engineering, Nanyang Technological University,  
+Singapore 637459, Singapore; junghyun002@e.ntu.edu.sg (J.L.); songjuha@ntu.edu.sg (J.S.) 
+3 Department of Chemical and Biomolecular Engineering, Korea Advanced Institute of Science  
+and Technology, Daejeon 34141, Republic of Korea 
+* Correspondence: thbae@kaist.ac.kr 
+Received: 5 June 2020; Accepted: 16 July 2020; Published: 17 July 2020 
+Abstract: Nanocrystalline UiO-66 and its derivatives (containing -NH2, -Br, -(OH)2) were 
+developed via pre-synthetic functionalization and incorporated into a polyimide membrane to 
+develop a mixed-matrix membrane (MMM) for CO2/N2 separation. Incorporation of the 
+non-functionalized UiO-66 nanocrystals into the polyimide membrane successfully improved CO2 
+permeability, with a slight decrease in CO2/N2 selectivity, owing to its large accessible surface area. 
+The addition of other functional groups further improved the CO2/N2 selectivity of the polymeric 
+membrane, with UiO-66-NH2, UiO-66-Br, and UiO-66-(OH)2 demonstrating improvements of 12%, 
+4%, and 17%, respectively. Further evaluation by solubility–diffusivity analysis revealed that the 
+functionalized UiO-66 in MMMs can effectively increase CO2 diffusivity while suppressing N2 
+sorption, thus, resulting in improved CO2/N2 selectivity. Such results imply that the structural 
+tuning of UiO-66 by the incorporation of various functional groups is an effective strategy to 
+improve the CO2 separation performance of MMMs. 
+Keywords: 
+CO2 
+capture; 
+polyimide; 
+UiO-66; 
+mixed-matrix 
+membrane; 
+pre-synthetic 
+functionalization 
+ 
+1. Introduction 
+Carbon capture, storage, and sequestration (CCS) processes have been heavily researched in 
+recent years as a potentially feasible means to minimize the increase in global CO2 concentration. 
+CO2 capture accounts for 70% of the total cost of a typical CCS process [1–3]. Hence, efficient 
+separation methods are required to remove CO2 for mitigating the impact of its emission into the 
+atmosphere. In comparison with conventional gas separation processes, such as cryogenic 
+distillation, absorption, and adsorption, membrane separation processes offer several competitive 
+advantages, such as a reduced plant footprint and greater energy efficient [4–11]. In particular, 
+polymeric membranes are commonly used in such processes due to their well-established synthesis 
+and ease of commercial availability. However, an inevitable trade-off relationship between 
+permeability and selectivity, as evidenced by the so called Robeson upper bound, has proven to be a 
+major drawback of conventional polymeric membranes [12,13]. Meanwhile, zeolites or 
+metal–organic framework (MOF)-based membranes, which demonstrate high gas selectivity, 

@@ -1,0 +1,12 @@
+ 
+S16
+Single-component gas adsorption studies 
+ 
+Figure S14: (A) 298K and (B) 273K CO2, N2 and CH4 adsorption/desorption                       
+isotherms for monoHKUST-1. 
+ 
+Figure S15: (A) 298K and (B) 273K CO2, N2 and CH4 adsorption/desorption                       
+isotherms for monoUiO-66. 
+ 
+Figure S16: (A) 298K and (B) 273K CO2, N2 and CH4 adsorption/desorption                       
+isotherms for monoUiO-66-NH2. 

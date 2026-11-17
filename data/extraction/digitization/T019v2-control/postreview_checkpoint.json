@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-17T01:41:05.676921+00:00",
+  "note": "Written after reading T019b report. The attempted own-completion checkpoint immediately before that read failed with SyntaxError; tool order and earlier output files show own verification preceded report read. No retrospective claim that failed checkpoint existed.",
+  "blind_checkpoint_hashes_still_match": true,
+  "own_checks_sha256": "9e1b266a303ccbfb168d5f23417abe73842ca45713cce3f7376b94372d479ea1",
+  "independent_findings": [
+    "source shape ghost marker S103-100-desorption point006",
+    "strict blind quota not met for S103-220 adsorption; supplementary dry controls post-disclosure"
+  ],
+  "report_agreement": "T019b correctly leaves original-layout/pressure/conditions/uptake limitations open; no full acceptance claimed"
+}

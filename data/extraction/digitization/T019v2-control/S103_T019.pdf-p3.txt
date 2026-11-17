@@ -1,0 +1,109 @@
+developed to accurately reproduce the adsorption of water in
+UiO-66 frameworks7.
+Nitrogen adsorption isotherms at -196 °C (Fig. S2 in the ESI)
+were performed to determine the textural properties of UiO-66
+samples (Table 2). Then, we calculated the adsorption isotherms
+using Grand Canonical Monte Carlo (GCMC) simulation (Fig. S3
+in the ESI). It was found that nitrogen adsorption strongly
+depends on the presence of defects, but only because of the
+availability of micropore volume. As shown in the Average
+Occupation Proﬁles (AOPs) (Figs. S4 and S5 in the ESI) the
+available places within the defects are ﬁlled at the highest
+pressures. Fig. S4 depicts the adsorption isotherm for the ideal
+structure with three points marked on the ﬁgure. Then, the AOPs
+for the selected pressure are shown. Fig. S5 depicts the AOPs at
+the selected pressure but for all the studied structures (ideal and
+defective). At low pressures, the interactions in the smaller
+tetrahedral cages are much stronger, causing the N2 molecules to
+ﬁll these cavities ﬁrst. Depending on the number of vacancies,
+saturation loading increases proportionally. We found that the
+sorption capacity for the experiment and calculations differs, in
+particular for the comparison of the UiO-66_220 material with
+the lowest number of defects with the ideal UiO-66_0 computa-
+tional structure. This discrepancy may be due to the fact that
+small amount of contaminants may still be present in the pores of
+the UiO-66_220 sample, even after activation, e.g. unwashed
+linker residues which occupies the space in the pores and thus
+reduce the adsorption capacity. Still, even if the absolute values do
+not match, the trend observed in the experiments is correctly
+reﬂected by the simulations.
+Carbon dioxide also has a nonzero quadrupole moment, but its
+adsorption mechanism differs signiﬁcantly from that observed for
+nitrogen. At ﬁrst sight, the presence of low number of defects
+does not affect the shape of the adsorption isotherm, both in
+experiments and in simulations in the range 0–1 bar (Fig. 2) for
+the low number of defects and only from 5 to 20 bars, small
+differences are noticeable for 8 defects (Fig. S6). However, for the
+structure with 32 defects the changes are remarkable (Fig. S6) in
+the whole pressure range studied. Figure 2 shows a good
+agreement between simulation and experiment, which allows to
+obtain information about the adsorption of CO2 molecules in the
+UiO-66 framework.
+The pore-ﬁlling mechanism is shown in the AOPs (Figs. S7 and
+S8 in the ESI). The molecules of carbon dioxide are mostly
+adsorbed near the organic linkers, avoiding the metal clusters
+containing -OH groups (which are the preferential adsorption
+sites
+for
+water
+molecules24).
+Additional
+-OH
+groups
+are
+introduced into the structure together with the missing linker
+defects, but their presence does not affect the adsorption
+isotherms of carbon dioxide. Despite the increasing available
+micropore volume, interactions with hydroxyl groups are so
+unfavorable that carbon dioxide molecules only ﬁll these
+adsorption sites at very high pressures.
+We selected methanol as a representative of a polar molecule to
+evaluate whether the adsorption mechanism for this molecule is
+similar to that of the water molecules7. In this case, we also found
+that defective structures adsorb methanol at signiﬁcantly lower
+pressures and that the saturation loading is higher (Fig. 3a). The
+adsorption mechanism was found to be predictable. Most of the
+uptake takes place on the hydroxyl groups present on the metal
+clusters and on the created defects, which induces stronger and
+higher adsorption.
+Since in polar methanol molecule electrostatic interactions are
+important, the set of charges used for our model of UiO-66 have
+to be veriﬁed to ensure they can accurately predict the adsorption
+mechanism. For this purpose, we calculated the adsorption
+isotherms with our recent developed set of charges7 and with
+charges derived from EQeq charge method (used in our previous
+works25). Figs. S9 and S10 in the ESI show that our set of charges
+leads to a better description of the experimental isotherm.
+Monte Carlo simulations show that the inﬂuence of defects is
+noticeable (Fig. 3b) – with increased number of missing linkers
+the adsorption steep shifts from ca. 0.15 to 0.01 p/p0, and the
+adsorption capacity increases from 218 to 268 cm3 STP/g. This
+adsorption mechanism is shown on Average Occupation Proﬁles
+in Figs. S11 and S12 of the ESI. The additional -OH groups
+positioned in of defects attract the methanol molecules already at
+low pressure. This behavior is most pronounced in the structure
+with 32 defects. In that case, the adsorption occurs already at a
+relative pressure of 0.01, resulting in almost instant ﬁlling of the
+voids formed after removal of the organic linkers.
+The adsorption of ethanol is similar to that of methanol
+(Fig. 4a). As the number of structural defects increases, the
+Table 2 Structural properties of the UiO-66 samples.
+UiO-66_220
+UiO-66_160
+UiO-66_100
+PV/cm3·g−1
+0.315
+0.410
+0.444
+BET/m2·g−1
+980
+1260
+1438
+Micropore volume (PV) and surface area (BET) determined from N2 adsorption isotherms
+measures at −196 °C.
+Fig. 2 Adsorption isotherms for carbon dioxide in UiO-66. a From experiment, b from calculations, measured/computed at 27 °C. Closed symbols stand
+for adsorption, open for desorption.
+COMMUNICATIONS CHEMISTRY | https://doi.org/10.1038/s42004-022-00742-z
+ARTICLE
+COMMUNICATIONS CHEMISTRY |  (2022) 5:120 | https://doi.org/10.1038/s42004-022-00742-z | www.nature.com/commschem
+3

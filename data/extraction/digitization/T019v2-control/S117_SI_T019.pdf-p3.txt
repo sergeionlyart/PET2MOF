@@ -1,0 +1,27 @@
+ 
+S3 
+mixed and suspended in 20 mL DMF followed by stirring and sonication for 10 minutes. Ethanol (20 
+mL) was added to this suspension followed by additional stirring and sonication. Finally, deionised 
+water (20 mL) was added to the suspension and the mixture was stirred and sonicated for 30 minutes 
+to allow for complete dissolution of all components. The mixture was heated at 85 ˚C for 24 hours, 
+whereupon blue crystals were obtained, separated via filtration, washed and immersed in methanol. 
+The methanol solvent was exchanged twice a day for three days. Final materials were activated by 
+heating to 180 °C under vacuum overnight. 
+UiO-66 Synthesis. UiO-66 was synthesized following previously published procedure.4 It was 
+synthesized by dissolving ZrCl4 (0.053 g, 0.227 mmol) and H2BDC (0.034g, 0.227 mmol) in DMF 
+(24.9 g, 340 mmol) at room temperature. The thus obtained mixture was sealed in a Teflon vessel and 
+placed in a pre‐heated oven at 120 ˚C for 24 hours. Crystallization was carried out under static 
+conditions. After cooling in air to room temperature the resulting solid was filtered, washed 3x times 
+with DMF and dried at room temperature. The obtained UiO-66 was soaked in acetonitrile and the 
+solvent was exchanged twice a day for three days before the UiO-66 sample was used for sorption 
+experiments. Final materials were activated by heating to 150 °C under vacuum overnight. 
+UiO-66-NH2 Synthesis. UiO-66-NH2 was synthesized following previously published procedure.5 A 
+standard upscaled synthesis of UiO-66-NH2 was performed by dissolving ZrCl4 (1.50 g, 6.4 mmol) 
+and H2N-H2BDC (1.56 g, 6.4 mmol) in DMF (180 mL) at room temperature in a volumetric flask. 
+The resulting mixture was placed in a preheated oven at 80 °C for 12 h and then held at 100 °C for 
+24 h. After the solution was cooled to room temperature in air, the resulting solid was filtered and 
+repeatedly washed with absolute ethanol for 3 days while heated at 60 °C in a water bath. The 
+resulting yellow powder was filtered, transferred to a Schlenk flask, and dried under vacuum at 
+ambient temperature. Final materials were activated by heating to 150 °C under vacuum overnight. 
+Powder X-ray diffraction (PXRD) patterns were recorded with a Bruker D8 diffractometer at 40 
+kV and 40 mA using CuKα1 (λ = 1.5405 Å) radiation with a step of 0.02° at a scanning speed of 8 s 

@@ -1,0 +1,13 @@
+ 
+S22
+ 
+Figure S27: IAST predicted uptakes for (A) 15% CO2/85% N2 and (B) 50% CO2/50% CH4 v/v gas 
+mixtures for monoHKUST-1 at 298K with breakthrough results for comparison. 
+ 
+Figure S28: IAST predicted uptakes for (A) 15% CO2/85% N2 and (B) 50% CO2/50% CH4 v/v gas 
+mixtures for monoUiO-66 at 298K with breakthrough results for comparison. 
+ 
+Figure S29: IAST predicted uptakes for (A) 15% CO2/85% N2 and (B) 50% CO2/50% CH4 v/v gas 
+mixtures for monoUiO-66-NH2 at 298K with breakthrough results for comparison. 
+ 
+ 

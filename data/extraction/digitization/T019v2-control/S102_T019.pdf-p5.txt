@@ -1,0 +1,7 @@
+S5
+b
+a
+c
+Figure S6.  IAST versus experimental binary adsorption data for 
+CO2/H2O on UiO-66-NH2 for water loadings of (a) 2.05 mol/kg (b) 
+3.03 mol/kg, and (c) 4.10 mol/kg.  Lines are a guide for the eye.

@@ -1,0 +1,28 @@
+Membranes 2020, 10, 154 
+8 of 18 
+ 
+ 
+Figure 4. FESEM images of (a) UiO-66; (b) UiO-66-NH2; (c) UiO-66-Br; (d) UiO-66-(OH)2. 
+3.2. CO2 and N2 Adsorption by UiO-66 and Its Derivatives 
+The properties of UiO-66 and its derivatives were further characterized by the measurement of 
+CO2 and N2 adsorption at 35 °C, with the results summarized in Figure 5. The CO2 and N2 adsorption 
+isotherms at 25 °C were also acquired and are summarized in Figure S2a and Figure S2b. The fitting 
+parameters for CO2 and N2 adsorption are summarized in Table S3 (25 oC) and Table S4 (35 oC) 
+respectively. In general, UiO-66 and all of its derivatives proved to be able to preferentially adsorb 
+CO2 relative to N2, consistent with the fact that the former gas possesses a higher quadrupole 
+moment (4.3 × 10−26 esu cm2 vs. 1.5 × 10−26 esu cm2) and polarizability (29.11 × 10−25 cm3 vs. 17.4 × 10−25 
+cm3) [56]. The presence of zirconium at the metal sites and the functional groups in the ligands 
+(-NH2, -Br, -(OH)2) both promoted favorable interaction with CO2. Notably, UiO-66-NH2 and 
+UiO-66-Br showed a clear enhancement of CO2 adsorption capability relative to UiO-66, even though 
+they possessed a smaller surface area. The adsorption capability was poorly correlated with the 
+accessible surface areas, possibly because none of the samples had reached CO2 adsorption 
+saturation at 1 bar. In contrast, although UiO-66-(OH)2 showed reasonably high CO2 adsorption at 
+low partial pressure, due to its low surface area (318 m2/g) relative to the other samples, the slope of 
+the isotherm indicated a faster equilibrium saturation of CO2 adsorption than for the other 
+adsorbents [51,57]. Nevertheless, in terms of the applicability for CO2 adsorption in the field of 
+post-combustion CO2 capture, which is conducted at low partial pressure of CO2 [58], UiO-66-NH2, 
+UiO-66-Br, and UiO-66-(OH)2 each demonstrated better CO2 adsorption performance than UiO-66. 
+Each of these observations are supported by the higher isosteric heat of adsorption of CO2 on the 
+functionalized adsorbents (Figure S2c) together with higher IAST CO2/N2 selectivity (Figure S2d), 
+which indicates that the use of ligands with any of the various functional groups in this work is a 
+feasible strategy to improve the CO2 adsorption performance compared with UiO-66. 
