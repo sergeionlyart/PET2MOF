@@ -1,0 +1,13 @@
+{
+  "commit_sha": "e6dc3bd5550fb8d4092e2df6bd12afe9f7aaccfd",
+  "conditions_sha256": "1e6c89cf3d202feb5faf6b617f54d3853822ebdd85603a8a23b8d3ecfa400e5f",
+  "parameters_sha256": "ebb0b7010e77ebaa15908ed626ba7321de0389718b3b30cfb5807cd7c57cdad0",
+  "prediction_sha256": "a189a916ded2ceb3c32869787c54eec6e2f46753d81ea3c6af78cb3b333e9fc1",
+  "derivatives_sha256": "22e5774d15b4a8688afd39b918330ff046d93da7df76b4053044a1f221fd0f2c",
+  "uncertainty_method": "joint parametric correlated extraction-error refits; equal-weight draws; 2.5/97.5 percentiles; covariance fixed from C CSV bounds/sqrt(3), half variance shared by whole isotherm",
+  "calibration_draws": 64,
+  "prediction_center": "median of joint calibration predictions; derivatives of the same median operator",
+  "numerical_error": "64*machine_epsilon*max(1,capacity,interval endpoints); analytical pure gas operators",
+  "S2": "D-11: S105 NH2 host, retained loading/Mw input only, S100 PEI parameters without refitting; moist/unknown basis untestable",
+  "status": "frozen_prediction"
+}

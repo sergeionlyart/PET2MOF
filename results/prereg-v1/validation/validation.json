@@ -1,0 +1,421 @@
+{
+  "commit_sha": "e6dc3bd5550fb8d4092e2df6bd12afe9f7aaccfd",
+  "series": [
+    {
+      "series": "S113-Fig5a-UiO66",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S113-Fig5b-UiO66",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S103-Fig2a-UiO66_100-adsorption",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S103-Fig2a-UiO66_100-desorption",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S103-Fig2a-UiO66_160-adsorption",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S103-Fig2a-UiO66_160-desorption",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S103-Fig2a-UiO66_220-adsorption",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S103-Fig2a-UiO66_220-desorption",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S102-FigS6a-binary",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S102-FigS6b-binary",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S102-FigS6c-binary",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S2-Table2-dry",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S2-Table2-dry-ratio",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S2-Table2-corrected-secondary",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "B1/v1.1-connectivity/composite",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "B1/v1.1-connectivity/ratio",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "B1/v1.1-mof/composite",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "B1/v1.1-mof/ratio",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "B1/v1/composite",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "B1/v1/ratio",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "M1/v1.1-connectivity/composite",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "M1/v1.1-connectivity/ratio",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "M1/v1.1-mof/composite",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "M1/v1.1-mof/ratio",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "M1/v1/composite",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table1-Vp-ratio",
+      "model": "M1/v1/ratio",
+      "status": "not_testable",
+      "reason": "frozen predictions missing",
+      "prediction_reasons": [
+        "unknown RH_fraction"
+      ]
+    },
+    {
+      "series": "S2-Table2-moist-qualitative",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S117-FigS37A-wet-capacity-unavailable",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S117-FigS37B-wet-capacity-unavailable",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S117-FigS38A-wet-capacity-unavailable",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    },
+    {
+      "series": "S117-FigS38B-wet-capacity-unavailable",
+      "status": "not_testable",
+      "reason": "incomparable observable or unknown mandatory inputs"
+    }
+  ],
+  "rank_comparison": "requires independent joint pair intervals; not inferred from adjacent points",
+  "S2_attribution": "bare-host failure -> carrier; porosity trend failure -> placement; capacity failure after both pass -> chemistry",
+  "water_split": "reviewer uses accepted D-14 split; do not count calibrated S106 as independent V",
+  "comparison_groups": {
+    "full": [],
+    "conditional": [],
+    "not_testable": [
+      {
+        "series": "S113-Fig5a-UiO66",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S113-Fig5b-UiO66",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S103-Fig2a-UiO66_100-adsorption",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S103-Fig2a-UiO66_100-desorption",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S103-Fig2a-UiO66_160-adsorption",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S103-Fig2a-UiO66_160-desorption",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S103-Fig2a-UiO66_220-adsorption",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S103-Fig2a-UiO66_220-desorption",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S102-FigS6a-binary",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S102-FigS6b-binary",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S102-FigS6c-binary",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S2-Table2-dry",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S2-Table2-dry-ratio",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S2-Table2-corrected-secondary",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "B1/v1.1-connectivity/composite",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "B1/v1.1-connectivity/ratio",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "B1/v1.1-mof/composite",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "B1/v1.1-mof/ratio",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "B1/v1/composite",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "B1/v1/ratio",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "M1/v1.1-connectivity/composite",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "M1/v1.1-connectivity/ratio",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "M1/v1.1-mof/composite",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "M1/v1.1-mof/ratio",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "M1/v1/composite",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table1-Vp-ratio",
+        "model": "M1/v1/ratio",
+        "status": "not_testable",
+        "reason": "frozen predictions missing",
+        "prediction_reasons": [
+          "unknown RH_fraction"
+        ]
+      },
+      {
+        "series": "S2-Table2-moist-qualitative",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S117-FigS37A-wet-capacity-unavailable",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S117-FigS37B-wet-capacity-unavailable",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S117-FigS38A-wet-capacity-unavailable",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      },
+      {
+        "series": "S117-FigS38B-wet-capacity-unavailable",
+        "status": "not_testable",
+        "reason": "incomparable observable or unknown mandatory inputs"
+      }
+    ]
+  },
+  "full_verdict_available": false
+}

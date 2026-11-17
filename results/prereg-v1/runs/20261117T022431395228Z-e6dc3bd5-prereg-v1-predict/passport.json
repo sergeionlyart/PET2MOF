@@ -1,0 +1,68 @@
+{
+  "run_id": "20261117T022431395228Z-e6dc3bd5-prereg-v1-predict",
+  "purpose": "Frozen predictions on holdout/v1 conditions (passported re-run; must reproduce freeze.json hashes)",
+  "hypothesis": "conditional forecast; no observations read",
+  "commit_sha": "e6dc3bd5550fb8d4092e2df6bd12afe9f7aaccfd",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [
+    {
+      "path": "holdout/v1/conditions.csv",
+      "sha256": "1e6c89cf3d202feb5faf6b617f54d3853822ebdd85603a8a23b8d3ecfa400e5f"
+    },
+    {
+      "path": "configs/frozen_parameters.yaml",
+      "sha256": "ebb0b7010e77ebaa15908ed626ba7321de0389718b3b30cfb5807cd7c57cdad0"
+    }
+  ],
+  "parameters": {},
+  "seed": null,
+  "command": [
+    "uv",
+    "run",
+    "--locked",
+    "--no-sync",
+    "python",
+    "scripts/predict_holdout.py"
+  ],
+  "started_utc": "2026-11-17T02:24:31.395228+00:00",
+  "finished_utc": "2026-11-17T02:24:33.565444+00:00",
+  "status": "completed",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 2.152178999996977,
+    "child_user_seconds": 1.075703,
+    "child_system_seconds": 0.254941,
+    "child_maxrss": 140656640,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [
+    {
+      "path": "holdout/v1/predictions.csv",
+      "sha256": "a189a916ded2ceb3c32869787c54eec6e2f46753d81ea3c6af78cb3b333e9fc1"
+    },
+    {
+      "path": "holdout/v1/model_derivatives.csv",
+      "sha256": "22e5774d15b4a8688afd39b918330ff046d93da7df76b4053044a1f221fd0f2c"
+    },
+    {
+      "path": "holdout/v1/prediction_metadata.json",
+      "sha256": "cee52b5d38387b6a48e020515fb4f85b31c2b665438eee7d9b68a4e6e3b3369b"
+    }
+  ],
+  "checks": [],
+  "limitations": [],
+  "execution_status": "completed"
+}
