@@ -12,13 +12,17 @@ def actual(thread_id: str) -> dict:
     files = sorted(root.rglob(f"rollout-*-{thread_id}.jsonl"))
     if not files:
         return {"rollout_found": False}
-    out = {"rollout_found": True, "turns": []}
+    out = {"rollout_found": True, "turns": [], "agent_tool_calls": 0}
     for line in files[-1].open(encoding="utf-8"):
         try:
             o = json.loads(line)
         except json.JSONDecodeError:
             continue
         p = o.get("payload", {}) or {}
+        # Collaboration tools (spawn_agent, wait_agent, ...): a call means delegated, unrecorded work.
+        if (o.get("type") == "response_item" and p.get("type") in ("function_call", "custom_tool_call")
+                and "agent" in (p.get("name") or "")):
+            out["agent_tool_calls"] += 1
         if o.get("type") == "session_meta":
             out["cli_version"] = p.get("cli_version")
             out["originator"] = p.get("originator")

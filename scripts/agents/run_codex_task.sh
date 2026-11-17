@@ -3,7 +3,9 @@
 #
 # Usage:
 #   scripts/agents/run_codex_task.sh TASK_ID MODEL EFFORT SANDBOX NETWORK PROMPT_FILE [WORKDIR]
-#     MODEL    gpt-6-astra | gpt-6.1-sol | gpt-6.1-terra
+#     MODEL    gpt-6.2-astra | gpt-6.2-sol | gpt-6.1-terra   (docs/model_policy.md)
+#              legacy gpt-6-astra | gpt-6.1-sol only with PET2MOF_ALLOW_LEGACY_MODEL=1
+#              (re-running or comparing historical cards)
 #     EFFORT   low | medium | high | xhigh | max   ("ultra" is refused: it auto-delegates,
 #              so the model/settings actually used become unrecordable)
 #     SANDBOX  workspace-write | read-only
@@ -15,6 +17,11 @@
 #     is NOT loaded; every setting is passed explicitly here.
 #   * The codex process is started with `env -i` (only HOME, PATH, LANG, TERM) and
 #     shell_environment_policy.inherit=core, so no project secrets reach tool processes.
+#   * Subagents: Codex 0.166 offers collaboration tools (spawn_agent, ...) to GPT-6.x in code mode
+#     even without "ultra", and neither `features.multi_agent=false` nor `--disable multi_agent`
+#     removes them (checked 2026-11-17, T060). They cannot be switched off here, so every run
+#     records `actual.agent_tool_calls` from the rollout; a value > 0 makes the run unrecordable
+#     and the launcher exits 4. Cards also forbid subagents explicitly.
 #   * The worktree is created from a commit: untracked files such as .env are never present.
 #   * LIMITATION: the macOS seatbelt sandbox restricts writes, not reads, of the same user.
 #     It is NOT a hard boundary for files readable by this user. Recorded in docs/security.md.
@@ -24,7 +31,12 @@ TASK_ID=${1:?task id}; MODEL=${2:?model}; EFFORT=${3:?effort}
 SANDBOX=${4:?sandbox}; NETWORK=${5:?network}; PROMPT_FILE=${6:?prompt file}
 WORKDIR=${7:-}
 
-case "$MODEL" in gpt-6-astra|gpt-6.1-sol|gpt-6.1-terra) ;; *) echo "model not allowed: $MODEL" >&2; exit 2;; esac
+case "$MODEL" in
+  gpt-6.2-astra|gpt-6.2-sol|gpt-6.1-terra) ;;
+  gpt-6-astra|gpt-6.1-sol)
+    [[ "${PET2MOF_ALLOW_LEGACY_MODEL:-0}" == 1 ]] || { echo "legacy model $MODEL needs PET2MOF_ALLOW_LEGACY_MODEL=1" >&2; exit 2; } ;;
+  *) echo "model not allowed: $MODEL" >&2; exit 2;;
+esac
 case "$EFFORT" in low|medium|high|xhigh|max) ;; *) echo "effort not allowed: $EFFORT" >&2; exit 2;; esac
 case "$SANDBOX" in workspace-write|read-only) ;; *) echo "sandbox not allowed: $SANDBOX" >&2; exit 2;; esac
 case "$NETWORK" in on|off) ;; *) echo "network must be on|off" >&2; exit 2;; esac
@@ -48,10 +60,16 @@ fi
 
 STAMP=$(date -u +%Y%m%dT%H%M%SZ)
 META="$LOGDIR/$TASK_ID.$STAMP.meta.json"
+# The executor receives the project preamble + the card prompt; the exact bytes sent are kept.
+PREAMBLE="$REPO/scripts/agents/prompt_preamble.md"
+SENT="$LOGDIR/$TASK_ID.$STAMP.prompt.md"
+cat "$PREAMBLE" "$PROMPT_ABS" > "$SENT"
 cat > "$META" <<EOF
 {"task_id":"$TASK_ID","requested_model":"$MODEL","requested_effort":"$EFFORT",
  "sandbox":"$SANDBOX","network":"$NETWORK","workdir":"$WORKDIR",
  "prompt_sha256":"$(shasum -a 256 "$PROMPT_ABS" | cut -d' ' -f1)",
+ "preamble_sha256":"$(shasum -a 256 "$PREAMBLE" | cut -d' ' -f1)",
+ "sent_prompt_sha256":"$(shasum -a 256 "$SENT" | cut -d' ' -f1)",
  "codex_version":"$(codex --version 2>/dev/null)","started_utc":"$STAMP"}
 EOF
 
@@ -64,7 +82,7 @@ env -i HOME="$HOME" PATH="$PATH" LANG="${LANG:-en_US.UTF-8}" TERM=dumb \
     "${NET_ARGS[@]}" \
     -C "$WORKDIR" --json \
     -o "$LOGDIR/$TASK_ID.$STAMP.last.md" \
-    - < "$PROMPT_ABS" > "$LOGDIR/$TASK_ID.$STAMP.events.jsonl" 2> "$LOGDIR/$TASK_ID.$STAMP.stderr.log"
+    - < "$SENT" > "$LOGDIR/$TASK_ID.$STAMP.events.jsonl" 2> "$LOGDIR/$TASK_ID.$STAMP.stderr.log"
 RC=$?
 set -e
 USAGE=$(grep '"turn.completed"' "$LOGDIR/$TASK_ID.$STAMP.events.jsonl" | tail -1 | sed -E 's/.*"usage":(\{[^}]*\}).*/\1/')
@@ -72,5 +90,10 @@ USAGE=$(grep '"turn.completed"' "$LOGDIR/$TASK_ID.$STAMP.events.jsonl" | tail -1
 THREAD=$(grep -o '"thread_id":"[^"]*"' "$LOGDIR/$TASK_ID.$STAMP.events.jsonl" | head -1 | cut -d'"' -f4)
 ACTUAL=$(python3 "$REPO/scripts/agents/actual_settings.py" "$THREAD" 2>/dev/null || echo null)
 echo "{\"task_id\":\"$TASK_ID\",\"exit_code\":$RC,\"thread_id\":\"$THREAD\",\"usage\":$USAGE,\"finished_utc\":\"$(date -u +%Y%m%dT%H%M%SZ)\",\"actual\":$ACTUAL}" > "$LOGDIR/$TASK_ID.$STAMP.exit.json"
+AGENT_CALLS=$(python3 -c 'import json,sys; print((json.loads(sys.argv[1]) or {}).get("agent_tool_calls", "null"))' "$ACTUAL" 2>/dev/null || echo null)
+if [[ "$AGENT_CALLS" != 0 && "$AGENT_CALLS" != null ]]; then
+  echo "refusing to accept: $AGENT_CALLS subagent tool call(s) in rollout (settings untraceable)" >&2
+  [[ $RC == 0 ]] && RC=4
+fi
 echo "task=$TASK_ID rc=$RC workdir=$WORKDIR log=$LOGDIR/$TASK_ID.$STAMP.*"
 exit $RC
