@@ -1,0 +1,647 @@
+{
+  "run_id": "20261116T225607148074Z-84f6a226-T013-demo",
+  "purpose": "C control reproduction",
+  "hypothesis": "debug only; no validation or hypothesis verdict",
+  "commit_sha": "84f6a226daf51d6825f77b741d619e3b46c528b1",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [
+    {
+      "path": "configs/calibration.yaml",
+      "sha256": "4b8dfc12e969ac949b1e09c13b7f61d051c1aab1d726bf6d200a60ccb1bc2acf"
+    },
+    {
+      "path": "configs/scenarios.yaml",
+      "sha256": "a886d7ef1251f14230e4de1572595cc3ed69201eef69e258647377ed783100a1"
+    },
+    {
+      "path": "configs/constants.yaml",
+      "sha256": "3b41c1a5f1b59489594158b9ac2c5e3f8382f5539bb5cfec8a0261d9c4b1eb87"
+    },
+    {
+      "path": "configs/demo_expected.yaml",
+      "sha256": "23e32718abb3098d6a04e9aaba154afbddc3a60a8b3c3d6654d00b7862dc1c7f"
+    },
+    {
+      "path": "data/extraction/digitization/T006-S100-FigS5.csv",
+      "sha256": "99a4eda0dbacd43a188161fafbc56c3983e2a53013fffa27c6cb054559a4b23c"
+    },
+    {
+      "path": "data/extraction/digitization/T006-S100-FigS5.digitization.yaml",
+      "sha256": "ea986128d2f1ebbb572fac809f9308feb004db2a94b0602fbb6c9fc20a1e9c28"
+    },
+    {
+      "path": "docs/model_spec.md",
+      "sha256": "c12fecb2d8c596783b4ed837e6f89474ab8aaa6f19f4ea164c4085ba3222de6e"
+    },
+    {
+      "path": "docs/parameters.md",
+      "sha256": "0af12415d8a85ea2bd18bf736e4f7ec5c75d207f1d8ac9d16b9aff83ab7f6003"
+    },
+    {
+      "path": "docs/validation_protocol.md",
+      "sha256": "be59a2ce54be1616e533f3474092321fa9172085aa9c5e5ca347879c3d0a7057"
+    },
+    {
+      "path": "docs/decisions.md",
+      "sha256": "209d154e7098fc31ca827f41373ea6436088ba3e8439795c947f6dd1617ad7e6"
+    },
+    {
+      "path": "docs/data_split.md",
+      "sha256": "78b7924894a043d124f0e4bf4470b1b1484874cc0f5c6c3ac8947460d2f516f7"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f8cf628e6fe5daecb47ef031177a2544f9c8e9f7b373ada6f610f9604aa19144"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "31723d3593017029129b76b55d9d71a9ed9f0bf549da38c6819273ef4d7ef1c7"
+    },
+    {
+      "path": "Makefile",
+      "sha256": "eaf1f5df606908125af2d0af25dbad828d166ff312098ce184fe7e71f319af64"
+    },
+    {
+      "path": "src/pet2mof/units.py",
+      "sha256": "c17df897fde42636bb124659a37aa4b848a681c83a1d9e1653de5635e84fcd12"
+    },
+    {
+      "path": "src/pet2mof/runs.py",
+      "sha256": "78aa86b28e5ea8267f29b13f61a4ff365b96a8370254c46700de7118f004ec9f"
+    },
+    {
+      "path": "src/pet2mof/data/nist_isodb.py",
+      "sha256": "688a4ae4fb93de0ee6f12b57c5bd4850a84e9b85170c54dc81c0a6f6e376eed9"
+    },
+    {
+      "path": "src/pet2mof/model/__init__.py",
+      "sha256": "30a56288d3ecb442c93215933afe12baabe8bdc849982ebbd6f19e098e0a66f4"
+    },
+    {
+      "path": "src/pet2mof/model/amines.py",
+      "sha256": "8ad759a568859ddd2ea0bb72dfb8e9dfe08afdc0a9c8e500c253554ff97201dd"
+    },
+    {
+      "path": "src/pet2mof/model/baseline.py",
+      "sha256": "d7de4666ee6e5cb3c13bfd2d7abecd67e9337d45f71d74f18ab5ddaa233e16b9"
+    },
+    {
+      "path": "src/pet2mof/model/config.py",
+      "sha256": "b5d317ccb7638ef9ec6f42f0a8389996f4a4e212f3039706b0343d7b28d797f4"
+    },
+    {
+      "path": "src/pet2mof/model/cycle.py",
+      "sha256": "50fbb2a3d9ca346b8331a18547472df98061e4f6208c16c91c3e5c3b0e8384aa"
+    },
+    {
+      "path": "src/pet2mof/model/gas.py",
+      "sha256": "cedd1e1b45ebb32faa137ad9042831f87ed2f3b4d5497dc9f30b91606c6e85c9"
+    },
+    {
+      "path": "src/pet2mof/model/isotherms.py",
+      "sha256": "be58f08132e5fcad928126fceb057f3fde2dc0a52f74e1801d0d7311e05baba1"
+    },
+    {
+      "path": "src/pet2mof/model/pores.py",
+      "sha256": "37f396f5eaf7d029269d1a74743b63e75b86d784bcdf170c169a9d747917990d"
+    },
+    {
+      "path": "src/pet2mof/calibration/__init__.py",
+      "sha256": "0967c955af8fa66042904fce05df39723f264a44ef1ab8a92eadd14a1c1a3d73"
+    },
+    {
+      "path": "src/pet2mof/calibration/demo.py",
+      "sha256": "ce80237e47b012f173d781de33ad5d715636d9749b3cd8c9b4830cc104f11804"
+    },
+    {
+      "path": "src/pet2mof/calibration/fit.py",
+      "sha256": "7c5d4670c77594238e0be4bb118c616187e153f2a0c28302e33fea24c9d13e11"
+    },
+    {
+      "path": "src/pet2mof/calibration/metrics.py",
+      "sha256": "9ee99897f83b13ceeaeb547c0ed80b493cd8422355b029596cf9d20ab354d0d2"
+    },
+    {
+      "path": "src/pet2mof/calibration/screening.py",
+      "sha256": "21c02d2cff2abe9b7910403014195560a30913abe2ff1d1f9ad6d67830d7e68a"
+    },
+    {
+      "path": "scripts/run.py",
+      "sha256": "9635f9970cfa406ae4445ffe978c6bfa9ffda723cd8d1c1dd0689c453f801314"
+    },
+    {
+      "path": "scripts/demo.py",
+      "sha256": "87189a6ace4638668d9f7ef25b743fd7e002337092b86e8b6bad30e5f2cfafce"
+    },
+    {
+      "path": "scripts/model_run.py",
+      "sha256": "b4a45c49778fe62fe067f24a08863a99f4c443786dad28c4c3443c4e90b9868c"
+    },
+    {
+      "path": "scripts/model_report.py",
+      "sha256": "6bc426b7568f256ef9f0a2bfff0c7714ca9f2d831fbdb3a9d8bb54298400c6d1"
+    },
+    {
+      "path": "scripts/screen.py",
+      "sha256": "011ac2da45e21d79850b1d8397fd21e1716b3680f05eb6183a32bdd87fd0436a"
+    },
+    {
+      "path": "scripts/calibrate.py",
+      "sha256": "9489bf22fc2b955770ad6470bd4c53ce0e99f497d856c13299112937aee93b31"
+    },
+    {
+      "path": "scripts/validate.py",
+      "sha256": "931f64225a18ea08823864c9ad05f6c06d88a95c9d7e5354a63395a18cade5c1"
+    },
+    {
+      "path": "tests/test_model_calibration.py",
+      "sha256": "d44a743402fd387e13a4009c7e965b737d108374a40dc44ae836bcf3d4a589b5"
+    },
+    {
+      "path": "tests/test_model_equilibrium.py",
+      "sha256": "1b16f1af2e208f708bcbf7054361206596167b353875b618123b1adfe6775a5d"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm10.json",
+      "sha256": "52c94de5c2e40bfbdb0d3c079f33a8d2882935a95cad663aecdbdcd2a5721ba8"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm11.json",
+      "sha256": "87e122e3fdba991a0926c51d1eea7e823bdba3371dd96f047d2400257cadc6b8"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm12.json",
+      "sha256": "d56dbd5fa5d52e7056e133b55a2ee3abc198127bd1a8dff62d54dde9bcfd8583"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm13.json",
+      "sha256": "3780f508cf69a47e42d8fd93ed9a51a3d33a8d5db05e04849ef561f1b8c4281f"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm14.json",
+      "sha256": "1a3fe3406cc53c49634dc70e8ad85b508bb1de46989ad2bec74b755cb25e5207"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm15.json",
+      "sha256": "9b7c8606ba8c7de0e533befadbb21939a0edb91111507202d9051fec834659b9"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm16.json",
+      "sha256": "5a5d942d65593f0714cb2ddd2494689c7ca8263e7787111e2528ca7a7bacc7ae"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm17.json",
+      "sha256": "307a614555e7278f0d4ea2e427e4bfe938fc9139631a9cbe4750c72178856e14"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm18.json",
+      "sha256": "70d99b28978539a75bd3924a25323395dc2e6e117d06676a5579261bb4f52921"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm19.json",
+      "sha256": "01bf12b3cdb56720a013b107b60fd9f4d491072a5f4a94d2cadeb7714d4bdb02"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm20.json",
+      "sha256": "4fdb07079e649c56760ff1bc7c3155a725eac5094d20e7cac8aae43e77ad0fe4"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm21.json",
+      "sha256": "a767e736b3115cf18855f80d831c04e3490caccbdec27392bc0ccff7e97d19bd"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm22.json",
+      "sha256": "572082de83ceca7de88c39303e857dfbabc831eeb5cbeec9e5aee689457b785d"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm23.json",
+      "sha256": "b5c86677ff94a5b1205f7cfb6be56dba56107aaae031066b8c611b9bd1f41d2f"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm24.json",
+      "sha256": "648b2177c2e073e9e16733bbef89d89d078ce6d8501dc20106ccaf8bee29f2cb"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm25.json",
+      "sha256": "325c36a9ab8e1ba2cd04137cc5b883fc66b939aa860ef2c170e6538d7ee5446a"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm26.json",
+      "sha256": "49ffe684b316d634db9b4b5d7260d939985680fead82d2f100435e3a27a28454"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm27.json",
+      "sha256": "226c25d96d939a27383ac804507a5a2440ba090298a36db62a852831b9d67eac"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm28.json",
+      "sha256": "3624db404442313ee1e8ba77b7215cecf27a5cae2c49365e7c21bf99b11534d0"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm29.json",
+      "sha256": "400b86857888eed199ebb2b45d0549967d4d7d27cfa620180f8eddef77acaace"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm30.json",
+      "sha256": "3d29d4fafc2dc7290914eecdcb2ab46b75c4cca751afa312d1480a30b4489389"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm31.json",
+      "sha256": "9242b8096b0d00c2233d2364d9323521c4d8e80625b6ca9a487fcc9134835484"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm32.json",
+      "sha256": "143bc78429efab0a0a137605d55dcef81fcfc36ed8cf51a88b29a79fab287f29"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm33.json",
+      "sha256": "f7dbcd720b9fefc9ea573c76321d84fd75bd484a6f9fc56eec0cedc8a684c5f7"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm34.json",
+      "sha256": "fedc94f8dc309a6f6c31ae9927075688adf43f438fd81eaa157464710538b5f4"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm35.json",
+      "sha256": "4714b5ff3845b9afa5877862cfbb7e9a40572b5136f3b134f7b33de3ea61ce53"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm36.json",
+      "sha256": "24690e1e0701039ee18fe02180b88738e3efe8075c75968e5459c9e3310a3530"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm37.json",
+      "sha256": "726b643d028735376d18e79cc935202d6fca87a5f06fbf8f65c38f9fb80f317b"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm38.json",
+      "sha256": "cec9e39a2468ef3fc450658dd0b787fd92fa7b97e604d6dea09e9fb1a1f86288"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm39.json",
+      "sha256": "c04975c41494846e10e4b5bc2e792b849d8fdd9f24fdbef75de8c22a1cb55970"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm40.json",
+      "sha256": "2e61c03f8fab2b442a200f3fb58e772c564ddc0739795445602ceb2e5fdfe325"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm41.json",
+      "sha256": "b06ff72a5f2ae4fd4586a79fb64d20b5b49f2300afa782bb55f3e866e85451bd"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm42.json",
+      "sha256": "fcd849222d28419ffcc2374677b826bb2955b2009660732b5dbc3aa78407c347"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm43.json",
+      "sha256": "1980f56fb84e2bb0b47bc6dd1035c974161e27544b92b54daedc0415871818e3"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm8.json",
+      "sha256": "373a5ae36a04d835a9f8a208635ee89b6127e5fd27418e596581dae9652a7306"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1021acs.inorgchem.5b00435.Isotherm9.json",
+      "sha256": "1e6b5000379e7daa4e37a46b0a89d07e028326f4fef053e612b5b5310bfee9e2"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm1.json",
+      "sha256": "730dd456fbc852aa02958d8e905757b5fde715392196ebc85d021791dc2e22ca"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm100.json",
+      "sha256": "6cd3a2f867fb9a870a6fc6f8faf1fa9637543a2e7ed10cd03dc96b0f22252ff8"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm101.json",
+      "sha256": "d5629e6c2508af61c9f4e2fb1359b6dfe2539b0ec59492ee059cb3caac15b0cf"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm102.json",
+      "sha256": "c03a61b7bd5d03c47296effe3c407d0f91485575c42404c74c4344c1307bd02c"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm121.json",
+      "sha256": "dc5f186d4e284cac04f65888c91fca629915092cfb06029aae239fd4a818267b"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm122.json",
+      "sha256": "13f5658f9f422d7bfede1764aab20cb4a57a32c7e9cc7eb463c7ee946defda0a"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm123.json",
+      "sha256": "b8b652d773216e9dc922c17c572915ffae15ac5a968c91fb6e863febce35f055"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm124.json",
+      "sha256": "bcb8d4585fef1e506daa75b677dd7c5b267a981f793562d308760103305012db"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm125.json",
+      "sha256": "2fe126e3c814bd418904e3bc4f51bafa6d49ab6b041752cd7fd2fa00246eea6a"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm126.json",
+      "sha256": "63c433967106ff7e0eefc8ac4d156238deeea4a808bb01bcf48d30587de1486c"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm2.json",
+      "sha256": "12f7bdaa906fa69cf0b7450682cf099d8be70c8fa9999ad6b31bfcc3d55f871a"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm25.json",
+      "sha256": "7ef7587406d6e013ec34374993fddb39699d25ec27f31404ef92e646f3301680"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm26.json",
+      "sha256": "596cebff33c06a29ab081b36cceee70a362f14904724fc98357a843c1219f343"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm27.json",
+      "sha256": "5b090922f5b16fca995fa8fe571a3e3117fa004f1b4b63722aaff5172f9a055c"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm28.json",
+      "sha256": "ae5e26fb4165dfe9c598c1db3d76e6ad701a5b993f6e69f5e5b363af0453521b"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm29.json",
+      "sha256": "55aa2d0450a73d531cbf2a5d383d2747fb7fcd7639d352e36f4fd6e0089f3fbd"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm3.json",
+      "sha256": "e9025dced5a565e646a7105cd0c5b2a7c91ea57ab602d8151776885a6810b7c8"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm30.json",
+      "sha256": "7d5506249bf7240dcd415e74dceac97b52cbe510727eaea07e591e621c0bcf5a"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm33.json",
+      "sha256": "b05bbcb6bd80fd9c6446b7d8d7a07ed502109dd44e8cdee6705dbb6a51124ca8"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm34.json",
+      "sha256": "0e38bcd8efe318869921aa39807ce96bc59be60311d44847d80e9969391683df"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm35.json",
+      "sha256": "b0b02fdb5473b6c224705b859f9db612b4ef29b51bd3ca08d4b0a5dda24c3c6b"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm36.json",
+      "sha256": "6daf81b375f82b3b2f2ac0e27cc533e7a38792f3a2749cbd587463a00c7056ce"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm37.json",
+      "sha256": "396d9309a28440d1acf92ffced416ee30a9eccde2e5b996c2cc1611091b36c20"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm38.json",
+      "sha256": "1516d31fc3621f9e5447dc4173fe03de7d4a62f8100c4792d56cec5023d1b2e9"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm4.json",
+      "sha256": "51d96389d5d97bbbb5ba460791a6ade06c332451d0d02d0464625437f98944a6"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm5.json",
+      "sha256": "b5b08014a5e4a5a127854a0ac15d5db8e97a771572f7b4e42df9c69fdea910ff"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm57.json",
+      "sha256": "cd3f71de7bafaa80cf3a663ca4c9bac9397c7cdc0be93c5454f729a99c193ab6"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm58.json",
+      "sha256": "b5bd0ef11dddbad9a81d50e8e44dad9ac374a0584c1e00bf0c8dadc051cca70c"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm59.json",
+      "sha256": "9716f4ba37a5fd0db2698624e4edd6d7e1fa43f2a17baa5807a6725354f41525"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm6.json",
+      "sha256": "4f2dea355a71c4af184bd5e778129cceebedbfe8e80132aaec0add77c6271d96"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm60.json",
+      "sha256": "78dbd5732378b368d54184204438620c32ed9804178154141c42d0035cf59548"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm61.json",
+      "sha256": "24e5dd367bcd87a7ef1569425741e3899ab114643157fa457f907c847b8f543e"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm62.json",
+      "sha256": "45578364a15c6c89c2aa12d17a134b25d90615eab50cb3deeff6681b8ea55c6c"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm65.json",
+      "sha256": "0f2b394e4f8025f8185a78873e20eb1d2a4492d2ef549c5f03f47c4c943a28ca"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm66.json",
+      "sha256": "5c88a02bdf48857963e63e110c83b7a7f0b568ed155974667135a20fdefb0aa0"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm67.json",
+      "sha256": "e4e45ae36fa2c5b3d68e86f628535aee2bf335d5fb1b9967810540fcbcef28ff"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm68.json",
+      "sha256": "380192d53840787fe6e93c06d4ca294429f01c2e7734de7763117d00706b4836"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm69.json",
+      "sha256": "a0def50dcd381b4e227aa51aa3b2ab74bb4edc07f100ba2d5411c360bc0a2fde"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm70.json",
+      "sha256": "850586213bfc682b1ebcd12a49b9cbc004174870f492e8ebfd9d19e744c5d399"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm73.json",
+      "sha256": "67cc62bcfd20c0d611cfae097deba072d7d3dc68362b8547fcd3f91119d2534b"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm74.json",
+      "sha256": "0911cf24b2fe1c629a73ec6dff576de55220b8e3aca6517ac8bad8de23eeca1e"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm75.json",
+      "sha256": "775c707e1f81489b1cf948d26a8c071f82b378b29deb357ae7149d1150ce6a3f"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm76.json",
+      "sha256": "e20047003379fa3abdd1bdefe0717356ca87f99f8b19fc430395de19b23e118e"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm77.json",
+      "sha256": "350bbb9505ee22a6d83ee24ce3415c39f0ca03ee2ab87256a0b528ef072d536e"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm78.json",
+      "sha256": "dff81ff891a81737756ba916a7b3a9c81700a6c2cfe530144153cd7a59e52681"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm97.json",
+      "sha256": "6a9dff4d529633582197f0fe15bc06cba3b29261980656334842702352f1ad37"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm98.json",
+      "sha256": "da78732d227d6b543e4cbde3c9985c0ac42d628040680f2519e550262706f43d"
+    },
+    {
+      "path": "data/raw/nist_isodb/isotherms/10.1039C2cp23839j.Isotherm99.json",
+      "sha256": "63cab7620aa09b281fe9a6c7dbac27384ef99f0b34338a82fb3cecfa1a804c0b"
+    }
+  ],
+  "parameters": {
+    "chemical_heat": {
+      "value": 60000.0,
+      "unit": "J/mol",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T013",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "host_n2_fallback": {
+      "value": null,
+      "unit": "mmol/g MOF",
+      "type": "unknown",
+      "source_id": "C-PHYS",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "tau_over_t": {
+      "value": 1.0,
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "D-08",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "w": {
+      "value": 0.2,
+      "unit": "g/g dry composite",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T013",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "cycle_tolerance": {
+      "value": 1e-09,
+      "unit": "mmol/g dry composite",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T013",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "seed": {
+      "value": 13013,
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T013",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "n_screen": {
+      "value": 24,
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T013",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "w_grid": {
+      "value": [
+        0.0,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "unit": "g/g",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T013",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "RH_grid": {
+      "value": [
+        0.0,
+        40.0,
+        70.0
+      ],
+      "unit": "%",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T013",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "dense_step": {
+      "value": 0.01,
+      "unit": "g/g",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T013",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    },
+    "tau_grid": {
+      "value": [
+        0.0,
+        0.1,
+        1.0,
+        10.0
+      ],
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "D-08",
+      "extraction_id": "not_applicable",
+      "status": "debug"
+    }
+  },
+  "seed": 13013,
+  "command": [
+    "<external>/python3",
+    "scripts/demo.py"
+  ],
+  "started_utc": "2026-11-16T22:56:07.148074+00:00",
+  "finished_utc": "2026-11-16T22:56:08.982518+00:00",
+  "status": "debug",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 1.7920606250117999,
+    "child_user_seconds": 0.7727759999999999,
+    "child_system_seconds": 0.166905,
+    "child_maxrss": 115195904,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [
+    {
+      "path": "reports/T013/demo.json",
+      "sha256": "b74643d25167e14f926a5062e677932f9e3607bc2dc38a4d9b9704066a72c08d"
+    },
+    {
+      "path": "configs/fitted_debug.yaml",
+      "sha256": "ad0927bb999a0c9766ac27bc9f648946ba73e0da15cbcd3dd4025e25bc3e80cf"
+    }
+  ],
+  "checks": [],
+  "limitations": [],
+  "execution_status": "completed"
+}

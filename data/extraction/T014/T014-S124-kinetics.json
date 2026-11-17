@@ -1,0 +1,41 @@
+{
+  "extraction_id": "T014-S124-kinetics",
+  "source_id": "S124",
+  "doi": "10.3390/ma11060887",
+  "locator": "Table 3, p.10; Eq.(2), p.4",
+  "conditions": {
+    "T": "25 °C microcalorimetry",
+    "RH": "anhydrous",
+    "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+    "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+    "method": "Tian-Calvet / Setaram C80 coupled to manometric gas dosing",
+    "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+  },
+  "limitations": [
+    "Thermokinetic decay of heat signal, not a measured mass-uptake time.",
+    "PEI sample only; non-PEI MSG20 value must not define PEI time bounds."
+  ],
+  "quantities": {
+    "tau_heat_max": {
+      "value": 1274.0,
+      "unit": "s",
+      "type": "literature_range",
+      "source_id": "S124",
+      "extraction_id": "T014-S124-kinetics",
+      "status": "provisional",
+      "evidence_kind": "author_exponential_heat_signal_fit",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C microcalorimetry",
+        "RH": "anhydrous",
+        "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+        "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+        "method": "Tian-Calvet / Setaram C80 coupled to manometric gas dosing",
+        "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+      },
+      "locator": "Table 3, p.10; Eq.(2), p.4",
+      "limitations": "MSG20I30 only; maximum across gas doses, no lower endpoint reported. Eq.(2) prints log without specifying its base. The reported parameter is not established as the natural-exponential mass-uptake tau of M1.",
+      "evidence_ref": "data/extraction/T014/T014-S124-kinetics.json#/quantities/tau_heat_max"
+    }
+  }
+}

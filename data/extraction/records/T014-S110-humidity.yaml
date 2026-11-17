@@ -1,0 +1,31 @@
+extraction_id: T014-S110-humidity
+source_id: S110
+doi: 10.3390/en15031075
+url: https://mdpi-res.com/d_attachment/energies/energies-15-01075/article_deploy/energies-15-01075.pdf
+input_sha256: edb265354f629087f860b6322235efe89d292945e9000d566d451b560e61d49c
+pdf_page: 4
+api_page_map:
+  '1': 4
+figure_or_table: Table 1, p.4; 25 °C rows only
+region:
+  render: private/T014/S110-p4.png
+  render_sha256: a02d9173c25c8d61d0b9e6d00340a361696cbc977fd5c75c1a56f3b59631048d
+  visual_check: T014 author checked; independent review pending
+tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
+tool_version: PyMuPDF 1.28.2; T014-v1
+params:
+  input_ref: private/T014/S110.pdf
+  output_ref: data/extraction/T014/T014-S110-humidity.json
+  page_note: PDF index is one-based, including repository cover page when present.
+  interpretation: No plot coordinates inferred; printed numbers only.
+date: '2026-11-16T23:59:48.788477+00:00'
+raw_response_ref: private/T014/S110.pdf
+unit_conversions: []
+derived_sha256: 36502f96beb57b37d59d87cb9176d89546ffc12f706388be1d795c884c714315
+status: provisional
+reviewer: null
+corrections: []
+error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
+  interval.
+data_kind: measured_table
+sensitivity_only: true

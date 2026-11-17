@@ -43,10 +43,23 @@ def _validate_output(root, path):
         raise ValueError("private outputs must not enter public run passports")
 
 
-def _safe_command(command):
+def _portable(item, root):
+    """Absolute paths are machine-specific: keep them relative to the repository or drop the prefix."""
+    path = Path(item)
+    if not path.is_absolute():
+        return item
+    if root is not None:
+        try:
+            return path.relative_to(root).as_posix()
+        except ValueError:
+            pass
+    return "<external>/" + path.name
+
+
+def _safe_command(command, root=None):
     redactor = Redactor()
     result, redact_next = [], False
-    for item in command:
+    for item in (_portable(entry, root) for entry in command):
         if redact_next:
             result.append("***")
             redact_next = False
@@ -76,6 +89,7 @@ def run_command(root, *, name, purpose, hypothesis, command, inputs=(), outputs=
     commit = subprocess.run(["git", "rev-parse", "HEAD"], cwd=root, capture_output=True, check=True, text=True).stdout.strip()
     start = _utc()
     run_id = f"{start.strftime('%Y%m%dT%H%M%S%fZ')}-{commit[:8]}-{name}"
+    command = [entry.replace('{run_id}', run_id) for entry in command]
     input_hashes = _hash_paths(root, inputs)
     for path in outputs:
         _validate_output(root, path)
@@ -91,7 +105,7 @@ def run_command(root, *, name, purpose, hypothesis, command, inputs=(), outputs=
     passport = {
         "run_id": run_id, "purpose": purpose, "hypothesis": hypothesis, "commit_sha": commit,
         "versions": versions, "inputs": input_hashes, "parameters": parameters, "seed": seed,
-        "command": _safe_command(command), "started_utc": start.isoformat(), "finished_utc": None,
+        "command": _safe_command(command, root), "started_utc": start.isoformat(), "finished_utc": None,
         "status": "debug" if allow_dirty else "running", "exit_code": None, "resources": {},
         "outputs": [], "checks": checks or [], "limitations": limitations or [],
     }

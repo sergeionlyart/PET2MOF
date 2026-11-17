@@ -28,8 +28,8 @@ date: '2026-11-16T22:22:07.274261+00:00'
 raw_response_ref: private/ocr_cache/raw/96cd5258c0f1d8865211bfc85ee94ceb13ffe74783e192ffd33f520465d2bf37.json
 unit_conversions: []
 derived_sha256: dff423d887aeadc0227bd02dc77d4b22ab5f48fb10a676349f0dadab4348af69
-status: provisional
-reviewer: null
+status: verified
+reviewer: T007
 corrections:
 - field_id: S106-p05-094
   kind: omission

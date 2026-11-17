@@ -1,6 +1,7 @@
 """Root dotenv parser used by the adapter, without environment import/export."""
 
 import json
+import re
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
@@ -14,6 +15,74 @@ ALLOWLIST = frozenset({
     "GOOGLE_SERVICE_ACCOUNT_JSON",
 })
 CLOUD_SCOPE = "https://www.googleapis.com/auth/cloud-platform"
+
+
+def dotenv_values(stream):
+    """Literal assignments only, with optional export and whitespace comments.
+
+    No shell expansion, commands or continuation syntax. Quoted values may span
+    lines; single quotes are literal and double quotes use JSON escapes. Bare
+    values are literal words (or a JSON object for service-account configuration).
+    Foreign quoted values are consumed without accumulating or decoding them;
+    only allowlisted values are yielded to the configuration.
+    """
+    for line in stream:
+        line = line.rstrip("\r\n")
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        match = re.fullmatch(r"[ \t]*(?:export[ \t]+)?([A-Za-z_][A-Za-z0-9_]*)[ \t]*=[ \t]*(.*)", line)
+        if not match:
+            raise ValueError("unsupported dotenv syntax")
+        key, rest = match.groups()
+        retain = key in ALLOWLIST
+        if rest.startswith(("'", '"')):
+            quote = rest[0]
+            rest = rest[1:]
+            parts = [] if retain else None
+            while True:
+                index = 0
+                while index < len(rest):
+                    char = rest[index]
+                    if char == quote:
+                        break
+                    if quote == '"' and char == "\\":
+                        index += 1
+                        if index >= len(rest) or rest[index] not in '"\\/bfnrtu':
+                            raise ValueError("unsupported dotenv escape")
+                        if rest[index] == "u":
+                            if not re.fullmatch(r"[0-9a-fA-F]{4}", rest[index + 1:index + 5]):
+                                raise ValueError("unsupported dotenv escape")
+                            index += 4
+                    index += 1
+                if retain:
+                    parts.append(rest[:index])
+                if index < len(rest):
+                    if not re.fullmatch(r"[ \t]*(?:#.*)?", rest[index + 1:]):
+                        raise ValueError("unsupported dotenv suffix")
+                    break
+                continuation = next(stream, None)
+                if continuation is None:
+                    raise ValueError("unterminated dotenv quote")
+                if retain:
+                    parts.append("\n")
+                rest = continuation.rstrip("\r\n")
+            if retain:
+                value = "".join(parts)
+                if quote == '"':
+                    value = json.loads('"' + value.replace("\n", "\\n").replace("\t", "\\t") + '"')
+        else:
+            value = re.split(r"[ \t]+#", rest, maxsplit=1)[0].rstrip()
+            if value.startswith("#"):
+                value = ""
+            if any(char in value for char in "$`;\n\r") or value.endswith("\\"):
+                raise ValueError("unsupported dotenv expression")
+            if value.startswith("{"):
+                # A single-line literal JSON object, without dotenv unescaping.
+                json.loads(value)
+            elif re.search(r"[\s'\"]", value):
+                raise ValueError("unsupported bare dotenv value")
+        if retain:
+            yield key, value
 
 
 def repository_root():
@@ -32,25 +101,18 @@ class Config:
         self.redactor = Redactor()
         self._credentials = None
         self._google_kind = "absent"
+        self.env_syntax_supported = True
         if self.env_present:
-            with path.open(encoding="utf-8") as stream:
-                for line in stream:
-                    # Do not split, decode, retain or export values of other services.
-                    key = line.split("=", 1)[0].strip()
-                    if key not in ALLOWLIST or "=" not in line:
-                        continue
-                    value = line.partition("=")[2].strip()
-                    if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
-                        if value[0] == '"':
-                            try:
-                                value = json.loads(value)
-                            except ValueError:
-                                value = value[1:-1]
-                        else:
-                            value = value[1:-1]
-                    self._values[key] = Secret(value)
-                    if key in {"MISTRAL_API_KEY", "GOOGLE_SERVICE_ACCOUNT_JSON"} or key.startswith("GOOGLE_"):
-                        self.redactor.add(value)
+            try:
+                with path.open(encoding="utf-8-sig") as stream:
+                    for key, value in dotenv_values(stream):
+                        self._values[key] = Secret(value)
+                        if key == "MISTRAL_API_KEY" or key.startswith("GOOGLE_"):
+                            self.redactor.add(value)
+            except (ValueError, OSError):
+                self.env_syntax_supported = False
+                self._values.clear()
+                self.redactor = Redactor()
         self.provider = self.value("OCR_PROVIDER")
         if self.provider not in {"mistral", "google_docai"}:
             self.provider = "local"
@@ -77,6 +139,8 @@ class Config:
     def _base_reason(self):
         if not self.env_present:
             return "env_absent"
+        if not self.env_syntax_supported:
+            return "env_syntax_unsupported"
         if self.value("OCR_EXTERNAL_ENABLED").lower() != "true":
             return "external_disabled"
         if self.provider == "local":

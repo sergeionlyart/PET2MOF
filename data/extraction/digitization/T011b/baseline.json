@@ -1,0 +1,112 @@
+{
+  "task": "T011b-c-series-fix",
+  "baseline_head": "447364e5f59c962f73d46125263617886d49dbb1",
+  "coordinate_fields": [
+    "pixel_x",
+    "pixel_y",
+    "x",
+    "y",
+    "x_err",
+    "y_err"
+  ],
+  "serialization": "comma-separated original CSV strings in series order, LF after every row; UTF-8",
+  "series": {
+    "S105-Fig8A|UiO-66": {
+      "rows": 41,
+      "coordinate_bytes_sha256": "bf0151b476b9b118df5f5843d2b03a4110c6748736cf8c604552bc5dd9879a7b",
+      "T011v_verdict": "исправить"
+    },
+    "S105-Fig8A|UiO-66-NH2": {
+      "rows": 46,
+      "coordinate_bytes_sha256": "488809df8373064809b14bf789dcaf052892cba68727985490e5a0b74f29071c",
+      "T011v_verdict": "verified"
+    },
+    "S105-Fig8A|UiO-66/GO": {
+      "rows": 37,
+      "coordinate_bytes_sha256": "79755419fc744131a7c4e2287718cae532db7416cbff94b757503ae087c9d424",
+      "T011v_verdict": "исправить"
+    },
+    "S105-Fig8A|UiO-66-NH2/GO": {
+      "rows": 39,
+      "coordinate_bytes_sha256": "2658d873ad8765338dc4eed0479d6506cc6d5a26f415e615e728ee22867859bd",
+      "T011v_verdict": "verified"
+    },
+    "S105-Fig8B|UiO-66": {
+      "rows": 47,
+      "coordinate_bytes_sha256": "6aeaba9b748753619ab05dec63574d1ba520cc29bc34b2306bc317f39fc910ac",
+      "T011v_verdict": "verified"
+    },
+    "S105-Fig8B|UiO-66-NH2": {
+      "rows": 46,
+      "coordinate_bytes_sha256": "17778f605c4578600e167276f0ae504b2e96131f166332b5f8f6d98879bb4614",
+      "T011v_verdict": "verified"
+    },
+    "S105-Fig8B|UiO-66/GO": {
+      "rows": 39,
+      "coordinate_bytes_sha256": "d85c07ceb086ebc1e2910371d72ab8c43184ae74ba3f4af5ce2a855cdfdd922c",
+      "T011v_verdict": "verified"
+    },
+    "S105-Fig8B|UiO-66-NH2/GO": {
+      "rows": 39,
+      "coordinate_bytes_sha256": "7ad68b59cd333af04b41fb2ff2067644d3d0da816d4ab9f161272510c289906e",
+      "T011v_verdict": "verified"
+    },
+    "S105-Fig8C|UiO-66": {
+      "rows": 46,
+      "coordinate_bytes_sha256": "c354e6e0a989ef88f9a1063e40e72d12c78ea301752bd763cd048b577ee2e6e6",
+      "T011v_verdict": "verified"
+    },
+    "S105-Fig8C|UiO-66-NH2": {
+      "rows": 44,
+      "coordinate_bytes_sha256": "6ff49d704e026b0a71d6606513e3d4e2187dc9b3eb9d4e3e46c8b48d47af2fdd",
+      "T011v_verdict": "verified"
+    },
+    "S105-Fig8C|UiO-66/GO": {
+      "rows": 36,
+      "coordinate_bytes_sha256": "fbbebcf931a82ea119e734876244547e84be756ad703c5917ce1b8616795881a",
+      "T011v_verdict": "исправить"
+    },
+    "S105-Fig8C|UiO-66-NH2/GO": {
+      "rows": 40,
+      "coordinate_bytes_sha256": "de6c7229768caa9d2c52bf5e0c216f211085b46497f455d107c0d5421c72045a",
+      "T011v_verdict": "verified"
+    },
+    "S105-Fig9|UiO-66": {
+      "rows": 40,
+      "coordinate_bytes_sha256": "c42715a00b54042d9e882c654120b7de4f669105a9b81df3407d2f26ba090d6e",
+      "T011v_verdict": "исправить"
+    },
+    "S105-Fig9|UiO-66-NH2": {
+      "rows": 48,
+      "coordinate_bytes_sha256": "5bdf6c27f26ddae7fd0aaa5b77159cc3c0ca91dcf81b407054286de7e1bcc909",
+      "T011v_verdict": "исправить"
+    },
+    "S105-Fig9|UiO-66/GO": {
+      "rows": 41,
+      "coordinate_bytes_sha256": "6045a160d7b0b70f942558c08afb733ea32906ded778d51c3229b6695acd36fb",
+      "T011v_verdict": "исправить"
+    },
+    "S105-Fig9|UiO-66-NH2/GO": {
+      "rows": 48,
+      "coordinate_bytes_sha256": "1615d6af6f46a47cacb8814a4f35c618485f030c79e26f1d9a7fc72f54f66d36",
+      "T011v_verdict": "verified"
+    },
+    "S106-Fig4|UiO-66_100": {
+      "rows": 35,
+      "coordinate_bytes_sha256": "c5cd11ad0197a152e18a185b88e99a9db4e5c22a61f9a810b965c27c47e857df",
+      "T011v_verdict": "verified"
+    },
+    "S106-Fig4|UiO-66_160": {
+      "rows": 28,
+      "coordinate_bytes_sha256": "f284cb7c87fdb1258ee4e4a6078b430c8489ef7a8e887061c8dd6978e833de4f",
+      "T011v_verdict": "исправить"
+    },
+    "S106-Fig4|UiO-66_220": {
+      "rows": 35,
+      "coordinate_bytes_sha256": "d624f8b820615d243b56842c1c3251f5fc6e34323a69a1a3001fdf86c6fe3eb4",
+      "T011v_verdict": "verified"
+    }
+  },
+  "review_ref": "reviews/T011v_c_series_verification.md",
+  "review_sha256": "be8bffc988658f988badf4a63fe69773df67d472bbb5a7583e42229acc2c959f"
+}

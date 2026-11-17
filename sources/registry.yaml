@@ -32,6 +32,9 @@
   status: provisional
   extraction_id: T001-S1-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'н/п: данных нет; частично: явная reuse-лицензия не найдена; Новость от 18.06.2026; context. Не
+    устанавливает UiO-66/PEI или сотрудничество.'
 - source_id: S2
   doi: 10.1021/acsomega.8b02319
   doi_verified: true
@@ -143,6 +146,9 @@
   unlocated_data: []
   extraction_id: T001-S2-audit
   acceptance_core_measured_UiO_CO2: true
+  reviewed_by: T004
+  review_notes: 'да по XML; Fig.9 осмотрен; PDF-таблицы pending; да: ACS AuthorChoice; RH не задан числом; влажная
+    масса/вода не разделены. См. §4.'
 - source_id: S3
   doi: 10.1039/d5su00463b
   doi_verified: true
@@ -175,7 +181,7 @@
     methods_locator: 'Experimental: Chemicals; Gas adsorption analysis'
   data_items:
   - what: N2 porosimetry with author raw numeric files
-    where: Fig. 4; Zenodo archive Dati grezzi/Gas sorption/{P38,P39,Defective_UiO-66,No defective_UiO-66}.txt
+    where: Fig. 4; Zenodo archive Dati grezzi/Gas sorption/{P38,P39,P39_LS,Defective_UiO-66,No defective_UiO-66}.txt
     data_type: table_numeric
     conditions: same as source conditions
     normalization: V(cm3/g) versus p/p0 as file header; confirm reference gas volume before conversion
@@ -207,6 +213,9 @@
   unlocated_data: []
   extraction_id: T001-S3-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'частично: Table 2, N₂ Methods и архив подтверждены; Fig.4 visual pending; да: статья BY-NC 3.0;
+    архив BY 4.0; Коммерческие DMT/BHET; не серия измерений CO₂.'
 - source_id: S100
   doi: 10.1021/acs.iecr.5b03517
   doi_verified: true
@@ -220,7 +229,7 @@
   - et al.
   year: 2015
   journal: Industrial & Engineering Chemistry Research
-  license: closed article; SI publicly downloadable, reuse licence unknown
+  license: Main article closed; publisher Figshare SI CC BY-NC 4.0
   accessed: '2026-11-16'
   files_available:
   - data/raw/pdf/S100_SI.pdf
@@ -278,13 +287,23 @@
     evidence_kind: experimental
     extraction_id: T001-S100-05
     status: provisional
+  - what: CO2 mass-normalized isotherms for nominal 10/20/30/40PEI@UiO-66, third-party digitization
+    where: Main Fig. 4 as identified by NIST Isotherm6–9 JSON; original main figure not visually checked
+    data_type: figure_only
+    conditions: 298 K; nominal loading labels; PEI Mw, retained loading and composite activation unknown
+    normalization: mmol/g; NIST digitization, not original author table
+    evidence_kind: experimental_third_party_digitization
+    extraction_id: T009-S100-06
+    status: provisional
   role_candidate: calibration
   limitations:
-  - Main article abstract reports humid PEI@UiO-66 results; full main figure locator not verified, so no humid
-    composite capacity transcribed.
+  - Main article abstract reports humid PEI@UiO-66 results; full main figure locator not verified, so no humid composite
+    capacity transcribed.
   - SI species inconsistency prevents treating wet results as confirmed CO2/N2.
-  - 'SI visual QA: pp. S3,S7,S9 checked; not independently verified.'
+  - 'SI visual QA: pp. S3,S7,S9 checked; see T004 §3 for independent review.'
   - Reported dynamic working capacity is integrated breakthrough uptake, not automatically equilibrium q_ads-q_des.
+  - NIST Fig. 4 digitization and SI Fig. S5 are not independent replicates; original main figure and digitization
+    provenance require QA.
   status: provisional
   access_level: SI_and_abstract
   doi_evidence: sources/metadata/S100.crossref.json
@@ -293,10 +312,14 @@
   evidence_urls:
   - https://pubs.acs.org/doi/abs/10.1021/acs.iecr.5b03517
   - https://pstorage-acs-6854636.s3.amazonaws.com/3743113/ie5b03517_si_001.pdf
+  - https://api.figshare.com/v2/articles/2109835
   unlocated_data:
   - Humid PEI composite series in main article; fetch legal full text and locate figure before extraction
   extraction_id: T001-S100-audit
   acceptance_core_measured_UiO_CO2: true
+  reviewed_by: T004
+  review_notes: 'частично: SI подтверждён; основной Fig.4 только по NIST; исправить SI: BY-NC 4.0; Массовая и площадная
+    нормировки различны. Основной влажный рисунок, PEI Mw/loading/activation не установлены.'
 - source_id: S101
   doi: 10.1016/j.ces.2019.03.053
   doi_verified: true
@@ -342,6 +365,9 @@
   - Experimental water and CO2/H2O isotherm figures, temperature and activation
   extraction_id: T001-S101-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'не подтверждено: `data_items: []`; частично: CC не установлена; Первичная аннотация подтверждает
+    бинарные измерения; полного locator/условий нет.'
 - source_id: S102
   doi: 10.1021/acs.langmuir.1c01149
   doi_verified: true
@@ -355,10 +381,11 @@
   - et al.
   year: 2021
   journal: Langmuir
-  license: closed article; SI public, reuse unknown
+  license: Main article closed; publisher Figshare SI CC BY-NC 4.0
   accessed: '2026-11-16'
   files_available:
   - Publisher abstract and SI preview; la1c01149 SI not downloaded
+  - Publisher SI PDF inspected by T004; not retained locally
   materials:
   - UiO-66-NH2
   - Computationally functionalized/defective UiO-66 variants
@@ -380,9 +407,27 @@
     evidence_kind: experimental
     extraction_id: T001-S102-01
     status: provisional
+  - what: Experimental binary CO2/H2O adsorption compared with IAST
+    where: SI Fig. S6, p. S5
+    data_type: figure_only
+    conditions: Water loading series; binary temperature and full methodology unknown
+    normalization: See original axes; conditions require QA
+    evidence_kind: experimental
+    extraction_id: T009-S102-02
+    status: provisional
+  - what: CO2 and H2O isotherms and characterization after water exposure
+    where: SI Fig. S7, p. S6
+    data_type: figure_only
+    conditions: 25 °C; regeneration 120 °C and six regenerations per caption; do not transfer temperature to Fig.
+      S6
+    normalization: See original axes
+    evidence_kind: experimental
+    extraction_id: T009-S102-03
+    status: provisional
   role_candidate: validation
   limitations:
-  - Main binary experimental figure not located; SI Fig. S3 contains simulations, not a new experimental dataset.
+  - Main binary experimental figure not located; SI Fig. S6 contains experimental binary data, whereas SI Fig. S3
+    contains simulations.
   - No PEI; full text access needed to resolve all binary conditions.
   status: provisional
   access_level: abstract_and_SI_preview
@@ -391,10 +436,15 @@
     data verification
   evidence_urls:
   - https://doi.org/10.1021/acs.Langmuir.1c01149
+  - https://api.figshare.com/v2/articles/16432352
+  - https://ndownloader.figshare.com/files/30440111
   unlocated_data:
-  - Main experimental binary CO2/H2O figure; H2O isotherm
+  - Main experimental binary CO2/H2O figure and full binary method/temperature
   extraction_id: T001-S102-audit
-  acceptance_core_measured_UiO_CO2: false
+  acceptance_core_measured_UiO_CO2: true
+  reviewed_by: T004
+  review_notes: 'частично; добавить SI Fig.S6, S7; исправить SI: BY-NC 4.0; В SI уже есть экспериментальные бинарные
+    данные; см. §5.'
 - source_id: S103
   doi: 10.1038/s42004-022-00742-z
   doi_verified: true
@@ -470,6 +520,9 @@
   unlocated_data: []
   extraction_id: T001-S103-audit
   acceptance_core_measured_UiO_CO2: true
+  reviewed_by: T004
+  review_notes: 'да: Fig.2a и Table 2; 2b — расчёт; да: BY 4.0; Сухой CO₂; не влажный опыт. Общая provenance с
+    S106 требует контроля.'
 - source_id: S104
   doi: 10.1039/d4ta06814a
   doi_verified: true
@@ -492,13 +545,13 @@
   - UiO-66, thermal synthesis controls
   conditions:
     temperature: 30 °C; 40 °C for Qst analysis
-    pressure_or_p_CO2: Pure-gas isotherms; bounds not independently read; IAST p_CO2=0.15 bar
+    pressure_or_p_CO2: Pure-gas isotherms 0.0002–1 bar; IAST p_CO2=0.15 bar (§§2.3, 3.5)
     RH: No water cofeed reported in located series
     gas_composition: Pure CO2 and N2; IAST 15/85 mixture
     PEI_loading: none
     PEI_Mw: not applicable
-    activation: unknown
-    methods_locator: §3.5; Figs. 5–6
+    activation: Vacuum 150 °C before CO2/N2 measurements; duration unknown (§2.3); 24 h applies to N2 porosimetry
+    methods_locator: §§2.3, 3.5; Figs. 5–6
   data_items:
   - what: Measured pure-gas CO2 and N2 isotherms
     where: Fig. 5a
@@ -539,6 +592,9 @@
   unlocated_data: []
   extraction_id: T001-S104-audit
   acceptance_core_measured_UiO_CO2: true
+  reviewed_by: T004
+  review_notes: 'частично: HTML §§2.3,3.5, Fig.5–6; visual pending; да: BY-NC 3.0; Восполняются activation и пределы
+    давления; IAST не измерение смеси.'
 - source_id: S105
   doi: 10.3390/ma11040589
   doi_verified: true
@@ -563,7 +619,8 @@
   - UiO-66-NH2/GO
   conditions:
     temperature: 273,298,318 K (CO2); 298 K (N2)
-    pressure_or_p_CO2: CO2 0–1.2 bar; N2 0–1 bar
+    pressure_or_p_CO2: 'CO2 0–1.2 bar; N2 conflict: §3.5 states 0–1 bar, Fig. 9 axis reaches 1.2 bar and points
+      exceed 1 bar'
     RH: No water cofeed; RH unknown
     gas_composition: Pure CO2 or N2
     PEI_loading: none
@@ -582,7 +639,7 @@
   - what: Measured N2 isotherms
     where: Fig. 9
     data_type: figure_only
-    conditions: 298 K; 0–1 bar
+    conditions: 298 K; §3.5 states 0–1 bar, Fig. 9 axis to 1.2 bar with points beyond 1 bar
     normalization: mmol/g dry adsorbent
     evidence_kind: experimental
     extraction_id: T001-S105-02
@@ -608,8 +665,9 @@
   - Humidity exposure/PXRD stability is not humid CO2 uptake.
   - Some control characterization is reproduced from reference 17; establish CO2 data lineage before independent
     validation.
-  - Activation contradiction unresolved. Table 2 mixes literature and own results; do not count literature
-    rows twice.
+  - Activation contradiction unresolved. Table 2 mixes literature and own results; do not count literature rows
+    twice.
+  - N2 pressure range conflicts between §3.5 and visually inspected Fig. 9; unresolved.
   status: provisional
   access_level: full_text
   doi_evidence: sources/metadata/S105.crossref.json
@@ -620,6 +678,9 @@
   unlocated_data: []
   extraction_id: T001-S105-audit
   acceptance_core_measured_UiO_CO2: true
+  reviewed_by: T004
+  review_notes: 'да: Fig.8A–C, Fig.9, Table 3; конфликт активации; да: BY 4.0; Fig.8 осмотрен в PDF. Нужны provenance
+    контролей и решение конфликта activation.'
 - source_id: S106
   doi: 10.1016/j.micromeso.2021.111555
   doi_verified: true
@@ -649,7 +710,7 @@
     PEI_loading: none
     PEI_Mw: not applicable
     activation: Vacuum 60 °C 1 h then 150 °C 2 h; ramp 2 °C/min
-    methods_locator: §2.2; PDF pp. 3–4 including repository cover
+    methods_locator: §2 Experimental; article pp. 2–4, repository PDF pp. 3–5
   data_items:
   - what: Measured water isotherms
     where: Fig. 4, article p. 4, repository PDF p. 5
@@ -682,6 +743,8 @@
   unlocated_data: []
   extraction_id: T001-S106-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'да: Fig.3–4 и Table 1, PDF p.5; да: BY 4.0 в PDF; Только вода/N₂; locator Methods — §2, а не §2.2.'
 - source_id: S107
   doi: 10.1039/c4cc04945d
   doi_verified: true
@@ -732,6 +795,9 @@
   unlocated_data: []
   extraction_id: T001-S107-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'частично: авторская версия/симуляционный характер; частично: страница требует permissions, CC
+    не установлена; context; не новый измеренный CO₂-набор.'
 - source_id: S108
   doi: 10.1016/j.cej.2014.04.063
   doi_verified: true
@@ -795,6 +861,9 @@
   unlocated_data: []
   extraction_id: T001-S108-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'вне обязательной полной проверки (analog); частично: BY 3.0 подтверждена Crossref, страница недоступна;
+    Нужна проверка лицензии непосредственно в статье; не UiO-66.'
 - source_id: S109
   doi: 10.1016/j.jcou.2017.03.008
   doi_verified: true
@@ -841,6 +910,9 @@
   - Dry/wet uptake tables/figures, gas fractions, Mw, loading and activation
   extraction_id: T001-S109-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'н/п: пустой список, analog; частично: издательский preview, CC не установлена; Не трактовать
+    отсутствие CC в Crossref как самостоятельное доказательство closed.'
 - source_id: S110
   doi: 10.3390/en15031075
   doi_verified: true
@@ -902,6 +974,9 @@
   unlocated_data: []
   extraction_id: T001-S110-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'вне обязательной полной проверки; Table 1/Fig.1 существуют; да: BY 4.0, страница MDPI; analog
+    PEI/SiO₂; не переносить на MOF.'
 - source_id: S111
   doi: 10.1021/acsanm.5c05631
   doi_verified: true
@@ -915,27 +990,45 @@
   - et al.
   year: 2026
   journal: ACS Applied Nano Materials
-  license: closed
+  license: Main article closed; publisher Figshare SI CC BY-NC 4.0
   accessed: '2026-11-16'
   files_available:
   - Publisher abstract; SI described but not downloaded
+  - Publisher SI PDF inspected by T004; not retained locally
   materials:
   - UiO-66-NH2
   - UiO-66-NH-Ac-PEI
   conditions:
-    temperature: 298 K in abstract
-    pressure_or_p_CO2: 1 bar in abstract
-    RH: High humidity stated; exact RH unknown
-    gas_composition: CO2/N2 breakthrough
+    temperature: 298 K in abstract; SI Fig. S20 temperature unknown
+    pressure_or_p_CO2: 1 bar in abstract; SI Fig. S20 pressure unknown
+    RH: 'SI Fig. S20: 80% RH; abstract humid breakthrough exact RH not established'
+    gas_composition: CO2/N2 breakthrough in abstract; SI Fig. S20 feed composition unknown
     PEI_loading: unknown
     PEI_Mw: unknown
     activation: unknown
-    methods_locator: Publisher abstract
-  data_items: []
+    methods_locator: Publisher abstract; SI Fig. S20 and Table S3
+  data_items:
+  - what: Dry versus humid CO2 uptake for UiO-66-NH-Ac-PEI
+    where: SI Fig. S20, p. S22
+    data_type: figure_only
+    conditions: 80% RH; temperature, pressure and feed composition unknown
+    normalization: mmol/g
+    evidence_kind: experimental
+    extraction_id: T009-S111-01
+    status: provisional
+  - what: Reported selectivity for UiO-66-NH-Ac-PEI and literature comparison
+    where: SI Table S3, p. S28; publisher abstract
+    data_type: table_numeric
+    conditions: Table S3 reports 35; abstract reports 42; reason and comparability unknown
+    normalization: dimensionless selectivity
+    evidence_kind: reported_experimental
+    extraction_id: T009-S111-02
+    status: provisional
   role_candidate: novelty_check
   limitations:
   - 2026 primary work already reports humid PEI-grafted UiO-66-family CO2/N2 separation.
   - Main figures/conditions not accessible; not accepted as calibration or validation.
+  - Selectivity 35 in SI Table S3 versus 42 in abstract remains unresolved; conditions or definitions may differ.
   status: provisional
   access_level: abstract
   doi_evidence: sources/metadata/S111.crossref.json
@@ -943,10 +1036,15 @@
     data verification
   evidence_urls:
   - https://pubs.acs.org/doi/10.1021/acsanm.5c05631
+  - https://api.figshare.com/v2/articles/31483412
+  - https://ndownloader.figshare.com/files/62369648
   unlocated_data:
-  - Dry isotherms and humid breakthrough figures; PEI Mw/loading, RH, regeneration
+  - Main figures and full conditions; PEI Mw/loading and regeneration
   extraction_id: T001-S111-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'дополнить: SI Fig.S20, Table S3; основной текст закрыт; SI BY-NC 4.0; RH=80% найдено; в SI selectivity=35,
+    в аннотации 42.'
 - source_id: S112
   doi: 10.2139/ssrn.5123041
   doi_verified: true
@@ -993,6 +1091,9 @@
   - Experimental tables/figures, exact wet conditions and final publication status
   extraction_id: T001-S112-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'н/п: пустой список; unknown сохранено; SSRN-аннотация доступна; preprint, не независимая рецензированная
+    валидация.'
 - source_id: S113
   doi: 10.3390/membranes10070154
   doi_verified: true
@@ -1065,6 +1166,9 @@
   unlocated_data: []
   extraction_id: T001-S113-audit
   acceptance_core_measured_UiO_CO2: true
+  reviewed_by: T004
+  review_notes: 'да для основного Fig.5; SI по текстовым ссылкам; да: BY 4.0; Проверять порошки отдельно от мембран;
+    SI-оси/параметры ещё не осмотрены.'
 - source_id: S114
   doi: 10.1039/c5ta05997f
   doi_verified: true
@@ -1111,6 +1215,9 @@
   - Main breakthrough and CO2 isotherm figures
   extraction_id: T001-S114-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'н/п: пустой список; аннотация согласуется; частично: явная CC не установлена; Этаноламин, не
+    PEI; 82% RH — реальный заявленный влажный опыт.'
 - source_id: S115
   doi: 10.1016/j.cej.2023.145349
   doi_verified: true
@@ -1158,6 +1265,9 @@
   - CO2 isotherm/cycling figures; activation, temperature, pressure and humidity
   extraction_id: T001-S115-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'не подтверждено: `data_items: []`; частично: © Elsevier, CC не установлена; Университетская аннотация
+    подтверждает реальный отходный PET и измерения CO₂.'
 - source_id: S116
   doi: 10.1016/j.ijggc.2020.102975
   doi_verified: true
@@ -1221,3 +1331,233 @@
   unlocated_data: []
   extraction_id: T001-S116-audit
   acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: 'вне обязательной полной проверки (analog); да: BY 4.0 в локальном PDF; PEI/SiO₂, не MOF; новая
+    независимость относительно S108 не доказана.'
+- source_id: S117
+  doi: 10.1039/d1fd00017a
+  doi_verified: true
+  url: https://doi.org/10.1039/d1fd00017a
+  oa_url: null
+  title: Monolithic metal–organic frameworks for carbon dioxide separation
+  authors:
+  - David G. Madden
+  - Robin Babu
+  - Ceren Çamur
+  - et al.
+  year: 2021
+  journal: Faraday Discussions
+  license: unknown; reuse rights not independently confirmed
+  accessed: '2026-11-16'
+  files_available:
+  - Publisher text and SI references inspected by T004; SI not retained locally
+  materials:
+  - UiO-66 and UiO-66-NH2 powders and monoliths
+  conditions:
+    temperature: unknown
+    pressure_or_p_CO2: unknown
+    RH: approximately 74% RH
+    gas_composition: CO2/N2=15/85 wet mixture
+    PEI_loading: none
+    PEI_Mw: not applicable
+    activation: unknown
+    methods_locator: SI Figs. S36–S38 referenced in main article
+  data_items:
+  - what: Measured humid CO2/N2 separation, powder and monolith
+    where: SI Figs. S36–S38, referenced by main article
+    data_type: figure_only
+    conditions: CO2/N2=15/85, approximately 74% RH; temperature and activation unknown; SI axes require QA
+    normalization: Gravimetric cm³/g and volumetric cm³/cm³ must remain separate
+    evidence_kind: experimental
+    extraction_id: T009-S117-01
+    status: provisional
+  role_candidate: validation
+  limitations:
+  - Candidate wet-parent validation only after SI, axes, temperature, activation and precise conditions are checked;
+    no capacities extracted.
+  status: provisional
+  access_level: primary_text_and_SI_reference
+  doi_evidence: sources/metadata/S117.crossref.json
+  doi_verification_scope: Crossref DOI, title, first authors, publication year and container checked; not independent
+    data verification
+  evidence_urls:
+  - https://pubs.rsc.org/en/content/articlehtml/2021/fd/d1fd00017a
+  unlocated_data:
+  - SI original axes, precise temperature, activation and conditions
+  extraction_id: T009-S117-audit
+  acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: '§7 NEW1: measured wet parent candidate; SI and conditions need QA.'
+- source_id: S118
+  doi: 10.1021/acs.jpcc.1c09914
+  doi_verified: true
+  url: https://doi.org/10.1021/acs.jpcc.1c09914
+  oa_url: null
+  title: 'A Step in Carbon Capture from Wet Gases: Understanding the Effect of Water on CO2 Adsorption and Diffusion
+    in UiO-66'
+  authors:
+  - Yann Magnin
+  - Estelle Dirand
+  - Alejandro Orsikowsky
+  - et al.
+  year: 2022
+  journal: The Journal of Physical Chemistry C
+  license: unknown; reuse rights not independently confirmed
+  accessed: '2026-11-16'
+  files_available:
+  - SI inspected by T004; not retained locally
+  materials:
+  - UiO-66
+  conditions:
+    temperature: unknown
+    pressure_or_p_CO2: unknown
+    RH: unknown
+    gas_composition: wet CO2 simulations; experimental water vapor
+    PEI_loading: none
+    PEI_Mw: not applicable
+    activation: unknown
+    methods_locator: SI Fig. S5; SI p. S8 Experimental details
+  data_items:
+  - what: CO2 adsorption versus water loading simulations
+    where: SI Fig. S5
+    data_type: simulation
+    conditions: Wet CO2; exact simulation conditions not established here
+    normalization: unknown
+    evidence_kind: simulation
+    extraction_id: T009-S118-01
+    status: provisional
+  role_candidate: context
+  limitations:
+  - Wet CO2 results identified in SI are simulations; experimental methods describe water-vapor isotherms, not a
+    verified wet CO2 dataset.
+  status: provisional
+  access_level: SI_screen
+  doi_evidence: sources/metadata/S118.crossref.json
+  doi_verification_scope: Crossref DOI, title, first authors, publication year and container checked; not independent
+    data verification
+  evidence_urls:
+  - https://ndownloader.figshare.com/files/34005709
+  unlocated_data:
+  - Measured wet CO2 dataset not established
+  extraction_id: T009-S118-audit
+  acceptance_core_measured_UiO_CO2: false
+  reviewed_by: T004
+  review_notes: '§7 NEW2: wet CO2 simulations; experimental water vapor only.'
+
+# T014 parameter evidence; independent review T014v / T016 pending.
+- source_id: S119
+  doi: 10.1002/mabi.201200052
+  doi_verified: true
+  url: https://doi.org/10.1002/mabi.201200052
+  oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3970578/
+  title: Poly(ethylene imine)s as Antimicrobial Agents with Selective Activity
+  authors:
+  - Katherine A. Gibney
+  - Iva Sovadinova
+  - Analette I. Lopez
+  - Michael Urban
+  - Zachary Ridgway
+  - Gregory A. Caputo
+  - Kenichi Kuroda
+  year: 2012
+  journal: Macromolecular Bioscience
+  license: Copyright Wiley; public author manuscript in PMC; no CC reuse license established
+  accessed: '2026-11-17'
+  files_available: &id001
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC3970578/
+  materials:
+  - Commercial branched PEI, Polysciences
+  role_candidate: analog
+  status: provisional
+  access_level: full_text_HTML
+  doi_evidence: sources/metadata/S119.crossref.json
+  doi_verification_scope: Crossref DOI, title, first author, year and journal matched on 2026-11-17; not
+    independent numerical verification
+  evidence_urls: *id001
+  limitations:
+  - NMR peak-deconvolution estimates, not a quantitative 13C NMR assay of the target PEI.
+  - Supplier MW differs from measured GPC Mw/Mn.
+- source_id: S121
+  doi: 10.1021/jacsau.5c01294
+  doi_verified: true
+  url: https://doi.org/10.1021/jacsau.5c01294
+  oa_url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12728659/fullTextXML
+  title: Climatic Conditions and Amine Loading Impact the Performance of Laminate-Supported Poly(ethylenimine)
+    Direct Air Capture Sorbents
+  authors:
+  - UnJin Ryu
+  - Youn Ji Min
+  - Wenyang Zhao
+  - Yunseok Lee
+  - Matthew J. Realff
+  - Christopher W. Jones
+  year: 2025
+  journal: JACS Au
+  license: Main article CC BY 4.0; Figshare SI CC BY-NC 4.0
+  accessed: '2026-11-17'
+  files_available: &id002
+  - https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12728659/fullTextXML
+  - https://ndownloader.figshare.com/files/59832669
+  materials:
+  - Branched PEI/ePTFE/mesoporous silica
+  role_candidate: analog
+  status: provisional
+  access_level: full_text_XML_and_publisher_SI
+  doi_evidence: sources/metadata/S121.crossref.json
+  license_evidence: sources/metadata/S121.figshare.json
+  doi_verification_scope: Crossref DOI, title, first author, year and journal matched on 2026-11-17; not
+    independent numerical verification
+  evidence_urls: *id002
+  limitations:
+  - DAC gas concentration and silica/ePTFE differ from PEI/UiO-66.
+  - Water curves are composite uptake, not an independently identified pure-PEI W_max.
+- source_id: S124
+  doi: 10.3390/ma11060887
+  doi_verified: true
+  url: https://doi.org/10.3390/ma11060887
+  oa_url: https://mdpi-res.com/d_attachment/materials/materials-11-00887/article_deploy/materials-11-00887.pdf
+  title: 'CO2 Capture with Mesoporous Silicas Modified with Amines by Double Functionalization: Assessment
+    of Adsorption/Desorption Cycles'
+  authors:
+  - Kléver Santiago Sánchez-Zambrano
+  - Lairana Lima Duarte
+  - Débora Aline Soares Maia
+  - Enrique Vilarrasa-García
+  - Moisés Bastos-Neto
+  - Enrique Rodríguez-Castellón
+  - Diana Cristina Silva de Azevedo
+  year: 2018
+  journal: Materials
+  license: CC BY 4.0
+  accessed: '2026-11-17'
+  files_available: &id003
+  - https://mdpi-res.com/d_attachment/materials/materials-11-00887/article_deploy/materials-11-00887.pdf
+  materials:
+  - APTES-grafted mesoporous silica MSG20
+  - PEI-impregnated MSG20I30
+  role_candidate: analog
+  status: provisional
+  access_level: full_text
+  doi_evidence: sources/metadata/S124.crossref.json
+  doi_verification_scope: Crossref DOI, title, first author, year and journal matched on 2026-11-17; not
+    independent numerical verification
+  evidence_urls: *id003
+  limitations:
+  - PEI molecular weight unknown; APTES adds a separate amine population.
+  - Calorimetric heat-decay time is not a common CO2/H2O mass-uptake time.
+- source_id: DESIGN-T014
+  doi: null
+  doi_verified: false
+  url: configs/scenarios.yaml
+  title: T014 retained stress bounds and unknown target parameters
+  license: Project-authored parameter design; not literature measurements
+  accessed: '2026-11-17'
+  role_candidate: assumption_range
+  status: provisional
+  evidence_urls:
+  - configs/scenarios.yaml
+  - configs/revision.yaml
+  - docs/model_spec.md
+  - docs/decisions.md
+  limitations:
+  - Finite stress boxes are not empirical confidence intervals or probability distributions.

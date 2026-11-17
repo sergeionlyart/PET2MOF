@@ -1,0 +1,485 @@
+extraction_id: T011-S105-Fig9
+source_id: S105
+doi: 10.3390/ma11040589
+url: https://www.mdpi.com/1996-1944/11/4/589
+input_sha256: 1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a
+pdf_page: 11
+api_page_map:
+  '1': 11
+figure_or_table: Fig9
+region:
+  image_ref: private/renders/T011-S105-Fig9.png
+  image_sha256: ef57ca39e09d96d27fba0cd066e52cc0b2e72c840ca381a8bf067c359b1964a8
+  crop_native_pixels:
+  - 0
+  - 0
+  - 2212
+  - 1652
+tool: scripts/extraction/digitize_c_series.py; NumPy/SciPy/Pillow; AxisCalibration
+tool_version: sha256:8db9672d603f3cc685691cc4cc4f6afb3a248fbf49b70d8f2dc914ccdb981ccb
+params:
+  project: data/extraction/digitization/T011-S105-Fig9.digitization.yaml
+  review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
+  overlay: private/renders/T011-S105-Fig9-overlay.png
+  overlay_sha256: db8d8d55b669edfe07096fbdcb81734871ec08e636077af99ed084080e089a60
+  limitations:
+  - 'Activation conflict: section 2.3 ambient-temperature vacuum 12 h vs section 3.4
+    vacuum 393 K 12 h.'
+  - N2 section 3.5 gives 0-1 bar while Fig.9 absolute-pressure axis extends to 1.2
+    bar; retain plotted coordinates.
+  - GO composites kept distinct from unmodified carriers; no transfer of uptake normalization.
+  - Langmuir lines excluded; Table 3 is a separate author_fit.
+  - T011v-D03 partial markers recovered individually; fully hidden shared-origin glyphs
+    cannot be counted or imputed.
+  T_K: 298
+  gas: N2
+  mass_basis: dry adsorbent; each material's own mass
+  RH: unknown; no humidification specified, not measured RH=0
+  license: CC BY 4.0
+  units: mmol/g
+  branch: adsorption; no desorption series identified in selected figure
+  series:
+    UiO-66:
+      status: provisional
+      reviewer: null
+      review_ref: null
+      pending_review: T011v2
+      usable_p_min_bar: 0.02145214521452145
+      usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+        origin coverage; no initial-slope fit without sensitivity check
+      origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+        individual glyphs; no origin imputed'
+      recoveries:
+      - id: S105-Fig9-s0-m01
+        figure: S105-Fig9
+        series_index: 0
+        defect: T011v-D03
+        window_native_pixels:
+        - 312
+        - 1352
+        - 372
+        - 1406
+        action: recovered
+        pixel:
+        - 336.5
+        - 1390.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 46
+        template_ink_pixels: 811
+        best_score: 46
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 336.5
+        - 1390.0
+        - 336.5
+        - 1390.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s0-m02
+        figure: S105-Fig9
+        series_index: 0
+        defect: T011v-D03
+        window_native_pixels:
+        - 347
+        - 1332
+        - 409
+        - 1399
+        action: recovered
+        pixel:
+        - 373.5
+        - 1371.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 33
+        template_ink_pixels: 811
+        best_score: 33
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 373.5
+        - 1371.0
+        - 373.5
+        - 1371.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s0-m03
+        figure: S105-Fig9
+        series_index: 0
+        defect: T011v-D03
+        window_native_pixels:
+        - 384
+        - 1312
+        - 446
+        - 1378
+        action: recovered
+        pixel:
+        - 412.0
+        - 1351.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 137
+        template_ink_pixels: 811
+        best_score: 137
+        equally_best_translations: 2
+        fit_center_bounds_native:
+        - 411.5
+        - 1351.0
+        - 412.5
+        - 1351.0
+        readout_bound_px: 7.5
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s0-m04
+        figure: S105-Fig9
+        series_index: 0
+        defect: T011v-D03
+        window_native_pixels:
+        - 417
+        - 1292
+        - 479
+        - 1358
+        action: recovered
+        pixel:
+        - 451.5
+        - 1331.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 252
+        template_ink_pixels: 811
+        best_score: 252
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 451.5
+        - 1331.0
+        - 451.5
+        - 1331.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s0-m05
+        figure: S105-Fig9
+        series_index: 0
+        defect: T011v-D03
+        window_native_pixels:
+        - 455
+        - 1272
+        - 517
+        - 1338
+        action: recovered
+        pixel:
+        - 490.5
+        - 1311.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 383
+        template_ink_pixels: 811
+        best_score: 383
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 490.5
+        - 1311.0
+        - 490.5
+        - 1311.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s0-m06
+        figure: S105-Fig9
+        series_index: 0
+        defect: T011v-D02
+        window_native_pixels:
+        - 532
+        - 1247
+        - 590
+        - 1304
+        action: recovered
+        pixel:
+        - 560.5
+        - 1276.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 460
+        template_ink_pixels: 811
+        best_score: 460
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 560.5
+        - 1276.0
+        - 560.5
+        - 1276.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      duplicate_detections_removed: []
+      baseline_coordinate_bytes_sha256: c42715a00b54042d9e882c654120b7de4f669105a9b81df3407d2f26ba090d6e
+      coordinate_bytes_sha256: 1b732b68eadb25b85baf4cb31c6e45e47a151c270d5b48f016742862a2b023d2
+      coordinates_byte_identical: false
+    UiO-66-NH2:
+      status: provisional
+      reviewer: null
+      review_ref: null
+      pending_review: T011v2
+      usable_p_min_bar: 0.02376237623762376
+      usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+        origin coverage; no initial-slope fit without sensitivity check
+      origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+        individual glyphs; no origin imputed'
+      recoveries:
+      - id: S105-Fig9-s1-m01
+        figure: S105-Fig9
+        series_index: 1
+        defect: T011v-D03
+        window_native_pixels:
+        - 313
+        - 1357
+        - 373
+        - 1418
+        action: recovered
+        pixel:
+        - 340.0
+        - 1390.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 229
+        template_ink_pixels: 846
+        best_score: 229
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 340.0
+        - 1390.0
+        - 340.0
+        - 1390.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s1-m02
+        figure: S105-Fig9
+        series_index: 1
+        defect: T011v-D03
+        window_native_pixels:
+        - 353
+        - 1346
+        - 407
+        - 1400
+        action: recovered
+        pixel:
+        - 377.0
+        - 1373.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 519
+        template_ink_pixels: 846
+        best_score: 519
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 377.0
+        - 1373.0
+        - 377.0
+        - 1373.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      duplicate_detections_removed: []
+      baseline_coordinate_bytes_sha256: 5bdf6c27f26ddae7fd0aaa5b77159cc3c0ca91dcf81b407054286de7e1bcc909
+      coordinate_bytes_sha256: edfc654e903a846539209274aadd34eced59051ff959d67c4506fded5e3e727b
+      coordinates_byte_identical: false
+    UiO-66/GO:
+      status: provisional
+      reviewer: null
+      review_ref: null
+      pending_review: T011v2
+      usable_p_min_bar: 0.02244224422442244
+      usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+        origin coverage; no initial-slope fit without sensitivity check
+      origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+        individual glyphs; no origin imputed'
+      recoveries:
+      - id: S105-Fig9-s2-m01
+        figure: S105-Fig9
+        series_index: 2
+        defect: T011v-D03
+        window_native_pixels:
+        - 311
+        - 1341
+        - 371
+        - 1408
+        action: recovered
+        pixel:
+        - 338.0
+        - 1375.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 234
+        template_ink_pixels: 686
+        best_score: 234
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 338.0
+        - 1375.0
+        - 338.0
+        - 1375.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s2-m02
+        figure: S105-Fig9
+        series_index: 2
+        defect: T011v-D03
+        window_native_pixels:
+        - 346
+        - 1313
+        - 404
+        - 1373
+        action: recovered
+        pixel:
+        - 374.0
+        - 1347.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 296
+        template_ink_pixels: 686
+        best_score: 296
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 374.0
+        - 1347.0
+        - 374.0
+        - 1347.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s2-m03
+        figure: S105-Fig9
+        series_index: 2
+        defect: T011v-D03
+        window_native_pixels:
+        - 378
+        - 1284
+        - 438
+        - 1346
+        action: recovered
+        pixel:
+        - 408.0
+        - 1318.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 325
+        template_ink_pixels: 686
+        best_score: 325
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 408.0
+        - 1318.0
+        - 408.0
+        - 1318.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s2-m04
+        figure: S105-Fig9
+        series_index: 2
+        defect: T011v-D03
+        window_native_pixels:
+        - 413
+        - 1257
+        - 473
+        - 1318
+        action: recovered
+        pixel:
+        - 442.0
+        - 1291.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 348
+        template_ink_pixels: 686
+        best_score: 348
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 442.0
+        - 1291.0
+        - 442.0
+        - 1291.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s2-m05
+        figure: S105-Fig9
+        series_index: 2
+        defect: T011v-D03
+        window_native_pixels:
+        - 447
+        - 1228
+        - 507
+        - 1289
+        action: recovered
+        pixel:
+        - 474.0
+        - 1265.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 334
+        template_ink_pixels: 686
+        best_score: 334
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 474.0
+        - 1265.0
+        - 474.0
+        - 1265.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      - id: S105-Fig9-s2-m06
+        figure: S105-Fig9
+        series_index: 2
+        defect: T011v-D03
+        window_native_pixels:
+        - 486
+        - 1199
+        - 546
+        - 1260
+        action: recovered
+        pixel:
+        - 512.0
+        - 1236.0
+        method: source color mask + occlusion-aware printed-template translation
+        visible_support_pixels: 382
+        template_ink_pixels: 686
+        best_score: 382
+        equally_best_translations: 1
+        fit_center_bounds_native:
+        - 512.0
+        - 1236.0
+        - 512.0
+        - 1236.0
+        readout_bound_px: 7.0
+        uncertainty: base readout + half span of equally optimal translations; calibration
+          added separately
+      duplicate_detections_removed: []
+      baseline_coordinate_bytes_sha256: 6045a160d7b0b70f942558c08afb733ea32906ded778d51c3229b6695acd36fb
+      coordinate_bytes_sha256: f24f7f7f3e2d4a64de5698df90d5271af3383efd7d1168c00eebcb2df9e44cef
+      coordinates_byte_identical: false
+    UiO-66-NH2/GO:
+      status: verified
+      reviewer: T011v
+      review_ref: reviews/T011v_c_series_verification.md
+      pending_review: null
+      usable_p_min_bar: 0.02046204620462046
+      usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+        origin coverage; no initial-slope fit without sensitivity check
+      origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+        individual glyphs; no origin imputed'
+      recoveries: []
+      duplicate_detections_removed: []
+      baseline_coordinate_bytes_sha256: 1615d6af6f46a47cacb8814a4f35c618485f030c79e26f1d9a7fc72f54f66d36
+      coordinate_bytes_sha256: 1615d6af6f46a47cacb8814a4f35c618485f030c79e26f1d9a7fc72f54f66d36
+      coordinates_byte_identical: true
+date: '2026-11-17T00:02:34.612603+00:00'
+raw_response_ref: private/renders/T011-S105-Fig9-native.png
+unit_conversions: []
+derived_sha256: 6bdc8d6ffcc411b74a330da287db8d587206895ee2bcc60f5482169f6b45582f
+status: provisional
+reviewer: null
+corrections:
+- task: T011b-c-series-fix
+  defects:
+  - T011v-D01
+  - T011v-D02
+  - T011v-D03
+  evidence: params.series; per-symbol recoveries and duplicate removals
+error_estimate:
+  readout_bound_px: 7.5
+  base_readout_bound_px: 7
+  calibration_endpoint_bound_px: 2
+  method: linear worst-case sum; no experimental uncertainty inferred
+data_kind: digitized_markers
+sensitivity_only: true

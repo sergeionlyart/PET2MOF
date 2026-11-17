@@ -1,0 +1,664 @@
+{
+  "extraction_id": "T014-DESIGN",
+  "source_id": "DESIGN-T014",
+  "doi": null,
+  "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+  "conditions": {
+    "T": "target adsorption 308.15 K; regeneration per existing scenario",
+    "RH": "target 0/40/70%; not used to infer any missing parameter",
+    "material": "target PEI/UiO-66; no target measurements claimed",
+    "PEI_Mw": "unknown",
+    "method": "retained project stress assumptions / exact physical endpoints",
+    "activation": "unknown"
+  },
+  "limitations": [
+    "No empirical confidence or probability interpretation.",
+    "Unknown target parameters must remain distinct from measured analog observables."
+  ],
+  "quantities": {
+    "tau_over_t": {
+      "range": [
+        0.0,
+        10.0
+      ],
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.tau_grid; interval envelope of D-08 scenario grid, not a continuous prior",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t"
+    },
+    "tau_over_t_unknown": {
+      "value": null,
+      "unit": "1",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t_unknown"
+    },
+    "Q_W": {
+      "range": [
+        0.0,
+        80000.0
+      ],
+      "unit": "J/mol",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.screen_bounds.Q_W",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_W"
+    },
+    "Q_W_unknown": {
+      "value": null,
+      "unit": "J/mol",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_W_unknown"
+    },
+    "gamma": {
+      "range": [
+        -1.0,
+        2.0
+      ],
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.screen_bounds.gamma",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/gamma"
+    },
+    "gamma_unknown": {
+      "value": null,
+      "unit": "1",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/gamma_unknown"
+    },
+    "kappa": {
+      "range": [
+        0.0,
+        2.3
+      ],
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.screen_bounds.kappa",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/kappa"
+    },
+    "kappa_unknown": {
+      "value": null,
+      "unit": "1",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/kappa_unknown"
+    },
+    "V_p0": {
+      "range": [
+        0.1,
+        2.0
+      ],
+      "unit": "cm3/g MOF",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.screen_bounds.V_p0",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/V_p0"
+    },
+    "V_p0_unknown": {
+      "value": null,
+      "unit": "cm3/g MOF",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/V_p0_unknown"
+    },
+    "alpha_in": {
+      "range": [
+        0.0,
+        1.0
+      ],
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.screen_bounds.alpha_in",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/alpha_in"
+    },
+    "alpha_in_unknown": {
+      "value": null,
+      "unit": "1",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/alpha_in_unknown"
+    },
+    "W_max": {
+      "range": [
+        0.0,
+        200.0
+      ],
+      "unit": "mmol/g PEI",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.screen_bounds.W_max; lower bound expanded to exact zero-water limit, upper unchanged",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/W_max"
+    },
+    "W_max_unknown": {
+      "value": null,
+      "unit": "mmol/g PEI",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/W_max_unknown"
+    },
+    "h_max": {
+      "range": [
+        0.0,
+        1.0
+      ],
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.screen_bounds.h_max",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/h_max"
+    },
+    "h_max_unknown": {
+      "value": null,
+      "unit": "1",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/h_max_unknown"
+    },
+    "Q_phys": {
+      "range": [
+        0.0,
+        60000.0
+      ],
+      "unit": "J/mol",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.screen_bounds.Q_phys",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_phys"
+    },
+    "Q_phys_unknown": {
+      "value": null,
+      "unit": "J/mol",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_phys_unknown"
+    },
+    "Q_d": {
+      "range": [
+        0.0,
+        120000.0
+      ],
+      "unit": "J/mol",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/scenarios.yaml:scenario.screen_bounds.Q_d",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_d"
+    },
+    "Q_d_unknown": {
+      "value": null,
+      "unit": "J/mol",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/Q_d_unknown"
+    },
+    "f3": {
+      "range": [
+        0.0,
+        1.0
+      ],
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "docs/model_spec.md §4.1 fraction simplex; full ignorance stress, not NMR evidence",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/f3"
+    },
+    "f3_unknown": {
+      "value": null,
+      "unit": "1",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/f3_unknown"
+    },
+    "water_volume_transfer": {
+      "range": [
+        0.25,
+        4.0
+      ],
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/revision.yaml:water_volume_transfer_bounds",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/water_volume_transfer"
+    },
+    "water_volume_transfer_unknown": {
+      "value": null,
+      "unit": "1",
+      "type": "unknown",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "unknown",
+      "transfer_class": "target_unknown",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review for observables and mapping limitations.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/water_volume_transfer_unknown"
+    },
+    "kappa_connectivity": {
+      "range": [
+        0.0,
+        10.0
+      ],
+      "unit": "1",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "configs/revision.yaml:versions v1.1-connectivity; distinct structural branch, not pooled with linear kappa.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/kappa_connectivity"
+    },
+    "stage_time": {
+      "range": [
+        600.0,
+        3600.0
+      ],
+      "unit": "s",
+      "type": "assumption_range",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "assumption_range",
+      "transfer_class": "target_stress_only",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "t_ads and t_des both [600,3600] in configs/scenarios.yaml; design time, not a material property.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/stage_time"
+    },
+    "tau_over_t_des_analog": {
+      "range": [
+        0.3106674672798059,
+        3.2572086142743886
+      ],
+      "unit": "1",
+      "type": "derived",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "conditional_exponential_equivalent",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Envelope tau/t over stage-time design and S116 reactor-equivalent tau; no H2O equivalence, no common tau inference.",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t_des_analog",
+      "derived_from": [
+        "T014-S116-desorption:tau_CO2_des",
+        "T014-DESIGN:stage_time"
+      ]
+    },
+    "tau_over_t_heat_analog": {
+      "range": [
+        0.35388888888888886,
+        2.1233333333333335
+      ],
+      "unit": "1",
+      "type": "derived",
+      "source_id": "DESIGN-T014",
+      "extraction_id": "T014-DESIGN",
+      "status": "provisional",
+      "evidence_kind": "conditional_heat_signal_proxy",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "target adsorption 308.15 K; regeneration per existing scenario",
+        "RH": "target 0/40/70%; not used to infer any missing parameter",
+        "material": "target PEI/UiO-66; no target measurements claimed",
+        "PEI_Mw": "unknown",
+        "method": "retained project stress assumptions / exact physical endpoints",
+        "activation": "unknown"
+      },
+      "locator": "scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17",
+      "limitations": "Reported heat-signal parameter / chosen stage time only. Eq.(2) in S124 leaves the log base unspecified; this ratio is NOT an identified e-fold CO2/H2O relaxation ratio. If log means base ten, e-fold time would additionally require division by ln(10).",
+      "evidence_ref": "data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t_heat_analog",
+      "derived_from": [
+        "T014-S124-kinetics:tau_heat_max",
+        "T014-DESIGN:stage_time"
+      ]
+    }
+  }
+}

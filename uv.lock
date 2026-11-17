@@ -1273,6 +1273,9 @@ dependencies = [
 ]
 
 [package.optional-dependencies]
+fetch = [
+    { name = "requests" },
+]
 ocr-cloud = [
     { name = "google-auth" },
     { name = "google-cloud-documentai" },
@@ -1291,10 +1294,11 @@ requires-dist = [
     { name = "pymupdf", specifier = ">=1.24,<2" },
     { name = "pytest", specifier = ">=8.2,<10" },
     { name = "pyyaml", specifier = ">=6.0.1,<7" },
+    { name = "requests", marker = "extra == 'fetch'", specifier = ">=2.32,<3" },
     { name = "requests", marker = "extra == 'ocr-cloud'", specifier = ">=2.32,<3" },
     { name = "scipy", specifier = ">=1.12,<2" },
 ]
-provides-extras = ["ocr-cloud"]
+provides-extras = ["fetch", "ocr-cloud"]
 
 [[package]]
 name = "pillow"

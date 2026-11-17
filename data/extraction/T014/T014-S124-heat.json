@@ -1,0 +1,92 @@
+{
+  "extraction_id": "T014-S124-heat",
+  "source_id": "S124",
+  "doi": "10.3390/ma11060887",
+  "locator": "p.9 text above Fig.5; Table 7 p.13 is a separate representative heat",
+  "conditions": {
+    "T": "25 °C microcalorimetry",
+    "RH": "anhydrous",
+    "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+    "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+    "method": "Tian-Calvet / Setaram C80 coupled to manometric gas dosing",
+    "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+  },
+  "limitations": [
+    "Initial differential heats are a high-energy tail, not a whole-coverage constant Q_d.",
+    "APTES and PEI contributions are not resolved; no transfer to pure PEI/UiO-66."
+  ],
+  "quantities": {
+    "initial_heat": {
+      "range": [
+        110.0,
+        120.0
+      ],
+      "unit": "kJ/mol CO2",
+      "type": "literature_range",
+      "source_id": "S124",
+      "extraction_id": "T014-S124-heat",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C microcalorimetry",
+        "RH": "anhydrous",
+        "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+        "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+        "method": "Tian-Calvet / Setaram C80 coupled to manometric gas dosing",
+        "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+      },
+      "locator": "p.9 text above Fig.5; Table 7 p.13 is a separate representative heat",
+      "limitations": "Initial differential heats are a high-energy tail, not a whole-coverage constant Q_d.; APTES and PEI contributions are not resolved; no transfer to pure PEI/UiO-66.",
+      "evidence_ref": "data/extraction/T014/T014-S124-heat.json#/quantities/initial_heat"
+    },
+    "Q_d_initial_proxy": {
+      "range": [
+        110000.0,
+        120000.0
+      ],
+      "unit": "J/mol",
+      "type": "derived",
+      "source_id": "S124",
+      "extraction_id": "T014-S124-heat",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C microcalorimetry",
+        "RH": "anhydrous",
+        "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+        "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+        "method": "Tian-Calvet / Setaram C80 coupled to manometric gas dosing",
+        "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+      },
+      "locator": "p.9 text above Fig.5; Table 7 p.13 is a separate representative heat",
+      "limitations": "Initial differential heats are a high-energy tail, not a whole-coverage constant Q_d.; APTES and PEI contributions are not resolved; no transfer to pure PEI/UiO-66.",
+      "evidence_ref": "data/extraction/T014/T014-S124-heat.json#/quantities/Q_d_initial_proxy",
+      "derived_from": [
+        "initial_heat"
+      ]
+    },
+    "representative_heat": {
+      "value": 73.2,
+      "unit": "kJ/mol CO2",
+      "type": "literature_range",
+      "source_id": "S124",
+      "extraction_id": "T014-S124-heat",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C microcalorimetry",
+        "RH": "anhydrous",
+        "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+        "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+        "method": "Tian-Calvet / Setaram C80 coupled to manometric gas dosing",
+        "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+      },
+      "locator": "p.9 text above Fig.5; Table 7 p.13 is a separate representative heat",
+      "limitations": "MSG20I30 Table 7 p.13, representative heat used for API at 50/75 °C; not two independent heat measurements. No pooling with initial differential heat.",
+      "evidence_ref": "data/extraction/T014/T014-S124-heat.json#/quantities/representative_heat"
+    }
+  }
+}

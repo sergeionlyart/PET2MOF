@@ -1,0 +1,262 @@
+{
+  "extraction_id": "T014-S121-humidity",
+  "source_id": "S121",
+  "doi": "10.1021/jacsau.5c01294",
+  "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+  "conditions": {
+    "T": "35 °C; only this column extracted",
+    "RH": "0,20,50,80% RH",
+    "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+    "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+    "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+    "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+  },
+  "limitations": [
+    "Silica/ePTFE and DAC gas differ from target MOF/flue gas.",
+    "Do not impose a single RH multiplier: sign changes with loading and RH."
+  ],
+  "quantities": {
+    "RH": {
+      "value": [
+        0.0,
+        20.0,
+        50.0,
+        80.0
+      ],
+      "unit": "%",
+      "type": "literature_range",
+      "source_id": "S121",
+      "extraction_id": "T014-S121-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "35 °C; only this column extracted",
+        "RH": "0,20,50,80% RH",
+        "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+        "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+        "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+        "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+      },
+      "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+      "limitations": "Silica/ePTFE and DAC gas differ from target MOF/flue gas.; Do not impose a single RH multiplier: sign changes with loading and RH.",
+      "evidence_ref": "data/extraction/T014/T014-S121-humidity.json#/quantities/RH"
+    },
+    "loading_labels": {
+      "value": [
+        30.0,
+        40.0,
+        50.0
+      ],
+      "unit": "%",
+      "type": "literature_range",
+      "source_id": "S121",
+      "extraction_id": "T014-S121-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "35 °C; only this column extracted",
+        "RH": "0,20,50,80% RH",
+        "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+        "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+        "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+        "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+      },
+      "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+      "limitations": "Silica/ePTFE and DAC gas differ from target MOF/flue gas.; Do not impose a single RH multiplier: sign changes with loading and RH.",
+      "evidence_ref": "data/extraction/T014/T014-S121-humidity.json#/quantities/loading_labels"
+    },
+    "q_30": {
+      "value": [
+        0.99,
+        1.07,
+        1.01,
+        0.81
+      ],
+      "unit": "mmol CO2/g sorbent",
+      "type": "literature_range",
+      "source_id": "S121",
+      "extraction_id": "T014-S121-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "35 °C; only this column extracted",
+        "RH": "0,20,50,80% RH",
+        "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+        "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+        "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+        "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+      },
+      "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+      "limitations": "Order matches RH; values from one temperature, same nominal loading. Not normalized to PEI alone.",
+      "evidence_ref": "data/extraction/T014/T014-S121-humidity.json#/quantities/q_30"
+    },
+    "ratio_30": {
+      "value": [
+        1.0808080808080809,
+        1.02020202020202,
+        0.8181818181818182
+      ],
+      "unit": "1",
+      "type": "derived",
+      "source_id": "S121",
+      "extraction_id": "T014-S121-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "35 °C; only this column extracted",
+        "RH": "0,20,50,80% RH",
+        "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+        "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+        "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+        "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+      },
+      "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+      "limitations": "Humid/dry ratios in RH order 20,50,80%; not gamma or nitrogen accessibility.",
+      "evidence_ref": "data/extraction/T014/T014-S121-humidity.json#/quantities/ratio_30",
+      "derived_from": [
+        "q_30"
+      ]
+    },
+    "q_40": {
+      "value": [
+        1.45,
+        1.7,
+        1.57,
+        1.33
+      ],
+      "unit": "mmol CO2/g sorbent",
+      "type": "literature_range",
+      "source_id": "S121",
+      "extraction_id": "T014-S121-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "35 °C; only this column extracted",
+        "RH": "0,20,50,80% RH",
+        "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+        "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+        "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+        "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+      },
+      "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+      "limitations": "Order matches RH; values from one temperature, same nominal loading. Not normalized to PEI alone.",
+      "evidence_ref": "data/extraction/T014/T014-S121-humidity.json#/quantities/q_40"
+    },
+    "ratio_40": {
+      "value": [
+        1.1724137931034482,
+        1.0827586206896553,
+        0.9172413793103449
+      ],
+      "unit": "1",
+      "type": "derived",
+      "source_id": "S121",
+      "extraction_id": "T014-S121-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "35 °C; only this column extracted",
+        "RH": "0,20,50,80% RH",
+        "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+        "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+        "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+        "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+      },
+      "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+      "limitations": "Humid/dry ratios in RH order 20,50,80%; not gamma or nitrogen accessibility.",
+      "evidence_ref": "data/extraction/T014/T014-S121-humidity.json#/quantities/ratio_40",
+      "derived_from": [
+        "q_40"
+      ]
+    },
+    "q_50": {
+      "value": [
+        1.62,
+        2.09,
+        2.05,
+        1.84
+      ],
+      "unit": "mmol CO2/g sorbent",
+      "type": "literature_range",
+      "source_id": "S121",
+      "extraction_id": "T014-S121-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "35 °C; only this column extracted",
+        "RH": "0,20,50,80% RH",
+        "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+        "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+        "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+        "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+      },
+      "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+      "limitations": "Order matches RH; values from one temperature, same nominal loading. Not normalized to PEI alone.",
+      "evidence_ref": "data/extraction/T014/T014-S121-humidity.json#/quantities/q_50"
+    },
+    "ratio_50": {
+      "value": [
+        1.2901234567901232,
+        1.265432098765432,
+        1.1358024691358024
+      ],
+      "unit": "1",
+      "type": "derived",
+      "source_id": "S121",
+      "extraction_id": "T014-S121-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "35 °C; only this column extracted",
+        "RH": "0,20,50,80% RH",
+        "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+        "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+        "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+        "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+      },
+      "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+      "limitations": "Humid/dry ratios in RH order 20,50,80%; not gamma or nitrogen accessibility.",
+      "evidence_ref": "data/extraction/T014/T014-S121-humidity.json#/quantities/ratio_50",
+      "derived_from": [
+        "q_50"
+      ]
+    },
+    "wet_dry_ratio": {
+      "range": [
+        0.8181818181818182,
+        1.2901234567901232
+      ],
+      "unit": "1",
+      "type": "derived",
+      "source_id": "S121",
+      "extraction_id": "T014-S121-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "35 °C; only this column extracted",
+        "RH": "0,20,50,80% RH",
+        "material": "30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE",
+        "PEI_Mw": "Mw~800 by LS, Mn~600 by GPC (SI p.3)",
+        "method": "fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3",
+        "activation": "fixed-bed protocol Fig.S7; no extrapolation to 5% CO2"
+      },
+      "locator": "SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7",
+      "limitations": "Silica/ePTFE and DAC gas differ from target MOF/flue gas.; Do not impose a single RH multiplier: sign changes with loading and RH.",
+      "evidence_ref": "data/extraction/T014/T014-S121-humidity.json#/quantities/wet_dry_ratio",
+      "derived_from": [
+        "ratio_30",
+        "ratio_40",
+        "ratio_50"
+      ]
+    }
+  }
+}

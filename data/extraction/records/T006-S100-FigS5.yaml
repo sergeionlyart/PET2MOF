@@ -35,8 +35,8 @@ date: '2026-11-16T22:23:58.342710+00:00'
 raw_response_ref: private/ocr_cache/raw/f08be584687e8d27874106751eeb5a606e073786fbb2f564df3fef9665b9fbe0.json
 unit_conversions: []
 derived_sha256: 99a4eda0dbacd43a188161fafbc56c3983e2a53013fffa27c6cb054559a4b23c
-status: provisional
-reviewer: null
+status: verified
+reviewer: T007 (digitization fidelity); lead D-15 (conditions via NIST Fig.4 cross-match)
 corrections:
 - action: exclude unresolved blue marker overlapped by green near x=45 on displayed
     scale

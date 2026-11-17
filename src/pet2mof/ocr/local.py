@@ -1,5 +1,6 @@
 """One-based PDF pages. Quality metrics are review signals, never acceptance."""
 
+import os
 import shutil
 import subprocess
 import tempfile
@@ -35,6 +36,7 @@ def extract_local(input_path, pages, *, method="pymupdf", language="eng", workdi
 
     if method not in {"pymupdf", "pdftotext", "tesseract"}:
         raise ValueError("unknown local engine")
+    child_env = {key: os.environ[key] for key in ("PATH", "LANG", "LC_ALL", "SYSTEMROOT") if key in os.environ}
     path = Path(input_path).resolve()
     with pymupdf.open(path) as document:
         selected = validate_pages(pages, len(document))
@@ -49,9 +51,9 @@ def extract_local(input_path, pages, *, method="pymupdf", language="eng", workdi
                 binary = shutil.which("pdftotext")
                 if not binary:
                     raise RuntimeError("pdftotext is not installed")
-                run = subprocess.run([binary, "-layout", "-f", str(number), "-l", str(number), str(path), "-"], capture_output=True, check=True)
+                run = subprocess.run([binary, "-layout", "-f", str(number), "-l", str(number), str(path), "-"], capture_output=True, check=True, env=child_env)
                 text = run.stdout.decode("utf-8")
-                version_run = subprocess.run([binary, "-v"], capture_output=True, check=True)
+                version_run = subprocess.run([binary, "-v"], capture_output=True, check=True, env=child_env)
                 version = (version_run.stderr or version_run.stdout).decode().splitlines()[0]
             else:
                 binary = "/opt/homebrew/bin/tesseract"
@@ -62,9 +64,9 @@ def extract_local(input_path, pages, *, method="pymupdf", language="eng", workdi
                 with tempfile.TemporaryDirectory(dir=workdir) as directory:
                     image = Path(directory) / "page.png"
                     page.get_pixmap(dpi=300).save(image)
-                    run = subprocess.run([binary, str(image), "stdout", "-l", language, "--dpi", "300"], capture_output=True, check=True)
+                    run = subprocess.run([binary, str(image), "stdout", "-l", language, "--dpi", "300"], capture_output=True, check=True, env=child_env)
                     text = run.stdout.decode("utf-8")
-                version = subprocess.run([binary, "--version"], capture_output=True, check=True).stdout.decode().splitlines()[0]
+                version = subprocess.run([binary, "--version"], capture_output=True, check=True, env=child_env).stdout.decode().splitlines()[0]
             result.append({"pdf_page": number, "api_page": len(result) + 1, "text": text,
                            "quality": quality_metrics(original, page.get_text("blocks"))})
     return {"engine": method, "version": version, "pages": result,

@@ -20,7 +20,8 @@ API = 'https://adsorption.nist.gov/isodb/api/'
 FIELDS = ['filename', 'url', 'sha256', 'bytes', 'accessed_utc', 'DOI',
           'articleSource', 'material', 'adsorbate', 'T_K', 'pressure_units',
           'adsorption_units', 'n_points', 'category', 'digitizer', 'tabular_data',
-          'extraction_id', 'status', 'http_method', 'request_body']
+          'extraction_id', 'status', 'http_method', 'request_body',
+          'redistributed', 'reason']
 GASES = {'CURLTUGMZLYLDI-UHFFFAOYSA-N', 'IJGRMHOSHXDMSA-UHFFFAOYSA-N',
          'XLYOFNOQVPJJNP-UHFFFAOYSA-N'}
 
@@ -90,6 +91,12 @@ def main():
             if i % 40 == 0:
                 print(f'{i}/{len(jobs)} responses saved', flush=True)
     for row in rows:
+        if row['filename'].startswith('catalogs/'):
+            row.update(redistributed='false', reason='Large catalog; reacquirable via NIST API')
+        elif row['filename'].startswith('docs/'):
+            row.update(redistributed='false', reason='Web documentation may embed third-party tokens; not needed for reproduction')
+        else:
+            row.update(redistributed='true', reason='Redistributed raw API response for offline reproduction')
         row['http_method'] = row.get('http_method') or 'GET'
         row.setdefault('request_body', '')
         if not row['filename'].startswith('isotherms/'):
@@ -104,7 +111,7 @@ def main():
                    digitizer=x.get('digitizer', ''), tabular_data=x.get('tabular_data', ''),
                    extraction_id='T002-' + Path(row['filename']).stem, status='provisional')
     with (ROOT / 'manifest.csv').open('w', newline='', encoding='utf-8') as stream:
-        writer = csv.DictWriter(stream, fieldnames=FIELDS)
+        writer = csv.DictWriter(stream, fieldnames=FIELDS, lineterminator='\n')
         writer.writeheader()
         writer.writerows(sorted(rows, key=lambda r: r['filename']))
     for receipt in ROOT.rglob('*.receipt.json'):

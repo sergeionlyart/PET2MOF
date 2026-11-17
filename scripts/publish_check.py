@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Fail closed, with paths/rule names only; never print matched text or git identity."""
 
+import fnmatch
 import hashlib
 import json
 import re
 import shutil
+import stat
 import subprocess
 import tempfile
 from pathlib import Path
@@ -25,14 +27,17 @@ def reserved_email_domain(domain):
             or domain.endswith((".test", ".invalid")))
 
 
-def load_allowlist(root):
+def load_allowlist(root, *, entries=None):
     """Exact paths and checks only; malformed review records fail closed."""
-    path = root / "configs/publish_allowlist.yaml"
-    if path.is_symlink():
-        raise ValueError("symlink allowlist")
-    if not path.exists():
+    if entries is None:
+        entries = index_entries(root)
+    entry = entries.get("configs/publish_allowlist.yaml")
+    if entry is None:
         return []
-    records = yaml.safe_load(path.read_text(encoding="utf-8"))
+    mode, oid = entry
+    if mode not in {"100644", "100755"}:
+        raise ValueError("non-regular allowlist")
+    records = yaml.safe_load(index_blob(root, oid).decode("utf-8"))
     if not isinstance(records, list):
         raise ValueError("expected review records")
     for entry in records:
@@ -69,6 +74,115 @@ def sensitive_rules(text):
     return rules
 
 
+# Canonical publication policy. .gitignore and .dockerignore mirror these
+# patterns; regression tests enforce their agreement. Match directories at any
+# depth, and root-relative paths containing a slash exactly as Git does.
+CREDENTIAL_PATTERNS = (
+    "**/credentials*.json", "**/auth.json", "**/service_account*.json",
+    "**/application_default_credentials.json", "*.pem", "*.key", "*.p12", "*.pfx",
+)
+FORBIDDEN_PATTERNS = (
+    ".env*", "*.env", "private/", "secrets/", ".secrets/", ".local/", ".agent_sessions/",
+    *CREDENTIAL_PATTERNS, "data/raw/pdf/", "data/raw/html/", "data/raw/figures_full/",
+)
+
+
+def forbidden_path(relative):
+    parts = Path(relative).parts
+    for pattern in FORBIDDEN_PATTERNS:
+        if pattern.endswith("/"):
+            directory = pattern.rstrip("/")
+            if ("/" in directory and relative.startswith(directory + "/")) or directory in parts[:-1]:
+                return True
+        elif pattern.startswith("**/"):
+            if fnmatch.fnmatchcase(parts[-1], pattern[3:]):
+                return True
+        elif pattern == ".env*":
+            # Only the final component may be the public template (T008-09).
+            if any(fnmatch.fnmatchcase(part, pattern) for part in parts[:-1]):
+                return True
+            if parts[-1] != ".env.example" and fnmatch.fnmatchcase(parts[-1], pattern):
+                return True
+        elif any(fnmatch.fnmatchcase(part, pattern) for part in parts):
+            return True
+    return False
+
+
+def index_entries(root):
+    result = command(root, ["git", "ls-files", "--stage", "-z"])
+    if result.returncode:
+        raise ValueError("unreadable index")
+    entries = {}
+    for record in result.stdout.split(b"\0"):
+        if not record:
+            continue
+        header, name = record.split(b"\t", 1)
+        mode, oid, stage = header.decode("ascii").split()
+        relative = name.decode("utf-8")
+        if stage != "0" or mode not in {"100644", "100755", "120000", "160000"}:
+            raise ValueError("unsupported index entry")
+        if (not re.fullmatch(r"[0-9a-f]{40}|[0-9a-f]{64}", oid)
+                or Path(relative).is_absolute() or ".." in Path(relative).parts):
+            raise ValueError("invalid index entry")
+        entries[relative] = (mode, oid)
+    return entries
+
+
+def index_blob(root, oid):
+    result = command(root, ["git", "cat-file", "blob", oid])
+    if result.returncode:
+        raise ValueError("unreadable index blob")
+    return result.stdout
+
+
+def tree_oid(root):
+    result = command(root, ["git", "write-tree"])
+    oid = result.stdout.decode("ascii").strip()
+    if result.returncode or not re.fullmatch(r"[0-9a-f]{40}|[0-9a-f]{64}", oid):
+        raise ValueError("unreadable index tree")
+    return oid
+
+
+def index_matches_tree(root, entries, oid):
+    result = command(root, ["git", "ls-tree", "-r", "-z", oid])
+    if result.returncode:
+        return False
+    tree = {}
+    for record in result.stdout.split(b"\0"):
+        if record:
+            header, name = record.split(b"\t", 1)
+            mode, _, blob = header.decode("ascii").split()
+            tree[name.decode("utf-8")] = (mode, blob)
+    return entries == tree
+
+
+def no_symlink_components(root, relative):
+    """lstat, including dangling links; never open working file contents."""
+    path = root
+    for part in Path(relative).parts:
+        path = path / part
+        try:
+            mode = path.lstat().st_mode
+        except FileNotFoundError:
+            return True  # Deleted working paths still have their index blobs.
+        if stat.S_ISLNK(mode):
+            return False
+    return True
+
+
+def owner_markers(root):
+    """Literal strings that identify this machine's owner: home path and private global e-mail."""
+    markers = []
+    home = str(Path.home())
+    if home.count("/") >= 2:
+        markers.append(home + "/")
+    email = command(root, ["git", "config", "--global", "user.email"])
+    value = email.stdout.decode("utf-8", "replace").strip() if email.returncode == 0 else ""
+    if "@" in value and not value.lower().endswith("@users.noreply.github.com"):
+        markers.append(value)
+    return markers
+
+
 def check(root):
     root = Path(root).resolve()
     failures = []
@@ -78,67 +192,86 @@ def check(root):
         if not ok:
             failures.append(label)
 
-    tracked_run = command(root, ["git", "ls-files", "-z"])
-    if tracked_run.returncode:
+    try:
+        checked_tree = tree_oid(root)
+        entries = index_entries(root)
+        if not index_matches_tree(root, entries, checked_tree):
+            raise ValueError("index changed while capturing tree")
+    except (OSError, ValueError, UnicodeError):
         report("git-index-readable", False)
         return 1
-    tracked = tracked_run.stdout.decode().split("\0")[:-1]
-    # Also inspect untracked publishable source files in this pre-commit worktree.
-    untracked_run = command(root, ["git", "ls-files", "--others", "--exclude-standard", "-z"])
-    report("git-untracked-readable", untracked_run.returncode == 0)
-    public = sorted(set(tracked + untracked_run.stdout.decode().split("\0")[:-1]))
+    print(f"publish-check: tree={checked_tree}")
+    private = {name for name in entries if forbidden_path(name)}
+    report("no-private-tracked-files", not private)
+    for name in sorted(private):
+        print(f"FAIL forbidden-index:path={json.dumps(name, ensure_ascii=True)}")
 
-    def dotenv(path):
-        name = Path(path).name
-        return name != ".env.example" and (name == ".env" or name.endswith(".env") or name.startswith(".env."))
-
-    report("dotenv-not-in-index", not any(dotenv(path) for path in tracked))
-    history = command(root, ["git", "log", "--all", "--format=%H", "--", ".env", "*.env", ".env.*", ":(exclude).env.example", ":(exclude)**/.env.example"])
-    report("dotenv-not-in-history", history.returncode == 0 and not history.stdout.strip())
+    # main, the candidate branch and all tags are publication roots. Every
+    # reachable commit tree is inspected, including files deleted by later commits.
+    history = command(root, ["git", "rev-list", "main", "HEAD", "--tags"])
+    history_ok = history.returncode == 0
+    seen = set()
+    for commit in history.stdout.decode("ascii").splitlines() if history_ok else []:
+        result = command(root, ["git", "ls-tree", "-r", "--name-only", "-z", commit])
+        if result.returncode:
+            history_ok = False
+            continue
+        for name in result.stdout.decode("utf-8").split("\0")[:-1]:
+            if forbidden_path(name):
+                history_ok = False
+                if name not in seen:
+                    print(f"FAIL forbidden-history:commit={commit}:path={json.dumps(name, ensure_ascii=True)}")
+                    seen.add(name)
+    report("no-private-history-files", history_ok)
+    # Machine-specific owner markers (home directory, private global e-mail) must
+    # not occur in any reachable commit. Values are never printed.
+    markers = owner_markers(root)
+    marker_ok = history.returncode == 0
+    for commit in history.stdout.decode("ascii").splitlines() if marker_ok and markers else []:
+        args = ["git", "grep", "-I", "-l", "-F"]
+        for marker in markers:
+            args += ["-e", marker]
+        found = command(root, args + [commit])
+        if found.returncode not in (0, 1):
+            marker_ok = False
+        elif found.returncode == 0:
+            marker_ok = False
+            for name in found.stdout.decode("utf-8", "replace").splitlines():
+                print(f"FAIL owner-marker-history:path={json.dumps(name.split(':', 1)[-1], ensure_ascii=True)}:commit={commit}")
+    report("no-owner-markers-in-history", marker_ok)
     report("no-workflows", not (root / ".github/workflows").exists()
-           and not any(path.startswith(".github/workflows/") for path in public))
-    private = ("private/", "data/raw/pdf/", "data/raw/html/")
-    report("no-private-tracked-files", not any(path.startswith(private) for path in tracked))
+           and not any(path.startswith(".github/workflows/") for path in entries))
     identity = command(root, ["git", "config", "user.email"])
     report("noreply-git-identity", identity.returncode == 0 and identity.stdout.strip().lower().endswith(b"@users.noreply.github.com"))
     try:
-        allowlist = load_allowlist(root)
+        allowlist = load_allowlist(root, entries=entries)
     except (OSError, ValueError, yaml.YAMLError):
         report("publish-allowlist-valid", False)
         allowlist = []
-    for entry in allowlist:
-        reviewed = root / entry["path"]
+    # Materialize only index blob bytes. Neither own checks nor gitleaks snapshots
+    # follow working-tree paths (even when parents are replaced with symlinks).
+    blobs = {}
+    unreadable = 0
+    for relative, (mode, oid) in entries.items():
         try:
-            relative = Path(entry["path"])
-            current = (entry["path"] in public and not dotenv(entry["path"])
-                       and not entry["path"].startswith(private)
-                       and not any((root / parent).is_symlink()
-                                   for parent in (relative, *relative.parents))
-                       and hashlib.sha256(reviewed.read_bytes()).hexdigest() == entry["sha256"])
-        except OSError:
-            current = False
-        if not current:
+            safe = mode in {"100644", "100755"} and no_symlink_components(root, relative)
+            if not safe:
+                unreadable += 1
+            elif relative not in private:
+                blobs[relative] = index_blob(root, oid)
+        except (OSError, ValueError):
+            unreadable += 1
+    for entry in allowlist:
+        payload = blobs.get(entry["path"])
+        if payload is None or hashlib.sha256(payload).hexdigest() != entry["sha256"]:
             report(f"publish-allowlist-current:path={json.dumps(entry['path'], ensure_ascii=True)}", False)
     counts = {}
     bad_notebooks = 0
-    unreadable = 0
-    for relative in public:
-        if dotenv(relative) or relative.startswith(private):
-            continue  # Do not read secret/private contents, even if incorrectly tracked.
-        path = root / relative
-        if not path.exists():
-            continue  # Tracked deletions have no working-tree content.
-        if path.is_symlink():
-            unreadable += 1  # Never follow a symlink to credentials outside the worktree.
-            continue
+    for relative, payload in blobs.items():
         try:
-            payload = path.read_bytes()
             text = payload.decode("utf-8")
         except UnicodeDecodeError:
-            continue  # Binary artifacts require the manual publication review (§10.3).
-        except OSError:
-            unreadable += 1
-            continue
+            continue  # Binary artifacts require manual publication review (§10.3).
         for rule in sensitive_rules(text):
             if not allowed_text_check(allowlist, relative, rule, payload):
                 counts[rule] = counts.get(rule, 0) + 1
@@ -147,7 +280,7 @@ def check(root):
             try:
                 notebook = json.loads(text)
                 bad_notebooks += any(cell.get("outputs") or cell.get("execution_count") is not None for cell in notebook["cells"])
-            except (ValueError, KeyError, TypeError):
+            except (ValueError, KeyError, TypeError, AttributeError):
                 bad_notebooks += 1
     report("public-files-readable-no-symlinks", unreadable == 0)
     for rule in TEXT_CHECKS:
@@ -156,23 +289,21 @@ def check(root):
 
     if not shutil.which("gitleaks"):
         report("gitleaks-installed", False)
+    elif ".gitleaks.toml" not in blobs:
+        report("gitleaks-index-config-present", False)
     else:
-        # Scan only publishable working-tree files. Private/ignored directories are
-        # never copied; the same checked-in config governs all three scans.
-        config = root / ".gitleaks.toml"
         with tempfile.TemporaryDirectory(prefix="publish-") as directory:
             snapshot = Path(directory) / "public"
             snapshot.mkdir()
-            for relative in public:
-                source = root / relative
-                if (dotenv(relative) or relative.startswith(private)
-                        or not source.is_file() or source.is_symlink()):
-                    continue
+            config = Path(directory) / "gitleaks.toml"
+            config.write_bytes(blobs[".gitleaks.toml"])
+            for relative, payload in blobs.items():
                 target = snapshot / relative
                 target.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copyfile(source, target)
+                target.write_bytes(payload)
+                target.chmod(int(entries[relative][0], 8) & 0o777)
             scans = [
-                ("gitleaks-working-tree", snapshot, ["detect", "--no-git", "--source", "."]),
+                ("gitleaks-index-snapshot", snapshot, ["detect", "--no-git", "--source", "."]),
                 ("gitleaks-all-history", root, ["detect", "--source", ".", "--log-opts=--all"]),
                 ("gitleaks-staged", root, ["protect", "--staged", "--source", "."]),
             ]
@@ -185,12 +316,16 @@ def check(root):
                 if result.returncode and scan_report.is_file():
                     try:
                         findings = json.loads(scan_report.read_text(encoding="utf-8"))
-                        paths = {item["File"] for item in findings}
-                        for path in sorted(paths):
+                        for path in sorted({item["File"] for item in findings}):
                             print(f"FAIL {label}:path={json.dumps(path, ensure_ascii=True)}")
                     except (OSError, ValueError, TypeError, KeyError):
                         report(f"{label}-report-readable", False)
-    print(f"publish-check: {len(failures)} failed checks")
+    try:
+        unchanged = tree_oid(root) == checked_tree
+    except (OSError, ValueError, UnicodeError):
+        unchanged = False
+    report("git-index-unchanged", unchanged)
+    print(f"publish-check: tree={checked_tree} {len(failures)} failed checks")
     return 1 if failures else 0
 
 

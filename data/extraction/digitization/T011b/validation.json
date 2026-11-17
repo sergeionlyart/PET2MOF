@@ -1,0 +1,41 @@
+{
+  "task": "T011b-c-series-fix",
+  "head": "447364e5f59c962f73d46125263617886d49dbb1",
+  "checks": [
+    {
+      "command": "uv run --locked --no-sync python scripts/extraction/digitize_c_series.py",
+      "exit_code": 0,
+      "result": "32 recovered markers; one source-ink duplicate removed; 806 T011 rows"
+    },
+    {
+      "command": "uv run --locked --no-sync python scripts/extraction/build_c_series.py",
+      "exit_code": 0,
+      "result": "58 series, 2163 points"
+    },
+    {
+      "command": "make test",
+      "exit_code": 0,
+      "result": "227 passed, 5 third-party deprecation warnings, 24.37s"
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    },
+    {
+      "command": "local SHA-256 comparison against tmp/T011b/protected-hashes.json",
+      "exit_code": 0,
+      "result": "42 protected files unchanged"
+    },
+    {
+      "command": "byte comparison against initial snapshot and git show HEAD:<source/normalized CSV>",
+      "exit_code": 0,
+      "result": "all 12 accepted series: all CSV fields except status unchanged"
+    }
+  ],
+  "status_rows": {
+    "verified": 552,
+    "provisional": 1611
+  },
+  "protected_files": 42,
+  "verified_byte_identical_series": 12
+}

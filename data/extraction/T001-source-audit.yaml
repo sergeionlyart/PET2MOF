@@ -31,14 +31,14 @@ passports:
   local_derivatives: []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 3e4100e0a23eb7845922bfc5e1cb44bd7454d3cf88f061a3da62b085bbde14eb
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 8035b07995c0a095cca14fb7c7944c62485705c9300270a25d910126666d7333
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Grant announcement, no experimental adsorption data, figures or tables of capacity.
   - Does not specify UiO-66/PEI or establish collaboration with this project.
@@ -91,14 +91,14 @@ passports:
     sha256: 3c8db49df6a14acbec7c04b19e3beaa824b87e48f97d7c0084b48898be78170c
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 792bb26b318584bc795bcf515fa9aa88e8f2a41105552a051532a109d5b3ffd5
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 7ba396a16a53c7efc4cd52ecce57fdbef8beb351057785f8b7e5f827551a60e9
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original publisher Fig. 6 and Fig. 9 JPEGs inspected; Table 1/2 JATS text only, page QA pending.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Grafted via glutaraldehyde/Schiff-base chemistry; impregnation control is also NH2-MOF, not UiO-66.
   - Wet gas RH and water-mass correction are not adequately resolved for quantitative ternary fitting.
@@ -134,14 +134,14 @@ passports:
   local_derivatives: *id003
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 14a78af27dd7e5657f8e09e6470f2fbd85bf0262c079e55d40c84aa26597130b
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original publisher Fig. 6 and Fig. 9 JPEGs inspected; Table 1/2 JATS text only, page QA pending.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S2-02
   source_id: S2
@@ -173,14 +173,14 @@ passports:
   local_derivatives: *id003
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 6488dde45bb60a22aa15f0a9270887aa72c10d7c21475288f0dcb5a465bcd280
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original publisher Fig. 6 and Fig. 9 JPEGs inspected; Table 1/2 JATS text only, page QA pending.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S2-03
   source_id: S2
@@ -212,14 +212,14 @@ passports:
   local_derivatives: *id003
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 3f454962459cdda3d5e51d8e3d4382f4e7a1d5ee6492ea31bd2b6dfbf2f5446a
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original publisher Fig. 6 and Fig. 9 JPEGs inspected; Table 1/2 JATS text only, page QA pending.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S2-04
   source_id: S2
@@ -251,14 +251,14 @@ passports:
   local_derivatives: *id003
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 9253edcd3bcd2fb4bab57e71f956654432d772df21153dd0a513540b1d4493f9
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original publisher Fig. 6 and Fig. 9 JPEGs inspected; Table 1/2 JATS text only, page QA pending.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S2-05
   source_id: S2
@@ -290,14 +290,14 @@ passports:
   local_derivatives: *id003
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 2ab73f6d0e253a8a81e6f0d22278dfc72b10f7df86920a0b818a62844f682847
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original publisher Fig. 6 and Fig. 9 JPEGs inspected; Table 1/2 JATS text only, page QA pending.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S2-06
   source_id: S2
@@ -329,14 +329,14 @@ passports:
   local_derivatives: *id003
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 1f30550416d5c0ec6d4ea851f3472ac227236383d28c0f53faa89173945e7d1e
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original publisher Fig. 6 and Fig. 9 JPEGs inspected; Table 1/2 JATS text only, page QA pending.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S2-07
   source_id: S2
@@ -368,14 +368,14 @@ passports:
   local_derivatives: *id003
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: d49b64c91fa54cfc83fa4ced0316ddddaad08999b884cddedcb8356f1373e6b0
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original publisher Fig. 6 and Fig. 9 JPEGs inspected; Table 1/2 JATS text only, page QA pending.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S3-audit
   source_id: S3
@@ -421,14 +421,14 @@ passports:
   local_derivatives: &id006 []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 6dd6e1651becffe2df9db9ca83dde6aab1e1f99034343032aa298d2f8a12982c
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 8f020ad7c36bda455ab21cdaebc1ba34ffc9d6adb25a2b108b4fa5ae9614269d
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - No measured CO2 or PEI series found in article; archived gas files are N2 series.
   - Chemicals section uses commercial esters; PET-origin feedstock experiment is not established by the title.
@@ -441,7 +441,7 @@ passports:
   evidence_urls: *id004
   date: '2026-11-16'
   operation: locate_data_and_read_conditions
-  locator: Fig. 4; Zenodo archive Dati grezzi/Gas sorption/{P38,P39,Defective_UiO-66,No defective_UiO-66}.txt
+  locator: Fig. 4; Zenodo archive Dati grezzi/Gas sorption/{P38,P39,P39_LS,Defective_UiO-66,No defective_UiO-66}.txt
   pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
     (HTML/JATS).
   api_page_mapping: not applicable; no OCR API
@@ -464,14 +464,14 @@ passports:
   local_derivatives: *id006
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 1da704be8596da02aa9dd63ea4203d29e79e11885f40327aab2e9f67c07568f7
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 4af08ab0e846c2c44f2b4adc6e5677802b8652faf370ed7d32912d64e014df12
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S3-02
   source_id: S3
@@ -503,14 +503,14 @@ passports:
   local_derivatives: *id006
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 8a81285be6ba84aaaaee4653d12b3c9b4ac42f135f556efe66a71f273acd8d82
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S100-audit
   source_id: S100
@@ -519,6 +519,7 @@ passports:
   evidence_urls: &id007
   - https://pubs.acs.org/doi/abs/10.1021/acs.iecr.5b03517
   - https://pstorage-acs-6854636.s3.amazonaws.com/3743113/ie5b03517_si_001.pdf
+  - https://api.figshare.com/v2/articles/2109835
   date: '2026-11-16'
   operation: source_metadata_and_applicability_audit
   locator: Crossref; source methods and locators enumerated in registry
@@ -562,20 +563,22 @@ passports:
     sha256: a9f9fa416991b450c9dcf1c3f90503d6950ac619d95565eeabbf49325726750e
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 397a909a9a0c49acaf9d7dc8bf7de7b89717508acf795566d62dd82a8546864d
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 341cff7cce594b8624c625c11bf54b78bef7dcf5766b476d71cbb28a8034e3ae
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered SI PDF pages 3,7,8,9 inspected: methods, S4-S8, Table S1.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Main article abstract reports humid PEI@UiO-66 results; full main figure locator not verified, so no humid composite
     capacity transcribed.
   - SI species inconsistency prevents treating wet results as confirmed CO2/N2.
-  - 'SI visual QA: pp. S3,S7,S9 checked; not independently verified.'
+  - 'SI visual QA: pp. S3,S7,S9 checked; see T004 §3 for independent review.'
   - Reported dynamic working capacity is integrated breakthrough uptake, not automatically equilibrium q_ads-q_des.
+  - NIST Fig. 4 digitization and SI Fig. S5 are not independent replicates; original main figure and digitization
+    provenance require QA.
 - extraction_id: T001-S100-01
   source_id: S100
   doi: 10.1021/acs.iecr.5b03517
@@ -606,14 +609,14 @@ passports:
   local_derivatives: *id009
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: bebd8d53a535328eff712304816181c8b0dd5f334edd9987909ef01d7faa1351
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered SI PDF pages 3,7,8,9 inspected: methods, S4-S8, Table S1.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S100-02
   source_id: S100
@@ -645,14 +648,14 @@ passports:
   local_derivatives: *id009
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 41e0862b8776c5f0058fa20856b4ceddb3a999be37e72f8ec9a8daf3f3e91d38
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered SI PDF pages 3,7,8,9 inspected: methods, S4-S8, Table S1.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S100-03
   source_id: S100
@@ -684,14 +687,14 @@ passports:
   local_derivatives: *id009
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: e9df94b1228049a2db18ca361753fdbee7b75870e35d5c157cb37348ed576122
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered SI PDF pages 3,7,8,9 inspected: methods, S4-S8, Table S1.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S100-04
   source_id: S100
@@ -723,14 +726,14 @@ passports:
   local_derivatives: *id009
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 7d24923d971666e9a64f7a0079e283d093cac0695a92529de1b5d0d71b363f99
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered SI PDF pages 3,7,8,9 inspected: methods, S4-S8, Table S1.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S100-05
   source_id: S100
@@ -762,14 +765,53 @@ passports:
   local_derivatives: *id009
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: ddd0f734286ffede0bf6a6e7ba8f4658549a5427aaa2f64eb13f75f0fbf589cf
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered SI PDF pages 3,7,8,9 inspected: methods, S4-S8, Table S1.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
+  corrections: []
+- extraction_id: T009-S100-06
+  source_id: S100
+  doi: 10.1021/acs.iecr.5b03517
+  url: https://doi.org/10.1021/acs.iecr.5b03517
+  evidence_urls: *id007
+  date: '2026-11-16'
+  operation: locate_data_and_read_conditions
+  locator: Main Fig. 4 as identified by NIST Isotherm6–9 JSON; original main figure not visually checked
+  pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
+    (HTML/JATS).
+  api_page_mapping: not applicable; no OCR API
+  inputs: *id008
+  unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
+    Metadata hash does not authenticate full text.
+  tools:
+    python: 3.11.5
+    PyMuPDF: 1.27.2.3
+    PyYAML: 6.0.3
+    web_search_and_open: provider version not disclosed
+    manual_review: source text and original figures; no digitization
+  parameters:
+    paid_OCR: false
+    coordinate_extraction: false
+    unit_conversion: false
+    model_fitting: false
+    pdf_preview: PyMuPDF page rendering, unmodified science content
+  original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
+  local_derivatives: *id009
+  output:
+    path: sources/registry.yaml
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 434c45e3605d942f67df883761703e86230cbc1dd2f08f90e992cf722e7eed28
+  unit_conversions: []
+  error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
+    and are listed in limitations.
+  visual_QA: 'Rendered SI PDF pages 3,7,8,9 inspected: methods, S4-S8, Table S1.'
+  status: provisional
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S101-audit
   source_id: S101
@@ -806,14 +848,14 @@ passports:
   local_derivatives: []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 6a510e824a36b75e3cd9c73afdffd4553cc8a8e0a5e9376966f648f3f1fe374a
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: e97abb32fc740afb9062fbf6b3be5f44fc424c624d47ad6d9014fc9da75bb882
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Experimental binary isotherms confirmed in primary abstract, but full figure locators not accessible.
   - Separate experiment from GCMC and IAST; no numeric dataset admitted here.
@@ -824,6 +866,8 @@ passports:
   url: https://doi.org/10.1021/acs.langmuir.1c01149
   evidence_urls: &id010
   - https://doi.org/10.1021/acs.Langmuir.1c01149
+  - https://api.figshare.com/v2/articles/16432352
+  - https://ndownloader.figshare.com/files/30440111
   date: '2026-11-16'
   operation: source_metadata_and_applicability_audit
   locator: Crossref; source methods and locators enumerated in registry
@@ -853,16 +897,17 @@ passports:
   local_derivatives: &id012 []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: e6e04254b68ff5715afd128d360d54a0a7c38eab39bff967308550a3ea1da027
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 06fbf081bd37a935dac12b151af46aa1675c0b9832342a25db3093366dc9bea9
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
-  - Main binary experimental figure not located; SI Fig. S3 contains simulations, not a new experimental dataset.
+  - Main binary experimental figure not located; SI Fig. S6 contains experimental binary data, whereas SI Fig. S3
+    contains simulations.
   - No PEI; full text access needed to resolve all binary conditions.
 - extraction_id: T001-S102-01
   source_id: S102
@@ -894,14 +939,92 @@ passports:
   local_derivatives: *id012
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 38c8cc95cd851b7db106c431d8ffe3849869f8e88d1b4877b3cd6f7f63b98498
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
+  corrections: []
+- extraction_id: T009-S102-02
+  source_id: S102
+  doi: 10.1021/acs.langmuir.1c01149
+  url: https://doi.org/10.1021/acs.langmuir.1c01149
+  evidence_urls: *id010
+  date: '2026-11-16'
+  operation: locate_data_and_read_conditions
+  locator: SI Fig. S6, p. S5
+  pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
+    (HTML/JATS).
+  api_page_mapping: not applicable; no OCR API
+  inputs: *id011
+  unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
+    Metadata hash does not authenticate full text.
+  tools:
+    python: 3.11.5
+    PyMuPDF: 1.27.2.3
+    PyYAML: 6.0.3
+    web_search_and_open: provider version not disclosed
+    manual_review: source text and original figures; no digitization
+  parameters:
+    paid_OCR: false
+    coordinate_extraction: false
+    unit_conversion: false
+    model_fitting: false
+    pdf_preview: PyMuPDF page rendering, unmodified science content
+  original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
+  local_derivatives: *id012
+  output:
+    path: sources/registry.yaml
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: cda2e5fa5e57e09626b46f8609583db5f9c0d2c85f8251c314e7591f68bd5917
+  unit_conversions: []
+  error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
+    and are listed in limitations.
+  visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
+  status: provisional
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
+  corrections: []
+- extraction_id: T009-S102-03
+  source_id: S102
+  doi: 10.1021/acs.langmuir.1c01149
+  url: https://doi.org/10.1021/acs.langmuir.1c01149
+  evidence_urls: *id010
+  date: '2026-11-16'
+  operation: locate_data_and_read_conditions
+  locator: SI Fig. S7, p. S6
+  pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
+    (HTML/JATS).
+  api_page_mapping: not applicable; no OCR API
+  inputs: *id011
+  unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
+    Metadata hash does not authenticate full text.
+  tools:
+    python: 3.11.5
+    PyMuPDF: 1.27.2.3
+    PyYAML: 6.0.3
+    web_search_and_open: provider version not disclosed
+    manual_review: source text and original figures; no digitization
+  parameters:
+    paid_OCR: false
+    coordinate_extraction: false
+    unit_conversion: false
+    model_fitting: false
+    pdf_preview: PyMuPDF page rendering, unmodified science content
+  original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
+  local_derivatives: *id012
+  output:
+    path: sources/registry.yaml
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 5156d63d8b3dd9aa7f5ff03de2cfb1f455519ed49a3386e7c367ba4a76312a6a
+  unit_conversions: []
+  error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
+    and are listed in limitations.
+  visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
+  status: provisional
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S103-audit
   source_id: S103
@@ -953,14 +1076,14 @@ passports:
     sha256: 6a1b3d58c303fbf8d236bbfdc08134c5ff3fe9d611914703126cbbd1157bb4e9
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 433718c7f3ff4cbb43a8cf0f15311cc0138ca730580d579582badc16c23fe4a1
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 1604975a5947fdb4084d325468d25f3d23d0c1e9d59e71955edd452bdee08e0e
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original Fig. 2 JPEG inspected; experimental panel a versus simulation b; cm3(STP)/g axis.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Keep Fig. 2a separate from 2b; simulation is not independent measurement.
   - 'Potential shared provenance with S106: same laboratory and sample designations, different reported activation;
@@ -997,14 +1120,14 @@ passports:
   local_derivatives: *id015
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: a143e72b1c3902053578feaf3f13e36e9b09717277055c33f3f2fc4a811f697a
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original Fig. 2 JPEG inspected; experimental panel a versus simulation b; cm3(STP)/g axis.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S103-02
   source_id: S103
@@ -1036,14 +1159,14 @@ passports:
   local_derivatives: *id015
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 371a23f42d5ae2a864ebc5c4921feb4c52aed3d693c87b62ac6441feb2410058
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original Fig. 2 JPEG inspected; experimental panel a versus simulation b; cm3(STP)/g axis.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S103-03
   source_id: S103
@@ -1075,14 +1198,14 @@ passports:
   local_derivatives: *id015
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 2a1fc2bff289a215751447877bfa887d43db3b69ecc1d14391f17c8844276cdc
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original Fig. 2 JPEG inspected; experimental panel a versus simulation b; cm3(STP)/g axis.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S104-audit
   source_id: S104
@@ -1119,14 +1242,14 @@ passports:
   local_derivatives: &id018 []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 61e5cf891631b1e0fb2285c9349e202ed5e1555c9b1d8c9aef4103fac3afaaa5
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: fc046b419f7040dcf20ffe30caee6b07ff63e0a66aa03f529c88d924a953644f
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Publisher indexed full text read; download and original axes QA pending.
   - 2025 issue, first online 2024-11-29.
@@ -1161,14 +1284,14 @@ passports:
   local_derivatives: *id018
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 00d33a0cd12409d6042b9f9f64e51020f2fa2d55c8efa4420626ba8efc4c0721
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S104-02
   source_id: S104
@@ -1200,14 +1323,14 @@ passports:
   local_derivatives: *id018
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 294a86e011734f5734ac25ff32c35c9b73dac21443dce765325b8d7676d11991
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S104-03
   source_id: S104
@@ -1239,14 +1362,14 @@ passports:
   local_derivatives: *id018
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: ce2f50d78e0b287e00ced651ca0e68a17c7155529098fd34b8571db85394b56f
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S105-audit
   source_id: S105
@@ -1289,20 +1412,21 @@ passports:
     sha256: c08cedbe8bd7bcb4634e0cd18f010a4640bf00209ddabb91cd1b11098088a191
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 2f58649dbe76ac28e1c9fdcb13c2baa97f0a8fb1273b437d71aa7deda581150c
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 39fb4e0136e9fb2210c7ddc43aa291782dde0730bfa1bd4db61ba38622f214bc
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Humidity exposure/PXRD stability is not humid CO2 uptake.
   - Some control characterization is reproduced from reference 17; establish CO2 data lineage before independent
     validation.
   - Activation contradiction unresolved. Table 2 mixes literature and own results; do not count literature rows
     twice.
+  - N2 pressure range conflicts between §3.5 and visually inspected Fig. 9; unresolved.
 - extraction_id: T001-S105-01
   source_id: S105
   doi: 10.3390/ma11040589
@@ -1333,14 +1457,14 @@ passports:
   local_derivatives: *id021
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 46a8e48f09c435380352977f74eb2986b9aedb5951fca7feadef0ccad3816b41
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S105-02
   source_id: S105
@@ -1372,14 +1496,14 @@ passports:
   local_derivatives: *id021
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 4c7a923f7929f7c05e8191db7f289dc9f1b535f1742b4b01896e5fbe0d89288c
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: acd8e9a754c4285422f40412446971239425e2e0753127598b152ae5f4ee5724
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S105-03
   source_id: S105
@@ -1411,14 +1535,14 @@ passports:
   local_derivatives: *id021
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: ca05af5c6ea5dfcd046692f375a65f5305416ad10a26271f4f0c5ce34d8488b8
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S105-04
   source_id: S105
@@ -1450,14 +1574,14 @@ passports:
   local_derivatives: *id021
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 78ebe12e60ef7012ec8a21123180d42820f0dca40b823b39a82d79ddab707759
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S106-audit
   source_id: S106
@@ -1502,14 +1626,14 @@ passports:
     sha256: eb6c7dbf27885bef9a61aa7511ce83123570c91d96ce8a2667ca61489b0e8c4d
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: a0f724499b3c65c3b6bd11cf063bc7008fc29c478f72347fe0e73c05053859ab
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 8980e39c14507a90d23fea21ba01f81b814399b069381156048254b293e3c7cf
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered PDF page 5 inspected (article p. 4): Fig. 3/4, Table 1.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Water-only support calibration; no PEI/wet CO2 validation.
   - Potential sample/laboratory overlap with S103.
@@ -1544,14 +1668,14 @@ passports:
   local_derivatives: *id024
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 1f86b73577619414d949f6e396cb8b9e39fde1a40cc8332cf7492762498618e9
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered PDF page 5 inspected (article p. 4): Fig. 3/4, Table 1.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S106-02
   source_id: S106
@@ -1583,14 +1707,14 @@ passports:
   local_derivatives: *id024
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 58e50aab546a615f5b5a0cbb97750b4eaf88111dd83b1174cf616de3cc21176a
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered PDF page 5 inspected (article p. 4): Fig. 3/4, Table 1.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S107-audit
   source_id: S107
@@ -1627,14 +1751,14 @@ passports:
   local_derivatives: &id027 []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 2568c1de2f909ce4c6ae6b94a4517e2535ca390b2bd76e33880bd435f04d3867
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: a0c91ad2393a3cb660c496997bedb0446cc3291be74d5df63926da73e9e358f9
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Not a new experimental CO2 series; do not count reused experimental comparison curves.
   - Useful defect/hydrophilicity mechanism context only.
@@ -1668,14 +1792,14 @@ passports:
   local_derivatives: *id027
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: dd19a7e3b0277e6a3669b437d68f62e42a1652ebea15571d079c51d6cb7986fb
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S108-audit
   source_id: S108
@@ -1713,14 +1837,14 @@ passports:
   local_derivatives: &id030 []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 8ff8111bcbac2ec8a4cf060448897268b23e9fcce02a397d624242a3f598bdb4
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 4b3e239ae57a8813d5f29cf8099adfe2ba7c65d25b42fba62891cd0ea2b0ce36
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Dry/wet sequences differ in temperature and ageing history; not a clean humidity multiplier.
   - Near-target CO2 concentrations but hotter, oxygen-containing, non-isothermal bed.
@@ -1756,14 +1880,14 @@ passports:
   local_derivatives: *id030
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: eb4ec4033edfa59ec925094e2590282d21486256b59f17adc0c08475cd887d25
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S108-02
   source_id: S108
@@ -1795,14 +1919,14 @@ passports:
   local_derivatives: *id030
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: ab3409b1931fd03ee8502d1358846a14b8d72e46eeb6772a18a397b30cdc14fb
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S109-audit
   source_id: S109
@@ -1839,14 +1963,14 @@ passports:
   local_derivatives: []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 9774a5b99fb013a7d8dd65328d081ce6c304ad200d6609920921b710b9bda154
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: a3f6e4f99330712a752de85734816542f819af87335bd0605b6a4d9c8021771d
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Primary abstract confirms measured moisture effect; figure locators and full conditions unavailable.
   - Do not infer RH from specific humidity without pressure/temperature and definition.
@@ -1885,14 +2009,14 @@ passports:
   local_derivatives: &id033 []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: d1dfc043d18a06f1e09a57d481c92c1d01ebbecbf52c22e8d17d022d408daa86
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 2064a5e5d56cb3b46f5953b52ae90733cab282170e4092372f441e8dbe17de94
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - 0.5% CO2 is below requested 5–15%; He and silica differ from target.
   - No universal moisture multiplier or direct PEI-MOF transfer.
@@ -1926,14 +2050,14 @@ passports:
   local_derivatives: *id033
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 442ca4f92436a426a24c0e8a1b6a2bf5ffda6bc30e6560a4b492217cd97323c9
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S110-02
   source_id: S110
@@ -1965,28 +2089,30 @@ passports:
   local_derivatives: *id033
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: a7776f0abdd3989bf832fa1a1967fdc680679b8b98ce5809349cb7eb8a514b4d
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S111-audit
   source_id: S111
   doi: 10.1021/acsanm.5c05631
   url: https://doi.org/10.1021/acsanm.5c05631
-  evidence_urls:
+  evidence_urls: &id034
   - https://pubs.acs.org/doi/10.1021/acsanm.5c05631
+  - https://api.figshare.com/v2/articles/31483412
+  - https://ndownloader.figshare.com/files/62369648
   date: '2026-11-16'
   operation: source_metadata_and_applicability_audit
   locator: Crossref; source methods and locators enumerated in registry
   pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
     (HTML/JATS).
   api_page_mapping: not applicable; no OCR API
-  inputs:
+  inputs: &id035
   - path: sources/metadata/S111.crossref.json
     url: https://api.crossref.org/works/10.1021%2Facsanm.5c05631
     sha256: e2447d47265e8827b7641bff4180f6332920a0bd77dc7c6fbb8befff18068827
@@ -2006,20 +2132,99 @@ passports:
     model_fitting: false
     pdf_preview: PyMuPDF page rendering, unmodified science content
   original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
-  local_derivatives: []
+  local_derivatives: &id036 []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 089e67136520c3e9f9084872a653fb79b69168d4ff5f90ec4d63bd2eb2190f36
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 1eac810bdcc59be686a8dc504791cfc272bb69bc928650369651cbddc867df17
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - 2026 primary work already reports humid PEI-grafted UiO-66-family CO2/N2 separation.
   - Main figures/conditions not accessible; not accepted as calibration or validation.
+  - Selectivity 35 in SI Table S3 versus 42 in abstract remains unresolved; conditions or definitions may differ.
+- extraction_id: T009-S111-01
+  source_id: S111
+  doi: 10.1021/acsanm.5c05631
+  url: https://doi.org/10.1021/acsanm.5c05631
+  evidence_urls: *id034
+  date: '2026-11-16'
+  operation: locate_data_and_read_conditions
+  locator: SI Fig. S20, p. S22
+  pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
+    (HTML/JATS).
+  api_page_mapping: not applicable; no OCR API
+  inputs: *id035
+  unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
+    Metadata hash does not authenticate full text.
+  tools:
+    python: 3.11.5
+    PyMuPDF: 1.27.2.3
+    PyYAML: 6.0.3
+    web_search_and_open: provider version not disclosed
+    manual_review: source text and original figures; no digitization
+  parameters:
+    paid_OCR: false
+    coordinate_extraction: false
+    unit_conversion: false
+    model_fitting: false
+    pdf_preview: PyMuPDF page rendering, unmodified science content
+  original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
+  local_derivatives: *id036
+  output:
+    path: sources/registry.yaml
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: e6283fa86f5a2193052b91a63a8271f4382973833bbddebbde0a5a2c493fa3a7
+  unit_conversions: []
+  error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
+    and are listed in limitations.
+  visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
+  status: provisional
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
+  corrections: []
+- extraction_id: T009-S111-02
+  source_id: S111
+  doi: 10.1021/acsanm.5c05631
+  url: https://doi.org/10.1021/acsanm.5c05631
+  evidence_urls: *id034
+  date: '2026-11-16'
+  operation: locate_data_and_read_conditions
+  locator: SI Table S3, p. S28; publisher abstract
+  pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
+    (HTML/JATS).
+  api_page_mapping: not applicable; no OCR API
+  inputs: *id035
+  unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
+    Metadata hash does not authenticate full text.
+  tools:
+    python: 3.11.5
+    PyMuPDF: 1.27.2.3
+    PyYAML: 6.0.3
+    web_search_and_open: provider version not disclosed
+    manual_review: source text and original figures; no digitization
+  parameters:
+    paid_OCR: false
+    coordinate_extraction: false
+    unit_conversion: false
+    model_fitting: false
+    pdf_preview: PyMuPDF page rendering, unmodified science content
+  original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
+  local_derivatives: *id036
+  output:
+    path: sources/registry.yaml
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: ed956420b1677e1f5acfc4971d67df7dea1bda1cfae1166618ff85e1e5816164
+  unit_conversions: []
+  error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
+    and are listed in limitations.
+  visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
+  status: provisional
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
+  corrections: []
 - extraction_id: T001-S112-audit
   source_id: S112
   doi: 10.2139/ssrn.5123041
@@ -2055,14 +2260,14 @@ passports:
   local_derivatives: []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 7215aaf628dfe4b0a176b784964f0a88b6525a1a46cca03479e0c4a098424a8f
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 6e8155e587d0329fe8d76a3121f21ed1ed46ec68f436b3e059d21ecceca89fd2
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - SSRN preprint; peer-reviewed version not established in this audit.
   - Title/abstract indicate low-pressure uptake and humid TSA, but data locators unverified.
@@ -2071,7 +2276,7 @@ passports:
   source_id: S113
   doi: 10.3390/membranes10070154
   url: https://doi.org/10.3390/membranes10070154
-  evidence_urls: &id034
+  evidence_urls: &id037
   - https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7407110/fullTextXML
   date: '2026-11-16'
   operation: source_metadata_and_applicability_audit
@@ -2079,7 +2284,7 @@ passports:
   pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
     (HTML/JATS).
   api_page_mapping: not applicable; no OCR API
-  inputs: &id035
+  inputs: &id038
   - path: data/raw/html/S113.xml
     url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7407110/fullTextXML
     sha256: beecacdac94a7ae9f6fbb9085ff49e2340e1b26bed039ccf38c6bcb9e40c1745
@@ -2107,17 +2312,17 @@ passports:
     model_fitting: false
     pdf_preview: PyMuPDF page rendering, unmodified science content
   original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
-  local_derivatives: &id036 []
+  local_derivatives: &id039 []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 9e2abb0ef64db0fa104a1312dafec3723b9f3d0432b8e2483e079d71731ca478
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 3e8d23d57326257366a63cb5491de003119e3f2e4acc7c0a35a2306b94271562
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original Fig. 5 JPEG inspected; SI not downloaded.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Use powder Fig. 5, not membrane Fig. 8 or permeability as gravimetric MOF capacity.
   - No humid PEI composite data. SI locators from article; SI numeric parameters not extracted.
@@ -2125,14 +2330,14 @@ passports:
   source_id: S113
   doi: 10.3390/membranes10070154
   url: https://doi.org/10.3390/membranes10070154
-  evidence_urls: *id034
+  evidence_urls: *id037
   date: '2026-11-16'
   operation: locate_data_and_read_conditions
   locator: Fig. 5a–b; SI Fig. S2a–b
   pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
     (HTML/JATS).
   api_page_mapping: not applicable; no OCR API
-  inputs: *id035
+  inputs: *id038
   unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
     Metadata hash does not authenticate full text.
   tools:
@@ -2148,30 +2353,30 @@ passports:
     model_fitting: false
     pdf_preview: PyMuPDF page rendering, unmodified science content
   original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
-  local_derivatives: *id036
+  local_derivatives: *id039
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 56c69e6dd080c3778e816dd9441c6c6b3dff1f75adfd619d67fe9c95742504d3
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original Fig. 5 JPEG inspected; SI not downloaded.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S113-02
   source_id: S113
   doi: 10.3390/membranes10070154
   url: https://doi.org/10.3390/membranes10070154
-  evidence_urls: *id034
+  evidence_urls: *id037
   date: '2026-11-16'
   operation: locate_data_and_read_conditions
   locator: SI Tables S3–S4
   pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
     (HTML/JATS).
   api_page_mapping: not applicable; no OCR API
-  inputs: *id035
+  inputs: *id038
   unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
     Metadata hash does not authenticate full text.
   tools:
@@ -2187,30 +2392,30 @@ passports:
     model_fitting: false
     pdf_preview: PyMuPDF page rendering, unmodified science content
   original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
-  local_derivatives: *id036
+  local_derivatives: *id039
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 04aefd433248aac17da096143df5344fd1c5e8617e8dc3f2cae9ea35355d9030
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original Fig. 5 JPEG inspected; SI not downloaded.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S113-03
   source_id: S113
   doi: 10.3390/membranes10070154
   url: https://doi.org/10.3390/membranes10070154
-  evidence_urls: *id034
+  evidence_urls: *id037
   date: '2026-11-16'
   operation: locate_data_and_read_conditions
   locator: SI Fig. S2c–d
   pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
     (HTML/JATS).
   api_page_mapping: not applicable; no OCR API
-  inputs: *id035
+  inputs: *id038
   unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
     Metadata hash does not authenticate full text.
   tools:
@@ -2226,17 +2431,17 @@ passports:
     model_fitting: false
     pdf_preview: PyMuPDF page rendering, unmodified science content
   original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
-  local_derivatives: *id036
+  local_derivatives: *id039
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: f4e4ce153e8a702698aacd02c384f4ba368f2fe53368fa34d2ec373c2f117f2c
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original Fig. 5 JPEG inspected; SI not downloaded.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S114-audit
   source_id: S114
@@ -2273,14 +2478,14 @@ passports:
   local_derivatives: []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 773f58c5d1b57ded0a104e04e6864f0992cc9077109e74f1652c7b9e6931adf4
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 139094c6544caba3ff64390edc7f7496b6191f59c32d8fa5f8bf8dcdb97d5c27
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Alkylamine is not PEI.
   - Humid CO2/N2 experiment reported, full data figure not located; no capacity transcribed.
@@ -2319,14 +2524,14 @@ passports:
   local_derivatives: []
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: 643beb6aae37c6a379e842d85bda042339de6523bcb3f4df65265800d624d91c
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 8cd3599ea6d06fa30237f1f9496ea5778062324c69dcf985b8d07618f8cdf4b9
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - PET-derived UiO-66 measured CO2 exists; cannot claim general absence of PET-derived CO2 data.
   - No PEI series established. Closed full text prevents verified figure/condition mapping.
@@ -2335,7 +2540,7 @@ passports:
   source_id: S116
   doi: 10.1016/j.ijggc.2020.102975
   url: https://doi.org/10.1016/j.ijggc.2020.102975
-  evidence_urls: &id037
+  evidence_urls: &id040
   - https://uhra.herts.ac.uk/id/eprint/8235/1/1_s2_0_S1750583618306789_main.pdf
   date: '2026-11-16'
   operation: source_metadata_and_applicability_audit
@@ -2343,7 +2548,7 @@ passports:
   pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
     (HTML/JATS).
   api_page_mapping: not applicable; no OCR API
-  inputs: &id038
+  inputs: &id041
   - path: sources/metadata/S116.crossref.json
     url: https://api.crossref.org/works/10.1016/j.ijggc.2020.102975
     sha256: 1d0c08ead307ae01897f7eac15082a70daa497449467dda6644ec960b28d8856
@@ -2367,7 +2572,7 @@ passports:
     model_fitting: false
     pdf_preview: PyMuPDF page rendering, unmodified science content
   original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
-  local_derivatives: &id039
+  local_derivatives: &id042
   - path: data/raw/html/S116.text.txt
     sha256: bbd85eef1d5eab8d9af17d1f991f37da222d4f330f446515ac6dd64b17e8e9c5
   - path: data/raw/figures_full/S116_page3.png
@@ -2378,14 +2583,14 @@ passports:
     sha256: e72fd85c96b18a28ecf7383a905b06d1aeccb65fe3c431a433f90f1f2740c3b5
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
-    record_canonical_json_sha256: e5e5ab6b103467088fe03cc1982690d08f1c0b97b2798fad91676881e06debd5
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 357b125c224bc6836d43e27ccdf2e715875b0c703c73371a8b43fea42e04eea6
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered PDF pages 3,5,6 inspected: Table 2, Fig. 6, Table 3.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections:
   - Dry TGA versus wet bed is not a controlled RH comparison.
   - Degraded batch inherited from earlier experiments; related to S108, not automatically independent.
@@ -2395,14 +2600,14 @@ passports:
   source_id: S116
   doi: 10.1016/j.ijggc.2020.102975
   url: https://doi.org/10.1016/j.ijggc.2020.102975
-  evidence_urls: *id037
+  evidence_urls: *id040
   date: '2026-11-16'
   operation: locate_data_and_read_conditions
   locator: Figs. 6–7; Table 2
   pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
     (HTML/JATS).
   api_page_mapping: not applicable; no OCR API
-  inputs: *id038
+  inputs: *id041
   unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
     Metadata hash does not authenticate full text.
   tools:
@@ -2418,30 +2623,30 @@ passports:
     model_fitting: false
     pdf_preview: PyMuPDF page rendering, unmodified science content
   original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
-  local_derivatives: *id039
+  local_derivatives: *id042
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: 722c02605dde77440dc9615545eceb9def40e60ab9f8409b8239ac442fabd625
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered PDF pages 3,5,6 inspected: Table 2, Fig. 6, Table 3.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []
 - extraction_id: T001-S116-02
   source_id: S116
   doi: 10.1016/j.ijggc.2020.102975
   url: https://doi.org/10.1016/j.ijggc.2020.102975
-  evidence_urls: *id037
+  evidence_urls: *id040
   date: '2026-11-16'
   operation: locate_data_and_read_conditions
   locator: Table 3, footnote a
   pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
     (HTML/JATS).
   api_page_mapping: not applicable; no OCR API
-  inputs: *id038
+  inputs: *id041
   unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
     Metadata hash does not authenticate full text.
   tools:
@@ -2457,15 +2662,185 @@ passports:
     model_fitting: false
     pdf_preview: PyMuPDF page rendering, unmodified science content
   original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
-  local_derivatives: *id039
+  local_derivatives: *id042
   output:
     path: sources/registry.yaml
-    registry_sha256: 25b52a55a8430c70e97fc855277dcb6969f02fedbcc8c27dd889b61e135b0237
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
     record_canonical_json_sha256: ff015691560bd8cb2bbe84c5cd5f9eb8ce4ed8ee04f34b67a22e278fa3f224ce
   unit_conversions: []
   error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
     and are listed in limitations.
   visual_QA: 'Rendered PDF pages 3,5,6 inspected: Table 2, Fig. 6, Table 3.'
   status: provisional
-  reviewer: T004 (assigned, not executed in T001)
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
+  corrections: []
+- extraction_id: T009-S117-audit
+  source_id: S117
+  doi: 10.1039/d1fd00017a
+  url: https://doi.org/10.1039/d1fd00017a
+  evidence_urls: &id043
+  - https://pubs.rsc.org/en/content/articlehtml/2021/fd/d1fd00017a
+  date: '2026-11-16'
+  operation: source_metadata_and_applicability_audit
+  locator: Crossref; source methods and locators enumerated in registry
+  pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
+    (HTML/JATS).
+  api_page_mapping: not applicable; no OCR API
+  inputs: &id044
+  - path: sources/metadata/S117.crossref.json
+    url: https://api.crossref.org/works/10.1039/d1fd00017a
+    sha256: 7b5354188b16833d69bb13d182d9f3596ce3c2bf06449d40736a19bc8eb20738
+    status: validated_json
+  unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
+    Metadata hash does not authenticate full text.
+  tools:
+    python: 3.11.5
+    PyMuPDF: 1.27.2.3
+    PyYAML: 6.0.3
+    web_search_and_open: provider version not disclosed
+    manual_review: source text and original figures; no digitization
+  parameters:
+    paid_OCR: false
+    coordinate_extraction: false
+    unit_conversion: false
+    model_fitting: false
+    pdf_preview: PyMuPDF page rendering, unmodified science content
+  original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
+  local_derivatives: &id045 []
+  output:
+    path: sources/registry.yaml
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 0234c483d4001265ee3e21edd4e6e94a93cf793b0d37197b52b31cd514f0da12
+  unit_conversions: []
+  error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
+    and are listed in limitations.
+  visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
+  status: provisional
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
+  corrections:
+  - Candidate wet-parent validation only after SI, axes, temperature, activation and precise conditions are checked;
+    no capacities extracted.
+- extraction_id: T009-S117-01
+  source_id: S117
+  doi: 10.1039/d1fd00017a
+  url: https://doi.org/10.1039/d1fd00017a
+  evidence_urls: *id043
+  date: '2026-11-16'
+  operation: locate_data_and_read_conditions
+  locator: SI Figs. S36–S38, referenced by main article
+  pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
+    (HTML/JATS).
+  api_page_mapping: not applicable; no OCR API
+  inputs: *id044
+  unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
+    Metadata hash does not authenticate full text.
+  tools:
+    python: 3.11.5
+    PyMuPDF: 1.27.2.3
+    PyYAML: 6.0.3
+    web_search_and_open: provider version not disclosed
+    manual_review: source text and original figures; no digitization
+  parameters:
+    paid_OCR: false
+    coordinate_extraction: false
+    unit_conversion: false
+    model_fitting: false
+    pdf_preview: PyMuPDF page rendering, unmodified science content
+  original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
+  local_derivatives: *id045
+  output:
+    path: sources/registry.yaml
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 36974e9bde21231d3a496afd07beb566d120c19a64f24d8b1cb9aefa740c7611
+  unit_conversions: []
+  error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
+    and are listed in limitations.
+  visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
+  status: provisional
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
+  corrections: []
+- extraction_id: T009-S118-audit
+  source_id: S118
+  doi: 10.1021/acs.jpcc.1c09914
+  url: https://doi.org/10.1021/acs.jpcc.1c09914
+  evidence_urls: &id046
+  - https://ndownloader.figshare.com/files/34005709
+  date: '2026-11-16'
+  operation: source_metadata_and_applicability_audit
+  locator: Crossref; source methods and locators enumerated in registry
+  pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
+    (HTML/JATS).
+  api_page_mapping: not applicable; no OCR API
+  inputs: &id047
+  - path: sources/metadata/S118.crossref.json
+    url: https://api.crossref.org/works/10.1021/acs.jpcc.1c09914
+    sha256: 987882364ced91f389a10676b340504a95a63ffc3e8d6b6ec746046ec743d459
+    status: validated_json
+  unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
+    Metadata hash does not authenticate full text.
+  tools:
+    python: 3.11.5
+    PyMuPDF: 1.27.2.3
+    PyYAML: 6.0.3
+    web_search_and_open: provider version not disclosed
+    manual_review: source text and original figures; no digitization
+  parameters:
+    paid_OCR: false
+    coordinate_extraction: false
+    unit_conversion: false
+    model_fitting: false
+    pdf_preview: PyMuPDF page rendering, unmodified science content
+  original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
+  local_derivatives: &id048 []
+  output:
+    path: sources/registry.yaml
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 18b36c56a4e9b9697a544604bd857e689d230be48c210eb9a9f2e5325dbd99d0
+  unit_conversions: []
+  error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
+    and are listed in limitations.
+  visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
+  status: provisional
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
+  corrections:
+  - Wet CO2 results identified in SI are simulations; experimental methods describe water-vapor isotherms, not a
+    verified wet CO2 dataset.
+- extraction_id: T009-S118-01
+  source_id: S118
+  doi: 10.1021/acs.jpcc.1c09914
+  url: https://doi.org/10.1021/acs.jpcc.1c09914
+  evidence_urls: *id046
+  date: '2026-11-16'
+  operation: locate_data_and_read_conditions
+  locator: SI Fig. S5
+  pdf_page_mapping: Explicit page numbers retained in locator where inspected; otherwise unknown/not applicable
+    (HTML/JATS).
+  api_page_mapping: not applicable; no OCR API
+  inputs: *id047
+  unhashed_web_inputs: Browser-rendered/indexed publisher text has no retained raw response hash; use evidence URLs.
+    Metadata hash does not authenticate full text.
+  tools:
+    python: 3.11.5
+    PyMuPDF: 1.27.2.3
+    PyYAML: 6.0.3
+    web_search_and_open: provider version not disclosed
+    manual_review: source text and original figures; no digitization
+  parameters:
+    paid_OCR: false
+    coordinate_extraction: false
+    unit_conversion: false
+    model_fitting: false
+    pdf_preview: PyMuPDF page rendering, unmodified science content
+  original_responses: Immutable downloaded bytes listed in inputs; failed/challenge responses recorded in access_attempts.csv.
+  local_derivatives: *id048
+  output:
+    path: sources/registry.yaml
+    registry_sha256: e8ac0f1f96e0b7504af5930207e9ce334f63503c0d9cbfe9559a05342231165e
+    record_canonical_json_sha256: 9c19dd27edb7a87841572647457ee317bd55b1fcbb6a4cad6c738ca2c2c80a7e
+  unit_conversions: []
+  error_estimate: No numeric capacity or figure coordinates extracted. Reading/metadata uncertainties remain categorical
+    and are listed in limitations.
+  visual_QA: Original page/figure visual QA not completed; text or metadata audit only.
+  status: provisional
+  reviewer: T004 reviewed source evidence; T009 registry changes await lead review
   corrections: []

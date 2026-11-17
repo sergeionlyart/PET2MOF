@@ -1,0 +1,29 @@
+extraction_id: T014-DESIGN
+source_id: DESIGN-T014
+doi: null
+url: configs/scenarios.yaml
+input_sha256: a1e345792d67e6c1f56d4812da6f03c8a8699e221822bed69b032f60fb3d60c5
+pdf_page: 1
+api_page_map:
+  '1': 1
+figure_or_table: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+region: null
+tool: Project design transcription and exact algebra; no experimental extraction
+tool_version: PyMuPDF 1.28.2; T014-v1
+params:
+  input_ref: data/extraction/T014/design_basis.json
+  output_ref: data/extraction/T014/T014-DESIGN.json
+  page_note: 'Schema requires a page: 1 means the logical design manifest, not a PDF or literature page.'
+  interpretation: No plot coordinates inferred; printed numbers only.
+  not_a_measurement: true
+date: '2026-11-16T23:59:48.788477+00:00'
+raw_response_ref: data/extraction/T014/design_basis.json
+unit_conversions: []
+derived_sha256: 2b391bd2069e46f66b4ff07598def8bfdcfedb10920ebb4f3ffba939ac793862
+status: provisional
+reviewer: null
+corrections: []
+error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
+  interval.
+data_kind: text_value
+sensitivity_only: true

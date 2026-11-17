@@ -100,19 +100,24 @@ class Ledger:
             raise BudgetStop("budget or page limit reached")
         return reservation
 
-    def confirm(self, reservation):
-        self._finish(reservation, "charged")
+    def confirm(self, reservation, *, stop_reason=None):
+        """Charge and optionally block in the same locked ledger transaction."""
+        if stop_reason not in {None, "authorization", "limit", "price"}:
+            raise ValueError("unknown stop reason")
+        self._finish(reservation, "charged", stop_reason=stop_reason)
 
     def release(self, reservation):
         """Only for a definite cancellation BEFORE transmission; never for a timeout."""
         self._finish(reservation, "released")
 
-    def _finish(self, reservation, status):
+    def _finish(self, reservation, status, *, stop_reason=None):
         with self._locked() as state:
             attempt = state["attempts"][reservation]
             if attempt["status"] != "reserved":
                 raise BudgetStop("reservation already settled")
             attempt["status"] = status
+            if stop_reason is not None:
+                state["blocked"] = stop_reason
 
     def stop(self, reason="authorization"):
         if reason not in {"authorization", "limit", "price"}:

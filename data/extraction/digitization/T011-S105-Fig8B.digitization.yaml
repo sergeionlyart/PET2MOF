@@ -1,0 +1,1921 @@
+extraction_id: T011-S105-Fig8B
+image_sha256: 628b226b57f34cf849b224ca515a1347b40b1d425d739a92bc71e96a91e174d4
+image_ref: private/renders/T011-S105-Fig8B.png
+code_version: sha256:8db9672d603f3cc685691cc4cc4f6afb3a248fbf49b70d8f2dc914ccdb981ccb
+source_pdf_sha256: 1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a
+pdf_page: 8
+source_image_index: 0
+native_image_sha256: 0d4e5a88e2530b311dd9f304ed134c494177838af66f7a3eeacbb5d2d6017e8b
+crop_native_pixels:
+- 0
+- 1660
+- 2068
+- 3372
+x_axis:
+  pixel_1: 246.5
+  value_1: 0
+  pixel_2: 1981.5
+  value_2: 1.2
+  scale: linear
+y_axis:
+  pixel_1: 1355
+  value_1: 0
+  pixel_2: 206
+  value_2: 4
+  scale: linear
+x_unit: bar absolute
+y_unit: mmol/g
+protocol_scale_span_x: 1.2
+protocol_scale_span_y: 4.5
+T_K: 298
+gas: CO2
+series:
+- name: UiO-66
+  data_kind: digitized_markers
+  sigma_pixel: 7
+  pixels:
+  - - 280.5
+    - 1342.0
+  - - 314.0
+    - 1319.0
+  - - 346.5
+    - 1303.0
+  - - 379.0
+    - 1286.0
+  - - 409.5
+    - 1271.0
+  - - 446.0
+    - 1253.0
+  - - 480.0
+    - 1236.0
+  - - 515.5
+    - 1218.5
+  - - 551.0
+    - 1201.0
+  - - 588.5
+    - 1183.0
+  - - 618.5
+    - 1168.0
+  - - 648.5
+    - 1153.0
+  - - 682.5
+    - 1138.0
+  - - 713.0
+    - 1123.5
+  - - 751.0
+    - 1106.0
+  - - 789.5
+    - 1088.0
+  - - 824.5
+    - 1072.0
+  - - 864.5
+    - 1054.0
+  - - 901.5
+    - 1038.0
+  - - 940.0
+    - 1020.0
+  - - 972.0
+    - 1007.0
+  - - 1005.5
+    - 992.0
+  - - 1040.5
+    - 977.0
+  - - 1070.5
+    - 964.0
+  - - 1103.5
+    - 950.0
+  - - 1137.5
+    - 936.0
+  - - 1172.5
+    - 921.0
+  - - 1207.0
+    - 906.0
+  - - 1240.5
+    - 893.0
+  - - 1274.0
+    - 879.0
+  - - 1310.0
+    - 864.0
+  - - 1344.5
+    - 850.0
+  - - 1380.5
+    - 835.0
+  - - 1415.5
+    - 821.0
+  - - 1450.5
+    - 807.0
+  - - 1485.0
+    - 793.0
+  - - 1518.5
+    - 779.0
+  - - 1552.0
+    - 766.0
+  - - 1586.5
+    - 752.0
+  - - 1620.5
+    - 740.0
+  - - 1654.5
+    - 726.0
+  - - 1690.5
+    - 712.5
+  - - 1725.0
+    - 700.0
+  - - 1760.5
+    - 686.0
+  - - 1795.5
+    - 672.0
+  - - 1830.5
+    - 660.0
+  - - 1863.5
+    - 648.0
+  marker: square
+  color: black
+  branch: adsorption
+  template_box_native_pixels:
+  - 377
+  - 133
+  - 405
+  - 160
+  match_threshold: 0.58
+  symbols:
+  - symbol_id: T011-S105-Fig8B-s0-symbol-001
+    pixel:
+    - 280.5
+    - 1342.0
+    source_ink_sha256: 4b7c57c0f2d6b139914ae053bf29466a50e3a02ff390964994bd3ebb61c40e61
+    source_ink_pixels: 491
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-002
+    pixel:
+    - 314.0
+    - 1319.0
+    source_ink_sha256: dc9e2297013a51a1df45f9f6541912a3a606104db09393132140e20d908f122c
+    source_ink_pixels: 562
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-003
+    pixel:
+    - 346.5
+    - 1303.0
+    source_ink_sha256: 5b5ed1c85e2203b3f60cc256f2049f95628dc270fadf6d2614240b9d5a8a16b9
+    source_ink_pixels: 660
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-004
+    pixel:
+    - 379.0
+    - 1286.0
+    source_ink_sha256: 04e1a30d92694b94f1e62386bd10cb65bb008dc540d6c34c9e8d8f035a19196f
+    source_ink_pixels: 701
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-005
+    pixel:
+    - 409.5
+    - 1271.0
+    source_ink_sha256: 3cb702dcb577a91235c727776ed9dde375898f832f9093a9c5d6bca42aa82a8a
+    source_ink_pixels: 730
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-006
+    pixel:
+    - 446.0
+    - 1253.0
+    source_ink_sha256: c89736b8c9b28673590e6555c1d726288de324cd9df42f3986c22fd8e5d27c1b
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-007
+    pixel:
+    - 480.0
+    - 1236.0
+    source_ink_sha256: 1c295216daa79448c3ec8d2789a62aa15100bec38170c685bb64319239abc61b
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-008
+    pixel:
+    - 515.5
+    - 1218.5
+    source_ink_sha256: 3cdd9a5c0a32fea032a1cade6cede773605909bb04cdf8d3c592c4585d735ed3
+    source_ink_pixels: 754
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-009
+    pixel:
+    - 551.0
+    - 1201.0
+    source_ink_sha256: b00bcca7bf2cabde978b8c0ae60765f10607393118c29966ea364fcd156ab866
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-010
+    pixel:
+    - 588.5
+    - 1183.0
+    source_ink_sha256: a72e828d2906ae2d4de13c58cc2e68cb91985dff311dfa9118fc1d1ddbc7486b
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-011
+    pixel:
+    - 618.5
+    - 1168.0
+    source_ink_sha256: 433bfa1b02c6168ce11378bf734b9533eb69c7caf74020cb414aabe859a33dc9
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-012
+    pixel:
+    - 648.5
+    - 1153.0
+    source_ink_sha256: 1047cdce4696509c07a4dcd856d098d27be4d36cffaa7740110a1ae83645442a
+    source_ink_pixels: 756
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-013
+    pixel:
+    - 682.5
+    - 1138.0
+    source_ink_sha256: 02deafef99d5da413bfe1f2cf80f067ee4454f64cd5bf922f3187f5c5fcd69f6
+    source_ink_pixels: 735
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-014
+    pixel:
+    - 713.0
+    - 1123.5
+    source_ink_sha256: c6269501be4962220fa9438f51d0d798f0909757c80b216a9bbe67284d5d679a
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-015
+    pixel:
+    - 751.0
+    - 1106.0
+    source_ink_sha256: efad3626fa4cf89e2ca2ad74b6445c51f04f87ec8f7dda3b9184897ea9d960ad
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-016
+    pixel:
+    - 789.5
+    - 1088.0
+    source_ink_sha256: ac8d1ef335669f432a73d9e38a748362647adf52f0674a4b905aee388c26d7a7
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-017
+    pixel:
+    - 824.5
+    - 1072.0
+    source_ink_sha256: 111f93eb0f3c39451fa7d8e4cee4f142f82ed7338809ae26f93e02c606b31807
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-018
+    pixel:
+    - 864.5
+    - 1054.0
+    source_ink_sha256: 93df8c7f8f5f68e1ecc55f8fc6e02684dbb99ba86f26bcddc612d5a4e721d015
+    source_ink_pixels: 756
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-019
+    pixel:
+    - 901.5
+    - 1038.0
+    source_ink_sha256: 00d1ed55785354a198e6389a6e14f3fab75ac1918c3abbdddda33c4395a982dc
+    source_ink_pixels: 735
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-020
+    pixel:
+    - 940.0
+    - 1020.0
+    source_ink_sha256: 0c5aae9cfe919c2b7d5de123c6e2d52157e8ca61ecfd3b29ca606ed220b7c215
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-021
+    pixel:
+    - 972.0
+    - 1007.0
+    source_ink_sha256: eaf64a9df8caa90fcc43deee5cb33e73d4dc3b1c79956d35886d536648721671
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-022
+    pixel:
+    - 1005.5
+    - 992.0
+    source_ink_sha256: 139e0b0c6986fdbd78cacd8855497ea2c0759969312c859ac0c1cf9241f68ca3
+    source_ink_pixels: 735
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-023
+    pixel:
+    - 1040.5
+    - 977.0
+    source_ink_sha256: 8321163121ff944e80e6c458d67f4c150d0c240b38c5f80d8fb1f6f1d77f7dc8
+    source_ink_pixels: 756
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-024
+    pixel:
+    - 1070.5
+    - 964.0
+    source_ink_sha256: f45bdda106b752317276ca0f2b3439055004abcc4a2b27711486e869db1e73b0
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-025
+    pixel:
+    - 1103.5
+    - 950.0
+    source_ink_sha256: c166d1c46e8757316838bafd51095d97197fac09c72c7e9014ab6c24dab63106
+    source_ink_pixels: 736
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-026
+    pixel:
+    - 1137.5
+    - 936.0
+    source_ink_sha256: 1b5690912eaa21b6589037a13a5e1d37eadd79c6fdb64d968fc6c831443c95d4
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-027
+    pixel:
+    - 1172.5
+    - 921.0
+    source_ink_sha256: 5655857dcedb070900ec2bb2b4b4d20041ffd17e3f22e126d3fa7cf908b1c809
+    source_ink_pixels: 735
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-028
+    pixel:
+    - 1207.0
+    - 906.0
+    source_ink_sha256: 77644ed23c06f8e809e2eab3a84469525edda2c0cc769213f2d983c696286ad8
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-029
+    pixel:
+    - 1240.5
+    - 893.0
+    source_ink_sha256: fdd9145c8957c1884ab11842393d09615b0a90cc42677e1e77f39a880addd20c
+    source_ink_pixels: 735
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-030
+    pixel:
+    - 1274.0
+    - 879.0
+    source_ink_sha256: aebc1b24559b0a82de2fa91286a1c4912cf060b65cba4ab0b535895112e37587
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-031
+    pixel:
+    - 1310.0
+    - 864.0
+    source_ink_sha256: a692773e3e2a008143719427da69bb055da5a39e1e442cddd1160a9f078f1664
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-032
+    pixel:
+    - 1344.5
+    - 850.0
+    source_ink_sha256: 088088a0fb82deeed33fc6c7a83733388655deb3e5066730038fa000c93343b3
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-033
+    pixel:
+    - 1380.5
+    - 835.0
+    source_ink_sha256: 1d9808efa6812b00566cc89ce8d59cf9a524ac44fc8017183e24991c81577e35
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-034
+    pixel:
+    - 1415.5
+    - 821.0
+    source_ink_sha256: e81b4917e604c5cdfc22b33d0a9fddfcd2da466bc195254042547d11a2be1c7b
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-035
+    pixel:
+    - 1450.5
+    - 807.0
+    source_ink_sha256: 041b7f3eb7343577898544cf91ca140fc9e3219e9dde6335771b650605b5bada
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-036
+    pixel:
+    - 1485.0
+    - 793.0
+    source_ink_sha256: 7e012507162ab9e25d615b03b5b20cd76fbd4bb97e97ef39b21c02d9ab9de9c0
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-037
+    pixel:
+    - 1518.5
+    - 779.0
+    source_ink_sha256: 29e98a428a26c8a7cbf016b1fa915bda3e8d2f8dc203f22390b43541055bac75
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-038
+    pixel:
+    - 1552.0
+    - 766.0
+    source_ink_sha256: f0fe56d4938a7e175d7901db00fb8cdcae376556551583c3c15ce82d65cd6759
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-039
+    pixel:
+    - 1586.5
+    - 752.0
+    source_ink_sha256: e83588729911781d85b78a7adff6b32a829238f23a851f053ba90aa7e322febd
+    source_ink_pixels: 756
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-040
+    pixel:
+    - 1620.5
+    - 740.0
+    source_ink_sha256: 473d3ad32cd2cf1a2b3beb6559b31ea58f5660b00bead90c5d005c12cfb02f22
+    source_ink_pixels: 735
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-041
+    pixel:
+    - 1654.5
+    - 726.0
+    source_ink_sha256: 042bec4b2de375ff7b45afc3c124e66d821d818dc7d13dbcfd455b59eddc65df
+    source_ink_pixels: 735
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-042
+    pixel:
+    - 1690.5
+    - 712.5
+    source_ink_sha256: 386da16080e743ba28d09920e362caaaf75dbc8932f454b596eac459554916e8
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-043
+    pixel:
+    - 1725.0
+    - 700.0
+    source_ink_sha256: 0dadb689e18735b732e9b5f23e2ffe9ad6fcdf5d481243e33ea6eb4ff5eace5d
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-044
+    pixel:
+    - 1760.5
+    - 686.0
+    source_ink_sha256: 69176b4823437bb7cc9f91a1cc473b10abb58338cf8200018dfb62c50e712c37
+    source_ink_pixels: 754
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-045
+    pixel:
+    - 1795.5
+    - 672.0
+    source_ink_sha256: 0d7fca99745e91890a7a02b61c51556c5fb3dbc50f681148f9278443bb9a9453
+    source_ink_pixels: 756
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-046
+    pixel:
+    - 1830.5
+    - 660.0
+    source_ink_sha256: 48431f1a83de35b66f701d2b829d6b546755eaf2bb4da24875c2e6ffb3105f31
+    source_ink_pixels: 735
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s0-symbol-047
+    pixel:
+    - 1863.5
+    - 648.0
+    source_ink_sha256: db08d094fa66d508b20c17123359e20b1d4be701e806dde6d607910a88e5c3e1
+    source_ink_pixels: 734
+    recovery_id: null
+    readout_bound_px: 7
+  recoveries: []
+  duplicate_detections_removed: []
+  usable_p_min_bar: 0.02351585014409222
+  usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+    origin coverage; no initial-slope fit without sensitivity check
+  origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+    individual glyphs; no origin imputed'
+  status: verified
+  reviewer: T011v
+  review_ref: reviews/T011v_c_series_verification.md
+  pending_review: null
+  baseline_coordinate_bytes_sha256: 6aeaba9b748753619ab05dec63574d1ba520cc29bc34b2306bc317f39fc910ac
+  coordinate_bytes_sha256: 6aeaba9b748753619ab05dec63574d1ba520cc29bc34b2306bc317f39fc910ac
+  coordinates_byte_identical: true
+- name: UiO-66-NH2
+  data_kind: digitized_markers
+  sigma_pixel: 7
+  pixels:
+  - - 284.5
+    - 1326.0
+  - - 322.1666666666667
+    - 1297.3333333333333
+  - - 353.5
+    - 1275.0
+  - - 389.5
+    - 1248.0
+  - - 422.5
+    - 1227.0
+  - - 459.5
+    - 1202.0
+  - - 494.5
+    - 1180.0
+  - - 534.5
+    - 1155.0
+  - - 572.5
+    - 1132.0
+  - - 608.5
+    - 1111.0
+  - - 643.5
+    - 1090.0
+  - - 679.5
+    - 1070.0
+  - - 713.5
+    - 1051.0
+  - - 746.5
+    - 1032.0
+  - - 779.5
+    - 1015.0
+  - - 812.5
+    - 999.0
+  - - 849.5
+    - 980.0
+  - - 881.5
+    - 963.0
+  - - 918.5
+    - 945.0
+  - - 953.5
+    - 928.0
+  - - 993.5
+    - 909.0
+  - - 1027.5
+    - 893.0
+  - - 1062.5
+    - 877.0
+  - - 1099.5
+    - 860.0
+  - - 1133.5
+    - 845.0
+  - - 1170.5
+    - 829.0
+  - - 1205.5
+    - 814.0
+  - - 1241.5
+    - 798.0
+  - - 1278.5
+    - 782.0
+  - - 1312.5
+    - 767.0
+  - - 1348.5
+    - 753.0
+  - - 1380.5
+    - 739.0
+  - - 1416.5
+    - 725.0
+  - - 1451.5
+    - 711.0
+  - - 1483.5
+    - 698.0
+  - - 1518.5
+    - 684.0
+  - - 1554.5
+    - 671.0
+  - - 1587.5
+    - 657.0
+  - - 1621.5
+    - 644.0
+  - - 1655.5
+    - 631.0
+  - - 1688.5
+    - 619.0
+  - - 1723.5
+    - 606.5
+  - - 1757.5
+    - 593.0
+  - - 1790.5
+    - 581.0
+  - - 1823.5
+    - 568.0
+  - - 1857.5
+    - 556.0
+  marker: circle
+  color: red
+  branch: adsorption
+  template_box_native_pixels:
+  - 375
+  - 223
+  - 407
+  - 254
+  match_threshold: 0.58
+  symbols:
+  - symbol_id: T011-S105-Fig8B-s1-symbol-001
+    pixel:
+    - 284.5
+    - 1326.0
+    source_ink_sha256: 26c5b666f851abb2bd7d5d87c056bcf4ba706b4f7baf0628b937a5185c0113e1
+    source_ink_pixels: 555
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-002
+    pixel:
+    - 322.1666666666667
+    - 1297.3333333333333
+    source_ink_sha256: a19c050dfc4b19441171dce00608f2ea241162649804422fdf1fe8168bfe7c36
+    source_ink_pixels: 720
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-003
+    pixel:
+    - 353.5
+    - 1275.0
+    source_ink_sha256: 11477da618a84a872310e4f6e6a2ce12cc56d5b7206385bf1e5c2024e50cd471
+    source_ink_pixels: 754
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-004
+    pixel:
+    - 389.5
+    - 1248.0
+    source_ink_sha256: ee85a4efffa8c34985f71e945c0ebdc551ad9a98a50c5ca4af389a9736748e83
+    source_ink_pixels: 748
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-005
+    pixel:
+    - 422.5
+    - 1227.0
+    source_ink_sha256: 9a2b70f724086c1b14cf7705bcf8d6340656be6b8f4208273286bcca417f81ae
+    source_ink_pixels: 751
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-006
+    pixel:
+    - 459.5
+    - 1202.0
+    source_ink_sha256: e0bc37367602b84f0deaead5cc5745a9ac63a51ff6b6eb6708cd3792e975f880
+    source_ink_pixels: 750
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-007
+    pixel:
+    - 494.5
+    - 1180.0
+    source_ink_sha256: bdaf6a0cb3e2d31c6f4e68c8ec3973c245d5c5112abf46cf002e02f4f29cec0d
+    source_ink_pixels: 753
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-008
+    pixel:
+    - 534.5
+    - 1155.0
+    source_ink_sha256: 07c43763ba4eeca7f2ca8e23a17794356fdca4e000bd942c39d172fada4e60ea
+    source_ink_pixels: 746
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-009
+    pixel:
+    - 572.5
+    - 1132.0
+    source_ink_sha256: 55ef8683c1520f953d8fe16330fa159543462f81aa63771a9cb3e2919002d275
+    source_ink_pixels: 749
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-010
+    pixel:
+    - 608.5
+    - 1111.0
+    source_ink_sha256: 0eef14915a1c65e2fbddf3242e7c2ca4b0df41022a7c8d37ed42bc9253e03931
+    source_ink_pixels: 756
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-011
+    pixel:
+    - 643.5
+    - 1090.0
+    source_ink_sha256: 54a62570097cd96389630d66cd530586d1523951caa13f7d3431acb88f574c7c
+    source_ink_pixels: 751
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-012
+    pixel:
+    - 679.5
+    - 1070.0
+    source_ink_sha256: 3f86d9cab0c3179bfb5540c54efe8101b2cc7b077fec68ecb1c3f5887f36fc53
+    source_ink_pixels: 750
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-013
+    pixel:
+    - 713.5
+    - 1051.0
+    source_ink_sha256: 32165e231573403b28156235cc114cc65a79bd9772d756f960de47bc7f9161a9
+    source_ink_pixels: 748
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-014
+    pixel:
+    - 746.5
+    - 1032.0
+    source_ink_sha256: 1c6674076cbf8535f01be70e0d8d1dc02f03967acb563f841968a0c44311ddd9
+    source_ink_pixels: 749
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-015
+    pixel:
+    - 779.5
+    - 1015.0
+    source_ink_sha256: a4a8d5e5f1b5579125c44677bc993af8112686f9d2bc416696bf6a5062f02cde
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-016
+    pixel:
+    - 812.5
+    - 999.0
+    source_ink_sha256: a432b9e71804e13217440ac479b9b7a91f6efbca5ce59a58e8ebdf042e1fe499
+    source_ink_pixels: 751
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-017
+    pixel:
+    - 849.5
+    - 980.0
+    source_ink_sha256: 8c9fb79e42d4fad022e3988c585b1d93889425b7d2f76fbc550530568b7a8407
+    source_ink_pixels: 755
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-018
+    pixel:
+    - 881.5
+    - 963.0
+    source_ink_sha256: b6f7a5f09f412fd63fb4d8039adaf25afe71a68ebaecdcfa68f9ec2ce0b7406f
+    source_ink_pixels: 757
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-019
+    pixel:
+    - 918.5
+    - 945.0
+    source_ink_sha256: 70b95fd3301eb7ae7332bc7e697105f03c054d394ed890112be06a0951562309
+    source_ink_pixels: 761
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-020
+    pixel:
+    - 953.5
+    - 928.0
+    source_ink_sha256: dc8a1a3044460babb1b96d532b84c58c35dff409a59fd0e6c90f0fc9dd12bf1f
+    source_ink_pixels: 758
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-021
+    pixel:
+    - 993.5
+    - 909.0
+    source_ink_sha256: cb11b6a71c680605c6cc88db5dbb53ec7bd28de6429e124db99aca5701358572
+    source_ink_pixels: 748
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-022
+    pixel:
+    - 1027.5
+    - 893.0
+    source_ink_sha256: f959363367ad41d941ba1afbaa6ddb90e9a27dd91c2a76c134a2cd4230ed4deb
+    source_ink_pixels: 760
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-023
+    pixel:
+    - 1062.5
+    - 877.0
+    source_ink_sha256: a285d919d69e4398c1aa1d10d58bdf3cbe92c2d7f4d6e458f712167c9247db9e
+    source_ink_pixels: 759
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-024
+    pixel:
+    - 1099.5
+    - 860.0
+    source_ink_sha256: 378d15111fcceabe6694f858c4e516c328de2782c498507e3c65759f30ea8b73
+    source_ink_pixels: 746
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-025
+    pixel:
+    - 1133.5
+    - 845.0
+    source_ink_sha256: 54e249e2cb6611a5675f7a377c3fdef5f5fcf3d50ffad06db8e2731aac23b973
+    source_ink_pixels: 760
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-026
+    pixel:
+    - 1170.5
+    - 829.0
+    source_ink_sha256: b9ce7717e14ff5c113615a225e004c9b6aee30fd4f740761ae55f8a29c5829a4
+    source_ink_pixels: 749
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-027
+    pixel:
+    - 1205.5
+    - 814.0
+    source_ink_sha256: 72a4ec33e664ca9c957392ae27ac42e31d1198764f9183b73566ec723dc2b666
+    source_ink_pixels: 754
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-028
+    pixel:
+    - 1241.5
+    - 798.0
+    source_ink_sha256: 2b79285086015fccc0cac7f1b37efc64a684ec3eb2beef324ff2de88d1689ce2
+    source_ink_pixels: 754
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-029
+    pixel:
+    - 1278.5
+    - 782.0
+    source_ink_sha256: 075f5f0fadf1fbe48312951b328ceb279d82b3cd89ee139b675b4fadb1a38161
+    source_ink_pixels: 756
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-030
+    pixel:
+    - 1312.5
+    - 767.0
+    source_ink_sha256: 070eb36ebdf278990814d9efb68b5f29b5dc0c4fd259eb8b19bfc4065241e9e8
+    source_ink_pixels: 752
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-031
+    pixel:
+    - 1348.5
+    - 753.0
+    source_ink_sha256: 1c23833ba2fe05c09f06242a517e612ec045e62e8c57e25fa0557d4eb7a96945
+    source_ink_pixels: 757
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-032
+    pixel:
+    - 1380.5
+    - 739.0
+    source_ink_sha256: 8f9c17ee811fc2a1146ad0ac8e43ef82f05dfc601d5fb1bde465d1a3fb3c20ea
+    source_ink_pixels: 749
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-033
+    pixel:
+    - 1416.5
+    - 725.0
+    source_ink_sha256: f3ac7972b11cf71187da64bb84b1ba65f14d50a993c6f4f3d05e5e2701f61cc4
+    source_ink_pixels: 752
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-034
+    pixel:
+    - 1451.5
+    - 711.0
+    source_ink_sha256: 008de5284e3eacb8eae0069ba99302721054b38c162d2884cf8078c12748952e
+    source_ink_pixels: 760
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-035
+    pixel:
+    - 1483.5
+    - 698.0
+    source_ink_sha256: d423b2d16ac1ef5f9b86dec8b86e05066a7a6d32b67cfb16eecc3a3d84de7922
+    source_ink_pixels: 754
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-036
+    pixel:
+    - 1518.5
+    - 684.0
+    source_ink_sha256: c3be23682e45abd4d6b121e119cfd7757c7eababddeaf581814071ae4822e77c
+    source_ink_pixels: 757
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-037
+    pixel:
+    - 1554.5
+    - 671.0
+    source_ink_sha256: 08d8db61e2e85efb61bdbee67b3976a4a06db0ff2691b1b874be511296f4590c
+    source_ink_pixels: 750
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-038
+    pixel:
+    - 1587.5
+    - 657.0
+    source_ink_sha256: 6d7e75b778b423af055eab489cfff657ffe99ca449d4af1fe1099ca5a627f15b
+    source_ink_pixels: 756
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-039
+    pixel:
+    - 1621.5
+    - 644.0
+    source_ink_sha256: a2e7c51ca63a82e8de2d1613971b86aa722443561b9b198e7ddd54b24e7c412a
+    source_ink_pixels: 750
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-040
+    pixel:
+    - 1655.5
+    - 631.0
+    source_ink_sha256: 8ace10788f830187a73b13cd7cd39ce4de81adec2380c0c451854979dcae1f86
+    source_ink_pixels: 749
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-041
+    pixel:
+    - 1688.5
+    - 619.0
+    source_ink_sha256: 898349f629129f2fb2ee1a0bb3161f6890ec683b2028c7ed8badb7d8c3b45401
+    source_ink_pixels: 748
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-042
+    pixel:
+    - 1723.5
+    - 606.5
+    source_ink_sha256: 659f7edebe3a6a7e31d5f770ecf6d9d416a5f86fb0596fb4a544687a093ca7fe
+    source_ink_pixels: 744
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-043
+    pixel:
+    - 1757.5
+    - 593.0
+    source_ink_sha256: ebdad18e677eae16f06d59e9a8ab39e929e992de7e52e41dd505749e1b9b895c
+    source_ink_pixels: 751
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-044
+    pixel:
+    - 1790.5
+    - 581.0
+    source_ink_sha256: 644d32ac5d660a803b74177bea4a2c024fc18b965e213c0263f42355a253c508
+    source_ink_pixels: 760
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-045
+    pixel:
+    - 1823.5
+    - 568.0
+    source_ink_sha256: 600443ccf55ea942eb143b290e4ced91d38c8e06b97f3f65b541f156829814e2
+    source_ink_pixels: 754
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s1-symbol-046
+    pixel:
+    - 1857.5
+    - 556.0
+    source_ink_sha256: 343677b84a0fa4e9717e9f646bbf8c6116ecf6c2585df6dd20de724481b9935d
+    source_ink_pixels: 749
+    recovery_id: null
+    readout_bound_px: 7
+  recoveries: []
+  duplicate_detections_removed: []
+  usable_p_min_bar: 0.02628242074927954
+  usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+    origin coverage; no initial-slope fit without sensitivity check
+  origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+    individual glyphs; no origin imputed'
+  status: verified
+  reviewer: T011v
+  review_ref: reviews/T011v_c_series_verification.md
+  pending_review: null
+  baseline_coordinate_bytes_sha256: 17778f605c4578600e167276f0ae504b2e96131f166332b5f8f6d98879bb4614
+  coordinate_bytes_sha256: 17778f605c4578600e167276f0ae504b2e96131f166332b5f8f6d98879bb4614
+  coordinates_byte_identical: true
+- name: UiO-66/GO
+  data_kind: digitized_markers
+  sigma_pixel: 7
+  pixels:
+  - - 288.5
+    - 1280.5
+  - - 320.5
+    - 1232.5
+  - - 354.5
+    - 1185.5
+  - - 389.5
+    - 1141.5
+  - - 432.5
+    - 1093.5
+  - - 475.5
+    - 1049.5
+  - - 519.5
+    - 1009.5
+  - - 561.5
+    - 972.5
+  - - 603.5
+    - 939.0
+  - - 644.5
+    - 908.5
+  - - 684.5
+    - 879.5
+  - - 723.5
+    - 852.5
+  - - 761.5
+    - 827.5
+  - - 803.5
+    - 801.5
+  - - 845.5
+    - 777.5
+  - - 883.5
+    - 754.5
+  - - 926.5
+    - 730.5
+  - - 967.5
+    - 708.5
+  - - 1008.5
+    - 687.5
+  - - 1049.5
+    - 666.5
+  - - 1091.5
+    - 645.5
+  - - 1132.5
+    - 625.5
+  - - 1172.5
+    - 607.5
+  - - 1216.5
+    - 587.5
+  - - 1258.5
+    - 568.5
+  - - 1302.5
+    - 549.5
+  - - 1345.5
+    - 530.5
+  - - 1390.0
+    - 512.5
+  - - 1432.5
+    - 494.5
+  - - 1475.5
+    - 477.5
+  - - 1518.5
+    - 460.5
+  - - 1561.5
+    - 443.5
+  - - 1604.5
+    - 426.5
+  - - 1646.5
+    - 410.5
+  - - 1688.5
+    - 395.5
+  - - 1730.5
+    - 379.5
+  - - 1773.5
+    - 363.5
+  - - 1814.5
+    - 349.5
+  - - 1857.5
+    - 334.5
+  marker: triangle_up
+  color: blue
+  branch: adsorption
+  template_box_native_pixels:
+  - 373
+  - 327
+  - 409
+  - 359
+  match_threshold: 0.58
+  symbols:
+  - symbol_id: T011-S105-Fig8B-s2-symbol-001
+    pixel:
+    - 288.5
+    - 1280.5
+    source_ink_sha256: 0fc26f90d89b0566610b7e4fc4d3cf75d11cff018c75f4f24f197dcb861ca947
+    source_ink_pixels: 428
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-002
+    pixel:
+    - 320.5
+    - 1232.5
+    source_ink_sha256: 7c3716602d36f960e59aed3d8d5e8bc9d321692441b89abb23361bf16c612951
+    source_ink_pixels: 555
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-003
+    pixel:
+    - 354.5
+    - 1185.5
+    source_ink_sha256: 027ed629b38aaa4c637450e86fbdfa08affbeaa819674003089f24414a14d5a0
+    source_ink_pixels: 574
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-004
+    pixel:
+    - 389.5
+    - 1141.5
+    source_ink_sha256: 740cadcb9a91d0b3b32224a7aee82f694eb5aa9ec63de3d9a2e48b759723b284
+    source_ink_pixels: 587
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-005
+    pixel:
+    - 432.5
+    - 1093.5
+    source_ink_sha256: 58752b56d22bf3c180406a1df5b64e9da4ef0c5d961d60571c0908ba672e698a
+    source_ink_pixels: 591
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-006
+    pixel:
+    - 475.5
+    - 1049.5
+    source_ink_sha256: 6fc959b587f95201f53328369dcf95dfd3b902920f366b9a7c3e1b1c25a09267
+    source_ink_pixels: 577
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-007
+    pixel:
+    - 519.5
+    - 1009.5
+    source_ink_sha256: c5c315545d1e0c48d013b7caabe6e728d7ced50731492b5c14ddc0566f910aa1
+    source_ink_pixels: 573
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-008
+    pixel:
+    - 561.5
+    - 972.5
+    source_ink_sha256: 93b7c1e25a37908f528a074687e292d68985e582e3b6e5e5e7e0df0c4b7fcd39
+    source_ink_pixels: 562
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-009
+    pixel:
+    - 603.5
+    - 939.0
+    source_ink_sha256: 26e8c704d861f38e0f0fc2a203b64d43e191b2c987cf782c5cf5be8e883f9290
+    source_ink_pixels: 544
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-010
+    pixel:
+    - 644.5
+    - 908.5
+    source_ink_sha256: 980074b6b4392dacb76cc426eca9f09db6d032a04a096948bf86b10d168228e3
+    source_ink_pixels: 529
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-011
+    pixel:
+    - 684.5
+    - 879.5
+    source_ink_sha256: 84b1aa2f0e9f02935e4dd2523bb4f8c11025d211fa07d700c6eaf22ae7ccc60d
+    source_ink_pixels: 512
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-012
+    pixel:
+    - 723.5
+    - 852.5
+    source_ink_sha256: 5367a7bb2de18b243ea9c9d8cc19c22805916462231d30d6afe26723570246ea
+    source_ink_pixels: 494
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-013
+    pixel:
+    - 761.5
+    - 827.5
+    source_ink_sha256: dc1b85dd58f2c3dbe6b92c91da8b3b88ef8805015cb4867e4af913a5da55567b
+    source_ink_pixels: 464
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-014
+    pixel:
+    - 803.5
+    - 801.5
+    source_ink_sha256: 91615ff9dc1af120b8fb74aa06f7c08562aed5d0de306b16a27dbdbb5178fc5a
+    source_ink_pixels: 472
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-015
+    pixel:
+    - 845.5
+    - 777.5
+    source_ink_sha256: 7d1ee2cacfab5b031e3468f06ef4fb623637622d0c1c25af96baa25903836956
+    source_ink_pixels: 495
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-016
+    pixel:
+    - 883.5
+    - 754.5
+    source_ink_sha256: 7e31b0c02fa970aafa1353227c169762d620f302956a0e9d4f2ff9f62fac493a
+    source_ink_pixels: 503
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-017
+    pixel:
+    - 926.5
+    - 730.5
+    source_ink_sha256: 9e2f40da3c89a4c1d7302103ec96ad312bfb53a7223a3ea6e79cfe46ac0d4bd4
+    source_ink_pixels: 522
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-018
+    pixel:
+    - 967.5
+    - 708.5
+    source_ink_sha256: 341bcc9cfcbb9c83099a5593ba5333352ad4bd2e6f353f426afb84df0f79735a
+    source_ink_pixels: 532
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-019
+    pixel:
+    - 1008.5
+    - 687.5
+    source_ink_sha256: f1a6153e384603322b7b30f0c8dbfbcda5d33bad6026e5a9608f298b14d60258
+    source_ink_pixels: 550
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-020
+    pixel:
+    - 1049.5
+    - 666.5
+    source_ink_sha256: 52b1d2901d129d3c34f27dd00f75a5f49aff89fae082ef052ec9f3dc4ab16873
+    source_ink_pixels: 553
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-021
+    pixel:
+    - 1091.5
+    - 645.5
+    source_ink_sha256: ff8787fe986ec54a623dc8e472970508bc19a51c00fdc54d8c372c963e33e7cd
+    source_ink_pixels: 563
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-022
+    pixel:
+    - 1132.5
+    - 625.5
+    source_ink_sha256: 2bde1954c76618986c5cbbf5f5a7b5ea17494ddbd549b8377cc44496a5ad7e05
+    source_ink_pixels: 561
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-023
+    pixel:
+    - 1172.5
+    - 607.5
+    source_ink_sha256: ce4599a00407721e7816bec33bc991ac2287b6f74b30d61c0da5138b438a0339
+    source_ink_pixels: 573
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-024
+    pixel:
+    - 1216.5
+    - 587.5
+    source_ink_sha256: de946bcbb75bc7070c484396cb2f18065a789b0c066d4b3633438ab1b1f96c7a
+    source_ink_pixels: 571
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-025
+    pixel:
+    - 1258.5
+    - 568.5
+    source_ink_sha256: bfb3202f67aa7479d86d0a2b5932bdabd73e108caa5bb1a717c0adfb55b604ac
+    source_ink_pixels: 563
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-026
+    pixel:
+    - 1302.5
+    - 549.5
+    source_ink_sha256: 906f103bcbcb60202b117c66fee013e556af2eed48d2b56424d061c985bcb540
+    source_ink_pixels: 561
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-027
+    pixel:
+    - 1345.5
+    - 530.5
+    source_ink_sha256: 001ed2e6123f08a9f43517654c2a2db63895f599d7443b8c46b484937943e750
+    source_ink_pixels: 548
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-028
+    pixel:
+    - 1390.0
+    - 512.5
+    source_ink_sha256: aa2c0516e2e0277ca1e038ff24465ebb95c33204a7ed7cfbdefda51e3cc37016
+    source_ink_pixels: 543
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-029
+    pixel:
+    - 1432.5
+    - 494.5
+    source_ink_sha256: e0e2db284b224e63ad0d52b3b98d982ab683556faeee5c018f23602e478adade
+    source_ink_pixels: 530
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-030
+    pixel:
+    - 1475.5
+    - 477.5
+    source_ink_sha256: 9e40af648da5595ffdef450a97faefd6809a5404b625ee140faca956af660c62
+    source_ink_pixels: 523
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-031
+    pixel:
+    - 1518.5
+    - 460.5
+    source_ink_sha256: 31da10cecc26c1076bbd2a1e6e8101a62d69ec6b79bc2fd2a6d42865db1561c4
+    source_ink_pixels: 510
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-032
+    pixel:
+    - 1561.5
+    - 443.5
+    source_ink_sha256: 3bd98ae761608a8bfad9045775fd164d0da6c5a87bc27016fe471a00b9137b49
+    source_ink_pixels: 489
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-033
+    pixel:
+    - 1604.5
+    - 426.5
+    source_ink_sha256: 32cd316a87ae396f75c352afeab4a278c1f13db86c1d78188c51550e8c126063
+    source_ink_pixels: 472
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-034
+    pixel:
+    - 1646.5
+    - 410.5
+    source_ink_sha256: e03dcee6f2e65403209882f6ea1d6ce08c30c0d951d40160b4b1f2153bf6f463
+    source_ink_pixels: 453
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-035
+    pixel:
+    - 1688.5
+    - 395.5
+    source_ink_sha256: e5a6aeff860e2913f0b869d6f0d99fd40c0219bd0d7da67cf619d2a9439b0271
+    source_ink_pixels: 472
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-036
+    pixel:
+    - 1730.5
+    - 379.5
+    source_ink_sha256: f0723699c5c1029c866042eb24cfcc2e3be62cad7510d12de7813b5df371dd0d
+    source_ink_pixels: 516
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-037
+    pixel:
+    - 1773.5
+    - 363.5
+    source_ink_sha256: 08187611e1f1dbfba5cef2bc7bd6be53e5ae7faaf436926d82a0629cbdb563d3
+    source_ink_pixels: 577
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-038
+    pixel:
+    - 1814.5
+    - 349.5
+    source_ink_sha256: 007fc9b3224a950d631f74bf8345707ce0e5554a64fa66d85c5fc261cc91daeb
+    source_ink_pixels: 618
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s2-symbol-039
+    pixel:
+    - 1857.5
+    - 334.5
+    source_ink_sha256: bd6edc6e33af73542d6c860ec0356fcf96252936a6b1a5c9151f6b5b51e28331
+    source_ink_pixels: 626
+    recovery_id: null
+    readout_bound_px: 7
+  recoveries: []
+  duplicate_detections_removed: []
+  usable_p_min_bar: 0.02904899135446686
+  usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+    origin coverage; no initial-slope fit without sensitivity check
+  origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+    individual glyphs; no origin imputed'
+  status: verified
+  reviewer: T011v
+  review_ref: reviews/T011v_c_series_verification.md
+  pending_review: null
+  baseline_coordinate_bytes_sha256: d85c07ceb086ebc1e2910371d72ab8c43184ae74ba3f4af5ce2a855cdfdd922c
+  coordinate_bytes_sha256: d85c07ceb086ebc1e2910371d72ab8c43184ae74ba3f4af5ce2a855cdfdd922c
+  coordinates_byte_identical: true
+- name: UiO-66-NH2/GO
+  data_kind: digitized_markers
+  sigma_pixel: 7
+  pixels:
+  - - 286.5
+    - 1268.7857142857142
+  - - 320.5
+    - 1199.5
+  - - 354.5
+    - 1144.5
+  - - 389.5
+    - 1099.5
+  - - 432.5
+    - 1046.5
+  - - 475.5
+    - 997.5
+  - - 519.5
+    - 950.5
+  - - 561.5
+    - 912.5
+  - - 603.5
+    - 876.5
+  - - 644.5
+    - 845.5
+  - - 684.5
+    - 807.5
+  - - 723.5
+    - 781.5
+  - - 761.5
+    - 751.5
+  - - 803.5
+    - 726.5
+  - - 844.5
+    - 698.5
+  - - 883.5
+    - 673.5
+  - - 926.5
+    - 647.5
+  - - 967.5
+    - 622.5
+  - - 1008.5
+    - 599.5
+  - - 1049.5
+    - 576.5
+  - - 1091.5
+    - 550.5
+  - - 1132.5
+    - 529.5
+  - - 1172.5
+    - 511.5
+  - - 1216.5
+    - 489.5
+  - - 1258.5
+    - 469.5
+  - - 1302.5
+    - 450.5
+  - - 1345.5
+    - 430.5
+  - - 1390.5
+    - 409.5
+  - - 1432.5
+    - 389.5
+  - - 1475.5
+    - 371.5
+  - - 1518.5
+    - 352.5
+  - - 1561.5
+    - 333.5
+  - - 1604.5
+    - 315.5
+  - - 1646.5
+    - 298.5
+  - - 1688.5
+    - 281.5
+  - - 1730.5
+    - 264.5
+  - - 1773.5
+    - 246.5
+  - - 1814.5
+    - 230.5
+  - - 1857.5
+    - 214.5
+  marker: triangle_down
+  color: teal
+  branch: adsorption
+  template_box_native_pixels:
+  - 373
+  - 429
+  - 409
+  - 461
+  match_threshold: 0.58
+  symbols:
+  - symbol_id: T011-S105-Fig8B-s3-symbol-001
+    pixel:
+    - 286.5
+    - 1268.7857142857142
+    source_ink_sha256: 8131bf695986f802eea2f1a9b54f09934f39a5989a2dd771b2cfdaa5a4ffb44a
+    source_ink_pixels: 505
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-002
+    pixel:
+    - 320.5
+    - 1199.5
+    source_ink_sha256: b54547c6b557f2bb4993ca0b6d40a75ef42cf096f007322ef6bf2c14ebbedbff
+    source_ink_pixels: 608
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-003
+    pixel:
+    - 354.5
+    - 1144.5
+    source_ink_sha256: 2067d52ad4d7fda51d3a2ec1134fdb08a59bb88479e84e2749fcd893f78a528e
+    source_ink_pixels: 621
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-004
+    pixel:
+    - 389.5
+    - 1099.5
+    source_ink_sha256: 845f0aea92140525d25540d4d5b13973fed3ad28aebf15037c8867ea69a838ef
+    source_ink_pixels: 616
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-005
+    pixel:
+    - 432.5
+    - 1046.5
+    source_ink_sha256: 86b62f39c3f58a7c44bf599e80e8eb64ac26a37cd6bf2b4b6ef7b991a6f342cc
+    source_ink_pixels: 613
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-006
+    pixel:
+    - 475.5
+    - 997.5
+    source_ink_sha256: 4fbe14dc71acbdc8b59005c1eba0dbf8b9548d5c9e990dcf435cd6fa1536a8f5
+    source_ink_pixels: 617
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-007
+    pixel:
+    - 519.5
+    - 950.5
+    source_ink_sha256: f2bb590811ca0b060b82109af65d702dc4ae3144e381fc3549a87461e5bba9cf
+    source_ink_pixels: 626
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-008
+    pixel:
+    - 561.5
+    - 912.5
+    source_ink_sha256: 0176bfcaac8dd7edc5437ba263f62963313a68dfddce67a9f248bf8214db0795
+    source_ink_pixels: 574
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-009
+    pixel:
+    - 603.5
+    - 876.5
+    source_ink_sha256: e119d56458cdf06b0fc442c937e357e5de6711ed1070dabcda489d7941cdef51
+    source_ink_pixels: 502
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-010
+    pixel:
+    - 644.5
+    - 845.5
+    source_ink_sha256: ab3dc0f40984ddef58d99bfe88afda2970679cfa31bc7212b2c232634d20e7e3
+    source_ink_pixels: 458
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-011
+    pixel:
+    - 684.5
+    - 807.5
+    source_ink_sha256: 77ea5d600d65110fa076ea885df996f980c85711855f2e7b358038642c0c774f
+    source_ink_pixels: 463
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-012
+    pixel:
+    - 723.5
+    - 781.5
+    source_ink_sha256: ced774dfd61bb2c4b72ad7f1de5e690fcc60218e0ace74b993912416cd51760f
+    source_ink_pixels: 480
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-013
+    pixel:
+    - 761.5
+    - 751.5
+    source_ink_sha256: a5f6db8d15c6694aaf88ab586ac567d87e1d894c102f6b5424068c802ad85a8a
+    source_ink_pixels: 467
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-014
+    pixel:
+    - 803.5
+    - 726.5
+    source_ink_sha256: 85532c75e90e557b453135490f87ac13ae059942ed655a09550d2a4390a99fff
+    source_ink_pixels: 512
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-015
+    pixel:
+    - 844.5
+    - 698.5
+    source_ink_sha256: 6e00a7b3fc10d36a6172b984e13a50840e883e577c372df5db63b012a1a0005e
+    source_ink_pixels: 523
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-016
+    pixel:
+    - 883.5
+    - 673.5
+    source_ink_sha256: 3465c926b436f681953029d8870364777679ad24779f4504033311665a77f879
+    source_ink_pixels: 551
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-017
+    pixel:
+    - 926.5
+    - 647.5
+    source_ink_sha256: ec91ae67a1d4357cc2bacb2cb2ea1effba23467f5356adb2ff2bbc3eab2f644d
+    source_ink_pixels: 556
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-018
+    pixel:
+    - 967.5
+    - 622.5
+    source_ink_sha256: 0522f559a626825e4c89d4747d0d6f65fddfbf7b76e8c028af82fed951d16e3a
+    source_ink_pixels: 570
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-019
+    pixel:
+    - 1008.5
+    - 599.5
+    source_ink_sha256: 3e121f1eeeb734d8923eada8334b49da157b0066daf5525eecc0c2a8534d0dfd
+    source_ink_pixels: 581
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-020
+    pixel:
+    - 1049.5
+    - 576.5
+    source_ink_sha256: 9a445189517031eb3d4f658b56a166d0e11f420a0424c9b5fee4ca6c40fe71a2
+    source_ink_pixels: 588
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-021
+    pixel:
+    - 1091.5
+    - 550.5
+    source_ink_sha256: d60b3e6074852d88b1aabf16248d9cd811a40cba1d17c276cf69b17bfa94a114
+    source_ink_pixels: 575
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-022
+    pixel:
+    - 1132.5
+    - 529.5
+    source_ink_sha256: 7205a26044975583ea53d721bdf82c9b08d77f18b9a0cdd485323c7fdf3d7a52
+    source_ink_pixels: 575
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-023
+    pixel:
+    - 1172.5
+    - 511.5
+    source_ink_sha256: ebea874c2a30bc96d57029941a2d0fedc673ed05774c8439e758e657a0e23382
+    source_ink_pixels: 607
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-024
+    pixel:
+    - 1216.5
+    - 489.5
+    source_ink_sha256: 10c66ba1269c6fa6cba0f73fe6dc01b637d8dd3335e725b1bb0783b6d760367c
+    source_ink_pixels: 594
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-025
+    pixel:
+    - 1258.5
+    - 469.5
+    source_ink_sha256: b6e06370fc8ac2e5ca351e9c9e4e82436c837de7066cb29b42d974bf01b0b822
+    source_ink_pixels: 576
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-026
+    pixel:
+    - 1302.5
+    - 450.5
+    source_ink_sha256: 9d8dd0d12bd80abb84ff0dd77ce6fc03b099f849a2678890ca9c351aa080d090
+    source_ink_pixels: 600
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-027
+    pixel:
+    - 1345.5
+    - 430.5
+    source_ink_sha256: 59a26365f33a0a2865e63c7f429b47de03890a7ca5bedd69cb32f1f454ad2846
+    source_ink_pixels: 587
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-028
+    pixel:
+    - 1390.5
+    - 409.5
+    source_ink_sha256: ffb5e076af79438eb45db9ea3b179f7d0ecd328e5cd0215bc8bee248467c6353
+    source_ink_pixels: 549
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-029
+    pixel:
+    - 1432.5
+    - 389.5
+    source_ink_sha256: d6e04b2388cb4181a766f99ceace3985a0776bee2b9566fdea337f1dd600c067
+    source_ink_pixels: 518
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-030
+    pixel:
+    - 1475.5
+    - 371.5
+    source_ink_sha256: bd696df3fdc40cb91b4b98c9757ab6bd2a9774829f0b145abe66f29a31d3a85e
+    source_ink_pixels: 482
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-031
+    pixel:
+    - 1518.5
+    - 352.5
+    source_ink_sha256: 9f61a46bf441da023f08ee031c4e0bdcaf0c424d46dcb515324a377472112cd5
+    source_ink_pixels: 461
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-032
+    pixel:
+    - 1561.5
+    - 333.5
+    source_ink_sha256: 457f006bfe0dca31a5f937ed03be5cba8eb6dc1f2fa236c5b8ddfd803f8736de
+    source_ink_pixels: 473
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-033
+    pixel:
+    - 1604.5
+    - 315.5
+    source_ink_sha256: 76a5eb5e328474e2a3fb8d8a741b8ea3979184a341813765f9a1000ca882cae3
+    source_ink_pixels: 500
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-034
+    pixel:
+    - 1646.5
+    - 298.5
+    source_ink_sha256: 4b52a81cccee9514c18a820f64a5af786edbc1f57e15506c754554d90349f21b
+    source_ink_pixels: 511
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-035
+    pixel:
+    - 1688.5
+    - 281.5
+    source_ink_sha256: bcef5f8d70da727f01a7d59cb5420d3c560d4da454c7ebce55207236fa004522
+    source_ink_pixels: 534
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-036
+    pixel:
+    - 1730.5
+    - 264.5
+    source_ink_sha256: 97c55b99a389811463c4959ad2a705ab524bf4883f30f37cbd638821febb9b00
+    source_ink_pixels: 561
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-037
+    pixel:
+    - 1773.5
+    - 246.5
+    source_ink_sha256: cbf6aa6a287911c520b20ca3c35c400f5c2a41022c9d3b057147fdd56312b877
+    source_ink_pixels: 612
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-038
+    pixel:
+    - 1814.5
+    - 230.5
+    source_ink_sha256: 9350dc070fe7d5317ebbc99523ba2dc41374cc377bb8f918669cd5437b86e26b
+    source_ink_pixels: 626
+    recovery_id: null
+    readout_bound_px: 7
+  - symbol_id: T011-S105-Fig8B-s3-symbol-039
+    pixel:
+    - 1857.5
+    - 214.5
+    source_ink_sha256: c0b66ee15b7f8d32281713ff1e86e174c237467b6adfece74f8dbfd5573bb408
+    source_ink_pixels: 619
+    recovery_id: null
+    readout_bound_px: 7
+  recoveries: []
+  duplicate_detections_removed: []
+  usable_p_min_bar: 0.0276657060518732
+  usable_range_note: lowest retained distinguishable symbol, not evidence of complete
+    origin coverage; no initial-slope fit without sensitivity check
+  origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
+    individual glyphs; no origin imputed'
+  status: verified
+  reviewer: T011v
+  review_ref: reviews/T011v_c_series_verification.md
+  pending_review: null
+  baseline_coordinate_bytes_sha256: 7ad68b59cd333af04b41fb2ff2067644d3d0da816d4ab9f161272510c289906e
+  coordinate_bytes_sha256: 7ad68b59cd333af04b41fb2ff2067644d3d0da816d4ab9f161272510c289906e
+  coordinates_byte_identical: true
+recovery_windows_ref: data/extraction/digitization/T011b/recovery_windows.json
+recovery_windows_sha256: 9c43ffc42e2b0e9b183febfe1dc7c00278bdb3ff11c2bd9e66105baa9296f10e
+review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
+versions:
+  numpy: 2.5.5
+  scipy: 1.18.1
+  pillow: 12.3.0
+  pymupdf: 1.28.2
+calibration_checks:
+  x:
+  - value: 0.2
+    pixel: 536.5
+    residual_data: 0.000576368876080674
+  - value: 0.4
+    pixel: 825.5
+    residual_data: 0.0004610951008645059
+  - value: 0.6
+    pixel: 1114.5
+    residual_data: 0.00034582132564842105
+  - value: 0.8
+    pixel: 1403.5
+    residual_data: 0.00023054755043216968
+  - value: 1
+    pixel: 1692.5
+    residual_data: 0.00011527377521614035
+  y:
+  - value: 0.5
+    pixel: 1210.0
+    residual_data: 0.004786771105309007
+  - value: 1
+    pixel: 1066.5
+    residual_data: 0.004351610095735481
+  - value: 1.5
+    pixel: 923.5
+    residual_data: 0.0021758050478677404
+  - value: 2
+    pixel: 779.5
+    residual_data: 0.003481288076588207
+  - value: 2.5
+    pixel: 636.5
+    residual_data: 0.0013054830287204666
+  - value: 3
+    pixel: 492.5
+    residual_data: 0.0026109660574413773
+  - value: 3.5
+    pixel: 349.5
+    residual_data: 0.0004351610095736369
+  scan_row: 1344
+  scan_column: 255
+  method: dark-pixel run centers at independent interior ticks; <=3 px residual required
+algorithm:
+  method: color mask; printed-symbol template; maxima; occlusion-aware partial-symbol
+    fits; source-ink overlap deduplication
+  legend_exclusion:
+  - 300
+  - 20
+  - 1100
+  - 525
+  shared_origin_excluded: true
+  no_curve_sampling: true
+error_estimate:
+  readout_bound_px: 7
+  base_readout_bound_px: 7
+  calibration_endpoint_bound_px: 2
+  method: linear worst-case sum; no experimental uncertainty inferred
+status: verified
+reviewer: T011v

@@ -1,0 +1,284 @@
+v1/composite:
+  M1:
+    A0:
+      value: 0.894339603302657
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    lam:
+      value: 1.5998281916988797
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 37.93371356805731
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    kappa:
+      value: 0.31064754470743616
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+  B1:
+    eta0:
+      value: 0.16964599243830555
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 104.16488176623855
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+v1/ratio:
+  M1:
+    A0:
+      value: 0.9999999999999999
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    lam:
+      value: 2.2189823023462956
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 56.244641598520275
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    kappa:
+      value: 0.4927267794352811
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+  B1:
+    eta0:
+      value: 0.20591399070347927
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 360.8058942183533
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+v1.1-mof/composite:
+  M1:
+    A0:
+      value: 0.7665906239015409
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    lam:
+      value: 2.0374317928551187
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 35.89232088363252
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    kappa:
+      value: 0.8956880418582074
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+  B1:
+    eta0:
+      value: 0.05792315802831176
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 9999.999999999998
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+v1.1-mof/ratio:
+  M1:
+    A0:
+      value: 0.9999999999999999
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    lam:
+      value: 2.9115522481114526
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 45.36580258141018
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    kappa:
+      value: 1.242539458639169
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+  B1:
+    eta0:
+      value: 0.09662205606075537
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 9999.999999999998
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+v1.1-connectivity/composite:
+  M1:
+    A0:
+      value: 0.3413194075159356
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    lam:
+      value: 0.7782576537726825
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 56.62908396323631
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    kappa:
+      value: 1.5321343391566828
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    power:
+      value: 11.999999999999998
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+  B1:
+    eta0:
+      value: 0.05792315802831176
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 9999.999999999998
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+v1.1-connectivity/ratio:
+  M1:
+    A0:
+      value: 0.36906823259104904
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    lam:
+      value: 0.15733630834538836
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 53.040915674327145
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    kappa:
+      value: 2.557558813754788
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    power:
+      value: 11.999999999999998
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+  B1:
+    eta0:
+      value: 0.09662205606075537
+      unit: '1'
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug
+    K_d:
+      value: 9999.999999999998
+      unit: bar^-1
+      type: fit_on_C
+      source_id: S100; DESIGN-T015
+      extraction_id: T006-S100-FigS5
+      status: debug

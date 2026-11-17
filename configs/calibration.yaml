@@ -1,0 +1,206 @@
+description: Debug C-only fit; optimizer start vectors use units of matching bound
+  records.
+calibration:
+  T_fit:
+    value: 298.0
+    unit: K
+    type: assumption_range
+    source_id: D-15
+    extraction_id: not_applicable
+    status: debug
+  n_N:
+    value: 23.21909538404384
+    unit: mmol N/g PEI
+    type: assumption_range
+    source_id: 'DESIGN-T012: ideal C2H5N, rounded standard atomic masses'
+    extraction_id: not_applicable
+    status: debug
+  host_bounds:
+  - value:
+    - 0.01
+    - 100.0
+    unit: mmol/g MOF
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  - value:
+    - 1.0e-05
+    - 1000.0
+    unit: bar^-1
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  host_starts:
+  - value:
+    - 5.0
+    - 0.5
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  - value:
+    - 20.0
+    - 0.05
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  M1_bounds:
+  - value:
+    - 0.0
+    - 1.0
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  - value:
+    - 0.0
+    - 30.0
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  - value:
+    - 0.001
+    - 10000.0
+    unit: bar^-1
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  - value:
+    - 0.0
+    - 1.49
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  M1_starts:
+  - value:
+    - 0.5
+    - 1.0
+    - 20.0
+    - 0.2
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  - value:
+    - 0.9
+    - 0.1
+    - 5.0
+    - 1.0
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  - value:
+    - 0.5
+    - 3.0
+    - 100.0
+    - 0.01
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  B1_bounds:
+  - value:
+    - 0.0
+    - 0.5
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  - value:
+    - 0.001
+    - 10000.0
+    unit: bar^-1
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  B1_starts:
+  - value:
+    - 0.2
+    - 10.0
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  - value:
+    - 0.4
+    - 100.0
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  profile_points:
+    value: 9
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T013
+    extraction_id: not_applicable
+    status: debug
+  errors:
+    q_scale:
+      value: 3.5
+      unit: mmol/g
+      type: derived
+      source_id: S100
+      extraction_id: T006-S100-FigS5
+      status: debug
+    p_scale:
+      value: 1.0
+      unit: bar
+      type: derived
+      source_id: S100
+      extraction_id: T006-S100-FigS5
+      status: debug
+    interexecutor_q:
+      value: 0.017
+      unit: mmol/g
+      type: derived
+      source_id: D-15
+      extraction_id: T007-S100-FigS5
+      status: debug
+    interexecutor_p:
+      value: 0.002
+      unit: bar
+      type: derived
+      source_id: D-15
+      extraction_id: T007-S100-FigS5
+      status: debug
+    digit_fraction:
+      value: 0.03
+      unit: '1'
+      type: assumption_range
+      source_id: D-15
+      extraction_id: not_applicable
+      status: debug
+    exp_fraction:
+      value: 0.03
+      unit: '1'
+      type: assumption_range
+      source_id: 'DESIGN-T012: unknown-error sensitivity only'
+      extraction_id: not_applicable
+      status: debug
+  n_N_ridge_upper:
+    value: 50.0
+    unit: mmol N/g PEI
+    type: assumption_range
+    source_id: 'DESIGN-T013: exact algebraic ridge stress grid, not elemental analysis'
+    extraction_id: not_applicable
+    status: debug

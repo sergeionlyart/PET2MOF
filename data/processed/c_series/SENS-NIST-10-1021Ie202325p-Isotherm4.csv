@@ -1,0 +1,14 @@
+series_id,source_id,extraction_id,material,gas,T_K,p_bar,q_mmol_g,q_err_mmol_g,p_err_bar,data_kind,status
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,0,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,3.8879,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,6.5349,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,10.9743,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,16.3511,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,18.1158,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,18.8879,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,19.6875,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,20.2114,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,20.7629,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,21.204,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,21.5901,,,digitized_markers,provisional
+SENS-NIST-10-1021Ie202325p-Isotherm4,NIST-10.1021Ie202325p,T002-10.1021Ie202325p.Isotherm4,UiO-66-NH2,H2O,298,1,21.9485,,,digitized_markers,provisional

@@ -1,0 +1,31 @@
+extraction_id: T014-S106-pores
+source_id: S106
+doi: 10.1016/j.micromeso.2021.111555
+url: https://pure.tue.nl/ws/portalfiles/portal/193896004/1_s2.0_S1387181121006818_main_1_.pdf
+input_sha256: 8f90209c81c26d74883ad00e08264ee87ad49b8ee718dee3726aae57cb551f89
+pdf_page: 5
+api_page_map:
+  '1': 5
+figure_or_table: Table 1, article p.4 / repository PDF p.5
+region:
+  render: private/T014/S106-p5.png
+  render_sha256: d782c43ceb0f38227f6723eb30eb31453dedc6b713101cd5c43d996030f24e25
+  visual_check: T014 author checked; independent review pending
+tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
+tool_version: PyMuPDF 1.28.2; T014-v1
+params:
+  input_ref: private/T014/S106.pdf
+  output_ref: data/extraction/T014/T014-S106-pores.json
+  page_note: PDF index is one-based, including repository cover page when present.
+  interpretation: No plot coordinates inferred; printed numbers only.
+date: '2026-11-16T23:59:48.788477+00:00'
+raw_response_ref: private/T014/S106.pdf
+unit_conversions: []
+derived_sha256: 0147930dd35474258fff1ca9878508c2304920a854524c79295f7636f8a8fb01
+status: provisional
+reviewer: null
+corrections: []
+error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
+  interval.
+data_kind: measured_table
+sensitivity_only: true

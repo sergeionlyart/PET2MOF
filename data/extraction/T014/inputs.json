@@ -1,0 +1,56 @@
+{
+  "accessed": "2026-11-17",
+  "files": [
+    {
+      "path": "private/T014/S105.pdf",
+      "url": "https://mdpi-res.com/d_attachment/materials/materials-11-00589/article_deploy/materials-11-00589.pdf",
+      "sha256": "1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a"
+    },
+    {
+      "path": "private/T014/S106.pdf",
+      "url": "https://pure.tue.nl/ws/portalfiles/portal/193896004/1_s2.0_S1387181121006818_main_1_.pdf",
+      "sha256": "8f90209c81c26d74883ad00e08264ee87ad49b8ee718dee3726aae57cb551f89"
+    },
+    {
+      "path": "private/T014/S110.pdf",
+      "url": "https://mdpi-res.com/d_attachment/energies/energies-15-01075/article_deploy/energies-15-01075.pdf",
+      "sha256": "edb265354f629087f860b6322235efe89d292945e9000d566d451b560e61d49c"
+    },
+    {
+      "path": "private/T014/S116.pdf",
+      "url": "https://uhra.herts.ac.uk/id/eprint/8235/1/1_s2_0_S1750583618306789_main.pdf",
+      "sha256": "d172a162fe8a217a981cc3622c275086bf0c62c5dcdcbe7b61cc155732997178"
+    },
+    {
+      "path": "private/T014/S119-source.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3970578/",
+      "sha256": "2d82ede2409539830a2163e45faeea7c91f9ef52c9643f44d6eac2c6899e0ac6"
+    },
+    {
+      "path": "private/T014/S121_SI.pdf",
+      "url": "https://ndownloader.figshare.com/files/59832669",
+      "sha256": "8d56f90d06607abb009bbf0389756773e60e532f40e75027b9078f784a38d6fa"
+    },
+    {
+      "path": "private/T014/S124.pdf",
+      "url": "https://mdpi-res.com/d_attachment/materials/materials-11-00887/article_deploy/materials-11-00887.pdf",
+      "sha256": "8fa2dee9b43718b833bd0254784ca00a06ba10c6f4e48f9624f92bb7a22a0f93"
+    },
+    {
+      "path": "data/extraction/T014/design_basis.json",
+      "url": "configs/scenarios.yaml",
+      "sha256": "a1e345792d67e6c1f56d4812da6f03c8a8699e221822bed69b032f60fb3d60c5"
+    },
+    {
+      "path": "private/T014/S121.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12728659/fullTextXML",
+      "sha256": "4dbdbf2980fde32db126866402af17f28bea59d103e1cfd8ddc5868a2b580955"
+    },
+    {
+      "path": "private/T014/S111_SI.pdf",
+      "url": "https://ndownloader.figshare.com/files/62369648",
+      "sha256": "01e03704c925b50b4ab2036bca53488fcfdd6aabf759ad6b3c760e4436711dfd"
+    }
+  ],
+  "note": "Articles remain local. Re-fetch only these permitted URLs; stop on access checks. Hash mismatches require review, not silent replacement."
+}

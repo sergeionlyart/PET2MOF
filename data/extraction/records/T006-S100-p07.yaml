@@ -27,8 +27,8 @@ date: '2026-11-16T22:22:07.250684+00:00'
 raw_response_ref: private/ocr_cache/raw/c2c0c16666fa43f8420488ae3f5ad308fde1e502a401738ccb66ee3f2f232ea9.json
 unit_conversions: []
 derived_sha256: 79d02d983c36f01264e2648ffb563216e768c49b8db8cef39af5886841612333
-status: provisional
-reviewer: null
+status: verified
+reviewer: T007
 corrections:
 - field_id: S100-p07-030
   kind: omission

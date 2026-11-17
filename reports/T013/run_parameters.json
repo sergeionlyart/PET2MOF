@@ -1,0 +1,104 @@
+{
+  "chemical_heat": {
+    "value": 60000.0,
+    "unit": "J/mol",
+    "type": "assumption_range",
+    "source_id": "DESIGN-T013",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "host_n2_fallback": {
+    "value": null,
+    "unit": "mmol/g MOF",
+    "type": "unknown",
+    "source_id": "C-PHYS",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "tau_over_t": {
+    "value": 1.0,
+    "unit": "1",
+    "type": "assumption_range",
+    "source_id": "D-08",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "w": {
+    "value": 0.2,
+    "unit": "g/g dry composite",
+    "type": "assumption_range",
+    "source_id": "DESIGN-T013",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "cycle_tolerance": {
+    "value": 1e-09,
+    "unit": "mmol/g dry composite",
+    "type": "assumption_range",
+    "source_id": "DESIGN-T013",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "seed": {
+    "value": 13013,
+    "unit": "1",
+    "type": "assumption_range",
+    "source_id": "DESIGN-T013",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "n_screen": {
+    "value": 24,
+    "unit": "1",
+    "type": "assumption_range",
+    "source_id": "DESIGN-T013",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "w_grid": {
+    "value": [
+      0.0,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "unit": "g/g",
+    "type": "assumption_range",
+    "source_id": "DESIGN-T013",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "RH_grid": {
+    "value": [
+      0.0,
+      40.0,
+      70.0
+    ],
+    "unit": "%",
+    "type": "assumption_range",
+    "source_id": "DESIGN-T013",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "dense_step": {
+    "value": 0.01,
+    "unit": "g/g",
+    "type": "assumption_range",
+    "source_id": "DESIGN-T013",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  },
+  "tau_grid": {
+    "value": [
+      0.0,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "unit": "1",
+    "type": "assumption_range",
+    "source_id": "D-08",
+    "extraction_id": "not_applicable",
+    "status": "debug"
+  }
+}
