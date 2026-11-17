@@ -10,7 +10,7 @@
 
 Прочитать: `docs/work_order_task003_RU.md` §5; `docs/task003/analysis_plan.md` (определения §§0–3; правило выбора не
 применять); входы — `data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_materials.csv`, `S2_dry_CO2.csv`,
-`…/data/benchmark/S100_dry_isotherms.csv`, `data/task003/extracted/S100_methods.csv`, `data/task003/eta_bounds.csv`.
+`…/data/benchmark/S100_dry_isotherms.csv`, `data/task003/extracted/S100_methods.csv` (тип/Mw PEI и основа загрузки S100 не указаны → считать обе ветви w-C/w-F и b-C/b-M). Пределы η для этой карточки не нужны.
 
 Способ — **точная рациональная арифметика** (`fractions.Fraction` на десятичных строках источника) и, для порогов,
 решение уравнений перебором/бисекцией (не замкнутые формулы), чтобы способ отличался от основного расчёта.
