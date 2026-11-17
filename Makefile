@@ -20,5 +20,4 @@ screen-debug:
 report:
 	uv run --locked --no-sync python scripts/revision_run.py report
 reproduce-full:
-	@echo "not implemented yet (stage N)"
-	@exit 2
+	uv run --locked --no-sync python scripts/reproduce_full.py

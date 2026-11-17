@@ -21,6 +21,7 @@ import subprocess
 import numpy as np
 import pandas as pd
 from pet2mof.calibration.metrics import metrics
+from pet2mof.calibration.prediction import MODEL_LABELS
 
 
 def validate(root, directory='holdout/v1', *, output='reports/T013/validation.json'):
@@ -44,13 +45,43 @@ def validate(root, directory='holdout/v1', *, output='reports/T013/validation.js
     keys=['series','point_id']
     if obs.duplicated(keys).any() or pred.duplicated(keys+['model']).any():
         raise ValueError('duplicate V identities')
+    derivative_path=directory/'model_derivatives.csv'
+    derivatives=None
+    if derivative_path.is_file():
+        for file in (derivative_path,directory/'prediction_metadata.json'):
+            if hashlib.sha256(file.read_bytes()).hexdigest()!=freeze.get(file.name+'_sha256'):
+                raise ValueError('frozen derivative/metadata input hash mismatch')
+        metadata=json.loads((directory/'prediction_metadata.json').read_text())
+        if metadata.get('status')!='frozen_prediction' or metadata.get('commit_sha')!=tag:
+            raise ValueError('synthetic or unfrozen prediction metadata')
+        derivatives=pd.read_csv(derivative_path)
+        if derivatives.duplicated(keys+['model']).any():
+            raise ValueError('duplicate derivative identity')
+        expected=set(map(tuple,pred[keys+['model']].to_numpy()))
+        if set(map(tuple,derivatives[keys+['model']].to_numpy()))!=expected:
+            raise ValueError('derivative/prediction identities differ')
+    models=sorted(pred.model.dropna().unique())
+    if not models:
+        raise ValueError('no frozen model labels')
+    if any('/' in m for m in models):
+        models=sorted(set(models) | set(MODEL_LABELS))
     reports=[]
     for name,f in obs.groupby('series',sort=False):
         if not f.comparable.eq(True).all() or not f.inputs_known.eq(True).all():
             reports.append(dict(series=name,status='not_testable',reason='incomparable observable or unknown mandatory inputs'))
             continue
-        for model in ('M1','B1'):
+        for model in models:
             merged=f.merge(pred[pred.model==model],on=keys,validate='one_to_one',how='left')
+            if derivatives is not None:
+                # Sidecar is produced without observations; its model-specific
+                # derivatives replace the common observation placeholders.
+                side=derivatives[derivatives.model==model].drop(columns=['model'])
+                merged=merged.drop(columns=[c for c in ('dq_dp','dq_dT','dq_da','u_num','u_num_x','u_num_y') if c in merged])
+                merged=merged.merge(side,on=keys,validate='one_to_one',how='left')
+                for derivative,uncertainty in (('dq_dp','u_p'),('dq_dT','u_T'),('dq_da','u_a')):
+                    # Missing slope is harmless only for an exactly fixed input;
+                    # never replace an unknown input uncertainty with zero.
+                    merged.loc[merged[derivative].isna() & merged[uncertainty].eq(0),derivative]=0.
             if merged.q_pred.isna().any():
                 reports.append(dict(series=name,model=model,status='not_testable',reason='frozen predictions missing'));continue
             if any(merged[k].isna().any() for k in ('u_dig','u_p','u_T','u_a','dq_dp','dq_dT','dq_da','u_num')):

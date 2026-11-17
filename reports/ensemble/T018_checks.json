@@ -1,0 +1,51 @@
+{
+  "status": "debug",
+  "commit_sha": "839f27969af752c181596b483129754d0d644309",
+  "make_test": {
+    "exit_code": 0,
+    "passed": 244,
+    "skipped": 1,
+    "elapsed_seconds": 27.53,
+    "skip_reason": "original private C renders unavailable"
+  },
+  "demo": {
+    "exit_code": 0,
+    "elapsed_seconds": 23.086,
+    "scope": "isolated C-only checkout copy .uv-cache/T018-demo-check"
+  },
+  "predict_without_tag": {
+    "exit_code": 2,
+    "expected": true
+  },
+  "reproduce_full_without_tag": {
+    "exit_code": 2,
+    "expected": true
+  },
+  "diff_check_exit_code": 0,
+  "unchanged_scientific_inputs_exit_code": 0,
+  "verified_final_npz_hashes": 18,
+  "files": {
+    "Makefile": "9ea320b201a80232d9f65f898828facfa58b5062805050f8f5e11d41cfe8f113",
+    "scripts/calibrate_final.py": "ed896b56ea3c67bcc68330d6a134e3054900cb9852459f8bcbc6b3daef800302",
+    "scripts/predict_holdout.py": "3aeb0fe20bbd7bfefc7f15817d3bd7cd381e96da61e512a2a84ba0e60925c639",
+    "scripts/ensemble.py": "a3438438c69a955f7fdbcc03dec405884d50dc79520dd0744519c54fd1cebb7e",
+    "scripts/reproduce_full.py": "c6e0fb86048f55d1399d3806d506556a9b7ae59b94fdc28f2ae4ce188a09a872",
+    "scripts/validate.py": "91980ecc96b681c2da3f08790490e99f43cce6e6e1d11fb825cde6c741c4c358",
+    "src/pet2mof/calibration/final.py": "c6f08176392b839792addb40b8017a1d8f81cd767489da66b67b683706ccfed0",
+    "src/pet2mof/calibration/prediction.py": "e999f77beee3aaa55fc99944ee75b32fddde2b50cb03ccc168c0e119b3a1a707",
+    "src/pet2mof/calibration/ensemble.py": "159936cb886f06cfd436d01bb713837f9ca0cea04848293a09be3691bbf38514",
+    "src/pet2mof/calibration/revision_screening.py": "d0199f2d9a55df36867289c2890c43ba3ff977f5264ef7b0ee4bccee0d28d72f",
+    "src/pet2mof/model/batch.py": "9ac4dacbe70a90b19bf975b0e970c7c8f66d34bc66be0bd6c4d025a7d177b55e",
+    "tests/test_freeze_prep.py": "8bc05d96881bb37e7c99c9c8320721aea06959bca76163d9466afb9cd7edfed9",
+    "tests/test_c_series.py": "8f46ca2aee15bbd8e2befa464352590a5376fcf00c9864103f9e22314b6a2690",
+    "docs/holdout_schema.md": "00169c67cfb9ce93d2669aedda9477a2d3d0da217b3e5e2360f1fb92a9881333",
+    "docs/validation_protocol.md": "9c3c9ff2513f4111abefd2ad1d7488c7d1a427597fa778f89dfb3ebc3fbbbd15",
+    "docs/hypotheses.md": "54f8e5b34085a0dcb3d13b329a83a68dbab14074cee83c93af99ec9ff5fdc35f",
+    "configs/frozen_parameters.yaml": "9df1db64d4a8e456ded0fccf9c62697bc618f8e7ec85d444113a553bb19581a9",
+    "configs/frozen_parameters_provisional.yaml": "e2ca1487379bf3f6b5833c1ac50ce74a0ef8e417109dacfcc4883e94a75c1afb",
+    "reviews/T018_freeze_prep.md": "c9baa3ff2ae8d6dc0deed96089b5d85bf07f817408cd511bbe332d72695abba0",
+    "reports/ensemble/debug-small-prereg/summary.json": "ae217ecbbc63b897ea78937251b1e9fa53e810b733b7148e35e477b55044afea",
+    "reports/ensemble/debug-timing-prereg/summary.json": "253a77e174ffef535c8e23d5b2141537f73ebb25c4dfda698459b7504974c847"
+  },
+  "limitation": "no commit/tag/full production run or independent review; recorded test outcomes from local execution"
+}
