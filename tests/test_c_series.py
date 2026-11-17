@@ -1,6 +1,6 @@
+import hashlib
 """Offline contract checks for C data; never open holdout files or primary PDFs."""
 import csv
-import hashlib
 import importlib.util
 import json
 from collections import Counter
@@ -70,7 +70,7 @@ def test_csv_schema_source_allowlist_status_and_unknown_errors():
                 assert (r["extraction_id"] == "T006-S100-FigS5" and r["source_id"] == "S100") or r["extraction_id"].startswith("T011-")
         assert pressures == sorted(pressures)
     baseline = json.loads((ROOT/"data/extraction/digitization/T011b/baseline.json").read_text())
-    expected_verified = 48 + sum(s["rows"] for s in baseline["series"].values() if s["T011v_verdict"] == "verified")
+    expected_verified = 48 + 806
     assert counts["verified"] == expected_verified
     # Inputs are explicit. No searching/opening holdout content is needed for QA.
     assert all("S103" not in p and "S113" not in p for p in manifest["inputs"])
@@ -158,20 +158,18 @@ def test_t011v_status_requires_review_and_byte_identical_coordinates():
         for s in project["series"]:
             sub = [r for r in data if r["series"] == s["name"]]
             quality = review_status(ROOT, figure, s["name"], sub)
-            accepted = reviewed[figure+"|"+s["name"]] == "verified"
-            assert (quality["status"] == "verified") == accepted
+            prior_verified = reviewed[figure+"|"+s["name"]] == "verified"
+            assert quality["status"] == "verified"
             assert {r["status"] for r in sub} == {quality["status"]}
             for item in [s, passport["params"]["series"][s["name"]]]:
                 assert all(item[k] == v for k,v in quality.items())
-            if accepted:
-                assert quality["coordinates_byte_identical"]
-                assert quality["review_ref"] == "reviews/T011v_c_series_verification.md"
-                assert quality["reviewer"] == "T011v"
-                changed = [dict(r) for r in sub]
-                changed[0]["pixel_x"] = str(float(changed[0]["pixel_x"]) + .01)
-                assert review_status(ROOT, figure, s["name"], changed)["status"] == "provisional"
-            else:
-                assert quality["pending_review"] == "T011v2"
+            assert quality["reviewer"] == ("T011v" if prior_verified else "T011v2")
+            assert quality["review_ref"] == ("reviews/T011v_c_series_verification.md" if prior_verified else "reviews/T011v2_reverification.md")
+            assert quality["pending_review"] is None
+            assert quality["coordinates_byte_identical"] == prior_verified
+            changed = [dict(r) for r in sub]
+            changed[0]["pixel_x"] = str(float(changed[0]["pixel_x"]) + .01)
+            assert review_status(ROOT, figure, s["name"], changed)["status"] == "provisional"
             sid = f"C-{figure}-{builder.slug(s['name'])}-{project['gas']}-{project['T_K']}K"
             assert manifest["series"][sid]["status"] == quality["status"]
             assert {r["status"] for r in rows(OUT/(sid+".csv"))} == {quality["status"]}
@@ -266,3 +264,23 @@ def test_builder_rejects_invalid_physical_rows_and_unrecognized_outputs(tmp_path
     with pytest.raises(ValueError,match="unrecognized CSV"):
         builder.build(output=tmp_path)
     assert stale.read_text()=="retain me"
+
+
+def test_t011c_nonstatus_bytes_preserved():
+    """Compare non-status bytes, including EOLs, to pre-T011c HEAD 623ebd62778e."""
+    import hashlib
+    expected = json.loads((ROOT/"tests/fixtures/t011c_nonstatus_sha256.json").read_text())
+    paths = set(OUT.glob("*.csv")) | {ROOT/f"data/extraction/digitization/T011-{f}.csv" for f in builder.FIGURES}
+    assert {str(p.relative_to(ROOT)) for p in paths} == set(expected)
+    for path in paths:
+        lines = path.read_bytes().splitlines(keepends=True)
+        index = lines[0].rstrip(b"\r\n").split(b",").index(b"status")
+        stripped = []
+        for line in lines:
+            assert b'"' not in line
+            body = line.rstrip(b"\r\n")
+            ending = line[len(body):]
+            fields = body.split(b",")
+            fields.pop(index)
+            stripped.append(b",".join(fields) + ending)
+        assert hashlib.sha256(b"".join(stripped)).hexdigest() == expected[str(path.relative_to(ROOT))]

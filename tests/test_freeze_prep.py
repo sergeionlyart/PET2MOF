@@ -67,10 +67,13 @@ def test_verified_selection_does_not_promote_candidates():
     assert set(f.status) == {'verified'}
     assert set(f[f.source_id == 'S100'].material) == {'UiO-66', '10PEI@UiO-66', '20PEI@UiO-66', '30PEI@UiO-66', '40PEI@UiO-66'}
     assert len(f[f.source_id == 'S100']) == 48
-    assert not (f.gas == 'N2').any()
-    assert any('160' in r['series_id'] for r in omitted)
+    # After T011v2/T011c all digitized C-series are verified (N2 and S106 _160 included).
+    assert (f.gas == 'N2').any()
+    assert any('160' in m for m in f.material)
+    # Only the two NIST-only S100 points (unknown errors, provisional) are omitted.
+    assert {r['series_id'] for r in omitted} == {'C-S100-FigS5-20PEI-UiO-66-CO2-298K', 'C-S100-FigS5-UiO-66-CO2-298K'}
     sensitivity, _ = selected_c(ROOT, True)
-    assert set(sensitivity.status) == {'verified', 'provisional'}
+    assert set(sensitivity.status) == {'verified'}
 
 
 def test_final_calibration_deterministic_and_missing_inputs_honest():
@@ -78,7 +81,7 @@ def test_final_calibration_deterministic_and_missing_inputs_honest():
     b = calibrate(ROOT, draws=8)
     assert a == b
     assert len(a['fits']) == 6 and len(a['joint_draws']) == 8
-    assert set(a['missing']) == {'S105/UiO-66/N2', 'S105/UiO-66-NH2/N2', 'S106/UiO-66_160'}
+    assert set(a['missing']) == set()
     assert all(r['status'] == 'verified' for r in a['inputs'])
     assert all(len(r['input_sha256']) == 64 for r in a['inputs'])
     assert all(not f['models']['M1']['metrics']['all_protocol_criteria'] for f in a['fits'])
