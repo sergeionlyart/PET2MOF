@@ -1,0 +1,185 @@
+{
+  "run_id": "20261117T045410127552Z-d95ccb0a-task002-B",
+  "extraction_id": "T034-B-decision",
+  "source_file": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv",
+  "plan": "docs/task002/analysis_plan.md section B, frozen before fits",
+  "n_fit": 39,
+  "n_check": 9,
+  "residual_convention": "prediction_minus_digitized_observation",
+  "per_sample": {
+    "10PEI@UiO-66": {
+      "piecewise_linear": {
+        "n": 2,
+        "mae": 0.02463110682798786,
+        "max_abs_residual": 0.027571294997987827
+      },
+      "Langmuir": {
+        "n": 2,
+        "mae": 0.17734599587619837,
+        "max_abs_residual": 0.1832802521254957
+      }
+    },
+    "20PEI@UiO-66": {
+      "piecewise_linear": {
+        "n": 1,
+        "mae": 0.004529069234532113,
+        "max_abs_residual": 0.004529069234532113
+      },
+      "Langmuir": {
+        "n": 1,
+        "mae": 0.2215044503372674,
+        "max_abs_residual": 0.2215044503372674
+      }
+    },
+    "30PEI@UiO-66": {
+      "piecewise_linear": {
+        "n": 2,
+        "mae": 0.057308322902927866,
+        "max_abs_residual": 0.06589063078952817
+      },
+      "Langmuir": {
+        "n": 2,
+        "mae": 0.19085836689948188,
+        "max_abs_residual": 0.19801500624624468
+      }
+    },
+    "40PEI@UiO-66": {
+      "piecewise_linear": {
+        "n": 2,
+        "mae": 0.02379741745762698,
+        "max_abs_residual": 0.027025588866836037
+      },
+      "Langmuir": {
+        "n": 2,
+        "mae": 0.12176162051816397,
+        "max_abs_residual": 0.14181786124534845
+      }
+    },
+    "UiO-66": {
+      "piecewise_linear": {
+        "n": 2,
+        "mae": 0.020577918142778706,
+        "max_abs_residual": 0.025085073651664458
+      },
+      "Langmuir": {
+        "n": 2,
+        "mae": 0.005122473856310594,
+        "max_abs_residual": 0.007006219712708317
+      }
+    }
+  },
+  "pooled": {
+    "piecewise_linear": {
+      "n": 9,
+      "mae": 0.02857317776635277,
+      "max_abs_residual": 0.06589063078952817
+    },
+    "Langmuir": {
+      "n": 9,
+      "mae": 0.13463126273750856,
+      "max_abs_residual": 0.2215044503372674
+    }
+  },
+  "rule": "Keep interpolation if Langmuir MAE >= baseline MAE OR both MAEs < 0.105; unstable parameters also retain interpolation (work order 5B)",
+  "selection": {
+    "selected": "piecewise_linear",
+    "baseline_mae": 0.02857317776635277,
+    "langmuir_mae": 0.13463126273750856,
+    "langmuir_improves_mae": false,
+    "both_below_digitization_halfwidth": false,
+    "unstable_parameters": true,
+    "digitization_halfwidth": 0.105,
+    "reasons": [
+      "Langmuir does not reduce pooled check MAE",
+      "Unstable parameters: retain interpolation (work order section 5B)"
+    ]
+  },
+  "instability_rule": "relative Jacobian SE > 50% for qs or b OR qs > 3 max(q_fit); rank loss = unknown SE / unstable",
+  "toth": {
+    "rule": "fit n >= 8 AND pressure-ordered residual sign changes <= 2; exact zeros omitted",
+    "per_sample": {
+      "10PEI@UiO-66": {
+        "n_fit": 8,
+        "sign_changes": 2,
+        "triggered": true,
+        "toth_attempted": true,
+        "optimizer_success": true,
+        "unstable": true,
+        "hit_numerical_bound": true,
+        "accepted_as_primary": false
+      },
+      "20PEI@UiO-66": {
+        "n_fit": 8,
+        "sign_changes": 2,
+        "triggered": true,
+        "toth_attempted": true,
+        "optimizer_success": false,
+        "unstable": true,
+        "hit_numerical_bound": false,
+        "accepted_as_primary": false
+      },
+      "30PEI@UiO-66": {
+        "n_fit": 8,
+        "sign_changes": 2,
+        "triggered": true,
+        "toth_attempted": true,
+        "optimizer_success": false,
+        "unstable": true,
+        "hit_numerical_bound": false,
+        "accepted_as_primary": false
+      },
+      "40PEI@UiO-66": {
+        "n_fit": 8,
+        "sign_changes": 2,
+        "triggered": true,
+        "toth_attempted": true,
+        "optimizer_success": true,
+        "unstable": true,
+        "hit_numerical_bound": true,
+        "accepted_as_primary": false
+      },
+      "UiO-66": {
+        "n_fit": 7,
+        "sign_changes": 2,
+        "triggered": false,
+        "toth_attempted": false
+      }
+    },
+    "attempted": true,
+    "check_metrics": {
+      "10PEI@UiO-66": {
+        "n": 2,
+        "mae": 0.05704489451535366,
+        "max_abs_residual": 0.05920329400068214,
+        "optimizer_success": true,
+        "interpretation": "diagnostic only; nonconverged iterates are not accepted fits"
+      },
+      "20PEI@UiO-66": {
+        "n": 1,
+        "mae": 0.08122673094009114,
+        "max_abs_residual": 0.08122673094009114,
+        "optimizer_success": false,
+        "interpretation": "diagnostic only; nonconverged iterates are not accepted fits"
+      },
+      "30PEI@UiO-66": {
+        "n": 2,
+        "mae": 0.0060993019572406215,
+        "max_abs_residual": 0.009401619309937548,
+        "optimizer_success": false,
+        "interpretation": "diagnostic only; nonconverged iterates are not accepted fits"
+      },
+      "40PEI@UiO-66": {
+        "n": 2,
+        "mae": 0.0189208752526413,
+        "max_abs_residual": 0.02229588253291337,
+        "optimizer_success": true,
+        "interpretation": "diagnostic only; nonconverged iterates are not accepted fits"
+      }
+    },
+    "explanation": "Toth attempted only for triggered curves; inspect optimizer_success and instability",
+    "selection_policy": "No additional Toth selection threshold preregistered; any triggered fit is diagnostic only"
+  },
+  "standard_error_method": "SSE/(n-k) times inverse(J.T J) via SVD; local OLS diagnostics, not digitization error SD",
+  "baseline_shapes": "all 48 digitized points; within-sample adsorption branch ratios, not cycle capacity",
+  "interpretation": "retrospective internal pressure-block interpolation check; no new independent observations"
+}

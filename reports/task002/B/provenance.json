@@ -1,0 +1,88 @@
+{
+  "run_id": "20261117T045410127552Z-d95ccb0a-task002-B",
+  "registration_status_at_generation": "debug",
+  "extraction_id": "T034-B-provenance",
+  "dataset": "S100 / SI Fig. S5 / T006-S100-FigS5 / 298 K",
+  "commit_sha": "d95ccb0a3da2460a87798522a486d50f33ed9697",
+  "inputs": [
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv",
+      "sha256": "757e879b0488f5fe81530344973560505b10d206c4e05f2a77a56bc9fc96eda9"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/metadata/S100_internal_split.csv",
+      "sha256": "a9fc6271a01f407039d51f0ac9e457fcfafcbecdfa7cd73b0b10c20f522b6703"
+    },
+    {
+      "path": "docs/task002/analysis_plan.md",
+      "sha256": "898ce73a8f1c5264c3b66c0d092192b1388122dd961c07b24aa5cd2ecad2d7f8"
+    },
+    {
+      "path": "docs/work_order_task002_RU.md",
+      "sha256": "e5da0cdc4d09125311d69781c896e16ebda2822eed6da106856f723be47caa12"
+    },
+    {
+      "path": "src/pet2mof/task002/s100.py",
+      "sha256": "e16c62767a0cdc1d16265dad04c1476eea0ae506b4bf5a1ab198fe8fb3bdc774"
+    },
+    {
+      "path": "scripts/task002/s100_model.py",
+      "sha256": "cb5efb22279c55ca167c614431c43d633f51f068d8b1665ccab85f92936d87de"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/S100_internal_baseline_residuals.csv",
+      "sha256": "02babd328e0df390357c4e1f412dd70d7476ff2f2a6a985fd5e04d545179fb58"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/S100_nominal_shapes.csv",
+      "sha256": "2ecd8ee24692c252da727ebe7f23f5ab0a876919b7c7eb5ca344594998d67336"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/baseline_summary.json",
+      "sha256": "1562e2f4f8b92afbb6a2d4f42fd792203123db64cbc3607eef22a748949b4dc1"
+    }
+  ],
+  "source_extraction_id": "T006-S100-FigS5",
+  "n_points": 48,
+  "quarantine_used": false,
+  "requested_agent": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "network": "off"
+  },
+  "actual_agent_settings": "not exposed by this interface; require launcher/rollout evidence from supervisor",
+  "optimizer": {
+    "method": "scipy.optimize.least_squares / trf",
+    "weights": "unweighted",
+    "bounds": "each parameter >= 1e-12; Toth log(parameters) <= 690 as overflow guard",
+    "starts": "qs=2max(q_fit); b=(0.1,1,10)/median(p_fit); Toth t=(0.5,1,2) only if triggered",
+    "selection": "minimum successful fit SSE; if no Toth success, minimum failed SSE retained as diagnostic iterate",
+    "ftol": 1e-12,
+    "xtol": 1e-12,
+    "gtol": 1e-12,
+    "max_nfev": 10000,
+    "langmuir_jacobian": "analytic",
+    "toth_jacobian": "analytic in log coordinates, transformed to physical parameter Jacobian for SE; only if triggered"
+  },
+  "limitations": [
+    "Mass denominator and retained PEI loading unresolved",
+    "Digitization halfwidths are bounded scenarios, not standard deviations",
+    "No extrapolation; shifted pressures evaluated within shifted fit support",
+    "No empirical status upgrade or transfer to other materials"
+  ],
+  "outputs": [
+    "S100_internal_baseline_residuals.csv",
+    "S100_nominal_shapes.csv",
+    "check_residuals.csv",
+    "curves.png",
+    "decision.json",
+    "descriptive_all48.csv",
+    "langmuir_fit.csv",
+    "optimizer_attempts.json",
+    "reproduce_baseline.json",
+    "residuals.png",
+    "sensitivity.csv",
+    "toth_check_residuals.csv",
+    "toth_fit.csv"
+  ]
+}

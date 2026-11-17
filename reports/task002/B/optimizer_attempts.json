@@ -1,0 +1,1104 @@
+{
+  "run_id": "20261117T045410127552Z-d95ccb0a-task002-B",
+  "extraction_id": "T034-B-optimizer-attempts",
+  "source_file": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv",
+  "Langmuir": {
+    "10PEI@UiO-66": [
+      {
+        "start": [
+          4.91129032258,
+          0.16207710464191852
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 26,
+        "fit_sse": 0.12551965301789222,
+        "parameters": [
+          3.066592525868323,
+          3.0200329739832665
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          1.6207710464191851
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 15,
+        "fit_sse": 0.12551965301789628,
+        "parameters": [
+          3.066592616976775,
+          3.0200327025728653
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          16.20771046419185
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 14,
+        "fit_sse": 0.1255196530178921,
+        "parameters": [
+          3.0665924432265945,
+          3.0200332201708178
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      }
+    ],
+    "20PEI@UiO-66": [
+      {
+        "start": [
+          5.48286290322,
+          0.16144200626963298
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 23,
+        "fit_sse": 0.14806905366233808,
+        "parameters": [
+          3.361756481372622,
+          3.264613152657391
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          1.6144200626963296
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 15,
+        "fit_sse": 0.1480690536623394,
+        "parameters": [
+          3.361756505121964,
+          3.2646130796888806
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          16.144200626963297
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 14,
+        "fit_sse": 0.14806905366233605,
+        "parameters": [
+          3.3617563707986213,
+          3.2646134923890404
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      }
+    ],
+    "30PEI@UiO-66": [
+      {
+        "start": [
+          6.6189516129,
+          0.1619496855345492
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 21,
+        "fit_sse": 0.13616642413395538,
+        "parameters": [
+          4.062523144937968,
+          3.6297514244239135
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          1.6194968553454918
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 14,
+        "fit_sse": 0.13616642413395533,
+        "parameters": [
+          4.062523139907872,
+          3.629751439428688
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          16.194968553454917
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 12,
+        "fit_sse": 0.13616642413395508,
+        "parameters": [
+          4.062523078488463,
+          3.629751622642331
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      }
+    ],
+    "40PEI@UiO-66": [
+      {
+        "start": [
+          4.19858870968,
+          0.1618224666143084
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 23,
+        "fit_sse": 0.08124555033808281,
+        "parameters": [
+          2.078788651183064,
+          21.358624430656263
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          1.618224666143084
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 16,
+        "fit_sse": 0.081245550338083,
+        "parameters": [
+          2.0787886547059236,
+          21.35862410252912
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          16.18224666143084
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 12,
+        "fit_sse": 0.08124555033808326,
+        "parameters": [
+          2.078788657134453,
+          21.35862387633013
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      }
+    ],
+    "UiO-66": [
+      {
+        "start": [
+          3.80342741936,
+          0.1775862068963956
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 12,
+        "fit_sse": 0.00022709356652249497,
+        "parameters": [
+          6.32992409895771,
+          0.47615078370829395
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          3.80342741936,
+          1.7758620689639557
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 18,
+        "fit_sse": 0.00022709356652249714,
+        "parameters": [
+          6.3299240942626325,
+          0.47615078418290674
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          3.80342741936,
+          17.758620689639557
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 24,
+        "fit_sse": 0.00022709356652249763,
+        "parameters": [
+          6.329924097189315,
+          0.4761507838870568
+        ],
+        "active_mask": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "Toth": {
+    "10PEI@UiO-66": [
+      {
+        "start": [
+          4.91129032258,
+          0.16207710464191852,
+          0.5
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 8817,
+        "fit_sse": 0.010815702093249792,
+        "parameters": [
+          4.604606404782466e+299,
+          1.0224118674100365e+42,
+          0.0009412805839131656
+        ],
+        "active_mask": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          0.16207710464191852,
+          1.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.010815746206842078,
+        "parameters": [
+          2.6560028165720483e+299,
+          9.473222882815073e+41,
+          0.0009420321722939213
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          0.16207710464191852,
+          2.0
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 9845,
+        "fit_sse": 0.010815702093308701,
+        "parameters": [
+          4.604606404695568e+299,
+          1.0224118645901374e+42,
+          0.0009412805839148753
+        ],
+        "active_mask": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          1.6207710464191851,
+          0.5
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 9784,
+        "fit_sse": 0.010815702093279173,
+        "parameters": [
+          4.604606404782466e+299,
+          1.022411864213711e+42,
+          0.0009412805839150759
+        ],
+        "active_mask": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          1.6207710464191851,
+          1.0
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 9968,
+        "fit_sse": 0.010815702093283482,
+        "parameters": [
+          4.604606404782466e+299,
+          1.0224118754292043e+42,
+          0.0009412805839083727
+        ],
+        "active_mask": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          1.6207710464191851,
+          2.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.010815940798308828,
+        "parameters": [
+          2.5111511529040134e+298,
+          6.8314690255852535e+41,
+          0.0009452675644435878
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          16.20771046419185,
+          0.5
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 9423,
+        "fit_sse": 0.010815702093271096,
+        "parameters": [
+          4.6046063708481954e+299,
+          1.0224123466773521e+42,
+          0.0009412805836361612
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          16.20771046419185,
+          1.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.010822034413251646,
+        "parameters": [
+          8.137333395584715e+268,
+          5.585953125542075e+37,
+          0.0010489838774377395
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.91129032258,
+          16.20771046419185,
+          2.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.010820419037267295,
+        "parameters": [
+          1.3273434941792684e+276,
+          5.582218615832385e+38,
+          0.0010215693704857987
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "20PEI@UiO-66": [
+      {
+        "start": [
+          5.48286290322,
+          0.16144200626963298,
+          0.5
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.009033103445144432,
+        "parameters": [
+          9.01886449027821e+278,
+          6.11997707421908e+61,
+          0.0009762707619340704
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          0.16144200626963298,
+          1.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.009039571991274087,
+        "parameters": [
+          3.377801081077577e+252,
+          9.477723060525271e+55,
+          0.0010785149998382647
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          0.16144200626963298,
+          2.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.009031810067748437,
+        "parameters": [
+          7.932953445431191e+284,
+          1.241421412798989e+63,
+          0.0009558868764842875
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          1.6144200626963296,
+          0.5
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.009034637862832678,
+        "parameters": [
+          1.6728930103342606e+272,
+          2.0273148392476726e+60,
+          0.0010004297082470512
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          1.6144200626963296,
+          1.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.00903149764517069,
+        "parameters": [
+          2.387096153373775e+286,
+          2.624089015199126e+63,
+          0.0009509486598598942
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          1.6144200626963296,
+          2.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.009031005110633004,
+        "parameters": [
+          5.501236425166045e+288,
+          8.678498898523506e+63,
+          0.0009431622524276655
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          16.144200626963297,
+          0.5
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.0090306145084801,
+        "parameters": [
+          4.4119608566087147e+290,
+          2.2755875752255228e+64,
+          0.000936978881317537
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          16.144200626963297,
+          1.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.00903970755266666,
+        "parameters": [
+          1.065706668371533e+252,
+          7.356734125251789e+55,
+          0.0010806603865916174
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          5.48286290322,
+          16.144200626963297,
+          2.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.00903067199076274,
+        "parameters": [
+          2.2912120274363184e+290,
+          1.97052209272016e+64,
+          0.0009378977230977831
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "30PEI@UiO-66": [
+      {
+        "start": [
+          6.6189516129,
+          0.1619496855345492,
+          0.5
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.007242575700810543,
+        "parameters": [
+          1.855336122592362e+128,
+          8.447717498410303e+47,
+          0.0020016785655192545
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          0.1619496855345492,
+          1.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.00723735947968948,
+        "parameters": [
+          1.7361728486697964e+192,
+          4.437096048029613e+71,
+          0.0013345123288976202
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          0.1619496855345492,
+          2.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.007239237047783064,
+        "parameters": [
+          5.6901668827538755e+162,
+          5.181207072548655e+60,
+          0.001576729749925904
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          1.6194968553454918,
+          0.5
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.007241111171286631,
+        "parameters": [
+          2.1823480440736688e+141,
+          5.935350162607669e+52,
+          0.001816164391129861
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          1.6194968553454918,
+          1.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.007243905008320328,
+        "parameters": [
+          2.5067072021148104e+118,
+          1.851310533272747e+44,
+          0.0021689657994911882
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          1.6194968553454918,
+          2.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.007241208723151872,
+        "parameters": [
+          2.4122785591796136e+140,
+          2.622960517336727e+52,
+          0.0018285660562225544
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          16.194968553454917,
+          0.5
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.007241968922315347,
+        "parameters": [
+          2.317461790430272e+133,
+          6.55920412472353e+49,
+          0.0019250044711180182
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          16.194968553454917,
+          1.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.007236986450668702,
+        "parameters": [
+          2.8305085273216027e+199,
+          2.0960356634807653e+74,
+          0.001286180906108819
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "start": [
+          6.6189516129,
+          16.194968553454917,
+          2.0
+        ],
+        "success": false,
+        "status": 0,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 10000,
+        "fit_sse": 0.007236829094751172,
+        "parameters": [
+          4.656248101151902e+202,
+          3.266257645776015e+75,
+          0.0012657389010428733
+        ],
+        "active_mask": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "40PEI@UiO-66": [
+      {
+        "start": [
+          4.19858870968,
+          0.1618224666143084,
+          0.5
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 3552,
+        "fit_sse": 0.0031196529891267064,
+        "parameters": [
+          9.803906697618843e+39,
+          4.604606404782466e+299,
+          0.002186919598683451
+        ],
+        "active_mask": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          0.1618224666143084,
+          1.0
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 4719,
+        "fit_sse": 0.0031196529891296815,
+        "parameters": [
+          9.803906647419354e+39,
+          4.604606404782466e+299,
+          0.002186919598735161
+        ],
+        "active_mask": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          0.1618224666143084,
+          2.0
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 4568,
+        "fit_sse": 0.0031196529891354945,
+        "parameters": [
+          9.803906647300791e+39,
+          4.604606404782466e+299,
+          0.0021869195987352834
+        ],
+        "active_mask": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          1.618224666143084,
+          0.5
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 4779,
+        "fit_sse": 0.0031196529891457355,
+        "parameters": [
+          9.803906647113543e+39,
+          4.604606404782466e+299,
+          0.0021869195987354755
+        ],
+        "active_mask": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          1.618224666143084,
+          1.0
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 4491,
+        "fit_sse": 0.003119652989149552,
+        "parameters": [
+          9.803906647266657e+39,
+          4.604606404782466e+299,
+          0.002186919598735318
+        ],
+        "active_mask": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          1.618224666143084,
+          2.0
+        ],
+        "success": true,
+        "status": 2,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 4864,
+        "fit_sse": 0.003119652989130018,
+        "parameters": [
+          9.803906648635076e+39,
+          4.604606404782466e+299,
+          0.002186919598733908
+        ],
+        "active_mask": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          16.18224666143084,
+          0.5
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 4793,
+        "fit_sse": 0.003119652989134205,
+        "parameters": [
+          9.803906647376582e+39,
+          4.604606404782466e+299,
+          0.002186919598735206
+        ],
+        "active_mask": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          16.18224666143084,
+          1.0
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 3796,
+        "fit_sse": 0.0031196529891418037,
+        "parameters": [
+          9.80390664758236e+39,
+          4.604606404782466e+299,
+          0.002186919598734992
+        ],
+        "active_mask": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "start": [
+          4.19858870968,
+          16.18224666143084,
+          2.0
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 4016,
+        "fit_sse": 0.0031196529891211844,
+        "parameters": [
+          9.803906647397898e+39,
+          4.604606404782466e+299,
+          0.0021869195987351824
+        ],
+        "active_mask": [
+          0,
+          1,
+          0
+        ]
+      }
+    ]
+  }
+}
