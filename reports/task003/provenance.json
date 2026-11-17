@@ -1,0 +1,192 @@
+{
+  "run_id": "20261117T083940795087Z-6b405b9f-task003-balance-map",
+  "commit_sha": "6b405b9f85d876aba81dd0d821b16f52dc95b5df",
+  "status": "debug_uncommitted_implementation",
+  "inputs": [
+    {
+      "path": "docs/task003/analysis_plan.md",
+      "sha256": "a3e283572b53cfbad1aa7c4d080974c2addb5d7182a48fd3c247dc2e5afb4ac0"
+    },
+    {
+      "path": "docs/work_order_task003_RU.md",
+      "sha256": "9c4b6aa89911287ed166014475af3fbb94e29fd06116bef87ec28eae07be0655"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_materials.csv",
+      "sha256": "388731f9c7a1347f90aa71e352676df1dbf38fe2a6a2235c2441c22bdce6ca1c"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_dry_CO2.csv",
+      "sha256": "54810c3fb45d0d39f378827d62a83988559c765a1d347af95c14e203f922c35c"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/primary/S2_secondary_properties.csv",
+      "sha256": "71cc00efb50da58fb064baa0219c915804ea6f52fd0ee139e53411b74412bb63"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv",
+      "sha256": "757e879b0488f5fe81530344973560505b10d206c4e05f2a77a56bc9fc96eda9"
+    },
+    {
+      "path": "data/task003/eta_bounds.csv",
+      "sha256": "2b03079c2024c430c6056f16b62530deb459fe133bb6eed1e38bfad3f9f064ac"
+    },
+    {
+      "path": "reviews/T040_report.md",
+      "sha256": "03fb41ec2ab7b0b4596983dc976c913883ae7c4edfd02dc1471ca8ac160895c8"
+    },
+    {
+      "path": "reviews/T041_report.md",
+      "sha256": "487862a1b169c1e99f299095d7a577ebd70f2128f28e85a8defaa3ab6cf52a49"
+    },
+    {
+      "path": "reports/task003/drafts/route_compatibility_T041.md",
+      "sha256": "9907e28fa3a0c1ea189ce2328d9324d14032b889c987ae849f17ff0d996553bd"
+    },
+    {
+      "path": "data/task003/extracted/S100_methods.csv",
+      "sha256": "ed6c6178128836ab89311d6ff5df28421ba855f7682e8fdb55b50226cfa6c481"
+    },
+    {
+      "path": "data/task003/extracted/SRC03_S4_lead_supplement.csv",
+      "sha256": "eda215c2a301539d1186364fa9a860c14099506540bdb5e42ba0c0b06541754c"
+    },
+    {
+      "path": "data/task003/extracted/SRC03_tables.csv",
+      "sha256": "575ed610abb5570ee4dba35df67d6f4eaa111902cb94e81a7cca04c8e39701ac"
+    },
+    {
+      "path": "data/task003/extracted/SRC05_files.csv",
+      "sha256": "7cb00010db4d7f2962079467197f7fd2e41f978b7d402ca060ca961df20d9207"
+    },
+    {
+      "path": "data/task003/extracted/SRC06_tables.csv",
+      "sha256": "16579c9702cbd8ecf987b01b31f75c028a5eda8c20d354c364517b31aa03169e"
+    }
+  ],
+  "implementation": [
+    {
+      "path": "Makefile",
+      "sha256": "54bc0b35849d1d0784cdea0ea6ec64f08ddbd283a5852b64b2ca28bdb7f3f440"
+    },
+    {
+      "path": "scripts/task003/run_balance.py",
+      "sha256": "429ea5d41564e61d0cb17738b023920c514a98a0654c44107269b981c06b32a6"
+    },
+    {
+      "path": "src/pet2mof/task003/__init__.py",
+      "sha256": "0ee3fadba51c3947ac3f9211fa5629b651ec5b17d140d0608ca1722238e4d1f1"
+    },
+    {
+      "path": "src/pet2mof/task003/balance.py",
+      "sha256": "bc42b8e446119e0a46527147e1538693b2f226d22e856ad17acfa39fd03b53b2"
+    },
+    {
+      "path": "src/pet2mof/task003/interpolation.py",
+      "sha256": "164ed711205905749884a8cb22fb2a21f52b28d676f6689a3e6adb4d835c1c08"
+    },
+    {
+      "path": "scripts/run.py",
+      "sha256": "9635f9970cfa406ae4445ffe978c6bfa9ffda723cd8d1c1dd0689c453f801314"
+    },
+    {
+      "path": "src/pet2mof/runs.py",
+      "sha256": "bd7e683c24af9931760889282c6b97417664c35710dfd7fd71e0caaad8efd13f"
+    },
+    {
+      "path": "tests/test_task003_balance.py",
+      "sha256": "6dc28adb972c29c743d94fa534b131b25b4e212a97947ebfac61019e9455eeb5"
+    },
+    {
+      "path": "tests/test_task003_pipeline.py",
+      "sha256": "03221fe2a3800497df5904ba9a62a4b3cb61f86a18c0f0d4d7cd6a09e2fadb07"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "reports/task003/material_balance.csv",
+      "sha256": "05b99fa5f5a8e0566493bca4718735ac9bef70a06f3e0cf1504b15680e55e8fd"
+    },
+    {
+      "path": "reports/task003/material_balance.md",
+      "sha256": "d0ba20060a54659e76453c0b6186dca3975309259cae4ea2f20390ac6b63590c"
+    },
+    {
+      "path": "reports/task003/s2_pei_formula.csv",
+      "sha256": "d16740cbd02cfe01ad989b122348d81242a138dbe176a04869435896e1fb7bdc"
+    },
+    {
+      "path": "reports/task003/analog_lines.csv",
+      "sha256": "282001b1d7dd063ca2b484e90ecd7cb7386a7aaba46ef10a56f928263e39cb1f"
+    },
+    {
+      "path": "reports/task003/design_window.csv",
+      "sha256": "80d1e05c08c00c5efdde43f98e04d9920d28a7847e3e905733082fe2dd0ac553"
+    },
+    {
+      "path": "reports/task003/transfer_kstar.csv",
+      "sha256": "67980bb5c757d10b58ae7bcb4f0aff0cc9ebca5f7a97e6e34b9a47401b5a13a5"
+    },
+    {
+      "path": "reports/task003/transfer_kstar_summary.csv",
+      "sha256": "06ed6b7658899e6da769fc293d275d1c1be0729ce3f3afbd20665793f05a2025"
+    },
+    {
+      "path": "reports/task003/uncertainty_vertices.csv",
+      "sha256": "ebdf30e5695501a699a02daa4bb2644a8085290961edfccbb574a094d0c24872"
+    },
+    {
+      "path": "reports/task003/s100_coordinate_envelopes.csv",
+      "sha256": "23ef8cf4b95d75946ef8c3a473281285297a46475beb64b2139dd2793957170a"
+    },
+    {
+      "path": "reports/task003/route_windows.csv",
+      "sha256": "89790eb5dfe2108b50ff50e0445a3225ef235dcd7f653bb303177568951efc62"
+    },
+    {
+      "path": "reports/task003/input_evidence.csv",
+      "sha256": "e0717b837a33dfb4779efa17540231c87816a3958d902f5e7322b9158dc74c63"
+    },
+    {
+      "path": "reports/task003/summary.json",
+      "sha256": "cf626a5e8603116589a47943ab11d35e81da0a21de68e9238ed840af0e6cf653"
+    },
+    {
+      "path": "reports/task003/design_window.png",
+      "sha256": "6a9c127329d3b719b3dba30b49121151416c1848e293c3d67f6cbaaf650af4db"
+    },
+    {
+      "path": "reports/task003/transfer_window.png",
+      "sha256": "2e4ea05fc7fdc509aba71772cfc8ec46c808a806bb96f54f6e3dba73dfb2dd3a"
+    },
+    {
+      "path": "reports/task003/transfer_envelope.csv",
+      "sha256": "27d25983dcf828eb84a8d09ff0741433936eae0640a39c74320999e72fe53b6b"
+    },
+    {
+      "path": "reports/task003/sensitivity_rank.csv",
+      "sha256": "b30a96e669a4a802ef6de0141bb15d8a624bd8fedeb3fd4e7854a66f8f3dddab"
+    },
+    {
+      "path": "reports/task003/analog_lines.png",
+      "sha256": "575409de30cda11354d595fe1f2ea9386e497370df6f3dddccc500e5b02d71f9"
+    }
+  ],
+  "assumptions": [
+    "q_s=0",
+    "dry pure CO2",
+    "no fitting of phi or eta",
+    "PET q_host unknown",
+    "defective skeleton masses are conditional upper bounds; caps and exact dry basis unknown"
+  ],
+  "operation_ids": [
+    "TASK003-plan-3A",
+    "TASK003-plan-2.4",
+    "TASK003-P3-01",
+    "TASK003-P3-02"
+  ],
+  "runtime": {
+    "python": "3.12.0",
+    "numpy": "2.5.5"
+  }
+}
