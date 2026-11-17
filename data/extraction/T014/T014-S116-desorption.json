@@ -1,0 +1,150 @@
+{
+  "extraction_id": "T014-S116-desorption",
+  "source_id": "S116",
+  "doi": "10.1016/j.ijggc.2020.102975",
+  "locator": "Section 3.1, p.5, text immediately above Fig.7",
+  "conditions": {
+    "T": "120 °C regeneration",
+    "RH": "steam mole fraction 80% or 90%; RH not reported",
+    "material": "hyperbranched PEI/mesoporous silica, reported 40% mass ratio (denominator unresolved)",
+    "PEI_Mw": "reported molecular mass 1800 g/mol",
+    "method": "bubbling fluidized bed CO2 desorption; 10 or 19 L/min steam plus N2; text beside Fig.7",
+    "activation": "preceding adsorption ~60 °C; bed preheated for regeneration; not isothermal particle uptake"
+  },
+  "limitations": [
+    "Reported approximate threshold times are reactor-scale, not intrinsic particle constants.",
+    "Threshold-derived exponential equivalents disagree; retain the envelope, not a fitted common tau."
+  ],
+  "quantities": {
+    "t80_minutes": {
+      "value": [
+        30.0,
+        45.0
+      ],
+      "unit": "min",
+      "type": "literature_range",
+      "source_id": "S116",
+      "extraction_id": "T014-S116-desorption",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "120 °C regeneration",
+        "RH": "steam mole fraction 80% or 90%; RH not reported",
+        "material": "hyperbranched PEI/mesoporous silica, reported 40% mass ratio (denominator unresolved)",
+        "PEI_Mw": "reported molecular mass 1800 g/mol",
+        "method": "bubbling fluidized bed CO2 desorption; 10 or 19 L/min steam plus N2; text beside Fig.7",
+        "activation": "preceding adsorption ~60 °C; bed preheated for regeneration; not isothermal particle uptake"
+      },
+      "locator": "Section 3.1, p.5, text immediately above Fig.7",
+      "limitations": "Reported approximate threshold times are reactor-scale, not intrinsic particle constants.; Threshold-derived exponential equivalents disagree; retain the envelope, not a fitted common tau.",
+      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/t80_minutes"
+    },
+    "t90_minutes": {
+      "value": [
+        45.0,
+        75.0
+      ],
+      "unit": "min",
+      "type": "literature_range",
+      "source_id": "S116",
+      "extraction_id": "T014-S116-desorption",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "120 °C regeneration",
+        "RH": "steam mole fraction 80% or 90%; RH not reported",
+        "material": "hyperbranched PEI/mesoporous silica, reported 40% mass ratio (denominator unresolved)",
+        "PEI_Mw": "reported molecular mass 1800 g/mol",
+        "method": "bubbling fluidized bed CO2 desorption; 10 or 19 L/min steam plus N2; text beside Fig.7",
+        "activation": "preceding adsorption ~60 °C; bed preheated for regeneration; not isothermal particle uptake"
+      },
+      "locator": "Section 3.1, p.5, text immediately above Fig.7",
+      "limitations": "Reported approximate threshold times are reactor-scale, not intrinsic particle constants.; Threshold-derived exponential equivalents disagree; retain the envelope, not a fitted common tau.",
+      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/t90_minutes"
+    },
+    "fractions": {
+      "value": [
+        0.8,
+        0.9
+      ],
+      "unit": "1",
+      "type": "literature_range",
+      "source_id": "S116",
+      "extraction_id": "T014-S116-desorption",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "120 °C regeneration",
+        "RH": "steam mole fraction 80% or 90%; RH not reported",
+        "material": "hyperbranched PEI/mesoporous silica, reported 40% mass ratio (denominator unresolved)",
+        "PEI_Mw": "reported molecular mass 1800 g/mol",
+        "method": "bubbling fluidized bed CO2 desorption; 10 or 19 L/min steam plus N2; text beside Fig.7",
+        "activation": "preceding adsorption ~60 °C; bed preheated for regeneration; not isothermal particle uptake"
+      },
+      "locator": "Section 3.1, p.5, text immediately above Fig.7",
+      "limitations": "Explicit 80% and 90% removal thresholds in source text.",
+      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/fractions"
+    },
+    "tau_equivalents": {
+      "value": [
+        1118.4028822073012,
+        1677.6043233109517,
+        1172.59510113878,
+        1954.325168564633
+      ],
+      "unit": "s",
+      "type": "derived",
+      "source_id": "S116",
+      "extraction_id": "T014-S116-desorption",
+      "status": "provisional",
+      "evidence_kind": "conditional_exponential_equivalent",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "120 °C regeneration",
+        "RH": "steam mole fraction 80% or 90%; RH not reported",
+        "material": "hyperbranched PEI/mesoporous silica, reported 40% mass ratio (denominator unresolved)",
+        "PEI_Mw": "reported molecular mass 1800 g/mol",
+        "method": "bubbling fluidized bed CO2 desorption; 10 or 19 L/min steam plus N2; text beside Fig.7",
+        "activation": "preceding adsorption ~60 °C; bed preheated for regeneration; not isothermal particle uptake"
+      },
+      "locator": "Section 3.1, p.5, text immediately above Fig.7",
+      "limitations": "Reported approximate threshold times are reactor-scale, not intrinsic particle constants.; Threshold-derived exponential equivalents disagree; retain the envelope, not a fitted common tau.",
+      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/tau_equivalents",
+      "derived_from": [
+        "t80_minutes",
+        "t90_minutes",
+        "fractions"
+      ]
+    },
+    "tau_CO2_des": {
+      "range": [
+        1118.4028822073012,
+        1954.325168564633
+      ],
+      "unit": "s",
+      "type": "derived",
+      "source_id": "S116",
+      "extraction_id": "T014-S116-desorption",
+      "status": "provisional",
+      "evidence_kind": "conditional_exponential_equivalent",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "120 °C regeneration",
+        "RH": "steam mole fraction 80% or 90%; RH not reported",
+        "material": "hyperbranched PEI/mesoporous silica, reported 40% mass ratio (denominator unresolved)",
+        "PEI_Mw": "reported molecular mass 1800 g/mol",
+        "method": "bubbling fluidized bed CO2 desorption; 10 or 19 L/min steam plus N2; text beside Fig.7",
+        "activation": "preceding adsorption ~60 °C; bed preheated for regeneration; not isothermal particle uptake"
+      },
+      "locator": "Section 3.1, p.5, text immediately above Fig.7",
+      "limitations": "tau = -t_f/ln(1-f) if a single exponential is assumed; not an author fit, not H2O kinetics, not a universal target interval.",
+      "evidence_ref": "data/extraction/T014/T014-S116-desorption.json#/quantities/tau_CO2_des",
+      "derived_from": [
+        "tau_equivalents"
+      ]
+    }
+  }
+}

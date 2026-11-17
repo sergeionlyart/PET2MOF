@@ -1443,3 +1443,121 @@
   acceptance_core_measured_UiO_CO2: false
   reviewed_by: T004
   review_notes: '§7 NEW2: wet CO2 simulations; experimental water vapor only.'
+
+# T014 parameter evidence; independent review T014v / T016 pending.
+- source_id: S119
+  doi: 10.1002/mabi.201200052
+  doi_verified: true
+  url: https://doi.org/10.1002/mabi.201200052
+  oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3970578/
+  title: Poly(ethylene imine)s as Antimicrobial Agents with Selective Activity
+  authors:
+  - Katherine A. Gibney
+  - Iva Sovadinova
+  - Analette I. Lopez
+  - Michael Urban
+  - Zachary Ridgway
+  - Gregory A. Caputo
+  - Kenichi Kuroda
+  year: 2012
+  journal: Macromolecular Bioscience
+  license: Copyright Wiley; public author manuscript in PMC; no CC reuse license established
+  accessed: '2026-11-17'
+  files_available: &id001
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC3970578/
+  materials:
+  - Commercial branched PEI, Polysciences
+  role_candidate: analog
+  status: provisional
+  access_level: full_text_HTML
+  doi_evidence: sources/metadata/S119.crossref.json
+  doi_verification_scope: Crossref DOI, title, first author, year and journal matched on 2026-11-17; not
+    independent numerical verification
+  evidence_urls: *id001
+  limitations:
+  - NMR peak-deconvolution estimates, not a quantitative 13C NMR assay of the target PEI.
+  - Supplier MW differs from measured GPC Mw/Mn.
+- source_id: S121
+  doi: 10.1021/jacsau.5c01294
+  doi_verified: true
+  url: https://doi.org/10.1021/jacsau.5c01294
+  oa_url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12728659/fullTextXML
+  title: Climatic Conditions and Amine Loading Impact the Performance of Laminate-Supported Poly(ethylenimine)
+    Direct Air Capture Sorbents
+  authors:
+  - UnJin Ryu
+  - Youn Ji Min
+  - Wenyang Zhao
+  - Yunseok Lee
+  - Matthew J. Realff
+  - Christopher W. Jones
+  year: 2025
+  journal: JACS Au
+  license: Main article CC BY 4.0; Figshare SI CC BY-NC 4.0
+  accessed: '2026-11-17'
+  files_available: &id002
+  - https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12728659/fullTextXML
+  - https://ndownloader.figshare.com/files/59832669
+  materials:
+  - Branched PEI/ePTFE/mesoporous silica
+  role_candidate: analog
+  status: provisional
+  access_level: full_text_XML_and_publisher_SI
+  doi_evidence: sources/metadata/S121.crossref.json
+  license_evidence: sources/metadata/S121.figshare.json
+  doi_verification_scope: Crossref DOI, title, first author, year and journal matched on 2026-11-17; not
+    independent numerical verification
+  evidence_urls: *id002
+  limitations:
+  - DAC gas concentration and silica/ePTFE differ from PEI/UiO-66.
+  - Water curves are composite uptake, not an independently identified pure-PEI W_max.
+- source_id: S124
+  doi: 10.3390/ma11060887
+  doi_verified: true
+  url: https://doi.org/10.3390/ma11060887
+  oa_url: https://mdpi-res.com/d_attachment/materials/materials-11-00887/article_deploy/materials-11-00887.pdf
+  title: 'CO2 Capture with Mesoporous Silicas Modified with Amines by Double Functionalization: Assessment
+    of Adsorption/Desorption Cycles'
+  authors:
+  - Kléver Santiago Sánchez-Zambrano
+  - Lairana Lima Duarte
+  - Débora Aline Soares Maia
+  - Enrique Vilarrasa-García
+  - Moisés Bastos-Neto
+  - Enrique Rodríguez-Castellón
+  - Diana Cristina Silva de Azevedo
+  year: 2018
+  journal: Materials
+  license: CC BY 4.0
+  accessed: '2026-11-17'
+  files_available: &id003
+  - https://mdpi-res.com/d_attachment/materials/materials-11-00887/article_deploy/materials-11-00887.pdf
+  materials:
+  - APTES-grafted mesoporous silica MSG20
+  - PEI-impregnated MSG20I30
+  role_candidate: analog
+  status: provisional
+  access_level: full_text
+  doi_evidence: sources/metadata/S124.crossref.json
+  doi_verification_scope: Crossref DOI, title, first author, year and journal matched on 2026-11-17; not
+    independent numerical verification
+  evidence_urls: *id003
+  limitations:
+  - PEI molecular weight unknown; APTES adds a separate amine population.
+  - Calorimetric heat-decay time is not a common CO2/H2O mass-uptake time.
+- source_id: DESIGN-T014
+  doi: null
+  doi_verified: false
+  url: configs/scenarios.yaml
+  title: T014 retained stress bounds and unknown target parameters
+  license: Project-authored parameter design; not literature measurements
+  accessed: '2026-11-17'
+  role_candidate: assumption_range
+  status: provisional
+  evidence_urls:
+  - configs/scenarios.yaml
+  - configs/revision.yaml
+  - docs/model_spec.md
+  - docs/decisions.md
+  limitations:
+  - Finite stress boxes are not empirical confidence intervals or probability distributions.

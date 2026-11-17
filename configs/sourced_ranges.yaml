@@ -1,0 +1,631 @@
+schema_version: T014-v1
+description: Provisional parameter evidence. Scenario retains broad stress bounds; literature_ranges are separate
+  conditional analog observables, NOT automatically applied priors. No model/tolerance changes.
+review_required: T014v / T016
+blindness: No S2, S113, S103, S102 or S117/Madden 2021 source files or holdout datasets opened.
+scenario:
+  tau_over_t:
+    range:
+    - 0.0
+    - 10.0
+    unit: '1'
+    type: assumption_range
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: assumption_range
+    transfer_class: target_stress_only
+    conditions: &id001
+      T: target adsorption 308.15 K; regeneration per existing scenario
+      RH: target 0/40/70%; not used to infer any missing parameter
+      material: target PEI/UiO-66; no target measurements claimed
+      PEI_Mw: unknown
+      method: retained project stress assumptions / exact physical endpoints
+      activation: unknown
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: configs/scenarios.yaml:scenario.tau_grid; interval envelope of D-08 scenario grid, not a continuous
+      prior
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t
+  screen_bounds:
+    Q_W:
+      range:
+      - 0.0
+      - 80000.0
+      unit: J/mol
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/scenarios.yaml:scenario.screen_bounds.Q_W
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/Q_W
+    gamma:
+      range:
+      - -1.0
+      - 2.0
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/scenarios.yaml:scenario.screen_bounds.gamma
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/gamma
+    kappa:
+      range:
+      - 0.0
+      - 2.3
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/scenarios.yaml:scenario.screen_bounds.kappa
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/kappa
+    V_p0:
+      range:
+      - 0.1
+      - 2.0
+      unit: cm3/g MOF
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/scenarios.yaml:scenario.screen_bounds.V_p0
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/V_p0
+    alpha_in:
+      range:
+      - 0.0
+      - 1.0
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/scenarios.yaml:scenario.screen_bounds.alpha_in
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/alpha_in
+    W_max:
+      range:
+      - 0.0
+      - 200.0
+      unit: mmol/g PEI
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/scenarios.yaml:scenario.screen_bounds.W_max; lower bound expanded to exact zero-water
+        limit, upper unchanged
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/W_max
+    h_max:
+      range:
+      - 0.0
+      - 1.0
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/scenarios.yaml:scenario.screen_bounds.h_max
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/h_max
+    Q_phys:
+      range:
+      - 0.0
+      - 60000.0
+      unit: J/mol
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/scenarios.yaml:scenario.screen_bounds.Q_phys
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/Q_phys
+    Q_d:
+      range:
+      - 0.0
+      - 120000.0
+      unit: J/mol
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/scenarios.yaml:scenario.screen_bounds.Q_d
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/Q_d
+    f3:
+      range:
+      - 0.0
+      - 1.0
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: docs/model_spec.md §4.1 fraction simplex; full ignorance stress, not NMR evidence
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/f3
+    water_volume_transfer:
+      range:
+      - 0.25
+      - 4.0
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/revision.yaml:water_volume_transfer_bounds
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/water_volume_transfer
+structural_branches:
+  v1.1-connectivity:
+    kappa:
+      range:
+      - 0.0
+      - 10.0
+      unit: '1'
+      type: assumption_range
+      source_id: DESIGN-T014
+      extraction_id: T014-DESIGN
+      status: provisional
+      evidence_kind: assumption_range
+      transfer_class: target_stress_only
+      conditions: *id001
+      locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+      limitations: configs/revision.yaml:versions v1.1-connectivity; distinct structural branch, not pooled with
+        linear kappa.
+      evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/kappa_connectivity
+target_knowledge:
+  tau_over_t:
+    value: null
+    unit: '1'
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t_unknown
+  Q_W:
+    value: null
+    unit: J/mol
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/Q_W_unknown
+  gamma:
+    value: null
+    unit: '1'
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/gamma_unknown
+  kappa:
+    value: null
+    unit: '1'
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/kappa_unknown
+  V_p0:
+    value: null
+    unit: cm3/g MOF
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/V_p0_unknown
+  alpha_in:
+    value: null
+    unit: '1'
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/alpha_in_unknown
+  W_max:
+    value: null
+    unit: mmol/g PEI
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/W_max_unknown
+  h_max:
+    value: null
+    unit: '1'
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/h_max_unknown
+  Q_phys:
+    value: null
+    unit: J/mol
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/Q_phys_unknown
+  Q_d:
+    value: null
+    unit: J/mol
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/Q_d_unknown
+  f3:
+    value: null
+    unit: '1'
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/f3_unknown
+  water_volume_transfer:
+    value: null
+    unit: '1'
+    type: unknown
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: unknown
+    transfer_class: target_unknown
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Not identified for target PEI/UiO-66 in examined permitted sources; see literature_ranges and review
+      for observables and mapping limitations.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/water_volume_transfer_unknown
+literature_ranges:
+  Q_phys:
+    range:
+    - 22900
+    - 24300
+    unit: J/mol
+    type: derived
+    source_id: S105
+    extraction_id: T014-S105-Qphys
+    status: provisional
+    evidence_kind: author_calculation
+    transfer_class: analog
+    conditions:
+      T: 273, 298, 318 K
+      RH: no water cofeed; measured RH unknown
+      material: UiO-66 (no GO, no NH2, no PEI)
+      PEI_Mw: not applicable
+      method: author Clausius-Clapeyron calculation from measured isotherms
+      pressure: 0.01–0.1 MPa as stated in heat calculation
+      activation: 'conflict: ambient-temperature vacuum vs 393 K, both 12 h'
+    locator: Section 3.4, p.10, paragraph after Eq.(2)
+    limitations: Exact kJ to J conversion; usable only as a conditional S105 transfer range, not as a target measurement.
+    evidence_ref: data/extraction/T014/T014-S105-Qphys.json#/quantities/Q_phys
+    derived_from:
+    - reported_Qst
+  V_p0_proxy:
+    range:
+    - 0.353
+    - 0.46
+    unit: cm3/g MOF
+    type: derived
+    source_id: S106
+    extraction_id: T014-S106-pores
+    status: provisional
+    evidence_kind: direct_measurement
+    transfer_class: analog
+    conditions:
+      T: 77 K N2 porometry
+      RH: dry pretreatment; not a humidity series
+      material: UiO-66_220, UiO-66_160, UiO-66_100
+      PEI_Mw: not applicable
+      method: N2 t-plot micropore volume; Methods pp.2–3 of article
+      activation: vacuum 60 °C 1 h, then 150 °C 2 h
+    locator: Table 1, article p.4 / repository PDF p.5
+    limitations: Min/max across S106 defect branches; not the total pore volume of S100. Keep sample branches and
+      transfer uncertainty.
+    evidence_ref: data/extraction/T014/T014-S106-pores.json#/quantities/V_p0_proxy
+    derived_from:
+    - micropore_volumes
+  Q_water_simulation:
+    range:
+    - 46510
+    - 57710
+    unit: J/mol
+    type: derived
+    source_id: S106
+    extraction_id: T014-S106-Qwater
+    status: provisional
+    evidence_kind: simulation
+    transfer_class: analog
+    conditions:
+      T: 293.15 K simulation setting (Fig.8); zero coverage heat from Widom insertion
+      RH: zero coverage; not a finite-RH step-shift measurement
+      material: six modeled UiO-66 defect/charge structures, Table 2
+      PEI_Mw: not applicable
+      method: RASPA MC / Widom; TIP4P-Ew, retuned charges; §3
+      activation: not applicable to computed structures
+    locator: Table 2, article p.7 / repository PDF p.8; §3
+    limitations: Min/max * 1000. Context only; not a replacement for Q_W or mean water desorption heat.
+    evidence_ref: data/extraction/T014/T014-S106-Qwater.json#/quantities/Q_water_simulation
+    derived_from:
+    - zero_coverage_heats
+  f3:
+    range:
+    - 0.24
+    - 0.32
+    unit: '1'
+    type: derived
+    source_id: S119
+    extraction_id: T014-S119-f3
+    status: provisional
+    evidence_kind: author_NMR_deconvolution
+    transfer_class: analog
+    conditions:
+      T: NMR acquisition temperature unknown
+      RH: not applicable; polymer composition assay
+      material: Polysciences B-PEI with nominal supplier MW 600, 1800, 10000 g/mol
+      PEI_Mw: GPC Mw 2100, 1400, 19000 g/mol; GPC Mn 470,1100,12000 g/mol (Table 1)
+      method: author deconvolution of 1H NMR; quantitative 13C parameters not optimized
+      activation: not applicable; not immobilized/grafted PEI
+    locator: Original HTML Table 2, id=T2; NMR characterization; Table 1 for MW
+    limitations: Min/max / 100 over reported commercial branched-PEI grades; conditional analog range only. Target
+      batch unknown.
+    evidence_ref: data/extraction/T014/T014-S119-f3.json#/quantities/f3
+    derived_from:
+    - tertiary_percent
+  wet_dry_ratio_analog_envelope:
+    range:
+    - 1.8244680851063828
+    - 1.8810679611650485
+    unit: '1'
+    type: derived
+    source_id: S110
+    extraction_id: T014-S110-humidity
+    status: provisional
+    evidence_kind: direct_measurement
+    transfer_class: analog
+    conditions:
+      T: 25 °C
+      RH: dry and 73.9% RH; dew point 20 °C
+      material: 30 wt% BPEI/SiO2; LPEI comparator kept separate
+      PEI_Mw: BPEI Mw~25000, Mn~10000; LPEI Mw250000 g/mol
+      method: integrated fixed-bed breakthrough; 5000 ppm CO2/He; 200 mL/min
+      activation: 100 °C He, 10 min; total pressure unknown
+    locator: Table 1, p.4; 25 °C rows only
+    limitations: Envelope across two polymer architectures at matched conditions; not a BPEI confidence interval
+      or gamma.
+    evidence_ref: data/extraction/T014/T014-S110-humidity.json#/quantities/wet_dry_ratio_analog_envelope
+    derived_from:
+    - BPEI_dry
+    - BPEI_humid
+    - LPEI_dry
+    - LPEI_humid
+  wet_dry_ratio:
+    range:
+    - 0.8181818181818182
+    - 1.2901234567901232
+    unit: '1'
+    type: derived
+    source_id: S121
+    extraction_id: T014-S121-humidity
+    status: provisional
+    evidence_kind: direct_measurement
+    transfer_class: analog
+    conditions:
+      T: 35 °C; only this column extracted
+      RH: 0,20,50,80% RH
+      material: 30,40,50 wt% BPEI/ePTFE/silica labels; dry total sorbent basis includes ePTFE
+      PEI_Mw: Mw~800 by LS, Mn~600 by GPC (SI p.3)
+      method: fixed-bed CO2 capacity, 400 ppm CO2/N2; prehydration; Table S3
+      activation: fixed-bed protocol Fig.S7; no extrapolation to 5% CO2
+    locator: SI Table S3, p.16; 35 °C column; SI §1.2 and Fig.S7
+    limitations: 'Silica/ePTFE and DAC gas differ from target MOF/flue gas.; Do not impose a single RH multiplier:
+      sign changes with loading and RH.'
+    evidence_ref: data/extraction/T014/T014-S121-humidity.json#/quantities/wet_dry_ratio
+    derived_from:
+    - ratio_30
+    - ratio_40
+    - ratio_50
+  tau_CO2_des:
+    range:
+    - 1118.4028822073012
+    - 1954.325168564633
+    unit: s
+    type: derived
+    source_id: S116
+    extraction_id: T014-S116-desorption
+    status: provisional
+    evidence_kind: conditional_exponential_equivalent
+    transfer_class: analog
+    conditions:
+      T: 120 °C regeneration
+      RH: steam mole fraction 80% or 90%; RH not reported
+      material: hyperbranched PEI/mesoporous silica, reported 40% mass ratio (denominator unresolved)
+      PEI_Mw: reported molecular mass 1800 g/mol
+      method: bubbling fluidized bed CO2 desorption; 10 or 19 L/min steam plus N2; text beside Fig.7
+      activation: preceding adsorption ~60 °C; bed preheated for regeneration; not isothermal particle uptake
+    locator: Section 3.1, p.5, text immediately above Fig.7
+    limitations: tau = -t_f/ln(1-f) if a single exponential is assumed; not an author fit, not H2O kinetics, not
+      a universal target interval.
+    evidence_ref: data/extraction/T014/T014-S116-desorption.json#/quantities/tau_CO2_des
+    derived_from:
+    - tau_equivalents
+  Q_d_initial_proxy:
+    range:
+    - 110000.0
+    - 120000.0
+    unit: J/mol
+    type: derived
+    source_id: S124
+    extraction_id: T014-S124-heat
+    status: provisional
+    evidence_kind: direct_measurement
+    transfer_class: analog
+    conditions:
+      T: 25 °C microcalorimetry
+      RH: anhydrous
+      material: APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)
+      PEI_Mw: unknown; Fluka PEI 50% m/v aqueous stock
+      method: Tian-Calvet / Setaram C80 coupled to manometric gas dosing
+      activation: vacuum 1e-3 mbar at 120 °C for 4 h
+    locator: p.9 text above Fig.5; Table 7 p.13 is a separate representative heat
+    limitations: Initial differential heats are a high-energy tail, not a whole-coverage constant Q_d.; APTES and
+      PEI contributions are not resolved; no transfer to pure PEI/UiO-66.
+    evidence_ref: data/extraction/T014/T014-S124-heat.json#/quantities/Q_d_initial_proxy
+    derived_from:
+    - initial_heat
+  tau_over_t_des_analog:
+    range:
+    - 0.3106674672798059
+    - 3.2572086142743886
+    unit: '1'
+    type: derived
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: conditional_exponential_equivalent
+    transfer_class: analog
+    conditions: *id001
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Envelope tau/t over stage-time design and S116 reactor-equivalent tau; no H2O equivalence, no common
+      tau inference.
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t_des_analog
+    derived_from:
+    - T014-S116-desorption:tau_CO2_des
+    - T014-DESIGN:stage_time
+  tau_over_t_heat_analog:
+    range:
+    - 0.35388888888888886
+    - 2.1233333333333335
+    unit: '1'
+    type: derived
+    source_id: DESIGN-T014
+    extraction_id: T014-DESIGN
+    status: provisional
+    evidence_kind: conditional_heat_signal_proxy
+    transfer_class: analog
+    conditions:
+      T: target adsorption 308.15 K; regeneration per existing scenario
+      RH: target 0/40/70%; not used to infer any missing parameter
+      material: target PEI/UiO-66; no target measurements claimed
+      PEI_Mw: unknown
+      method: retained project stress assumptions / exact physical endpoints
+      activation: unknown
+    locator: scenario.screen_bounds / tau_grid; revision branches; model_spec §§3–4; D-07/D-08/D-17
+    limitations: Reported heat-signal parameter / chosen stage time only. Eq.(2) in S124 leaves the log base unspecified;
+      this ratio is NOT an identified e-fold CO2/H2O relaxation ratio. If log means base ten, e-fold time would
+      additionally require division by ln(10).
+    evidence_ref: data/extraction/T014/T014-DESIGN.json#/quantities/tau_over_t_heat_analog
+    derived_from:
+    - T014-S124-kinetics:tau_heat_max
+    - T014-DESIGN:stage_time
+constraints:
+- Do not average structural or humidity-mechanism branches.
+- Keep f1+f2+f3=1, accessible nitrogen, water and pore budgets jointly feasible.
+- alpha_in describes PEI-associated water location, not the PEI polymer volume fraction.
+- Q_W step-shift, zero-coverage water heat and mean water desorption heat are distinct observables.
+- stage_time is a design variable; no common CO2/H2O tau has been established.
+- Literature min/max ranges are not confidence intervals; no uniform prior is asserted.

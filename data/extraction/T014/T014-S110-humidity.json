@@ -1,0 +1,159 @@
+{
+  "extraction_id": "T014-S110-humidity",
+  "source_id": "S110",
+  "doi": "10.3390/en15031075",
+  "locator": "Table 1, p.4; 25 °C rows only",
+  "conditions": {
+    "T": "25 °C",
+    "RH": "dry and 73.9% RH; dew point 20 °C",
+    "material": "30 wt% BPEI/SiO2; LPEI comparator kept separate",
+    "PEI_Mw": "BPEI Mw~25000, Mn~10000; LPEI Mw250000 g/mol",
+    "method": "integrated fixed-bed breakthrough; 5000 ppm CO2/He; 200 mL/min",
+    "activation": "100 °C He, 10 min; total pressure unknown"
+  },
+  "limitations": [
+    "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.",
+    "No inference of RH at 45 °C; those rows excluded."
+  ],
+  "quantities": {
+    "BPEI_dry": {
+      "value": 41.2,
+      "unit": "mg CO2/g adsorbent",
+      "type": "literature_range",
+      "source_id": "S110",
+      "extraction_id": "T014-S110-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C",
+        "RH": "dry and 73.9% RH; dew point 20 °C",
+        "material": "30 wt% BPEI/SiO2; LPEI comparator kept separate",
+        "PEI_Mw": "BPEI Mw~25000, Mn~10000; LPEI Mw250000 g/mol",
+        "method": "integrated fixed-bed breakthrough; 5000 ppm CO2/He; 200 mL/min",
+        "activation": "100 °C He, 10 min; total pressure unknown"
+      },
+      "locator": "Table 1, p.4; 25 °C rows only",
+      "limitations": "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.; No inference of RH at 45 °C; those rows excluded.",
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/BPEI_dry"
+    },
+    "BPEI_humid": {
+      "value": 77.5,
+      "unit": "mg CO2/g adsorbent",
+      "type": "literature_range",
+      "source_id": "S110",
+      "extraction_id": "T014-S110-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C",
+        "RH": "dry and 73.9% RH; dew point 20 °C",
+        "material": "30 wt% BPEI/SiO2; LPEI comparator kept separate",
+        "PEI_Mw": "BPEI Mw~25000, Mn~10000; LPEI Mw250000 g/mol",
+        "method": "integrated fixed-bed breakthrough; 5000 ppm CO2/He; 200 mL/min",
+        "activation": "100 °C He, 10 min; total pressure unknown"
+      },
+      "locator": "Table 1, p.4; 25 °C rows only",
+      "limitations": "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.; No inference of RH at 45 °C; those rows excluded.",
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/BPEI_humid"
+    },
+    "LPEI_dry": {
+      "value": 37.6,
+      "unit": "mg CO2/g adsorbent",
+      "type": "literature_range",
+      "source_id": "S110",
+      "extraction_id": "T014-S110-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C",
+        "RH": "dry and 73.9% RH; dew point 20 °C",
+        "material": "30 wt% BPEI/SiO2; LPEI comparator kept separate",
+        "PEI_Mw": "BPEI Mw~25000, Mn~10000; LPEI Mw250000 g/mol",
+        "method": "integrated fixed-bed breakthrough; 5000 ppm CO2/He; 200 mL/min",
+        "activation": "100 °C He, 10 min; total pressure unknown"
+      },
+      "locator": "Table 1, p.4; 25 °C rows only",
+      "limitations": "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.; No inference of RH at 45 °C; those rows excluded.",
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/LPEI_dry"
+    },
+    "LPEI_humid": {
+      "value": 68.6,
+      "unit": "mg CO2/g adsorbent",
+      "type": "literature_range",
+      "source_id": "S110",
+      "extraction_id": "T014-S110-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C",
+        "RH": "dry and 73.9% RH; dew point 20 °C",
+        "material": "30 wt% BPEI/SiO2; LPEI comparator kept separate",
+        "PEI_Mw": "BPEI Mw~25000, Mn~10000; LPEI Mw250000 g/mol",
+        "method": "integrated fixed-bed breakthrough; 5000 ppm CO2/He; 200 mL/min",
+        "activation": "100 °C He, 10 min; total pressure unknown"
+      },
+      "locator": "Table 1, p.4; 25 °C rows only",
+      "limitations": "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.; No inference of RH at 45 °C; those rows excluded.",
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/LPEI_humid"
+    },
+    "BPEI_wet_dry_ratio": {
+      "value": 1.8810679611650485,
+      "unit": "1",
+      "type": "derived",
+      "source_id": "S110",
+      "extraction_id": "T014-S110-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C",
+        "RH": "dry and 73.9% RH; dew point 20 °C",
+        "material": "30 wt% BPEI/SiO2; LPEI comparator kept separate",
+        "PEI_Mw": "BPEI Mw~25000, Mn~10000; LPEI Mw250000 g/mol",
+        "method": "integrated fixed-bed breakthrough; 5000 ppm CO2/He; 200 mL/min",
+        "activation": "100 °C He, 10 min; total pressure unknown"
+      },
+      "locator": "Table 1, p.4; 25 °C rows only",
+      "limitations": "Capacity ratio combines reaction, accessibility and kinetics; cannot identify gamma.; No inference of RH at 45 °C; those rows excluded.",
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/BPEI_wet_dry_ratio",
+      "derived_from": [
+        "BPEI_humid",
+        "BPEI_dry"
+      ]
+    },
+    "wet_dry_ratio_analog_envelope": {
+      "range": [
+        1.8244680851063828,
+        1.8810679611650485
+      ],
+      "unit": "1",
+      "type": "derived",
+      "source_id": "S110",
+      "extraction_id": "T014-S110-humidity",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "25 °C",
+        "RH": "dry and 73.9% RH; dew point 20 °C",
+        "material": "30 wt% BPEI/SiO2; LPEI comparator kept separate",
+        "PEI_Mw": "BPEI Mw~25000, Mn~10000; LPEI Mw250000 g/mol",
+        "method": "integrated fixed-bed breakthrough; 5000 ppm CO2/He; 200 mL/min",
+        "activation": "100 °C He, 10 min; total pressure unknown"
+      },
+      "locator": "Table 1, p.4; 25 °C rows only",
+      "limitations": "Envelope across two polymer architectures at matched conditions; not a BPEI confidence interval or gamma.",
+      "evidence_ref": "data/extraction/T014/T014-S110-humidity.json#/quantities/wet_dry_ratio_analog_envelope",
+      "derived_from": [
+        "BPEI_dry",
+        "BPEI_humid",
+        "LPEI_dry",
+        "LPEI_humid"
+      ]
+    }
+  }
+}

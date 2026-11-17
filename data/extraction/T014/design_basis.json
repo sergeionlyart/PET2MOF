@@ -1,0 +1,36 @@
+{
+  "source_id": "DESIGN-T014",
+  "kind": "project_assumptions_not_measurements",
+  "inputs": [
+    {
+      "path": "configs/scenarios.yaml",
+      "sha256": "a886d7ef1251f14230e4de1572595cc3ed69201eef69e258647377ed783100a1"
+    },
+    {
+      "path": "configs/revision.yaml",
+      "sha256": "bdd7377333b0dd8b3365cdb9ecab9449dd9af9b478a3d49e8b50a9ade16afd6f"
+    },
+    {
+      "path": "docs/model_spec.md",
+      "sha256": "c12fecb2d8c596783b4ed837e6f89474ab8aaa6f19f4ea164c4085ba3222de6e"
+    },
+    {
+      "path": "docs/decisions.md",
+      "sha256": "a2f32d5b379f306015d576222fdf8ea80a6f43b555ffb127366567329f10285e"
+    },
+    {
+      "path": "reviews/T015_screening.md",
+      "sha256": "971a478ce54979fe96ea6ae5daf80de6e21dbe3f1c16751876b7f0b2056f1b9b"
+    },
+    {
+      "path": "docs/parameters.md",
+      "sha256": "1618fc34b097b7bb7378275c2e0fac718309d3aff909d86e08460f41ab4e8984"
+    }
+  ],
+  "rules": [
+    "Retain D-07/D-08 stress bounds pending independent review.",
+    "For W_max additionally include the exact zero-water limit.",
+    "For f3 keep the full fraction interval as ignorance stress, alongside a separate NMR analog range.",
+    "No probability distribution or independence of parameters is inferred."
+  ]
+}
