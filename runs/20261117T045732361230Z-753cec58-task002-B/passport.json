@@ -1,0 +1,154 @@
+{
+  "run_id": "20261117T045732361230Z-753cec58-task002-B",
+  "purpose": "S100: \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u0430\u044f \u0431\u0430\u0437\u0430, Langmuir, \u0443\u0441\u043b\u043e\u0432\u043d\u044b\u0439 Toth \u0438 \u0447\u0443\u0432\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c, T034",
+  "hypothesis": "\u041c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u0438\u0437\u043e\u0442\u0435\u0440\u043c\u0430 \u043e\u0446\u0435\u043d\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043f\u043e \u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u043c\u0443 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u043c\u0443 \u0431\u043b\u043e\u043a\u0443 \u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u0443 \u043f\u043b\u0430\u043d\u0430 \u0411",
+  "commit_sha": "753cec58e79d159b61d7b279eb9887ac0639947e",
+  "versions": {
+    "python": "3.12.0",
+    "pet2mof": "0.1.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "pymupdf": "1.28.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.2.0"
+  },
+  "inputs": [
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv",
+      "sha256": "757e879b0488f5fe81530344973560505b10d206c4e05f2a77a56bc9fc96eda9"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/metadata/S100_internal_split.csv",
+      "sha256": "a9fc6271a01f407039d51f0ac9e457fcfafcbecdfa7cd73b0b10c20f522b6703"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/S100_internal_baseline_residuals.csv",
+      "sha256": "02babd328e0df390357c4e1f412dd70d7476ff2f2a6a985fd5e04d545179fb58"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/S100_nominal_shapes.csv",
+      "sha256": "2ecd8ee24692c252da727ebe7f23f5ab0a876919b7c7eb5ca344594998d67336"
+    },
+    {
+      "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/reference/baseline_summary.json",
+      "sha256": "1562e2f4f8b92afbb6a2d4f42fd792203123db64cbc3607eef22a748949b4dc1"
+    },
+    {
+      "path": "docs/task002/analysis_plan.md",
+      "sha256": "898ce73a8f1c5264c3b66c0d092192b1388122dd961c07b24aa5cd2ecad2d7f8"
+    },
+    {
+      "path": "docs/work_order_task002_RU.md",
+      "sha256": "e5da0cdc4d09125311d69781c896e16ebda2822eed6da106856f723be47caa12"
+    },
+    {
+      "path": "src/pet2mof/task002/s100.py",
+      "sha256": "e16c62767a0cdc1d16265dad04c1476eea0ae506b4bf5a1ab198fe8fb3bdc774"
+    },
+    {
+      "path": "scripts/task002/s100_model.py",
+      "sha256": "cb5efb22279c55ca167c614431c43d633f51f068d8b1665ccab85f92936d87de"
+    },
+    {
+      "path": "tests/test_task002_s100.py",
+      "sha256": "8a427d18737adb043734edd5785703b8a828fa308929ab36d47c0bcc1be49235"
+    },
+    {
+      "path": "Makefile",
+      "sha256": "36b6e833c81575f89f5f39c1bcc78948f0f52df9ac339b630b0a1400d8b1722b"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f8cf628e6fe5daecb47ef031177a2544f9c8e9f7b373ada6f610f9604aa19144"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "31723d3593017029129b76b55d9d71a9ed9f0bf549da38c6819273ef4d7ef1c7"
+    }
+  ],
+  "parameters": {},
+  "seed": null,
+  "command": [
+    ".venv/bin/python",
+    "scripts/task002/s100_model.py",
+    "--run-id",
+    "20261117T045732361230Z-753cec58-task002-B"
+  ],
+  "started_utc": "2026-11-17T04:57:32.361230+00:00",
+  "finished_utc": "2026-11-17T04:57:52.505917+00:00",
+  "status": "completed",
+  "exit_code": 0,
+  "resources": {
+    "elapsed_seconds": 20.131989958987106,
+    "child_user_seconds": 19.821743,
+    "child_system_seconds": 0.157893,
+    "child_maxrss": 129548288,
+    "maxrss_unit": "bytes",
+    "maxrss_scope": "process-lifetime child high-water mark"
+  },
+  "outputs": [
+    {
+      "path": "reports/task002/B/S100_internal_baseline_residuals.csv",
+      "sha256": "1469e9fd59b6d33e5ff6408258da4630795c6f68f9802bd42a2698de9e3fec86"
+    },
+    {
+      "path": "reports/task002/B/S100_nominal_shapes.csv",
+      "sha256": "8accebb757dc5966dcf45b01b124957629ab6111a041ceb4838c63547ce8e733"
+    },
+    {
+      "path": "reports/task002/B/reproduce_baseline.json",
+      "sha256": "48b544e87716d96c61a25978b651f32e76db5bea2fde335b92472932e2dfb4f8"
+    },
+    {
+      "path": "reports/task002/B/langmuir_fit.csv",
+      "sha256": "ff936461db26639b4262005701c9a00e949e1550903142d7b26f08bcddccb965"
+    },
+    {
+      "path": "reports/task002/B/check_residuals.csv",
+      "sha256": "db51c414176d2d64054768479a852392d30ed70c86de1b9c758b8cdb7090194d"
+    },
+    {
+      "path": "reports/task002/B/decision.json",
+      "sha256": "2ebc5db0b51bf694e1b34fdd3139e12d4559624bed7ef7893dfd7dcbb299ccce"
+    },
+    {
+      "path": "reports/task002/B/sensitivity.csv",
+      "sha256": "c815dcd218bb800cfd986f12c2a9fbaee5ad2d5e60cf99d0d8c07d5a8be62180"
+    },
+    {
+      "path": "reports/task002/B/descriptive_all48.csv",
+      "sha256": "676aaa85b300119a5a1ae3bb58aa6b29f3ddccf8010cbac62794107f8c765d80"
+    },
+    {
+      "path": "reports/task002/B/toth_fit.csv",
+      "sha256": "7f87d6b2e6807a866e937f5477e2dc738d0869e05978f229bba1b627765df292"
+    },
+    {
+      "path": "reports/task002/B/toth_check_residuals.csv",
+      "sha256": "f456644bb941c02dbcb32aebee0ab39d80f02ae352b84d831e2a23b0d2b2791f"
+    },
+    {
+      "path": "reports/task002/B/optimizer_attempts.json",
+      "sha256": "941d2479d210411193504f0f49d79d2c3f291615fbc56f0e7a66f904ad5739ba"
+    },
+    {
+      "path": "reports/task002/B/curves.png",
+      "sha256": "fec805d917991b7d3e583fc545d90ba3b1b16d17998812c9ff783375b2522caa"
+    },
+    {
+      "path": "reports/task002/B/residuals.png",
+      "sha256": "7a11cebf95e3ed89e2928381eedc701083b3d73e91f6a026655f310d7ab1a6d6"
+    },
+    {
+      "path": "reports/task002/B/provenance.json",
+      "sha256": "7ede0367114b634a9f2b470b8d92124fb811ea5387742956ff4ec3df5607200c"
+    }
+  ],
+  "checks": [],
+  "limitations": [],
+  "execution_status": "completed"
+}

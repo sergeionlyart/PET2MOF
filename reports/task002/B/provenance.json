@@ -1,9 +1,9 @@
 {
-  "run_id": "20261117T045410127552Z-d95ccb0a-task002-B",
-  "registration_status_at_generation": "debug",
+  "run_id": "20261117T045732361230Z-753cec58-task002-B",
+  "registration_status_at_generation": "running",
   "extraction_id": "T034-B-provenance",
   "dataset": "S100 / SI Fig. S5 / T006-S100-FigS5 / 298 K",
-  "commit_sha": "d95ccb0a3da2460a87798522a486d50f33ed9697",
+  "commit_sha": "753cec58e79d159b61d7b279eb9887ac0639947e",
   "inputs": [
     {
       "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv",
