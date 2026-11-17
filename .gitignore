@@ -66,3 +66,5 @@ reviews/T044_checks/rendered/
 reviews/T044_checks/lo_profile/
 reviews/T044_checks/uv-cache/
 reviews/T044_checks/pytest_tmp/
+reviews/T044r_checks/uv-cache/
+reviews/T044r_checks/pytest_tmp/

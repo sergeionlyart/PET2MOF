@@ -83,8 +83,9 @@ to PET-derived UiO-66 are not established. See `reports/task002/`.
 **Stage v3 (PET-CO2-TASK-003, branch `task003-pet-transfer`).** Status: **partially completed** — no open primary
 source gives the CO₂ capacity of PET-derived UiO-66, so every boundary is conditional on k = q(PET host)/q(analog host).
 A minimal mass balance (MOF + PEI + residue, η = mol CO₂ per mol PEI N, φ = retained host capacity) was applied to the
-S2 (PEI@UiO-66-NH₂) and S100 (PEI@UiO-66) analogs under all unresolved composition and mass-basis readings, and
-recomputed independently with exact arithmetic (124 checks, 0 discrepancies). Under the selection rule fixed before the
+S2 (PEI@UiO-66-NH₂) and S100 (PEI@UiO-66) analogs under the registered composition and mass-basis branches, and
+recomputed independently with exact arithmetic (124 checks, 0 discrepancies); a further S2 mass-basis reading raised in
+review is reported as a sensitivity only, and the mass basis of both analogs remains unresolved. Under the selection rule fixed before the
 calculation, direct PEI impregnation (R1, nominal loading as the S100 "30PEI" analog) is preferred, with a mixed
 PET-BDC/NH₂-BDC linker plus glutaraldehyde-anchored PEI (R2) as reserve; the S2 anchoring scheme itself is not applicable
 to NH₂-free PET-UiO-66. A ≥ 10 % gain over the own PET host is retained for any pore blocking if k ≤ 1.06–1.52 (R1,

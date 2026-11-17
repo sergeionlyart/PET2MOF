@@ -1,0 +1,193 @@
+{
+  "checks": 270238,
+  "failures": 0,
+  "max_abs_difference": 5.329070518200751e-15,
+  "provenance_hash_mismatches": [
+    {
+      "group": "implementation",
+      "path": "Makefile",
+      "actual": "178d3d6956c62de6b5c29566251b3cdb3895084e031afc71606868e8c2e69393",
+      "recorded": "c433b9d05a5a6380b6005f3acfb8d1c4189d08e87953546453f6d5abcc6a5bf3"
+    }
+  ]
+}
+{
+  "review_id": "T044r",
+  "checks": 33984,
+  "failures": 0,
+  "examples": {
+    "quoted_interval": [
+      1.0636363636363635,
+      1.1272727272727272
+    ],
+    "reverse_order_k09": [
+      1.222222222222222,
+      1.2999999999999998
+    ],
+    "G_less_than_h": [
+      0.2,
+      0.4
+    ],
+    "excluded_G_P": {
+      "G_C": 1.17,
+      "h": 0.7,
+      "k": 1.1,
+      "G_P": 1.3,
+      "interval": [
+        1.0636363636363635,
+        1.1272727272727272
+      ]
+    },
+    "same_GC_k_different_phi": {
+      "G_C": 1.17,
+      "h": 0.7,
+      "k": 1.1,
+      "phi0_G_P": 1.0636363636363635,
+      "phi1_G_P": 1.1272727272727272
+    },
+    "GC_below_110_but_GP_above": {
+      "G_C": 1.05,
+      "h": 0.7,
+      "k": 0.8,
+      "interval": [
+        1.1375000000000002,
+        1.3125
+      ]
+    },
+    "composition_tolerance": {
+      "G_C": 1.17,
+      "k": 1.0,
+      "w_C": 0.3,
+      "w_P": 0.3,
+      "s_C": 0.0,
+      "s_P": 0.02,
+      "h_C": 0.7,
+      "h_P": 0.68,
+      "phi": 1.0,
+      "J_over_qC0": 0.47,
+      "nominal_interval": [
+        1.17,
+        1.17
+      ],
+      "actual_G_P": 1.15,
+      "displacement": -0.02
+    },
+    "near_threshold": {
+      "G_P": 1.11,
+      "u_G_P": 0.03139554108468272,
+      "lower_2sigma": 1.0472089178306347
+    }
+  },
+  "uncertainty": [
+    {
+      "k": 1.1,
+      "G_C": 1.17,
+      "h": 0.7,
+      "endpoint": 0,
+      "bound": 1.0636363636363635,
+      "G_P": 1.0636363636363635,
+      "fraction_below_bound": -0.0,
+      "residual": 0.0,
+      "u_residual": 0.030084179417754927,
+      "u_relative_to_bound": 0.0282842712474619,
+      "two_sigma_relative_to_bound": 0.0565685424949238,
+      "z": 0.0
+    },
+    {
+      "k": 1.1,
+      "G_C": 1.17,
+      "h": 0.7,
+      "endpoint": 1,
+      "bound": 1.1272727272727272,
+      "G_P": 1.1272727272727272,
+      "fraction_below_bound": -0.0,
+      "residual": 0.0,
+      "u_residual": 0.03631542258263522,
+      "u_relative_to_bound": 0.032215294226531244,
+      "two_sigma_relative_to_bound": 0.06443058845306249,
+      "z": 0.0
+    },
+    {
+      "k": 0.05,
+      "G_C": 1.17,
+      "h": 0.7,
+      "endpoint": 0,
+      "bound": 23.4,
+      "G_P": 23.4,
+      "fraction_below_bound": -0.0,
+      "residual": 0.0,
+      "u_residual": 0.6618519471906085,
+      "u_relative_to_bound": 0.0282842712474619,
+      "two_sigma_relative_to_bound": 0.0565685424949238,
+      "z": 0.0
+    },
+    {
+      "k": 0.05,
+      "G_C": 1.17,
+      "h": 0.7,
+      "endpoint": 1,
+      "bound": 10.099999999999998,
+      "G_P": 10.099999999999998,
+      "fraction_below_bound": -0.0,
+      "residual": -2.220446049250313e-15,
+      "u_residual": 0.5817422109491454,
+      "u_relative_to_bound": 0.05759823870783619,
+      "two_sigma_relative_to_bound": 0.11519647741567238,
+      "z": 3.816890037302828e-15
+    },
+    {
+      "k": 0.05,
+      "G_C": 1.17,
+      "h": 0.7,
+      "endpoint": 0,
+      "bound": 23.4,
+      "G_P": 20.825999999999997,
+      "fraction_below_bound": 0.11,
+      "residual": -2.5740000000000007,
+      "u_residual": 0.6286199971365849,
+      "u_relative_to_bound": 0.0268641024417344,
+      "two_sigma_relative_to_bound": 0.0537282048834688,
+      "z": 4.094683611283096
+    },
+    {
+      "k": 0.05,
+      "G_C": 1.17,
+      "h": 0.7,
+      "endpoint": 1,
+      "bound": 10.099999999999998,
+      "G_P": 8.988999999999997,
+      "fraction_below_bound": 0.11,
+      "residual": -1.111000000000002,
+      "u_residual": 0.5742929712263593,
+      "u_relative_to_bound": 0.05686069022043162,
+      "two_sigma_relative_to_bound": 0.11372138044086325,
+      "z": 1.9345526685230805
+    }
+  ],
+  "third_S2_readings": [
+    {
+      "sample": "S2-C72",
+      "t": 0.8037560975609755,
+      "q_dry": 4.055956788250288,
+      "kstar": 1.3809863085632577,
+      "eta_phi1": 0.3833069631513276,
+      "B_at_phi1": false
+    },
+    {
+      "sample": "S2-C96",
+      "t": 0.7503157894736842,
+      "q_dry": 4.1982323232323235,
+      "kstar": 1.429428778764836,
+      "eta_phi1": 0.35491403922542203,
+      "B_at_phi1": true
+    },
+    {
+      "sample": "S2-N72",
+      "t": 0.790283950617284,
+      "q_dry": 3.7834502366706766,
+      "kstar": 1.2882023277734684,
+      "eta_phi1": 0.353427006458962,
+      "B_at_phi1": true
+    }
+  ]
+}

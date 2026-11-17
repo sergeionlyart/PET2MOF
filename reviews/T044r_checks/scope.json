@@ -1,0 +1,18 @@
+{
+  "tracked_changes": [],
+  "staged_changes": [],
+  "new_files": [
+    "reviews/T044r_checks/check.py",
+    "reviews/T044r_checks/checks.json",
+    "reviews/T044r_checks/checks.txt",
+    "reviews/T044r_checks/checks_initial_failed.txt",
+    "reviews/T044r_checks/pytest.txt",
+    "reviews/T044r_checks/recompute.json",
+    "reviews/T044r_checks/scope.json",
+    "reviews/T044r_rereview.md"
+  ],
+  "scope_ok": true,
+  "absolute_workspace_paths_in_text": false,
+  "head": "088f937e2c12396360a611937ddd103229992550",
+  "qa_note": "Initial QA found absolute checkout root in pytest stdout; replaced with <checkout>; rerun passed."
+}
