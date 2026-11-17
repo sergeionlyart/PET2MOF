@@ -5,3 +5,4 @@ T052-task004-editorial-review.20261117T130100Z,T052-task004-editorial-review,TAS
 T053-task004-completeness-check.20261117T130100Z,T053-task004-completeness-check,TASK-004,gpt-6.1-terra,medium,gpt-6.1-terra,medium,workspace-write,off,codex-cli 0.166.0,20261117T130100Z,20261117T130330Z,150,0,636895,581120,6292,330
 T054-task004-rewrite-review.20261117T133607Z,T054-task004-rewrite-review,TASK-004,gpt-6-astra,high,gpt-6-astra,high,workspace-write,on,codex-cli 0.166.0,20261117T133607Z,20261117T134730Z,683,0,2456932,2323584,22792,2391
 T054r-task004-recheck.20261117T135106Z,T054r-task004-recheck,TASK-004,gpt-6-astra,high,gpt-6-astra,high,workspace-write,off,codex-cli 0.166.0,20261117T135106Z,20261117T135600Z,294,0,859381,788096,10896,1328
+T054r2-task004-final-check.20261117T140548Z,T054r2-task004-final-check,TASK-004,gpt-6-astra,high,gpt-6-astra,high,workspace-write,off,codex-cli 0.166.0,20261117T140548Z,20261117T140858Z,190,0,803318,731392,7121,549
