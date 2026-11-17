@@ -67,8 +67,12 @@ JSON-события `codex exec --json` модель и effort **не раскр
 | T018-freeze-prep | sol, high | sol, high | принято | конфликт слияния и импорт `hashlib` — руководитель |
 | T019-holdout-extract | astra, high | astra, high | только `holdout/v1`; T019v нашёл 9 дефектов | нет |
 | T019v-holdout-verify | sol, high | sol, high | принято: дефекты T019v-01…09 | нет |
-| T019b-holdout-fix | astra, high | astra, high | ожидает T019v2 | нет |
+| T019b-holdout-fix | astra, high | astra, high | принято после T019v2 с ограничениями (см. T023) | нет |
 | T020-prereg-rules | sol, high | sol, high | принято (D-18, `docs/post_tag_procedure.md`) | нет |
 | T021-pretag-review | astra, high, read-only | astra, high, read-only | принято: 3 существенных дефекта → T022 | нет |
-| T022-pretag-fixes | sol, high | — (в работе) | — | — |
-| T019v2-holdout-reverify | sol, high | — (в работе) | — | — |
+| T022-pretag-fixes | sol, high | sol, high | принято после T021r | в истории `main` удалены абсолютные пути из отчёта T021 (руководитель) |
+| T019v2-holdout-reverify | sol, high | sol, high | принято: 0 verified / 2 исправить / 4 excluded / 14 not_testable | 22 изображения S117 (лицензия не установлена) не публикуются; добавлены атрибуции |
+| T021r-pretag-rereview | astra, high, read-only | astra, high, read-only | принято: T021-01…03 закрыты, тег допустим | нет |
+| T023-holdout-testability | terra, high | terra, high | принято: по D-18 нет ни одной количественно проверяемой серии | нет |
+| T019c-holdout-marker-fix | astra, medium | astra, medium | принято (T019v2-01) | нет |
+| T019c2-holdout-consistency | terra, medium | terra, medium | принято | нет |
