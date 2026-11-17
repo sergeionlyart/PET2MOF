@@ -661,10 +661,10 @@ series:
     origin coverage; no initial-slope fit without sensitivity check
   origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
     individual glyphs; no origin imputed'
-  status: provisional
-  reviewer: null
-  review_ref: null
-  pending_review: T011v2
+  status: verified
+  reviewer: T011v2
+  review_ref: reviews/T011v2_reverification.md
+  pending_review: null
   baseline_coordinate_bytes_sha256: c42715a00b54042d9e882c654120b7de4f669105a9b81df3407d2f26ba090d6e
   coordinate_bytes_sha256: 1b732b68eadb25b85baf4cb31c6e45e47a151c270d5b48f016742862a2b023d2
   coordinates_byte_identical: false
@@ -1239,10 +1239,10 @@ series:
     origin coverage; no initial-slope fit without sensitivity check
   origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
     individual glyphs; no origin imputed'
-  status: provisional
-  reviewer: null
-  review_ref: null
-  pending_review: T011v2
+  status: verified
+  reviewer: T011v2
+  review_ref: reviews/T011v2_reverification.md
+  pending_review: null
   baseline_coordinate_bytes_sha256: 5bdf6c27f26ddae7fd0aaa5b77159cc3c0ca91dcf81b407054286de7e1bcc909
   coordinate_bytes_sha256: edfc654e903a846539209274aadd34eced59051ff959d67c4506fded5e3e727b
   coordinates_byte_identical: false
@@ -1887,10 +1887,10 @@ series:
     origin coverage; no initial-slope fit without sensitivity check
   origin_coverage: 'unknown: superposed origin cannot identify/count fully hidden
     individual glyphs; no origin imputed'
-  status: provisional
-  reviewer: null
-  review_ref: null
-  pending_review: T011v2
+  status: verified
+  reviewer: T011v2
+  review_ref: reviews/T011v2_reverification.md
+  pending_review: null
   baseline_coordinate_bytes_sha256: 6045a160d7b0b70f942558c08afb733ea32906ded778d51c3229b6695acd36fb
   coordinate_bytes_sha256: f24f7f7f3e2d4a64de5698df90d5271af3383efd7d1168c00eebcb2df9e44cef
   coordinates_byte_identical: false
@@ -2404,7 +2404,7 @@ series:
   coordinates_byte_identical: true
 recovery_windows_ref: data/extraction/digitization/T011b/recovery_windows.json
 recovery_windows_sha256: 9c43ffc42e2b0e9b183febfe1dc7c00278bdb3ff11c2bd9e66105baa9296f10e
-review_code_sha256: c2d8583c00e911062259eae6a613528e2b45b927a0d5163b1690847d38dcd16a
+review_code_sha256: 012093537ae85f6057a30f616b85ab8f203d398031b8d1a62a570acc4b6d5971
 versions:
   numpy: 2.5.5
   scipy: 1.18.1
@@ -2467,5 +2467,5 @@ error_estimate:
   base_readout_bound_px: 7
   calibration_endpoint_bound_px: 2
   method: linear worst-case sum; no experimental uncertainty inferred
-status: provisional
-reviewer: null
+status: verified
+reviewer: T011v2
