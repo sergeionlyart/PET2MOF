@@ -1,0 +1,421 @@
+{
+  "method": "occlusion-aware binary printed-template fit in native source windows; no reviewer coordinates",
+  "windows": [
+    {
+      "id": "S105-Fig8A-s0-m01",
+      "figure": "S105-Fig8A",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        243,
+        1297,
+        297,
+        1358
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig8A-s0-m02",
+      "figure": "S105-Fig8A",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        281,
+        1272,
+        335,
+        1334
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig8A-s0-m03",
+      "figure": "S105-Fig8A",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        313,
+        1252,
+        367,
+        1312
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig8A-s0-m04",
+      "figure": "S105-Fig8A",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        347,
+        1228,
+        401,
+        1291
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig8A-s0-m05",
+      "figure": "S105-Fig8A",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        381,
+        1212,
+        437,
+        1274
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig8A-s2-m01",
+      "figure": "S105-Fig8A",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        244,
+        1245,
+        300,
+        1303
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig8A-s2-m02",
+      "figure": "S105-Fig8A",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        278,
+        1184,
+        336,
+        1250
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig8C-s2-m01",
+      "figure": "S105-Fig8C",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        210,
+        1252,
+        268,
+        1318
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig8C-s2-m02",
+      "figure": "S105-Fig8C",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        239,
+        1204,
+        298,
+        1271
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig8C-s2-m03",
+      "figure": "S105-Fig8C",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        272,
+        1170,
+        334,
+        1238
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s0-m01",
+      "figure": "S105-Fig9",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        312,
+        1352,
+        372,
+        1406
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s0-m02",
+      "figure": "S105-Fig9",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        347,
+        1332,
+        409,
+        1399
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s0-m03",
+      "figure": "S105-Fig9",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        384,
+        1312,
+        446,
+        1378
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s0-m04",
+      "figure": "S105-Fig9",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        417,
+        1292,
+        479,
+        1358
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s0-m05",
+      "figure": "S105-Fig9",
+      "series_index": 0,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        455,
+        1272,
+        517,
+        1338
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s0-m06",
+      "figure": "S105-Fig9",
+      "series_index": 0,
+      "defect": "T011v-D02",
+      "window_native_pixels": [
+        532,
+        1247,
+        590,
+        1304
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s1-m01",
+      "figure": "S105-Fig9",
+      "series_index": 1,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        313,
+        1357,
+        373,
+        1418
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s1-m02",
+      "figure": "S105-Fig9",
+      "series_index": 1,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        353,
+        1346,
+        407,
+        1400
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s2-m01",
+      "figure": "S105-Fig9",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        311,
+        1341,
+        371,
+        1408
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s2-m02",
+      "figure": "S105-Fig9",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        346,
+        1313,
+        404,
+        1373
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s2-m03",
+      "figure": "S105-Fig9",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        378,
+        1284,
+        438,
+        1346
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s2-m04",
+      "figure": "S105-Fig9",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        413,
+        1257,
+        473,
+        1318
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s2-m05",
+      "figure": "S105-Fig9",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        447,
+        1228,
+        507,
+        1289
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S105-Fig9-s2-m06",
+      "figure": "S105-Fig9",
+      "series_index": 2,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        486,
+        1199,
+        546,
+        1260
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S106-Fig4-s1-m01",
+      "figure": "S106-Fig4",
+      "series_index": 1,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        224,
+        626,
+        247,
+        654
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S106-Fig4-s1-m02",
+      "figure": "S106-Fig4",
+      "series_index": 1,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        241,
+        622,
+        265,
+        652
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S106-Fig4-s1-m03",
+      "figure": "S106-Fig4",
+      "series_index": 1,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        264,
+        616,
+        289,
+        648
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S106-Fig4-s1-m04",
+      "figure": "S106-Fig4",
+      "series_index": 1,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        281,
+        612,
+        307,
+        641
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S106-Fig4-s1-m05",
+      "figure": "S106-Fig4",
+      "series_index": 1,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        301,
+        608,
+        328,
+        639
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S106-Fig4-s1-m06",
+      "figure": "S106-Fig4",
+      "series_index": 1,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        322,
+        602,
+        349,
+        633
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S106-Fig4-s1-m07",
+      "figure": "S106-Fig4",
+      "series_index": 1,
+      "defect": "T011v-D03",
+      "window_native_pixels": [
+        344,
+        594,
+        371,
+        623
+      ],
+      "action": "recover"
+    },
+    {
+      "id": "S106-Fig4-s1-m08",
+      "figure": "S106-Fig4",
+      "series_index": 1,
+      "defect": "T011v-D02",
+      "window_native_pixels": [
+        848,
+        152,
+        879,
+        190
+      ],
+      "action": "recover"
+    }
+  ]
+}

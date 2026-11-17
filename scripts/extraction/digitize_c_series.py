@@ -24,6 +24,7 @@ from scipy import ndimage, signal
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 from pet2mof.extraction.digitize import AxisCalibration, validate_project
+from pet2mof.extraction.c_series_review import review_status
 
 DIG = ROOT / "data/extraction/digitization"
 PRIVATE = ROOT / "private/renders"
@@ -122,6 +123,82 @@ def calibration_checks(a, panel, x_axis, y_axis):
     return result
 
 
+def symbol_support(mask, template, pixel):
+    """Source-color pixels belonging to this translated printed glyph."""
+    h, w = template.shape
+    x = int(round(pixel[0] - (w-1)/2))
+    y = int(round(pixel[1] - (h-1)/2))
+    yy, xx = np.nonzero(template)
+    yy, xx = yy+y, xx+x
+    inside = (yy >= 0) & (xx >= 0) & (yy < mask.shape[0]) & (xx < mask.shape[1])
+    yy, xx = yy[inside], xx[inside]
+    occupied = mask[yy, xx]
+    return set((yy[occupied]*mask.shape[1] + xx[occupied]).tolist())
+
+
+def deduplicate_symbols(candidates, mask, template):
+    """Suppress repeated fits of the same ink, retaining separate nearby glyphs.
+
+    A 2-D source-pixel overlap test, independent of pressure or axis calibration.
+    Connected components alone would merge glyphs connected by a fitted curve.
+    """
+    kept, rejected, supports = [], [], []
+    for candidate in sorted(candidates, key=lambda c: -c["score"]):
+        support = symbol_support(mask, template, candidate["pixel"])
+        duplicate = next((i for i, other in enumerate(supports)
+                          if support and other and
+                          len(support & other)/min(len(support), len(other)) > .75), None)
+        if duplicate is not None:
+            rejected.append(dict(pixel=candidate["pixel"],
+                                 retained_pixel=kept[duplicate]["pixel"],
+                                 shared_ink_fraction=len(support & supports[duplicate])/min(len(support), len(supports[duplicate])),
+                                 reason="same printed symbol: >75% common source-color ink"))
+        else:
+            kept.append(candidate); supports.append(support)
+    return sorted(kept, key=lambda c: c["pixel"]), rejected
+
+
+def fit_partial_symbol(a, mask, template, request, readout):
+    """Fit translated actual glyph to visible ink, ignoring foreground occluders.
+
+    Enumerate every integer translation wholly inside the saved source window.
+    Minimize binary mismatch on non-occluded pixels over that window. The
+    observed-ink term is constant, so the equivalent score is 2*TP - visible
+    predicted ink. No response/coordinates from T011v enter this calculation.
+    """
+    left, top, right, bottom = request["window_native_pixels"]
+    h, w = template.shape
+    occluded = (a.min(2) < 210) & ~mask
+    fits = []
+    for y in range(top, bottom-h+1):
+        for x in range(left, right-w+1):
+            observed = mask[y:y+h, x:x+w]
+            valid = ~occluded[y:y+h, x:x+w]
+            support = int((template & observed).sum())
+            missing = int((template & ~observed & valid).sum())
+            fits.append((2*support-int((template & valid).sum()), support, missing, x, y))
+    best_score = max(f[0] for f in fits)
+    best = [f for f in fits if f[0] == best_score]
+    # Use the midpoint of all equally good translations, not an arbitrary edge.
+    xs, ys = [f[3] for f in best], [f[4] for f in best]
+    x, y = (min(xs)+max(xs))/2, (min(ys)+max(ys))/2
+    pixel = [x+(w-1)/2, y+(h-1)/2]
+    ambiguity = max(max(xs)-min(xs), max(ys)-min(ys))/2
+    support = len(symbol_support(mask, template, pixel))
+    if support < 10 or best_score <= 0:
+        raise ValueError(f"no identifiable partial symbol: {request['id']}")
+    error = readout + ambiguity
+    evidence = dict(request, pixel=pixel, method="source color mask + occlusion-aware printed-template translation",
+                    visible_support_pixels=support, template_ink_pixels=int(template.sum()),
+                    best_score=best_score, equally_best_translations=len(best),
+                    fit_center_bounds_native=[min(xs)+(w-1)/2, min(ys)+(h-1)/2,
+                                              max(xs)+(w-1)/2, max(ys)+(h-1)/2],
+                    readout_bound_px=error, action="recovered",
+                    uncertainty="base readout + half span of equally optimal translations; calibration added separately")
+    return dict(pixel=pixel, score=support/int(template.sum()), readout=error,
+                recovery_id=request["id"], evidence=evidence)
+
+
 def extract(panel):
     source_id = panel["id"].split("-")[0]
     source = ROOT / ("data/raw/pdf/S105_T011.pdf" if source_id == "S105" else "data/raw/pdf/S106.pdf")
@@ -141,9 +218,10 @@ def extract(panel):
     # symbol without confusing the fit with a marker or splitting the symbol.
     readout = 4 if water else 7
     series, rows, audit = [], [], []
+    requests = json.loads((DIG / "T011b/recovery_windows.json").read_text())["windows"]
     overlay = picture.copy()
     draw = ImageDraw.Draw(overlay)
-    for material, color, marker, template_box in zip(panel.get("materials", MATERIALS), panel["colors"], panel["markers"], TEMPLATES[panel["id"]]):
+    for series_index, (material, color, marker, template_box) in enumerate(zip(panel.get("materials", MATERIALS), panel["colors"], panel["markers"], TEMPLATES[panel["id"]])):
         mask = color_mask(a, color)
         roi = np.zeros(mask.shape, bool)
         left, right = sorted([x_axis.pixel_1, x_axis.pixel_2])
@@ -168,7 +246,7 @@ def extract(panel):
         threshold = .44 if water and color == "pink" else .58
         peaks = (response >= threshold) & (response >= ndimage.maximum_filter(response, size=(height, width))-1e-8) & roi
         labels, count = ndimage.label(peaks)
-        pixels = []
+        candidates = []
         for label, sl in enumerate(ndimage.find_objects(labels), 1):
             yy, xx = sl
             iy, ix = np.nonzero(labels[sl] == label)
@@ -182,23 +260,53 @@ def extract(panel):
             audit.append(dict(series=material, pixel_x=px, pixel_y=py,
                               template_match_fraction=score, accepted=bool(accepted)))
             if accepted:
-                pixels.append([float(px), float(py)])
-        pixels.sort()
-        for px, py in pixels:
+                candidates.append(dict(pixel=[float(px), float(py)], score=score, readout=readout))
+        recoveries = []
+        for request in requests:
+            if request["figure"] == panel["id"] and request["series_index"] == series_index:
+                candidate = fit_partial_symbol(a, mask, template.astype(bool), request, readout)
+                candidates.append(candidate)
+                recoveries.append(candidate["evidence"])
+        candidates, duplicates = deduplicate_symbols(candidates, mask, template.astype(bool))
+        pixels = [c["pixel"] for c in candidates]
+        start = len(rows)
+        identities = []
+        for number, candidate in enumerate(candidates, 1):
+            px, py = candidate["pixel"]
+            symbol_id = f"T011-{panel['id']}-s{series_index}-symbol-{number:03d}"
+            support = sorted(symbol_support(mask, template.astype(bool), [px, py]))
+            identities.append(dict(symbol_id=symbol_id, pixel=[px,py],
+                                   source_ink_sha256=hashlib.sha256(json.dumps(support).encode()).hexdigest(),
+                                   source_ink_pixels=len(support), recovery_id=candidate.get("recovery_id"),
+                                   readout_bound_px=candidate["readout"]))
             draw.ellipse((px-12, py-12, px+12, py+12), outline="orange", width=2)
             draw.line((px-4, py, px+4, py), fill="black", width=1)
+            if candidate.get("recovery_id"):
+                draw.rectangle((px-17,py-17,px+17,py+17), outline="magenta", width=2)
             rows.append(dict(extraction_id="T011-"+panel["id"], source_id=source_id,
                              series=material, gas=panel["gas"], T_K=panel["T"],
                              pixel_x=px, pixel_y=py, x=x_axis.transform(px),
-                             y=y_axis.transform(py), x_err=bound(x_axis, px, readout),
-                             y_err=bound(y_axis, py, readout),
+                             y=y_axis.transform(py), x_err=bound(x_axis, px, candidate["readout"]),
+                             y_err=bound(y_axis, py, candidate["readout"]),
                              branch="adsorption", data_kind="digitized_markers", status="provisional"))
             if water:
                 rows[-1].update(RH_fraction=x_axis.transform(px), RH_percent=100*x_axis.transform(px))
+        quality = review_status(ROOT, panel["id"], material, rows[start:])
+        for row in rows[start:]:
+            row["status"] = quality["status"]
+        if water:
+            from build_c_series import water_psat_bar
+        pressure_factor = water_psat_bar(panel["T"]) if water else 1
         series.append(dict(name=material, data_kind="digitized_markers", sigma_pixel=readout,
                            pixels=pixels, marker=marker, color=color, branch="adsorption",
-                           template_box_native_pixels=list(template_box), match_threshold=threshold))
+                           template_box_native_pixels=list(template_box), match_threshold=threshold,
+                           symbols=identities, recoveries=recoveries, duplicate_detections_removed=duplicates,
+                           usable_p_min_bar=min(x_axis.transform(px)*pressure_factor for px,py in pixels),
+                           usable_range_note="lowest retained distinguishable symbol, not evidence of complete origin coverage; no initial-slope fit without sensitivity check",
+                           origin_coverage="unknown: superposed origin cannot identify/count fully hidden individual glyphs; no origin imputed",
+                           **quality))
     extraction_id = "T011-"+panel["id"]
+    aggregate_status = "verified" if all(s["status"] == "verified" for s in series) else "provisional"
     project = dict(extraction_id=extraction_id, image_sha256=sha(image_path),
                    image_ref=str(image_path.relative_to(ROOT)), code_version="sha256:"+sha(__file__),
                    source_pdf_sha256=sha(source), pdf_page=panel["page"],
@@ -209,20 +317,24 @@ def extract(panel):
                    protocol_scale_span_x=1 if water else 1.2,
                    protocol_scale_span_y=4.5 if panel["id"]=="S105-Fig8B" else abs(y_axis.value_2-y_axis.value_1),
                    T_K=panel["T"], gas=panel["gas"], series=series,
+                   recovery_windows_ref="data/extraction/digitization/T011b/recovery_windows.json",
+                   recovery_windows_sha256=sha(DIG / "T011b/recovery_windows.json"),
+                   review_code_sha256=sha(ROOT / "src/pet2mof/extraction/c_series_review.py"),
                    versions=dict(numpy=np.__version__, scipy=scipy.__version__,
                                  pillow=PIL.__version__, pymupdf=pymupdf.__version__),
                    calibration_checks=calibration_checks(a, panel, x_axis, y_axis),
-                   algorithm=dict(method="color mask; correlate printed-symbol template; local response maxima; bbox midpoint anchor",
+                   algorithm=dict(method="color mask; printed-symbol template; maxima; occlusion-aware partial-symbol fits; source-ink overlap deduplication",
                                   legend_exclusion=list(panel["legend"]) if not water else "per-color label rectangles in script",
                                   shared_origin_excluded=True, no_curve_sampling=True),
-                   error_estimate=dict(readout_bound_px=readout, calibration_endpoint_bound_px=2,
+                   error_estimate=dict(readout_bound_px=max(v["readout_bound_px"] for s in series for v in s["symbols"]),
+                                       base_readout_bound_px=readout, calibration_endpoint_bound_px=2,
                                        method="linear worst-case sum; no experimental uncertainty inferred"),
-                   status="provisional", reviewer=None)
+                   status=aggregate_status, reviewer="T011v" if aggregate_status == "verified" else None)
     validate_project(project)
     write_yaml(DIG / f"{extraction_id}.digitization.yaml", project)
     csv_path = DIG / f"{extraction_id}.csv"
     with csv_path.open("w") as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader(); writer.writerows(rows)
     overlay_path = PRIVATE / f"{extraction_id}-overlay.png"
     overlay.save(overlay_path)
@@ -230,12 +342,12 @@ def extract(panel):
     limitations = (["Fig.4 contains adsorption isotherms only; no separate desorption branch identified.",
                     "Static volumetric water measurements at 293 K: vacuum activation 1 h at 60 C then 2 h at 150 C, ramp 2 C/min (PDF pp.3-4).",
                     "Samples _100/_160/_220 differ in synthesis temperature and defect content, not adsorption temperature.",
-                    "Crowded low-RH markers unresolved by segmentation are not imputed."] if water else
+                    "Partial low-RH symbols fitted to visible ink; superposed shared origin not imputed."] if water else
                    ["Activation conflict: section 2.3 ambient-temperature vacuum 12 h vs section 3.4 vacuum 393 K 12 h.",
                     "N2 section 3.5 gives 0-1 bar while Fig.9 absolute-pressure axis extends to 1.2 bar; retain plotted coordinates.",
                     "GO composites kept distinct from unmodified carriers; no transfer of uptake normalization.",
                     "Langmuir lines excluded; Table 3 is a separate author_fit.",
-                    "Unresolved or partially occluded markers omitted, especially in crowded low-pressure regions; not imputed."])
+                    "T011v-D03 partial markers recovered individually; fully hidden shared-origin glyphs cannot be counted or imputed."])
     record = dict(extraction_id=extraction_id, source_id=source_id,
                   doi="10.1016/j.micromeso.2021.111555" if water else "10.3390/ma11040589",
                   url="https://doi.org/10.1016/j.micromeso.2021.111555" if water else "https://www.mdpi.com/1996-1944/11/4/589",
@@ -246,12 +358,17 @@ def extract(panel):
                   tool="scripts/extraction/digitize_c_series.py; NumPy/SciPy/Pillow; AxisCalibration",
                   tool_version="sha256:"+sha(__file__),
                   params=dict(project=f"data/extraction/digitization/{extraction_id}.digitization.yaml",
+                              review_code_sha256=project["review_code_sha256"],
                               overlay=str(overlay_path.relative_to(ROOT)), overlay_sha256=sha(overlay_path),
                               limitations=limitations, T_K=panel["T"], gas=panel["gas"],
                               mass_basis="dry adsorbent; each material's own mass",
                               RH="p/p0 in selected water figure" if water else "unknown; no humidification specified, not measured RH=0",
                               license="CC BY 4.0", units=project["y_unit"],
-                              branch="adsorption; no desorption series identified in selected figure"),
+                              branch="adsorption; no desorption series identified in selected figure",
+                              series={s["name"]:{k:s[k] for k in ["status","reviewer","review_ref","pending_review",
+                          "usable_p_min_bar","usable_range_note","origin_coverage","recoveries",
+                          "duplicate_detections_removed","baseline_coordinate_bytes_sha256",
+                          "coordinate_bytes_sha256","coordinates_byte_identical"]} for s in series}),
                   date=datetime.now(timezone.utc).isoformat(), raw_response_ref=str(native.relative_to(ROOT)),
                   unit_conversions=([dict(from_unit="cm3(STP)/g", to_unit="mmol/g", factor=1/22.414,
                                           STP_T_K=273.15, STP_P_kPa=101.325),
@@ -261,8 +378,11 @@ def extract(panel):
                                           method="IAPWS SR1-86(1992) Eq.1; build_c_series.water_psat_bar",
                                           source="https://iapws.org/public/documents/6dGkr/Supp-sat.pdf",
                                           pdf_page=3, temperature_uncertainty="unknown")] if water else []),
-                  derived_sha256=sha(csv_path), status="provisional", reviewer=None,
-                  corrections=[], error_estimate=project["error_estimate"],
+                  derived_sha256=sha(csv_path), status=aggregate_status,
+                  reviewer="T011v" if aggregate_status == "verified" else None,
+                  corrections=[dict(task="T011b-c-series-fix", defects=["T011v-D01","T011v-D02","T011v-D03"],
+                                    evidence="params.series; per-symbol recoveries and duplicate removals")],
+                  error_estimate=project["error_estimate"],
                   data_kind="digitized_markers", sensitivity_only=True)
     write_yaml(RECORDS / f"{extraction_id}.yaml", record)
     print(extraction_id, {s["name"]:len(s["pixels"]) for s in series})
@@ -312,7 +432,7 @@ def main():
         path.mkdir(parents=True, exist_ok=True)
     for panel in PANELS:
         extract(panel)
-    author_table()
+    # Table 3 is unrelated author_fit data, unchanged by marker repairs.
 
 
 if __name__ == "__main__":
