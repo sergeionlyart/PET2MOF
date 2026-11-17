@@ -234,7 +234,7 @@ def dry():
     fig,ax=plt.subplots(figsize=(12,7))
     fig.subplots_adjust(left=.10,right=.97,top=.78,bottom=.25)
     fig.text(.04,.95,"4 / Сухая ёмкость S2: контроль и кандидаты",fontsize=22,weight="bold",va="top")
-    fig.text(.04,.88,"Измерения из литературы: S2 Table 2 · прирост к BASE — наш расчёт",fontsize=11,color=MUTED)
+    fig.text(.04,.88,"Измерения из литературы: S2 Table 2 (сухой чистый CO₂, 298 K, ≈1 bar; в источнике 1 bar / 1 atm) · прирост к BASE — наш расчёт",fontsize=11,color=MUTED)
     values=[float(r["q_dry_mmol_g"]) for r in data]
     ax.bar(range(len(data)),values,color=[BLUE if r["sample_id"] in selected else INK if r["sample_id"]=="S2-BASE" else MUTED for r in data],width=.62)
     ax.axhline(base,color=INK,lw=1,ls="--")

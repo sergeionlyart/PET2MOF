@@ -328,7 +328,7 @@ L 838.08 378
    <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #121212" x="34.56" y="42.225938" transform="rotate(-0 34.56 42.225938)">4 / Сухая ёмкость S2: контроль и кандидаты</text>
   </g>
   <g id="text_24">
-   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5c5c59" x="34.56" y="60.48" transform="rotate(-0 34.56 60.48)">Измерения из литературы: S2 Table 2 · прирост к BASE — наш расчёт</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5c5c59" x="34.56" y="60.48" transform="rotate(-0 34.56 60.48)">Измерения из литературы: S2 Table 2 (сухой чистый CO₂, 298 K, ≈1 bar; в источнике 1 bar / 1 atm) · прирост к BASE — наш расчёт</text>
   </g>
   <g id="text_25">
    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #5c5c59" transform="translate(34.56 458.429531)">Источник: reports/task002/A/nominal.csv; candidates.csv · S2 Table 2, p. 3192.</text>

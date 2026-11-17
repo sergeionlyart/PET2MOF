@@ -1,0 +1,93 @@
+{
+  "head": "1d23d0ee8b5b04eeeff26fabb0e1922021447823",
+  "stages": {
+    "setup": {
+      "runs": 3,
+      "max_concurrent": 3,
+      "sum_seconds": 117,
+      "calendar_seconds": 87,
+      "calendar_hours": 0.024166666666666666
+    },
+    "TASK-001": {
+      "runs": 44,
+      "max_concurrent": 4,
+      "sum_seconds": 30502,
+      "calendar_seconds": 19779,
+      "calendar_hours": 5.494166666666667
+    },
+    "TASK-002": {
+      "runs": 8,
+      "max_concurrent": 3,
+      "sum_seconds": 2643,
+      "calendar_seconds": 3414,
+      "calendar_hours": 0.9483333333333334
+    },
+    "TASK-003": {
+      "runs": 7,
+      "max_concurrent": 2,
+      "sum_seconds": 5967,
+      "calendar_seconds": 6755,
+      "calendar_hours": 1.8763888888888889
+    }
+  },
+  "working_runs": 59,
+  "setup_runs": 3,
+  "first_run_to_final_commit_hours": 11.938055555555556,
+  "git_dates": {
+    "009a8b9": "009a8b9060ca9d333b633fb1afa22079137e3e2b 2026-11-16T22:33:45+01:00",
+    "66bae26": "66bae26af9970c3142b72d25031c844b5461708f 2026-11-17T04:03:24+01:00",
+    "1558433": "1558433614619e04102989d6b6f1479c50f364ce 2026-11-17T06:24:54+01:00",
+    "70685dc": "70685dc686ce22505b303a60920980a02772f019 2026-11-17T10:28:35+01:00"
+  },
+  "registry_entries": 26,
+  "nist_files_historical": 296,
+  "nist_files_local": 296,
+  "nist_historical_local_bytes_equal": true,
+  "agreement": {
+    "n_checks": 124,
+    "n_failed": 0,
+    "worst_abs_diff": 8.830713937868495e-13,
+    "not_compared": [
+      "phi_crit (independent used rounded n_N 21.95/23.22; differences ~1e-4 explained by n_N only)",
+      "eta lines at N=32.52 (same algebra as 30.74; n_N convention differs)"
+    ],
+    "observed_max": 8.830713937868495e-13
+  },
+  "bdc_per_zr6": 4.392804518664047,
+  "bet_relative_difference_pct": 0.08010069802038,
+  "png_sha256": {
+    "fig01_domain.png": "f6ef2823f13de9585d56475cce9dffed63c0af926d58ff96535d84bfe8857ca3",
+    "fig02_team.png": "c1cd123b2fd4b6468ace747faab6780487267d277f4a3806cdb92d0f53f5619a",
+    "fig03_timeline.png": "7f6b6a641963b9abedd4f7aee9b3e70f0658521288c4c35381d3b2f550bdd3d5",
+    "fig04_task002_dry.png": "b242f4f99452ccd9f6a0a12ecdee7650bcd51c787cb801264aa3843307138378",
+    "fig05_methods.png": "4cd655cd851b35645bd5a357be48729493e066b1c7efb6e357abb52bd7c953ee",
+    "fig06_paired_experiment.png": "dfed8c8ab181ee569699fbd587824f1d3890921e46817f0fcb34f2e4609452af",
+    "fig07_before_after.png": "1d0fe92668fbc07017256c7e2ede30f605064360c7e082ae4d233a4f0f72550b"
+  },
+  "png_changed_from_0_9": {
+    "fig01_domain.png": true,
+    "fig02_team.png": false,
+    "fig03_timeline.png": false,
+    "fig04_task002_dry.png": true,
+    "fig05_methods.png": false,
+    "fig06_paired_experiment.png": false,
+    "fig07_before_after.png": false
+  },
+  "parallel_episode": [
+    {
+      "task_id": "T006-extraction-pilot",
+      "started_utc": "20261116T220702Z",
+      "finished_utc": "20261116T222451Z"
+    },
+    {
+      "task_id": "T008-security-review",
+      "started_utc": "20261116T221534Z",
+      "finished_utc": "20261116T221824Z"
+    },
+    {
+      "task_id": "T013-implement-m1",
+      "started_utc": "20261116T223806Z",
+      "finished_utc": "20261116T230330Z"
+    }
+  ]
+}
