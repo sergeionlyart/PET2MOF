@@ -1,0 +1,54 @@
+[
+  {
+    "command": "UV_CACHE_DIR=$PWD/.uv-cache uv run --locked --no-sync python scripts/extraction/extract_holdout_v1.py",
+    "exit_code": 0,
+    "log": "private/T019/reproduce_final.log"
+  },
+  {
+    "command": "UV_CACHE_DIR=$PWD/.uv-cache uv run --locked --no-sync python scripts/extraction/check_holdout_v1.py",
+    "exit_code": 0,
+    "log": "private/T019/validation_final.log"
+  },
+  {
+    "command": "UV_CACHE_DIR=$PWD/.uv-cache uv run --locked --no-sync python -m py_compile scripts/extraction/extract_holdout_v1.py scripts/extraction/check_holdout_v1.py",
+    "exit_code": 0,
+    "log": "private/T019/compile_final.log"
+  },
+  {
+    "command": "compare SHA-256 before/after offline rebuild of 12 CSVs",
+    "exit_code": 0,
+    "deterministic": true,
+    "csv_sha256": {
+      "holdout/v1/conditions.csv": "b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa",
+      "holdout/v1/observations.csv": "572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb",
+      "data/extraction/digitization/T019-S102-FigS6a.csv": "8db92f1f0909e45fc948bb6fb3a315009afdd68af5990218bbba14cf293ecce5",
+      "data/extraction/digitization/T019-S102-FigS6b.csv": "bb52d5ecd5f659de2ef6215eb33921a0e1b8c67730e1107f0d43856fcfa632e4",
+      "data/extraction/digitization/T019-S102-FigS6c.csv": "2a1b041e534dc424224b75643db9736a94a3355f3c3b965d15d6d4939256db2c",
+      "data/extraction/digitization/T019-S103-Fig2a.csv": "758efe14caea65f9250012f86ef7b690b3502afac710222bc18927e55a3c9ec9",
+      "data/extraction/digitization/T019-S113-Fig5a.csv": "ce3f58023eb99a34390dd627b6254df7b29006d59eacf5fbea3e43d8ee8d4317",
+      "data/extraction/digitization/T019-S113-Fig5b.csv": "1f26754cb36ed3dfbbbc2f46a50ea389e02d65f7227d447710364f94634a7f82",
+      "data/extraction/digitization/T019-S117-FigS37A.csv": "c0352a6e96413c6bebeaaa53d50cfc453acc53eef1ca17cd531d4622f968fc84",
+      "data/extraction/digitization/T019-S117-FigS37B.csv": "9e6f3726dbb844b56b8ba3944056357a1627d6473d47539867d49e6c3fb87e5c",
+      "data/extraction/digitization/T019-S117-FigS38A.csv": "62954bc8147d997924b1111a69cb50b55610035ab4dd2d63e2a5d294ee0dc472",
+      "data/extraction/digitization/T019-S117-FigS38B.csv": "27ab9fe29f52c79805517062b4c266cc835e800f98f6f51ffb9263c7af818261"
+    }
+  },
+  {
+    "command": "read-only publish_check.sensitive_rules on T019 public files (not a replacement for publish-check)",
+    "exit_code": 0,
+    "files": 48,
+    "findings": []
+  },
+  {
+    "command": "make test-ocr",
+    "exit_code": 0,
+    "result": "81 passed, 157 deselected",
+    "log": "private/T019/test-ocr.txt"
+  },
+  {
+    "command": "make publish-check",
+    "exit_code": 2,
+    "result": "FAIL git-index-readable; git write-tree cannot create .git/index.lock in sandbox",
+    "log": "private/T019/publish-check.txt"
+  }
+]

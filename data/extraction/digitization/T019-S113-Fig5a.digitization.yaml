@@ -1,0 +1,111 @@
+image_sha256: ced0c3f92e0ffc745606e7397bf3bc27e5544f29ba3f87f2ba69e1d22c6d3a74
+image_path: private/T019/S113_native0.jpeg
+pdf_sha256: 4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a
+pdf_page: 9
+native_image_size:
+- 826
+- 315
+pixel_origin: top-left
+x_axis:
+  pixel_1: 61.5
+  value_1: 0
+  pixel_2: 386
+  value_2: 1
+  scale: linear
+y_axis:
+  pixel_1: 266
+  value_1: 0
+  pixel_2: 13.5
+  value_2: 1.6
+  scale: linear
+code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+series:
+- name: S113-Fig5a-UiO66
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 119.5
+    - 232.0
+  - - 154.0
+    - 212.5
+  - - 182.5
+    - 197.5
+  - - 213.5
+    - 182.0
+  - - 251.5
+    - 162.5
+  - - 287.0
+    - 147.0
+  - - 328.0
+    - 129.0
+  - - 381.0
+    - 105.0
+  - - 400.5
+    - 96.0
+  condition:
+    material: UiO-66
+    gas: CO2
+    observable: q_CO2
+    unit: mmol/g
+    basis: dry_sorbent
+    T_K: 308.15
+    RH_fraction: 0
+    w_PEI: 0
+    y_CO2_dry: 1
+    notes: Powder; Fig.5a; activation 120 C for 1 day; dry nominal condition; frame-clipped
+      endpoint retained with 2 px readout bound
+  comparable: true
+overlay: private/T019/T019-S113-Fig5a-overlay.png
+overlay_sha256: 2d926f2c448c1212f6df910ae23be691562c056e7796424157d19c730950d04a
+export: data/extraction/digitization/T019-S113-Fig5a.csv
+export_sha256: ce3f58023eb99a34390dd627b6254df7b29006d59eacf5fbea3e43d8ee8d4317
+params:
+  method: black-mask 2x2 erosion, compact components; partial square translation fit
+  recovery:
+  - window:
+    - 90
+    - 237
+    - 103
+    - 251
+    best_score: 1
+    optimal_centers:
+    - - 96
+      - 244
+    - - 97
+      - 244
+    pixel:
+    - 96.5
+    - 244.0
+    accepted: false
+    reason: requires >=10 net black pixels; a connecting-line fragment behind colored
+      squares is insufficient
+  - window:
+    - 505
+    - 247
+    - 521
+    - 263
+    best_score: 4
+    optimal_centers:
+    - - 516
+      - 256
+    pixel:
+    - 516.0
+    - 256.0
+    accepted: false
+    reason: requires >=10 net black pixels; a connecting-line fragment behind colored
+      squares is insufficient
+excluded:
+- region: CO2 near origin, x pixels <90
+  reason: overprinted symbols; cannot assign distinct black UiO-66 centers; no invented
+    zero
+- region: other materials
+  reason: outside requested UiO-66 powder series
+uncertainty:
+  type: standard (k=1)
+  formula: abs(slope)*sqrt((readout_bound_px^2 + (1-t)^2 + t^2)/3)
+  t: (pixel-pixel_1)/(pixel_2-pixel_1)
+  calibration_endpoint_bound_px: 1
+  distribution: independent rectangular bounds; calibration common to all points (correlated
+    across rows)
+  scope: digitization only; experimental uncertainty unknown; not 3% of full scale
+scale_source_units: 1.6

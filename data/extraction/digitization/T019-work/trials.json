@@ -1,0 +1,40 @@
+[
+  {
+    "trial": "initial source download",
+    "result": "S2 PDF and RSC S117 returned 403; no bypass; S117 subsequently obtained via Europe PMC supplementaryFiles"
+  },
+  {
+    "trial": "S103 erosion only",
+    "result": "missed partially obscured markers; not used for final S103 coordinates",
+    "evidence": "private/T019/trial.py"
+  },
+  {
+    "trial": "S103 relaxed partial-symbol template",
+    "result": "false detections in overlapping outlines/gaps; rejected",
+    "evidence": "private/T019/recover.py"
+  },
+  {
+    "trial": "S103 hollow template without shape discrimination",
+    "result": "false red gap centers; tightened red shape gate, isolated teal search windows",
+    "evidence": "private/T019/openmatch.py"
+  },
+  {
+    "trial": "initial complete export",
+    "exit_code": 1,
+    "reason": "YAML serializer rejected numpy.int64; converted to native Python int"
+  },
+  {
+    "trial": "initial tick QA",
+    "exit_code": 1,
+    "reason": "S37B y scan line was on frame; corrected scan location; not an observation change"
+  },
+  {
+    "trial": "S37B X calibration",
+    "result": "source tick labels show max 100 vs 125 in other panels; corrected before final exports"
+  },
+  {
+    "trial": "S113 first N2 partial-square recovery",
+    "result": "rejected after enlarged pixel inspection: four black pixels belonged to a line fragment behind colored symbols, insufficient unique marker evidence",
+    "evidence": "private/T019/N2_first_check.png"
+  }
+]

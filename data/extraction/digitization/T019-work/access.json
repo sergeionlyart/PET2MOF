@@ -1,0 +1,181 @@
+[
+  {
+    "source_id": "S113",
+    "url": "https://mdpi-res.com/d_attachment/membranes/membranes-10-00154/article_deploy/membranes-10-00154.pdf",
+    "path": "data/raw/pdf/S113_T019.pdf",
+    "exit_code": 0,
+    "error": "",
+    "bytes": 1876966,
+    "valid_pdf": true,
+    "sha256": "4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a"
+  },
+  {
+    "source_id": "S103",
+    "url": "https://www.nature.com/articles/s42004-022-00742-z.pdf",
+    "path": "data/raw/pdf/S103_T019.pdf",
+    "exit_code": 0,
+    "error": "",
+    "bytes": 2400266,
+    "valid_pdf": true,
+    "sha256": "402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734"
+  },
+  {
+    "source_id": "S102",
+    "url": "https://ndownloader.figshare.com/files/30440111",
+    "path": "data/raw/pdf/S102_T019.pdf",
+    "exit_code": 0,
+    "error": "",
+    "bytes": 1210389,
+    "valid_pdf": true,
+    "sha256": "1fbbe940f717c6d40e0b261595aa07e91760d045e9149d6dc4338392ab9aec6e"
+  },
+  {
+    "source_id": "S2",
+    "url": "https://pubs.acs.org/doi/pdf/10.1021/acsomega.8b02319",
+    "path": "data/raw/pdf/S2_T019.pdf",
+    "exit_code": 56,
+    "error": "curl: (56) The requested URL returned error: 403\n",
+    "bytes": 0,
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_id": "S117_SI",
+    "url": "https://www.rsc.org/suppdata/d1/fd/d1fd00017a/d1fd00017a1.pdf",
+    "path": "data/raw/pdf/S117_SI_T019.pdf",
+    "exit_code": 56,
+    "error": "curl: (56) The requested URL returned error: 403\n",
+    "bytes": 0,
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_id": "S117",
+    "url": "https://pubs.rsc.org/en/content/articlepdf/2021/fd/d1fd00017a",
+    "path": "data/raw/pdf/S117_T019.pdf",
+    "exit_code": 56,
+    "error": "curl: (56) The requested URL returned error: 403\n",
+    "bytes": 0,
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_id": "S117_SI",
+    "url": "https://www.rsc.org/suppdata/d1/fd/d1fd00017a/d1fd00017a1.pdf",
+    "path": "private/T019/S117_SI.download",
+    "exit_code": 56,
+    "error": "curl: (56) The requested URL returned error: 403\n",
+    "bytes": 0,
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_id": "S2_xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6648867/fullTextXML",
+    "path": "private/T019/S2_xml.download",
+    "exit_code": 0,
+    "error": "",
+    "bytes": 130747,
+    "valid_pdf": false,
+    "sha256": "0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574"
+  },
+  {
+    "source_id": "S2_pdf",
+    "url": "https://pubs.acs.org/acsodf/article-pdf/4/2/3188/6737456/acsomega.8b02319.pdf",
+    "path": "private/T019/S2_pdf.download",
+    "exit_code": 56,
+    "error": "curl: (56) The requested URL returned error: 403\n",
+    "bytes": 0,
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_id": "S117_repository",
+    "url": "https://researchrepository.ul.ie/bitstreams/e907b021-9235-4dce-b7b7-dbc94b6aa9e9/download",
+    "path": "private/T019/S117_repository.download",
+    "exit_code": 0,
+    "error": "",
+    "bytes": 849398,
+    "valid_pdf": true,
+    "sha256": "e696c08afcdcfc109b83928fe5731627e9114dca7e5dfee2381098b798bcc0e9"
+  },
+  {
+    "source_id": "S117_SI_pubs",
+    "url": "https://pubs.rsc.org/en/content/getauthorversionpdf/d1fd00017a",
+    "path": "private/T019/S117_SI_pubs.download",
+    "exit_code": 56,
+    "error": "curl: (56) The requested URL returned error: 403\n",
+    "bytes": 0,
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_id": "S2_europepmc",
+    "url": "https://europepmc.org/articles/PMC6648867?pdf=render",
+    "path": "private/T019/S2_europepmc.download",
+    "exit_code": 56,
+    "error": "curl: (56) The requested URL returned error: 403\n",
+    "bytes": 0,
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_id": "S2_pmc",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6648867/pdf/ao8b02319.pdf",
+    "path": "private/T019/S2_pmc.download",
+    "exit_code": 0,
+    "error": "",
+    "bytes": 1814,
+    "valid_pdf": false,
+    "sha256": "0e780d8fb86977f1fd7b1b791325eeb9de13527ce04873c586d2d992dc5c6aa8"
+  },
+  {
+    "source_id": "S117_si_rsc",
+    "url": "https://pubs.rsc.org/en/content/getauthorversionpdf/D1FD00017A",
+    "path": "private/T019/S117_si_rsc.download",
+    "exit_code": 56,
+    "error": "curl: (56) The requested URL returned error: 403\n",
+    "bytes": 0,
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_id": "S117_si_static",
+    "url": "https://www.rsc.org/suppdata/d1/fd/d1fd00017a/d1fd00017a1.pdf",
+    "path": "private/T019/S117_si_static.download",
+    "exit_code": 56,
+    "error": "curl: (56) The requested URL returned error: 403\n",
+    "bytes": 0,
+    "valid_pdf": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_id": "S117_supplementary",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8517963/supplementaryFiles",
+    "path": "private/T019/S117_supplementary.download",
+    "exit_code": 0,
+    "error": "",
+    "bytes": 2158252,
+    "valid_pdf": false,
+    "sha256": "f3c1bf0b6564274d904e3cad935ae65f85e87ad1303a1a0c5ec69d1cc0806004"
+  },
+  {
+    "source_id": "S117_XML",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8517963/fullTextXML",
+    "path": "private/T019/S117_XML.download",
+    "exit_code": 0,
+    "error": "",
+    "bytes": 144308,
+    "valid_pdf": false,
+    "sha256": "4d037386e9426793bdb3d9eea49f74fc269b55707c080d7829b7442c32d2ef0d"
+  },
+  {
+    "source_id": "S117_SI",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8517963/supplementaryFiles",
+    "archive_member": "FD-231-D1FD00017A-s001.pdf",
+    "path": "data/raw/pdf/S117_SI_T019.pdf",
+    "valid_pdf": true,
+    "bytes": 1760485,
+    "sha256": "1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4"
+  }
+]

@@ -1,0 +1,46 @@
+extraction_id: T019-S103-Fig2a
+source_id: S103
+doi: 10.1038/s42004-022-00742-z
+url: https://www.nature.com/articles/s42004-022-00742-z.pdf
+input_sha256: 402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734
+pdf_page: 3
+api_page_map:
+  '1': 3
+figure_or_table: Fig2a
+region:
+  image: private/T019/S103_native0.png
+  image_sha256: 951a4e1673a5ca85ea8d82446954389b3009d9cc04e61157eb32b22078602bf7
+  overlay: private/T019/T019-S103-Fig2a-overlay.png
+tool: T019 offline structured XML / image marker extraction
+tool_version: PyMuPDF 1.28.2; scipy 1.18.1
+params:
+  script: scripts/extraction/extract_holdout_v1.py
+  script_sha256: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+  project: data/extraction/digitization/T019-S103-Fig2a.digitization.yaml
+  provisional_until: T019v
+  holdout_exports:
+    conditions.csv: b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa
+    observations.csv: 572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb
+date: '2026-11-17T00:42:40.157226+00:00'
+raw_response_ref: data/raw/pdf/S103_T019.pdf
+unit_conversions:
+- from_unit: source ordinate
+  to_unit: mmol/g
+  factor: 0.0446149727848666
+- from_unit: source pressure
+  to_unit: bar
+  factor: 1
+derived_sha256: 758efe14caea65f9250012f86ef7b690b3502afac710222bc18927e55a3c9ec9
+status: provisional
+reviewer: null
+corrections: []
+error_estimate:
+  type: standard (k=1)
+  formula: abs(slope)*sqrt((readout_bound_px^2 + (1-t)^2 + t^2)/3)
+  t: (pixel-pixel_1)/(pixel_2-pixel_1)
+  calibration_endpoint_bound_px: 1
+  distribution: independent rectangular bounds; calibration common to all points (correlated
+    across rows)
+  scope: digitization only; experimental uncertainty unknown; not 3% of full scale
+data_kind: digitized_markers
+sensitivity_only: true

@@ -1,0 +1,86 @@
+[
+  {
+    "series": "S113-Fig5a-UiO66",
+    "points": 9,
+    "comparable": true
+  },
+  {
+    "series": "S113-Fig5b-UiO66",
+    "points": 8,
+    "comparable": true
+  },
+  {
+    "series": "S103-Fig2a-UiO66_100-adsorption",
+    "points": 27,
+    "comparable": true
+  },
+  {
+    "series": "S103-Fig2a-UiO66_100-desorption",
+    "points": 39,
+    "comparable": false
+  },
+  {
+    "series": "S103-Fig2a-UiO66_160-adsorption",
+    "points": 1,
+    "comparable": true
+  },
+  {
+    "series": "S103-Fig2a-UiO66_160-desorption",
+    "points": 32,
+    "comparable": false
+  },
+  {
+    "series": "S103-Fig2a-UiO66_220-adsorption",
+    "points": 26,
+    "comparable": true
+  },
+  {
+    "series": "S103-Fig2a-UiO66_220-desorption",
+    "points": 39,
+    "comparable": false
+  },
+  {
+    "series": "S102-FigS6a-binary",
+    "points": 5,
+    "comparable": false
+  },
+  {
+    "series": "S102-FigS6b-binary",
+    "points": 5,
+    "comparable": false
+  },
+  {
+    "series": "S102-FigS6c-binary",
+    "points": 5,
+    "comparable": false
+  },
+  {
+    "series": "S2 tables (five observable groups)",
+    "points": 30,
+    "comparable": "dry/ratios provisional; corrected and moist not comparable"
+  },
+  {
+    "series": "S117-FigS37A-CO2-breakthrough",
+    "points": 49,
+    "comparable": false,
+    "outside_holdout_observable_schema": true
+  },
+  {
+    "series": "S117-FigS37B-CO2-breakthrough",
+    "points": 34,
+    "comparable": false,
+    "outside_holdout_observable_schema": true
+  },
+  {
+    "series": "S117-FigS38A-CO2-breakthrough",
+    "points": 60,
+    "comparable": false,
+    "outside_holdout_observable_schema": true
+  },
+  {
+    "series": "S117-FigS38B-CO2-breakthrough",
+    "points": 43,
+    "comparable": false,
+    "outside_holdout_observable_schema": true
+  }
+]

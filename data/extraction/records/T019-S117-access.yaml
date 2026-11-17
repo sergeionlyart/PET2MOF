@@ -1,0 +1,30 @@
+extraction_id: T019-S117-access
+source_id: S117
+doi: 10.1039/d1fd00017a
+url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8517963/supplementaryFiles
+input_sha256: 1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4
+pdf_page: 25
+api_page_map:
+  '1': 25
+figure_or_table: SI Fig.S36-S38 and methods S5-S6; observable compatibility
+region: null
+tool: T019 offline structured XML / image marker extraction
+tool_version: PyMuPDF 1.28.2; scipy 1.18.1
+params:
+  script: scripts/extraction/extract_holdout_v1.py
+  script_sha256: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+  SI_available: true
+  capacity_mapping_possible: false
+  holdout_exports:
+    conditions.csv: b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa
+    observations.csv: 572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb
+date: '2026-11-17T00:42:40.739935+00:00'
+raw_response_ref: data/raw/pdf/S117_SI_T019.pdf
+unit_conversions: []
+derived_sha256: 3db69f880b073107f05d9a5109f609e7feec85174865ce9775f60868a65c8a60
+status: provisional
+reviewer: null
+corrections: []
+error_estimate: No uptake uncertainty can be inferred from concentration digitization
+data_kind: text_value
+sensitivity_only: true

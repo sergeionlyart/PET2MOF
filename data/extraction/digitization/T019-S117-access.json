@@ -1,0 +1,19 @@
+{
+  "source_id": "S117",
+  "SI_available": true,
+  "pdf_sha256": "1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4",
+  "pdf_page": 25,
+  "URL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8517963/supplementaryFiles",
+  "archive_member": "FD-231-D1FD00017A-s001.pdf",
+  "S36": "HKUST-1, not UiO-66 or UiO-66-NH2; outside requested material scope",
+  "S37": "UiO-66 monolith/powder",
+  "S38": "UiO-66-NH2 monolith/powder",
+  "output_kind": "CO2 breakthrough concentration markers, NOT mmol/g",
+  "quantitative_capacity_available": false,
+  "reason": "C/C0 vs normalized time; blank reactor integral and exact sample normalization required by authors uptake method unavailable",
+  "T_K": 298,
+  "RH_wet": 0.74,
+  "y_CO2_dry": 0.15,
+  "total_flow_cm3_min": 2,
+  "pressure_bar": null
+}

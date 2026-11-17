@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "sample": "UiO-66-NH2",
+      "retained_PEI_percent": 0.0,
+      "Vp_cm3_g": 0.51,
+      "dry_q_mmol_g": 2.67,
+      "corrected_q_mmol_g": 1.98,
+      "w_PEI": 0.0,
+      "q_dry_ratio_to_w0": 1.0,
+      "Vp_ratio_to_w0": 1.0
+    },
+    {
+      "sample": "PEIC48@UiO",
+      "retained_PEI_percent": 10.6,
+      "Vp_cm3_g": 0.14,
+      "dry_q_mmol_g": 2.75,
+      "corrected_q_mmol_g": 2.0,
+      "w_PEI": 0.106,
+      "q_dry_ratio_to_w0": 1.0299625468164795,
+      "Vp_ratio_to_w0": 0.27450980392156865
+    },
+    {
+      "sample": "PEIC72@UiO",
+      "retained_PEI_percent": 19.4,
+      "Vp_cm3_g": 0.076,
+      "dry_q_mmol_g": 3.26,
+      "corrected_q_mmol_g": 2.12,
+      "w_PEI": 0.19399999999999998,
+      "q_dry_ratio_to_w0": 1.2209737827715355,
+      "Vp_ratio_to_w0": 0.14901960784313725
+    },
+    {
+      "sample": "PEIC96@UiO",
+      "retained_PEI_percent": 22.4,
+      "Vp_cm3_g": 0.11,
+      "dry_q_mmol_g": 3.15,
+      "corrected_q_mmol_g": 2.33,
+      "w_PEI": 0.22399999999999998,
+      "q_dry_ratio_to_w0": 1.1797752808988764,
+      "Vp_ratio_to_w0": 0.21568627450980393
+    },
+    {
+      "sample": "PEI72@UiO",
+      "retained_PEI_percent": 17.3,
+      "Vp_cm3_g": 0.096,
+      "dry_q_mmol_g": 2.99,
+      "corrected_q_mmol_g": 2.04,
+      "w_PEI": 0.17300000000000001,
+      "q_dry_ratio_to_w0": 1.1198501872659177,
+      "Vp_ratio_to_w0": 0.18823529411764706
+    },
+    {
+      "sample": "PEI96+UiO",
+      "retained_PEI_percent": 43.4,
+      "Vp_cm3_g": 0.0034,
+      "dry_q_mmol_g": 1.87,
+      "corrected_q_mmol_g": 1.55,
+      "w_PEI": 0.434,
+      "q_dry_ratio_to_w0": 0.700374531835206,
+      "Vp_ratio_to_w0": 0.006666666666666666
+    }
+  ],
+  "join_key": "printed sample name (not row order)",
+  "source": "Europe PMC JATS tbl1/tbl2",
+  "status": "provisional",
+  "visual_check": "unavailable original PDF; no synthetic rendering presented as source",
+  "units": {
+    "PEI": "retained mass % composite",
+    "Vp": "cm3/g",
+    "q": "mmol/g"
+  },
+  "experimental_error": "§2.2 reports <3% error without coverage/distribution; not a standard uncertainty; u_exp blank",
+  "pressure_discrepancy": "1 bar table vs 1 atm/atmospheric text; 0.15 bar column vs 14.3 vol% flow",
+  "temperature": "25 C = 298.15 K; D-11 uses rounded 298 K"
+}

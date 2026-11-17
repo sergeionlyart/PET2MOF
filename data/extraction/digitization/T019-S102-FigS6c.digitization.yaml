@@ -1,0 +1,69 @@
+image_sha256: d6bb313d6e8ca71129283c190bb36dc69c60533a2b501098b3e7a87a61cda397
+image_path: private/T019/S102_native2.jpeg
+pdf_sha256: 1fbbe940f717c6d40e0b261595aa07e91760d045e9149d6dc4338392ab9aec6e
+pdf_page: 5
+native_image_size:
+- 830
+- 519
+pixel_origin: top-left
+x_axis:
+  pixel_1: 112
+  value_1: 0
+  pixel_2: 736
+  value_2: 8
+  scale: linear
+y_axis:
+  pixel_1: 432
+  value_1: 0
+  pixel_2: 25
+  value_2: 0.2
+  scale: linear
+code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+series:
+- name: S102-FigS6c-binary
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 244.0
+    - 367.0
+  - - 383.0
+    - 320.0
+  - - 523.0
+    - 253.0
+  - - 650.0
+    - 189.0
+  - - 750.0
+    - 147.0
+  condition:
+    material: UiO-66-NH2
+    gas: CO2+H2O
+    observable: q_CO2
+    unit: mmol/g
+    basis: unknown
+    w_PEI: 0
+    notes: Fig.S6c; preadsorbed H2O=4.1 mol/kg (experimental input); T/RH and total-versus-partial
+      pressure definition unknown
+  comparable: false
+overlay: private/T019/T019-S102-FigS6c-overlay.png
+overlay_sha256: 8947fd8f6c08757110c7a4a7ac199e4ff19c7300c713ee327310fdc62caf733f
+export: data/extraction/digitization/T019-S102-FigS6c.csv
+export_sha256: 2a1b041e534dc424224b75643db9736a94a3355f3c3b965d15d6d4939256db2c
+params:
+  method: green diamond outline correlation, threshold 0.45
+  water_loading_mol_kg: 4.1
+  display_pressure_note: stored in source-coordinate CSV/condition notes; not silently
+    assigned to p_partial or p_total
+excluded:
+- region: origin cluster
+  reason: overprinted markers cannot be individually assigned
+- region: red circles / dark triangles / lines
+  reason: dry control / IAST / guides; not binary experimental markers
+uncertainty:
+  type: standard (k=1)
+  formula: abs(slope)*sqrt((readout_bound_px^2 + (1-t)^2 + t^2)/3)
+  t: (pixel-pixel_1)/(pixel_2-pixel_1)
+  calibration_endpoint_bound_px: 1
+  distribution: independent rectangular bounds; calibration common to all points (correlated
+    across rows)
+  scope: digitization only; experimental uncertainty unknown; not 3% of full scale
+scale_source_units: 0.2

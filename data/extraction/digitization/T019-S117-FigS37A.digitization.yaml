@@ -1,0 +1,189 @@
+image_sha256: a7f40e84ef30ee14c510ece6f76df67a5017d4ef37a1c61c61ff045e274b2698
+image_path: private/T019/S117_native2.png
+pdf_sha256: 1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4
+pdf_page: 25
+code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+x_axis:
+  pixel_1: 107.5
+  value_1: 0
+  pixel_2: 627.5
+  value_2: 125
+  scale: linear
+y_axis:
+  pixel_1: 448.5
+  value_1: 0
+  pixel_2: 30.5
+  value_2: 1.6
+  scale: linear
+x_unit: min/cm3 (as printed)
+y_unit: C/C0
+series:
+- name: S37A-wet-CO2
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 183.0
+    - 429.0
+  - - 190.5
+    - 422.0
+  - - 197.5
+    - 413.0
+  - - 205.0
+    - 402.5
+  - - 212.0
+    - 388.5
+  - - 219.5
+    - 372.5
+  - - 227.5
+    - 354.5
+  - - 234.5
+    - 339.5
+  - - 242.5
+    - 323.5
+  - - 250.0
+    - 306.0
+  - - 257.0
+    - 290.0
+  - - 265.0
+    - 275.5
+  - - 272.0
+    - 261.5
+  - - 279.5
+    - 250.0
+  - - 287.0
+    - 239.5
+  - - 294.0
+    - 231.5
+  - - 302.0
+    - 221.5
+  - - 310.0
+    - 215.5
+  - - 318.0
+    - 209.0
+  - - 325.0
+    - 204.5
+  - - 332.0
+    - 199.5
+- name: S37A-dry-CO2
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 172.0
+    - 447.0
+  - - 184.5
+    - 447.5
+  - - 198.5
+    - 447.0
+  - - 211.0
+    - 446.5
+  - - 223.5
+    - 446.0
+  - - 236.5
+    - 440.0
+  - - 250.5
+    - 434.0
+  - - 262.0
+    - 423.5
+  - - 276.5
+    - 406.0
+  - - 288.0
+    - 387.5
+  - - 300.5
+    - 362.5
+  - - 314.5
+    - 335.5
+  - - 326.5
+    - 311.5
+  - - 340.5
+    - 286.0
+  - - 353.5
+    - 266.0
+  - - 366.5
+    - 247.0
+  - - 379.0
+    - 235.5
+  - - 392.5
+    - 222.0
+  - - 405.5
+    - 211.5
+  - - 418.0
+    - 204.5
+  - - 431.5
+    - 202.0
+  - - 444.0
+    - 196.5
+  - - 457.0
+    - 194.5
+  - - 470.5
+    - 192.5
+  - - 484.0
+    - 190.0
+  - - 495.5
+    - 188.0
+  - - 506.5
+    - 188.5
+  - - 521.0
+    - 187.5
+overlay: private/T019/T019-S117-FigS37A-overlay.png
+overlay_sha256: bf8d9c4d2726d6cac05c3562a085aead035c50b8bfe7333afe86ec5a8653aecc
+export: data/extraction/digitization/T019-S117-FigS37A.csv
+export_sha256: c0352a6e96413c6bebeaaa53d50cfc453acc53eef1ca17cd531d4622f968fc84
+method: purple / blue / green masks; 3x3 erosion removes thin connecting lines and
+  hollow N2 symbols; compact filled CO2 components only
+exclusions:
+- condition: wet
+  region:
+  - 351
+  - 185
+  - 372
+  - 194
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 337
+  - 190
+  - 350
+  - 199
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 880
+  - 190
+  - 906
+  - 200
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 166
+  - 434
+  - 178
+  - 443
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 108
+  - 442
+  - 163
+  - 450
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 743
+  - 442
+  - 819
+  - 450
+  reason: overlapping adjacent filled markers form unresolved component
+- region: hollow N2 symbols
+  reason: not CO2 outlet observations; no nitrogen uptake inferred
+- region: shared near-zero symbols
+  reason: overprinted colors; no hidden zero values inserted
+uncertainty:
+  type: standard k=1
+  formula: abs(slope)*sqrt((2^2+(1-t)^2+t^2)/3)
+  calibration_endpoint_bound_px: 1
+  readout_bound_px: 2
+not_equilibrium_uptake: true
+holdout_mapping: no C/C0 observation is labeled as q_CO2; only a blank capacity placeholder
+  is exported
+capacity_unavailable: SI S5-S6 requires blank-reference area ARef; exact mass/volume
+  and normalization for each trace are not provided

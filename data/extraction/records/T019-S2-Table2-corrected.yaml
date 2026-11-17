@@ -1,0 +1,43 @@
+extraction_id: T019-S2-Table2-corrected
+source_id: S2
+doi: 10.1021/acsomega.8b02319
+url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6648867/fullTextXML
+input_sha256: 0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574
+pdf_page: null
+api_page_map: {}
+figure_or_table: tbl2 Cs,0.15bar; author correction, not raw mixture uptake
+region: null
+tool: T019 offline structured XML / image marker extraction
+tool_version: PyMuPDF 1.28.2; scipy 1.18.1
+params:
+  script: scripts/extraction/extract_holdout_v1.py
+  script_sha256: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+  pagination: unpaginated source XML; pdf_page=null intentionally; legacy extraction
+    schema cannot represent XML
+  visual_source_check: pending original PDF
+  data_kind_note: author_fit enum used for author algebraic correction, not a regression
+    fit
+  standard_uncertainty: unknown; no assumed 3% standard deviation
+  holdout_exports:
+    conditions.csv: b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa
+    observations.csv: 572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb
+date: '2026-11-17T00:42:40.410849+00:00'
+raw_response_ref: private/T019/S2_xml.download
+unit_conversions:
+- from_unit: retained PEI mass percent
+  to_unit: mass fraction composite
+  factor: 0.01
+- operation: q_dry/q_dry_parent and Vp/Vp_parent
+  reference_sample: UiO-66-NH2
+  shared_denominator: true
+derived_sha256: 6629596f24b90f9435dbc2331a52a8e049b89aa7fbb979eda66ae8c632a9c397
+status: provisional
+reviewer: null
+corrections: []
+error_estimate:
+  u_exp: null
+  source_error_bound: <3%, coverage undefined
+  u_dig: null
+  scale: null
+data_kind: author_fit
+sensitivity_only: true

@@ -1,0 +1,159 @@
+image_sha256: a7f40e84ef30ee14c510ece6f76df67a5017d4ef37a1c61c61ff045e274b2698
+image_path: private/T019/S117_native2.png
+pdf_sha256: 1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4
+pdf_page: 25
+code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+x_axis:
+  pixel_1: 742.5
+  value_1: 0
+  pixel_2: 1261.5
+  value_2: 100
+  scale: linear
+y_axis:
+  pixel_1: 448.5
+  value_1: 0
+  pixel_2: 30.5
+  value_2: 1.6
+  scale: linear
+x_unit: min/cm3 (as printed)
+y_unit: C/C0
+series:
+- name: S37B-wet-CO2
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 823.0
+    - 438.5
+  - - 829.5
+    - 434.0
+  - - 835.0
+    - 421.5
+  - - 842.5
+    - 376.0
+  - - 848.5
+    - 319.0
+  - - 855.5
+    - 277.0
+  - - 862.0
+    - 244.5
+  - - 869.0
+    - 219.5
+  - - 875.5
+    - 206.5
+- name: S37B-dry-CO2
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 818.5
+    - 449.0
+  - - 828.0
+    - 446.5
+  - - 837.5
+    - 444.0
+  - - 847.5
+    - 444.0
+  - - 857.0
+    - 442.5
+  - - 866.5
+    - 444.0
+  - - 875.5
+    - 440.5
+  - - 885.5
+    - 432.0
+  - - 895.0
+    - 418.0
+  - - 904.0
+    - 383.5
+  - - 914.0
+    - 334.5
+  - - 923.5
+    - 265.0
+  - - 933.5
+    - 229.5
+  - - 943.0
+    - 211.5
+  - - 952.5
+    - 200.5
+  - - 961.5
+    - 196.0
+  - - 971.5
+    - 193.5
+  - - 981.0
+    - 192.5
+  - - 990.0
+    - 192.5
+  - - 999.5
+    - 191.0
+  - - 1009.5
+    - 190.5
+  - - 1019.5
+    - 189.5
+  - - 1028.5
+    - 189.0
+  - - 1037.5
+    - 188.5
+  - - 1047.0
+    - 187.5
+overlay: private/T019/T019-S117-FigS37B-overlay.png
+overlay_sha256: 5d4a5bb1435a43d7da11339d548375cd4867561d7d437d324aca28817660451a
+export: data/extraction/digitization/T019-S117-FigS37B.csv
+export_sha256: 9e6f3726dbb844b56b8ba3944056357a1627d6473d47539867d49e6c3fb87e5c
+method: purple / blue / green masks; 3x3 erosion removes thin connecting lines and
+  hollow N2 symbols; compact filled CO2 components only
+exclusions:
+- condition: wet
+  region:
+  - 351
+  - 185
+  - 372
+  - 194
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 337
+  - 190
+  - 350
+  - 199
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 880
+  - 190
+  - 906
+  - 200
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 166
+  - 434
+  - 178
+  - 443
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 108
+  - 442
+  - 163
+  - 450
+  reason: overlapping adjacent filled markers form unresolved component
+- condition: wet
+  region:
+  - 743
+  - 442
+  - 819
+  - 450
+  reason: overlapping adjacent filled markers form unresolved component
+- region: hollow N2 symbols
+  reason: not CO2 outlet observations; no nitrogen uptake inferred
+- region: shared near-zero symbols
+  reason: overprinted colors; no hidden zero values inserted
+uncertainty:
+  type: standard k=1
+  formula: abs(slope)*sqrt((2^2+(1-t)^2+t^2)/3)
+  calibration_endpoint_bound_px: 1
+  readout_bound_px: 2
+not_equilibrium_uptake: true
+holdout_mapping: no C/C0 observation is labeled as q_CO2; only a blank capacity placeholder
+  is exported
+capacity_unavailable: SI S5-S6 requires blank-reference area ARef; exact mass/volume
+  and normalization for each trace are not provided

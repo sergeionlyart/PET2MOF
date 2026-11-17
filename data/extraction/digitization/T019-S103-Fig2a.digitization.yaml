@@ -1,0 +1,978 @@
+image_sha256: 951a4e1673a5ca85ea8d82446954389b3009d9cc04e61157eb32b22078602bf7
+image_path: private/T019/S103_native0.png
+pdf_sha256: 402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734
+pdf_page: 3
+native_image_size:
+- 1500
+- 665
+pixel_origin: top-left
+x_axis:
+  pixel_1: 140.5
+  value_1: 0
+  pixel_2: 687.5
+  value_2: 1
+  scale: linear
+y_axis:
+  pixel_1: 550.5
+  value_1: 0
+  pixel_2: 12.5
+  value_2: 90
+  scale: linear
+code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+series:
+- name: S103-Fig2a-UiO66_100-adsorption
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 222.5
+    - 444.5
+  - - 236.5
+    - 430.5
+  - - 250.5
+    - 417.5
+  - - 263.5
+    - 405.5
+  - - 277.5
+    - 393.5
+  - - 291.5
+    - 381.5
+  - - 304.5
+    - 369.5
+  - - 318.5
+    - 358.5
+  - - 332.5
+    - 347.5
+  - - 345.5
+    - 337.5
+  - - 360.5
+    - 324.5
+  - - 373.5
+    - 315.5
+  - - 387.5
+    - 305.5
+  - - 400.5
+    - 295.5
+  - - 415.5
+    - 285.5
+  - - 428.5
+    - 276.5
+  - - 441.5
+    - 267.5
+  - - 455.5
+    - 258.5
+  - - 469.5
+    - 249.5
+  - - 483.5
+    - 239.5
+  - - 496.5
+    - 231.5
+  - - 510.5
+    - 223.5
+  - - 523.5
+    - 215.5
+  - - 537.5
+    - 207.5
+  - - 551.5
+    - 198.5
+  - - 578.5
+    - 182.5
+  - - 685.5
+    - 120.5
+  condition:
+    material: UiO-66
+    gas: CO2
+    observable: q_CO2
+    unit: mmol/g
+    basis: dry_sorbent
+    T_K: 300.15
+    RH_fraction: 0
+    w_PEI: 0
+    y_CO2_dry: 1
+    notes: UiO-66_100; adsorption; activation vacuum 100 C 8 h; STP conversion follows
+      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
+      lineage
+  comparable: true
+- name: S103-Fig2a-UiO66_100-desorption
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 168.0
+    - 493.0
+  - - 181.0
+    - 475.0
+  - - 195.0
+    - 459.0
+  - - 209.0
+    - 444.0
+  - - 222.0
+    - 429.0
+  - - 230.0
+    - 437.0
+  - - 236.0
+    - 415.0
+  - - 250.0
+    - 402.0
+  - - 263.0
+    - 390.0
+  - - 277.0
+    - 378.0
+  - - 290.0
+    - 366.0
+  - - 304.0
+    - 355.0
+  - - 318.0
+    - 344.0
+  - - 332.0
+    - 333.0
+  - - 345.0
+    - 322.0
+  - - 359.0
+    - 312.0
+  - - 372.0
+    - 301.0
+  - - 386.0
+    - 291.0
+  - - 400.0
+    - 282.0
+  - - 414.0
+    - 273.0
+  - - 427.0
+    - 264.0
+  - - 441.0
+    - 255.0
+  - - 454.0
+    - 245.0
+  - - 468.0
+    - 237.0
+  - - 482.0
+    - 229.0
+  - - 495.0
+    - 220.0
+  - - 509.0
+    - 212.0
+  - - 523.0
+    - 204.0
+  - - 537.0
+    - 196.0
+  - - 550.0
+    - 188.0
+  - - 564.0
+    - 181.0
+  - - 578.0
+    - 173.0
+  - - 592.0
+    - 166.0
+  - - 605.0
+    - 159.0
+  - - 619.0
+    - 152.0
+  - - 632.0
+    - 145.0
+  - - 646.0
+    - 138.0
+  - - 660.0
+    - 131.0
+  - - 674.0
+    - 126.0
+  condition:
+    material: UiO-66
+    gas: CO2
+    observable: q_CO2
+    unit: mmol/g
+    basis: dry_sorbent
+    T_K: 300.15
+    RH_fraction: 0
+    w_PEI: 0
+    y_CO2_dry: 1
+    notes: UiO-66_100; desorption; activation vacuum 100 C 8 h; STP conversion follows
+      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
+      lineage
+  comparable: false
+- name: S103-Fig2a-UiO66_160-adsorption
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 685.5
+    - 228.0
+  condition:
+    material: UiO-66
+    gas: CO2
+    observable: q_CO2
+    unit: mmol/g
+    basis: dry_sorbent
+    T_K: 300.15
+    RH_fraction: 0
+    w_PEI: 0
+    y_CO2_dry: 1
+    notes: UiO-66_160; adsorption; activation vacuum 100 C 8 h; STP conversion follows
+      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
+      lineage
+  comparable: true
+- name: S103-Fig2a-UiO66_160-desorption
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 249.0
+    - 434.0
+  - - 263.0
+    - 424.0
+  - - 276.0
+    - 414.0
+  - - 290.0
+    - 405.0
+  - - 304.0
+    - 396.0
+  - - 317.0
+    - 388.0
+  - - 331.0
+    - 379.0
+  - - 345.0
+    - 371.0
+  - - 358.0
+    - 363.0
+  - - 372.0
+    - 356.0
+  - - 386.0
+    - 348.0
+  - - 399.0
+    - 341.0
+  - - 413.0
+    - 334.0
+  - - 427.0
+    - 328.0
+  - - 441.0
+    - 321.0
+  - - 455.0
+    - 315.0
+  - - 468.0
+    - 309.0
+  - - 482.0
+    - 303.0
+  - - 496.0
+    - 297.0
+  - - 509.0
+    - 291.0
+  - - 523.0
+    - 286.0
+  - - 537.0
+    - 280.0
+  - - 550.0
+    - 275.0
+  - - 564.0
+    - 270.0
+  - - 578.0
+    - 265.0
+  - - 591.0
+    - 259.0
+  - - 605.0
+    - 255.0
+  - - 619.0
+    - 250.0
+  - - 632.0
+    - 245.0
+  - - 646.0
+    - 241.0
+  - - 660.0
+    - 236.0
+  - - 673.0
+    - 232.0
+  condition:
+    material: UiO-66
+    gas: CO2
+    observable: q_CO2
+    unit: mmol/g
+    basis: dry_sorbent
+    T_K: 300.15
+    RH_fraction: 0
+    w_PEI: 0
+    y_CO2_dry: 1
+    notes: UiO-66_160; desorption; activation vacuum 100 C 8 h; STP conversion follows
+      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
+      lineage
+  comparable: false
+- name: S103-Fig2a-UiO66_220-adsorption
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 152.5
+    - 533.5
+  - - 169.5
+    - 519.5
+  - - 182.5
+    - 507.5
+  - - 196.5
+    - 495.5
+  - - 210.5
+    - 483.5
+  - - 223.5
+    - 473.5
+  - - 237.5
+    - 462.5
+  - - 251.5
+    - 452.5
+  - - 265.5
+    - 443.5
+  - - 278.5
+    - 434.5
+  - - 292.5
+    - 425.5
+  - - 306.5
+    - 416.5
+  - - 319.5
+    - 408.5
+  - - 333.5
+    - 400.5
+  - - 347.5
+    - 392.5
+  - - 360.5
+    - 384.5
+  - - 374.5
+    - 377.5
+  - - 389.5
+    - 369.5
+  - - 401.5
+    - 363.5
+  - - 415.5
+    - 356.5
+  - - 429.5
+    - 349.5
+  - - 443.5
+    - 343.5
+  - - 456.5
+    - 336.5
+  - - 470.5
+    - 330.5
+  - - 497.5
+    - 318.5
+  - - 686.5
+    - 244.5
+  condition:
+    material: UiO-66
+    gas: CO2
+    observable: q_CO2
+    unit: mmol/g
+    basis: dry_sorbent
+    T_K: 300.15
+    RH_fraction: 0
+    w_PEI: 0
+    y_CO2_dry: 1
+    notes: UiO-66_220; adsorption; activation vacuum 100 C 8 h; STP conversion follows
+      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
+      lineage
+  comparable: true
+- name: S103-Fig2a-UiO66_220-desorption
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 153.0
+    - 522.0
+  - - 168.0
+    - 507.0
+  - - 181.0
+    - 495.0
+  - - 195.0
+    - 483.0
+  - - 208.0
+    - 472.0
+  - - 222.0
+    - 461.0
+  - - 236.0
+    - 450.0
+  - - 249.0
+    - 440.0
+  - - 263.0
+    - 430.0
+  - - 277.0
+    - 421.0
+  - - 290.0
+    - 412.0
+  - - 304.0
+    - 404.0
+  - - 318.0
+    - 396.0
+  - - 331.0
+    - 388.0
+  - - 345.0
+    - 380.0
+  - - 359.0
+    - 373.0
+  - - 372.0
+    - 366.0
+  - - 386.0
+    - 359.0
+  - - 400.0
+    - 352.0
+  - - 413.0
+    - 346.0
+  - - 427.0
+    - 340.0
+  - - 441.0
+    - 333.0
+  - - 454.0
+    - 327.0
+  - - 468.0
+    - 321.0
+  - - 482.0
+    - 316.0
+  - - 495.0
+    - 310.0
+  - - 509.0
+    - 305.0
+  - - 523.0
+    - 300.0
+  - - 536.0
+    - 294.0
+  - - 550.0
+    - 289.0
+  - - 564.0
+    - 284.0
+  - - 577.0
+    - 279.0
+  - - 591.0
+    - 275.0
+  - - 605.0
+    - 270.0
+  - - 618.0
+    - 265.0
+  - - 632.0
+    - 261.0
+  - - 645.0
+    - 257.0
+  - - 659.0
+    - 253.0
+  - - 673.0
+    - 249.0
+  condition:
+    material: UiO-66
+    gas: CO2
+    observable: q_CO2
+    unit: mmol/g
+    basis: dry_sorbent
+    T_K: 300.15
+    RH_fraction: 0
+    w_PEI: 0
+    y_CO2_dry: 1
+    notes: UiO-66_220; desorption; activation vacuum 100 C 8 h; STP conversion follows
+      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
+      lineage
+  comparable: false
+overlay: private/T019/T019-S103-Fig2a-overlay.png
+overlay_sha256: a4c88dfde80e00fa7b05d4fbcd0023ba72845c5175ce8ffac6fa00de91a18d15
+export: data/extraction/digitization/T019-S103-Fig2a.csv
+export_sha256: 758efe14caea65f9250012f86ef7b690b3502afac710222bc18927e55a3c9ec9
+params:
+  method: native-legend filled templates; geometric hollow templates; source-color
+    masks
+  filled_agreement_min: 0.8
+  legend_windows:
+    orange:
+    - 522
+    - 455
+    - 538
+    - 470
+    teal:
+    - 523
+    - 489
+    - 536
+    - 503
+    red:
+    - 520
+    - 520
+    - 540
+    - 537
+  teal_open_search:
+  - window:
+    - 150
+    - 501
+    - 158
+    - 520
+    pixel:
+    - 153
+    - 519
+    score: 0.21309523809523812
+    accepted: false
+  - window:
+    - 164
+    - 486
+    - 173
+    - 505
+    pixel:
+    - 167
+    - 504
+    score: 0.19047619047619052
+    accepted: false
+  - window:
+    - 177
+    - 474
+    - 186
+    - 493
+    pixel:
+    - 181
+    - 491
+    score: 0.2
+    accepted: false
+  - window:
+    - 191
+    - 462
+    - 200
+    - 481
+    pixel:
+    - 194
+    - 480
+    score: 0.30000000000000004
+    accepted: false
+  - window:
+    - 204
+    - 451
+    - 213
+    - 470
+    pixel:
+    - 209
+    - 467
+    score: 0.36666666666666675
+    accepted: false
+  - window:
+    - 218
+    - 440
+    - 227
+    - 459
+    pixel:
+    - 222
+    - 455
+    score: 0.2833333333333333
+    accepted: false
+  - window:
+    - 232
+    - 429
+    - 241
+    - 448
+    pixel:
+    - 235
+    - 445
+    score: 0.35000000000000014
+    accepted: false
+  - window:
+    - 245
+    - 419
+    - 254
+    - 438
+    pixel:
+    - 249
+    - 434
+    score: 0.4166666666666667
+    accepted: true
+  - window:
+    - 259
+    - 409
+    - 268
+    - 428
+    pixel:
+    - 263
+    - 424
+    score: 0.38333333333333336
+    accepted: true
+  - window:
+    - 273
+    - 400
+    - 282
+    - 419
+    pixel:
+    - 276
+    - 414
+    score: 0.425
+    accepted: true
+  - window:
+    - 286
+    - 391
+    - 295
+    - 410
+    pixel:
+    - 290
+    - 405
+    score: 0.4
+    accepted: true
+  - window:
+    - 300
+    - 383
+    - 309
+    - 402
+    pixel:
+    - 304
+    - 396
+    score: 0.43333333333333335
+    accepted: true
+  - window:
+    - 314
+    - 375
+    - 323
+    - 394
+    pixel:
+    - 317
+    - 388
+    score: 0.525
+    accepted: true
+  - window:
+    - 327
+    - 367
+    - 336
+    - 386
+    pixel:
+    - 331
+    - 379
+    score: 0.4333333333333334
+    accepted: true
+  - window:
+    - 341
+    - 359
+    - 350
+    - 378
+    pixel:
+    - 345
+    - 371
+    score: 0.5666666666666667
+    accepted: true
+  - window:
+    - 355
+    - 352
+    - 364
+    - 371
+    pixel:
+    - 358
+    - 363
+    score: 0.44166666666666665
+    accepted: true
+  - window:
+    - 368
+    - 345
+    - 377
+    - 364
+    pixel:
+    - 372
+    - 356
+    score: 0.5583333333333333
+    accepted: true
+  - window:
+    - 382
+    - 338
+    - 391
+    - 357
+    pixel:
+    - 386
+    - 348
+    score: 0.6583333333333333
+    accepted: true
+  - window:
+    - 396
+    - 331
+    - 405
+    - 350
+    pixel:
+    - 399
+    - 341
+    score: 0.5416666666666666
+    accepted: true
+  - window:
+    - 409
+    - 325
+    - 418
+    - 344
+    pixel:
+    - 413
+    - 334
+    score: 0.55
+    accepted: true
+  - window:
+    - 423
+    - 319
+    - 432
+    - 338
+    pixel:
+    - 427
+    - 328
+    score: 0.675
+    accepted: true
+  - window:
+    - 437
+    - 312
+    - 446
+    - 331
+    pixel:
+    - 441
+    - 321
+    score: 0.6333333333333333
+    accepted: true
+  - window:
+    - 450
+    - 306
+    - 459
+    - 325
+    pixel:
+    - 455
+    - 315
+    score: 0.575
+    accepted: true
+  - window:
+    - 464
+    - 300
+    - 473
+    - 319
+    pixel:
+    - 468
+    - 309
+    score: 0.7
+    accepted: true
+  - window:
+    - 478
+    - 295
+    - 487
+    - 314
+    pixel:
+    - 482
+    - 303
+    score: 0.6
+    accepted: true
+  - window:
+    - 491
+    - 289
+    - 500
+    - 308
+    pixel:
+    - 496
+    - 297
+    score: 0.6083333333333335
+    accepted: true
+  - window:
+    - 505
+    - 284
+    - 514
+    - 303
+    pixel:
+    - 509
+    - 291
+    score: 0.6166666666666667
+    accepted: true
+  - window:
+    - 519
+    - 279
+    - 528
+    - 298
+    pixel:
+    - 523
+    - 286
+    score: 0.7583333333333333
+    accepted: true
+  - window:
+    - 532
+    - 273
+    - 541
+    - 292
+    pixel:
+    - 537
+    - 280
+    score: 0.6499999999999999
+    accepted: true
+  - window:
+    - 546
+    - 268
+    - 555
+    - 287
+    pixel:
+    - 550
+    - 275
+    score: 0.6749999999999999
+    accepted: true
+  - window:
+    - 560
+    - 263
+    - 569
+    - 282
+    pixel:
+    - 564
+    - 270
+    score: 0.7916666666666666
+    accepted: true
+  - window:
+    - 573
+    - 258
+    - 582
+    - 277
+    pixel:
+    - 578
+    - 265
+    score: 0.7333333333333333
+    accepted: true
+  - window:
+    - 587
+    - 254
+    - 596
+    - 273
+    pixel:
+    - 591
+    - 259
+    score: 0.6916666666666667
+    accepted: true
+  - window:
+    - 601
+    - 249
+    - 610
+    - 268
+    pixel:
+    - 605
+    - 255
+    score: 0.7083333333333334
+    accepted: true
+  - window:
+    - 614
+    - 244
+    - 623
+    - 263
+    pixel:
+    - 619
+    - 250
+    score: 0.7166666666666667
+    accepted: true
+  - window:
+    - 628
+    - 240
+    - 637
+    - 259
+    pixel:
+    - 632
+    - 245
+    score: 0.7916666666666666
+    accepted: true
+  - window:
+    - 641
+    - 236
+    - 650
+    - 255
+    pixel:
+    - 646
+    - 241
+    score: 0.7333333333333333
+    accepted: true
+  - window:
+    - 655
+    - 232
+    - 664
+    - 251
+    pixel:
+    - 660
+    - 236
+    score: 0.7166666666666667
+    accepted: true
+  - window:
+    - 669
+    - 228
+    - 678
+    - 247
+    pixel:
+    - 673
+    - 232
+    score: 0.75
+    accepted: true
+  STP_convention: 273.15 K / 101.325 kPa; 22.414 cm3/mmol
+  scale_range_source:
+  - -5
+  - 90
+  scale_note: negative lower frame extension inferred from evenly spaced ticks; axis
+    values checked on source page
+excluded:
+- series: 100-adsorption
+  pixel:
+  - 208
+  - 456
+  score: 0.47435897435897456
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 100-adsorption
+  pixel:
+  - 565
+  - 190
+  score: 0.7307692307692307
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 100-adsorption
+  pixel:
+  - 593
+  - 174
+  score: 0.6282051282051282
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 100-adsorption
+  pixel:
+  - 606
+  - 166
+  score: 0.46153846153846156
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 100-adsorption
+  pixel:
+  - 620
+  - 159
+  score: 0.5256410256410253
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 220-adsorption
+  pixel:
+  - 484
+  - 325
+  score: 0.7692307692307695
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 220-adsorption
+  pixel:
+  - 512
+  - 313
+  score: 0.7538461538461538
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 220-adsorption
+  pixel:
+  - 525
+  - 307
+  score: 0.646153846153846
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 220-adsorption
+  pixel:
+  - 539
+  - 302
+  score: 0.7538461538461538
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 220-adsorption
+  pixel:
+  - 547
+  - 296
+  score: 0.6307692307692307
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 220-adsorption
+  pixel:
+  - 560
+  - 291
+  score: 0.6923076923076927
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 220-adsorption
+  pixel:
+  - 575
+  - 285
+  score: 0.5846153846153846
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 220-adsorption
+  pixel:
+  - 596
+  - 280
+  score: 0.4461538461538462
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- series: 220-adsorption
+  pixel:
+  - 623
+  - 270
+  score: 0.47692307692307695
+  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
+- region: native x <150 px / low pressure cluster
+  reason: overprinted symbols; cannot resolve individual series; no zero inserted
+- region: filled teal squares and high-pressure filled orange/red
+  reason: many are hidden by open symbols or foreground triangles; only >=0.8 shape
+    matches retained; lower coverage is extraction limitation, not absence of measurements
+uncertainty:
+  type: standard (k=1)
+  formula: abs(slope)*sqrt((readout_bound_px^2 + (1-t)^2 + t^2)/3)
+  t: (pixel-pixel_1)/(pixel_2-pixel_1)
+  calibration_endpoint_bound_px: 1
+  distribution: independent rectangular bounds; calibration common to all points (correlated
+    across rows)
+  scope: digitization only; experimental uncertainty unknown; not 3% of full scale
+scale_source_units: 95

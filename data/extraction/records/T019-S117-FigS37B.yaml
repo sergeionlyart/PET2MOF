@@ -1,0 +1,36 @@
+extraction_id: T019-S117-FigS37B
+source_id: S117
+doi: 10.1039/d1fd00017a
+url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8517963/supplementaryFiles
+input_sha256: 1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4
+pdf_page: 25
+api_page_map:
+  '1': 25
+figure_or_table: Fig.S37B; powder UiO-66; breakthrough CO2, dry and 74% RH
+region:
+  image: private/T019/S117_native2.png
+  image_sha256: a7f40e84ef30ee14c510ece6f76df67a5017d4ef37a1c61c61ff045e274b2698
+tool: T019 offline structured XML / image marker extraction
+tool_version: PyMuPDF 1.28.2; scipy 1.18.1
+params:
+  script: scripts/extraction/extract_holdout_v1.py
+  script_sha256: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+  project: data/extraction/digitization/T019-S117-FigS37B.digitization.yaml
+  observable: outlet concentration C/C0, NOT adsorption capacity
+  holdout_exports:
+    conditions.csv: b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa
+    observations.csv: 572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb
+date: '2026-11-17T00:42:40.606891+00:00'
+raw_response_ref: data/raw/pdf/S117_SI_T019.pdf
+unit_conversions: []
+derived_sha256: 9e6f3726dbb844b56b8ba3944056357a1627d6473d47539867d49e6c3fb87e5c
+status: provisional
+reviewer: null
+corrections: []
+error_estimate:
+  type: standard k=1
+  formula: abs(slope)*sqrt((2^2+(1-t)^2+t^2)/3)
+  calibration_endpoint_bound_px: 1
+  readout_bound_px: 2
+data_kind: digitized_markers
+sensitivity_only: true

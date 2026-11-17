@@ -1,0 +1,169 @@
+image_sha256: 9da326830da49fd8bcaf397e7aecdf07d74717b6653514fce92112abc507364b
+image_path: private/T019/S117_native1.png
+pdf_sha256: 1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4
+pdf_page: 25
+code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+x_axis:
+  pixel_1: 101.5
+  value_1: 0
+  pixel_2: 621.5
+  value_2: 125
+  scale: linear
+y_axis:
+  pixel_1: 448.5
+  value_1: 0
+  pixel_2: 30.5
+  value_2: 1.6
+  scale: linear
+x_unit: min/cm3 (as printed)
+y_unit: C/C0
+series:
+- name: S38A-wet-CO2
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 103.5
+    - 447.0
+  - - 114.0
+    - 447.0
+  - - 129.5
+    - 446.0
+  - - 144.5
+    - 447.0
+  - - 159.0
+    - 446.5
+  - - 174.5
+    - 444.0
+  - - 189.5
+    - 434.5
+  - - 204.0
+    - 418.5
+  - - 218.5
+    - 399.0
+  - - 234.0
+    - 375.5
+  - - 248.5
+    - 352.0
+  - - 263.5
+    - 330.0
+  - - 278.5
+    - 305.5
+  - - 293.0
+    - 285.5
+  - - 308.0
+    - 268.5
+  - - 322.5
+    - 253.0
+  - - 337.5
+    - 233.5
+  - - 352.5
+    - 221.0
+  - - 368.5
+    - 213.0
+  - - 382.5
+    - 208.5
+  - - 397.5
+    - 202.5
+  - - 412.0
+    - 199.5
+  - - 428.5
+    - 197.0
+  - - 442.5
+    - 194.0
+  - - 456.5
+    - 192.0
+  - - 471.0
+    - 189.5
+  - - 488.5
+    - 188.5
+  - - 501.5
+    - 188.5
+  - - 517.0
+    - 187.5
+- name: S38A-dry-CO2
+  data_kind: digitized_markers
+  sigma_pixel: 1.1547005383792517
+  pixels:
+  - - 119.0
+    - 444.5
+  - - 150.5
+    - 444.5
+  - - 166.5
+    - 447.5
+  - - 182.0
+    - 446.0
+  - - 198.0
+    - 447.0
+  - - 215.5
+    - 447.0
+  - - 231.5
+    - 446.5
+  - - 249.5
+    - 445.5
+  - - 264.5
+    - 440.0
+  - - 279.5
+    - 434.0
+  - - 296.5
+    - 422.5
+  - - 312.5
+    - 407.0
+  - - 328.5
+    - 387.5
+  - - 345.0
+    - 364.5
+  - - 360.5
+    - 337.0
+  - - 376.5
+    - 310.5
+  - - 393.5
+    - 286.5
+  - - 409.5
+    - 265.5
+  - - 425.5
+    - 246.0
+  - - 443.0
+    - 232.5
+  - - 457.5
+    - 221.5
+  - - 473.5
+    - 212.5
+  - - 491.0
+    - 204.5
+  - - 505.5
+    - 199.0
+  - - 523.5
+    - 194.0
+  - - 539.0
+    - 193.5
+  - - 556.0
+    - 190.5
+  - - 572.0
+    - 188.5
+  - - 588.5
+    - 187.5
+  - - 605.5
+    - 188.0
+  - - 619.0
+    - 187.5
+overlay: private/T019/T019-S117-FigS38A-overlay.png
+overlay_sha256: c2db5f49b271ef1023256055d45b8f8983f12aaadeca9752750bb83afc6a1fa3
+export: data/extraction/digitization/T019-S117-FigS38A.csv
+export_sha256: 62954bc8147d997924b1111a69cb50b55610035ab4dd2d63e2a5d294ee0dc472
+method: purple / blue / green masks; 3x3 erosion removes thin connecting lines and
+  hollow N2 symbols; compact filled CO2 components only
+exclusions:
+- region: hollow N2 symbols
+  reason: not CO2 outlet observations; no nitrogen uptake inferred
+- region: shared near-zero symbols
+  reason: overprinted colors; no hidden zero values inserted
+uncertainty:
+  type: standard k=1
+  formula: abs(slope)*sqrt((2^2+(1-t)^2+t^2)/3)
+  calibration_endpoint_bound_px: 1
+  readout_bound_px: 2
+not_equilibrium_uptake: true
+holdout_mapping: no C/C0 observation is labeled as q_CO2; only a blank capacity placeholder
+  is exported
+capacity_unavailable: SI S5-S6 requires blank-reference area ARef; exact mass/volume
+  and normalization for each trace are not provided

@@ -1,0 +1,44 @@
+[
+  {
+    "sample": "UiO-66-NH2",
+    "direction_vs_dry": "decrease",
+    "comparable": false,
+    "RH_fraction": null,
+    "extraction_id": "T019-S2-moist"
+  },
+  {
+    "sample": "PEIC48@UiO",
+    "direction_vs_dry": "decrease",
+    "comparable": false,
+    "RH_fraction": null,
+    "extraction_id": "T019-S2-moist"
+  },
+  {
+    "sample": "PEIC72@UiO",
+    "direction_vs_dry": "increase",
+    "comparable": false,
+    "RH_fraction": null,
+    "extraction_id": "T019-S2-moist"
+  },
+  {
+    "sample": "PEIC96@UiO",
+    "direction_vs_dry": "increase",
+    "comparable": false,
+    "RH_fraction": null,
+    "extraction_id": "T019-S2-moist"
+  },
+  {
+    "sample": "PEI72@UiO",
+    "direction_vs_dry": "increase",
+    "comparable": false,
+    "RH_fraction": null,
+    "extraction_id": "T019-S2-moist"
+  },
+  {
+    "sample": "PEI96+UiO",
+    "direction_vs_dry": "increase",
+    "comparable": false,
+    "RH_fraction": null,
+    "extraction_id": "T019-S2-moist"
+  }
+]

@@ -1,0 +1,46 @@
+extraction_id: T019-S102-FigS6b
+source_id: S102
+doi: 10.1021/acs.langmuir.1c01149
+url: https://ndownloader.figshare.com/files/30440111
+input_sha256: 1fbbe940f717c6d40e0b261595aa07e91760d045e9149d6dc4338392ab9aec6e
+pdf_page: 5
+api_page_map:
+  '1': 5
+figure_or_table: FigS6b
+region:
+  image: private/T019/S102_native1.jpeg
+  image_sha256: f8779ab405e93a4ea17e8db2ab6272e17526d02cb10f48900831f4c1e3be558b
+  overlay: private/T019/T019-S102-FigS6b-overlay.png
+tool: T019 offline structured XML / image marker extraction
+tool_version: PyMuPDF 1.28.2; scipy 1.18.1
+params:
+  script: scripts/extraction/extract_holdout_v1.py
+  script_sha256: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+  project: data/extraction/digitization/T019-S102-FigS6b.digitization.yaml
+  provisional_until: T019v
+  holdout_exports:
+    conditions.csv: b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa
+    observations.csv: 572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb
+date: '2026-11-17T00:42:40.361390+00:00'
+raw_response_ref: data/raw/pdf/S102_T019.pdf
+unit_conversions:
+- from_unit: source ordinate
+  to_unit: mmol/g
+  factor: 1
+- from_unit: source pressure
+  to_unit: bar
+  factor: 0.01
+derived_sha256: bb52d5ecd5f659de2ef6215eb33921a0e1b8c67730e1107f0d43856fcfa632e4
+status: provisional
+reviewer: null
+corrections: []
+error_estimate:
+  type: standard (k=1)
+  formula: abs(slope)*sqrt((readout_bound_px^2 + (1-t)^2 + t^2)/3)
+  t: (pixel-pixel_1)/(pixel_2-pixel_1)
+  calibration_endpoint_bound_px: 1
+  distribution: independent rectangular bounds; calibration common to all points (correlated
+    across rows)
+  scope: digitization only; experimental uncertainty unknown; not 3% of full scale
+data_kind: digitized_markers
+sensitivity_only: true
