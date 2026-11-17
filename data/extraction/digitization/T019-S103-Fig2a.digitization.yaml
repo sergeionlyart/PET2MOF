@@ -156,8 +156,6 @@ series:
     - 444.0
   - - 222.0
     - 429.0
-  - - 230.0
-    - 437.0
   - - 236.0
     - 415.0
   - - 250.0
@@ -265,7 +263,6 @@ series:
   - 2
   - 2
   - 2
-  - 2
   condition:
     material: UiO-66
     gas: CO2
@@ -282,6 +279,7 @@ series:
       potential common synthesis lineage'
   comparable: false
   inputs_known: false
+  point_ids: ['001', '002', '003', '004', '005', '007', '008', '009', '010', '011', '012', '013', '014', '015', '016', '017', '018', '019', '020', '021', '022', '023', '024', '025', '026', '027', '028', '029', '030', '031', '032', '033', '034', '035', '036', '037', '038', '039']
 - name: S103-Fig2a-UiO66_160-adsorption
   data_kind: digitized_markers
   sigma_pixel: 1.1547005383792517
@@ -683,7 +681,7 @@ series:
 overlay: private/T019/T019-S103-Fig2a-overlay.png
 overlay_sha256: 327951f9f24c3d08ce519de8988a9377660ad287656e42909ad98d705c0c7a54
 export: data/extraction/digitization/T019-S103-Fig2a.csv
-export_sha256: e636d50374aaf9ef0f6b79032452d729e249ee879b010135147074ba2053fda0
+export_sha256: b5853f28948d95f1f3df904c05e2da80049bf8a3e63bb785b1f33e26f7813f43
 params:
   method: native-legend filled templates; geometric hollow templates; source-color
     masks
@@ -1181,6 +1179,16 @@ params:
   scale_note: negative lower frame extension inferred from evenly spaced ticks; axis
     values checked on source page
 excluded:
+- series: S103-Fig2a-UiO66_100-desorption
+  point_id: '006'
+  pixel:
+  - 230
+  - 437
+  reason: No separate open orange circle is confirmed in the native PDF image; the
+    candidate is an inter-symbol white gap bounded by adjacent overlapping symbols.
+    No replacement or trend-based relocation.
+  task: T019c-holdout-marker-fix
+  evidence: data/extraction/digitization/T019v2-control/S103-open-circle-candidate.png
 - series: 220-adsorption
   pixel:
   - 525

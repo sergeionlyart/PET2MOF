@@ -19,8 +19,8 @@ params:
   project: data/extraction/digitization/T019-S102-FigS6c.digitization.yaml
   provisional_until: T019v2
   holdout_exports:
-    conditions.csv: 468affc9421ce84422015a38de60ab332b330ea50adb2f93da6829361efcc2e4
-    observations.csv: d9accd2beac8e0c56521de7203cfeacf37cd78912de8ce1e087be25abee29005
+    conditions.csv: 1e6c89cf3d202feb5faf6b617f54d3853822ebdd85603a8a23b8d3ecfa400e5f
+    observations.csv: d6530f7779ea57d87c6fc413a56dd4ec3bfb6a0c3c87fb3a8d8b89c0ea0de084
 date: '2026-11-17T01:15:58.641683+00:00'
 raw_response_ref: data/raw/pdf/S102_T019.pdf
 unit_conversions:

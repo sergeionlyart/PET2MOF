@@ -19,8 +19,8 @@ params:
   project: data/extraction/digitization/T019-S103-Fig2a.digitization.yaml
   provisional_until: T019v2
   holdout_exports:
-    conditions.csv: 468affc9421ce84422015a38de60ab332b330ea50adb2f93da6829361efcc2e4
-    observations.csv: d9accd2beac8e0c56521de7203cfeacf37cd78912de8ce1e087be25abee29005
+    conditions.csv: 1e6c89cf3d202feb5faf6b617f54d3853822ebdd85603a8a23b8d3ecfa400e5f
+    observations.csv: d6530f7779ea57d87c6fc413a56dd4ec3bfb6a0c3c87fb3a8d8b89c0ea0de084
 date: '2026-11-17T01:15:58.641683+00:00'
 raw_response_ref: data/raw/pdf/S103_T019.pdf
 unit_conversions:
@@ -30,10 +30,25 @@ unit_conversions:
 - from_unit: source pressure
   to_unit: bar
   factor: 1
-derived_sha256: e636d50374aaf9ef0f6b79032452d729e249ee879b010135147074ba2053fda0
+derived_sha256: b5853f28948d95f1f3df904c05e2da80049bf8a3e63bb785b1f33e26f7813f43
 status: provisional
 reviewer: null
 corrections:
+- task: T019c-holdout-marker-fix
+  report: reviews/T019c_marker_fix.md
+  finding_in_task: T019v2-01
+  finding_in_review: T019v2-02
+  series: S103-Fig2a-UiO66_100-desorption
+  point_id: '006'
+  action: Removed from project pixels/readout bounds, CSV export and observations;
+    retained all other point IDs and values. Explicit point_ids map retained project
+    pixels to CSV rows.
+  reason: No separate open orange circle is confirmed in the native PDF image; the
+    candidate is an inter-symbol white gap bounded by adjacent overlapping symbols.
+    No replacement or trend-based relocation.
+  evidence: data/extraction/digitization/T019v2-control/finding-evidence.json
+  project_sha256: b175a74e151d3236cb668fed018ab42b1c148ffcb0e2d1e776d65f245b627f17
+  independent_review_pending: T023/lead
 - task: T019b-holdout-fix
   report: reviews/T019b_holdout_fix.md
   independent_review_pending: T019v2

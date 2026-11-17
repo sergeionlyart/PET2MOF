@@ -56,7 +56,7 @@ for p in sorted((ROOT/'data/extraction/records').glob('T019-*.yaml')):
     assert sha(ROOT/r['raw_response_ref'])==r['input_sha256']
     assert r['params']['script_sha256']==sha(ROOT/'scripts/extraction/extract_holdout_v1.py')
     assert r['params']['holdout_exports']=={name:sha(ROOT/'holdout/v1'/name) for name in ['conditions.csv','observations.csv']}
-    assert r['corrections'][0]['independent_review_pending']=='T019v2'
+    assert any(c.get('independent_review_pending')=='T019v2' for c in r['corrections'])
     record_checks.append(dict(file=str(p.relative_to(ROOT)),schema_valid=True,issues=[]))
 
 # Check interior tick locations on independent pixel scan lines. These are not
@@ -96,7 +96,9 @@ for p in sorted(DIG.glob('T019-*.digitization.yaml')):
             assert math.isclose(float(o['u_dig']),expected,rel_tol=1e-12)
             assert float(o['q'])==float(e['q'])
             s=next(s for s in pr['series'] if s['name']==e['series'])
-            assert s['per_point_readout_bound_px'][int(e['point_id'])-1]==float(e['readout_bound_px'])
+            point_ids=s.get('point_ids', [f'{i:03d}' for i in range(1,len(s['pixels'])+1)])
+            assert len(point_ids)==len(s['pixels']) and len(set(point_ids))==len(point_ids)
+            assert s['per_point_readout_bound_px'][point_ids.index(e['point_id'])]==float(e['readout_bound_px'])
     a=np.array(Image.open(ROOT/pr['image_path']).convert('RGB'));dark=a.max(2)<180
     for ax,(line,values) in tick_specs[p.name.replace('.digitization.yaml','')].items():
         scan=dark[line,:] if ax=='x' else dark[:,line];labs,n=nd.label(scan)
@@ -125,11 +127,13 @@ for t in tables:
         row=next(r for r in O if r['series']=='S2-'+suffix and r['point_id']==t['sample']);assert math.isclose(float(row['q']),value,rel_tol=1e-12)
         c=next(r for r in C if r['series']==row['series'] and r['point_id']==t['sample']);assert float(c['w_PEI'])==t['retained_PEI_percent']/100
 
+corrections=[c for c in yaml.safe_load((ROOT/'data/extraction/records/T019-S103-Fig2a.yaml').read_text())['corrections'] if c.get('task')=='T019c-holdout-marker-fix']
+assert all(not any((o['series'],o['point_id'])==(c['series'],c['point_id']) for o in O) for c in corrections)
 statuses=json.loads((DIG/'T019b-series-status.json').read_text())
 assert {r['series'] for r in statuses}=={r['series'] for r in C}
 for status in statuses:
     rows=[o for o in O if o['series']==status['series']]
-    assert len(rows)==status['points']
+    assert len(rows)==status['points']-sum(c['series']==status['series'] for c in corrections)
     assert all((o['comparable']=='true')==status['comparable'] and (o['inputs_known']=='true')==status['inputs_known'] for o in rows)
     assert status['verification_status']=='provisional' and status['reviewer_pending']=='T019v2'
     assert status['reason'] and not status['complete_isotherm_claim'] and not status['independent_eight_point_check_claim']
