@@ -391,7 +391,8 @@ def render(doc: Document, metadata: dict) -> str:
                 appendix = b.text.startswith("Приложение")
                 brief = b.text == "Кратко" and not brief_seen
                 brief_seen |= brief
-                body.append(f'<section{" class=\"brief\"" if brief else ""}><h2 id="{b.anchor}">{label}</h2>')
+                brief_attr = ' class="brief"' if brief else ""
+                body.append(f'<section{brief_attr}><h2 id="{b.anchor}">{label}</h2>')
                 section_open = True
             elif appendix:
                 if detail_open:
@@ -419,7 +420,7 @@ def render(doc: Document, metadata: dict) -> str:
             rows = []
             for j, row in enumerate(b.extra):
                 tag = "th" if j == 0 else "td"
-                rows.append("<tr>" + "".join(f"<{tag}{' scope=\"col\"' if j == 0 else ''}>" + doc.inline(c, b.line + j + (1 if j else 0)) + f"</{tag}>" for c in row) + "</tr>")
+                rows.append("<tr>" + "".join("<" + tag + (' scope="col"' if j == 0 else '') + ">" + doc.inline(c, b.line + j + (1 if j else 0)) + f"</{tag}>" for c in row) + "</tr>")
             body.append('<div class="table-scroll" role="region" aria-label="Таблица" tabindex="0"><table><thead>'
                         + rows[0] + "</thead><tbody>" + "".join(rows[1:]) + "</tbody></table></div>")
     if detail_open:

@@ -1,0 +1,64 @@
+{
+  "schema": "pet2mof-source-versions/1",
+  "work_order": {
+    "id": "PET-CO2-TASK-004",
+    "version": "1.0",
+    "copy": "docs/work_order_task004_RU.md",
+    "original_sha256": "6bca8d73b3e8aa0c5652de34dd7c964a4b2e0f124dfb2f816a1311862cd6a1ca",
+    "handoff_zip_sha256": "040dd62d9aeed3d14b988a6157ea120618ba47e858bb88e6af1a63a706a1e173",
+    "redaction": "site repository address removed (D4-01)"
+  },
+  "research_repository": "https://github.com/sergeionlyart/PET2MOF",
+  "research_commits": {
+    "TASK-001": {
+      "commit": "66bae26af9970c3142b72d25031c844b5461708f",
+      "date": "2026-11-17T04:03:24+01:00",
+      "branch": "main"
+    },
+    "TASK-002": {
+      "commit": "1558433614619e04102989d6b6f1479c50f364ce",
+      "date": "2026-11-17T06:24:54+01:00",
+      "branch": "task002-dry-screening"
+    },
+    "TASK-003": {
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "date": "2026-11-17T10:28:35+01:00",
+      "branch": "task003-pet-transfer"
+    }
+  },
+  "article_branch": {
+    "branch": "task004-article",
+    "base": "70685dc686ce22505b303a60920980a02772f019",
+    "pushed": false
+  },
+  "site_reference": {
+    "repository": "private Dobrovola.dev site repository (address withheld)",
+    "commit": "b4a57048d32148707e81bb373088c6003b342b67",
+    "access": "read only; nothing copied",
+    "public_pages_compared": [
+      "https://dobrovola.dev/ru/writing/agentic-manufacturing-real-parts-2026",
+      "https://dobrovola.dev/ru/writing/two-agent-codex-workflow"
+    ]
+  },
+  "executors_task004": {
+    "T050": "gpt-6-astra/high, network off",
+    "T051": "gpt-6.1-sol/high, network off",
+    "T052": "gpt-6-astra/high, network off",
+    "T053": "gpt-6.1-terra/medium, network off",
+    "actual_settings_source": "evidence/agent_runs.csv (TASK-004 rows appended after runs)"
+  },
+  "lead": {
+    "platform": "Anthropic Claude Code",
+    "usage": "unknown (not exposed)"
+  },
+  "tools": {
+    "python_build": "stdlib, tested on 3.11.5 and 3.12.0 (identical index.html)",
+    "matplotlib": "3.11.2",
+    "python_figures": "3.12.0",
+    "browser_check": "Claude desktop built-in browser + headless Google Chrome (print to PDF)"
+  },
+  "run_ids_used_in_figures": [
+    "20261117T044031484585Z-1acc1c2c-task002-A",
+    "20261117T045732361230Z-753cec58-task002-B"
+  ]
+}

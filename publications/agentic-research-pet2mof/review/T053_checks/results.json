@@ -1,0 +1,941 @@
+{
+  "package": {
+    "index.html": true,
+    "article.ru.md": true,
+    "article.metadata.json": true,
+    "assets": true,
+    "prompts": true,
+    "evidence/chronology.csv": true,
+    "evidence/claims.csv": true,
+    "evidence/prompts_manifest.csv": true,
+    "evidence/assets_manifest.csv": true,
+    "evidence/source_versions.json": false,
+    "evidence/repo_cleanup.md": true,
+    "evidence/site_integration.md": true,
+    "review/editorial_review.md": false,
+    "review/html_check.md": false,
+    "review/screenshots": false,
+    "README_RU.md": false
+  },
+  "links": {
+    "github_count": 30,
+    "github_failures": [],
+    "github": [
+      {
+        "file": "article.ru.md",
+        "line": 203,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26af9970c3142b72d25031c844b5461708f/docs/work_order_v1.1_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 212,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26af9970c3142b72d25031c844b5461708f/AGENTS.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 221,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/tasks/T032-task002-vp-operator.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 229,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/docs/work_order_task002_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 242,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/tasks/T044-task003-review.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 250,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/docs/work_order_task003_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 260,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/tasks/T044r-task003-rereview.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 303,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/reports/task003/decision_brief.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 303,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/reports/task003/next_experiment.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 304,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26af9970c3142b72d25031c844b5461708f/docs/work_order_v1.1_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 304,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/docs/work_order_task002_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 304,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/docs/work_order_task003_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 305,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/README.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 1202,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/reports/task002/final_report_task002.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "article.ru.md",
+        "line": 1202,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/reports/task002/next_experiment.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 109,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26af9970c3142b72d25031c844b5461708f/docs/work_order_v1.1_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 114,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26af9970c3142b72d25031c844b5461708f/AGENTS.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 119,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/tasks/T032-task002-vp-operator.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 123,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/docs/work_order_task002_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 132,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/tasks/T044-task003-review.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 136,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/docs/work_order_task003_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 142,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/tasks/T044r-task003-rereview.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 161,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/reports/task003/decision_brief.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 161,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/reports/task003/next_experiment.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 161,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/66bae26af9970c3142b72d25031c844b5461708f/docs/work_order_v1.1_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 161,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/docs/work_order_task002_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 161,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/docs/work_order_task003_RU.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 161,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/70685dc686ce22505b303a60920980a02772f019/README.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 1043,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/reports/task002/final_report_task002.md",
+        "allowed": true,
+        "exists": true
+      },
+      {
+        "file": "index.html",
+        "line": 1043,
+        "url": "https://github.com/sergeionlyart/PET2MOF/blob/1558433614619e04102989d6b6f1479c50f364ce/reports/task002/next_experiment.md",
+        "allowed": true,
+        "exists": true
+      }
+    ],
+    "local_or_anchor_failures": [],
+    "external_resources": [],
+    "css_external": []
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Работа агентов трёх этапов уложилась примерно в 12 часов (вечер 16 — утро 17.11.2026 UTC)",
+      "commit": "afbf522",
+      "paths": [
+        {
+          "path": "publications/agentic-research-pet2mof/evidence/agent_runs.csv",
+          "exists": true
+        },
+        {
+          "raw": " git log",
+          "kind": "nonpath"
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C02",
+      "claim": "Поручения и пакеты готовились владельцем с помощью ChatGPT (консультационная подготовка и аудит)",
+      "commit": "afbf522",
+      "paths": [
+        {
+          "path": "docs/work_order_task004_RU.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C03",
+      "claim": "UiO-66 из BDC, выделенной из ПЭТ, описан в литературе (SRC-03, SRC-06)",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "reports/task003/final_report.md",
+          "exists": true
+        },
+        {
+          "path": "data/task003/extracted",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C04",
+      "claim": "CO2MAT — контекст; сотрудничества нет",
+      "commit": "66bae26af9970c3142b72d25031c844b5461708f",
+      "paths": [
+        {
+          "path": "docs/work_order_v1.1_RU.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C05",
+      "claim": "Python-стек: NumPy, SciPy, pandas, Matplotlib, PyMuPDF, PyYAML, jsonschema, pytest; окружение uv.lock",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "pyproject.toml",
+          "exists": true
+        },
+        {
+          "path": "uv.lock",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C06",
+      "claim": "RASPA/LAMMPS/CP2K были допустимы поручением, не устанавливались и не использовались",
+      "commit": "66bae26af9970c3142b72d25031c844b5461708f",
+      "paths": [
+        {
+          "path": "docs/work_order_v1.1_RU.md",
+          "exists": true
+        },
+        {
+          "path": "docs/plan.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C07",
+      "claim": "Внешних OCR-вызовов не было (бюджет 0); локальный tesseract — на 3 страницах",
+      "commit": "66bae26af9970c3142b72d25031c844b5461708f",
+      "paths": [
+        {
+          "path": "reviews/document_extraction_benchmark.md",
+          "exists": true
+        },
+        {
+          "path": "AGENTS.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C08",
+      "claim": "AGENTS.md создан в первом коммите проекта",
+      "commit": "009a8b9060ca9d333b633fb1afa22079137e3e2b",
+      "paths": [
+        {
+          "raw": "git log --diff-filter=A -- AGENTS.md (009a8b9)",
+          "kind": "nonpath"
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C09",
+      "claim": "44 запуска исполнителей TASK-001; суммарно ≈508 мин при ≈5.5 ч календарно",
+      "commit": "afbf522",
+      "paths": [
+        {
+          "path": "publications/agentic-research-pet2mof/evidence/agent_runs.csv",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C10",
+      "claim": "Проверочная выборка: 31 запись, 0 полных и 0 условных сравнений (все not_testable)",
+      "commit": "66bae26af9970c3142b72d25031c844b5461708f",
+      "paths": [
+        {
+          "path": "reports/final_report.md",
+          "exists": true
+        },
+        {
+          "path": "results/prereg-v1/validation/validation.json",
+          "exists": true
+        }
+      ],
+      "status": "confirmed",
+      "reason": "Дословное совпадение значений в указанном источнике",
+      "evidence": {
+        "path": "reports/final_report.md",
+        "terms": [
+          "31 запись; полных сравнений 0, условных 0, `not_testable` 31"
+        ],
+        "lines": [
+          23
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "claim": "Ансамбль 360 ветвей × 4 × 4096; conditional_H1 0/360; оптимум ~20 % только в v1.1-mof/ratio",
+      "commit": "66bae26af9970c3142b72d25031c844b5461708f",
+      "paths": [
+        {
+          "path": "reports/final_report.md",
+          "exists": true
+        },
+        {
+          "path": "reports/T025/h1_analysis.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C12",
+      "claim": "Чистое воспроизведение: 360/360 файлов выборок побайтово",
+      "commit": "66bae26af9970c3142b72d25031c844b5461708f",
+      "paths": [
+        {
+          "path": "reviews/T016_clean_reproduction.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C13",
+      "claim": "Пакет содержал эталонный скрипт интерполяции с ответами и фикстуру дефекта Vp",
+      "commit": "1558433614619e04102989d6b6f1479c50f364ce",
+      "paths": [
+        {
+          "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/scripts",
+          "exists": true
+        },
+        {
+          "path": "audit_fixture/README.json",
+          "exists": false
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C14",
+      "claim": "C72 3.26 ммоль/г (+22.1 %), C96 3.15 (+18.0 %), BASE 2.67",
+      "commit": "1558433614619e04102989d6b6f1479c50f364ce",
+      "paths": [
+        {
+          "path": "reports/task002/A/nominal.csv",
+          "exists": true
+        }
+      ],
+      "status": "confirmed",
+      "reason": "Дословное совпадение значений в указанном источнике",
+      "evidence": {
+        "path": "reports/task002/A/nominal.csv",
+        "terms": [
+          "S2-BASE,2.67",
+          "S2-C72,3.26,22.097",
+          "S2-C96,3.15,17.977"
+        ],
+        "lines": [
+          2,
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "id": "C15",
+      "claim": "Оба кандидата устойчивы к ±5 %, не к ±10 %; различие требует погрешности < 1.56 %",
+      "commit": "1558433614619e04102989d6b6f1479c50f364ce",
+      "paths": [
+        {
+          "path": "reports/task002/A/candidates.csv",
+          "exists": true
+        },
+        {
+          "path": "reports/task002/decision_brief.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C16",
+      "claim": "Независимый пересчёт: наибольшее расхождение 1.4·10⁻¹⁴",
+      "commit": "1558433614619e04102989d6b6f1479c50f364ce",
+      "paths": [
+        {
+          "path": "reports/task002/decision_brief.md",
+          "exists": true
+        },
+        {
+          "raw": " run 20261117T044043117206Z-cb31d105-task002-A-agreement",
+          "kind": "nonpath"
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C17",
+      "claim": "Интерполяция MAE 0.029 против Ленгмюра 0.135 на 9 контрольных точках",
+      "commit": "1558433614619e04102989d6b6f1479c50f364ce",
+      "paths": [
+        {
+          "path": "reports/task002/B/decision.json",
+          "exists": true
+        },
+        {
+          "path": "check_residuals.csv",
+          "exists": false
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C18",
+      "claim": "CO2-ёмкость PET-UiO-66: единственное значение 2.06 ммоль/г из вторичного пересказа аннотации, статус unknown",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "docs/task003/intake.md",
+          "exists": true
+        },
+        {
+          "path": "reports/task003/decision_brief.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C19",
+      "claim": "BET PET-UiO-66 874.6 против 873.9 м²/г (SRC-03 SI)",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "reports/task003/final_report.md",
+          "exists": true
+        }
+      ],
+      "status": "confirmed",
+      "reason": "Дословное совпадение значений в указанном источнике",
+      "evidence": {
+        "path": "reports/task003/final_report.md",
+        "terms": [
+          "BET 874.6 (PET) против 873.9"
+        ],
+        "lines": [
+          35
+        ]
+      }
+    },
+    {
+      "id": "C20",
+      "claim": "R1 — условный приоритет по правилу, зафиксированному до расчёта (ab0b074); R2 в форме S2 неприменим",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "reports/task003/decision_brief.md",
+          "exists": true
+        },
+        {
+          "path": "docs/task003/analysis_plan.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C21",
+      "claim": "k* R1 1.06–1.52; R2 1.110 (1.381 при третьем прочтении массы S2)",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "reports/task003/transfer_kstar_summary.csv",
+          "exists": true
+        },
+        {
+          "path": "reviews/T044_review.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C22",
+      "claim": "Массовый баланс S2 не замыкается: 18.5–25.0 % массы",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "reports/task003/material_balance.csv",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C23",
+      "claim": "Формула G_P = G_C/k + φ(h_P − h_C/k), φ_max = min(1, G_C/h_C)",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "reports/task003/next_experiment.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C24",
+      "claim": "Пример интервала [1.063; 1.128] при h = 0.70, G_C = 1.17, k = 1.10; 2σ ≈ 5.7 % (A) и 6.4 % (B)",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "reports/task003/next_experiment.md",
+          "exists": true
+        },
+        {
+          "path": "reviews/T044r_checks",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C25",
+      "claim": "Дефект оператора Vp показал аудит при подготовке пакета TASK-002 (фикстура, source_commit 66bae26)",
+      "commit": "1558433614619e04102989d6b6f1479c50f364ce",
+      "paths": [
+        {
+          "path": "data/task002/PET2MOF_Task002_DataPack_v1.0/audit_fixture/README.json",
+          "exists": true
+        },
+        {
+          "path": "docs/work_order_task002_RU.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C26",
+      "claim": "Регрессионный тест T032 падает на 66bae26 и проходит после правки; реальные строки проверил руководитель",
+      "commit": "1558433614619e04102989d6b6f1479c50f364ce",
+      "paths": [
+        {
+          "path": "reviews/T032_vp_operator_report.md",
+          "exists": true
+        },
+        {
+          "path": "docs/task002/error_log.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C27",
+      "claim": "T044-01: 0.95 = G/g в вершине с G = 1.048 < 1.10; контрпример G_PET(0.95) = 1.067",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "reviews/T044_review.md",
+          "exists": true
+        },
+        {
+          "path": "reviews/T044_checks/counterexamples.json",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C28",
+      "claim": "T044r нашёл 3 major и 2 minor; правки после T044r проверены только руководителем",
+      "commit": "70685dc686ce22505b303a60920980a02772f019",
+      "paths": [
+        {
+          "path": "reviews/T044r_rereview.md",
+          "exists": true
+        },
+        {
+          "path": "reports/task003/review.md",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C29",
+      "claim": "Новые входные токены (input − cached): TASK-001 ≈4.27 млн, TASK-002 ≈0.48 млн, TASK-003 ≈0.66 млн; расход руководителя неизвестен",
+      "commit": "afbf522",
+      "paths": [
+        {
+          "path": "publications/agentic-research-pet2mof/evidence/agent_runs.csv",
+          "exists": true
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    },
+    {
+      "id": "C30",
+      "claim": "Ускорение относительно ручной работы не измерено",
+      "commit": "—",
+      "paths": [
+        {
+          "raw": "—",
+          "kind": "nonpath"
+        }
+      ],
+      "status": "not_checkable_mechanically",
+      "reason": "Составное утверждение требует смысловой проверки или вычисления; наличие файла не подтверждает его содержание."
+    }
+  ],
+  "figures": [
+    {
+      "id": "T051-F01-png",
+      "exists": true,
+      "article_line": 41,
+      "alt": "Схема предметной задачи: ПЭТ разлагается до терефталевой кислоты, из неё собирают UiO-66, затем каркас модифицируют PEI для сорбции CO₂. Литературные прецеденты отмечены отдельно от проверяемой гипотезы о PET-UiO-66 с PEI, который не изготавливался.",
+      "caption": "Рис. 1. Предметная задача. Схема. Литературный прецедент — получение UiO-66 из ПЭТ и PEI-модификация коммерческих аналогов; наша гипотеза — PEI на PET-derived UiO-66; такой материал в проекте не изготавливался.",
+      "manifest_caption": "Рис. 1. Литературный прецедент относится к PET-derived UiO-66 (SRC-03, SRC-06); коммерческие аналоги S100 и S2 не доказывают получение PET-композита. Носитель ≠ композит.",
+      "sources": "docs/work_order_task004_RU.md;reports/task003/next_experiment.md"
+    },
+    {
+      "id": "T051-F01-svg",
+      "exists": true,
+      "article_line": 41,
+      "alt": "Схема предметной задачи: ПЭТ разлагается до терефталевой кислоты, из неё собирают UiO-66, затем каркас модифицируют PEI для сорбции CO₂. Литературные прецеденты отмечены отдельно от проверяемой гипотезы о PET-UiO-66 с PEI, который не изготавливался.",
+      "caption": "Рис. 1. Предметная задача. Схема. Литературный прецедент — получение UiO-66 из ПЭТ и PEI-модификация коммерческих аналогов; наша гипотеза — PEI на PET-derived UiO-66; такой материал в проекте не изготавливался.",
+      "manifest_caption": "Рис. 1. Литературный прецедент относится к PET-derived UiO-66 (SRC-03, SRC-06); коммерческие аналоги S100 и S2 не доказывают получение PET-композита. Носитель ≠ композит.",
+      "sources": "docs/work_order_task004_RU.md;reports/task003/next_experiment.md"
+    },
+    {
+      "id": "T051-F02-png",
+      "exists": true,
+      "article_line": 56,
+      "alt": "Схема организации: владелец ставит цель и принимает решения; поручения и данные готовятся с помощью ChatGPT; Claude Code планирует, пишет карточки и принимает работу; исполнители Codex в отдельных копиях пишут код; учитываемые запуски сохраняют паспорта; другой исполнитель проверяет; стрелки обратной связи ведут от ревью к исправлению и от отчёта к новому поручению.",
+      "caption": "Рис. 2. Организация команды и вычислений. Схема. Обратные связи: замечание проверяющего возвращает работу на исправление, итоговый отчёт — к владельцу и новому поручению.",
+      "manifest_caption": "Рис. 2. Руководитель организует работу и принимает её; независимую проверку выполняет другой исполнитель. Научный код, учитываемый запуск и паспорт отделены от консультационной подготовки.",
+      "sources": "AGENTS.md;docs/model_policy.md;docs/work_order_task004_RU.md"
+    },
+    {
+      "id": "T051-F02-svg",
+      "exists": true,
+      "article_line": 56,
+      "alt": "Схема организации: владелец ставит цель и принимает решения; поручения и данные готовятся с помощью ChatGPT; Claude Code планирует, пишет карточки и принимает работу; исполнители Codex в отдельных копиях пишут код; учитываемые запуски сохраняют паспорта; другой исполнитель проверяет; стрелки обратной связи ведут от ревью к исправлению и от отчёта к новому поручению.",
+      "caption": "Рис. 2. Организация команды и вычислений. Схема. Обратные связи: замечание проверяющего возвращает работу на исправление, итоговый отчёт — к владельцу и новому поручению.",
+      "manifest_caption": "Рис. 2. Руководитель организует работу и принимает её; независимую проверку выполняет другой исполнитель. Научный код, учитываемый запуск и паспорт отделены от консультационной подготовки.",
+      "sources": "AGENTS.md;docs/model_policy.md;docs/work_order_task004_RU.md"
+    },
+    {
+      "id": "T051-F03-png",
+      "exists": true,
+      "article_line": 73,
+      "alt": "Шкала времени UTC 16–17 ноября 2026: полосы запусков исполнителей трёх этапов, раскрашенные по модели, и метки финальных коммитов трёх этапов; запуски внутри этапа часто перекрываются.",
+      "caption": "Рис. 3. Хронология трёх этапов. Наш учёт по журналам запусков исполнителей и истории Git. Суммарное время запусков больше календарного, потому что исполнители работали параллельно.",
+      "manifest_caption": "Рис. 3. Сумма длительностей запусков 10.90 ч, календарный интервал 11.83 ч, объединение активных интервалов 6.43 ч. Параллельность подтверждена перекрытиями; требование подписи «сумма > календарного» не подтверждается CSV. Цвет — фактическая модель; штриховка — только запрошенная. Метки commit используют committer time; это не оценка скорости относительно человека.",
+      "sources": "evidence/agent_runs.csv;git show -s --format=%ct 66bae26af9970c3142b72d25031c844b5461708f 1558433614619e04102989d6b6f1479c50f364ce 70685dc686ce22505b303a60920980a02772f019"
+    },
+    {
+      "id": "T051-F03-svg",
+      "exists": true,
+      "article_line": 73,
+      "alt": "Шкала времени UTC 16–17 ноября 2026: полосы запусков исполнителей трёх этапов, раскрашенные по модели, и метки финальных коммитов трёх этапов; запуски внутри этапа часто перекрываются.",
+      "caption": "Рис. 3. Хронология трёх этапов. Наш учёт по журналам запусков исполнителей и истории Git. Суммарное время запусков больше календарного, потому что исполнители работали параллельно.",
+      "manifest_caption": "Рис. 3. Сумма длительностей запусков 10.90 ч, календарный интервал 11.83 ч, объединение активных интервалов 6.43 ч. Параллельность подтверждена перекрытиями; требование подписи «сумма > календарного» не подтверждается CSV. Цвет — фактическая модель; штриховка — только запрошенная. Метки commit используют committer time; это не оценка скорости относительно человека.",
+      "sources": "evidence/agent_runs.csv;git show -s --format=%ct 66bae26af9970c3142b72d25031c844b5461708f 1558433614619e04102989d6b6f1479c50f364ce 70685dc686ce22505b303a60920980a02772f019"
+    },
+    {
+      "id": "T051-F04-png",
+      "exists": true,
+      "article_line": 105,
+      "alt": "Столбчатая диаграмма сухой ёмкости CO₂ шести образцов публикации S2: контроль 2.67 ммоль/г, C72 3.26 и C96 3.15 выделены как кандидаты, I96 ниже контроля. Подписи прироста к контролю рассчитаны нами.",
+      "caption": "Рис. 4. Сухое сравнение TASK-002. Значения ёмкости — измерения из литературы (S2, табл. 2); приросты к контролю — наш расчёт (run `20261117T044031484585Z-1acc1c2c-task002-A`). Сценарные допуски ±3/5/10 % — проверки устойчивости, не экспериментальные погрешности, поэтому планок погрешности нет.",
+      "manifest_caption": "Рис. 4. Сухая ёмкость из S2 Table 2, прирост к BASE — наш расчёт. C72/C96 — приоритетная пара; d = 3, 5, 10 % — сценарии чувствительности, не экспериментальные погрешности. Носитель S2 — UiO-66-NH₂, не PET-UiO-66.",
+      "sources": "reports/task002/A/nominal.csv;reports/task002/A/candidates.csv"
+    },
+    {
+      "id": "T051-F04-svg",
+      "exists": true,
+      "article_line": 105,
+      "alt": "Столбчатая диаграмма сухой ёмкости CO₂ шести образцов публикации S2: контроль 2.67 ммоль/г, C72 3.26 и C96 3.15 выделены как кандидаты, I96 ниже контроля. Подписи прироста к контролю рассчитаны нами.",
+      "caption": "Рис. 4. Сухое сравнение TASK-002. Значения ёмкости — измерения из литературы (S2, табл. 2); приросты к контролю — наш расчёт (run `20261117T044031484585Z-1acc1c2c-task002-A`). Сценарные допуски ±3/5/10 % — проверки устойчивости, не экспериментальные погрешности, поэтому планок погрешности нет.",
+      "manifest_caption": "Рис. 4. Сухая ёмкость из S2 Table 2, прирост к BASE — наш расчёт. C72/C96 — приоритетная пара; d = 3, 5, 10 % — сценарии чувствительности, не экспериментальные погрешности. Носитель S2 — UiO-66-NH₂, не PET-UiO-66.",
+      "sources": "reports/task002/A/nominal.csv;reports/task002/A/candidates.csv"
+    },
+    {
+      "id": "T051-F05-png",
+      "exists": true,
+      "article_line": 112,
+      "alt": "Три панели изотерм S100 для 10, 20 и 30 % PEI: оцифрованные точки настройки и контрольные точки с полушириной оцифровки, кусочно-линейная интерполяция и кривая Ленгмюра; на контрольном блоке интерполяция ближе к точкам.",
+      "caption": "Рис. 5. Сравнение численных методов. Точки — оцифровка графика из литературы (S100, рис. S5); линии — наш расчёт (run `20261117T045732361230Z-753cec58-task002-B`). Внутренняя проверка интерполяции одной серии на заранее назначенном блоке 0.33–0.46 бар, не независимая проверка.",
+      "manifest_caption": "Рис. 5. Оцифровка S100 SI Fig. S5: полуширины по q и p не являются погрешностями измерений. Параметры Ленгмюра и остатки прочитаны из готовых CSV; новая подгонка не выполнялась. Контроль внутри одной серии, не независимая проверка. Основа сообщённого грамма не разрешена.",
+      "sources": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv;reports/task002/B/check_residuals.csv;reports/task002/B/langmuir_fit.csv"
+    },
+    {
+      "id": "T051-F05-svg",
+      "exists": true,
+      "article_line": 112,
+      "alt": "Три панели изотерм S100 для 10, 20 и 30 % PEI: оцифрованные точки настройки и контрольные точки с полушириной оцифровки, кусочно-линейная интерполяция и кривая Ленгмюра; на контрольном блоке интерполяция ближе к точкам.",
+      "caption": "Рис. 5. Сравнение численных методов. Точки — оцифровка графика из литературы (S100, рис. S5); линии — наш расчёт (run `20261117T045732361230Z-753cec58-task002-B`). Внутренняя проверка интерполяции одной серии на заранее назначенном блоке 0.33–0.46 бар, не независимая проверка.",
+      "manifest_caption": "Рис. 5. Оцифровка S100 SI Fig. S5: полуширины по q и p не являются погрешностями измерений. Параметры Ленгмюра и остатки прочитаны из готовых CSV; новая подгонка не выполнялась. Контроль внутри одной серии, не независимая проверка. Основа сообщённого грамма не разрешена.",
+      "sources": "data/task002/PET2MOF_Task002_DataPack_v1.0/data/benchmark/S100_dry_isotherms.csv;reports/task002/B/check_residuals.csv;reports/task002/B/langmuir_fit.csv"
+    },
+    {
+      "id": "T051-F06-png",
+      "exists": true,
+      "article_line": 151,
+      "alt": "Схема парного опыта: четыре образца — PET-UiO-66 без PEI (P0) и с PEI (P1), коммерческий UiO-66 без PEI (C0) и с тем же PEI (C1); стрелки показывают отношения k, G_C и G_P и интервал прогноза. Пометка: опыт предложен, не проведён.",
+      "caption": "Рис. 6. Парный проверочный опыт. Предлагаемый опыт — не проведён. Отношения: k = q(P0)/q(C0), G_C = q(C1)/q(C0), G_P = q(P1)/q(P0).",
+      "manifest_caption": "Рис. 6. Предлагаемый, не проведённый парный опыт. Совместно проверяются равенство абсолютного PEI-вклада и сохранённой доли ёмкости φ; h_P и h_C измеряют, интервал предсказывают до q(P1). Согласие с интервалом не устанавливает φ или механизм.",
+      "sources": "reports/task003/next_experiment.md"
+    },
+    {
+      "id": "T051-F06-svg",
+      "exists": true,
+      "article_line": 151,
+      "alt": "Схема парного опыта: четыре образца — PET-UiO-66 без PEI (P0) и с PEI (P1), коммерческий UiO-66 без PEI (C0) и с тем же PEI (C1); стрелки показывают отношения k, G_C и G_P и интервал прогноза. Пометка: опыт предложен, не проведён.",
+      "caption": "Рис. 6. Парный проверочный опыт. Предлагаемый опыт — не проведён. Отношения: k = q(P0)/q(C0), G_C = q(C1)/q(C0), G_P = q(P1)/q(P0).",
+      "manifest_caption": "Рис. 6. Предлагаемый, не проведённый парный опыт. Совместно проверяются равенство абсолютного PEI-вклада и сохранённой доли ёмкости φ; h_P и h_C измеряют, интервал предсказывают до q(P1). Согласие с интервалом не устанавливает φ или механизм.",
+      "sources": "reports/task003/next_experiment.md"
+    },
+    {
+      "id": "T051-F07-png",
+      "exists": true,
+      "article_line": 178,
+      "alt": "Две панели «до» и «после»: слева выигрыш PET-композита в зависимости от сохранённой доли ёмкости носителя при k = 0.95 опускается до 1.067 ниже порога 1.10, вопреки исходному утверждению; справа исправленный интервальный прогноз примера от 1.063 до 1.128 относительно порога 1.10.",
+      "caption": "Рис. 7. До и после проверки. Наш расчёт по формуле переноса; значения вершины — из файла контрпримеров ревью T044. Слева — опровергнутое утверждение черновика; справа — интервальный прогноз, заменивший его (пример: h = 0.70, G_C = 1.17, k = 1.10).",
+      "manifest_caption": "Рис. 7. Слева контрпример к ранней гарантии: k=0.95, h=0.70, G=1.0482970734, G_PET(1)=1.0666285 < 1.10. Справа другой пример исправленного протокола: h=0.70, G_C=1.17, k=1.10; интервал наружу [1.063; 1.128] пересекает порог. Это проверка формулы и границ утверждения, не новый физический результат.",
+      "sources": "reviews/T044_checks/counterexamples.json;reports/task003/next_experiment.md"
+    },
+    {
+      "id": "T051-F07-svg",
+      "exists": true,
+      "article_line": 178,
+      "alt": "Две панели «до» и «после»: слева выигрыш PET-композита в зависимости от сохранённой доли ёмкости носителя при k = 0.95 опускается до 1.067 ниже порога 1.10, вопреки исходному утверждению; справа исправленный интервальный прогноз примера от 1.063 до 1.128 относительно порога 1.10.",
+      "caption": "Рис. 7. До и после проверки. Наш расчёт по формуле переноса; значения вершины — из файла контрпримеров ревью T044. Слева — опровергнутое утверждение черновика; справа — интервальный прогноз, заменивший его (пример: h = 0.70, G_C = 1.17, k = 1.10).",
+      "manifest_caption": "Рис. 7. Слева контрпример к ранней гарантии: k=0.95, h=0.70, G=1.0482970734, G_PET(1)=1.0666285 < 1.10. Справа другой пример исправленного протокола: h=0.70, G_C=1.17, k=1.10; интервал наружу [1.063; 1.128] пересекает порог. Это проверка формулы и границ утверждения, не новый физический результат.",
+      "sources": "reviews/T044_checks/counterexamples.json;reports/task003/next_experiment.md"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "P01",
+      "article_line": 197,
+      "manifest": true,
+      "source": true,
+      "source_exit": 0
+    },
+    {
+      "id": "P02",
+      "article_line": 205,
+      "manifest": true,
+      "source": true,
+      "source_exit": 0
+    },
+    {
+      "id": "P03",
+      "article_line": 214,
+      "manifest": true,
+      "source": true,
+      "source_exit": 0
+    },
+    {
+      "id": "P04",
+      "article_line": 223,
+      "manifest": true,
+      "source": true,
+      "source_exit": 0
+    },
+    {
+      "id": "P05",
+      "article_line": 231,
+      "manifest": true,
+      "source": true,
+      "source_exit": 0
+    },
+    {
+      "id": "P06",
+      "article_line": 244,
+      "manifest": true,
+      "source": true,
+      "source_exit": 0
+    },
+    {
+      "id": "P07",
+      "article_line": 252,
+      "manifest": true,
+      "source": true,
+      "source_exit": 0
+    }
+  ],
+  "excerpt_command": {
+    "exit": 0,
+    "stdout": "Prompts: 7; exact excerpts checked: 14; copies checked: 7\nChronology: 71 events; direct source/input/artifact references checked\nStage statistics: 4 stages; 62 agent runs; intervals/tokens/passport sums checked\nMismatches: 0\n",
+    "stderr": ""
+  },
+  "check_command": {
+    "exit": 0,
+    "stdout": "Слов основного текста: 4433\nWARNING: ARTICLE_PRIVATE_PATTERNS не задана: проверка персональных данных пропущена\nПроверка: OK (0 ошибок)\n",
+    "stderr": ""
+  },
+  "build_command": {
+    "exit": 0,
+    "stdout": "Собрано: /tmp/tmp8be8iee5/index.html\n",
+    "stderr": ""
+  },
+  "build_hash": {
+    "original": "dc08be6bef5062f64a3001c2976e5252c62133bd93a076118b32f08ff92710e4",
+    "built": "dc08be6bef5062f64a3001c2976e5252c62133bd93a076118b32f08ff92710e4"
+  },
+  "scientific_diff": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

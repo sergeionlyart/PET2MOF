@@ -1,0 +1,175 @@
+{
+  "head": "eb69fe1c5047d322fdd7d8e3712414a5438b6e60",
+  "historical_identity": {
+    "reports/final_report.md": true,
+    "reports/task002/final_report_task002.md": true,
+    "reports/task003/final_report.md": true
+  },
+  "prompts": [
+    {
+      "id": "P01",
+      "article_excerpt_exact": true,
+      "full_copy_in_article": true,
+      "source_sha256": "c9d1d6b60d44fa084cb62bd2d06dbc4d32312032d7f796f9a81321abcbedb88e"
+    },
+    {
+      "id": "P02",
+      "article_excerpt_exact": true,
+      "full_copy_in_article": true,
+      "source_sha256": "106f880596113bee0591bb5a8cc4945a9eea472c6b8de2113a448bfd4b68ce82"
+    },
+    {
+      "id": "P03",
+      "article_excerpt_exact": true,
+      "full_copy_in_article": true,
+      "source_sha256": "e792104cc46b3f0355c270d65058388821bcd4086658314e600db60f518be487"
+    },
+    {
+      "id": "P04",
+      "article_excerpt_exact": true,
+      "full_copy_in_article": true,
+      "source_sha256": "e5da0cdc4d09125311d69781c896e16ebda2822eed6da106856f723be47caa12"
+    },
+    {
+      "id": "P05",
+      "article_excerpt_exact": true,
+      "full_copy_in_article": true,
+      "source_sha256": "2bdcef9566da55fdaad625b8f7dff78728f0b004258c9e1a1ad05c6058e43341"
+    },
+    {
+      "id": "P06",
+      "article_excerpt_exact": true,
+      "full_copy_in_article": true,
+      "source_sha256": "9c4b6aa89911287ed166014475af3fbb94e29fd06116bef87ec28eae07be0655"
+    },
+    {
+      "id": "P07",
+      "article_excerpt_exact": true,
+      "full_copy_in_article": true,
+      "source_sha256": "cfc0bb8844f4cc5022fc7d16668a5e286ea04e8a50358cb3881abae23ca41955"
+    }
+  ],
+  "template_in_article": true,
+  "dry_values": [
+    {
+      "id": "S2-BASE",
+      "q": 2.67,
+      "gain_pct": 0.0
+    },
+    {
+      "id": "S2-C48",
+      "q": 2.75,
+      "gain_pct": 2.9962546816479474
+    },
+    {
+      "id": "S2-C72",
+      "q": 3.26,
+      "gain_pct": 22.097378277153545
+    },
+    {
+      "id": "S2-N72",
+      "q": 2.99,
+      "gain_pct": 11.985018726591768
+    },
+    {
+      "id": "S2-C96",
+      "q": 3.15,
+      "gain_pct": 17.97752808988764
+    },
+    {
+      "id": "S2-I96",
+      "q": 1.87,
+      "gain_pct": -29.962546816479396
+    }
+  ],
+  "pair_threshold_pct": 1.5600624024960978,
+  "pair_gap_pct": 3.4920634920634797,
+  "robust_vs_base": {
+    "S2-C72": {
+      "0.03": true,
+      "0.05": true,
+      "0.1": false
+    },
+    "S2-C96": {
+      "0.03": true,
+      "0.05": true,
+      "0.1": false
+    }
+  },
+  "s100": {
+    "n_points": 48,
+    "n_check": 9,
+    "mae": {
+      "baseline": 0.028573177766352747,
+      "langmuir": 0.13463126273750853
+    }
+  },
+  "s2_residual_pct": {
+    "S2-C48": 18.47801418439716,
+    "S2-C72": 19.624390243902443,
+    "S2-C96": 24.968421052631584,
+    "S2-N72": 20.971604938271607
+  },
+  "c72_kstar": {
+    "nominal": 1.1099761661559413,
+    "third_mass_reading": 1.3809863085632577
+  },
+  "r1_kstar": [
+    1.0626213352762426,
+    1.167715753050816,
+    1.518030478966061
+  ],
+  "historical_counterexample": 1.0666284983362406,
+  "paired_example": {
+    "A": 1.0636363636363635,
+    "B": 1.1272727272727272,
+    "outward": [
+      1.063,
+      1.128
+    ],
+    "twosigma_relative_pct_A": 5.656854249492381,
+    "twosigma_relative_pct_B": 6.443058845306248
+  },
+  "unequal_composition_counterexample": {
+    "h_P": 0.68,
+    "h_C": 0.7,
+    "G_C": 1.11,
+    "k": 1.0,
+    "phi": 1.0,
+    "k_le_GC_over_1p1": true,
+    "G_P": 1.09
+  },
+  "timeline_hours": {
+    "sum": 10.896944444444445,
+    "span": 11.831666666666667,
+    "active_union": 6.432777777777778
+  },
+  "stages": {
+    "TASK-001": {
+      "runs": 44,
+      "duration_s": 30502,
+      "fresh_tokens": 4267138,
+      "cached_tokens": 121209856,
+      "cached_over_fresh": 28.405422088528656,
+      "output_tokens": 1013162
+    },
+    "TASK-002": {
+      "runs": 8,
+      "duration_s": 2643,
+      "fresh_tokens": 483979,
+      "cached_tokens": 9417600,
+      "cached_over_fresh": 19.458695521913143,
+      "output_tokens": 101216
+    },
+    "TASK-003": {
+      "runs": 7,
+      "duration_s": 5967,
+      "fresh_tokens": 659625,
+      "cached_tokens": 20170752,
+      "cached_over_fresh": 30.579119954519612,
+      "output_tokens": 149268
+    }
+  },
+  "privacy_literal_locations": [],
+  "work_order_word_count_whitespace": 4781
+}
