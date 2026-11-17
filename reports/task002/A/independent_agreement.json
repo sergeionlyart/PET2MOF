@@ -1,5 +1,5 @@
 {
-  "run_id": "debug-unregistered",
+  "run_id": "20261117T044043117206Z-cb31d105-task002-A-agreement",
   "methods": {
     "T030": "closed form, IEEE floats (src/pet2mof/task002/screening.py)",
     "T033": "exact fractions, interval vertex enumeration, bisection thresholds"
