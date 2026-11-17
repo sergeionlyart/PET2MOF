@@ -56,5 +56,19 @@ JSON-события `codex exec --json` модель и effort **не раскр
 | T012-model-design | astra, high | astra, high | принято (D-06) | нет |
 | T011-c-series | sol, high | sol, high | влито как `provisional`; ожидает T011v | нет |
 | T013-implement-m1 | sol, high | sol, high | влито как debug; контроль S100 не пройден (D-16) | абсолютный путь в паспортах: переносимые пути, история переписана до влития; журналы stdout/stderr debug-прогонов не сохранены (клон удалён до копирования `private/run_logs`) |
-| T011v-c-series-verify | astra, high | — (в работе) | — | — |
-| T015-model-revision | sol, high | — (в работе) | — | — |
+| T011v-c-series-verify | astra, high | astra, high | принято: дефекты T011v-* → T011b | нет |
+| T011b-c-series-fix | sol, high | sol, high | принято после T011v2 | нет |
+| T011v2-c-series-reverify | astra, high | astra, high | принято: все 19 оцифрованных серий verified | нет |
+| T011c-apply-reverification | terra, medium | terra, medium | принято | конфликт `tests/test_c_series.py` с T018 разрешён руководителем |
+| T014-sourced-ranges | astra, high | astra, high | принято после T014v/T014b | нет |
+| T014v-ranges-verify | sol, high | sol, high | принято | нет |
+| T014b-ranges-metadata-fix | terra, medium | terra, medium | принято | нет |
+| T015-model-revision | sol, high | sol, high | принято (D-17) | файлы npz 47 МБ убраны из коммита в `private/large_outputs/`; сужение `tests/test_nist_isodb.py` отменено |
+| T018-freeze-prep | sol, high | sol, high | принято | конфликт слияния и импорт `hashlib` — руководитель |
+| T019-holdout-extract | astra, high | astra, high | только `holdout/v1`; T019v нашёл 9 дефектов | нет |
+| T019v-holdout-verify | sol, high | sol, high | принято: дефекты T019v-01…09 | нет |
+| T019b-holdout-fix | astra, high | astra, high | ожидает T019v2 | нет |
+| T020-prereg-rules | sol, high | sol, high | принято (D-18, `docs/post_tag_procedure.md`) | нет |
+| T021-pretag-review | astra, high, read-only | astra, high, read-only | принято: 3 существенных дефекта → T022 | нет |
+| T022-pretag-fixes | sol, high | — (в работе) | — | — |
+| T019v2-holdout-reverify | sol, high | — (в работе) | — | — |
