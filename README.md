@@ -4,6 +4,16 @@
 
 Научный статус H1: **данных недостаточно**. Внешнее количественное сравнение недоступно, контроль на калибровочных сериях не прошёл, формальная сходимость ансамбля не установлена. PEI@UiO-66-NH2 [S2] — отдельный контроль, а не целевой PET-derived материал.
 
+## Этап v2 (PET-CO2-TASK-002): сухой выбор кандидатов
+
+Ветка `task002-dry-screening`. [Краткое решение](reports/task002/decision_brief.md) ([PDF](reports/task002/decision_brief.pdf)),
+[отчёт](reports/task002/final_report_task002.md) ([PDF](reports/task002/final_report_task002.pdf)),
+[вклад агентов](reports/task002/agent_contributions.md). По сухим измерениям S2 (25 °C, 1 bar | 1 atm) приоритетные
+кандидаты — C72 и C96 с контролем UiO-66-NH2: оба устойчиво выше контроля при отклонениях до ±5 %, различие между
+ними не разрешено (нужна погрешность < 1.56 % на значение). Влажный режим, цикл и перенос на PET-derived UiO-66 не
+установлены; v1 и его статус не изменены. Команды: `make task002-intake`, `make task002-screen`, `make task002-s100`,
+`make report-task002`.
+
 ## Локальное воспроизведение
 
 Установите Python и `uv`, затем выполните `UV_CACHE_DIR="$PWD/.uv-cache" uv sync --locked`. Проектные команды используют зафиксированное окружение; не нужны ключи или модели ИИ. Для `make publish-check` дополнительно нужны установленный `gitleaks` и Git-идентичность с адресом `@users.noreply.github.com` (см. `docs/security.md`).
@@ -46,3 +56,14 @@ Measurements, digitized points, published fits, simulations and project predicti
 The next priorities are independent measurement of retained PEI and pore properties, a controlled humidity and composition matrix with a full uncertainty budget, and new or better documented external series. Calibration and validation must use separate batches or series.
 
 The repository contains a locked Python environment, local tests, extraction records and run passports. The Russian final report documents limitations and reproducibility. Source-specific reuse restrictions apply; images without established redistribution rights are not included.
+
+**Stage v2 (PET-CO2-TASK-002, branch `task002-dry-screening`).** A narrower, dry-only screening of six measured
+samples from one publication (S2: UiO-66-NH₂ and its PEI modifications; dry pure CO₂, 25 °C, 1 bar | 1 atm). All
+Table 1–2 cells were checked against the open source text; the comparison was recomputed independently with exact
+arithmetic. Two candidates are recommended for further work, C72 and C96, with unmodified UiO-66-NH₂ as control: both
+stay above the control under bounded independent deviations of up to ±5 % per value, but the difference between them
+(3.5 %) is not resolved and would require per-value error below 1.56 %. These are robustness scenarios, not confidence
+intervals, and no probabilities are claimed. An auxiliary check on five digitized S100 isotherms kept piecewise-linear
+interpolation: a single-site Langmuir fit was worse on a pre-assigned internal pressure block (not a blind test). A
+pore-volume operator defect was fixed and regression-tested. Humid behaviour, cycling, industrial readiness and transfer
+to PET-derived UiO-66 are not established. See `reports/task002/`.

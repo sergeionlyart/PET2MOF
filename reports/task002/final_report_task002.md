@@ -109,8 +109,8 @@ PET-derived материала, вероятности, p-value, «победи�
 | Сверка S2 с первоисточником | T031, gpt-6.1-terra/medium | все клетки Tables 1–2 совпали |
 | Независимый пересчёт А | T033, gpt-6.1-terra/high | расхождение ≤ 1.4·10⁻¹⁴ |
 | Научное ревью А/Б/В и текстов | T035, gpt-6-astra/high | 0 critical, 2 major, 2 minor — исправлены (E-05, E-06) |
-| Повторное ревью исправлений | T035r, gpt-6-astra/high | см. `reviews/T035r_task002_rereview.md` |
-| Чистое офлайн-воспроизведение | T036, gpt-6.1-terra/medium | см. `reviews/T036_clean_reproduction.md` |
+| Повторное ревью исправлений | T035r, gpt-6-astra/high | T035-01/03/04 закрыты, T035-02 частично → T035r-01 (двойной учёт округления) исправлено; числа А/Б не менялись |
+| Чистое офлайн-воспроизведение | T036, gpt-6.1-terra/medium, сеть off | все 6 команд exit 0 (501 passed); числовые выходы совпали до `run_id`; отличия — метаданные коммита/плана и подпись `run_id` на PNG |
 
 Команды (без сети, `.env`, LLM и платного OCR): `make env` (однократно, нужна сеть или локальный кэш uv), `make test`,
 `make task002-intake`, `make task002-screen`, `make task002-s100`, `python scripts/task002_independent/recompute.py`,
