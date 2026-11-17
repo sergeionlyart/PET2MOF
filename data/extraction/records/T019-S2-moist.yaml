@@ -11,16 +11,19 @@ tool: T019 offline structured XML / image marker extraction
 tool_version: PyMuPDF 1.28.2; scipy 1.18.1
 params:
   script: scripts/extraction/extract_holdout_v1.py
-  script_sha256: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
-  pagination: unpaginated source XML; pdf_page=null intentionally; legacy extraction
-    schema cannot represent XML
-  visual_source_check: pending original PDF
+  script_sha256: e57ec8500c89c8d9ca392e57cb0e23a07410c84d6f777b6f79fc385a2db2aac1
+  source_format: JATS_XML
+  source_locator: tbl2 moist; §2.4; qualitative only
+  pagination: unpaginated
+  visual_source_check: pending original PDF/publisher layout; T019b lawful retrieval
+    unsuccessful
+  pressure_policy: data/extraction/digitization/T019b-S2-pressure-policy.json
   data_kind_note: table values or reported text; ratios derived explicitly
   standard_uncertainty: unknown; no assumed 3% standard deviation
   holdout_exports:
-    conditions.csv: b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa
-    observations.csv: 572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb
-date: '2026-11-17T00:42:40.413053+00:00'
+    conditions.csv: 468affc9421ce84422015a38de60ab332b330ea50adb2f93da6829361efcc2e4
+    observations.csv: d9accd2beac8e0c56521de7203cfeacf37cd78912de8ce1e087be25abee29005
+date: '2026-11-17T01:15:58.641683+00:00'
 raw_response_ref: private/T019/S2_xml.download
 unit_conversions:
 - from_unit: retained PEI mass percent
@@ -32,7 +35,10 @@ unit_conversions:
 derived_sha256: d311dcefe2bf61a32cfa0f118c19fbb8333441fbd268d69f3d64d753254f600a
 status: provisional
 reviewer: null
-corrections: []
+corrections:
+- task: T019b-holdout-fix
+  report: reviews/T019b_holdout_fix.md
+  independent_review_pending: T019v2
 error_estimate:
   u_exp: null
   source_error_bound: <3%, coverage undefined

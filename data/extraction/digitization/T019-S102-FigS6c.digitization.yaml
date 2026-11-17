@@ -18,7 +18,7 @@ y_axis:
   pixel_2: 25
   value_2: 0.2
   scale: linear
-code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+code_version: e57ec8500c89c8d9ca392e57cb0e23a07410c84d6f777b6f79fc385a2db2aac1
 series:
 - name: S102-FigS6c-binary
   data_kind: digitized_markers
@@ -34,6 +34,14 @@ series:
     - 189.0
   - - 750.0
     - 147.0
+  sigma_pixel_policy: conservative series maximum; exact per-point rectangular readout
+    bounds below; CSV u_dig also includes calibration
+  per_point_readout_bound_px:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
   condition:
     material: UiO-66-NH2
     gas: CO2+H2O
@@ -41,13 +49,15 @@ series:
     unit: mmol/g
     basis: unknown
     w_PEI: 0
-    notes: Fig.S6c; preadsorbed H2O=4.1 mol/kg (experimental input); T/RH and total-versus-partial
-      pressure definition unknown
+    notes: 'Fig.S6c; preadsorbed H2O=4.1 mol/kg (experimental input); not_testable:
+      T/RH/basis and total-versus-partial pressure definition unknown; identifiable-marker
+      subset below independent eight-point quota'
   comparable: false
+  inputs_known: false
 overlay: private/T019/T019-S102-FigS6c-overlay.png
 overlay_sha256: 8947fd8f6c08757110c7a4a7ac199e4ff19c7300c713ee327310fdc62caf733f
 export: data/extraction/digitization/T019-S102-FigS6c.csv
-export_sha256: 2a1b041e534dc424224b75643db9736a94a3355f3c3b965d15d6d4939256db2c
+export_sha256: 8c202065328c958312074b7a188ff1135e1d1840fd0715ac0e07a8c2129596df
 params:
   method: green diamond outline correlation, threshold 0.45
   water_loading_mol_kg: 4.1

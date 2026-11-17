@@ -1,0 +1,49 @@
+{
+  "purpose": "T019v2 phase 1: primary sources only; contains no extraction outputs or findings",
+  "sources": [
+    {
+      "source_id": "S113",
+      "url": "https://mdpi-res.com/d_attachment/membranes/membranes-10-00154/article_deploy/membranes-10-00154.pdf",
+      "path": "data/raw/pdf/S113_T019.pdf",
+      "sha256": "4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a",
+      "target": "Fig.5a/b; powder UiO-66; methods"
+    },
+    {
+      "source_id": "S103",
+      "url": "https://www.nature.com/articles/s42004-022-00742-z.pdf",
+      "path": "data/raw/pdf/S103_T019.pdf",
+      "sha256": "402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734",
+      "target": "Fig.2a; all experimental samples and both branches; methods"
+    },
+    {
+      "source_id": "S102",
+      "url": "https://ndownloader.figshare.com/files/30440111",
+      "path": "data/raw/pdf/S102_T019.pdf",
+      "sha256": "1fbbe940f717c6d40e0b261595aa07e91760d045e9149d6dc4338392ab9aec6e",
+      "target": "SI Fig.S6a-c and methods/captions"
+    },
+    {
+      "source_id": "S2_xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6648867/fullTextXML",
+      "path": "private/T019/S2_xml.download",
+      "sha256": "0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574",
+      "target": "JATS tbl1/tbl2 and experimental sections; seek lawful original publisher layout independently"
+    },
+    {
+      "source_id": "S117_SI",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8517963/supplementaryFiles",
+      "path": "data/raw/pdf/S117_SI_T019.pdf",
+      "sha256": "1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4",
+      "target": "SI Fig.S36-S38 and breakthrough methods",
+      "archive_member": "FD-231-D1FD00017A-s001.pdf"
+    }
+  ],
+  "protocol": [
+    "Supervisor supplies only these source files and the task scope in a separate workspace without holdout/extraction/review exports.",
+    "Reviewer independently records source conditions, calibration, symbol coordinates, rejected contours and readout uncertainty; do not request or read T019/T019b/T019v exports yet.",
+    "Seek at least eight distinguishable experimental markers per eligible series, or document source-limited shortfall; never count a line/legend/simulation as an experimental marker.",
+    "Save immutable initial project and a timestamped SHA-256 checkpoint of inputs, algorithm, settings, coordinates and exports. Supervisor retains checkpoint before phase 2.",
+    "Only after checkpoint receive T019b exports and compare. Preserve initial and revised methods separately; label any post-disclosure correction."
+  ],
+  "current_state": "independent checkpoint not yet performed; packet preparation does not confer blind verification"
+}

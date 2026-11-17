@@ -93,3 +93,15 @@ def test_measurement_guard():
     assert require_measurement(record() | {"status": "provisional", "sensitivity_only": True}, allow_provisional=True)
     with pytest.raises(ValueError):
         require_measurement(record() | {"status": "excluded", "sensitivity_only": True}, allow_provisional=True)
+
+
+def test_unpaginated_jats_requires_explicit_locator_and_no_pdf_mapping():
+    xml = record() | dict(pdf_page=None, api_page_map={}, status='provisional', reviewer=None,
+        params=dict(source_format='JATS_XML', source_locator='tbl1', pagination='unpaginated'))
+    assert validate_extraction(xml) is xml
+    for change in [dict(params={}), dict(api_page_map={'1': 1}),
+                   dict(params=xml['params'] | {'source_format': 'PDF'}),
+                   dict(params=xml['params'] | {'source_locator': ''}),
+                   dict(params=xml['params'] | {'pagination': 'unknown'})]:
+        with pytest.raises(jsonschema.ValidationError):
+            validate_extraction(xml | change)

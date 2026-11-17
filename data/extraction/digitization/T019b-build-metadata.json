@@ -1,0 +1,12 @@
+{
+  "task_id": "T019b-holdout-fix",
+  "platform": "OpenAI Codex",
+  "assigned_model": "gpt-6-astra",
+  "assigned_reasoning_effort": "high",
+  "actual_model": "not exposed by session interface",
+  "actual_reasoning_effort": "not exposed by session interface",
+  "extraction_started_utc": "2026-11-17T01:15:58.641683+00:00",
+  "base_commit": "617e6811b02cfd8a81d18f6868be5cf3ec8fccc3",
+  "reviewer": "T019v2",
+  "replay": "Reuse this metadata on replay; date records extraction session, not rebuild time"
+}

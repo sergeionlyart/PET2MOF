@@ -18,7 +18,7 @@ y_axis:
   pixel_2: 13.5
   value_2: 1.6
   scale: linear
-code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+code_version: e57ec8500c89c8d9ca392e57cb0e23a07410c84d6f777b6f79fc385a2db2aac1
 series:
 - name: S113-Fig5a-UiO66
   data_kind: digitized_markers
@@ -42,6 +42,18 @@ series:
     - 105.0
   - - 400.5
     - 96.0
+  sigma_pixel_policy: conservative series maximum; exact per-point rectangular readout
+    bounds below; CSV u_dig also includes calibration
+  per_point_readout_bound_px:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
   condition:
     material: UiO-66
     gas: CO2
@@ -49,16 +61,18 @@ series:
     unit: mmol/g
     basis: dry_sorbent
     T_K: 308.15
-    RH_fraction: 0
+    RH_fraction: ''
     w_PEI: 0
     y_CO2_dry: 1
-    notes: Powder; Fig.5a; activation 120 C for 1 day; dry nominal condition; frame-clipped
-      endpoint retained with 2 px readout bound
+    notes: 'Powder; Fig.5a; activation 120 C for 1 day (section 2.4.1); gas RH not
+      established by activation; not_testable: unknown RH; frame-clipped endpoint
+      retained with 2 px readout bound'
   comparable: true
+  inputs_known: false
 overlay: private/T019/T019-S113-Fig5a-overlay.png
 overlay_sha256: 2d926f2c448c1212f6df910ae23be691562c056e7796424157d19c730950d04a
 export: data/extraction/digitization/T019-S113-Fig5a.csv
-export_sha256: ce3f58023eb99a34390dd627b6254df7b29006d59eacf5fbea3e43d8ee8d4317
+export_sha256: 87c4b4683d709ed40376095fc9634956eb354997b8bb0af2b7b57342f764e58d
 params:
   method: black-mask 2x2 erosion, compact components; partial square translation fit
   recovery:

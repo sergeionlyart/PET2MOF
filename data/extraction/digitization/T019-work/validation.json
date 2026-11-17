@@ -1,92 +1,84 @@
 {
-  "holdout_rows": 230,
-  "numeric_observations": 220,
+  "holdout_rows": 240,
+  "numeric_observations": 230,
   "placeholder_observations": 10,
   "conditions_schema": "exact columns; no observed uptake values",
   "join": "unique and complete",
   "record_checks": [
     {
       "file": "data/extraction/records/T019-S102-FigS6a.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S102-FigS6b.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S102-FigS6c.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S103-Fig2a.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S113-Fig5a.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S113-Fig5b.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S117-FigS37A.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S117-FigS37B.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S117-FigS38A.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S117-FigS38B.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S117-access.yaml",
-      "legacy_schema_valid": true,
+      "schema_valid": true,
       "issues": []
     },
     {
       "file": "data/extraction/records/T019-S2-Table1.yaml",
-      "legacy_schema_valid": false,
-      "issues": [
-        "None is not of type 'integer'"
-      ]
+      "schema_valid": true,
+      "issues": []
     },
     {
       "file": "data/extraction/records/T019-S2-Table2-corrected.yaml",
-      "legacy_schema_valid": false,
-      "issues": [
-        "None is not of type 'integer'"
-      ]
+      "schema_valid": true,
+      "issues": []
     },
     {
       "file": "data/extraction/records/T019-S2-Table2-dry.yaml",
-      "legacy_schema_valid": false,
-      "issues": [
-        "None is not of type 'integer'"
-      ]
+      "schema_valid": true,
+      "issues": []
     },
     {
       "file": "data/extraction/records/T019-S2-moist.yaml",
-      "legacy_schema_valid": false,
-      "issues": [
-        "None is not of type 'integer'"
-      ]
+      "schema_valid": true,
+      "issues": []
     }
   ],
   "projects": [
@@ -111,11 +103,11 @@
     {
       "file": "T019-S103-Fig2a.digitization.yaml",
       "series_points": {
-        "S103-Fig2a-UiO66_100-adsorption": 27,
+        "S103-Fig2a-UiO66_100-adsorption": 33,
         "S103-Fig2a-UiO66_100-desorption": 39,
         "S103-Fig2a-UiO66_160-adsorption": 1,
         "S103-Fig2a-UiO66_160-desorption": 32,
-        "S103-Fig2a-UiO66_220-adsorption": 26,
+        "S103-Fig2a-UiO66_220-adsorption": 30,
         "S103-Fig2a-UiO66_220-desorption": 39
       }
     },
@@ -946,8 +938,8 @@
     }
   ],
   "calibration_pass": true,
-  "known_schema_limit": "four unpaginated S2 XML passports have pdf_page=null; legacy PDF-only schema rejects these intentionally",
-  "scientific_verification": "pending T019v; successful checks do not confer verified status",
-  "conditions_sha256": "b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa",
-  "observations_sha256": "572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb"
+  "schema_contract": "unpaginated JATS requires explicit format, locator, pagination and empty PDF mapping",
+  "scientific_verification": "pending T019v2; successful checks do not confer verified status or resolve source limitations",
+  "conditions_sha256": "468affc9421ce84422015a38de60ab332b330ea50adb2f93da6829361efcc2e4",
+  "observations_sha256": "d9accd2beac8e0c56521de7203cfeacf37cd78912de8ce1e087be25abee29005"
 }

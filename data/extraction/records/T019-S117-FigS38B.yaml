@@ -14,19 +14,22 @@ tool: T019 offline structured XML / image marker extraction
 tool_version: PyMuPDF 1.28.2; scipy 1.18.1
 params:
   script: scripts/extraction/extract_holdout_v1.py
-  script_sha256: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+  script_sha256: e57ec8500c89c8d9ca392e57cb0e23a07410c84d6f777b6f79fc385a2db2aac1
   project: data/extraction/digitization/T019-S117-FigS38B.digitization.yaml
   observable: outlet concentration C/C0, NOT adsorption capacity
   holdout_exports:
-    conditions.csv: b6279612534b0db5efb407a81ea684c32fb2cd47c1ca6577fa43a25416a5f0aa
-    observations.csv: 572b61401a764cb604697cd9975124d6591d3eac457498163016304422be9adb
-date: '2026-11-17T00:42:40.724492+00:00'
+    conditions.csv: 468affc9421ce84422015a38de60ab332b330ea50adb2f93da6829361efcc2e4
+    observations.csv: d9accd2beac8e0c56521de7203cfeacf37cd78912de8ce1e087be25abee29005
+date: '2026-11-17T01:15:58.641683+00:00'
 raw_response_ref: data/raw/pdf/S117_SI_T019.pdf
 unit_conversions: []
-derived_sha256: 27ab9fe29f52c79805517062b4c266cc835e800f98f6f51ffb9263c7af818261
+derived_sha256: ff1852d56574ed73507709e7d630fb1e829ff10f346e6539444b87e8c9a91500
 status: provisional
 reviewer: null
-corrections: []
+corrections:
+- task: T019b-holdout-fix
+  report: reviews/T019b_holdout_fix.md
+  independent_review_pending: T019v2
 error_estimate:
   type: standard k=1
   formula: abs(slope)*sqrt((2^2+(1-t)^2+t^2)/3)

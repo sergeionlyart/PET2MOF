@@ -2,7 +2,7 @@ image_sha256: 9da326830da49fd8bcaf397e7aecdf07d74717b6653514fce92112abc507364b
 image_path: private/T019/S117_native1.png
 pdf_sha256: 1001c3d5dc723cc37aee0d4e91c23a7fc4f43c9d1ca4497fae4c0a51eaaf45e4
 pdf_page: 25
-code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+code_version: e57ec8500c89c8d9ca392e57cb0e23a07410c84d6f777b6f79fc385a2db2aac1
 x_axis:
   pixel_1: 735.5
   value_1: 0
@@ -115,7 +115,7 @@ series:
 overlay: private/T019/T019-S117-FigS38B-overlay.png
 overlay_sha256: 08560ba9f8f8986c4f727c65ce4ae8a3dd89200b762f3a2a4a30ee49f8fe1e9e
 export: data/extraction/digitization/T019-S117-FigS38B.csv
-export_sha256: 27ab9fe29f52c79805517062b4c266cc835e800f98f6f51ffb9263c7af818261
+export_sha256: ff1852d56574ed73507709e7d630fb1e829ff10f346e6539444b87e8c9a91500
 method: purple / blue / green masks; 3x3 erosion removes thin connecting lines and
   hollow N2 symbols; compact filled CO2 components only
 exclusions:

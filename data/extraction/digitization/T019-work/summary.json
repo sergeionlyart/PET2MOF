@@ -11,7 +11,7 @@
   },
   {
     "series": "S103-Fig2a-UiO66_100-adsorption",
-    "points": 27,
+    "points": 33,
     "comparable": true
   },
   {
@@ -22,7 +22,7 @@
   {
     "series": "S103-Fig2a-UiO66_160-adsorption",
     "points": 1,
-    "comparable": true
+    "comparable": false
   },
   {
     "series": "S103-Fig2a-UiO66_160-desorption",
@@ -31,7 +31,7 @@
   },
   {
     "series": "S103-Fig2a-UiO66_220-adsorption",
-    "points": 26,
+    "points": 30,
     "comparable": true
   },
   {
@@ -57,7 +57,7 @@
   {
     "series": "S2 tables (five observable groups)",
     "points": 30,
-    "comparable": "dry/ratios provisional; corrected and moist not comparable"
+    "comparable": "dry/ratios/corrected secondary provisional; capacity inputs unresolved; moist excluded"
   },
   {
     "series": "S117-FigS37A-CO2-breakthrough",

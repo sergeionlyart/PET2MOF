@@ -1,0 +1,41 @@
+{
+  "authority": "D-11 nominal pressures; D-18 no invented experimental uncertainty",
+  "source": "S2 JATS tbl2 and sections 2.2/4.6; original visual layout unavailable",
+  "status": "not_testable_pending_pressure_resolution",
+  "nominal": {
+    "p_total_bar": 1,
+    "dry_p_CO2_bar": 1,
+    "secondary_p_CO2_bar": 0.15,
+    "secondary_y_CO2_dry": 0.15
+  },
+  "sensitivity_scenarios": [
+    {
+      "name": "text_standard_atmosphere_nominal_composition",
+      "p_total_bar": 1.01325,
+      "dry_p_CO2_bar": 1.01325,
+      "secondary_p_CO2_bar": 0.1519875,
+      "secondary_y_CO2_dry": 0.15
+    },
+    {
+      "name": "reported_flow_at_table_pressure",
+      "p_total_bar": 1,
+      "secondary_p_CO2_bar": 0.14285714285714285,
+      "secondary_y_CO2_dry": 0.14285714285714285
+    },
+    {
+      "name": "reported_flow_at_standard_atmosphere",
+      "p_total_bar": 1.01325,
+      "secondary_p_CO2_bar": 0.14475000000000002,
+      "secondary_y_CO2_dry": 0.14285714285714285
+    }
+  ],
+  "interpretation": "alternative source readings, not measurements or a probability distribution; atmospheric pressure was not measured in source; no u_p assigned",
+  "secondary_admission": {
+    "comparable": true,
+    "inputs_known": false,
+    "role": "secondary only per D-11; never pooled with dry primary",
+    "acceptance": "same preregistered metrics/tolerances; no new or relaxed tolerance chosen using V",
+    "pending": "resolve pressure convention, mixed-feed RH and source visual verification before prereg; until then no quantitative admission"
+  },
+  "model_run": false
+}

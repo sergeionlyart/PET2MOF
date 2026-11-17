@@ -1,0 +1,136 @@
+{
+  "base_commit": "617e6811b02cfd8a81d18f6868be5cf3ec8fccc3",
+  "checked_utc": "2026-11-17T01:25:08.589684+00:00",
+  "commands": [
+    {
+      "command": "uv run --locked --no-sync python scripts/extraction/fetch_holdout_v1.py",
+      "exit_code": 0,
+      "log": "private/T019b/final-checks/1.log"
+    },
+    {
+      "command": "uv run --locked --no-sync python scripts/extraction/extract_holdout_v1.py",
+      "exit_code": 0,
+      "log": "private/T019b/final-checks/2.log"
+    },
+    {
+      "command": "uv run --locked --no-sync python scripts/extraction/check_holdout_v1.py",
+      "exit_code": 0,
+      "log": "private/T019b/final-checks/3.log"
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "log": "private/T019b/final-checks/4.log"
+    },
+    {
+      "command": "git diff --exit-code HEAD -- reviews/T019v_holdout_verification.md data/extraction/digitization/T019v-control src configs scripts/predict_holdout.py scripts/validate.py",
+      "exit_code": 0,
+      "log": "private/T019b/final-checks/5.log"
+    }
+  ],
+  "earlier_check": {
+    "command": "make test-ocr",
+    "exit_code": 0,
+    "passed": 82,
+    "deselected": 165,
+    "warnings": "five existing PyMuPDF/SWIG deprecations"
+  },
+  "failed_preliminary_check": {
+    "command": "git diff --check",
+    "exit_code": 2,
+    "reason": "default CSV CRLF flagged as trailing whitespace; fixed by explicit LF writer",
+    "log": "private/T019b/checks/4.log"
+  },
+  "replay": {
+    "byte_identical": true,
+    "files": 41,
+    "sha256": {
+      "data/extraction/digitization/T019-S102-FigS6a.csv": "9f86ca4eec2c1985067407074fab200cd31e1f0636a2c400d24175d712de452a",
+      "data/extraction/digitization/T019-S102-FigS6a.digitization.yaml": "b211a5704b1405b29f126988bef9f6db34a5ac76de2034c0b31fb2b66d0bf4a5",
+      "data/extraction/digitization/T019-S102-FigS6b.csv": "2d2b31ea8e02d9e81494f8613deadfac6c8b4d0241287fe72527228851ad8ecc",
+      "data/extraction/digitization/T019-S102-FigS6b.digitization.yaml": "f925a58cd690d20ffdccb3ef22008159f34bb0029a4284740633aacbcd55f6dd",
+      "data/extraction/digitization/T019-S102-FigS6c.csv": "8c202065328c958312074b7a188ff1135e1d1840fd0715ac0e07a8c2129596df",
+      "data/extraction/digitization/T019-S102-FigS6c.digitization.yaml": "d99a522b95ac56e7470837bd0aed803fd348eb45e6a06f89b703e199d3a2b32f",
+      "data/extraction/digitization/T019-S103-Fig2a.csv": "e636d50374aaf9ef0f6b79032452d729e249ee879b010135147074ba2053fda0",
+      "data/extraction/digitization/T019-S103-Fig2a.digitization.yaml": "24843604b99fd1c120453c97c75702baf928d8892e946dfda443c5c78ace224d",
+      "data/extraction/digitization/T019-S113-Fig5a.csv": "87c4b4683d709ed40376095fc9634956eb354997b8bb0af2b7b57342f764e58d",
+      "data/extraction/digitization/T019-S113-Fig5a.digitization.yaml": "0f76d23ce9d24e91ccf92221586a2599142a73a9fd87c1c4ac6a9b5e4a885c89",
+      "data/extraction/digitization/T019-S113-Fig5b.csv": "7b51032abc4b8a727e4f06968a4b69a8d672fef501ea410dd51c6fc6e4e39c08",
+      "data/extraction/digitization/T019-S113-Fig5b.digitization.yaml": "1b2822b38db8d45d073823060d1a3ddf9ff240e9ad0a5e3a3320727689f7c42e",
+      "data/extraction/digitization/T019-S117-FigS37A.csv": "37267140a3d32e1b6bb6e3615e5ec78f94cbb38e981aa8e503e7fa590cb3aecf",
+      "data/extraction/digitization/T019-S117-FigS37A.digitization.yaml": "7d44d19517f7179aa52dcf1a3478673fd43b7415e608917063376f0ce2d2eeca",
+      "data/extraction/digitization/T019-S117-FigS37B.csv": "44d766ded83a0fa065e3c9bd89b33c5bfed73252486008020b0879241bcfde52",
+      "data/extraction/digitization/T019-S117-FigS37B.digitization.yaml": "6d1cf969a1df268688a0b8da9c4fa45c2eb7b6ec33ac23eec3593217967c4719",
+      "data/extraction/digitization/T019-S117-FigS38A.csv": "a7e17efb65fdb3c323ce7422d82d95a8d0c34b060e5510b0a72ece9827ed97b6",
+      "data/extraction/digitization/T019-S117-FigS38A.digitization.yaml": "38e26ba8f2803a3a6b091e3f6cdec3aae1042778b2df8f697d8031d60de81650",
+      "data/extraction/digitization/T019-S117-FigS38B.csv": "ff1852d56574ed73507709e7d630fb1e829ff10f346e6539444b87e8c9a91500",
+      "data/extraction/digitization/T019-S117-FigS38B.digitization.yaml": "7707d7c05393013d58ac73bf7baeaedcbf6232537c8b0799a4144d7a7e529773",
+      "data/extraction/digitization/T019-work/summary.json": "050e29bb4c26dd997c73b837a66166a45fef99dc73091667ceeefa4578a7a9a1",
+      "data/extraction/digitization/T019-work/validation.json": "b792b70d86ead0f0871e2e06fb84153c99770f23655a4488e8906f919325896a",
+      "data/extraction/digitization/T019b-S2-pressure-policy.json": "554f398646b40410547de80ebab8f04de4a125b17b7378f91069569ec5798623",
+      "data/extraction/digitization/T019b-series-status.json": "c1e1a4f1670eeded7f1fd611ce31997a27823508ba31fedb07f36af765dabe0a",
+      "data/extraction/records/T019-S102-FigS6a.yaml": "a409c3bd6083492545e1119406c3c9337a99d499fc5d017eaf32fd442793f9e5",
+      "data/extraction/records/T019-S102-FigS6b.yaml": "6c0942b3005eb6ace4665526fa25aef5ea3f762ce25770f33939459393fe01aa",
+      "data/extraction/records/T019-S102-FigS6c.yaml": "1ed868dd19ce8ee8b2812fdfca8c6110afa3fb2eee39f575e390b547bbf9d5a0",
+      "data/extraction/records/T019-S103-Fig2a.yaml": "ef50b146c5dc615b215b9923376d94faa54a4d71493a07205fd72b2e66fc5da1",
+      "data/extraction/records/T019-S113-Fig5a.yaml": "157a206d5a6f1c253c7deb99ff3b842c22fe454ffb7970169816940ed256dd14",
+      "data/extraction/records/T019-S113-Fig5b.yaml": "3db90f55da1f368c5bab900e8f406c3911a805fc74c4bff4eefc7b76fd6b675d",
+      "data/extraction/records/T019-S117-FigS37A.yaml": "0816e0d94be393ff752d9cdfa8f27de563eafe9449b90a717f63b7769bb8d30d",
+      "data/extraction/records/T019-S117-FigS37B.yaml": "7b4a508ce17ef957784982714c8042e5c496acf229c75f1539eb407b29f16fa5",
+      "data/extraction/records/T019-S117-FigS38A.yaml": "d84f1b2dacecd734ebffe7d30e9bf684af5aba8e11ad8fe10c31a791e07da063",
+      "data/extraction/records/T019-S117-FigS38B.yaml": "d571188a4bb1d98c846466f042bc7fc6041a344a49146a69dc042a3785a6b73e",
+      "data/extraction/records/T019-S117-access.yaml": "6b9bf9709c82fcc8085c73902937722fd321aaf7545863076c4384ddb0643785",
+      "data/extraction/records/T019-S2-Table1.yaml": "c10e8e270bc66274a254e8e75c6aff4f0b9e4ef2055ae8d2700e01f22984113e",
+      "data/extraction/records/T019-S2-Table2-corrected.yaml": "4d6a3038b3649d0a8d7266c47ad111a62e6f6b407db699923a692bb58b8fedca",
+      "data/extraction/records/T019-S2-Table2-dry.yaml": "c94a113e6b3091f7a28ea186f70f16a4acd34aa41c8c5563422dc8c1059a6095",
+      "data/extraction/records/T019-S2-moist.yaml": "83a8ecba49896091c3e46c2eefd8e2abeebcb6070925ce98206d0c95d8051bb0",
+      "holdout/v1/conditions.csv": "468affc9421ce84422015a38de60ab332b330ea50adb2f93da6829361efcc2e4",
+      "holdout/v1/observations.csv": "d9accd2beac8e0c56521de7203cfeacf37cd78912de8ce1e087be25abee29005"
+    }
+  },
+  "scope": "local extraction/schema only; no model prediction, validation, commit, stage or push",
+  "independent_verification": "pending T019v2",
+  "source_row_preservation": [
+    {
+      "file": "data/extraction/digitization/T019-S103-Fig2a.csv",
+      "result": "all prior source coordinates and values retained; own partial markers added; point IDs reordered by x"
+    },
+    {
+      "file": "data/extraction/digitization/T019-S117-FigS38A.csv",
+      "result": "all source rows unchanged apart from CSV line endings"
+    },
+    {
+      "file": "data/extraction/digitization/T019-S117-FigS38B.csv",
+      "result": "all source rows unchanged apart from CSV line endings"
+    },
+    {
+      "file": "data/extraction/digitization/T019-S117-FigS37A.csv",
+      "result": "all source rows unchanged apart from CSV line endings"
+    },
+    {
+      "file": "data/extraction/digitization/T019-S117-FigS37B.csv",
+      "result": "all source rows unchanged apart from CSV line endings"
+    },
+    {
+      "file": "data/extraction/digitization/T019-S113-Fig5b.csv",
+      "result": "all source rows unchanged apart from CSV line endings"
+    },
+    {
+      "file": "data/extraction/digitization/T019-S113-Fig5a.csv",
+      "result": "all source rows unchanged apart from CSV line endings"
+    },
+    {
+      "file": "data/extraction/digitization/T019-S102-FigS6c.csv",
+      "result": "all source rows unchanged apart from CSV line endings"
+    },
+    {
+      "file": "data/extraction/digitization/T019-S102-FigS6b.csv",
+      "result": "all source rows unchanged apart from CSV line endings"
+    },
+    {
+      "file": "data/extraction/digitization/T019-S102-FigS6a.csv",
+      "result": "all source rows unchanged apart from CSV line endings"
+    }
+  ],
+  "final_report_diff_check_exit_code": 0
+}

@@ -1,0 +1,71 @@
+{
+  "rendering": "PyMuPDF 1.28.2; source page renders and native images, no synthetic original layout",
+  "visual_checks": [
+    {
+      "source_id": "S103",
+      "pdf_page": 3,
+      "image": "private/T019/S103_page3.png",
+      "image_sha256": "2050eb9712fd55af339c2b9c69d3df5b1f0112598bee00544e638c428aabdd29",
+      "scope": "Fig.2a experimental branch legend and axes",
+      "review": "visually inspected by T019b extractor; not independent verification"
+    },
+    {
+      "source_id": "S103",
+      "pdf_page": 7,
+      "image": "private/T019b/S103-methods.png",
+      "image_sha256": "b9011cd53de51bc0e86ca02ab6320742698c8309a2655504ebf54288453d4ee5",
+      "scope": "activation stated; gas RH not specified",
+      "review": "visually inspected by T019b extractor; not independent verification"
+    },
+    {
+      "source_id": "S113",
+      "pdf_page": 9,
+      "image": "private/T019/S113_page9.png",
+      "image_sha256": "36d901568a7cc04a67d049e867a8c3237480ec6c542001597945ff7501ef87fd",
+      "scope": "Fig.5a/b source page",
+      "review": "visually inspected by T019b extractor; not independent verification"
+    },
+    {
+      "source_id": "S113",
+      "pdf_page": 4,
+      "image": "private/T019b/S113-methods.png",
+      "image_sha256": "6ce83c64b4e8dd24bbe908678b6eb421e5832a06b699109b899d3598d5803499",
+      "scope": "section 2.4.1 activation and measurement conditions",
+      "review": "visually inspected by T019b extractor; not independent verification"
+    },
+    {
+      "source_id": "S102",
+      "pdf_page": 5,
+      "image": "private/T019/S102_page5.png",
+      "image_sha256": "e771ac60beb87589d8c23d2caa16bcc1dbff888c158566f2740da8bb1c618f99",
+      "scope": "binary experimental diamonds; lines and IAST not observations",
+      "review": "visually inspected by T019b extractor; not independent verification"
+    },
+    {
+      "source_id": "S117",
+      "pdf_page": 25,
+      "image": "private/T019b/S117-page25.png",
+      "image_sha256": "0feb13455015226f39563981ffe85fccbbbd7c3a8192454b364916f2febb2cf6",
+      "scope": "S36-S38: legends, material identity, time and concentration axes",
+      "review": "visually inspected by T019b extractor; not independent verification"
+    },
+    {
+      "source_id": "S117",
+      "pdf_page": 6,
+      "image": "private/T019b/S117-page6.png",
+      "image_sha256": "be0c59051bffc9f29da5421d7e218a12fa46d3902986a3caafd68d729bc4644a",
+      "scope": "blank-reference and experimental integral method",
+      "review": "visually inspected by T019b extractor; not independent verification"
+    }
+  ],
+  "S2": "JATS header/footer, table-name join and method sections re-read; original visual layout inaccessible; provisional",
+  "S102": "main PDF 403; missing Fig.S6 conditions not inferred from Fig.S7",
+  "partial_recovery": {
+    "initial_threshold": 0.82,
+    "final_threshold": 0.65,
+    "change_basis": "source-contour inspection only; no reviewer coordinates or model residuals",
+    "readout_bound_px": 3,
+    "reason": "conservative envelope for anti-aliasing and partly overwritten boundary; standard u uses independent rectangular readout/calibration; no protocol floor"
+  },
+  "blind_independent_verification": false
+}

@@ -18,12 +18,14 @@ y_axis:
   pixel_2: 12.5
   value_2: 90
   scale: linear
-code_version: 90344528c77ef175dfa5ffe8991822dc7930862c49f18f45e5552c89b5965d79
+code_version: e57ec8500c89c8d9ca392e57cb0e23a07410c84d6f777b6f79fc385a2db2aac1
 series:
 - name: S103-Fig2a-UiO66_100-adsorption
   data_kind: digitized_markers
-  sigma_pixel: 1.1547005383792517
+  sigma_pixel: 1.7320508075688774
   pixels:
+  - - 209.5
+    - 455.5
   - - 222.5
     - 444.5
   - - 236.5
@@ -74,10 +76,56 @@ series:
     - 207.5
   - - 551.5
     - 198.5
+  - - 565.5
+    - 189.5
   - - 578.5
     - 182.5
+  - - 592.5
+    - 173.5
+  - - 606.5
+    - 165.5
+  - - 619.5
+    - 158.5
+  - - 633.5
+    - 149.5
   - - 685.5
     - 120.5
+  sigma_pixel_policy: conservative series maximum; exact per-point rectangular readout
+    bounds below; CSV u_dig also includes calibration
+  per_point_readout_bound_px:
+  - 3
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 3
+  - 2
+  - 3
+  - 3
+  - 3
+  - 3
+  - 2
   condition:
     material: UiO-66
     gas: CO2
@@ -85,13 +133,15 @@ series:
     unit: mmol/g
     basis: dry_sorbent
     T_K: 300.15
-    RH_fraction: 0
+    RH_fraction: ''
     w_PEI: 0
     y_CO2_dry: 1
-    notes: UiO-66_100; adsorption; activation vacuum 100 C 8 h; STP conversion follows
-      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
-      lineage
+    notes: 'UiO-66_100; adsorption; partial identifiable-marker subset only; not a
+      complete isotherm; not_testable: unknown RH; Methods p.7: activation vacuum
+      100 C 8 h does not establish gas RH; STP conversion follows docs/methodology.md
+      (273.15 K, 101.325 kPa); S103/S106 potential common synthesis lineage'
   comparable: true
+  inputs_known: false
 - name: S103-Fig2a-UiO66_100-desorption
   data_kind: digitized_markers
   sigma_pixel: 1.1547005383792517
@@ -174,6 +224,48 @@ series:
     - 131.0
   - - 674.0
     - 126.0
+  sigma_pixel_policy: conservative series maximum; exact per-point rectangular readout
+    bounds below; CSV u_dig also includes calibration
+  per_point_readout_bound_px:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
   condition:
     material: UiO-66
     gas: CO2
@@ -181,19 +273,25 @@ series:
     unit: mmol/g
     basis: dry_sorbent
     T_K: 300.15
-    RH_fraction: 0
+    RH_fraction: ''
     w_PEI: 0
     y_CO2_dry: 1
-    notes: UiO-66_100; desorption; activation vacuum 100 C 8 h; STP conversion follows
-      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
-      lineage
+    notes: 'UiO-66_100; desorption; excluded: desorption branch outside adsorption
+      comparison; Methods p.7: activation vacuum 100 C 8 h does not establish gas
+      RH; STP conversion follows docs/methodology.md (273.15 K, 101.325 kPa); S103/S106
+      potential common synthesis lineage'
   comparable: false
+  inputs_known: false
 - name: S103-Fig2a-UiO66_160-adsorption
   data_kind: digitized_markers
   sigma_pixel: 1.1547005383792517
   pixels:
   - - 685.5
     - 228.0
+  sigma_pixel_policy: conservative series maximum; exact per-point rectangular readout
+    bounds below; CSV u_dig also includes calibration
+  per_point_readout_bound_px:
+  - 2
   condition:
     material: UiO-66
     gas: CO2
@@ -201,13 +299,15 @@ series:
     unit: mmol/g
     basis: dry_sorbent
     T_K: 300.15
-    RH_fraction: 0
+    RH_fraction: ''
     w_PEI: 0
     y_CO2_dry: 1
-    notes: UiO-66_160; adsorption; activation vacuum 100 C 8 h; STP conversion follows
-      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
-      lineage
-  comparable: true
+    notes: 'UiO-66_160; adsorption; excluded: endpoint only; not a complete isotherm
+      test; independent eight-point quota not met; Methods p.7: activation vacuum
+      100 C 8 h does not establish gas RH; STP conversion follows docs/methodology.md
+      (273.15 K, 101.325 kPa); S103/S106 potential common synthesis lineage'
+  comparable: false
+  inputs_known: false
 - name: S103-Fig2a-UiO66_160-desorption
   data_kind: digitized_markers
   sigma_pixel: 1.1547005383792517
@@ -276,6 +376,41 @@ series:
     - 236.0
   - - 673.0
     - 232.0
+  sigma_pixel_policy: conservative series maximum; exact per-point rectangular readout
+    bounds below; CSV u_dig also includes calibration
+  per_point_readout_bound_px:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
   condition:
     material: UiO-66
     gas: CO2
@@ -283,16 +418,18 @@ series:
     unit: mmol/g
     basis: dry_sorbent
     T_K: 300.15
-    RH_fraction: 0
+    RH_fraction: ''
     w_PEI: 0
     y_CO2_dry: 1
-    notes: UiO-66_160; desorption; activation vacuum 100 C 8 h; STP conversion follows
-      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
-      lineage
+    notes: 'UiO-66_160; desorption; excluded: desorption branch outside adsorption
+      comparison; Methods p.7: activation vacuum 100 C 8 h does not establish gas
+      RH; STP conversion follows docs/methodology.md (273.15 K, 101.325 kPa); S103/S106
+      potential common synthesis lineage'
   comparable: false
+  inputs_known: false
 - name: S103-Fig2a-UiO66_220-adsorption
   data_kind: digitized_markers
-  sigma_pixel: 1.1547005383792517
+  sigma_pixel: 1.7320508075688774
   pixels:
   - - 152.5
     - 533.5
@@ -342,10 +479,51 @@ series:
     - 336.5
   - - 470.5
     - 330.5
+  - - 484.5
+    - 324.5
   - - 497.5
     - 318.5
+  - - 511.5
+    - 312.5
+  - - 538.5
+    - 301.5
+  - - 552.5
+    - 295.5
   - - 686.5
     - 244.5
+  sigma_pixel_policy: conservative series maximum; exact per-point rectangular readout
+    bounds below; CSV u_dig also includes calibration
+  per_point_readout_bound_px:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 3
+  - 2
+  - 3
+  - 3
+  - 3
+  - 2
   condition:
     material: UiO-66
     gas: CO2
@@ -353,13 +531,15 @@ series:
     unit: mmol/g
     basis: dry_sorbent
     T_K: 300.15
-    RH_fraction: 0
+    RH_fraction: ''
     w_PEI: 0
     y_CO2_dry: 1
-    notes: UiO-66_220; adsorption; activation vacuum 100 C 8 h; STP conversion follows
-      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
-      lineage
+    notes: 'UiO-66_220; adsorption; partial identifiable-marker subset only; not a
+      complete isotherm; not_testable: unknown RH; Methods p.7: activation vacuum
+      100 C 8 h does not establish gas RH; STP conversion follows docs/methodology.md
+      (273.15 K, 101.325 kPa); S103/S106 potential common synthesis lineage'
   comparable: true
+  inputs_known: false
 - name: S103-Fig2a-UiO66_220-desorption
   data_kind: digitized_markers
   sigma_pixel: 1.1547005383792517
@@ -442,6 +622,48 @@ series:
     - 253.0
   - - 673.0
     - 249.0
+  sigma_pixel_policy: conservative series maximum; exact per-point rectangular readout
+    bounds below; CSV u_dig also includes calibration
+  per_point_readout_bound_px:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
   condition:
     material: UiO-66
     gas: CO2
@@ -449,37 +671,118 @@ series:
     unit: mmol/g
     basis: dry_sorbent
     T_K: 300.15
-    RH_fraction: 0
+    RH_fraction: ''
     w_PEI: 0
     y_CO2_dry: 1
-    notes: UiO-66_220; desorption; activation vacuum 100 C 8 h; STP conversion follows
-      docs/methodology.md (273.15 K, 101.325 kPa); S103/S106 potential common synthesis
-      lineage
+    notes: 'UiO-66_220; desorption; excluded: desorption branch outside adsorption
+      comparison; Methods p.7: activation vacuum 100 C 8 h does not establish gas
+      RH; STP conversion follows docs/methodology.md (273.15 K, 101.325 kPa); S103/S106
+      potential common synthesis lineage'
   comparable: false
+  inputs_known: false
 overlay: private/T019/T019-S103-Fig2a-overlay.png
-overlay_sha256: a4c88dfde80e00fa7b05d4fbcd0023ba72845c5175ce8ffac6fa00de91a18d15
+overlay_sha256: 327951f9f24c3d08ce519de8988a9377660ad287656e42909ad98d705c0c7a54
 export: data/extraction/digitization/T019-S103-Fig2a.csv
-export_sha256: 758efe14caea65f9250012f86ef7b690b3502afac710222bc18927e55a3c9ec9
+export_sha256: e636d50374aaf9ef0f6b79032452d729e249ee879b010135147074ba2053fda0
 params:
   method: native-legend filled templates; geometric hollow templates; source-color
     masks
   filled_agreement_min: 0.8
-  legend_windows:
-    orange:
+  partial_recovery:
+  - series: 100-adsorption
+    template_window: &id001
     - 522
     - 455
     - 538
     - 470
+    template_shape:
+    - 14
+    - 14
+    method: lower-half filled silhouette plus negative exterior weights
+    padding_px: 3
+    threshold: 0.65
+    minimum_separation_px: 10
+    duplicate_radius_px: 8
+    visible_source_review: accepted lower contours checked on native source overlay
+      in T019b
+    recovered:
+    - pixel:
+      - 209.5
+      - 455.5
+      score: 0.6830698623151454
+      readout_bound_px: 3
+    - pixel:
+      - 565.5
+      - 189.5
+      score: 0.7519122896481387
+      readout_bound_px: 3
+    - pixel:
+      - 592.5
+      - 173.5
+      score: 0.8207547169811322
+      readout_bound_px: 3
+    - pixel:
+      - 606.5
+      - 165.5
+      score: 0.7154513003569608
+      readout_bound_px: 3
+    - pixel:
+      - 619.5
+      - 158.5
+      score: 0.7371239163691994
+      readout_bound_px: 3
+    - pixel:
+      - 633.5
+      - 149.5
+      score: 0.7789393166751659
+      readout_bound_px: 3
+    coverage: partial; no claim of a complete isotherm
+  - series: 220-adsorption
+    template_window: &id002
+    - 520
+    - 520
+    - 540
+    - 537
+    template_shape:
+    - 14
+    - 18
+    method: lower-half filled silhouette plus negative exterior weights
+    padding_px: 3
+    threshold: 0.65
+    minimum_separation_px: 10
+    duplicate_radius_px: 8
+    visible_source_review: accepted lower contours checked on native source overlay
+      in T019b
+    recovered:
+    - pixel:
+      - 484.5
+      - 324.5
+      score: 0.6723792953458027
+      readout_bound_px: 3
+    - pixel:
+      - 511.5
+      - 312.5
+      score: 0.7039582427142236
+      readout_bound_px: 3
+    - pixel:
+      - 538.5
+      - 301.5
+      score: 0.6709003914745542
+      readout_bound_px: 3
+    - pixel:
+      - 552.5
+      - 295.5
+      score: 0.6543714658547194
+      readout_bound_px: 3
+    coverage: partial; no claim of a complete isotherm
+  legend_windows:
+    orange: *id001
     teal:
     - 523
     - 489
     - 536
     - 503
-    red:
-    - 520
-    - 520
-    - 540
-    - 537
+    red: *id002
   teal_open_search:
   - window:
     - 150
@@ -878,65 +1181,11 @@ params:
   scale_note: negative lower frame extension inferred from evenly spaced ticks; axis
     values checked on source page
 excluded:
-- series: 100-adsorption
-  pixel:
-  - 208
-  - 456
-  score: 0.47435897435897456
-  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
-- series: 100-adsorption
-  pixel:
-  - 565
-  - 190
-  score: 0.7307692307692307
-  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
-- series: 100-adsorption
-  pixel:
-  - 593
-  - 174
-  score: 0.6282051282051282
-  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
-- series: 100-adsorption
-  pixel:
-  - 606
-  - 166
-  score: 0.46153846153846156
-  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
-- series: 100-adsorption
-  pixel:
-  - 620
-  - 159
-  score: 0.5256410256410253
-  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
-- series: 220-adsorption
-  pixel:
-  - 484
-  - 325
-  score: 0.7692307692307695
-  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
-- series: 220-adsorption
-  pixel:
-  - 512
-  - 313
-  score: 0.7538461538461538
-  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
 - series: 220-adsorption
   pixel:
   - 525
   - 307
   score: 0.646153846153846
-  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
-- series: 220-adsorption
-  pixel:
-  - 539
-  - 302
-  score: 0.7538461538461538
-  reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
-- series: 220-adsorption
-  pixel:
-  - 547
-  - 296
-  score: 0.6307692307692307
   reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
 - series: 220-adsorption
   pixel:
@@ -964,9 +1213,9 @@ excluded:
   reason: native filled-symbol agreement <0.8; partial overprint, no reconstruction
 - region: native x <150 px / low pressure cluster
   reason: overprinted symbols; cannot resolve individual series; no zero inserted
-- region: filled teal squares and high-pressure filled orange/red
-  reason: many are hidden by open symbols or foreground triangles; only >=0.8 shape
-    matches retained; lower coverage is extraction limitation, not absence of measurements
+- region: unresolved filled teal squares and remaining partial orange/red contours
+  reason: only identifiable full or lower-silhouette matches retained; incompleteness
+    is not absence of measurements; no full-isotherm claim
 uncertainty:
   type: standard (k=1)
   formula: abs(slope)*sqrt((readout_bound_px^2 + (1-t)^2 + t^2)/3)

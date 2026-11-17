@@ -1,0 +1,131 @@
+[
+  {
+    "source_id": "S113",
+    "url": "https://mdpi-res.com/d_attachment/membranes/membranes-10-00154/article_deploy/membranes-10-00154.pdf",
+    "path": "data/raw/pdf/S113_T019.pdf",
+    "exit_code": 0,
+    "http_status": "200",
+    "bytes": 1876966,
+    "sha256": "4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a",
+    "valid_pdf": true,
+    "expected_sha256": "4d42a0cf9df3dcb7f8955878c437d21d41d83f250438ce0abc518187232b576a",
+    "date": "2026-11-17T01:11:14.553023+00:00"
+  },
+  {
+    "source_id": "S103",
+    "url": "https://www.nature.com/articles/s42004-022-00742-z.pdf",
+    "path": "data/raw/pdf/S103_T019.pdf",
+    "exit_code": 0,
+    "http_status": "200",
+    "bytes": 2400266,
+    "sha256": "402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734",
+    "valid_pdf": true,
+    "expected_sha256": "402578db1b4aa664f9f462ba9a4bb700ead4243c82a1aa55330d61d2a5ad9734",
+    "date": "2026-11-17T01:11:15.471996+00:00"
+  },
+  {
+    "source_id": "S102",
+    "url": "https://ndownloader.figshare.com/files/30440111",
+    "path": "data/raw/pdf/S102_T019.pdf",
+    "exit_code": 0,
+    "http_status": "200",
+    "bytes": 1210389,
+    "sha256": "1fbbe940f717c6d40e0b261595aa07e91760d045e9149d6dc4338392ab9aec6e",
+    "valid_pdf": true,
+    "expected_sha256": "1fbbe940f717c6d40e0b261595aa07e91760d045e9149d6dc4338392ab9aec6e",
+    "date": "2026-11-17T01:11:16.517300+00:00"
+  },
+  {
+    "source_id": "S2_xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6648867/fullTextXML",
+    "path": "private/T019/S2_xml.download",
+    "exit_code": 0,
+    "http_status": "200",
+    "bytes": 130747,
+    "sha256": "0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574",
+    "valid_pdf": false,
+    "expected_sha256": "0abfc9634b9a3192be44894af38d20eb9aa4875cf602f38e4f39b19c36fcd574",
+    "date": "2026-11-17T01:11:19.069158+00:00"
+  },
+  {
+    "source_id": "S117_repository",
+    "url": "https://researchrepository.ul.ie/bitstreams/e907b021-9235-4dce-b7b7-dbc94b6aa9e9/download",
+    "path": "private/T019/S117_repository.download",
+    "exit_code": 0,
+    "http_status": "200",
+    "bytes": 849393,
+    "sha256": "3900db30ccce95eaea1defbb609914e8d361012ccd43091c86be0a2c1c1c9918",
+    "valid_pdf": true,
+    "expected_sha256": "e696c08afcdcfc109b83928fe5731627e9114dca7e5dfee2381098b798bcc0e9",
+    "date": "2026-11-17T01:11:21.395311+00:00"
+  },
+  {
+    "source_id": "S117_supplementary",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8517963/supplementaryFiles",
+    "path": "private/T019/S117_supplementary.download",
+    "exit_code": 0,
+    "http_status": "200",
+    "bytes": 2158252,
+    "sha256": "c3afd9620f01c54e4ad93c7712c14b54f02695716c0a15a38767708c645cf158",
+    "valid_pdf": false,
+    "expected_sha256": "f3c1bf0b6564274d904e3cad935ae65f85e87ad1303a1a0c5ec69d1cc0806004",
+    "date": "2026-11-17T01:11:37.537517+00:00"
+  },
+  {
+    "source_id": "S2_PDF_retry",
+    "url": "https://pubs.acs.org/doi/pdf/10.1021/acsomega.8b02319",
+    "path": "private/T019b/S2-original.pdf",
+    "exit_code": 0,
+    "http_status": "403",
+    "bytes": 5467,
+    "sha256": "d80edf5350a75dff692f9200b27606cd32d32408d5ab393c376ccf88c3e46e13",
+    "valid_pdf": false,
+    "expected_sha256": null,
+    "date": "2026-11-17T01:11:14.756348+00:00"
+  },
+  {
+    "source_id": "S102_main",
+    "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.langmuir.1c01149",
+    "path": "private/T019b/S102-main.pdf",
+    "exit_code": 0,
+    "http_status": "403",
+    "bytes": 5479,
+    "sha256": "543a1ad56759e32001f91fd32b15bc80140d257145f9c8be810ac9eddd68d824",
+    "valid_pdf": false,
+    "expected_sha256": null,
+    "date": "2026-11-17T01:11:14.840025+00:00"
+  },
+  {
+    "source_id": "S2_EPMC_pdf",
+    "url": "https://europepmc.org/articles/PMC6648867?pdf=render",
+    "path": "private/T019b/S2_EPMC_pdf.download",
+    "http_status": "403",
+    "exit_code": 0,
+    "bytes": 5519,
+    "sha256": "2240c980de6de2c2ce95667af289fd0abf1d8868b864e5bbc0ff8c5e6f2b20ec",
+    "valid_pdf": false,
+    "date": "2026-11-17T01:12:57.474448+00:00"
+  },
+  {
+    "source_id": "S2_OA_metadata",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC6648867",
+    "path": "private/T019b/S2_OA_metadata.download",
+    "http_status": "404",
+    "exit_code": 0,
+    "bytes": 1584,
+    "sha256": "fd8d394312c016e0f1f8379476fd8e0e65fae62f96bbaa277766aab191e54ace",
+    "valid_pdf": false,
+    "date": "2026-11-17T01:12:58.391101+00:00"
+  },
+  {
+    "source_id": "S2_publisher_html",
+    "url": "https://pubs.acs.org/doi/10.1021/acsomega.8b02319",
+    "path": "private/T019b/S2_publisher_html.download",
+    "http_status": "403",
+    "exit_code": 0,
+    "bytes": 5455,
+    "sha256": "b93a8179a1faedf4628f10ee9d9b88ac5d152d50628627d8eb886a4a36e99736",
+    "valid_pdf": false,
+    "date": "2026-11-17T01:12:57.344596+00:00"
+  }
+]

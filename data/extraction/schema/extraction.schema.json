@@ -9,7 +9,7 @@
     "doi": {"type": ["string", "null"]},
     "url": {"type": ["string", "null"]},
     "input_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
-    "pdf_page": {"type": "integer", "minimum": 1},
+    "pdf_page": {"type": ["integer", "null"], "minimum": 1},
     "api_page_map": {"type": "object", "propertyNames": {"pattern": "^[1-9][0-9]*$"}, "additionalProperties": {"type": "integer", "minimum": 1}},
     "figure_or_table": {"type": ["string", "null"]},
     "region": {"type": ["object", "null"]},
@@ -31,7 +31,21 @@
     {"properties": {"doi": {"type": "string", "minLength": 1}}},
     {"properties": {"url": {"type": "string", "minLength": 1}}}
   ],
-  "allOf": [{"if": {"properties": {"status": {"const": "verified"}}},
-             "then": {"properties": {"reviewer": {"type": "string", "minLength": 1}}}}],
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "verified"}}},
+     "then": {"properties": {"reviewer": {"type": "string", "minLength": 1}}}},
+    {"if": {"properties": {"pdf_page": {"type": "null"}}},
+     "then": {"properties": {
+       "api_page_map": {"maxProperties": 0},
+       "params": {
+         "required": ["source_format", "source_locator", "pagination"],
+         "properties": {
+           "source_format": {"const": "JATS_XML"},
+           "source_locator": {"type": "string", "minLength": 1},
+           "pagination": {"const": "unpaginated"}
+         }
+       }
+     }}}
+  ],
   "additionalProperties": false
 }
