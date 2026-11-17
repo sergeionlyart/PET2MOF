@@ -1,0 +1,75 @@
+{
+  "extraction_id": "T014-S106-Qwater",
+  "source_id": "S106",
+  "doi": "10.1016/j.micromeso.2021.111555",
+  "locator": "Table 2, article p.7 / repository PDF p.8; §3",
+  "conditions": {
+    "T": "293.15 K simulation setting (Fig.8); zero coverage heat from Widom insertion",
+    "RH": "zero coverage; not a finite-RH step-shift measurement",
+    "material": "six modeled UiO-66 defect/charge structures, Table 2",
+    "PEI_Mw": "not applicable",
+    "method": "RASPA MC / Widom; TIP4P-Ew, retuned charges; §3",
+    "activation": "not applicable to computed structures"
+  },
+  "limitations": [
+    "Zero-coverage simulated adsorption heat does not identify effective Q_W of the cooperative water step.",
+    "Charge model was chosen against water data; not independent experimental calorimetry."
+  ],
+  "quantities": {
+    "zero_coverage_heats": {
+      "value": [
+        46.51,
+        50.7,
+        51.69,
+        52.91,
+        54.2,
+        57.71
+      ],
+      "unit": "kJ/mol H2O",
+      "type": "literature_range",
+      "source_id": "S106",
+      "extraction_id": "T014-S106-Qwater",
+      "status": "provisional",
+      "evidence_kind": "simulation",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "293.15 K simulation setting (Fig.8); zero coverage heat from Widom insertion",
+        "RH": "zero coverage; not a finite-RH step-shift measurement",
+        "material": "six modeled UiO-66 defect/charge structures, Table 2",
+        "PEI_Mw": "not applicable",
+        "method": "RASPA MC / Widom; TIP4P-Ew, retuned charges; §3",
+        "activation": "not applicable to computed structures"
+      },
+      "locator": "Table 2, article p.7 / repository PDF p.8; §3",
+      "limitations": "Zero-coverage simulated adsorption heat does not identify effective Q_W of the cooperative water step.; Charge model was chosen against water data; not independent experimental calorimetry.",
+      "evidence_ref": "data/extraction/T014/T014-S106-Qwater.json#/quantities/zero_coverage_heats"
+    },
+    "Q_water_simulation": {
+      "range": [
+        46510,
+        57710
+      ],
+      "unit": "J/mol",
+      "type": "derived",
+      "source_id": "S106",
+      "extraction_id": "T014-S106-Qwater",
+      "status": "provisional",
+      "evidence_kind": "simulation",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "293.15 K simulation setting (Fig.8); zero coverage heat from Widom insertion",
+        "RH": "zero coverage; not a finite-RH step-shift measurement",
+        "material": "six modeled UiO-66 defect/charge structures, Table 2",
+        "PEI_Mw": "not applicable",
+        "method": "RASPA MC / Widom; TIP4P-Ew, retuned charges; §3",
+        "activation": "not applicable to computed structures"
+      },
+      "locator": "Table 2, article p.7 / repository PDF p.8; §3",
+      "limitations": "Min/max * 1000. Context only; not a replacement for Q_W or mean water desorption heat.",
+      "evidence_ref": "data/extraction/T014/T014-S106-Qwater.json#/quantities/Q_water_simulation",
+      "derived_from": [
+        "zero_coverage_heats"
+      ]
+    }
+  }
+}

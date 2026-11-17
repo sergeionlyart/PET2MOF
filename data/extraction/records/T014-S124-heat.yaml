@@ -1,0 +1,34 @@
+extraction_id: T014-S124-heat
+source_id: S124
+doi: 10.3390/ma11060887
+url: https://mdpi-res.com/d_attachment/materials/materials-11-00887/article_deploy/materials-11-00887.pdf
+input_sha256: 8fa2dee9b43718b833bd0254784ca00a06ba10c6f4e48f9624f92bb7a22a0f93
+pdf_page: 9
+api_page_map:
+  '1': 9
+figure_or_table: p.9 text above Fig.5; Table 7 p.13 is a separate representative heat
+region:
+  render: private/T014/S124-p9.png
+  render_sha256: b63b68748ab750a79e54f14736a712a94ecbfe96cdd1e4b82ba27d07bdde6139
+  visual_check: T014 author checked; independent review pending
+tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
+tool_version: PyMuPDF 1.28.2; T014-v1
+params:
+  input_ref: private/T014/S124.pdf
+  output_ref: data/extraction/T014/T014-S124-heat.json
+  page_note: PDF index is one-based, including repository cover page when present.
+  interpretation: No plot coordinates inferred; printed numbers only.
+  additional_render: private/T014/S124-p13.png
+  additional_render_sha256: b61ed8fbcd73d39e1c570890f11bc9c1e8127964b23b9ddba75cbb7201619c97
+date: '2026-11-16T23:59:48.788477+00:00'
+raw_response_ref: private/T014/S124.pdf
+unit_conversions:
+- operation: kJ/mol * 1000 = J/mol, positive magnitude
+derived_sha256: fc6fce111385cf334117cf3ea70f2243954e80c134e82d1c74d2cc48eb76beb7
+status: provisional
+reviewer: null
+corrections: []
+error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
+  interval.
+data_kind: text_value
+sensitivity_only: true

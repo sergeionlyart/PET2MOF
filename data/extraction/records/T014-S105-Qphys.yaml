@@ -1,0 +1,34 @@
+extraction_id: T014-S105-Qphys
+source_id: S105
+doi: 10.3390/ma11040589
+url: https://mdpi-res.com/d_attachment/materials/materials-11-00589/article_deploy/materials-11-00589.pdf
+input_sha256: 1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a
+pdf_page: 10
+api_page_map:
+  '1': 10
+figure_or_table: Section 3.4, p.10, paragraph after Eq.(2)
+region:
+  render: private/T014/S105-p10.png
+  render_sha256: 6c4743c844b3cf60f4491b9fb837f978c0da754b525a8d1aaabf58b598f59be7
+  visual_check: T014 author checked; independent review pending
+tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
+tool_version: PyMuPDF 1.28.2; T014-v1
+params:
+  input_ref: private/T014/S105.pdf
+  output_ref: data/extraction/T014/T014-S105-Qphys.json
+  page_note: PDF index is one-based, including repository cover page when present.
+  interpretation: No plot coordinates inferred; printed numbers only.
+date: '2026-11-16T23:59:48.788477+00:00'
+raw_response_ref: private/T014/S105.pdf
+unit_conversions:
+- operation: kJ/mol * 1000 = J/mol
+  from: reported_Qst
+  to: Q_phys
+derived_sha256: c30cc33f46a60d2f524be06af5a0c4b172bc77ca8663fc0533ef1ef6940df56c
+status: provisional
+reviewer: null
+corrections: []
+error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
+  interval.
+data_kind: author_fit
+sensitivity_only: true

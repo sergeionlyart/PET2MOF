@@ -1,0 +1,31 @@
+extraction_id: T014-S105-pores
+source_id: S105
+doi: 10.3390/ma11040589
+url: https://mdpi-res.com/d_attachment/materials/materials-11-00589/article_deploy/materials-11-00589.pdf
+input_sha256: 1cfc9239318c9992491baab739415ee621ea061ef72dc7efd09ebe0090ba228a
+pdf_page: 5
+api_page_map:
+  '1': 5
+figure_or_table: Table 1, p.5, UiO-66 row
+region:
+  render: private/T014/S105-p5.png
+  render_sha256: b0ef5d13a4a5c96105df4f1c686d499407a1e93061fa795d5499f04e3e66af91
+  visual_check: T014 author checked; independent review pending
+tool: PyMuPDF text layer / original HTML DOM; manual visual transcription; explicit arithmetic
+tool_version: PyMuPDF 1.28.2; T014-v1
+params:
+  input_ref: private/T014/S105.pdf
+  output_ref: data/extraction/T014/T014-S105-pores.json
+  page_note: PDF index is one-based, including repository cover page when present.
+  interpretation: No plot coordinates inferred; printed numbers only.
+date: '2026-11-16T23:59:48.788477+00:00'
+raw_response_ref: private/T014/S105.pdf
+unit_conversions: []
+derived_sha256: 5a6ab6f98b89107bef707a4602d656e3d5e8113de5786864b5b68f282d79a88d
+status: provisional
+reviewer: null
+corrections: []
+error_estimate: Printed precision only; experimental / model / transfer uncertainty unknown. Range is not a confidence
+  interval.
+data_kind: measured_table
+sensitivity_only: true

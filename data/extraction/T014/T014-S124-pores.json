@@ -1,0 +1,87 @@
+{
+  "extraction_id": "T014-S124-pores",
+  "source_id": "S124",
+  "doi": "10.3390/ma11060887",
+  "locator": "Table 2, p.9; preparation §2.1.4",
+  "conditions": {
+    "T": "77 K (reported −196 °C)",
+    "RH": "anhydrous",
+    "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+    "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+    "method": "N2 total volume at p/p0~0.985; D-R micropore volume separate",
+    "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+  },
+  "limitations": [
+    "Silica/APTES analog; PEI impregnation changes mass normalization and pore access.",
+    "Single loaded composition with uncertain retained loading cannot identify target kappa, connectivity or alpha_in."
+  ],
+  "quantities": {
+    "V_parent": {
+      "value": 0.96,
+      "unit": "cm3/g MSG20",
+      "type": "literature_range",
+      "source_id": "S124",
+      "extraction_id": "T014-S124-pores",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "77 K (reported −196 °C)",
+        "RH": "anhydrous",
+        "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+        "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+        "method": "N2 total volume at p/p0~0.985; D-R micropore volume separate",
+        "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+      },
+      "locator": "Table 2, p.9; preparation §2.1.4",
+      "limitations": "Silica/APTES analog; PEI impregnation changes mass normalization and pore access.; Single loaded composition with uncertain retained loading cannot identify target kappa, connectivity or alpha_in.",
+      "evidence_ref": "data/extraction/T014/T014-S124-pores.json#/quantities/V_parent"
+    },
+    "V_loaded": {
+      "value": 0.06,
+      "unit": "cm3/g MSG20I30",
+      "type": "literature_range",
+      "source_id": "S124",
+      "extraction_id": "T014-S124-pores",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "77 K (reported −196 °C)",
+        "RH": "anhydrous",
+        "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+        "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+        "method": "N2 total volume at p/p0~0.985; D-R micropore volume separate",
+        "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+      },
+      "locator": "Table 2, p.9; preparation §2.1.4",
+      "limitations": "Silica/APTES analog; PEI impregnation changes mass normalization and pore access.; Single loaded composition with uncertain retained loading cannot identify target kappa, connectivity or alpha_in.",
+      "evidence_ref": "data/extraction/T014/T014-S124-pores.json#/quantities/V_loaded"
+    },
+    "specific_volume_ratio": {
+      "value": 0.0625,
+      "unit": "1",
+      "type": "derived",
+      "source_id": "S124",
+      "extraction_id": "T014-S124-pores",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "77 K (reported −196 °C)",
+        "RH": "anhydrous",
+        "material": "APTES/mesocellular silica MSG20 and PEI-impregnated MSG20I30 (reported PEI loading 30 wt%)",
+        "PEI_Mw": "unknown; Fluka PEI 50% m/v aqueous stock",
+        "method": "N2 total volume at p/p0~0.985; D-R micropore volume separate",
+        "activation": "vacuum 1e-3 mbar at 120 °C for 4 h"
+      },
+      "locator": "Table 2, p.9; preparation §2.1.4",
+      "limitations": "Ratio per gram of each respective dry solid, includes PEI mass dilution; NOT residual volume per original support mass.",
+      "evidence_ref": "data/extraction/T014/T014-S124-pores.json#/quantities/specific_volume_ratio",
+      "derived_from": [
+        "V_parent",
+        "V_loaded"
+      ]
+    }
+  }
+}

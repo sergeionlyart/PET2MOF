@@ -1,0 +1,72 @@
+{
+  "extraction_id": "T014-S106-pores",
+  "source_id": "S106",
+  "doi": "10.1016/j.micromeso.2021.111555",
+  "locator": "Table 1, article p.4 / repository PDF p.5",
+  "conditions": {
+    "T": "77 K N2 porometry",
+    "RH": "dry pretreatment; not a humidity series",
+    "material": "UiO-66_220, UiO-66_160, UiO-66_100",
+    "PEI_Mw": "not applicable",
+    "method": "N2 t-plot micropore volume; Methods pp.2–3 of article",
+    "activation": "vacuum 60 °C 1 h, then 150 °C 2 h"
+  },
+  "limitations": [
+    "Micropore volume; no retained PEI series.",
+    "Sample-designation overlap with a held-out publication is known from the registry; no held-out measurements were opened. Use S106 only as existing C context, not independent V."
+  ],
+  "quantities": {
+    "micropore_volumes": {
+      "value": [
+        0.353,
+        0.376,
+        0.46
+      ],
+      "unit": "cm3/g MOF",
+      "type": "literature_range",
+      "source_id": "S106",
+      "extraction_id": "T014-S106-pores",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "77 K N2 porometry",
+        "RH": "dry pretreatment; not a humidity series",
+        "material": "UiO-66_220, UiO-66_160, UiO-66_100",
+        "PEI_Mw": "not applicable",
+        "method": "N2 t-plot micropore volume; Methods pp.2–3 of article",
+        "activation": "vacuum 60 °C 1 h, then 150 °C 2 h"
+      },
+      "locator": "Table 1, article p.4 / repository PDF p.5",
+      "limitations": "Micropore volume; no retained PEI series.; Sample-designation overlap with a held-out publication is known from the registry; no held-out measurements were opened. Use S106 only as existing C context, not independent V.",
+      "evidence_ref": "data/extraction/T014/T014-S106-pores.json#/quantities/micropore_volumes"
+    },
+    "V_p0_proxy": {
+      "range": [
+        0.353,
+        0.46
+      ],
+      "unit": "cm3/g MOF",
+      "type": "derived",
+      "source_id": "S106",
+      "extraction_id": "T014-S106-pores",
+      "status": "provisional",
+      "evidence_kind": "direct_measurement",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "77 K N2 porometry",
+        "RH": "dry pretreatment; not a humidity series",
+        "material": "UiO-66_220, UiO-66_160, UiO-66_100",
+        "PEI_Mw": "not applicable",
+        "method": "N2 t-plot micropore volume; Methods pp.2–3 of article",
+        "activation": "vacuum 60 °C 1 h, then 150 °C 2 h"
+      },
+      "locator": "Table 1, article p.4 / repository PDF p.5",
+      "limitations": "Min/max across S106 defect branches; not the total pore volume of S100. Keep sample branches and transfer uncertainty.",
+      "evidence_ref": "data/extraction/T014/T014-S106-pores.json#/quantities/V_p0_proxy",
+      "derived_from": [
+        "micropore_volumes"
+      ]
+    }
+  }
+}

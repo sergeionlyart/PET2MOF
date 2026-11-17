@@ -1,0 +1,72 @@
+{
+  "extraction_id": "T014-S119-f3",
+  "source_id": "S119",
+  "doi": "10.1002/mabi.201200052",
+  "locator": "Original HTML Table 2, id=T2; NMR characterization; Table 1 for MW",
+  "conditions": {
+    "T": "NMR acquisition temperature unknown",
+    "RH": "not applicable; polymer composition assay",
+    "material": "Polysciences B-PEI with nominal supplier MW 600, 1800, 10000 g/mol",
+    "PEI_Mw": "GPC Mw 2100, 1400, 19000 g/mol; GPC Mn 470,1100,12000 g/mol (Table 1)",
+    "method": "author deconvolution of 1H NMR; quantitative 13C parameters not optimized",
+    "activation": "not applicable; not immobilized/grafted PEI"
+  },
+  "limitations": [
+    "Three commercial grades are analogs; target PEI identity/Mw remains unknown.",
+    "Printed amine percentages are rounded; do not force theoretical 25/50/25 or transfer independent fractions without simplex constraint."
+  ],
+  "quantities": {
+    "tertiary_percent": {
+      "value": [
+        24.0,
+        29.0,
+        32.0
+      ],
+      "unit": "%",
+      "type": "literature_range",
+      "source_id": "S119",
+      "extraction_id": "T014-S119-f3",
+      "status": "provisional",
+      "evidence_kind": "author_NMR_deconvolution",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "NMR acquisition temperature unknown",
+        "RH": "not applicable; polymer composition assay",
+        "material": "Polysciences B-PEI with nominal supplier MW 600, 1800, 10000 g/mol",
+        "PEI_Mw": "GPC Mw 2100, 1400, 19000 g/mol; GPC Mn 470,1100,12000 g/mol (Table 1)",
+        "method": "author deconvolution of 1H NMR; quantitative 13C parameters not optimized",
+        "activation": "not applicable; not immobilized/grafted PEI"
+      },
+      "locator": "Original HTML Table 2, id=T2; NMR characterization; Table 1 for MW",
+      "limitations": "Three commercial grades are analogs; target PEI identity/Mw remains unknown.; Printed amine percentages are rounded; do not force theoretical 25/50/25 or transfer independent fractions without simplex constraint.",
+      "evidence_ref": "data/extraction/T014/T014-S119-f3.json#/quantities/tertiary_percent"
+    },
+    "f3": {
+      "range": [
+        0.24,
+        0.32
+      ],
+      "unit": "1",
+      "type": "derived",
+      "source_id": "S119",
+      "extraction_id": "T014-S119-f3",
+      "status": "provisional",
+      "evidence_kind": "author_NMR_deconvolution",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "NMR acquisition temperature unknown",
+        "RH": "not applicable; polymer composition assay",
+        "material": "Polysciences B-PEI with nominal supplier MW 600, 1800, 10000 g/mol",
+        "PEI_Mw": "GPC Mw 2100, 1400, 19000 g/mol; GPC Mn 470,1100,12000 g/mol (Table 1)",
+        "method": "author deconvolution of 1H NMR; quantitative 13C parameters not optimized",
+        "activation": "not applicable; not immobilized/grafted PEI"
+      },
+      "locator": "Original HTML Table 2, id=T2; NMR characterization; Table 1 for MW",
+      "limitations": "Min/max / 100 over reported commercial branched-PEI grades; conditional analog range only. Target batch unknown.",
+      "evidence_ref": "data/extraction/T014/T014-S119-f3.json#/quantities/f3",
+      "derived_from": [
+        "tertiary_percent"
+      ]
+    }
+  }
+}

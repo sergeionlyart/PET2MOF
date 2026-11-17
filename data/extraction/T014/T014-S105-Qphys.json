@@ -1,0 +1,74 @@
+{
+  "extraction_id": "T014-S105-Qphys",
+  "source_id": "S105",
+  "doi": "10.3390/ma11040589",
+  "locator": "Section 3.4, p.10, paragraph after Eq.(2)",
+  "conditions": {
+    "T": "273, 298, 318 K",
+    "RH": "no water cofeed; measured RH unknown",
+    "material": "UiO-66 (no GO, no NH2, no PEI)",
+    "PEI_Mw": "not applicable",
+    "method": "author Clausius-Clapeyron calculation from measured isotherms",
+    "pressure": "0.01–0.1 MPa as stated in heat calculation",
+    "activation": "conflict: ambient-temperature vacuum vs 393 K, both 12 h"
+  },
+  "limitations": [
+    "Same framework chemistry; different batch from S100/PET.",
+    "Loading-dependent Qst is not automatically a single-site fitted Q or calorimetric desorption heat."
+  ],
+  "quantities": {
+    "reported_Qst": {
+      "range": [
+        22.9,
+        24.3
+      ],
+      "unit": "kJ/mol CO2",
+      "type": "literature_range",
+      "source_id": "S105",
+      "extraction_id": "T014-S105-Qphys",
+      "status": "provisional",
+      "evidence_kind": "author_calculation",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "273, 298, 318 K",
+        "RH": "no water cofeed; measured RH unknown",
+        "material": "UiO-66 (no GO, no NH2, no PEI)",
+        "PEI_Mw": "not applicable",
+        "method": "author Clausius-Clapeyron calculation from measured isotherms",
+        "pressure": "0.01–0.1 MPa as stated in heat calculation",
+        "activation": "conflict: ambient-temperature vacuum vs 393 K, both 12 h"
+      },
+      "locator": "Section 3.4, p.10, paragraph after Eq.(2)",
+      "limitations": "Same framework chemistry; different batch from S100/PET.; Loading-dependent Qst is not automatically a single-site fitted Q or calorimetric desorption heat.",
+      "evidence_ref": "data/extraction/T014/T014-S105-Qphys.json#/quantities/reported_Qst"
+    },
+    "Q_phys": {
+      "range": [
+        22900,
+        24300
+      ],
+      "unit": "J/mol",
+      "type": "derived",
+      "source_id": "S105",
+      "extraction_id": "T014-S105-Qphys",
+      "status": "provisional",
+      "evidence_kind": "author_calculation",
+      "transfer_class": "analog",
+      "conditions": {
+        "T": "273, 298, 318 K",
+        "RH": "no water cofeed; measured RH unknown",
+        "material": "UiO-66 (no GO, no NH2, no PEI)",
+        "PEI_Mw": "not applicable",
+        "method": "author Clausius-Clapeyron calculation from measured isotherms",
+        "pressure": "0.01–0.1 MPa as stated in heat calculation",
+        "activation": "conflict: ambient-temperature vacuum vs 393 K, both 12 h"
+      },
+      "locator": "Section 3.4, p.10, paragraph after Eq.(2)",
+      "limitations": "Exact kJ to J conversion; usable only as a conditional S105 transfer range, not as a target measurement.",
+      "evidence_ref": "data/extraction/T014/T014-S105-Qphys.json#/quantities/Q_phys",
+      "derived_from": [
+        "reported_Qst"
+      ]
+    }
+  }
+}
