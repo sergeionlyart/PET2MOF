@@ -45,7 +45,7 @@
     "T051": "gpt-6.1-sol/high, network off",
     "T052": "gpt-6-astra/high, network off",
     "T053": "gpt-6.1-terra/medium, network off",
-    "actual_settings_source": "evidence/agent_runs.csv (TASK-004 rows appended after runs)"
+    "actual_settings_source": "evidence/agent_runs_task004.csv (from private launcher logs; TASK-001..003 runs remain in evidence/agent_runs.csv)"
   },
   "lead": {
     "platform": "Anthropic Claude Code",
@@ -60,5 +60,16 @@
   "run_ids_used_in_figures": [
     "20261117T044031484585Z-1acc1c2c-task002-A",
     "20261117T045732361230Z-753cec58-task002-B"
+  ],
+  "article_revisions": {
+    "draft-0.9": "git tag task004-draft-0.9 (reviewed by T052/T053)",
+    "draft-1.0": "owner-requested full rewrite in a more dynamic style; reviewed by T054"
+  },
+  "external_sources_accessed_2026_11_17": [
+    "https://ug.edu.pl/news/pl/10481/innowacyjna-technologia-wychwytu-co2-grant-dla-wydzialu-chemii",
+    "https://new.ug.edu.pl/news/en/node/9569",
+    "https://envir-tech.ug.edu.pl/publications",
+    "https://bank.pl/system-kaucyjny-obowiazkowy-od-1-pazdziernika-2025-roku",
+    "https://en.wikipedia.org/wiki/Gda%C5%84sk_Refinery"
   ]
 }

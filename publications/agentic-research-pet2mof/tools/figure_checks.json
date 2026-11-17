@@ -16,7 +16,7 @@
     "fig01_domain": {
       "files": {
         "png": {
-          "bytes": 137022,
+          "bytes": 136635,
           "width": 2160,
           "height": 1260
         },
@@ -77,12 +77,12 @@
     "fig04_task002_dry": {
       "files": {
         "png": {
-          "bytes": 126049,
+          "bytes": 126799,
           "width": 2160,
           "height": 1260
         },
         "svg": {
-          "bytes": 14232,
+          "bytes": 14277,
           "editable_text": true
         }
       },

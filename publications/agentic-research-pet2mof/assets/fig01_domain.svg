@@ -132,14 +132,14 @@ z
    </g>
    <g id="text_7">
     <g id="patch_11">
-     <path d="M 124.872378 366.082482 
-L 278.097222 366.082482 
-L 278.097222 308.874318 
-L 124.872378 308.874318 
+     <path d="M 124.821675 366.082482 
+L 278.147925 366.082482 
+L 278.147925 308.874318 
+L 124.821675 308.874318 
 z
 " style="fill: #ffffff; stroke: #121212; stroke-linejoin: miter"/>
     </g>
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(133.672378 327.132814)">Коммерческие аналоги</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(133.621675 327.132814)">Литературные аналоги</text>
     <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(148.522378 340.335822)">PEI@UiO-66 (S100)</text>
     <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #121212" transform="translate(143.080816 353.53883)">PEI@UiO-66-NH₂ (S2)</text>
    </g>

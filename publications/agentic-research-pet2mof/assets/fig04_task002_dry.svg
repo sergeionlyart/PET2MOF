@@ -333,7 +333,7 @@ L 838.08 378
   <g id="text_25">
    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #5c5c59" transform="translate(34.56 458.429531)">Источник: reports/task002/A/nominal.csv; candidates.csv · S2 Table 2, p. 3192.</text>
    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #5c5c59" transform="translate(34.56 470.325234)">run_id: 20261117T044031484585Z-1acc1c2c-task002-A</text>
-   <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #5c5c59" transform="translate(34.56 482.493398)">Погрешности источник не задаёт. d = 3, 5, 10 % — сценарные допуски, не ошибки измерения. C72/C96 не разделены при этих d.</text>
+   <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #5c5c59" transform="translate(34.56 482.493398)">Нет полного бюджета погрешности и исходных повторов. d = 3, 5, 10 % — назначенные сценарии, не ошибки измерения. C72/C96 не разделены при этих d.</text>
   </g>
  </g>
  <defs>

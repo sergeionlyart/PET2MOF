@@ -1,0 +1,5 @@
+run,task_id,stage,requested_model,requested_effort,actual_model,actual_effort,sandbox,network,codex_cli,started_utc,finished_utc,duration_s,exit_code,input_tokens,cached_input_tokens,output_tokens,reasoning_output_tokens
+T050-task004-chronology-prompts.20261117T123435Z,T050-task004-chronology-prompts,TASK-004,gpt-6-astra,high,gpt-6-astra,high,workspace-write,off,codex-cli 0.166.0,20261117T123435Z,20261117T124747Z,792,0,1841223,1742464,28577,3120
+T051-task004-html-figures.20261117T123435Z,T051-task004-html-figures,TASK-004,gpt-6.1-sol,high,gpt-6.1-sol,high,workspace-write,off,codex-cli 0.166.0,20261117T123435Z,20261117T125603Z,1288,0,3023242,2899840,48664,11105
+T052-task004-editorial-review.20261117T130100Z,T052-task004-editorial-review,TASK-004,gpt-6-astra,high,gpt-6-astra,high,workspace-write,off,codex-cli 0.166.0,20261117T130100Z,20261117T131131Z,631,0,3030054,2853760,19503,2549
+T053-task004-completeness-check.20261117T130100Z,T053-task004-completeness-check,TASK-004,gpt-6.1-terra,medium,gpt-6.1-terra,medium,workspace-write,off,codex-cli 0.166.0,20261117T130100Z,20261117T130330Z,150,0,636895,581120,6292,330
